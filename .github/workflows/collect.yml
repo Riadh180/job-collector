@@ -1,0 +1,47 @@
+name: Collect jobs
+
+on:
+  schedule:
+    - cron: "0 5 * * *"    # 07:00 Berlin (summer) - also looks for new companies
+    - cron: "0 10 * * *"   # 12:00 Berlin
+    - cron: "0 15 * * *"   # 17:00 Berlin
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "Also look for new companies (slower)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 5 * * *" ] || [ "${{ github.event.inputs.probe }}" = "true" ]; then
+            python collector.py --probe
+          else
+            python collector.py
+          fi
+
+      - name: Save results
+        run: |
+          git config user.name "job-collector-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add out data
+          git diff --cached --quiet || git commit -m "Jobs collected $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
