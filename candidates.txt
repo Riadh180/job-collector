@@ -1,0 +1,427 @@
+# Companies to probe. The collector tries their job-board feeds (Ashby, Greenhouse, Lever,
+# Personio, Recruitee, Workable, SmartRecruiters) once a day; every hit is added to
+# data/companies.json automatically. Format: Company name | industry
+# --- AI / developer tools / B2B SaaS ---
+DeepL | ai
+Aleph Alpha | ai
+Black Forest Labs | ai
+Parloa | ai
+Langdock | ai
+deepset | ai
+n8n | devtools
+Langfuse | devtools
+Cognigy | ai
+Merantix | ai
+Helsing | defense
+Celonis | saas
+Personio | saas
+Staffbase | saas
+Contentful | saas
+Pitch | saas
+Miro | saas
+Contentsquare | saas
+Productboard | saas
+Typeform | saas
+Talon.One | saas
+Commercetools | saas
+Spryker | saas
+Shopware | saas
+Sprinklr | saas
+Leapsome | saas
+Factorial | saas
+Workpath | saas
+Usercentrics | saas
+Cobrainer | saas
+Userlike | saas
+Smartsteuer | saas
+Zenjob | saas
+Kenjo | saas
+Planday | saas
+Sevdesk | saas
+Lexware | saas
+Candis | fintech
+Billie | fintech
+Agicap | fintech
+Pennylane | fintech
+Spendesk | fintech
+Payhawk | fintech
+Moss | fintech
+Pliant | fintech
+Qonto | fintech
+Finom | fintech
+Mondu | fintech
+Upvest | fintech
+Scalable Capital | fintech
+Trade Republic | fintech
+N26 | fintech
+Raisin | fintech
+Solaris | fintech
+Mambu | fintech
+Bitpanda | fintech
+Nuri | fintech
+Vivid Money | fintech
+Kontist | fintech
+Penta | fintech
+Finanzguru | fintech
+Smava | fintech
+Check24 | fintech
+Interhyp | fintech
+Hypoport | fintech
+Europace | fintech
+auxmoney | fintech
+Klarna | fintech
+Wefox | insurtech
+Clark | insurtech
+Getsafe | insurtech
+Ottonova | insurtech
+Feather | insurtech
+Friday | insurtech
+Element | insurtech
+Wakam | insurtech
+Taxfix | fintech
+Accountable | fintech
+Grover | saas
+Gorillas | logistics
+Sennder | logistics
+Forto | logistics
+Cargo.one | logistics
+Instafreight | logistics
+Zeitgold | fintech
+Circula | fintech
+Payfit | saas
+Personio | saas
+Hive | saas
+Ory | devtools
+Codesphere | devtools
+Gitpod | devtools
+Sentry | devtools
+Grafana Labs | devtools
+Pulumi | devtools
+JetBrains | devtools
+GitLab | devtools
+Mattermost | devtools
+Sanity | devtools
+Storyblok | devtools
+Strapi | devtools
+Directus | devtools
+Hygraph | devtools
+Neo4j | devtools
+Camunda | devtools
+Kubermatic | devtools
+Giant Swarm | devtools
+Exasol | devtools
+Snowplow | devtools
+Hasura | devtools
+Supabase | devtools
+Vercel | devtools
+Netlify | devtools
+Postman | devtools
+Remote | saas
+Deel | saas
+Oyster | saas
+Doist | saas
+Automattic | saas
+Hotjar | saas
+Toggl | saas
+Buffer | saas
+Zapier | saas
+Canonical | devtools
+Wire | saas
+Nextcloud | saas
+Proton | saas
+Ecosia | climate
+Tomorrow | climate
+Planetly | climate
+Plan A | climate
+Sweep | climate
+Climatiq | climate
+Cozero | climate
+Ostrom | energy
+Enpal | energy
+1KOMMA5 | energy
+Zolar | energy
+Thermondo | energy
+Octopus Energy | energy
+Kraken Technologies | energy
+Tibber | energy
+Lichtblick | energy
+Sonnen | energy
+The Mobility House | energy
+gridX | energy
+envelio | energy
+Node.Energy | energy
+Enviria | energy
+Voltfang | energy
+Ampeers Energy | energy
+Encavis | energy
+Instagrid | energy
+Senec | energy
+Charge Construct | energy
+chargecloud | energy
+Wirelane | energy
+Elli | energy
+Numbat | energy
+Ionity | energy
+Heidelberg Materials | industrial
+epilot | energy
+Entrix | energy
+Re:cap | fintech
+Kilowatt | energy
+Sunhat | energy
+Doctolib | health
+Ada Health | health
+Avi Medical | health
+Kry | health
+Nelly | health
+HelloBetter | health
+Kaia Health | health
+Oviva | health
+Clue | health
+Temedica | health
+Cara Care | health
+Mindable | health
+Selfapy | health
+Alma | health
+Floy | health
+Recare | health
+Doctorly | health
+Vara | health
+Smart Reporting | health
+Thryve | health
+Heartbeat Medical | health
+Caresyntax | health
+Teleclinic | health
+Zava | health
+Fernarzt | health
+Amboss | health
+Lindera | health
+Klara | health
+Avelios | health
+Idana | health
+Data4Life | health
+Merantix Momentum | health
+Isar Aerospace | space
+Rocket Factory Augsburg | space
+The Exploration Company | space
+OroraTech | space
+Reflex Aerospace | space
+Planet | space
+LiveEO | space
+Constellr | space
+Quantum Systems | defense
+Stark | defense
+ARX Robotics | defense
+Hensoldt | defense
+Neura Robotics | robotics
+Agile Robots | robotics
+Wandelbots | robotics
+Franka Robotics | robotics
+Magazino | robotics
+RobCo | robotics
+Sereact | robotics
+Volocopter | mobility
+FREENOW | mobility
+Flix | mobility
+FlixBus | mobility
+MOIA | mobility
+Tier | mobility
+Bolt | mobility
+Miles | mobility
+Sixt | mobility
+ioki | mobility
+Vay | mobility
+Wunder Mobility | mobility
+Door2Door | mobility
+Cariad | mobility
+MBition | mobility
+Mercedes-Benz Tech Innovation | mobility
+BMW Group | mobility
+Porsche Digital | mobility
+Volkswagen | mobility
+Motius | engineering
+Bosch Digital | industrial
+Siemens | industrial
+E.ON | energy
+RWE | energy
+Uniper | energy
+Vodafone | telecom
+1&1 | telecom
+Deutsche Telekom | telecom
+Telekom MMS | telecom
+Trivago | travel
+Staffbase | saas
+Zalando | ecommerce
+About You | ecommerce
+Otto | ecommerce
+Kaufland e-commerce | ecommerce
+REWE digital | ecommerce
+Douglas | ecommerce
+Mytheresa | ecommerce
+Home24 | ecommerce
+Westwing | ecommerce
+Idealo | ecommerce
+Billiger.de | ecommerce
+Mister Spex | ecommerce
+Redcare Pharmacy | health
+Shop Apotheke | health
+DocMorris | health
+Babbel | edtech
+GoStudent | edtech
+Simpleclub | edtech
+Sofatutor | edtech
+Studysmarter | edtech
+Kahoot | edtech
+Brainly | edtech
+Berlitz | edtech
+Quizlet | edtech
+Chegg | edtech
+SoSafe | cybersecurity
+Hornetsecurity | cybersecurity
+Cybus | industrial
+Enginsight | cybersecurity
+Code Intelligence | cybersecurity
+Nexthink | saas
+Tanium | cybersecurity
+Rohde & Schwarz | industrial
+Siemens Healthineers | health
+Zeiss Digital Partners | industrial
+Trumpf | industrial
+Festo | industrial
+Kuka | robotics
+Software AG | saas
+SAP | saas
+DATEV | saas
+Haufe Group | saas
+IONOS | devtools
+STRATO | devtools
+Hetzner | devtools
+Jimdo | saas
+Xentral | saas
+Billbee | saas
+JTL Software | saas
+Plentymarkets | saas
+Weclapp | saas
+Sevenmind | health
+Flink | ecommerce
+Knuspr | ecommerce
+Enpal | energy
+Holidu | travel
+GetYourGuide | travel
+Omio | travel
+Hometogo | travel
+Tourlane | travel
+Komoot | travel
+Outfittery | ecommerce
+Vinted | ecommerce
+Auto1 | mobility
+Mobile.de | mobility
+Autoscout24 | mobility
+Immowelt | proptech
+Immoscout24 | proptech
+McMakler | proptech
+Homeday | proptech
+Casavi | proptech
+Architrave | proptech
+Planradar | proptech
+Capmo | proptech
+Doozer | proptech
+Craftnote | proptech
+Buildingminds | proptech
+Concular | climate
+Ecoworks | climate
+Klimadigital | climate
+Dataguard | saas
+Heyflow | saas
+Cloudflight | engineering
+Ottobock | health
+Fresenius Digital | health
+Bayer | health
+Boehringer Ingelheim | health
+Merck | health
+Covestro | industrial
+Evonik | industrial
+Thyssenkrupp | industrial
+Aldi Sued | ecommerce
+Aldi Nord | ecommerce
+Metro Digital | ecommerce
+Ströer | media
+Axel Springer | media
+Spiegel | media
+Bertelsmann | media
+RTL Deutschland | media
+Smartclip | media
+Kununu | saas
+New Work SE | saas
+Stepstone | saas
+Instaffo | saas
+Join | saas
+Heyjobs | saas
+Truffls | saas
+Softgarden | saas
+Personio | saas
+Workwise | saas
+Talentwunder | saas
+Akord | saas
+Ordio | saas
+Planerio | saas
+Factor Eleven | media
+Spotify | media
+Mozilla | devtools
+DuckDuckGo | devtools
+Proxyclick | saas
+Contentpass | media
+Tado | energy
+Homee | energy
+Gigs | telecom
+Simplesurance | insurtech
+Heidi | insurtech
+Mobilezone | telecom
+Nect | fintech
+IDnow | fintech
+Fourthline | fintech
+Signicat | fintech
+Ebury | fintech
+Wise | fintech
+Revolut | fintech
+Monzo | fintech
+Adyen | fintech
+Stripe | fintech
+Paddle | fintech
+Mollie | fintech
+Unzer | fintech
+Payone | fintech
+Computop | fintech
+Riverty | fintech
+Ratepay | fintech
+Banxware | fintech
+Lendis | saas
+Rydoo | fintech
+Yokoy | fintech
+Spendesk | fintech
+Tide | fintech
+Lemon | fintech
+Atoss | saas
+Jedox | saas
+Celonis | saas
+Synthesia | ai
+ElevenLabs | ai
+Mistral | ai
+Hugging Face | ai
+Cohere | ai
+Poolside | ai
+Lovable | ai
+Photoroom | ai
+Tldraw | devtools
+Linear | devtools
+Raycast | devtools
+Framer | devtools
+Pitch | saas
+Superlist | saas
+Mentimeter | saas
+Doctrine | saas
+Legartis | legaltech
+Bryter | legaltech
+Leverton | legaltech
+Jupus | legaltech
+Flightright | legaltech
+Conny | legaltech
