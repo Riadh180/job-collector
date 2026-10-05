@@ -79,7 +79,10 @@ def term_re(terms):
 
 RE_TITLE_INC = term_re(CFG["title_include"])
 RE_TITLE_GEN = term_re(CFG["title_generic"])
-RE_TITLE_EXC = term_re(CFG["title_exclude"])
+RE_TITLE_HARD = term_re(CFG["title_hard_exclude"])
+RE_TITLE_SOFT = term_re(CFG["title_soft_exclude"])
+RE_COMPANY_EXC = term_re(CFG["company_exclude"])
+RE_REMOTE_DE = re.compile("|".join(CFG["remote_germany_phrases"]))
 RE_STACK = term_re(CFG["description_stack"])
 RE_ANGULAR = term_re(CFG["description_exclude_if_no_react"])
 RE_REMOTE = term_re(CFG["remote_words"])
@@ -115,15 +118,12 @@ def parse_date(v):
 # ---------------------------------------------------------------- filtering
 def title_ok(title, desc):
     t = (title or "").lower()
-    if RE_TITLE_EXC.search(t):
-        # allow "Full Stack ... (React/Node)" even if it says "backend" as a secondary word
-        if not (re.search(r"full[\s-]?stack|frontend|front-end|react", t) and not re.search(
-                r"junior|intern|werkstudent|working student|praktik|trainee|angular|freelanc|contract|befristet(?<!unbefristet)|manager|director|head of|sales|recruit", t)):
-            return False, ""
+    if RE_TITLE_HARD.search(t):
+        return False, ""
+    if RE_TITLE_SOFT.search(t) and not re.search(r"full[\s-]?stack|frontend|front-end|react", t):
+        return False, ""
     d = (desc or "").lower()
     if RE_TITLE_INC.search(t):
-        if RE_ANGULAR.search(t) and not re.search(r"react", t):
-            return False, ""
         return True, "title"
     if RE_TITLE_GEN.search(t) and d and RE_STACK.search(d):
         if RE_ANGULAR.search(d) and not re.search(r"(?<![a-z])react(?![a-z])", d):
@@ -132,7 +132,7 @@ def title_ok(title, desc):
     return False, ""
 
 
-def location_ok(loc_text, remote_flag=None, desc=""):
+def location_ok(loc_text, remote_flag=None, desc="", source=""):
     """Return (ok, label). Generous pre-filter; Claude makes the final call."""
     l = (loc_text or "").lower()
     d = (desc or "").lower()[:4000]
@@ -142,12 +142,14 @@ def location_ok(loc_text, remote_flag=None, desc=""):
     if remoteish:
         if RE_BAD_REGION.search(l) and not (RE_OK_REGION.search(l) or RE_DE.search(l)):
             return False, ""
-        if RE_OK_REGION.search(l) or RE_DE.search(l) or l.strip() in ("", "remote"):
+        if RE_OK_REGION.search(l) or RE_DE.search(l):
+            return True, "remote"
+        if l.strip() in ("", "remote") and source not in ("remoteok", "remotive", "jobicy", "himalayas"):
             return True, "remote"
         return False, ""
     # German office city, but the description says remote is possible
-    if RE_DE.search(l) and d and re.search(r"(?<![a-z])(remote(ly)?|remote-first|homeoffice|home office|home-office|mobiles arbeiten|deutschlandweit|ortsunabhängig|work from anywhere in germany)(?![a-z])", d):
-        return True, "DE+remote-mention"
+    if RE_DE.search(l) and d and RE_REMOTE_DE.search(d):
+        return True, "DE+remote-in-text"
     return False, ""
 
 
@@ -186,7 +188,9 @@ def accept(r, loc_extra=""):
     ok_t, why_t = title_ok(r["title"], r["_desc"])
     if not ok_t:
         return None
-    ok_l, why_l = location_ok(r["location"] + " " + loc_extra, r["remote"], r["_desc"])
+    if RE_COMPANY_EXC.search((r["company"] or "").lower()):
+        return None
+    ok_l, why_l = location_ok(r["location"] + " " + loc_extra, r["remote"], r["_desc"], r["source"])
     if not ok_l:
         return None
     if not fresh(parse_date(r["postedAt"])):
@@ -199,7 +203,28 @@ def accept(r, loc_extra=""):
     d = r["_desc"].lower()
     r["stackHits"] = sorted(set(m.group(0) for m in RE_STACK.finditer(d)))[:6] if d else []
     r["match"] = f"{why_t}; {why_l}"
+    r["facts"] = key_facts(r["_desc"])
     return r
+
+
+RE_FACT = re.compile(r"remote|home ?office|hybrid|office|büro|vor ort|on-?site|days? (a|per) week|tage|€|eur|salary|gehalt|"
+                     r"compensation|vergütung|unbefristet|permanent|english|deutsch|german|react|typescript|node|expo|years", re.I)
+
+
+def key_facts(desc, limit=700):
+    """Short excerpt of the sentences that matter for the decision (remote rule, office days, salary, language, stack)."""
+    if not desc:
+        return ""
+    sents = re.split(r"(?<=[.!?•·])\s+|\s{2,}", desc)
+    picked, total = [], 0
+    for s in sents:
+        s = s.strip()
+        if 15 < len(s) < 260 and RE_FACT.search(s) and s not in picked:
+            picked.append(s)
+            total += len(s)
+            if total > limit:
+                break
+    return " | ".join(picked)[:limit]
 
 
 # ---------------------------------------------------------------- company ATS fetchers
@@ -350,8 +375,19 @@ FETCHERS = {"ashby": ashby, "greenhouse": greenhouse, "lever": lever, "personio"
 # ---------------------------------------------------------------- job boards / public APIs
 def arbeitsagentur():
     a = CFG["arbeitsagentur"]
-    H = {"X-API-Key": "jobboerse-jobsuche"}
-    base = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs"
+    H = {"X-API-Key": "jobboerse-jobsuche",
+         "User-Agent": "Jobsuche/2.9.2 (de.arbeitsagentur.jobboerse; build:1077; iOS 15.1.0) Alamofire/5.4.4"}
+    base = None
+    for cand in ("https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/app/jobs",
+                 "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs",
+                 "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs"):
+        code, j = get_json(cand + "?was=React&size=1", H)
+        if j is not None:
+            base = cand
+            break
+        STATUS.setdefault("arbeitsagentur_tries", []).append(f"{cand.split('service/')[1]} -> {code}")
+    if base is None:
+        raise RuntimeError("all endpoints refused: " + "; ".join(STATUS.get("arbeitsagentur_tries", [])))
     out, calls = [], []
     for q in a["queries"]:
         common = {"was": q, "angebotsart": 1, "befristung": 2, "pav": "false", "zeitarbeit": "false",
@@ -388,7 +424,7 @@ def arbeitnow():
             break
         for x in j.get("data", []):
             out.append(rec("arbeitnow", x.get("slug"), x.get("company_name"), x.get("title"), x.get("url"),
-                           (x.get("location") or "") + (" / Germany" if x.get("location") else ""),
+                           x.get("location") or "",
                            parse_date(x.get("created_at")), bool(x.get("remote")), "", None,
                            strip_html(x.get("description") or "")[:6000], " ".join(x.get("job_types") or []),
                            "", "arbeitnow"))
@@ -562,6 +598,14 @@ def save(rel, obj):
         json.dump(obj, f, ensure_ascii=False, indent=1)
 
 
+def norm_key(r):
+    t = (r["title"] or "").lower()
+    t = re.sub(r"\s*[|–-]\s*(germany|deutschland|remote|ireland|spain|sweden|uk|united kingdom|netherlands|france|poland|portugal|emea|europe|eu)\b.*$", "", t)
+    t = re.sub(r"\((m|w|d|f|x|a|all genders?|gn|mwd|m/w/d|f/m/d|m/f/d|w/m/d|f/m/x|f/m/div)[^)]*\)", "", t)
+    c = re.sub(r"\b(gmbh|se|ag|inc|ltd|llc|co|kg)\b", "", (r["company"] or "").lower())
+    return re.sub(r"\W+", " ", f"{c}|{t}").strip()
+
+
 # ---------------------------------------------------------------- main
 def main():
     probe = "--probe" in sys.argv
@@ -608,7 +652,7 @@ def main():
         a = accept(r)
         if not a:
             continue
-        dedupe = re.sub(r"\W+", " ", f"{a['company']}|{a['title']}".lower()).strip()
+        dedupe = norm_key(a)
         if dedupe in seen_keys:
             continue
         seen_keys.add(dedupe)
@@ -618,7 +662,7 @@ def main():
     seen = load("data/seen.json", {})
     new = []
     for m in matches:
-        key = re.sub(r"\W+", " ", f"{m['company']}|{m['title']}".lower()).strip()
+        key = norm_key(m)
         first = seen.get(m["id"]) or seen.get("k:" + key)
         if not first:
             first = NOW.isoformat(timespec="seconds")
