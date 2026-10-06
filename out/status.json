@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1192
+   "fetched": 1195
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 2738
+   "fetched": 2938
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 141
+   "fetched": 143
   },
   "remoteok": {
    "fetched": 99
@@ -31,13 +31,16 @@
    "fetched": 57
   },
   "companies": {
-   "checked": 277,
-   "failed": 1
+   "checked": 275,
+   "failed": 4
   }
  },
  "errors": {
   "companies": {
-   "Sixt": "HTTP 404"
+   "Usercentrics": "HTTP 429",
+   "Sixt": "HTTP 404",
+   "Rydoo": "HTTP 429",
+   "KoboToolbox": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -55,12 +58,12 @@
  "probe": {
   "tried": 120,
   "found": [
-   "A.Team (ashby:ateam)",
+   "A.Team (ashby:a-team)",
    "ALL IN GROUP GmbH (recruitee:allingroup)",
    "Wayve (ashby:wayve)",
+   "Actian (lever:actian)",
    "Agentur für Haushaltshilfe GmbH (recruitee:agenturfuerhaushaltshilfe)",
    "Air Apps (ashby:airapps)",
-   "Actian (lever:actian)",
    "Silvernova GmbH (personio:silvernova)",
    "Maibornwolff (personio:maibornwolff)",
    "Ingestro (recruitee:ingestro)",
@@ -68,12 +71,11 @@
    "Playson (ashby:playson)",
    "Quantum Metric (lever:quantummetric)",
    "Prior Labs (ashby:prior-labs)",
-   "Seeq (workable:seeq)",
    "Kijimea (ashby:kijimea)",
    "Lrz (personio:lrz)",
    "Snke (personio:snke)",
    "Agilerobotsse (greenhouse:agilerobotsse)",
-   "EWOR GmbH (recruitee:eworgmbh)",
+   "IONOS SE (greenhouse:ionos)",
    "MobiLab Solutions GmbH (personio:mobilab-solutions-gmbh)",
    "RIWA GmbH (personio:riwagmbh)",
    "Duck Duck Go (ashby:duck-duck-go)",
@@ -81,6 +83,7 @@
    "Swissbit (personio:swissbit)",
    "Sonarsource (lever:sonarsource)",
    "Bookboost (personio:bookboost)",
+   "Kayak (ashby:kayak)",
    "smartlyio (greenhouse:smartlyio)",
    "Cision (greenhouse:cision)",
    "Starbridge (ashby:starbridge)",
@@ -88,37 +91,35 @@
    "COFINPRO AG (personio:cofinpro)",
    "nerdware GmbH (personio:nerdware)",
    "Sides (personio:sides)",
+   "Predium (personio:predium)",
    "zetaglobal (greenhouse:zetaglobal)",
-   "Workidentity (personio:workidentity)",
-   "Skalbach GmbH (personio:skalbach-gmbh)",
-   "Rhein Nadel Automation Gmbh (personio:rhein-nadel-automation-gmbh)",
-   "TWAICE (personio:twaice)"
+   "Workidentity (personio:workidentity)"
   ]
  },
- "collectedAt": "2026-10-06T17:06:21+00:00",
- "rawJobs": 18162,
- "matches": 195,
- "new": 120,
- "companies": 279,
- "activeCompanies": 277,
+ "collectedAt": "2026-10-06T17:22:05+00:00",
+ "rawJobs": 17868,
+ "matches": 198,
+ "new": 123,
+ "companies": 277,
+ "activeCompanies": 275,
  "funnel": {
-  "company": 99,
-  "passed": 403,
-  "title": 16976,
-  "duplicate": 208,
-  "location": 596,
-  "salary": 12,
+  "salary": 18,
+  "company": 98,
+  "passed": 405,
+  "title": 16691,
+  "duplicate": 207,
+  "location": 580,
   "employment": 12,
   "too_old": 63
  },
  "matchesBySource": {
-  "adzuna": 120,
-  "arbeitnow": 21,
+  "adzuna": 118,
+  "arbeitnow": 26,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "recruitee": 6,
   "ashby": 22,
+  "recruitee": 6,
   "greenhouse": 4,
   "jobicy": 4,
   "personio": 4

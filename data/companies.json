@@ -637,7 +637,8 @@
   "ats": "workable",
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
-  "lastOk": "2026-10-06"
+  "lastOk": "2026-10-06",
+  "failCount": 1
  },
  {
   "name": "Zenjob",
@@ -1552,7 +1553,8 @@
   "ats": "workable",
   "slug": "rydoo",
   "addedBy": "probe 2026-10-05",
-  "lastOk": "2026-10-06"
+  "lastOk": "2026-10-06",
+  "failCount": 1
  },
  {
   "name": "Tide",
@@ -1704,7 +1706,8 @@
   "ats": "workable",
   "slug": "kobotoolbox",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-06"
+  "lastOk": "2026-10-06",
+  "failCount": 1
  },
  {
   "name": "LiveEO GmbH",
@@ -1966,7 +1969,7 @@
   "name": "A.Team",
   "industry": "from job boards",
   "ats": "ashby",
-  "slug": "ateam",
+  "slug": "a-team",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  },
@@ -1987,6 +1990,14 @@
   "lastOk": "2026-10-06"
  },
  {
+  "name": "Actian",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "actian",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
   "name": "Agentur für Haushaltshilfe GmbH",
   "industry": "from job boards",
   "ats": "recruitee",
@@ -1999,14 +2010,6 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "airapps",
-  "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-06"
- },
- {
-  "name": "Actian",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "actian",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  },
@@ -2067,14 +2070,6 @@
   "lastOk": "2026-10-06"
  },
  {
-  "name": "Seeq",
-  "industry": "from job boards",
-  "ats": "workable",
-  "slug": "seeq",
-  "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-06"
- },
- {
   "name": "Kijimea",
   "industry": "from job boards",
   "ats": "ashby",
@@ -2107,10 +2102,10 @@
   "lastOk": "2026-10-06"
  },
  {
-  "name": "EWOR GmbH",
+  "name": "IONOS SE",
   "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "eworgmbh",
+  "ats": "greenhouse",
+  "slug": "ionos",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  },
@@ -2171,6 +2166,14 @@
   "lastOk": "2026-10-06"
  },
  {
+  "name": "Kayak",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "kayak",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
   "name": "smartlyio",
   "industry": "from job boards",
   "ats": "greenhouse",
@@ -2227,6 +2230,14 @@
   "lastOk": "2026-10-06"
  },
  {
+  "name": "Predium",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "predium",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
   "name": "zetaglobal",
   "industry": "from job boards",
   "ats": "greenhouse",
@@ -2239,30 +2250,6 @@
   "industry": "from job boards",
   "ats": "personio",
   "slug": "workidentity",
-  "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-06"
- },
- {
-  "name": "Skalbach GmbH",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "skalbach-gmbh",
-  "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-06"
- },
- {
-  "name": "Rhein Nadel Automation Gmbh",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "rhein-nadel-automation-gmbh",
-  "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-06"
- },
- {
-  "name": "TWAICE",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "twaice",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }
