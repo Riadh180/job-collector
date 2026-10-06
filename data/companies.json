@@ -1182,7 +1182,7 @@
   "slug": "sixt",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "ioki",
@@ -1951,6 +1951,14 @@
   "industry": "from job boards",
   "ats": "personio",
   "slug": "mway",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Delta Capita",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "deltacapita",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }

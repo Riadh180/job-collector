@@ -22,7 +22,7 @@
    "fetched": 200
   },
   "companies": {
-   "checked": 238,
+   "checked": 239,
    "failed": 1
   }
  },
@@ -36,13 +36,15 @@
   "pc/v4/jobs -> 403"
  ],
  "probe": {
-  "tried": 7,
-  "found": []
+  "tried": 9,
+  "found": [
+   "Delta Capita (recruitee:deltacapita)"
+  ]
  },
- "collectedAt": "2026-10-06T16:32:17+00:00",
- "rawJobs": 11240,
+ "collectedAt": "2026-10-06T16:45:55+00:00",
+ "rawJobs": 11289,
  "matches": 82,
  "new": 1,
- "companies": 240,
- "activeCompanies": 238
+ "companies": 241,
+ "activeCompanies": 239
 }
