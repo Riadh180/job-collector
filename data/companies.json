@@ -638,7 +638,7 @@
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Zenjob",
@@ -1183,7 +1183,7 @@
   "slug": "sixt",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "ioki",
@@ -1554,7 +1554,7 @@
   "slug": "rydoo",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Tide",
@@ -1707,7 +1707,7 @@
   "slug": "kobotoolbox",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "LiveEO GmbH",
@@ -2250,6 +2250,206 @@
   "industry": "from job boards",
   "ats": "personio",
   "slug": "workidentity",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "KONUX",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "konux",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Trusteq",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "trusteq-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Jobs for Humanity",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "jobsforhumanity",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Cito Transport Technologies GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "cito-transport-technologies",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "WeMatch.",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "wematch",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Deutsche Glasfaser",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "deutscheglasfaser",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "conlab solutions GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "conlab-solutions",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "yoursquares GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "yoursquares",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Melting Elements GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "meltingelements",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "PixelProduction",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pixelproduction",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "PixelProduction GmbH & Co. KG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pixelproduction",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Skalbach GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "skalbach-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Rhein Nadel Automation Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "rhein-nadel-automation-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "TWAICE",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "twaice",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Lpe Immobilien Management Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "lpe-immobilien-management-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Yoursquares",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "yoursquares",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Litmus",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "litmus",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Tether",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "tether",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "PAGNOS",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pagnos",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Colonist",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "colonist",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Mastra",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "mastra",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Greenlyte Carbon Technologies",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "greenlyte-carbon-technologies-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Cell Labs",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "cell-labs",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Zasta GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "zasta-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Clera",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "clera",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }

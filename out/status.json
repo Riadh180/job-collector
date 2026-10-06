@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1195
+   "fetched": 1271
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 2938
+   "fetched": 1838
   },
   "remotive": {
    "fetched": 144
@@ -25,13 +25,13 @@
    "fetched": 53
   },
   "hn": {
-   "fetched": 289
+   "fetched": 290
   },
   "workingnomads": {
-   "fetched": 57
+   "fetched": 56
   },
   "companies": {
-   "checked": 275,
+   "checked": 300,
    "failed": 4
   }
  },
@@ -45,10 +45,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 15,
+  "searchesThisRun": 14,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 30
+  "callsToday": 60,
+  "callsLast7Days": 60
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -58,70 +58,60 @@
  "probe": {
   "tried": 120,
   "found": [
-   "A.Team (ashby:a-team)",
-   "ALL IN GROUP GmbH (recruitee:allingroup)",
-   "Wayve (ashby:wayve)",
-   "Actian (lever:actian)",
-   "Agentur für Haushaltshilfe GmbH (recruitee:agenturfuerhaushaltshilfe)",
-   "Air Apps (ashby:airapps)",
-   "Silvernova GmbH (personio:silvernova)",
-   "Maibornwolff (personio:maibornwolff)",
-   "Ingestro (recruitee:ingestro)",
-   "Testlio (greenhouse:testlio)",
-   "Playson (ashby:playson)",
-   "Quantum Metric (lever:quantummetric)",
-   "Prior Labs (ashby:prior-labs)",
-   "Kijimea (ashby:kijimea)",
-   "Lrz (personio:lrz)",
-   "Snke (personio:snke)",
-   "Agilerobotsse (greenhouse:agilerobotsse)",
-   "IONOS SE (greenhouse:ionos)",
-   "MobiLab Solutions GmbH (personio:mobilab-solutions-gmbh)",
-   "RIWA GmbH (personio:riwagmbh)",
-   "Duck Duck Go (ashby:duck-duck-go)",
-   "Microagi (ashby:microagi)",
-   "Swissbit (personio:swissbit)",
-   "Sonarsource (lever:sonarsource)",
-   "Bookboost (personio:bookboost)",
-   "Kayak (ashby:kayak)",
-   "smartlyio (greenhouse:smartlyio)",
-   "Cision (greenhouse:cision)",
-   "Starbridge (ashby:starbridge)",
-   "zvoove (personio:zvoove)",
-   "COFINPRO AG (personio:cofinpro)",
-   "nerdware GmbH (personio:nerdware)",
-   "Sides (personio:sides)",
-   "Predium (personio:predium)",
-   "zetaglobal (greenhouse:zetaglobal)",
-   "Workidentity (personio:workidentity)"
+   "KONUX (greenhouse:konux)",
+   "Trusteq (personio:trusteq-gmbh)",
+   "Jobs for Humanity (smartrecruiters:jobsforhumanity)",
+   "Cito Transport Technologies GmbH (personio:cito-transport-technologies)",
+   "WeMatch. (ashby:wematch)",
+   "Deutsche Glasfaser (smartrecruiters:deutscheglasfaser)",
+   "conlab solutions GmbH (personio:conlab-solutions)",
+   "yoursquares GmbH (personio:yoursquares)",
+   "Melting Elements GmbH (personio:meltingelements)",
+   "PixelProduction (personio:pixelproduction)",
+   "PixelProduction GmbH & Co. KG (personio:pixelproduction)",
+   "Skalbach GmbH (personio:skalbach-gmbh)",
+   "Rhein Nadel Automation Gmbh (personio:rhein-nadel-automation-gmbh)",
+   "TWAICE (personio:twaice)",
+   "Lpe Immobilien Management Gmbh (personio:lpe-immobilien-management-gmbh)",
+   "Yoursquares (personio:yoursquares)",
+   "Litmus (ashby:litmus)",
+   "Tether (recruitee:tether)",
+   "PAGNOS (personio:pagnos)",
+   "Colonist (ashby:colonist)",
+   "Mastra (ashby:mastra)",
+   "Greenlyte Carbon Technologies (personio:greenlyte-carbon-technologies-gmbh)",
+   "Cell Labs (personio:cell-labs)",
+   "Zasta GmbH (personio:zasta-gmbh)",
+   "Clera (ashby:clera)"
   ]
  },
- "collectedAt": "2026-10-06T17:22:05+00:00",
- "rawJobs": 17868,
- "matches": 198,
- "new": 123,
- "companies": 277,
- "activeCompanies": 275,
+ "collectedAt": "2026-10-06T17:33:36+00:00",
+ "rawJobs": 18223,
+ "matches": 184,
+ "new": 46,
+ "companies": 302,
+ "activeCompanies": 300,
  "funnel": {
-  "salary": 18,
-  "company": 98,
-  "passed": 405,
-  "title": 16691,
-  "duplicate": 207,
-  "location": 580,
-  "employment": 12,
-  "too_old": 63
+  "salary": 14,
+  "passed": 367,
+  "company": 81,
+  "title": 17024,
+  "duplicate": 183,
+  "location": 658,
+  "employment": 14,
+  "too_old": 64
  },
  "matchesBySource": {
-  "adzuna": 118,
-  "arbeitnow": 26,
+  "adzuna": 111,
+  "himalayas": 2,
+  "ashby": 25,
+  "arbeitnow": 13,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "ashby": 22,
   "recruitee": 6,
   "greenhouse": 4,
-  "jobicy": 4,
-  "personio": 4
+  "personio": 5,
+  "jobicy": 4
  }
 }
