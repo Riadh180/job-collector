@@ -279,7 +279,8 @@
   "name": "saas.group",
   "industry": "",
   "addedBy": "watchlist",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "ats": "greenhouse",
@@ -399,7 +400,8 @@
   "name": "Constructor Knowledge Labs",
   "industry": "",
   "addedBy": "watchlist",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "ats": "ashby",
