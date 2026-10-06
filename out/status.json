@@ -7,10 +7,10 @@
    "fetched": 0
   },
   "arbeitnow": {
-   "fetched": 1236
+   "fetched": 1232
   },
   "remotive": {
-   "fetched": 68
+   "fetched": 72
   },
   "jobicy": {
    "fetched": 140
@@ -22,28 +22,25 @@
    "fetched": 200
   },
   "companies": {
-   "checked": 239,
-   "failed": 2
+   "checked": 237,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "saas.group": "<urlopen error [Errno -2] Name or service not known>",
-   "Constructor Knowledge Labs": "<urlopen error [Errno -2] Name or service not known>"
-  }
+  "companies": {}
  },
  "arbeitsagentur_tries": [
   "pc/v4/app/jobs -> 403",
   "pc/v4/jobs -> 403"
  ],
  "probe": {
-  "tried": 1,
+  "tried": 8,
   "found": []
  },
- "collectedAt": "2026-10-06T09:43:01+00:00",
- "rawJobs": 11216,
- "matches": 84,
- "new": 0,
+ "collectedAt": "2026-10-06T11:40:40+00:00",
+ "rawJobs": 11211,
+ "matches": 83,
+ "new": 1,
  "companies": 239,
- "activeCompanies": 239
+ "activeCompanies": 237
 }
