@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1063
+   "fetched": 1059
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1838
+   "fetched": 1836
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "error": "no results"
+   "fetched": 143
   },
   "remoteok": {
    "fetched": 99
@@ -31,25 +31,25 @@
    "fetched": 56
   },
   "companies": {
-   "checked": 337,
+   "checked": 370,
    "failed": 5
   }
  },
  "errors": {
   "companies": {
    "Usercentrics": "HTTP 429",
-   "Sixt": "HTTP 404",
    "Rydoo": "HTTP 429",
    "KoboToolbox": "HTTP 429",
-   "Modash": "HTTP 429"
+   "Modash": "HTTP 429",
+   "Unitary": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 90
+  "callsToday": 120,
+  "callsLast7Days": 120
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -59,71 +59,68 @@
  "probe": {
   "tried": 120,
   "found": [
-   "321 MED GmbH (personio:321med)",
-   "Modash (workable:modash)",
-   "intercom (greenhouse:intercom)",
-   "Holepunch (recruitee:holepunch)",
-   "meteocontrol GmbH (personio:meteocontrol)",
-   "SEITENBAU (personio:seitenbau-gmbh)",
-   "TIMETOACT GROUP GmbH (personio:timetoact-group)",
-   "VESTIGAS GmbH (personio:vestigas)",
-   "Assecor GmbH (personio:assecor-gmbh)",
-   "Reflex Aerospace GmbH (personio:reflex-aerospace-gmbh)",
-   "Imfusion (personio:imfusion)",
-   "Trg (personio:trg)",
-   "Vivid (personio:vivid)",
-   "Cuculus Gmbh (personio:cuculus-gmbh)",
-   "Auvaria (personio:auvaria)",
-   "Goldmantax (recruitee:goldmantax)",
-   "Vestigas (personio:vestigas)",
-   "reltix GmbH (personio:reltix)",
-   "Brl (personio:brl)",
-   "Holoplot (personio:holoplot)",
-   "Asseco Solutions (personio:asseco-solutions)",
-   "Autarcenergy (personio:autarcenergy)",
-   "Wandelbots GmbH (personio:wandelbots)",
-   "Auxmoney Gmbh (personio:auxmoney-gmbh)",
-   "Ramp106 Gmbh (personio:ramp106-gmbh)",
-   "DMRZ (personio:dmrz)",
-   "Mynaric (personio:mynaric)",
-   "Ommax (personio:ommax)",
-   "Appliedai (personio:appliedai)",
-   "IP Dynamics GmbH (personio:ip-dynamics-gmbh)",
-   "sumup (greenhouse:sumup)",
-   "Lio (ashby:lio)",
-   "Partspace (personio:partspace)",
-   "CI&T (lever:ciandt)",
-   "PostHog (ashby:posthog)",
-   "SentiLink (ashby:sentilink)",
-   "EggAI (greenhouse:eggai)"
+   "Sezzle (greenhouse:sezzle)",
+   "Unitary (workable:unitary)",
+   "Bridgemaker (personio:bridgemaker-gmbh)",
+   "Okendo (lever:okendo)",
+   "Jumpseller (recruitee:jumpseller)",
+   "mercor (ashby:mercor)",
+   "KoBold Metals (greenhouse:koboldmetals)",
+   "SGS (smartrecruiters:sgs)",
+   "Nebius (greenhouse:nebius)",
+   "Bloomreach (greenhouse:bloomreach)",
+   "Cribl (ashby:cribl)",
+   "Catawiki (greenhouse:catawiki)",
+   "Mirantis (smartrecruiters:mirantis)",
+   "Sutherland (smartrecruiters:sutherland)",
+   "Spade (ashby:spade)",
+   "Checkly (ashby:checkly)",
+   "ALL IN GROUP (recruitee:allingroup)",
+   "Databricks (greenhouse:databricks)",
+   "koppla GmbH (personio:koppla)",
+   "dkbcodefactory (greenhouse:dkbcodefactory)",
+   "Munich Electrification (ashby:munich-electrification)",
+   "OpenAI (ashby:openai)",
+   "Hirschen Group GmbH (personio:hirschen-group)",
+   "TechBiz Global GmbH (recruitee:techbizglobal)",
+   "Education Partners (personio:education-partners)",
+   "Ayunis (personio:ayunis)",
+   "Hochheiden Hausverwaltung GmbH (personio:hochheidenhausverwaltung)",
+   "Auterion (greenhouse:auterion)",
+   "BSI Software (recruitee:bsisoftware)",
+   "Inceptive (greenhouse:inceptive)",
+   "Arsipa GmbH (recruitee:arsipa)",
+   "Opentas (personio:opentas)",
+   "Workist Gmbh (personio:workist-gmbh)",
+   "Voiio (personio:voiio)"
   ]
  },
- "collectedAt": "2026-10-06T17:42:48+00:00",
- "rawJobs": 19148,
- "matches": 166,
- "new": 27,
- "companies": 339,
- "activeCompanies": 337,
+ "collectedAt": "2026-10-06T19:58:13+00:00",
+ "rawJobs": 23528,
+ "matches": 175,
+ "new": 17,
+ "companies": 373,
+ "activeCompanies": 370,
  "funnel": {
-  "salary": 15,
-  "title": 18051,
-  "passed": 298,
-  "duplicate": 132,
-  "location": 672,
-  "company": 41,
-  "too_old": 67,
-  "employment": 3
+  "title": 22134,
+  "passed": 385,
+  "company": 53,
+  "salary": 19,
+  "location": 857,
+  "duplicate": 210,
+  "employment": 12,
+  "too_old": 67
  },
  "matchesBySource": {
-  "adzuna": 96,
-  "himalayas": 2,
-  "ashby": 26,
-  "arbeitnow": 13,
+  "adzuna": 98,
+  "ashby": 27,
+  "greenhouse": 5,
+  "recruitee": 10,
+  "arbeitnow": 12,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "recruitee": 6,
-  "greenhouse": 4,
-  "personio": 5
+  "personio": 5,
+  "jobicy": 4
  }
 }

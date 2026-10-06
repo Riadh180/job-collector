@@ -638,7 +638,7 @@
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Zenjob",
@@ -1555,7 +1555,7 @@
   "slug": "rydoo",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Tide",
@@ -1708,7 +1708,7 @@
   "slug": "kobotoolbox",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "LiveEO GmbH",
@@ -2468,7 +2468,7 @@
   "ats": "workable",
   "slug": "modash",
   "addedBy": "probe 2026-10-06",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "intercom",
@@ -2747,6 +2747,278 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "eggai",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Sezzle",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "sezzle",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Unitary",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "unitary",
+  "addedBy": "probe 2026-10-06",
+  "failCount": 1
+ },
+ {
+  "name": "Bridgemaker",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "bridgemaker-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Okendo",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "okendo",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Jumpseller",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "jumpseller",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "mercor",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "mercor",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "KoBold Metals",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "koboldmetals",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "SGS",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "sgs",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Nebius",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "nebius",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Bloomreach",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "bloomreach",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Cribl",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "cribl",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Catawiki",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "catawiki",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Mirantis",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "mirantis",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Sutherland",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "sutherland",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Spade",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "spade",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Checkly",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "checkly",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "ALL IN GROUP",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "allingroup",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Databricks",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "databricks",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "koppla GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "koppla",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "dkbcodefactory",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "dkbcodefactory",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Munich Electrification",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "munich-electrification",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "OpenAI",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "openai",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Hirschen Group GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "hirschen-group",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "TechBiz Global GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "techbizglobal",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Education Partners",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "education-partners",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Ayunis",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ayunis",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Hochheiden Hausverwaltung GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "hochheidenhausverwaltung",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Auterion",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "auterion",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "BSI Software",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "bsisoftware",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Inceptive",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "inceptive",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Arsipa GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "arsipa",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Opentas",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "opentas",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Workist Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "workist-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Voiio",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "voiio",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }
