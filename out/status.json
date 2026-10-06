@@ -23,22 +23,24 @@
   },
   "companies": {
    "checked": 238,
-   "failed": 0
+   "failed": 1
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Sixt": "HTTP 404"
+  }
  },
  "arbeitsagentur_tries": [
   "pc/v4/app/jobs -> 403",
   "pc/v4/jobs -> 403"
  ],
  "probe": {
-  "tried": 0,
+  "tried": 3,
   "found": []
  },
- "collectedAt": "2026-10-06T13:55:07+00:00",
- "rawJobs": 11216,
+ "collectedAt": "2026-10-06T13:58:48+00:00",
+ "rawJobs": 11213,
  "matches": 84,
  "new": 0,
  "companies": 240,
