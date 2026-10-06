@@ -1,5 +1,49 @@
 {
- "collectedAt": "2026-10-06T22:17:25+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-06T22:32:12+00:00",
+ "count": 2,
+ "jobs": [
+  {
+   "id": "ashby:circle:bf99b611-ccbd-4b6c-aec1-4770a5c44152",
+   "company": "Circle",
+   "title": "Senior Full-Stack Software Engineer, CMS",
+   "url": "https://jobs.ashbyhq.com/circle/bf99b611-ccbd-4b6c-aec1-4770a5c44152",
+   "location": "Anywhere / United States",
+   "remote": true,
+   "postedAt": "2026-09-01",
+   "salary": "$140K • Offers Equity",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We’re proud to be a fully remote company of around 270 (and growing!) team members from 30+ countries around the world. | - Work across the stack using React & TypeScript (frontend) and Ruby on Rails (backend). | - 5+ years of experience building and scaling SaaS products. | - Deep experience with Ruby on Rails and strong proficiency with React & TypeScript. | - Exceptional written and verbal communication skills in English (CEFR C2 or equivalent https://englishonline.britishcouncil.org/free-english-level-test-cefr-2/), as most collaboration at Circle happens asynchronously. | - Prior experience at an early-stage or growth-stage startup. | COMPENSATION & BENEFITS | Circle offers U.S.-benchma",
+   "firstSeen": "2026-10-06T22:32:12+00:00"
+  },
+  {
+   "id": "ashby:river:610f652b-bdb9-4d82-9973-680babe16a07",
+   "company": "River",
+   "title": "Staff Software Engineer",
+   "url": "https://jobs.ashbyhq.com/river/610f652b-bdb9-4d82-9973-680babe16a07",
+   "location": "Remote Americas + Europe",
+   "remote": false,
+   "postedAt": "2026-09-23",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Our web stack consists of Elixir, React, and Postgres. | - 6+ years of experience in software engineering | - You have worked with Elixir, React, Kubernetes, and Postgres | LOCATION & SALARY | - 100% remote option available within the Americas and Europe, with offices in SF, NYC, and Columbus | - Salary range between $200,000 - $250,000 based on skills and experience (Note: this salary will not be location adjusted, the salary range is the same globally.)",
+   "firstSeen": "2026-10-06T22:32:12+00:00"
+  }
+ ]
 }

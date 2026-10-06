@@ -31,12 +31,20 @@
    "fetched": 56
   },
   "companies": {
-   "checked": 439,
-   "failed": 0
+   "checked": 459,
+   "failed": 7
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Usercentrics": "HTTP 429",
+   "Modash": "HTTP 429",
+   "Unitary": "HTTP 429",
+   "Fortanix": "HTTP 429",
+   "Libertex Group": "HTTP 429",
+   "Crystalia Glass LLC": "HTTP 429",
+   "EUROPEAN DYNAMICS": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -53,48 +61,47 @@
  "probe": {
   "tried": 120,
   "found": [
-   "Raysono (personio:raysono)",
-   "Xempus AG (personio:xempus)",
-   "Xolife (personio:xolife)",
-   "Ceis Gmbh (personio:ceis-gmbh)",
-   "AppSamurai (lever:appsamurai)",
-   "Fortanix (workable:fortanix)",
-   "Prenosis (recruitee:prenosis)",
-   "Libertex Group (workable:libertexgroup)",
-   "Delinea (ashby:delinea)",
-   "Pivotal Health (ashby:pivotal-health)",
-   "Crystalia Glass LLC (workable:crystalia-glass)",
-   "Evolve (ashby:evolve)",
-   "Teladoc Health (smartrecruiters:teladochealth)",
-   "MGID (recruitee:mgid)",
-   "VIAVI Solutions (personio:viavi-solutions)",
-   "JFrog (greenhouse:jfrog)",
-   "gravity9 (recruitee:gravity9)",
-   "Equalture (smartrecruiters:equalture)",
-   "Matillion (lever:matillion)",
-   "SingularitySales (recruitee:singularitysales)",
-   "EUROPEAN DYNAMICS (workable:european-dynamics)"
+   "Circle (ashby:circle)",
+   "LaunchDarkly (greenhouse:launchdarkly)",
+   "Pinterest (greenhouse:pinterest)",
+   "Close (ashby:close)",
+   "SingleStore (greenhouse:singlestore)",
+   "Kraken Tech (ashby:krakentech)",
+   "Proxima Fusion (ashby:proxima-fusion)",
+   "neoshare (personio:neoshare)",
+   "Anthropic (greenhouse:anthropic)",
+   "GiveDirectly (greenhouse:givedirectly)",
+   "River (ashby:river)",
+   "Deeter Analytics (ashby:deeter-analytics)",
+   "vCluster Labs (ashby:vclusterlabs)",
+   "Odin (ashby:odin)",
+   "Railway (ashby:railway)",
+   "Product Genius (ashby:productgenius)",
+   "Odyssey (ashby:odyssey)",
+   "Ashby (ashby:ashby)",
+   "Chariot Claims (ashby:chariotclaims)",
+   "Ohr (ashby:ohr)"
   ]
  },
- "collectedAt": "2026-10-06T22:17:25+00:00",
- "rawJobs": 24713,
- "matches": 87,
- "new": 0,
- "companies": 444,
- "activeCompanies": 439,
+ "collectedAt": "2026-10-06T22:32:12+00:00",
+ "rawJobs": 25554,
+ "matches": 89,
+ "new": 2,
+ "companies": 464,
+ "activeCompanies": 459,
  "funnel": {
-  "title": 23575,
-  "location": 908,
-  "passed": 132,
+  "title": 24372,
+  "location": 944,
+  "passed": 134,
   "company": 13,
   "employment": 13,
   "duplicate": 45,
-  "too_old": 71
+  "too_old": 76
  },
  "matchesBySource": {
+  "ashby": 31,
   "arbeitnow": 13,
   "himalayas": 2,
-  "ashby": 29,
   "greenhouse": 5,
   "recruitee": 12,
   "personio": 7,
