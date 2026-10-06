@@ -2,15 +2,10 @@ name: Collect jobs
 
 on:
   schedule:
-    - cron: "0 5 * * *"    # 07:00 Berlin (summer) - also looks for new companies
+    - cron: "0 5 * * *"    # 07:00 Berlin (summer)
     - cron: "0 10 * * *"   # 12:00 Berlin
     - cron: "0 15 * * *"   # 17:00 Berlin
   workflow_dispatch:
-    inputs:
-      probe:
-        description: "Also look for new companies (slower)"
-        type: boolean
-        default: true
 
 permissions:
   contents: write
@@ -31,12 +26,11 @@ jobs:
           python-version: "3.12"
 
       - name: Collect
-        run: |
-          if [ "${{ github.event.schedule }}" = "0 5 * * *" ] || [ "${{ github.event.inputs.probe }}" = "true" ]; then
-            python collector.py --probe
-          else
-            python collector.py
-          fi
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          PROBE_LIMIT: "120"
+        run: python collector.py
 
       - name: Save results
         run: |
