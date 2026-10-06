@@ -1,28 +1,37 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 507
+   "fetched": 1192
   },
   "arbeitsagentur": {
-   "fetched": 0
+   "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1238
+   "fetched": 2738
   },
   "remotive": {
-   "fetched": 72
+   "fetched": 144
   },
   "jobicy": {
-   "fetched": 140
+   "fetched": 141
   },
   "remoteok": {
    "fetched": 99
   },
   "himalayas": {
-   "fetched": 200
+   "fetched": 1000
+  },
+  "weworkremotely": {
+   "fetched": 53
+  },
+  "hn": {
+   "fetched": 289
+  },
+  "workingnomads": {
+   "fetched": 57
   },
   "companies": {
-   "checked": 239,
+   "checked": 277,
    "failed": 1
   }
  },
@@ -31,18 +40,87 @@
    "Sixt": "HTTP 404"
   }
  },
+ "adzuna_usage": {
+  "callsThisRun": 30,
+  "searchesThisRun": 15,
+  "searchesTotal": 36,
+  "callsToday": 30,
+  "callsLast7Days": 30
+ },
  "arbeitsagentur_tries": [
-  "pc/v4/app/jobs -> 403",
-  "pc/v4/jobs -> 403"
+  "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
+  "pc/v4/app/jobs -> 403, 0 items, keys=None",
+  "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 120,
+  "found": [
+   "A.Team (ashby:ateam)",
+   "ALL IN GROUP GmbH (recruitee:allingroup)",
+   "Wayve (ashby:wayve)",
+   "Agentur für Haushaltshilfe GmbH (recruitee:agenturfuerhaushaltshilfe)",
+   "Air Apps (ashby:airapps)",
+   "Actian (lever:actian)",
+   "Silvernova GmbH (personio:silvernova)",
+   "Maibornwolff (personio:maibornwolff)",
+   "Ingestro (recruitee:ingestro)",
+   "Testlio (greenhouse:testlio)",
+   "Playson (ashby:playson)",
+   "Quantum Metric (lever:quantummetric)",
+   "Prior Labs (ashby:prior-labs)",
+   "Seeq (workable:seeq)",
+   "Kijimea (ashby:kijimea)",
+   "Lrz (personio:lrz)",
+   "Snke (personio:snke)",
+   "Agilerobotsse (greenhouse:agilerobotsse)",
+   "EWOR GmbH (recruitee:eworgmbh)",
+   "MobiLab Solutions GmbH (personio:mobilab-solutions-gmbh)",
+   "RIWA GmbH (personio:riwagmbh)",
+   "Duck Duck Go (ashby:duck-duck-go)",
+   "Microagi (ashby:microagi)",
+   "Swissbit (personio:swissbit)",
+   "Sonarsource (lever:sonarsource)",
+   "Bookboost (personio:bookboost)",
+   "smartlyio (greenhouse:smartlyio)",
+   "Cision (greenhouse:cision)",
+   "Starbridge (ashby:starbridge)",
+   "zvoove (personio:zvoove)",
+   "COFINPRO AG (personio:cofinpro)",
+   "nerdware GmbH (personio:nerdware)",
+   "Sides (personio:sides)",
+   "zetaglobal (greenhouse:zetaglobal)",
+   "Workidentity (personio:workidentity)",
+   "Skalbach GmbH (personio:skalbach-gmbh)",
+   "Rhein Nadel Automation Gmbh (personio:rhein-nadel-automation-gmbh)",
+   "TWAICE (personio:twaice)"
+  ]
  },
- "collectedAt": "2026-10-06T16:50:18+00:00",
- "rawJobs": 11289,
- "matches": 82,
- "new": 0,
- "companies": 241,
- "activeCompanies": 239
+ "collectedAt": "2026-10-06T17:06:21+00:00",
+ "rawJobs": 18162,
+ "matches": 195,
+ "new": 120,
+ "companies": 279,
+ "activeCompanies": 277,
+ "funnel": {
+  "company": 99,
+  "passed": 403,
+  "title": 16976,
+  "duplicate": 208,
+  "location": 596,
+  "salary": 12,
+  "employment": 12,
+  "too_old": 63
+ },
+ "matchesBySource": {
+  "adzuna": 120,
+  "arbeitnow": 21,
+  "weworkremotely": 7,
+  "hn": 6,
+  "workingnomads": 1,
+  "recruitee": 6,
+  "ashby": 22,
+  "greenhouse": 4,
+  "jobicy": 4,
+  "personio": 4
+ }
 }
