@@ -638,7 +638,7 @@
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Zenjob",
@@ -1183,7 +1183,8 @@
   "slug": "sixt",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "ioki",
@@ -1554,7 +1555,7 @@
   "slug": "rydoo",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Tide",
@@ -1707,7 +1708,7 @@
   "slug": "kobotoolbox",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "LiveEO GmbH",
@@ -2450,6 +2451,302 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "clera",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "321 MED GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "321med",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Modash",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "modash",
+  "addedBy": "probe 2026-10-06",
+  "failCount": 1
+ },
+ {
+  "name": "intercom",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "intercom",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Holepunch",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "holepunch",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "meteocontrol GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "meteocontrol",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "SEITENBAU",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "seitenbau-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "TIMETOACT GROUP GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "timetoact-group",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "VESTIGAS GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "vestigas",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Assecor GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "assecor-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Reflex Aerospace GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "reflex-aerospace-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Imfusion",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "imfusion",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Trg",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "trg",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Vivid",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "vivid",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Cuculus Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "cuculus-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Auvaria",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "auvaria",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Goldmantax",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "goldmantax",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Vestigas",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "vestigas",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "reltix GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "reltix",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Brl",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "brl",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Holoplot",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "holoplot",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Asseco Solutions",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "asseco-solutions",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Autarcenergy",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "autarcenergy",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Wandelbots GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "wandelbots",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Auxmoney Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "auxmoney-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Ramp106 Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ramp106-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "DMRZ",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "dmrz",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Mynaric",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "mynaric",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Ommax",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ommax",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Appliedai",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "appliedai",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "IP Dynamics GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ip-dynamics-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "sumup",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "sumup",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Lio",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "lio",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Partspace",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "partspace",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "CI&T",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "ciandt",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "PostHog",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "posthog",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "SentiLink",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "sentilink",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "EggAI",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "eggai",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }
