@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1059
+   "fetched": 625
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1836
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 144
@@ -31,25 +31,23 @@
    "fetched": 56
   },
   "companies": {
-   "checked": 370,
-   "failed": 5
+   "checked": 420,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
-   "Usercentrics": "HTTP 429",
    "Rydoo": "HTTP 429",
    "KoboToolbox": "HTTP 429",
-   "Modash": "HTTP 429",
-   "Unitary": "HTTP 429"
+   "Modash": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "callsThisRun": 20,
+  "searchesThisRun": 13,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 120
+  "callsToday": 140,
+  "callsLast7Days": 140
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -59,64 +57,81 @@
  "probe": {
   "tried": 120,
   "found": [
-   "Sezzle (greenhouse:sezzle)",
-   "Unitary (workable:unitary)",
-   "Bridgemaker (personio:bridgemaker-gmbh)",
-   "Okendo (lever:okendo)",
-   "Jumpseller (recruitee:jumpseller)",
-   "mercor (ashby:mercor)",
-   "KoBold Metals (greenhouse:koboldmetals)",
-   "SGS (smartrecruiters:sgs)",
-   "Nebius (greenhouse:nebius)",
-   "Bloomreach (greenhouse:bloomreach)",
-   "Cribl (ashby:cribl)",
-   "Catawiki (greenhouse:catawiki)",
-   "Mirantis (smartrecruiters:mirantis)",
-   "Sutherland (smartrecruiters:sutherland)",
-   "Spade (ashby:spade)",
-   "Checkly (ashby:checkly)",
-   "ALL IN GROUP (recruitee:allingroup)",
-   "Databricks (greenhouse:databricks)",
-   "koppla GmbH (personio:koppla)",
-   "dkbcodefactory (greenhouse:dkbcodefactory)",
-   "Munich Electrification (ashby:munich-electrification)",
-   "OpenAI (ashby:openai)",
-   "Hirschen Group GmbH (personio:hirschen-group)",
-   "TechBiz Global GmbH (recruitee:techbizglobal)",
-   "Education Partners (personio:education-partners)",
-   "Ayunis (personio:ayunis)",
-   "Hochheiden Hausverwaltung GmbH (personio:hochheidenhausverwaltung)",
-   "Auterion (greenhouse:auterion)",
-   "BSI Software (recruitee:bsisoftware)",
-   "Inceptive (greenhouse:inceptive)",
-   "Arsipa GmbH (recruitee:arsipa)",
-   "Opentas (personio:opentas)",
-   "Workist Gmbh (personio:workist-gmbh)",
-   "Voiio (personio:voiio)"
+   "CyberArrow (recruitee:cyberarrow)",
+   "wolt (greenhouse:wolt)",
+   "Clariness (greenhouse:clariness)",
+   "Se3 (ashby:se3)",
+   "brandung GmbH & Co. KG (personio:brandung)",
+   "Speechify (greenhouse:speechify)",
+   "Steadforce GmbH (personio:steadforce)",
+   "deeploi GmbH (personio:deeploi)",
+   "PAGNOS GmbH (personio:pagnos)",
+   "vivenu (lever:vivenu)",
+   "affinidi (greenhouse:affinidi)",
+   "0G (ashby:0g)",
+   "teccle group GmbH (recruitee:tecclegroup)",
+   "Healy World GmbH (personio:healy-world-gmbh)",
+   "Welectron (personio:welectron)",
+   "Natuvion GmbH (recruitee:natuvion)",
+   "Teliogroup (personio:teliogroup)",
+   "Submariner Network (personio:submariner-network)",
+   "Nucs AI (recruitee:nucsai)",
+   "Tensordyne (greenhouse:tensordyne)",
+   "Ahead Gmbh (personio:ahead)",
+   "Eraneos (personio:eraneos)",
+   "Solactive (personio:solactive)",
+   "Tilta (personio:tilta)",
+   "Nerdware (personio:nerdware)",
+   "BuildlinX (ashby:buildlinx)",
+   "Bitcap (personio:bitcap)",
+   "Meierhofer (personio:meierhofer)",
+   "Furo (ashby:furo)",
+   "Alexander Thamm Gmbh (personio:alexander-thamm-gmbh)",
+   "Valuenet Group (personio:valuenet-group)",
+   "Cofinity-X GmbH (personio:cofinity-x-gmbh)",
+   "Ruhrdot Gmbh (personio:ruhrdot-gmbh)",
+   "Ecoplanet Green Operations Gmbh (personio:ecoplanet-green-operations-gmbh)",
+   "Deliveroo (greenhouse:deliveroo)",
+   "JACOB Elektronik GmbH (personio:jacob-elektronik)",
+   "Idealworks (personio:idealworks)",
+   "ScholarshipOwl (recruitee:scholarshipowl)",
+   "Pair (personio:pair)",
+   "Greenflash (personio:greenflash)",
+   "Checkmk GmbH (personio:checkmk-gmbh)",
+   "praxipal (ashby:praxipal)",
+   "adjoe (ashby:adjoe)",
+   "Wayflyer (ashby:wayflyer)",
+   "Its Gruppe (personio:its-gruppe)",
+   "Invensity Group (personio:invensity-group)",
+   "Pink University Gmbh (personio:pink-university-gmbh)",
+   "Tactiliarobotics (ashby:tactiliarobotics)",
+   "proLogistik Group (personio:prologistik-group)",
+   "42Watt (personio:42watt)"
   ]
  },
- "collectedAt": "2026-10-06T19:58:13+00:00",
- "rawJobs": 23528,
- "matches": 175,
- "new": 17,
- "companies": 373,
- "activeCompanies": 370,
+ "collectedAt": "2026-10-06T22:06:49+00:00",
+ "rawJobs": 24731,
+ "matches": 147,
+ "new": 5,
+ "companies": 423,
+ "activeCompanies": 420,
  "funnel": {
-  "title": 22134,
-  "passed": 385,
-  "company": 53,
-  "salary": 19,
-  "location": 857,
-  "duplicate": 210,
-  "employment": 12,
-  "too_old": 67
+  "passed": 251,
+  "title": 23476,
+  "duplicate": 104,
+  "salary": 11,
+  "company": 28,
+  "location": 880,
+  "employment": 13,
+  "too_old": 71
  },
  "matchesBySource": {
-  "adzuna": 98,
-  "ashby": 27,
+  "adzuna": 66,
+  "arbeitnow": 12,
+  "himalayas": 2,
+  "ashby": 29,
   "greenhouse": 5,
   "recruitee": 10,
-  "arbeitnow": 12,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,

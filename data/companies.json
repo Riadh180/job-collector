@@ -637,8 +637,7 @@
   "ats": "workable",
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
-  "lastOk": "2026-10-06",
-  "failCount": 4
+  "lastOk": "2026-10-06"
  },
  {
   "name": "Zenjob",
@@ -1555,7 +1554,8 @@
   "slug": "rydoo",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Tide",
@@ -1708,7 +1708,8 @@
   "slug": "kobotoolbox",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "LiveEO GmbH",
@@ -2468,7 +2469,7 @@
   "ats": "workable",
   "slug": "modash",
   "addedBy": "probe 2026-10-06",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "intercom",
@@ -2764,7 +2765,7 @@
   "ats": "workable",
   "slug": "unitary",
   "addedBy": "probe 2026-10-06",
-  "failCount": 1
+  "lastOk": "2026-10-06"
  },
  {
   "name": "Bridgemaker",
@@ -3019,6 +3020,406 @@
   "industry": "from job boards",
   "ats": "personio",
   "slug": "voiio",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "CyberArrow",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "cyberarrow",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "wolt",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "wolt",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Clariness",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "clariness",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Se3",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "se3",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "brandung GmbH & Co. KG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "brandung",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Speechify",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "speechify",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Steadforce GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "steadforce",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "deeploi GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "deeploi",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "PAGNOS GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pagnos",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "vivenu",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "vivenu",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "affinidi",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "affinidi",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "0G",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "0g",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "teccle group GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "tecclegroup",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Healy World GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "healy-world-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Welectron",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "welectron",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Natuvion GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "natuvion",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Teliogroup",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "teliogroup",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Submariner Network",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "submariner-network",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Nucs AI",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "nucsai",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Tensordyne",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "tensordyne",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Ahead Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ahead",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Eraneos",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "eraneos",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Solactive",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "solactive",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Tilta",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "tilta",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Nerdware",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "nerdware",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "BuildlinX",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "buildlinx",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Bitcap",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "bitcap",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Meierhofer",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "meierhofer",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Furo",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "furo",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Alexander Thamm Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "alexander-thamm-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Valuenet Group",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "valuenet-group",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Cofinity-X GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "cofinity-x-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Ruhrdot Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ruhrdot-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Ecoplanet Green Operations Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "ecoplanet-green-operations-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Deliveroo",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "deliveroo",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "JACOB Elektronik GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "jacob-elektronik",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Idealworks",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "idealworks",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "ScholarshipOwl",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "scholarshipowl",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Pair",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pair",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Greenflash",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "greenflash",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Checkmk GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "checkmk-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "praxipal",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "praxipal",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "adjoe",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "adjoe",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Wayflyer",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "wayflyer",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Its Gruppe",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "its-gruppe",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Invensity Group",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "invensity-group",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Pink University Gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pink-university-gmbh",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Tactiliarobotics",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "tactiliarobotics",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "proLogistik Group",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "prologistik-group",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "42Watt",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "42watt",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }
