@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 625
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -31,20 +31,16 @@
    "fetched": 56
   },
   "companies": {
-   "checked": 420,
-   "failed": 3
+   "checked": 439,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Rydoo": "HTTP 429",
-   "KoboToolbox": "HTTP 429",
-   "Modash": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 13,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 140
@@ -57,85 +53,55 @@
  "probe": {
   "tried": 120,
   "found": [
-   "CyberArrow (recruitee:cyberarrow)",
-   "wolt (greenhouse:wolt)",
-   "Clariness (greenhouse:clariness)",
-   "Se3 (ashby:se3)",
-   "brandung GmbH & Co. KG (personio:brandung)",
-   "Speechify (greenhouse:speechify)",
-   "Steadforce GmbH (personio:steadforce)",
-   "deeploi GmbH (personio:deeploi)",
-   "PAGNOS GmbH (personio:pagnos)",
-   "vivenu (lever:vivenu)",
-   "affinidi (greenhouse:affinidi)",
-   "0G (ashby:0g)",
-   "teccle group GmbH (recruitee:tecclegroup)",
-   "Healy World GmbH (personio:healy-world-gmbh)",
-   "Welectron (personio:welectron)",
-   "Natuvion GmbH (recruitee:natuvion)",
-   "Teliogroup (personio:teliogroup)",
-   "Submariner Network (personio:submariner-network)",
-   "Nucs AI (recruitee:nucsai)",
-   "Tensordyne (greenhouse:tensordyne)",
-   "Ahead Gmbh (personio:ahead)",
-   "Eraneos (personio:eraneos)",
-   "Solactive (personio:solactive)",
-   "Tilta (personio:tilta)",
-   "Nerdware (personio:nerdware)",
-   "BuildlinX (ashby:buildlinx)",
-   "Bitcap (personio:bitcap)",
-   "Meierhofer (personio:meierhofer)",
-   "Furo (ashby:furo)",
-   "Alexander Thamm Gmbh (personio:alexander-thamm-gmbh)",
-   "Valuenet Group (personio:valuenet-group)",
-   "Cofinity-X GmbH (personio:cofinity-x-gmbh)",
-   "Ruhrdot Gmbh (personio:ruhrdot-gmbh)",
-   "Ecoplanet Green Operations Gmbh (personio:ecoplanet-green-operations-gmbh)",
-   "Deliveroo (greenhouse:deliveroo)",
-   "JACOB Elektronik GmbH (personio:jacob-elektronik)",
-   "Idealworks (personio:idealworks)",
-   "ScholarshipOwl (recruitee:scholarshipowl)",
-   "Pair (personio:pair)",
-   "Greenflash (personio:greenflash)",
-   "Checkmk GmbH (personio:checkmk-gmbh)",
-   "praxipal (ashby:praxipal)",
-   "adjoe (ashby:adjoe)",
-   "Wayflyer (ashby:wayflyer)",
-   "Its Gruppe (personio:its-gruppe)",
-   "Invensity Group (personio:invensity-group)",
-   "Pink University Gmbh (personio:pink-university-gmbh)",
-   "Tactiliarobotics (ashby:tactiliarobotics)",
-   "proLogistik Group (personio:prologistik-group)",
-   "42Watt (personio:42watt)"
+   "Raysono (personio:raysono)",
+   "Xempus AG (personio:xempus)",
+   "Xolife (personio:xolife)",
+   "Ceis Gmbh (personio:ceis-gmbh)",
+   "AppSamurai (lever:appsamurai)",
+   "Fortanix (workable:fortanix)",
+   "Prenosis (recruitee:prenosis)",
+   "Libertex Group (workable:libertexgroup)",
+   "Delinea (ashby:delinea)",
+   "Pivotal Health (ashby:pivotal-health)",
+   "Crystalia Glass LLC (workable:crystalia-glass)",
+   "Evolve (ashby:evolve)",
+   "Teladoc Health (smartrecruiters:teladochealth)",
+   "MGID (recruitee:mgid)",
+   "VIAVI Solutions (personio:viavi-solutions)",
+   "JFrog (greenhouse:jfrog)",
+   "gravity9 (recruitee:gravity9)",
+   "Equalture (smartrecruiters:equalture)",
+   "Matillion (lever:matillion)",
+   "SingularitySales (recruitee:singularitysales)",
+   "EUROPEAN DYNAMICS (workable:european-dynamics)"
   ]
  },
- "collectedAt": "2026-10-06T22:06:49+00:00",
- "rawJobs": 24731,
- "matches": 147,
- "new": 5,
- "companies": 423,
- "activeCompanies": 420,
+ "collectedAt": "2026-10-06T22:17:25+00:00",
+ "rawJobs": 24713,
+ "matches": 87,
+ "new": 0,
+ "companies": 444,
+ "activeCompanies": 439,
  "funnel": {
-  "passed": 251,
-  "title": 23476,
-  "duplicate": 104,
-  "salary": 11,
-  "company": 28,
-  "location": 880,
+  "title": 23575,
+  "location": 908,
+  "passed": 132,
+  "company": 13,
   "employment": 13,
+  "duplicate": 45,
   "too_old": 71
  },
  "matchesBySource": {
-  "adzuna": 66,
-  "arbeitnow": 12,
+  "arbeitnow": 13,
   "himalayas": 2,
   "ashby": 29,
   "greenhouse": 5,
-  "recruitee": 10,
+  "recruitee": 12,
+  "personio": 7,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "personio": 5,
-  "jobicy": 4
+  "jobicy": 4,
+  "smartrecruiters": 1
  }
 }
