@@ -13,7 +13,7 @@
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 143
+   "fetched": 140
   },
   "remoteok": {
    "fetched": 99
@@ -32,19 +32,11 @@
   },
   "companies": {
    "checked": 459,
-   "failed": 7
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Usercentrics": "HTTP 429",
-   "Modash": "HTTP 429",
-   "Unitary": "HTTP 429",
-   "Fortanix": "HTTP 429",
-   "Libertex Group": "HTTP 429",
-   "Crystalia Glass LLC": "HTTP 429",
-   "EUROPEAN DYNAMICS": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -59,39 +51,18 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 120,
-  "found": [
-   "Circle (ashby:circle)",
-   "LaunchDarkly (greenhouse:launchdarkly)",
-   "Pinterest (greenhouse:pinterest)",
-   "Close (ashby:close)",
-   "SingleStore (greenhouse:singlestore)",
-   "Kraken Tech (ashby:krakentech)",
-   "Proxima Fusion (ashby:proxima-fusion)",
-   "neoshare (personio:neoshare)",
-   "Anthropic (greenhouse:anthropic)",
-   "GiveDirectly (greenhouse:givedirectly)",
-   "River (ashby:river)",
-   "Deeter Analytics (ashby:deeter-analytics)",
-   "vCluster Labs (ashby:vclusterlabs)",
-   "Odin (ashby:odin)",
-   "Railway (ashby:railway)",
-   "Product Genius (ashby:productgenius)",
-   "Odyssey (ashby:odyssey)",
-   "Ashby (ashby:ashby)",
-   "Chariot Claims (ashby:chariotclaims)",
-   "Ohr (ashby:ohr)"
-  ]
+  "tried": 10,
+  "found": []
  },
- "collectedAt": "2026-10-06T22:32:12+00:00",
- "rawJobs": 25554,
+ "collectedAt": "2026-10-06T22:38:33+00:00",
+ "rawJobs": 25962,
  "matches": 89,
- "new": 2,
+ "new": 0,
  "companies": 464,
  "activeCompanies": 459,
  "funnel": {
-  "title": 24372,
-  "location": 944,
+  "title": 24761,
+  "location": 963,
   "passed": 134,
   "company": 13,
   "employment": 13,
