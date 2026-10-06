@@ -504,7 +504,46 @@ def himalayas():
     return out
 
 
-BOARDS = {"arbeitsagentur": arbeitsagentur, "arbeitnow": arbeitnow, "remotive": remotive,
+def adzuna():
+    """Adzuna aggregates many German job sites. Needs free keys (GitHub secrets ADZUNA_APP_ID / ADZUNA_APP_KEY)."""
+    aid, akey = os.environ.get("ADZUNA_APP_ID"), os.environ.get("ADZUNA_APP_KEY")
+    if not aid or not akey:
+        raise RuntimeError("no API key set (optional)")
+    out = []
+    searches = [(q, w) for q in CFG.get("adzuna_queries", ["react", "react native", "frontend", "fullstack typescript", "next.js"])
+                for w in ("Essen", "")]
+    for what, where in searches:
+        for page in (1, 2):
+            params = {"app_id": aid, "app_key": akey, "what": what, "results_per_page": 50, "max_days_old": 30,
+                      "content-type": "application/json", "sort_by": "date"}
+            if where:
+                params.update(where=where, distance=60)
+            else:
+                params["what_or"] = "remote homeoffice"
+            code, j = get_json(f"https://api.adzuna.com/v1/api/jobs/de/search/{page}?" + urllib.parse.urlencode(params))
+            if j is None:
+                if not out:
+                    raise RuntimeError(f"HTTP {code}")
+                break
+            res = j.get("results", [])
+            for x in res:
+                loc = ((x.get("location") or {}).get("display_name") or "") + " / Deutschland"
+                desc = strip_html(x.get("description") or "")
+                if re.search(r"remote|home ?office|mobiles arbeiten", desc, re.I):
+                    loc += " / Homeoffice"
+                out.append(rec("adzuna", x.get("id"), (x.get("company") or {}).get("display_name"), x.get("title"),
+                               x.get("redirect_url"), loc, parse_date(x.get("created")), None,
+                               (f"{int(x['salary_min'])}–{int(x['salary_max'])} EUR" if x.get("salary_max") else ""),
+                               x.get("salary_max") if x.get("salary_is_predicted") in ("0", 0) else None,
+                               desc[:3000], (x.get("contract_type") or "") + " " + (x.get("contract_time") or ""),
+                               "", "adzuna"))
+            if len(res) < 50:
+                break
+            time.sleep(0.3)
+    return out
+
+
+BOARDS = {"adzuna": adzuna, "arbeitsagentur": arbeitsagentur, "arbeitnow": arbeitnow, "remotive": remotive,
           "jobicy": jobicy, "remoteok": remoteok, "himalayas": himalayas}
 
 
@@ -558,28 +597,64 @@ def plausible(jobs):
     return False
 
 
-def run_probe(companies):
-    known = {c["name"].lower() for c in companies} | {c["name"].lower() for c in load("data/probe_misses.json", [])}
+PROBE_LIMIT = int(os.environ.get("PROBE_LIMIT", "120"))
+GENERIC_EMPLOYER = re.compile(r"jobgether|lemon\.io|toptal|turing|andela|crossover|hays|randstad|adecco|manpower|gulp|"
+                              r"personal|recruit|consult|staffing|talent|headhunt|vermittlung|zeitarbeit|jobs? ?gmbh", re.I)
+
+
+def run_probe(companies, harvested):
+    """Find job feeds for new companies: names from candidates.txt + employers seen on job boards."""
+    have = {c["name"].lower() for c in companies}
+    misses = load("data/probe_misses.json", [])
+    recent_miss = {m["name"].lower() for m in misses
+                   if (NOW - (parse_date(m.get("date")) or NOW)).days < 30}
     todo = []
     for line in open(os.path.join(ROOT, "candidates.txt"), encoding="utf-8"):
         line = line.strip()
         if not line or line.startswith("#"):
             continue
         name, _, ind = (p.strip() for p in line.partition("|"))
-        if name.lower() not in known:
+        if name.lower() not in have and name.lower() not in recent_miss:
             todo.append((name, ind))
-            known.add(name.lower())
-    found, misses = [], load("data/probe_misses.json", [])
-    with cf.ThreadPoolExecutor(12) as ex:
+            have.add(name.lower())
+    for name, cnt in sorted(harvested.items(), key=lambda kv: -kv[1]):
+        n = name.strip()
+        if len(todo) >= PROBE_LIMIT:
+            break
+        if not n or len(n) > 60 or GENERIC_EMPLOYER.search(n) or n.lower() in have or n.lower() in recent_miss:
+            continue
+        todo.append((n, "from job boards"))
+        have.add(n.lower())
+    todo = todo[:PROBE_LIMIT]
+    found = []
+    misses = [m for m in misses if m["name"].lower() not in {t[0].lower() for t in todo}]
+    with cf.ThreadPoolExecutor(16) as ex:
         for (name, ind), res in zip(todo, ex.map(lambda t: probe_one(*t), todo)):
             if res:
                 res["addedBy"] = f"probe {TODAY}"
                 found.append(res)
             else:
                 misses.append({"name": name, "date": TODAY})
-    save("data/probe_misses.json", misses)
+    save("data/probe_misses.json", misses[-5000:])
     STATUS["probe"] = {"tried": len(todo), "found": [f"{c['name']} ({c['ats']}:{c['slug']})" for c in found]}
-    return companies + found
+    return found
+
+
+def harvest_employers(raw):
+    """Employers that post developer jobs in Germany/remote on the boards -> candidates for feed discovery."""
+    counts = {}
+    for r in raw:
+        if r["source"] in FETCHERS:
+            continue
+        if not title_ok(r["title"], r["_desc"])[0]:
+            continue
+        l = (r["location"] or "").lower()
+        if not (RE_DE.search(l) or RE_NRW.search(l) or r.get("remote")):
+            continue
+        name = re.sub(r"\s+", " ", (r["company"] or "")).strip()
+        if name:
+            counts[name] = counts.get(name, 0) + 1
+    return counts
 
 
 # ---------------------------------------------------------------- io
@@ -608,12 +683,19 @@ def norm_key(r):
 
 # ---------------------------------------------------------------- main
 def main():
-    probe = "--probe" in sys.argv
     companies = load("data/companies.json", [])
-    if probe:
-        companies = run_probe(companies)
-
     raw, fails = [], {}
+
+    for name, fn in BOARDS.items():
+        try:
+            jobs = fn()
+            raw += jobs
+            STATUS["sources"][name] = {"fetched": len(jobs)}
+        except Exception as e:
+            STATUS["sources"][name] = {"error": str(e)[:160]}
+
+    if "--no-probe" not in sys.argv:
+        companies += run_probe(companies, harvest_employers(raw))
 
     def fetch_company(c):
         return c, FETCHERS[c["ats"]](c)
@@ -635,14 +717,6 @@ def main():
                     c["disabled"] = True
     STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails)}
     STATUS["errors"]["companies"] = fails
-
-    for name, fn in BOARDS.items():
-        try:
-            jobs = fn()
-            raw += jobs
-            STATUS["sources"][name] = {"fetched": len(jobs)}
-        except Exception as e:
-            STATUS["sources"][name] = {"error": str(e)[:120]}
 
     # filter
     matches, seen_keys = [], set()
