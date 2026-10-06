@@ -33,7 +33,18 @@
   "frontend-entwickler",
   "fullstack-entwickler",
   "softwareentwickler web",
-  "software engineer web"
+  "software engineer web",
+  "frontendentwickler",
+  "fullstackentwickler",
+  "full-stack-entwickler",
+  "react-entwickler",
+  "javascript-entwickler",
+  "ui developer",
+  "ui-entwickler",
+  "expo",
+  "cross-platform",
+  "webentwicklung",
+  "frontend-developer"
  ],
  "title_generic": [
   "software engineer",
@@ -185,38 +196,58 @@
   "queries": [
    "React",
    "React Native",
+   "Frontend",
    "Frontend Entwickler",
-   "Frontend Developer",
-   "Fullstack Entwickler",
-   "Full Stack Developer",
+   "Fullstack",
+   "Full Stack",
    "TypeScript",
+   "JavaScript",
    "Next.js",
-   "Webentwickler React",
-   "Softwareentwickler React"
+   "Node.js",
+   "Webentwickler",
+   "App Entwickler"
   ],
-  "around": {
-   "wo": "Essen",
-   "umkreis": 50
-  },
+  "places": [
+   {
+    "wo": "Essen",
+    "umkreis": 50
+   },
+   {
+    "wo": "Köln",
+    "umkreis": 30
+   }
+  ],
   "nationwide_homeoffice": true,
-  "veroeffentlichtseit": 30
+  "veroeffentlichtseit": 30,
+  "pages": 3
  },
  "boards": {
-  "arbeitnow_pages": 8,
+  "arbeitnow_pages": 30,
   "remotive_searches": [
    "react",
    "frontend",
    "typescript",
-   "react native"
+   "react native",
+   "full stack",
+   "javascript",
+   "next.js",
+   "node"
   ],
   "jobicy_tags": [
    "react",
    "typescript",
    "javascript",
    "react-native",
-   "frontend"
+   "frontend",
+   "fullstack",
+   "nextjs",
+   "nodejs"
   ],
-  "himalayas_pages": 10
+  "himalayas_pages": 50,
+  "wwr_categories": [
+   "remote-full-stack-programming-jobs",
+   "remote-front-end-programming-jobs"
+  ]
  },
  "title_hard_exclude": [
   "junior",
@@ -311,7 +342,12 @@
   "uk public sector",
   "latam",
   "apac",
-  "canada"
+  "canada",
+  "quereinsteiger",
+  "quereinstieg",
+  "umschulung",
+  "werkvertrag",
+  "arbeitnehmerüberlassung"
  ],
  "title_soft_exclude": [
   "backend",
@@ -342,7 +378,69 @@
   "freelancermap",
   "malt",
   "yld",
-  "yld.com"
+  "yld.com",
+  "exclusive associates",
+  "syntex",
+  "worldwideplacement",
+  "worldwide placement",
+  "sthree",
+  "ferchau",
+  "akut",
+  "sps consulting",
+  "büroservice",
+  "spring professional",
+  "amadeus fire",
+  "brunel",
+  "computer futures",
+  "darwin recruitment",
+  "jefferson frank",
+  "harvey nash",
+  "akkodis",
+  "modis",
+  "solcom",
+  "etengo",
+  "frank recruitment",
+  "michael page",
+  "robert half",
+  "page personnel",
+  "adecco",
+  "manpower",
+  "persona service",
+  "dis ag",
+  "orizon",
+  "job ag",
+  "tempton",
+  "trenkwalder",
+  "allgeier experts",
+  "experteer",
+  "stellenonline",
+  "jobvector",
+  "get in it",
+  "get in engineering",
+  "instaffo",
+  "workwise",
+  "jobgether",
+  "hirexpert",
+  "it-talents",
+  "talentbox",
+  "career people",
+  "hapeko",
+  "kienbaum",
+  "westhouse",
+  "dekra arbeit",
+  "i.k. hofmann",
+  "univativ",
+  "work agency",
+  "jobware",
+  "yer",
+  "bindan",
+  "piening",
+  "gi group",
+  "tts",
+  "avanti",
+  "hire digital",
+  "recruiting",
+  "personalberatung"
  ],
  "remote_germany_phrases": [
   "remote (in|within|from|across) (germany|deutschland)",
@@ -361,6 +459,60 @@
   "remotely in germany",
   "remote within the eu",
   "remote \\(eu\\)",
-  "remote \\(germany\\)"
- ]
+  "remote \\(germany\\)",
+  "remote work",
+  "work remotely",
+  "working remotely",
+  "remote option",
+  "remote-option",
+  "remote or hybrid",
+  "hybrid or remote",
+  "hybrid/remote",
+  "remote/hybrid",
+  "mobiles arbeiten",
+  "mobile arbeit",
+  "home ?office möglich",
+  "home-office möglich",
+  "remote-arbeit",
+  "remote arbeiten",
+  "bis zu 100 ?%",
+  "flexible? (remote|home ?office)",
+  "remote-first",
+  "remote within europe",
+  "remote \\(europe\\)",
+  "remote, germany",
+  "germany, remote",
+  "anywhere in europe",
+  "from anywhere in the eu"
+ ],
+ "adzuna": {
+  "queries": [
+   "react",
+   "react native",
+   "frontend",
+   "frontend entwickler",
+   "fullstack",
+   "full stack",
+   "typescript",
+   "next.js",
+   "javascript",
+   "node.js",
+   "webentwickler",
+   "app entwickler"
+  ],
+  "places": [
+   {
+    "where": "Essen",
+    "distance": 50
+   },
+   {
+    "where": "Köln",
+    "distance": 30
+   }
+  ],
+  "calls_per_run": 30,
+  "max_per_day": 140,
+  "max_per_week": 900,
+  "max_per_month": 2300
+ }
 }
