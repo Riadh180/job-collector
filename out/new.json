@@ -1,34 +1,12 @@
 {
- "collectedAt": "2026-10-06T08:28:32+00:00",
- "count": 2,
+ "collectedAt": "2026-10-06T09:34:41+00:00",
+ "count": 4,
  "jobs": [
   {
-   "id": "adzuna:5913315673",
-   "company": "ADVERGY GmbH",
-   "title": "Softwareentwickler Node.js (m/w/d) | Raum Krefeld",
-   "url": "https://www.adzuna.de/details/5913315673?utm_medium=api&utm_source=c19f1397",
-   "location": "Krefeld, Nordrhein-Westfalen / Deutschland",
-   "remote": null,
-   "postedAt": "2026-10-06",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "Zum Einsatz kommen unter anderem TypeScript, React und…",
-   "firstSeen": "2026-10-06T08:28:32+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/adalo/jobs/senior-software-engineer-react-node-js",
-   "company": "Adalo",
-   "title": "Senior Software Engineer - React / Node.js",
-   "url": "https://himalayas.app/companies/adalo/jobs/senior-software-engineer-react-node-js",
+   "id": "himalayas:https://himalayas.app/companies/novakid-school/jobs/fullstack-developer-frontend-focus",
+   "company": "Novakid School",
+   "title": "FullStack Developer Frontend Focus",
+   "url": "https://himalayas.app/companies/novakid-school/jobs/fullstack-developer-frontend-focus",
    "location": "Worldwide",
    "remote": true,
    "postedAt": "2026-10-06",
@@ -39,11 +17,77 @@
    "source": "himalayas",
    "ats": "himalayas",
    "stackHits": [
-    "react"
+    "next.js",
+    "react",
+    "typescript"
    ],
    "match": "title; remote",
-   "facts": "Our tech stack includes React, React Native, Node.js, and Postgres.",
-   "firstSeen": "2026-10-06T08:28:32+00:00"
+   "facts": "Novakid is an online English school for kids. | What we offer: Fully remote work.",
+   "firstSeen": "2026-10-06T09:34:41+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/kaufland-e-commerce/jobs/staff-search-engineer-all-genders-elasticsearch",
+   "company": "Kaufland e-commerce",
+   "title": "Staff Search Engineer (all genders) | Elasticsearch",
+   "url": "https://himalayas.app/companies/kaufland-e-commerce/jobs/staff-search-engineer-all-genders-elasticsearch",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-06",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "anstellungsdetails Permanent Contract, Full-or Part-Time, Remote or Cologne / Düsseldorf / Darmstadt / Berlin info Who we are We are the tech powerhouse behind Kaufland’s international online marketplaces and a company within the Schwarz Group. | #FromEuropeForEurope Day by day, our Tech & Product Team of about 400 experts pursues the goal of creating the best possible customer shopping experience for our online marketplace. | You favour exponential backoff over CrashLoopBackoff - a lot! | Option for Pluxee restaurant vouchers : Buy Pluxee vouchers through us and benefit from tax-advantaged meal allowances! | We are signatories to the Charta der Vielfalt (German Diversity Charter) – because ",
+   "firstSeen": "2026-10-06T09:34:41+00:00"
+  },
+  {
+   "id": "ashby:plancraft:29c227fb-b91c-41e2-8fd8-5765fd6829cb",
+   "company": "plancraft",
+   "title": "Staff Engineer (f/m/d) AI",
+   "url": "https://jobs.ashbyhq.com/plancraft/29c227fb-b91c-41e2-8fd8-5765fd6829cb",
+   "location": "Remote (within Germany) / Hamburg (hybrid)",
+   "remote": true,
+   "postedAt": "2026-08-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Building the backbone of European trades together – with AI-first software. | With Tier 1 Investors from Europe and the US, like Headline and Creandum as well as 30,000+ tradespeople as customer base, we’re scaling across Europe to turn scattered tradespeople into thriving communities. | You bring 5+ years of software engineering experience and a track record of technical leadership. | Our stack is React on the frontend, serverless Node.js / Express on the backend, and GCP underneath — all TypeScript, so you're either productive in TypeScript or able to get there quickly.",
+   "firstSeen": "2026-10-06T09:34:41+00:00"
+  },
+  {
+   "id": "personio:hubject-gmbh:2787155",
+   "company": "Hubject Gmbh",
+   "title": "Senior Full Stack Developer (all genders)",
+   "url": "https://hubject-gmbh.jobs.personio.de/job/2787155?language=en",
+   "location": "Deutschland: Berlin",
+   "remote": null,
+   "postedAt": "2026-09-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "from job boards",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Several years of experience developing full-stack applications using Java, Spring Boot, Angular, TypeScript, HTML5 and SCSS.",
+   "firstSeen": "2026-10-06T09:34:41+00:00"
   }
  ]
 }

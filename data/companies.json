@@ -279,7 +279,7 @@
   "name": "saas.group",
   "industry": "",
   "addedBy": "watchlist",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "ats": "greenhouse",
@@ -399,7 +399,7 @@
   "name": "Constructor Knowledge Labs",
   "industry": "",
   "addedBy": "watchlist",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "ats": "ashby",
@@ -1932,6 +1932,14 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "stickermule",
+  "addedBy": "probe 2026-10-06",
+  "lastOk": "2026-10-06"
+ },
+ {
+  "name": "Novakid School",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "novakidschool",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-06"
  }
