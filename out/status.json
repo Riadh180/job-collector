@@ -7,13 +7,13 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1950
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 140
+   "fetched": 141
   },
   "remoteok": {
    "fetched": 99
@@ -51,43 +51,30 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 13,
-  "found": [
-   "Tacto (ashby:tacto)",
-   "Augustus (ashby:augustus)",
-   "Indra Avitech (personio:indra-avitech)",
-   "Proglove (personio:proglove)",
-   "Allgeier Inovar Gmbh (personio:allgeier-inovar-gmbh)",
-   "gropyus (greenhouse:gropyus)",
-   "TransPerfect (recruitee:transperfect)",
-   "Feld Energy (personio:feld-energy)",
-   "Avelion Group (personio:avelion-group)",
-   "Project Q (personio:project-q)",
-   "Reeeliance (personio:reeeliance)",
-   "hellofresh (greenhouse:hellofresh)"
-  ]
+  "tried": 0,
+  "found": []
  },
- "collectedAt": "2026-10-06T22:42:36+00:00",
- "rawJobs": 27281,
+ "collectedAt": "2026-10-06T23:20:11+00:00",
+ "rawJobs": 27181,
  "matches": 89,
  "new": 0,
  "companies": 476,
  "activeCompanies": 471,
  "funnel": {
-  "title": 26045,
-  "location": 997,
-  "passed": 135,
+  "title": 25953,
+  "location": 990,
+  "passed": 134,
   "company": 13,
   "employment": 13,
-  "duplicate": 46,
+  "duplicate": 45,
   "too_old": 76
  },
  "matchesBySource": {
   "ashby": 31,
-  "arbeitnow": 14,
+  "arbeitnow": 13,
   "himalayas": 2,
   "greenhouse": 5,
-  "recruitee": 11,
+  "recruitee": 12,
   "personio": 7,
   "weworkremotely": 7,
   "hn": 6,

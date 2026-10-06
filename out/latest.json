@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-06T22:42:36+00:00",
+ "collectedAt": "2026-10-06T23:20:11+00:00",
  "count": 89,
  "jobs": [
   {
@@ -361,28 +361,6 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "arbeitnow:senior-frontend-engineer-gn-berlin-376177",
-   "company": "Ingestro",
-   "title": "Senior Frontend Engineer (gn)",
-   "url": "https://www.arbeitnow.com/jobs/companies/ingestro/senior-frontend-engineer-gn-berlin-376177",
-   "location": "Berlin, Berlin, Germany",
-   "remote": false,
-   "postedAt": "2026-10-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Experienced fulltime permanent",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "Find Jobs in Germany on Arbeitnow",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
    "company": "STEUART NUTRITION",
    "title": "Software Developer AI Coding",
@@ -695,6 +673,28 @@
    ],
    "match": "generic+stack; remote",
    "facts": "3+ years writing production code, comfortable reading someone else's codebase and forming your own opinion about what it does. | - Strong Node.js and TypeScript. | - You write clearly and permanently. | Compliance evidence is read years later by people who were not in the room. | - Direct exposure to certification labs, ISO assessors, and the path to SOC 2 - rare and portable experience | - Competitive Salary | - Remote & Flexible Working",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
+   "id": "recruitee:ingestro:2769886",
+   "company": "Ingestro",
+   "title": "Senior Frontend Engineer (gn)",
+   "url": "https://ingestro.recruitee.com/o/senior-frontend-engineer-gn-3",
+   "location": "Berlin, Berlin, Germany / Berlin / Germany",
+   "remote": false,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "from job boards",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -1251,29 +1251,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "ashby:berlitz:114f07a2-8404-4878-83f1-2384c1bdcdb2",
-   "company": "Berlitz",
-   "title": "Senior Software Engineer (Mobile / React Native) (m/f/d)",
-   "url": "https://jobs.ashbyhq.com/berlitz/114f07a2-8404-4878-83f1-2384c1bdcdb2",
-   "location": "Germany Remote / Germany",
-   "remote": true,
-   "postedAt": "2026-08-07",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "expo",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Nearly 150 years of expertise, meeting the ambition and technology to power a new era of learning. | - App Architecture: Design and build learner-facing features in React Native (Expo), from screens and navigation to state management, within a shared TypeScript layer also consumed by other client surfaces. | - Core Tech Stack: Utilize React Native and TypeScript as your primary stack, building on Expo’s managed workflow and the team’s shared design-system package. | - Experience: 5+ years of professional mobile development experience, with a proven track record shipping production apps to real users — React Native or native (iOS/Android). | - Release Ownership: Hands-on experience owning mob",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:zoe:5f2867a4-cf38-4bec-b6ca-f192a9a8736c",
    "company": "ZOE",
    "title": "Full Stack Engineer (Front-end Focus)",
@@ -1294,6 +1271,29 @@
    ],
    "match": "title; remote",
    "facts": "You'll spend most of your time in TypeScript, React and Next.js. | - Frontend: TypeScript, React, Next.js, React Native, GraphQL | - Have 3–5 years of professional software development experience, with a strong focus on front-end. | - Have strong experience with TypeScript, React and Next.js, and understand state management, hooks and web performance optimisation. | - Fully remote, open to candidates based in the UK, Ireland, Spain, Poland or Germany who have the right to work there. | - We work across UK and Central European time zones. | 🔄 The Remote Loop: 2 to 4 focused interviews assessing your technical expertise, behav",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "ashby:berlitz:114f07a2-8404-4878-83f1-2384c1bdcdb2",
+   "company": "Berlitz",
+   "title": "Senior Software Engineer (Mobile / React Native) (m/f/d)",
+   "url": "https://jobs.ashbyhq.com/berlitz/114f07a2-8404-4878-83f1-2384c1bdcdb2",
+   "location": "Germany Remote / Germany",
+   "remote": true,
+   "postedAt": "2026-08-07",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "expo",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Nearly 150 years of expertise, meeting the ambition and technology to power a new era of learning. | - App Architecture: Design and build learner-facing features in React Native (Expo), from screens and navigation to state management, within a shared TypeScript layer also consumed by other client surfaces. | - Core Tech Stack: Utilize React Native and TypeScript as your primary stack, building on Expo’s managed workflow and the team’s shared design-system package. | - Experience: 5+ years of professional mobile development experience, with a proven track record shipping production apps to real users — React Native or native (iOS/Android). | - Release Ownership: Hands-on experience owning mob",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -1407,6 +1407,27 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
+   "id": "recruitee:recaregmbh:2739252",
+   "company": "Recare",
+   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
+   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
+   "location": "Remote job / Berlin / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
    "id": "personio:journaway-gmbh:2772688",
    "company": "journaway",
    "title": "Senior Frontend Engineer (m/f/d)",
@@ -1476,27 +1497,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:recaregmbh:2739252",
-   "company": "Recare",
-   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
-   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
-   "location": "Remote job / Berlin / Germany",
-   "remote": true,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:mazehq:971941ec-5aa2-49eb-bb0d-fed342455619",
    "company": "Maze",
    "title": "Product Engineer (Full Stack)",
@@ -1538,44 +1538,6 @@
    ],
    "match": "title; NRW",
    "facts": "Make in-house tooling good enough that revisiting Labelbox/Encord-style vendors is permanently off the table, and unblock HIPAA-compliant training on US customer data. | - Co-own the ML App codebase (React/TS SPA + Kotlin services + Kotlin ETL on EKS) | - 5+ years building production fullstack web apps with React + TypeScript | - We foster an open, collaborative culture with regular team events, whether you work from our Berlin office or remotely across Germany | - Generous perks: 30 vacation days plus your birthday off, Germany Transport Ticket, Urban Sports Club, regular company off-sites, and access to learning platforms such as Blinkist and Audible, plus free language courses | - You dec",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "personio:semdor-pharma-group-gmbh:2780716",
-   "company": "Semdor Pharma Group",
-   "title": "Fullstack Developer (m/w/d)",
-   "url": "https://semdor-pharma-group-gmbh.jobs.personio.de/job/2780716?language=en",
-   "location": "Köln",
-   "remote": null,
-   "postedAt": "2026-09-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "personio:ass:2760312",
-   "company": "Athletic Sport Sponsoring",
-   "title": "Fullstack Developer (m/w/d) – Expo, React Native & Firebase in Präsenz am Standort Bochum",
-   "url": "https://ass.jobs.personio.de/job/2760312?language=en",
-   "location": "Bochum",
-   "remote": null,
-   "postedAt": "2026-08-19",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -1654,6 +1616,44 @@
    "industry": "",
    "source": "smartrecruiters",
    "ats": "smartrecruiters",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "personio:semdor-pharma-group-gmbh:2780716",
+   "company": "Semdor Pharma Group",
+   "title": "Fullstack Developer (m/w/d)",
+   "url": "https://semdor-pharma-group-gmbh.jobs.personio.de/job/2780716?language=en",
+   "location": "Köln",
+   "remote": null,
+   "postedAt": "2026-09-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "personio:ass:2760312",
+   "company": "Athletic Sport Sponsoring",
+   "title": "Fullstack Developer (m/w/d) – Expo, React Native & Firebase in Präsenz am Standort Bochum",
+   "url": "https://ass.jobs.personio.de/job/2760312?language=en",
+   "location": "Bochum",
+   "remote": null,
+   "postedAt": "2026-08-19",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "",
+   "source": "personio",
+   "ats": "personio",
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
@@ -1809,28 +1809,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "ashby:linear:f04f398b-6320-499d-8a60-290239d62da8",
-   "company": "Linear",
-   "title": "Design Engineer (Web & Brand)",
-   "url": "https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8",
-   "location": "North America / Europe / United States",
-   "remote": true,
-   "postedAt": "2026-09-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "devtools",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. | - Experience with React and TypeScript | - Competitive salary and equity | - Work remotely, no commuting to the office | - Paid co-working space/desk at an office",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:elevenlabs:5494be31-7899-4f7a-b10f-4c49378b44ef",
    "company": "ElevenLabs",
    "title": "Frontend Leaning Engineer - Creative & Studio",
@@ -1873,6 +1851,28 @@
    ],
    "match": "title; remote",
    "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | - Experience with Web Development using Typescript/React | - Bonus: experience deploying products directly to enterprise customers, or ML/GenAI exposure | This role is remote and can be executed globally. | If you prefer, you can work from our offices in Bangalore, Dublin, London, New York, San Francisco, Tokyo, and Warsaw.",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "ashby:linear:f04f398b-6320-499d-8a60-290239d62da8",
+   "company": "Linear",
+   "title": "Design Engineer (Web & Brand)",
+   "url": "https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8",
+   "location": "North America / Europe / United States",
+   "remote": true,
+   "postedAt": "2026-09-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "devtools",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. | - Experience with React and TypeScript | - Competitive salary and equity | - Work remotely, no commuting to the office | - Paid co-working space/desk at an office",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
