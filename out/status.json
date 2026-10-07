@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 2350
   },
   "remotive": {
    "fetched": 136
@@ -32,13 +32,11 @@
   },
   "companies": {
    "checked": 605,
-   "failed": 1
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Usercentrics": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -53,56 +51,31 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 70,
-  "found": [
-   "Signode (recruitee:signode)",
-   "Eye Security (ashby:eye-security)",
-   "BeyondTrust (greenhouse:beyondtrust)",
-   "Aretum (workable:aretum)",
-   "JumpCloud (lever:jumpcloud)",
-   "Nozomi Networks (greenhouse:nozominetworks)",
-   "Egen (lever:egen)",
-   "Roompricegenie (ashby:roompricegenie)",
-   "adlicious (personio:adlicious-gmbh)",
-   "Airmo (personio:airmo)",
-   "Boardwise GmbH (personio:boardwise)",
-   "Terraquantum (greenhouse:terraquantum)",
-   "Jobtome (recruitee:jobtome)",
-   "Flatgigs (workable:flatgigs)",
-   "Alpaca (greenhouse:alpaca)",
-   "MP Solutions Ltd. (workable:mpsolutions)",
-   "SORACOM (workable:soracom)",
-   "DAMEDIC (personio:damedic-gmbh)",
-   "Fullscript (lever:fullscript)",
-   "Loft Orbital (lever:loftorbital)",
-   "Spotted Zebra (smartrecruiters:spottedzebra)",
-   "Stellar Cyber (workable:stellar-cyber)",
-   "Levanta (greenhouse:levanta)",
-   "Zus Health (ashby:zus-health)"
-  ]
+  "tried": 0,
+  "found": []
  },
- "collectedAt": "2026-10-07T17:18:42+00:00",
- "rawJobs": 31848,
+ "collectedAt": "2026-10-07T17:38:29+00:00",
+ "rawJobs": 32399,
  "matches": 99,
- "new": 7,
+ "new": 0,
  "companies": 610,
  "activeCompanies": 605,
  "funnel": {
-  "title": 30461,
-  "passed": 144,
-  "location": 1127,
-  "duplicate": 45,
+  "title": 30984,
+  "passed": 149,
+  "location": 1150,
+  "duplicate": 50,
   "company": 14,
   "employment": 15,
   "too_old": 86
  },
  "matchesBySource": {
-  "arbeitnow": 15,
+  "arbeitnow": 18,
   "ashby": 35,
-  "personio": 10,
+  "personio": 9,
   "greenhouse": 6,
   "himalayas": 1,
-  "recruitee": 13,
+  "recruitee": 11,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
