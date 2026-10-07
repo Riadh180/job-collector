@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 969
+   "fetched": 702
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -10,10 +10,10 @@
    "fetched": 3050
   },
   "remotive": {
-   "fetched": 144
+   "fetched": 136
   },
   "jobicy": {
-   "fetched": 132
+   "fetched": 87
   },
   "remoteok": {
    "fetched": 99
@@ -31,19 +31,23 @@
    "fetched": 57
   },
   "companies": {
-   "checked": 536,
-   "failed": 0
+   "checked": 562,
+   "failed": 3
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Usercentrics": "HTTP 429",
+   "Modash": "HTTP 429",
+   "SalesCaptain": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "callsThisRun": 20,
+  "searchesThisRun": 13,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 260
+  "callsToday": 140,
+  "callsLast7Days": 280
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,37 +55,62 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 12,
+  "tried": 59,
   "found": [
-   "Digital Forms (recruitee:digitalforms)"
+   "Gate (lever:gate)",
+   "Overmind (lever:overmind)",
+   "Chooose (lever:chooose)",
+   "Reddit (greenhouse:reddit)",
+   "Everbridge (lever:everbridge)",
+   "Docsumo (lever:docsumo)",
+   "syte GmbH (personio:syte-gmbh)",
+   "HanseSecure GmbH (recruitee:hansesecuregmbh)",
+   "Universalquantum (workable:universalquantum)",
+   "Kooku (workable:kooku)",
+   "Xu De (personio:xu-de)",
+   "JTL-Software-GmbH (personio:jtl-software-gmbh)",
+   "Open Xchange Gmbh (personio:open-xchange-gmbh)",
+   "Azul (lever:azul)",
+   "Pure Storage (greenhouse:purestorage)",
+   "Valtech (greenhouse:valtech)",
+   "Experian (smartrecruiters:experian)",
+   "Kalepa (greenhouse:kalepa)",
+   "Canvas Medical (ashby:canvas-medical)",
+   "Boston Imaging (lever:bostonimaging)",
+   "Offchain Labs (lever:offchainlabs)",
+   "InfStones (lever:infstones)",
+   "Makpar (lever:makpar)",
+   "DEUNA (lever:deuna)",
+   "CertiK (lever:certik)",
+   "Smile Digital Health (lever:smiledigitalhealth)"
   ]
  },
- "collectedAt": "2026-10-07T08:48:49+00:00",
- "rawJobs": 31790,
- "matches": 180,
- "new": 0,
- "companies": 541,
- "activeCompanies": 536,
+ "collectedAt": "2026-10-07T11:28:09+00:00",
+ "rawJobs": 32727,
+ "matches": 188,
+ "new": 2,
+ "companies": 567,
+ "activeCompanies": 562,
  "funnel": {
-  "passed": 338,
-  "title": 30212,
-  "duplicate": 158,
-  "salary": 16,
+  "title": 31114,
+  "passed": 342,
   "company": 37,
-  "location": 1092,
-  "employment": 13,
-  "too_old": 80
+  "salary": 14,
+  "location": 1124,
+  "duplicate": 154,
+  "employment": 12,
+  "too_old": 82
  },
  "matchesBySource": {
-  "adzuna": 83,
-  "ashby": 31,
-  "recruitee": 9,
-  "arbeitnow": 28,
+  "adzuna": 96,
+  "ashby": 29,
+  "recruitee": 10,
+  "arbeitnow": 23,
   "greenhouse": 5,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "personio": 5,
+  "personio": 6,
   "jobicy": 4,
   "smartrecruiters": 1
  }
