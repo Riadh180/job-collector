@@ -638,7 +638,7 @@
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Zenjob",
@@ -2470,7 +2470,8 @@
   "ats": "workable",
   "slug": "modash",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "intercom",
@@ -2767,7 +2768,7 @@
   "slug": "unitary",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Bridgemaker",
@@ -2840,7 +2841,7 @@
   "slug": "cribl",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Catawiki",
@@ -3473,7 +3474,7 @@
   "slug": "fortanix",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Prenosis",
@@ -3490,7 +3491,7 @@
   "slug": "libertexgroup",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Delinea",
@@ -3515,7 +3516,7 @@
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Evolve",
@@ -3596,7 +3597,7 @@
   "slug": "european-dynamics",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Circle",
@@ -4237,7 +4238,8 @@
   "ats": "workable",
   "slug": "salescaptain",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Omnora GmbH",
@@ -4445,7 +4447,8 @@
   "ats": "workable",
   "slug": "universalquantum",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Kooku",
@@ -4454,7 +4457,7 @@
   "slug": "kooku",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Xu De",
@@ -4767,7 +4770,7 @@
   "slug": "aretum",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "JumpCloud",
@@ -4847,7 +4850,8 @@
   "ats": "workable",
   "slug": "flatgigs",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Alpaca",
@@ -4864,7 +4868,7 @@
   "slug": "mpsolutions",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "SORACOM",
@@ -4872,7 +4876,8 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "DAMEDIC",
@@ -4913,7 +4918,7 @@
   "slug": "stellar-cyber",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Levanta",
@@ -4945,7 +4950,8 @@
   "ats": "workable",
   "slug": "openmined",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Synera",
@@ -4977,7 +4983,7 @@
   "ats": "workable",
   "slug": "boardofinnovation",
   "addedBy": "probe 2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Jumpfactor",
@@ -5017,7 +5023,7 @@
   "ats": "workable",
   "slug": "emerging-travel-group",
   "addedBy": "probe 2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Bitwarden",
@@ -5112,6 +5118,215 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "playtolabs",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Consensys",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "consensys",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "The Trainee Company",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "thetraineecompany",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Creatio",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "creatio",
+  "eu": true,
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Harvey",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "harvey",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Pyka",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "pyka",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Extreme Networks",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "extremenetworks",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "M3 USA",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "m3usa",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "TrueML",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "trueml",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "ServiceNow",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "servicenow",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Tala",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "tala",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Boardwise",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "boardwise",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "EvolutionIQ",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "evolutioniq",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Telefonica Tech",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "telefonicatech",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Chainguard",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "chainguard",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Telesat",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "telesat",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "OPSWAT",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "opswat",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Cresta",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "cresta",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Zensurance",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "zensurance",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Coderio",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "coderio",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Aledade",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "aledade",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "airSlate",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "airslate",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Laminar Projects",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "laminarprojects",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "TTEC",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "ttec",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Bunker db",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "bunkerdb",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "PVcase",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "pvcase",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Polarise",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "polarise",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07"
  }

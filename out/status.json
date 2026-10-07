@@ -7,13 +7,13 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3150
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 136
   },
   "jobicy": {
-   "fetched": 132
+   "fetched": 123
   },
   "remoteok": {
    "fetched": 99
@@ -25,29 +25,35 @@
    "fetched": 53
   },
   "hn": {
-   "fetched": 292
+   "fetched": 293
   },
   "workingnomads": {
-   "fetched": 57
+   "fetched": 42
   },
   "companies": {
-   "checked": 628,
-   "failed": 13
+   "checked": 654,
+   "failed": 19
   }
  },
  "errors": {
   "companies": {
    "Usercentrics": "HTTP 429",
+   "Modash": "HTTP 429",
    "Unitary": "HTTP 429",
    "Cribl": "HTTP 404",
    "Fortanix": "HTTP 429",
    "Libertex Group": "HTTP 429",
    "Crystalia Glass LLC": "HTTP 429",
    "EUROPEAN DYNAMICS": "HTTP 429",
+   "SalesCaptain": "HTTP 429",
    "Kooku": "HTTP 429",
+   "Universalquantum": "HTTP 429",
    "Aretum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
    "MP Solutions Ltd.": "HTTP 429",
+   "SORACOM": "HTTP 429",
    "Stellar Cyber": "HTTP 429",
+   "OpenMined": "HTTP 429",
    "Board of Innovation": "HTTP 429",
    "Emerging Travel Group": "HTTP 429"
   }
@@ -65,54 +71,58 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 120,
+  "tried": 104,
   "found": [
-   "OpenMined (workable:openmined)",
-   "Synera (recruitee:synera)",
-   "Sophos (lever:sophos)",
-   "Netomi (lever:netomi)",
-   "Board of Innovation (workable:boardofinnovation)",
-   "Jumpfactor (recruitee:jumpfactor)",
-   "PointClickCare (lever:pointclickcare)",
-   "Free2move (smartrecruiters:free2move)",
-   "Solactive AG (personio:solactive)",
-   "Emerging Travel Group (workable:emerging-travel-group)",
-   "Bitwarden (greenhouse:bitwarden)",
-   "DDN (ashby:ddn)",
-   "Sayari (greenhouse:sayari)",
-   "EVB (smartrecruiters:evb)",
-   "Overstory (greenhouse:overstory)",
-   "Airbnb (greenhouse:airbnb)",
-   "Veeam Software (greenhouse:veeamsoftware)",
-   "Axon (greenhouse:axon)",
-   "Lyra Health (lever:lyrahealth)",
-   "Xsolla (lever:xsolla)",
-   "ekipa GmbH (smartrecruiters:ekipa)",
-   "Playto Labs (smartrecruiters:playtolabs)"
+   "Consensys (ashby:consensys)",
+   "The Trainee Company (recruitee:thetraineecompany)",
+   "Creatio (lever:creatio)",
+   "Harvey (ashby:harvey)",
+   "Pyka (lever:pyka)",
+   "Extreme Networks (lever:extremenetworks)",
+   "M3 USA (smartrecruiters:m3usa)",
+   "TrueML (lever:trueml)",
+   "ServiceNow (smartrecruiters:servicenow)",
+   "Tala (lever:tala)",
+   "Boardwise (personio:boardwise)",
+   "EvolutionIQ (smartrecruiters:evolutioniq)",
+   "Telefonica Tech (smartrecruiters:telefonicatech)",
+   "Chainguard (greenhouse:chainguard)",
+   "Telesat (lever:telesat)",
+   "OPSWAT (greenhouse:opswat)",
+   "Cresta (greenhouse:cresta)",
+   "Zensurance (lever:zensurance)",
+   "Coderio (lever:coderio)",
+   "Aledade (lever:aledade)",
+   "airSlate (lever:airslate)",
+   "Laminar Projects (lever:laminarprojects)",
+   "TTEC (smartrecruiters:ttec)",
+   "Bunker db (recruitee:bunkerdb)",
+   "PVcase (recruitee:pvcase)",
+   "Polarise (personio:polarise)"
   ]
  },
- "collectedAt": "2026-10-07T18:13:11+00:00",
- "rawJobs": 34711,
- "matches": 110,
- "new": 1,
- "companies": 633,
- "activeCompanies": 628,
+ "collectedAt": "2026-10-07T20:24:29+00:00",
+ "rawJobs": 34967,
+ "matches": 102,
+ "new": 5,
+ "companies": 659,
+ "activeCompanies": 654,
  "funnel": {
-  "title": 33240,
-  "location": 1194,
-  "passed": 159,
-  "duplicate": 49,
-  "company": 15,
-  "employment": 16,
-  "too_old": 86
+  "title": 33522,
+  "location": 1190,
+  "passed": 148,
+  "company": 12,
+  "duplicate": 46,
+  "employment": 7,
+  "too_old": 87
  },
  "matchesBySource": {
-  "himalayas": 1,
-  "arbeitnow": 29,
-  "ashby": 34,
+  "himalayas": 2,
+  "ashby": 38,
+  "arbeitnow": 14,
   "personio": 10,
   "greenhouse": 6,
-  "recruitee": 11,
+  "recruitee": 13,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
