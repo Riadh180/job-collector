@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 702
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3050
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 136
   },
   "jobicy": {
-   "fetched": 87
+   "fetched": 132
   },
   "remoteok": {
    "fetched": 99
@@ -31,20 +31,27 @@
    "fetched": 57
   },
   "companies": {
-   "checked": 562,
-   "failed": 3
+   "checked": 581,
+   "failed": 10
   }
  },
  "errors": {
   "companies": {
    "Usercentrics": "HTTP 429",
    "Modash": "HTTP 429",
-   "SalesCaptain": "HTTP 429"
+   "Unitary": "HTTP 429",
+   "Fortanix": "HTTP 429",
+   "Libertex Group": "HTTP 429",
+   "Crystalia Glass LLC": "HTTP 429",
+   "EUROPEAN DYNAMICS": "HTTP 429",
+   "SalesCaptain": "HTTP 429",
+   "Kooku": "HTTP 429",
+   "Universalquantum": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 13,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 280
@@ -55,62 +62,54 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 59,
+  "tried": 41,
   "found": [
-   "Gate (lever:gate)",
-   "Overmind (lever:overmind)",
-   "Chooose (lever:chooose)",
-   "Reddit (greenhouse:reddit)",
-   "Everbridge (lever:everbridge)",
-   "Docsumo (lever:docsumo)",
-   "syte GmbH (personio:syte-gmbh)",
-   "HanseSecure GmbH (recruitee:hansesecuregmbh)",
-   "Universalquantum (workable:universalquantum)",
-   "Kooku (workable:kooku)",
-   "Xu De (personio:xu-de)",
-   "JTL-Software-GmbH (personio:jtl-software-gmbh)",
-   "Open Xchange Gmbh (personio:open-xchange-gmbh)",
-   "Azul (lever:azul)",
-   "Pure Storage (greenhouse:purestorage)",
-   "Valtech (greenhouse:valtech)",
-   "Experian (smartrecruiters:experian)",
-   "Kalepa (greenhouse:kalepa)",
-   "Canvas Medical (ashby:canvas-medical)",
-   "Boston Imaging (lever:bostonimaging)",
-   "Offchain Labs (lever:offchainlabs)",
-   "InfStones (lever:infstones)",
-   "Makpar (lever:makpar)",
-   "DEUNA (lever:deuna)",
-   "CertiK (lever:certik)",
-   "Smile Digital Health (lever:smiledigitalhealth)"
+   "PickTrace (lever:picktrace)",
+   "Remedy Product Studio (lever:remedyproductstudio)",
+   "Nile Bits (smartrecruiters:nilebits)",
+   "Digitalagentur1 GmbH (recruitee:digitalagentur1)",
+   "Kwanso (lever:kwanso)",
+   "MetaWealth (lever:metawealth)",
+   "Greenhouse (greenhouse:greenhouse)",
+   "Lyceum (ashby:lyceum)",
+   "Machine Learning Reply (recruitee:machinelearningreply)",
+   "Traide Ai (personio:traide-ai)",
+   "Albert Schweitzer Stiftung (personio:albert-schweitzer-stiftung)",
+   "Revel8 (personio:revel8)",
+   "Phineo (personio:phineo)",
+   "Dida (personio:dida)",
+   "One Impression (lever:oneimpression)",
+   "Building Swell (lever:buildingswell)",
+   "Field AI (lever:field-ai)",
+   "Software Mind (smartrecruiters:softwaremind)",
+   "Quantum Health (lever:quantum-health)"
   ]
  },
- "collectedAt": "2026-10-07T11:28:09+00:00",
- "rawJobs": 32727,
- "matches": 188,
- "new": 2,
- "companies": 567,
- "activeCompanies": 562,
+ "collectedAt": "2026-10-07T12:17:28+00:00",
+ "rawJobs": 30756,
+ "matches": 92,
+ "new": 1,
+ "companies": 586,
+ "activeCompanies": 581,
  "funnel": {
-  "title": 31114,
-  "passed": 342,
-  "company": 37,
-  "salary": 14,
-  "location": 1124,
-  "duplicate": 154,
-  "employment": 12,
+  "title": 29394,
+  "location": 1112,
+  "passed": 139,
+  "duplicate": 47,
+  "company": 13,
+  "employment": 14,
   "too_old": 82
  },
  "matchesBySource": {
-  "adzuna": 96,
-  "ashby": 29,
-  "recruitee": 10,
-  "arbeitnow": 23,
+  "ashby": 32,
+  "himalayas": 1,
+  "recruitee": 13,
+  "arbeitnow": 13,
   "greenhouse": 5,
+  "personio": 9,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "personio": 6,
   "jobicy": 4,
   "smartrecruiters": 1
  }

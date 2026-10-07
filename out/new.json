@@ -1,48 +1,25 @@
 {
- "collectedAt": "2026-10-07T11:28:09+00:00",
- "count": 2,
+ "collectedAt": "2026-10-07T12:17:28+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "adzuna:5916690949",
-   "company": "ProcuVia AG",
-   "title": "Senior Software Engineer / Software Architect – AI & Cloud (m/w/d)",
-   "url": "https://www.adzuna.de/details/5916690949?utm_medium=api&utm_source=c19f1397",
-   "location": "Altstadt, Düsseldorf / Deutschland",
-   "remote": null,
+   "id": "ashby:elevenlabs:35813150-a851-4821-b732-a037b4e6c4fe",
+   "company": "ElevenLabs",
+   "title": "Fullstack Engineer (Backend Leaning) - Creative Agents",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/35813150-a851-4821-b732-a037b4e6c4fe",
+   "location": "Remote",
+   "remote": false,
    "postedAt": "2026-10-07",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "Dafür suchen wir einen Senior Full-Stack-Entwickler (m/w/d), der aus fachlichen Anforderungen, Analysen und bestehenden Prototypen stabile, wartbare und weiterentwickelbar… typescript",
-   "firstSeen": "2026-10-07T11:28:09+00:00"
-  },
-  {
-   "id": "adzuna:5916896080",
-   "company": "marcapo GmbH",
-   "title": "AI-Native Software Engineer (m/w/d)",
-   "url": "https://www.adzuna.de/details/5916896080?utm_medium=api&utm_source=c19f1397",
-   "location": "Ebern, Haßberge (Kreis) / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-07",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Dafür haben wir einen eigenen Workflow mit Claude… typescript",
-   "firstSeen": "2026-10-07T11:28:09+00:00"
+   "employment": "FullTime",
+   "industry": "ai",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta.",
+   "firstSeen": "2026-10-07T12:17:28+00:00"
   }
  ]
 }

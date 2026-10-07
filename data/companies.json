@@ -638,7 +638,7 @@
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Zenjob",
@@ -2471,7 +2471,7 @@
   "slug": "modash",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "intercom",
@@ -2767,7 +2767,8 @@
   "ats": "workable",
   "slug": "unitary",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Bridgemaker",
@@ -3471,7 +3472,8 @@
   "ats": "workable",
   "slug": "fortanix",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Prenosis",
@@ -3487,7 +3489,8 @@
   "ats": "workable",
   "slug": "libertexgroup",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Delinea",
@@ -3511,7 +3514,8 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Evolve",
@@ -3591,7 +3595,8 @@
   "ats": "workable",
   "slug": "european-dynamics",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Circle",
@@ -4233,7 +4238,7 @@
   "slug": "salescaptain",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Omnora GmbH",
@@ -4441,7 +4446,8 @@
   "ats": "workable",
   "slug": "universalquantum",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Kooku",
@@ -4449,7 +4455,8 @@
   "ats": "workable",
   "slug": "kooku",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-07"
+  "lastOk": "2026-10-07",
+  "failCount": 1
  },
  {
   "name": "Xu De",
@@ -4576,6 +4583,158 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "smiledigitalhealth",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "PickTrace",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "picktrace",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Remedy Product Studio",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "remedyproductstudio",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Nile Bits",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "nilebits",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Digitalagentur1 GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "digitalagentur1",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Kwanso",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "kwanso",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "MetaWealth",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "metawealth",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Greenhouse",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "greenhouse",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Lyceum",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "lyceum",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Machine Learning Reply",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "machinelearningreply",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Traide Ai",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "traide-ai",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Albert Schweitzer Stiftung",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "albert-schweitzer-stiftung",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Revel8",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "revel8",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Phineo",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "phineo",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Dida",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "dida",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "One Impression",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "oneimpression",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Building Swell",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "buildingswell",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Field AI",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "field-ai",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Software Mind",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "softwaremind",
+  "addedBy": "probe 2026-10-07",
+  "lastOk": "2026-10-07"
+ },
+ {
+  "name": "Quantum Health",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "quantum-health",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-07"
  }
