@@ -22,31 +22,22 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 54
+   "fetched": 53
   },
   "hn": {
-   "fetched": 290
+   "fetched": 292
   },
   "workingnomads": {
    "fetched": 57
   },
   "companies": {
-   "checked": 581,
-   "failed": 10
+   "checked": 605,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Usercentrics": "HTTP 429",
-   "Modash": "HTTP 429",
-   "Unitary": "HTTP 429",
-   "Fortanix": "HTTP 429",
-   "Libertex Group": "HTTP 429",
-   "Crystalia Glass LLC": "HTTP 429",
-   "EUROPEAN DYNAMICS": "HTTP 429",
-   "SalesCaptain": "HTTP 429",
-   "Kooku": "HTTP 429",
-   "Universalquantum": "HTTP 429"
+   "Usercentrics": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -62,51 +53,56 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 41,
+  "tried": 70,
   "found": [
-   "PickTrace (lever:picktrace)",
-   "Remedy Product Studio (lever:remedyproductstudio)",
-   "Nile Bits (smartrecruiters:nilebits)",
-   "Digitalagentur1 GmbH (recruitee:digitalagentur1)",
-   "Kwanso (lever:kwanso)",
-   "MetaWealth (lever:metawealth)",
-   "Greenhouse (greenhouse:greenhouse)",
-   "Lyceum (ashby:lyceum)",
-   "Machine Learning Reply (recruitee:machinelearningreply)",
-   "Traide Ai (personio:traide-ai)",
-   "Albert Schweitzer Stiftung (personio:albert-schweitzer-stiftung)",
-   "Revel8 (personio:revel8)",
-   "Phineo (personio:phineo)",
-   "Dida (personio:dida)",
-   "One Impression (lever:oneimpression)",
-   "Building Swell (lever:buildingswell)",
-   "Field AI (lever:field-ai)",
-   "Software Mind (smartrecruiters:softwaremind)",
-   "Quantum Health (lever:quantum-health)"
+   "Signode (recruitee:signode)",
+   "Eye Security (ashby:eye-security)",
+   "BeyondTrust (greenhouse:beyondtrust)",
+   "Aretum (workable:aretum)",
+   "JumpCloud (lever:jumpcloud)",
+   "Nozomi Networks (greenhouse:nozominetworks)",
+   "Egen (lever:egen)",
+   "Roompricegenie (ashby:roompricegenie)",
+   "adlicious (personio:adlicious-gmbh)",
+   "Airmo (personio:airmo)",
+   "Boardwise GmbH (personio:boardwise)",
+   "Terraquantum (greenhouse:terraquantum)",
+   "Jobtome (recruitee:jobtome)",
+   "Flatgigs (workable:flatgigs)",
+   "Alpaca (greenhouse:alpaca)",
+   "MP Solutions Ltd. (workable:mpsolutions)",
+   "SORACOM (workable:soracom)",
+   "DAMEDIC (personio:damedic-gmbh)",
+   "Fullscript (lever:fullscript)",
+   "Loft Orbital (lever:loftorbital)",
+   "Spotted Zebra (smartrecruiters:spottedzebra)",
+   "Stellar Cyber (workable:stellar-cyber)",
+   "Levanta (greenhouse:levanta)",
+   "Zus Health (ashby:zus-health)"
   ]
  },
- "collectedAt": "2026-10-07T12:17:28+00:00",
- "rawJobs": 30756,
- "matches": 92,
- "new": 1,
- "companies": 586,
- "activeCompanies": 581,
+ "collectedAt": "2026-10-07T17:18:42+00:00",
+ "rawJobs": 31848,
+ "matches": 99,
+ "new": 7,
+ "companies": 610,
+ "activeCompanies": 605,
  "funnel": {
-  "title": 29394,
-  "location": 1112,
-  "passed": 139,
-  "duplicate": 47,
-  "company": 13,
-  "employment": 14,
-  "too_old": 82
+  "title": 30461,
+  "passed": 144,
+  "location": 1127,
+  "duplicate": 45,
+  "company": 14,
+  "employment": 15,
+  "too_old": 86
  },
  "matchesBySource": {
-  "ashby": 32,
+  "arbeitnow": 15,
+  "ashby": 35,
+  "personio": 10,
+  "greenhouse": 6,
   "himalayas": 1,
   "recruitee": 13,
-  "arbeitnow": 13,
-  "greenhouse": 5,
-  "personio": 9,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
