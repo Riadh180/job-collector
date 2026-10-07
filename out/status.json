@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 1033
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 3194
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 141
+   "fetched": 138
   },
   "remoteok": {
    "fetched": 99
@@ -22,16 +22,16 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 53
+   "fetched": 54
   },
   "hn": {
-   "fetched": 289
+   "fetched": 290
   },
   "workingnomads": {
    "fetched": 56
   },
   "companies": {
-   "checked": 471,
+   "checked": 509,
    "failed": 0
   }
  },
@@ -39,11 +39,11 @@
   "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 30,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 140,
-  "callsLast7Days": 140
+  "callsToday": 30,
+  "callsLast7Days": 170
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,34 +51,75 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 120,
+  "found": [
+   "ClickUp (ashby:clickup)",
+   "Kranus Health GmbH (personio:kranus-health-gmbh)",
+   "Skaylink (lever:skaylink)",
+   "Tenna (lever:tenna)",
+   "Cito Transport Technologies (personio:cito-transport-technologies)",
+   "Awin (greenhouse:awin)",
+   "CrowdHealth (lever:crowdhealth)",
+   "gridscale GmbH (recruitee:gridscale)",
+   "trawa (ashby:trawa)",
+   "Taktile (ashby:taktile)",
+   "Black Semiconductor GmbH (ashby:blacksemiconductor)",
+   "STABL Energy (personio:stabl-energy-gmbh)",
+   "Interlead GmbH (personio:interlead)",
+   "Theobald Software GmbH (personio:theobald-software-gmbh)",
+   "Bikeleasing (personio:bikeleasing)",
+   "roboyo (greenhouse:roboyo)",
+   "Bliro (ashby:bliro)",
+   "Dornier MedTech GmbH (personio:dornier-medtech)",
+   "unframe (greenhouse:unframe)",
+   "veeamsoftware (greenhouse:veeamsoftware)",
+   "eleQtron GmbH (recruitee:eleqtron)",
+   "die Bayerische (recruitee:diebayerische)",
+   "workato (greenhouse:workato)",
+   "soundcloud71 (greenhouse:soundcloud71)",
+   "Proxima Fusion GmbH (ashby:proxima-fusion)",
+   "Stealthrocketrystartup (ashby:stealthrocketrystartup)",
+   "Ceezer (ashby:ceezer)",
+   "Superchat (greenhouse:superchat)",
+   "Banyansoftware (greenhouse:banyansoftware)",
+   "Workerbase (ashby:workerbase)",
+   "Rewire (recruitee:rewire)",
+   "FINN (lever:finn)",
+   "emnify (greenhouse:emnify)",
+   "VertiGIS GmbH (recruitee:vertigis)",
+   "Konfetti GmbH (personio:konfetti)",
+   "Andercore (ashby:andercore)",
+   "Zattoo (greenhouse:zattoo)",
+   "Statista (ashby:statista)"
+  ]
  },
- "collectedAt": "2026-10-06T23:20:11+00:00",
- "rawJobs": 27181,
- "matches": 89,
- "new": 0,
- "companies": 476,
- "activeCompanies": 471,
+ "collectedAt": "2026-10-07T07:38:06+00:00",
+ "rawJobs": 30560,
+ "matches": 203,
+ "new": 15,
+ "companies": 514,
+ "activeCompanies": 509,
  "funnel": {
-  "title": 25953,
-  "location": 990,
-  "passed": 134,
-  "company": 13,
-  "employment": 13,
-  "duplicate": 45,
-  "too_old": 76
+  "passed": 440,
+  "title": 28910,
+  "duplicate": 237,
+  "salary": 19,
+  "company": 47,
+  "location": 1047,
+  "employment": 15,
+  "too_old": 80
  },
  "matchesBySource": {
+  "adzuna": 101,
+  "arbeitnow": 31,
+  "himalayas": 1,
   "ashby": 31,
-  "arbeitnow": 13,
-  "himalayas": 2,
+  "recruitee": 10,
   "greenhouse": 5,
-  "recruitee": 12,
-  "personio": 7,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
+  "personio": 5,
   "jobicy": 4,
   "smartrecruiters": 1
  }
