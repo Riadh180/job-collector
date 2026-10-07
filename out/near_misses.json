@@ -1,5 +1,13 @@
 [
  {
+  "company": "Bookboost",
+  "title": "Full Stack Developer",
+  "location": "Germany - Munich",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/bookboost/full-stack-developer-germany-munich-93633"
+ },
+ {
   "company": "Eye Security",
   "title": "Senior Software Engineer (m/f/x)",
   "location": "Berlin - hybrid",
@@ -270,78 +278,6 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/knime-ag/full-stack-software-engineer-in-berlin-or-konstanz-174646"
- },
- {
-  "company": "KNIME AG",
-  "title": "Full-Stack Software Engineer (m/f/d) in Berlin or Konstanz",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/knime-ag/full-stack-software-engineer-in-berlin-or-konstanz-174646"
- },
- {
-  "company": "Researchgate",
-  "title": "Senior Frontend Engineer - React",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/researchgate/senior-frontend-engineer-react-berlin-438870"
- },
- {
-  "company": "Almedia",
-  "title": "Founding Engineer",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/almedia/founding-engineer-berlin-176331"
- },
- {
-  "company": "autonomous-teaming",
-  "title": "Full-Stack AI Developer – Agentic Systems (m/f/d)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/autonomous-teaming/full-stack-ai-developer-agentic-systems-berlin-47774"
- },
- {
-  "company": "Trusteq Gmbh",
-  "title": "Cybersecurity (Senior) Software Engineer (m/w/d)",
-  "location": "München",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-software-engineer-munchen-212276"
- },
- {
-  "company": "Trusteq Gmbh",
-  "title": "AI (Senior) Developer (m/w/d)",
-  "location": "München",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/ai-senior-developer-munchen-183272"
- },
- {
-  "company": "Alteos",
-  "title": "Lead Software Engineer (m/f/d)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/alteos/lead-software-engineer-berlin-268296"
- },
- {
-  "company": "Qonto",
-  "title": "Senior Web Engineer (React) - Remote friendly",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/qonto/senior-web-engineer-react-remote-friendly-berlin-251026"
- },
- {
-  "company": "parloa",
-  "title": "Staff Product Engineer",
-  "location": "",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/parloa/staff-product-engineer-87489"
  },
  {
   "company": "CodeForAI",
@@ -864,6 +800,30 @@
   "url": "https://himalayas.app/companies/draftkings-inc/jobs/fullstack-engineer-1712317424"
  },
  {
+  "company": "DataXstream",
+  "title": "Senior Search Engineer - OpenSearch",
+  "location": "Argentina",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/dataxstream/jobs/senior-search-engineer-opensearch"
+ },
+ {
+  "company": "Reddit",
+  "title": "Staff Software Engineer, Developer Ecosystem",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/reddit/jobs/staff-software-engineer-developer-ecosystem"
+ },
+ {
+  "company": "Remedy Product Studio",
+  "title": "Full Stack Engineer  (Python, Javascript)",
+  "location": "Brazil",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/remedy-product-studio/jobs/full-stack-engineer-python-javascript-6658273547"
+ },
+ {
   "company": "PickTrace",
   "title": "Senior Software Engineer",
   "location": "Mexico",
@@ -880,12 +840,28 @@
   "url": "https://himalayas.app/companies/picktrace/jobs/senior-software-engineer-607086145"
  },
  {
-  "company": "DataXstream",
-  "title": "Senior Search Engineer - OpenSearch",
-  "location": "Argentina",
+  "company": "Aptive",
+  "title": "Web Developer",
+  "location": "United States",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/dataxstream/jobs/senior-search-engineer-opensearch"
+  "url": "https://himalayas.app/companies/aptive/jobs/web-developer"
+ },
+ {
+  "company": "Sphinx Defense",
+  "title": "Senior Full Stack Engineer",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/sphinx-defense/jobs/senior-full-stack-engineer"
+ },
+ {
+  "company": "Nile Bits",
+  "title": "Power Platform Developer",
+  "location": "Egypt",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/nile-bits/jobs/power-platform-developer"
  },
  {
   "company": "Spektra Systems",
@@ -896,12 +872,12 @@
   "url": "https://himalayas.app/companies/spektra-systems/jobs/principal-ai-native-full-stack-architect"
  },
  {
-  "company": "Reddit",
-  "title": "Staff Software Engineer, Developer Ecosystem",
+  "company": "Spektra Systems",
+  "title": "Principal AI-Native Full-Stack Architect",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/reddit/jobs/staff-software-engineer-developer-ecosystem"
+  "url": "https://himalayas.app/companies/spektra-systems/jobs/principal-ai-native-full-stack-architect"
  },
  {
   "company": "Chooose",
@@ -944,70 +920,6 @@
   "url": "https://himalayas.app/companies/talent-journey/jobs/fullstack-engineer"
  },
  {
-  "company": "Talent Journey",
-  "title": "Fullstack Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/talent-journey/jobs/fullstack-engineer"
- },
- {
-  "company": "Halliburton",
-  "title": "Brazil- Remote: Full Stack AI Developer (Rio de Janeiro, RJ, BR, 291941)",
-  "location": "Brazil",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/halliburton/jobs/brazil-remote-full-stack-ai-developer-rio-de-janeiro-rj-br-291941"
- },
- {
-  "company": "Halliburton",
-  "title": "Brazil- Remote: Full Stack AI Developer (Rio de Janeiro, RJ, BR, 291941)",
-  "location": "Brazil",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/halliburton/jobs/brazil-remote-full-stack-ai-developer-rio-de-janeiro-rj-br-291941"
- },
- {
-  "company": "Spektra Systems",
-  "title": "Principal AI-Native Full-Stack Architect",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/spektra-systems/jobs/principal-ai-native-full-stack-architect"
- },
- {
-  "company": "Chooose",
-  "title": "Fullstack Devleoper (PL)",
-  "location": "Poland",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/chooose/jobs/fullstack-devleoper-pl-1145457443"
- },
- {
-  "company": "MarketerHire",
-  "title": "Internal Tools Developer",
-  "location": "Brazil",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/marketerhire/jobs/internal-tools-developer"
- },
- {
-  "company": "Reddit",
-  "title": "Staff Software Engineer, DevPlatform",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/reddit/jobs/staff-software-engineer-devplatform"
- },
- {
-  "company": "Talent Journey",
-  "title": "Fullstack Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/talent-journey/jobs/fullstack-engineer"
- },
- {
   "company": "Fever",
   "title": "Staff Product Engineer",
   "location": "Spain",
@@ -1016,116 +928,28 @@
   "url": "https://himalayas.app/companies/fever/jobs/staff-product-engineer"
  },
  {
-  "company": "Empower Pharmacy",
-  "title": "Software Engineer – Full Stack",
-  "location": "United States",
+  "company": "Overmind",
+  "title": "Full-Stack Engineer",
+  "location": "Singapore",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/empower-pharmacy/jobs/software-engineer-full-stack"
+  "url": "https://himalayas.app/companies/overmind/jobs/full-stack-engineer-250711831"
  },
  {
-  "company": "Anovium",
-  "title": "Full Stack Product Engineer [REMOTE]",
-  "location": "United States",
+  "company": "Halliburton",
+  "title": "Brazil- Remote: Full Stack AI Developer (Rio de Janeiro, RJ, BR, 291941)",
+  "location": "Brazil",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/anovium/jobs/full-stack-product-engineer-remote-8593481863"
+  "url": "https://himalayas.app/companies/halliburton/jobs/brazil-remote-full-stack-ai-developer-rio-de-janeiro-rj-br-291941"
  },
  {
-  "company": "Anovium",
-  "title": "Senior React Native Engineer",
-  "location": "United States",
+  "company": "Flat.mx",
+  "title": "Sr Front End",
+  "location": "Argentina",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/anovium/jobs/senior-react-native-engineer"
- },
- {
-  "company": "Anlatan",
-  "title": "Frontend Developer [NovelAI]",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/anlatan/jobs/frontend-developer-novelai-1713326918"
- },
- {
-  "company": "Anovium",
-  "title": "Senior React Native Engineer",
-  "location": "Colombia",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/anovium/jobs/senior-react-native-engineer-9745427913"
- },
- {
-  "company": "Anovium",
-  "title": "Full Stack Senior Software Developer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/anovium/jobs/full-stack-senior-software-developer-3375953607"
- },
- {
-  "company": "Anovium",
-  "title": "Senior Full Stack Python/FastApi/React Engineer [REMOTE]",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/anovium/jobs/senior-full-stack-python-fastapi-react-engineer-remote-717249106"
- },
- {
-  "company": "Atlas Financial Services",
-  "title": "Sr. Software Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/atlas-financial-services/jobs/sr-software-engineer-3006223442"
- },
- {
-  "company": "Relay",
-  "title": "Lead Frontend Developer (React, TypeScript)",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/relay-cc/jobs/lead-frontend-developer-react-typescript-7906233813"
- },
- {
-  "company": "Stripe",
-  "title": "Technical Solutions Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/stripe/jobs/technical-solutions-engineer-3351392851"
- },
- {
-  "company": "Zero21",
-  "title": "Founding Senior Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/zero21/jobs/founding-senior-engineer-8312723905"
- },
- {
-  "company": "Relay",
-  "title": "Frontend Developer (React, TypeScript)",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/relay-cc/jobs/frontend-developer-react-typescript-1964911251"
- },
- {
-  "company": "EnGen",
-  "title": "Full-Stack Software Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/engen/jobs/full-stack-software-engineer-5016468904"
- },
- {
-  "company": "Cribl",
-  "title": "Staff Software Engineer, Agentic Tools",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/cribl/jobs/staff-software-engineer-agentic-tools"
+  "url": "https://himalayas.app/companies/flat-mx/jobs/sr-front-end-446355236"
  },
  {
   "company": "Everbridge",
@@ -1632,14 +1456,6 @@
   "url": "https://news.ycombinator.com/item?id=49522912"
  },
  {
-  "company": "Pandektes",
-  "title": "Senior Product Engineer",
-  "location": "Copenhagen / Denmark",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/pandektes/de20f12c-79ab-4d6e-9b35-e033a8322e60"
- },
- {
   "company": "SoSafe",
   "title": "Senior Product Engineer (Typescript, Node)",
   "location": "United Kingdom Remote / Portugal Remote / Ireland Remote / United Kingdom",
@@ -1662,6 +1478,14 @@
   "remote": true,
   "source": "ashby",
   "url": "https://jobs.ashbyhq.com/sosafe/3dcfa300-3770-49b0-b865-b2ffa59f7c9f"
+ },
+ {
+  "company": "Pandektes",
+  "title": "Senior Product Engineer",
+  "location": "Copenhagen / Denmark",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/pandektes/de20f12c-79ab-4d6e-9b35-e033a8322e60"
  },
  {
   "company": "i22",
@@ -1696,14 +1520,6 @@
   "url": "https://job-boards.greenhouse.io/staffbase/jobs/8632485002"
  },
  {
-  "company": "chargecloud",
-  "title": "(Senior) Frontend Engineer (all genders)",
-  "location": "Deutschlandweit Mobil (remote)",
-  "remote": null,
-  "source": "personio",
-  "url": "https://chargecloud-gmbh.jobs.personio.com/job/2713912?language=en"
- },
- {
   "company": "Talon.One",
   "title": "Frontend Engineer",
   "location": "Berlin / Berlin",
@@ -1718,6 +1534,14 @@
   "remote": null,
   "source": "personio",
   "url": "https://420pharma.jobs.personio.de/job/2762878?language=en"
+ },
+ {
+  "company": "chargecloud",
+  "title": "(Senior) Frontend Engineer (all genders)",
+  "location": "Deutschlandweit Mobil (remote)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://chargecloud-gmbh.jobs.personio.com/job/2713912?language=en"
  },
  {
   "company": "JTL-Software",
@@ -1792,28 +1616,12 @@
   "url": "https://job-boards.eu.greenhouse.io/parloa/jobs/4989652101"
  },
  {
-  "company": "Black Forest Labs",
-  "title": "Product Engineer",
-  "location": "Freiburg (Germany) / Germany",
+  "company": "Redcare Pharmacy",
+  "title": "Senior Fullstack Engineer, Node.js & React.js (m/f/d)",
+  "location": "Berlin / BE / de",
   "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/black-forest-labs/891cf286-a408-49d3-9a11-669e9d4f4bc6"
- },
- {
-  "company": "Langdock",
-  "title": "Design Engineer - m/f/d",
-  "location": "Berlin / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/langdock/b443b7ae-975e-42da-b515-58fcf9870839"
- },
- {
-  "company": "Langdock",
-  "title": "(Senior) Product Engineer - m/f/d",
-  "location": "Berlin / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/langdock/ba8e2d17-818f-4ffb-b5ee-05d97b59a596"
+  "source": "smartrecruiters",
+  "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000149620455"
  },
  {
   "company": "Doctolib",
@@ -1856,6 +1664,30 @@
   "url": "https://job-boards.greenhouse.io/doctolib/jobs/7512129003"
  },
  {
+  "company": "Langdock",
+  "title": "Design Engineer - m/f/d",
+  "location": "Berlin / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/langdock/b443b7ae-975e-42da-b515-58fcf9870839"
+ },
+ {
+  "company": "Langdock",
+  "title": "(Senior) Product Engineer - m/f/d",
+  "location": "Berlin / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/langdock/ba8e2d17-818f-4ffb-b5ee-05d97b59a596"
+ },
+ {
+  "company": "Black Forest Labs",
+  "title": "Product Engineer",
+  "location": "Freiburg (Germany) / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/black-forest-labs/891cf286-a408-49d3-9a11-669e9d4f4bc6"
+ },
+ {
   "company": "Contentful",
   "title": "Senior Software Engineer - Personalization (f/m/d)",
   "location": "Berlin, Germany / Berlin, Germany",
@@ -1870,6 +1702,14 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/contentful/jobs/8233486"
+ },
+ {
+  "company": "Governikus",
+  "title": "Frontend Developer | Digitale Signaturen (m/w/d)",
+  "location": "Bremen",
+  "remote": null,
+  "source": "personio",
+  "url": "https://governikus.jobs.personio.de/job/2702976?language=en"
  },
  {
   "company": "Helsing",
@@ -1896,22 +1736,6 @@
   "url": "https://helsing.ai/jobs/4741242101?gh_jid=4741242101"
  },
  {
-  "company": "Governikus",
-  "title": "Frontend Developer | Digitale Signaturen (m/w/d)",
-  "location": "Bremen",
-  "remote": null,
-  "source": "personio",
-  "url": "https://governikus.jobs.personio.de/job/2702976?language=en"
- },
- {
-  "company": "Redcare Pharmacy",
-  "title": "Senior Fullstack Engineer, Node.js & React.js (m/f/d)",
-  "location": "Berlin / BE / de",
-  "remote": false,
-  "source": "smartrecruiters",
-  "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000149620455"
- },
- {
   "company": "Celonis",
   "title": "AI Product Engineer (Demo)",
   "location": "Madrid, Spain / Madrid, Spain",
@@ -1936,14 +1760,6 @@
   "url": "https://job-boards.greenhouse.io/celonis/jobs/7805685003?gh_jid=7805685003"
  },
  {
-  "company": "Smava",
-  "title": "Senior Full Stack Engineer - Loan Insurance (f/m/d) - Node.js & Typescript",
-  "location": "Berlin / Berlin",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/smavagmbh/jobs/7817688003"
- },
- {
   "company": "Scalable Capital",
   "title": "(Senior) Frontend Engineer - AI (m/f/x)",
   "location": "München / BY / de",
@@ -1958,6 +1774,14 @@
   "remote": false,
   "source": "smartrecruiters",
   "url": "https://jobs.smartrecruiters.com/ScalableGmbH/744000136237720"
+ },
+ {
+  "company": "Smava",
+  "title": "Senior Full Stack Engineer - Loan Insurance (f/m/d) - Node.js & Typescript",
+  "location": "Berlin / Berlin",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/smavagmbh/jobs/7817688003"
  },
  {
   "company": "Forto",
@@ -2040,14 +1864,6 @@
   "url": "https://jobs.ashbyhq.com/sentry/c796cd46-d80c-4ea8-9b0d-0eecbfc1353e"
  },
  {
-  "company": "Merantix",
-  "title": "Founding Engineer @ Stealth AI Recruiting Venture",
-  "location": "Berlin",
-  "remote": null,
-  "source": "personio",
-  "url": "https://merantix.jobs.personio.de/job/2532243?language=en"
- },
- {
   "company": "Sanity",
   "title": "Senior Software Engineer, AI Developer Experience",
   "location": "Remote in the United States / San Francisco Bay Area / United States",
@@ -2106,18 +1922,18 @@
  {
   "company": "Neo4j",
   "title": "Software Engineer - Connectors",
-  "location": "Malmö / London / Malmö",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://boards.greenhouse.io/neo4j/jobs/4711499006?gh_jid=4711499006"
- },
- {
-  "company": "Neo4j",
-  "title": "Software Engineer - Connectors",
   "location": "London / London / Malmö",
   "remote": null,
   "source": "greenhouse",
   "url": "https://boards.greenhouse.io/neo4j/jobs/4711501006?gh_jid=4711501006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer - Connectors",
+  "location": "Malmö / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4711499006?gh_jid=4711499006"
  },
  {
   "company": "Neo4j",
@@ -2130,42 +1946,18 @@
  {
   "company": "Neo4j",
   "title": "Software Engineer – Product Analytics Platform",
-  "location": "London / London / Malmö",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://boards.greenhouse.io/neo4j/jobs/4716565006?gh_jid=4716565006"
- },
- {
-  "company": "Neo4j",
-  "title": "Software Engineer – Product Analytics Platform",
   "location": "Malmö / London / Malmö",
   "remote": null,
   "source": "greenhouse",
   "url": "https://boards.greenhouse.io/neo4j/jobs/4716592006?gh_jid=4716592006"
  },
  {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer",
-  "location": "Remote, San Francisco, CA / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/supabase/a1320bbf-bfae-49a8-a1b7-12eeccaf39ca"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (New York, NY)",
-  "location": "Remote, New York, US / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/supabase/98ae5c78-eab7-4879-b143-96b98e4d0dbb"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "Remote, London UK / United Kingdom",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/supabase/1acade7a-0b80-4c6c-9253-7c27a165739d"
+  "company": "Neo4j",
+  "title": "Software Engineer – Product Analytics Platform",
+  "location": "London / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4716565006?gh_jid=4716565006"
  },
  {
   "company": "Vercel",
@@ -2312,6 +2104,30 @@
   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002"
  },
  {
+  "company": "Supabase",
+  "title": "Developer Relations Engineer",
+  "location": "Remote, San Francisco, CA / United States",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/supabase/a1320bbf-bfae-49a8-a1b7-12eeccaf39ca"
+ },
+ {
+  "company": "Supabase",
+  "title": "Developer Relations Engineer (New York, NY)",
+  "location": "Remote, New York, US / United States",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/supabase/98ae5c78-eab7-4879-b143-96b98e4d0dbb"
+ },
+ {
+  "company": "Supabase",
+  "title": "Developer Relations Engineer (London, UK)",
+  "location": "Remote, London UK / United Kingdom",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/supabase/1acade7a-0b80-4c6c-9253-7c27a165739d"
+ },
+ {
   "company": "Canonical",
   "title": "Senior Software Engineer - MAAS",
   "location": "Home Based - Americas; Home based - EMEA / Home Based - Americas / Home Based - EMEA",
@@ -2342,6 +2158,14 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/canonical/jobs/2804965"
+ },
+ {
+  "company": "Merantix",
+  "title": "Founding Engineer @ Stealth AI Recruiting Venture",
+  "location": "Berlin",
+  "remote": null,
+  "source": "personio",
+  "url": "https://merantix.jobs.personio.de/job/2532243?language=en"
  },
  {
   "company": "Isar Aerospace",
@@ -2392,6 +2216,30 @@
   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4999532101"
  },
  {
+  "company": "The Exploration Company",
+  "title": "Software Engineer – Mission Control Software",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/ea754862-55ec-4677-bd8c-fdc3e9e9b3ea"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "Future Projects CAD Design Engineer",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/790ae20b-ba08-45e1-978b-034aa443ff01"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "CAD Design Engineer",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/f6df55b7-198a-4933-9850-4d37c4a616df"
+ },
+ {
   "company": "Neura Robotics",
   "title": "Senior Software Engineer - NEURAGym (human)",
   "location": "Metzingen / Riederich / Germany",
@@ -2440,46 +2288,6 @@
   "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/9d4983f7-2edb-4ec0-ba61-ba8f88bf3e13"
  },
  {
-  "company": "The Exploration Company",
-  "title": "Software Engineer – Mission Control Software",
-  "location": "Munich, Germany / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/the-exploration-company/ea754862-55ec-4677-bd8c-fdc3e9e9b3ea"
- },
- {
-  "company": "The Exploration Company",
-  "title": "Future Projects CAD Design Engineer",
-  "location": "Munich, Germany / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/the-exploration-company/790ae20b-ba08-45e1-978b-034aa443ff01"
- },
- {
-  "company": "The Exploration Company",
-  "title": "CAD Design Engineer",
-  "location": "Munich, Germany / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/the-exploration-company/f6df55b7-198a-4933-9850-4d37c4a616df"
- },
- {
-  "company": "Data4Life",
-  "title": "Full-Stack Customer Success Engineer (f/m/x)",
-  "location": "Berlin/Potsdam",
-  "remote": null,
-  "source": "personio",
-  "url": "https://data4life.jobs.personio.de/job/2516869?language=en"
- },
- {
-  "company": "Data4Life",
-  "title": "Senior Full-Stack Developer (f/m/x)",
-  "location": "Berlin/Potsdam",
-  "remote": null,
-  "source": "personio",
-  "url": "https://data4life.jobs.personio.de/job/2574892?language=en"
- },
- {
   "company": "Thermondo",
   "title": "Mobile Engineer (f/m/d)",
   "location": "Berlin (Zentrale)",
@@ -2496,12 +2304,20 @@
   "url": "https://thermondo.jobs.personio.de/job/2400490?language=en"
  },
  {
-  "company": "Flix",
-  "title": "Senior Full-stack Python Engineer (m/f/d)",
-  "location": "Berlin / Berlin",
+  "company": "Data4Life",
+  "title": "Full-Stack Customer Success Engineer (f/m/x)",
+  "location": "Berlin/Potsdam",
   "remote": null,
-  "source": "greenhouse",
-  "url": "https://flix.careers/job/8570583002?gh_jid=8570583002"
+  "source": "personio",
+  "url": "https://data4life.jobs.personio.de/job/2516869?language=en"
+ },
+ {
+  "company": "Data4Life",
+  "title": "Senior Full-Stack Developer (f/m/x)",
+  "location": "Berlin/Potsdam",
+  "remote": null,
+  "source": "personio",
+  "url": "https://data4life.jobs.personio.de/job/2574892?language=en"
  },
  {
   "company": "LiveEO",
@@ -2534,6 +2350,14 @@
   "remote": null,
   "source": "personio",
   "url": "https://liveeo-gmbh.jobs.personio.de/job/2763284?language=en"
+ },
+ {
+  "company": "Flix",
+  "title": "Senior Full-stack Python Engineer (m/f/d)",
+  "location": "Berlin / Berlin",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8570583002?gh_jid=8570583002"
  },
  {
   "company": "Autoscout24",
@@ -2610,14 +2434,6 @@
  {
   "company": "Mozilla",
   "title": "Senior Software Engineer",
-  "location": "Remote / Remote US",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8204384"
- },
- {
-  "company": "Mozilla",
-  "title": "Senior Software Engineer",
   "location": "Remote Canada / Remote US",
   "remote": null,
   "source": "greenhouse",
@@ -2625,27 +2441,27 @@
  },
  {
   "company": "Mozilla",
-  "title": "Senior Software Engineer, Add-Ons",
-  "location": "Remote Belgium / Remote Canada",
+  "title": "Senior Software Engineer",
+  "location": "Remote / Remote US",
   "remote": null,
   "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188884"
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8204384"
  },
  {
   "company": "Mozilla",
   "title": "Senior Software Engineer, Add-Ons",
-  "location": "Remote / Remote Canada",
+  "location": "Remote Netherlands / Remote Canada",
   "remote": null,
   "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/7524337"
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188889"
  },
  {
   "company": "Mozilla",
   "title": "Senior Software Engineer, Add-Ons",
-  "location": "Remote Canada / Remote Canada",
+  "location": "Remote Sweden / Remote Canada",
   "remote": null,
   "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/7583557"
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188892"
  },
  {
   "company": "Mozilla",
@@ -2674,6 +2490,22 @@
  {
   "company": "Mozilla",
   "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/7524337"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Belgium / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188884"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
   "location": "Remote Spain / Remote Canada",
   "remote": null,
   "source": "greenhouse",
@@ -2682,26 +2514,10 @@
  {
   "company": "Mozilla",
   "title": "Senior Software Engineer, Add-Ons",
-  "location": "Remote Netherlands / Remote Canada",
+  "location": "Remote Canada / Remote Canada",
   "remote": null,
   "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188889"
- },
- {
-  "company": "Mozilla",
-  "title": "Senior Software Engineer, Add-Ons",
-  "location": "Remote Sweden / Remote Canada",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188892"
- },
- {
-  "company": "Mozilla",
-  "title": "Staff Product Engineer, Enterprise AI",
-  "location": "Remote US / Remote",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8247802"
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/7583557"
  },
  {
   "company": "Mozilla",
@@ -2710,6 +2526,14 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8247782"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Product Engineer, Enterprise AI",
+  "location": "Remote US / Remote",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8247802"
  },
  {
   "company": "Mozilla",
@@ -2816,30 +2640,6 @@
   "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4956759101"
  },
  {
-  "company": "Capmo",
-  "title": "Senior Software Engineer (all genders)",
-  "location": "Munich",
-  "remote": null,
-  "source": "personio",
-  "url": "https://capmo.jobs.personio.de/job/421537?language=en"
- },
- {
-  "company": "Westwing",
-  "title": "Product Engineer Customisable Furniture (m/f/d)",
-  "location": "Munich Office",
-  "remote": null,
-  "source": "personio",
-  "url": "https://westwing.jobs.personio.de/job/2732402?language=en"
- },
- {
-  "company": "Westwing",
-  "title": "Senior Fullstack Engineer (m/f/d)",
-  "location": "Munich Office",
-  "remote": null,
-  "source": "personio",
-  "url": "https://westwing.jobs.personio.de/job/2725399?language=en"
- },
- {
   "company": "Mollie",
   "title": "Full Stack Engineer II",
   "location": "Milan / Italy",
@@ -2880,36 +2680,316 @@
   "url": "https://job-boards.greenhouse.io/adyen/jobs/8097513"
  },
  {
-  "company": "Hornetsecurity",
-  "title": "Frontend Engineer",
-  "location": "MKD - Skopje",
-  "remote": null,
-  "source": "personio",
-  "url": "https://hornetsecurity.jobs.personio.de/job/2632224?language=en"
+  "company": "Spotify",
+  "title": "Senior Fullstack Engineer",
+  "location": "London / London / Stockholm",
+  "remote": true,
+  "source": "lever",
+  "url": "https://jobs.lever.co/spotify/1692fccc-29f4-4525-a683-b004c2ec62b9"
  },
  {
-  "company": "Hornetsecurity",
-  "title": "Frontend Engineer (m/f/d)",
-  "location": "FR - Hem",
-  "remote": null,
-  "source": "personio",
-  "url": "https://hornetsecurity.jobs.personio.de/job/2517444?language=en"
+  "company": "Spotify",
+  "title": "Senior Fullstack Engineer",
+  "location": "Stockholm / Stockholm",
+  "remote": false,
+  "source": "lever",
+  "url": "https://jobs.lever.co/spotify/d1df9e53-27a1-4399-aa8b-7144cf634360"
  },
  {
-  "company": "Hornetsecurity",
-  "title": "Full Stack Developer",
-  "location": "MKD - Skopje",
-  "remote": null,
-  "source": "personio",
-  "url": "https://hornetsecurity.jobs.personio.de/job/1182770?language=en"
+  "company": "Spotify",
+  "title": "Senior Web Engineer - Subscriptions",
+  "location": "London / London",
+  "remote": true,
+  "source": "lever",
+  "url": "https://jobs.lever.co/spotify/1e8c984e-fa8e-4dbb-8f74-6f608ae3bfa1"
  },
  {
-  "company": "Hornetsecurity",
-  "title": "Full Stack Developer, Malta",
-  "location": "MLT - San Gwann",
+  "company": "Stripe",
+  "title": "Design Engineer, Expansion",
+  "location": "US, Canada / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8212314"
+ },
+ {
+  "company": "Stripe",
+  "title": "Frontend Engineer, Data Product Experiences",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8194604"
+ },
+ {
+  "company": "Stripe",
+  "title": "Frontend Engineer, Expansion",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7644950"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Billing",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=6786324"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Bridge",
+  "location": "San Francisco, NYC / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8142764"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Developer & End User Experience Platform",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=6567104"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Enterprise & Ecosystem",
+  "location": "N/A / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8118929"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Enterprise Engineering",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8214616"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Enterprise Engineering",
+  "location": "N/A / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8214618"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Growth",
+  "location": "Singapore / Singapore Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7964956"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Link",
+  "location": "New York, New York / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8062305"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Money as a Service",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=6606581"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Money Movement",
+  "location": "London / United Kingdom Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8226261"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Revenue",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8234357"
+ },
+ {
+  "company": "Stripe",
+  "title": "Full Stack Engineer, Web Presence and Platform",
+  "location": "N/A / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7436086"
+ },
+ {
+  "company": "Stripe",
+  "title": "Integration Engineer, Professional Services",
+  "location": "United States or Canada / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8075577"
+ },
+ {
+  "company": "Stripe",
+  "title": "Integration Engineer, Professional Services",
+  "location": "Seattle, San Francisco, or New York / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8075570"
+ },
+ {
+  "company": "Stripe",
+  "title": "Internal Product Engineer, Developer Productivity AI",
+  "location": "Toronto, Canada  / Canada Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7896151"
+ },
+ {
+  "company": "Stripe",
+  "title": "Mobile Engineer, Treasury",
+  "location": "United Kingdom / United Kingdom Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7978915"
+ },
+ {
+  "company": "Stripe",
+  "title": "Senior Mechanical and Industrial Design Engineer",
+  "location": "Taipei,Taiwan / Taiwan Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8170920"
+ },
+ {
+  "company": "Stripe",
+  "title": "Senior Software Engineer, Docs Product",
+  "location": "New York, NY / US-PERM",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8177860"
+ },
+ {
+  "company": "Stripe",
+  "title": "Senior Software Engineer, Product Velocity",
+  "location": "Seattle, WA / US-PERM",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8194328"
+ },
+ {
+  "company": "Stripe",
+  "title": "Senior Staff Software Engineer, Stripe Dashboard",
+  "location": "Seattle / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7746721"
+ },
+ {
+  "company": "Stripe",
+  "title": "Software Engineer, Connect Tax Reporting",
+  "location": "Bucharest, Romania / RO-Bucharest",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8078337"
+ },
+ {
+  "company": "Stripe",
+  "title": "Software Engineer, New Grad - Frontend",
+  "location": "Barcelona / ES-Barcelona",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8130927"
+ },
+ {
+  "company": "Stripe",
+  "title": "Staff Software Engineer, Dashboard Product",
+  "location": "San Francisco / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8076151"
+ },
+ {
+  "company": "Stripe",
+  "title": "Staff Software Engineer, Link",
+  "location": "N/A / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8082847"
+ },
+ {
+  "company": "Stripe",
+  "title": "Staff Software Engineer, Link - Bank Connections",
+  "location": "San Francisco, Seattle, New York / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8142952"
+ },
+ {
+  "company": "Stripe",
+  "title": "Staff Software Engineer, Link - Consumer Preference",
+  "location": "San Francisco, NYC, Seattle / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8257354"
+ },
+ {
+  "company": "Stripe",
+  "title": "Staff Software Engineer, Startup Products",
+  "location": "N/A / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8146271"
+ },
+ {
+  "company": "Stripe",
+  "title": "Technical Solutions Engineer",
+  "location": "Seattle, WA, Remote-US / US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=7377101"
+ },
+ {
+  "company": "Stripe",
+  "title": "Technical Solutions Engineer",
+  "location": "Dublin / Ireland Locations",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://stripe.com/jobs/search?gh_jid=8039948"
+ },
+ {
+  "company": "Westwing",
+  "title": "Product Engineer Customisable Furniture (m/f/d)",
+  "location": "Munich Office",
   "remote": null,
   "source": "personio",
-  "url": "https://hornetsecurity.jobs.personio.de/job/345240?language=en"
+  "url": "https://westwing.jobs.personio.de/job/2732402?language=en"
+ },
+ {
+  "company": "Westwing",
+  "title": "Senior Fullstack Engineer (m/f/d)",
+  "location": "Munich Office",
+  "remote": null,
+  "source": "personio",
+  "url": "https://westwing.jobs.personio.de/job/2725399?language=en"
+ },
+ {
+  "company": "Capmo",
+  "title": "Senior Software Engineer (all genders)",
+  "location": "Munich",
+  "remote": null,
+  "source": "personio",
+  "url": "https://capmo.jobs.personio.de/job/421537?language=en"
+ },
+ {
+  "company": "Tide",
+  "title": "Staff Mobile Engineer",
+  "location": "Serbia / Beograd",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tide/jobs/8014651003"
  },
  {
   "company": "Tide",
@@ -2926,14 +3006,6 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/tide/jobs/8014654003"
- },
- {
-  "company": "Tide",
-  "title": "Staff Mobile Engineer",
-  "location": "Serbia / Beograd",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/tide/jobs/8014651003"
  },
  {
   "company": "Synthesia",
@@ -3080,86 +3152,6 @@
   "url": "https://jobs.ashbyhq.com/lovable/513393c6-1887-41b5-96fb-38982130bd36"
  },
  {
-  "company": "ElevenLabs",
-  "title": "Full-Stack Engineer (Front-End Leaning)",
-  "location": "United Kingdom / Ireland / Dublin / New York / Sofia / Los Angeles / Portugal / Poland / Sweden / London / Netherlands /",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/ada7cd2c-8b9f-4f19-a88b-7c2ca1be1fde"
- },
- {
-  "company": "ElevenLabs",
-  "title": "Safety Engineer - Free Tier Abuse",
-  "location": "United Kingdom / Dublin / Tokyo / United States / New York / Los Angeles / Poland / Poland / London / Boston / San Franc",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/3b57cc5c-f019-4a0b-a5ff-e1046e4f1fa1"
- },
- {
-  "company": "ElevenLabs",
-  "title": "Martech Engineer",
-  "location": "London / Spain / Poland / United Kingdom / United Kingdom",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/b6b6aca9-e9bc-4a6c-955d-60adbbe56d51"
- },
- {
-  "company": "ElevenLabs",
-  "title": "Full-Stack Engineer (Backend Leaning) - CreativeVoices",
-  "location": "United Kingdom / United States / Poland / Bulgaria / United Kingdom",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/77f23be6-16c0-40c5-87b6-29dc2ee752ab"
- },
- {
-  "company": "Linear",
-  "title": "Senior / Staff Fullstack Engineer",
-  "location": "North America / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32"
- },
- {
-  "company": "Linear",
-  "title": "Senior / Staff Product Engineer",
-  "location": "North America / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e"
- },
- {
-  "company": "Linear",
-  "title": "Product Engineer",
-  "location": "North America / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b"
- },
- {
-  "company": "Linear",
-  "title": "Senior / Staff Product Engineer, AI",
-  "location": "North America / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/linear/b4a7764e-c680-4bdf-9956-dc78f2ca94d5"
- },
- {
-  "company": "Mentimeter",
-  "title": "Product Engineer",
-  "location": "Stockholm / Stockholm",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/4997702101"
- },
- {
-  "company": "Mentimeter",
-  "title": "Product Engineer, Growth Acquisition",
-  "location": "Stockholm / Stockholm",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/4980399101"
- },
- {
   "company": "infisical",
   "title": "Design Engineer, Site",
   "location": "United States & Canada / United States",
@@ -3184,19 +3176,27 @@
   "url": "https://jobs.ashbyhq.com/infisical/351240fc-0dd3-48c3-a46e-e8861cae27cd"
  },
  {
-  "company": "Spotify",
-  "title": "Senior Fullstack Engineer",
-  "location": "London / London / Stockholm",
+  "company": "ElevenLabs",
+  "title": "Full-Stack Engineer (Front-End Leaning)",
+  "location": "United Kingdom / Ireland / Dublin / New York / Sofia / Los Angeles / Portugal / Poland / Sweden / London / Netherlands /",
   "remote": true,
-  "source": "lever",
-  "url": "https://jobs.lever.co/spotify/1692fccc-29f4-4525-a683-b004c2ec62b9"
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/ada7cd2c-8b9f-4f19-a88b-7c2ca1be1fde"
  },
  {
-  "company": "Spotify",
-  "title": "Senior Fullstack Engineer",
-  "location": "Stockholm / Stockholm",
-  "remote": false,
-  "source": "lever",
-  "url": "https://jobs.lever.co/spotify/d1df9e53-27a1-4399-aa8b-7144cf634360"
+  "company": "ElevenLabs",
+  "title": "Safety Engineer - Free Tier Abuse",
+  "location": "United Kingdom / Dublin / Tokyo / United States / New York / Los Angeles / Poland / Poland / London / Boston / San Franc",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/3b57cc5c-f019-4a0b-a5ff-e1046e4f1fa1"
+ },
+ {
+  "company": "ElevenLabs",
+  "title": "Martech Engineer",
+  "location": "London / Spain / Poland / United Kingdom / United Kingdom",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/b6b6aca9-e9bc-4a6c-955d-60adbbe56d51"
  }
 ]

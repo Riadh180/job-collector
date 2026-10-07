@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 2350
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 136
@@ -31,7 +31,7 @@
    "fetched": 57
   },
   "companies": {
-   "checked": 605,
+   "checked": 606,
    "failed": 0
   }
  },
@@ -51,31 +51,33 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 2,
+  "found": [
+   "Asellerate Gmbh (personio:asellerate-gmbh)"
+  ]
  },
- "collectedAt": "2026-10-07T17:38:29+00:00",
- "rawJobs": 32399,
+ "collectedAt": "2026-10-07T17:43:25+00:00",
+ "rawJobs": 31911,
  "matches": 99,
  "new": 0,
- "companies": 610,
- "activeCompanies": 605,
+ "companies": 611,
+ "activeCompanies": 606,
  "funnel": {
-  "title": 30984,
-  "passed": 149,
-  "location": 1150,
-  "duplicate": 50,
+  "title": 30522,
+  "location": 1128,
+  "passed": 145,
+  "duplicate": 46,
   "company": 14,
   "employment": 15,
   "too_old": 86
  },
  "matchesBySource": {
-  "arbeitnow": 18,
+  "arbeitnow": 15,
   "ashby": 35,
-  "personio": 9,
+  "personio": 10,
   "greenhouse": 6,
   "himalayas": 1,
-  "recruitee": 11,
+  "recruitee": 13,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
