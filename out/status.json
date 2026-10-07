@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 3150
   },
   "remotive": {
    "fetched": 136
@@ -31,12 +31,26 @@
    "fetched": 57
   },
   "companies": {
-   "checked": 606,
-   "failed": 0
+   "checked": 628,
+   "failed": 13
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Usercentrics": "HTTP 429",
+   "Unitary": "HTTP 429",
+   "Cribl": "HTTP 404",
+   "Fortanix": "HTTP 429",
+   "Libertex Group": "HTTP 429",
+   "Crystalia Glass LLC": "HTTP 429",
+   "EUROPEAN DYNAMICS": "HTTP 429",
+   "Kooku": "HTTP 429",
+   "Aretum": "HTTP 429",
+   "MP Solutions Ltd.": "HTTP 429",
+   "Stellar Cyber": "HTTP 429",
+   "Board of Innovation": "HTTP 429",
+   "Emerging Travel Group": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -51,31 +65,54 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 120,
+  "found": [
+   "OpenMined (workable:openmined)",
+   "Synera (recruitee:synera)",
+   "Sophos (lever:sophos)",
+   "Netomi (lever:netomi)",
+   "Board of Innovation (workable:boardofinnovation)",
+   "Jumpfactor (recruitee:jumpfactor)",
+   "PointClickCare (lever:pointclickcare)",
+   "Free2move (smartrecruiters:free2move)",
+   "Solactive AG (personio:solactive)",
+   "Emerging Travel Group (workable:emerging-travel-group)",
+   "Bitwarden (greenhouse:bitwarden)",
+   "DDN (ashby:ddn)",
+   "Sayari (greenhouse:sayari)",
+   "EVB (smartrecruiters:evb)",
+   "Overstory (greenhouse:overstory)",
+   "Airbnb (greenhouse:airbnb)",
+   "Veeam Software (greenhouse:veeamsoftware)",
+   "Axon (greenhouse:axon)",
+   "Lyra Health (lever:lyrahealth)",
+   "Xsolla (lever:xsolla)",
+   "ekipa GmbH (smartrecruiters:ekipa)",
+   "Playto Labs (smartrecruiters:playtolabs)"
+  ]
  },
- "collectedAt": "2026-10-07T17:47:47+00:00",
- "rawJobs": 31916,
- "matches": 99,
- "new": 0,
- "companies": 611,
- "activeCompanies": 606,
+ "collectedAt": "2026-10-07T18:13:11+00:00",
+ "rawJobs": 34711,
+ "matches": 110,
+ "new": 1,
+ "companies": 633,
+ "activeCompanies": 628,
  "funnel": {
-  "title": 30527,
-  "location": 1128,
-  "passed": 145,
-  "duplicate": 46,
-  "company": 14,
-  "employment": 15,
+  "title": 33240,
+  "location": 1194,
+  "passed": 159,
+  "duplicate": 49,
+  "company": 15,
+  "employment": 16,
   "too_old": 86
  },
  "matchesBySource": {
-  "arbeitnow": 15,
-  "ashby": 35,
+  "himalayas": 1,
+  "arbeitnow": 29,
+  "ashby": 34,
   "personio": 10,
   "greenhouse": 6,
-  "himalayas": 1,
-  "recruitee": 13,
+  "recruitee": 11,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,

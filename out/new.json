@@ -1,5 +1,27 @@
 {
- "collectedAt": "2026-10-07T17:47:47+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-07T18:13:11+00:00",
+ "count": 1,
+ "jobs": [
+  {
+   "id": "himalayas:https://himalayas.app/companies/halon/jobs/sr-pipeline-engineer",
+   "company": "Halon",
+   "title": "Sr. Pipeline Engineer",
+   "url": "https://himalayas.app/companies/halon/jobs/sr-pipeline-engineer",
+   "location": "France / Germany / Italy / Portugal / Spain / United Kingdom",
+   "remote": true,
+   "postedAt": "2026-10-07",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Build the front-ends for those tools across our surfaces: web (TypeScript/JavaScript), Qt/PySide desktop UIs, and in-engine tools in Unreal, with an emphasis on interfaces that are fast, responsive, and a pleasure to use. | UI/UX and front-end ability: you build responsive, intuitive interfaces (web with TypeScript/JavaScript, Qt/PySide desktop UIs, and in-engine tools) and care about the details of how they feel to use. | Excellent communication skills in fluent English, written and spoken (C1 or higher, near-native). | We are a fully remote team with no project managers, so clear, proactive communication is essential: you explain your technical decisions, align on priorities with the team,",
+   "firstSeen": "2026-10-07T18:13:11+00:00"
+  }
+ ]
 }
