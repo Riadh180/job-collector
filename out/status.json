@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1029
+   "fetched": 969
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 3050
   },
   "remotive": {
    "fetched": 144
@@ -28,10 +28,10 @@
    "fetched": 290
   },
   "workingnomads": {
-   "fetched": 56
+   "fetched": 57
   },
   "companies": {
-   "checked": 535,
+   "checked": 536,
    "failed": 0
   }
  },
@@ -40,10 +40,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 230
+  "callsToday": 120,
+  "callsLast7Days": 260
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,36 +51,37 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 6,
-  "found": []
+  "tried": 12,
+  "found": [
+   "Digital Forms (recruitee:digitalforms)"
+  ]
  },
- "collectedAt": "2026-10-07T08:42:00+00:00",
- "rawJobs": 30611,
- "matches": 188,
+ "collectedAt": "2026-10-07T08:48:49+00:00",
+ "rawJobs": 31790,
+ "matches": 180,
  "new": 0,
- "companies": 540,
- "activeCompanies": 535,
+ "companies": 541,
+ "activeCompanies": 536,
  "funnel": {
-  "title": 28954,
-  "passed": 426,
-  "company": 45,
-  "salary": 19,
-  "location": 1070,
-  "duplicate": 238,
-  "employment": 15,
+  "passed": 338,
+  "title": 30212,
+  "duplicate": 158,
+  "salary": 16,
+  "company": 37,
+  "location": 1092,
+  "employment": 13,
   "too_old": 80
  },
  "matchesBySource": {
-  "adzuna": 102,
-  "himalayas": 1,
-  "ashby": 32,
-  "recruitee": 11,
-  "arbeitnow": 12,
+  "adzuna": 83,
+  "ashby": 31,
+  "recruitee": 9,
+  "arbeitnow": 28,
   "greenhouse": 5,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "personio": 6,
+  "personio": 5,
   "jobicy": 4,
   "smartrecruiters": 1
  }
