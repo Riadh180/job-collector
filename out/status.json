@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 973
+   "fetched": 1029
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3194
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 138
+   "fetched": 132
   },
   "remoteok": {
    "fetched": 99
@@ -32,27 +32,18 @@
   },
   "companies": {
    "checked": 535,
-   "failed": 8
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Usercentrics": "HTTP 429",
-   "Modash": "HTTP 429",
-   "Unitary": "HTTP 429",
-   "Fortanix": "HTTP 429",
-   "Libertex Group": "HTTP 429",
-   "Crystalia Glass LLC": "HTTP 429",
-   "EUROPEAN DYNAMICS": "HTTP 429",
-   "SalesCaptain": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 200
+  "callsToday": 90,
+  "callsLast7Days": 230
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -60,63 +51,36 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 93,
-  "found": [
-   "Lynx Solutions (smartrecruiters:lynxsolutions)",
-   "Relay (ashby:relay)",
-   "Fresha (lever:fresha)",
-   "Veda (ashby:veda)",
-   "Atlas Financial Services (lever:atlas-financial-services)",
-   "Ancient Gaming (recruitee:ancientgaming)",
-   "DVT (recruitee:dvt)",
-   "TechBiz Global (recruitee:techbizglobal)",
-   "Tipico (smartrecruiters:tipico)",
-   "SalesCaptain (workable:salescaptain)",
-   "Omnora GmbH (personio:omnora)",
-   "Adventus (lever:adventus)",
-   "Resilinc (lever:resilinc)",
-   "Quincus (lever:quincus)",
-   "ISEE (lever:isee)",
-   "Phiture (greenhouse:phiture)",
-   "NICE (greenhouse:nice)",
-   "CoinMarketCap (lever:coinmarketcap)",
-   "Zscaler (greenhouse:zscaler)",
-   "Oddin (lever:oddin)",
-   "nexos.ai (ashby:nexos-ai)",
-   "Supermove (lever:supermove)",
-   "Gradient Labs (ashby:gradient-labs)",
-   "CSC (recruitee:csc)",
-   "Hire Hangar (ashby:hirehangar)",
-   "BBHT (recruitee:bbht)"
-  ]
+  "tried": 6,
+  "found": []
  },
- "collectedAt": "2026-10-07T08:08:57+00:00",
- "rawJobs": 31491,
- "matches": 185,
- "new": 1,
+ "collectedAt": "2026-10-07T08:42:00+00:00",
+ "rawJobs": 30611,
+ "matches": 188,
+ "new": 0,
  "companies": 540,
  "activeCompanies": 535,
  "funnel": {
-  "title": 29920,
-  "passed": 343,
-  "company": 38,
-  "duplicate": 158,
-  "salary": 16,
-  "location": 1079,
-  "employment": 13,
+  "title": 28954,
+  "passed": 426,
+  "company": 45,
+  "salary": 19,
+  "location": 1070,
+  "duplicate": 238,
+  "employment": 15,
   "too_old": 80
  },
  "matchesBySource": {
-  "adzuna": 83,
-  "arbeitnow": 32,
+  "adzuna": 102,
   "himalayas": 1,
-  "ashby": 31,
-  "recruitee": 9,
+  "ashby": 32,
+  "recruitee": 11,
+  "arbeitnow": 12,
   "greenhouse": 5,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "personio": 5,
+  "personio": 6,
   "jobicy": 4,
   "smartrecruiters": 1
  }
