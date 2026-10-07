@@ -51,19 +51,17 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 2,
-  "found": [
-   "Asellerate Gmbh (personio:asellerate-gmbh)"
-  ]
+  "tried": 0,
+  "found": []
  },
- "collectedAt": "2026-10-07T17:43:25+00:00",
- "rawJobs": 31911,
+ "collectedAt": "2026-10-07T17:47:47+00:00",
+ "rawJobs": 31916,
  "matches": 99,
  "new": 0,
  "companies": 611,
  "activeCompanies": 606,
  "funnel": {
-  "title": 30522,
+  "title": 30527,
   "location": 1128,
   "passed": 145,
   "duplicate": 46,
