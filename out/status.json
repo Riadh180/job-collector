@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1010
+   "fetched": 1090
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 2750
+   "fetched": 1850
   },
   "remotive": {
-   "fetched": 136
+   "fetched": 152
   },
   "jobicy": {
-   "fetched": 132
+   "fetched": 135
   },
   "remoteok": {
    "fetched": 99
@@ -22,17 +22,17 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 55
+   "fetched": 56
   },
   "hn": {
-   "fetched": 296
+   "fetched": 297
   },
   "workingnomads": {
    "fetched": 41
   },
   "companies": {
-   "checked": 691,
-   "failed": 23
+   "checked": 703,
+   "failed": 24
   }
  },
  "errors": {
@@ -59,15 +59,16 @@
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Jalasoft": "HTTP 429",
-   "Remotebase": "HTTP 429"
+   "Remotebase": "HTTP 429",
+   "Codurance": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 17,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 310
+  "callsToday": 60,
+  "callsLast7Days": 340
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -75,75 +76,50 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 120,
+  "tried": 67,
   "found": [
-   "Dataiku (greenhouse:dataiku)",
-   "Rausgegangen GmbH (personio:rausgegangen)",
-   "Certivity (personio:certivity)",
-   "BV Bestseller Verlag GmbH (personio:bv-bestseller-verlag-gmbh)",
-   "2brains (lever:2brains)",
-   "Huzzle (workable:huzzle)",
-   "Zenjob SE (ashby:zenjob)",
-   "Chrono24 (personio:chrono24)",
-   "INSIDE M2M GmbH (recruitee:insidem2m)",
-   "Worth AI (workable:worthai)",
-   "Xage Security (lever:xage-security)",
-   "Jalasoft (workable:jalasoft)",
-   "Businessolver (greenhouse:businessolver)",
-   "Gismart (ashby:gismart)",
-   "Remotebase (workable:remotebase)",
-   "Binance (lever:binance)",
-   "truckoo GmbH (personio:truckoo-gmbh)",
-   "AWSM Systems Sp. z o.o. (recruitee:awsmsystemsspzoo)",
-   "Jumio (greenhouse:jumio)",
-   "AUMOVIO (smartrecruiters:aumovio)",
-   "Haiilo (personio:haiilo)",
-   "Mobimeo GmbH (personio:mobimeo)",
-   "Crytek (lever:crytek)",
-   "Pipedrive (lever:pipedrive)",
-   "1Komma5Grad (personio:1komma5grad)",
-   "rebuy (ashby:rebuy)",
-   "Luminovo GmbH (ashby:luminovo)",
-   "Auditdata (recruitee:auditdata)",
-   "Xplor (smartrecruiters:xplor)",
-   "Foth (lever:foth)",
-   "Sphere, Inc. (ashby:sphere)",
-   "Aircall (lever:aircall)",
-   "BlueCat Networks (lever:bluecatnetworks)",
-   "TradeTracker (personio:tradetracker)",
-   "BSI (recruitee:bsi)",
-   "Nexus Nova (personio:nexus-nova)",
-   "IT-HAUS GmbH (personio:it-haus-gmbh)"
+   "Contabo GmbH (personio:contabo)",
+   "schauinsland-reisen gmbh (personio:schauinsland-reisen-gmbh)",
+   "Hard Rock Digital (recruitee:hardrockdigital)",
+   "Codurance (workable:codurance)",
+   "OKAPI:Orbits GmbH (personio:okapiorbits)",
+   "InfraCloud (smartrecruiters:infracloud)",
+   "Sport Alliance GmbH (lever:sportalliance)",
+   "what. AG (recruitee:what)",
+   "ALTEN (smartrecruiters:alten)",
+   "KPMG Australia (smartrecruiters:kpmgaustralia)",
+   "Ojin (greenhouse:ojin)",
+   "ICEYE (ashby:iceye)"
   ]
  },
- "collectedAt": "2026-10-08T10:31:37+00:00",
- "rawJobs": 38466,
- "matches": 173,
- "new": 21,
- "companies": 696,
- "activeCompanies": 691,
+ "collectedAt": "2026-10-08T11:43:46+00:00",
+ "rawJobs": 38527,
+ "matches": 201,
+ "new": 11,
+ "companies": 708,
+ "activeCompanies": 703,
  "funnel": {
-  "title": 36734,
-  "passed": 310,
-  "duplicate": 137,
-  "salary": 10,
-  "company": 75,
-  "location": 1236,
-  "employment": 7,
+  "title": 36690,
+  "salary": 11,
+  "passed": 412,
+  "company": 65,
+  "duplicate": 211,
+  "location": 1247,
+  "employment": 8,
   "too_old": 93
  },
  "matchesBySource": {
-  "adzuna": 76,
-  "arbeitnow": 17,
-  "jobicy": 6,
-  "himalayas": 2,
+  "adzuna": 114,
+  "arbeitnow": 9,
+  "jobicy": 7,
   "ashby": 33,
-  "personio": 8,
+  "personio": 6,
   "greenhouse": 6,
   "recruitee": 10,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
+  "himalayas": 1,
   "smartrecruiters": 1
  }
 }
