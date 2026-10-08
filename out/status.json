@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1088
+   "fetched": 643
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 152
   },
   "jobicy": {
-   "fetched": 145
+   "fetched": 147
   },
   "remoteok": {
    "fetched": 99
@@ -31,19 +31,36 @@
    "fetched": 55
   },
   "companies": {
-   "checked": 722,
-   "failed": 0
+   "checked": 728,
+   "failed": 16
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Modash": "HTTP 429",
+   "SalesCaptain": "HTTP 429",
+   "Universalquantum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Jalasoft": "HTTP 429",
+   "Remotebase": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "SPD Technology": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Power Factors": "HTTP 429",
+   "Avomind": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 18,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 400
+  "callsToday": 140,
+  "callsLast7Days": 420
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,49 +68,41 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 55,
+  "tried": 44,
   "found": [
-   "Devoted Health (smartrecruiters:devotedhealth)",
-   "SPD Technology (workable:spd-technology)",
-   "Zencoder (greenhouse:zencoder)",
-   "Monks (greenhouse:monks)",
-   "Tenstorrent (greenhouse:tenstorrent)",
-   "Vclusterlabs (ashby:vclusterlabs)",
-   "DEMV Systems Gmbh (recruitee:demvsystems)",
-   "Gridcog (workable:gridcog)",
-   "Saviynt (lever:saviynt)",
-   "Parent ApS (recruitee:parentaps)",
-   "syte (personio:syte-gmbh)",
-   "Marktlink (recruitee:marktlink)",
-   "Nitrado (personio:nitrado)",
-   "AlphaSense (greenhouse:alphasense)"
+   "HoYoverse (ashby:hoyoverse)",
+   "Power Factors (workable:power-factors)",
+   "Truv (lever:truv)",
+   "Avomind (workable:avomind)",
+   "Revalize (smartrecruiters:revalize)",
+   "Z1 Tech (lever:z1tech)"
   ]
  },
- "collectedAt": "2026-10-08T19:57:02+00:00",
- "rawJobs": 43145,
- "matches": 211,
- "new": 7,
- "companies": 740,
- "activeCompanies": 722,
+ "collectedAt": "2026-10-08T20:29:35+00:00",
+ "rawJobs": 39735,
+ "matches": 168,
+ "new": 0,
+ "companies": 746,
+ "activeCompanies": 728,
  "funnel": {
-  "passed": 418,
-  "title": 41108,
-  "company": 59,
-  "duplicate": 207,
-  "employment": 9,
-  "salary": 13,
-  "location": 1441,
-  "too_old": 96
+  "passed": 307,
+  "title": 37972,
+  "company": 51,
+  "duplicate": 139,
+  "salary": 7,
+  "location": 1295,
+  "employment": 7,
+  "too_old": 95
  },
  "matchesBySource": {
-  "adzuna": 121,
-  "himalayas": 4,
-  "arbeitnow": 9,
+  "adzuna": 75,
+  "himalayas": 2,
+  "arbeitnow": 11,
   "jobicy": 7,
   "ashby": 33,
-  "personio": 6,
+  "personio": 8,
   "greenhouse": 6,
-  "recruitee": 10,
+  "recruitee": 11,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
