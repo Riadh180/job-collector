@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1090
+   "fetched": 1048
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 1950
   },
   "remotive": {
    "fetched": 152
   },
   "jobicy": {
-   "fetched": 135
+   "fetched": 145
   },
   "remoteok": {
    "fetched": 99
@@ -22,17 +22,17 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 56
+   "fetched": 55
   },
   "hn": {
    "fetched": 297
   },
   "workingnomads": {
-   "fetched": 41
+   "fetched": 55
   },
   "companies": {
-   "checked": 703,
-   "failed": 24
+   "checked": 721,
+   "failed": 25
   }
  },
  "errors": {
@@ -46,8 +46,8 @@
    "Crystalia Glass LLC": "HTTP 429",
    "EUROPEAN DYNAMICS": "HTTP 429",
    "SalesCaptain": "HTTP 429",
-   "Universalquantum": "HTTP 429",
    "Kooku": "HTTP 429",
+   "Universalquantum": "HTTP 429",
    "Aretum": "HTTP 429",
    "Flatgigs": "HTTP 429",
    "MP Solutions Ltd.": "HTTP 429",
@@ -60,15 +60,16 @@
    "Worth AI": "HTTP 429",
    "Jalasoft": "HTTP 429",
    "Remotebase": "HTTP 429",
-   "Codurance": "HTTP 429"
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 340
+  "callsToday": 90,
+  "callsLast7Days": 370
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -76,50 +77,56 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 67,
+  "tried": 110,
   "found": [
-   "Contabo GmbH (personio:contabo)",
-   "schauinsland-reisen gmbh (personio:schauinsland-reisen-gmbh)",
-   "Hard Rock Digital (recruitee:hardrockdigital)",
-   "Codurance (workable:codurance)",
-   "OKAPI:Orbits GmbH (personio:okapiorbits)",
-   "InfraCloud (smartrecruiters:infracloud)",
-   "Sport Alliance GmbH (lever:sportalliance)",
-   "what. AG (recruitee:what)",
-   "ALTEN (smartrecruiters:alten)",
-   "KPMG Australia (smartrecruiters:kpmgaustralia)",
-   "Ojin (greenhouse:ojin)",
-   "ICEYE (ashby:iceye)"
+   "Pleo (ashby:pleo)",
+   "MOBIKO GmbH (personio:mobiko)",
+   "Monarch Money (ashby:monarchmoney)",
+   "InnovationTeam (workable:innovationteam)",
+   "Complero GmbH (personio:complero-gmbh)",
+   "orderbird GmbH (personio:orderbird)",
+   "enmacc (greenhouse:enmacc)",
+   "CURRENTA GRUPPE (recruitee:currentagruppe)",
+   "encontec GmbH (recruitee:encontecgmbh)",
+   "Addepto (recruitee:addepto)",
+   "Timeleft (greenhouse:timeleft)",
+   "Empower (personio:empower)",
+   "digetiers (personio:digetiers-gmbh)",
+   "SIMCON (personio:simcon)",
+   "Lifted (an Upwork Company) (smartrecruiters:liftedanupworkcompany)",
+   "Sysdig (lever:sysdig)",
+   "S-PRO (recruitee:spro)",
+   "DeepHealth (recruitee:deephealth)"
   ]
  },
- "collectedAt": "2026-10-08T11:43:46+00:00",
- "rawJobs": 38527,
- "matches": 201,
- "new": 11,
- "companies": 708,
- "activeCompanies": 703,
+ "collectedAt": "2026-10-08T17:14:10+00:00",
+ "rawJobs": 39331,
+ "matches": 182,
+ "new": 8,
+ "companies": 726,
+ "activeCompanies": 721,
  "funnel": {
-  "title": 36690,
-  "salary": 11,
-  "passed": 412,
-  "company": 65,
-  "duplicate": 211,
-  "location": 1247,
-  "employment": 8,
-  "too_old": 93
+  "title": 37539,
+  "company": 66,
+  "passed": 347,
+  "duplicate": 165,
+  "salary": 13,
+  "location": 1264,
+  "employment": 7,
+  "too_old": 94
  },
  "matchesBySource": {
-  "adzuna": 114,
-  "arbeitnow": 9,
+  "adzuna": 86,
+  "arbeitnow": 12,
+  "himalayas": 3,
   "jobicy": 7,
-  "ashby": 33,
-  "personio": 6,
+  "ashby": 34,
+  "personio": 8,
   "greenhouse": 6,
-  "recruitee": 10,
+  "recruitee": 11,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
-  "himalayas": 1,
   "smartrecruiters": 1
  }
 }
