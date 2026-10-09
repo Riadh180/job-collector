@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 643
+   "fetched": 1090
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 152
   },
   "jobicy": {
-   "fetched": 147
+   "fetched": 150
   },
   "remoteok": {
    "fetched": 99
@@ -25,14 +25,14 @@
    "fetched": 55
   },
   "hn": {
-   "fetched": 296
+   "fetched": 298
   },
   "workingnomads": {
-   "fetched": 55
+   "fetched": 54
   },
   "companies": {
-   "checked": 728,
-   "failed": 16
+   "checked": 738,
+   "failed": 17
   }
  },
  "errors": {
@@ -52,15 +52,16 @@
    "SPD Technology": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Power Factors": "HTTP 429",
-   "Avomind": "HTTP 429"
+   "Avomind": "HTTP 429",
+   "Treantly": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "callsThisRun": 30,
+  "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 140,
-  "callsLast7Days": 420
+  "callsToday": 30,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -68,39 +69,43 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 44,
+  "tried": 62,
   "found": [
-   "HoYoverse (ashby:hoyoverse)",
-   "Power Factors (workable:power-factors)",
-   "Truv (lever:truv)",
-   "Avomind (workable:avomind)",
-   "Revalize (smartrecruiters:revalize)",
-   "Z1 Tech (lever:z1tech)"
+   "PadSplit (lever:padsplit)",
+   "Orcrist Technologies (greenhouse:orcristtechnologies)",
+   "Flip GmbH (ashby:flip)",
+   "360Learning (lever:360learning)",
+   "Peter Park (personio:peter-park)",
+   "Treantly (workable:treantly)",
+   "Orgatex (personio:orgatex)",
+   "Jitterbit (smartrecruiters:jitterbit)",
+   "SparePartsNow GmbH (personio:sparepartsnow-gmbh)",
+   "All Your BI (recruitee:allyourbi)"
   ]
  },
- "collectedAt": "2026-10-08T20:29:35+00:00",
- "rawJobs": 39735,
- "matches": 168,
- "new": 0,
- "companies": 746,
- "activeCompanies": 728,
+ "collectedAt": "2026-10-09T01:05:00+00:00",
+ "rawJobs": 40362,
+ "matches": 207,
+ "new": 5,
+ "companies": 756,
+ "activeCompanies": 738,
  "funnel": {
-  "passed": 307,
-  "title": 37972,
-  "company": 51,
-  "duplicate": 139,
-  "salary": 7,
-  "location": 1295,
-  "employment": 7,
-  "too_old": 95
+  "title": 38468,
+  "passed": 409,
+  "company": 62,
+  "duplicate": 202,
+  "salary": 15,
+  "location": 1301,
+  "employment": 10,
+  "too_old": 96
  },
  "matchesBySource": {
-  "adzuna": 75,
-  "himalayas": 2,
-  "arbeitnow": 11,
+  "adzuna": 115,
+  "himalayas": 4,
+  "arbeitnow": 10,
   "jobicy": 7,
-  "ashby": 33,
-  "personio": 8,
+  "ashby": 32,
+  "personio": 7,
   "greenhouse": 6,
   "recruitee": 11,
   "weworkremotely": 7,
