@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 776
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 2750
   },
   "remotive": {
    "fetched": 136
@@ -31,7 +31,7 @@
    "fetched": 54
   },
   "companies": {
-   "checked": 779,
+   "checked": 800,
    "failed": 31
   }
  },
@@ -39,8 +39,8 @@
   "companies": {
    "Candis": "HTTP 404",
    "Constellr": "HTTP 404",
-   "Architrave": "HTTP 404",
    "Planradar": "HTTP 404",
+   "Architrave": "HTTP 404",
    "Lendis": "HTTP 404",
    "Silvernova GmbH": "HTTP 404",
    "Modash": "HTTP 429",
@@ -57,22 +57,22 @@
    "Worth AI": "HTTP 429",
    "Jalasoft": "HTTP 429",
    "Remotebase": "HTTP 429",
-   "Codurance": "HTTP 429",
    "Haiilo": "HTTP 404",
+   "Codurance": "HTTP 429",
    "InnovationTeam": "HTTP 429",
    "SPD Technology": "HTTP 429",
    "Gridcog": "HTTP 429",
+   "Empower": "HTTP 404",
    "Power Factors": "HTTP 429",
    "Avomind": "HTTP 429",
    "Treantly": "HTTP 429",
-   "Empower": "HTTP 404",
-   "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429"
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 560
@@ -83,44 +83,54 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 32,
+  "tried": 103,
   "found": [
-   "Forvis Mazars (greenhouse:forvismazars)",
-   "Lucanet Group (greenhouse:lucanetgroup)",
-   "stakefish (workable:stakefish)",
-   "Zeal Network (ashby:zeal-network)",
-   "Accurids GmbH (personio:accurids-gmbh)",
-   "3Ss (workable:3ss)",
-   "Xibix Solutions Gmbh (personio:xibix-solutions-gmbh)",
-   "Knick Gmbh (personio:knick-gmbh)",
-   "PQShield (greenhouse:pqshield)",
-   "InPost (smartrecruiters:inpost)"
+   "SupportYourApp (workable:supportyourapp)",
+   "Applaudo Studios (smartrecruiters:applaudostudios)",
+   "Keeper Security, Inc. (greenhouse:keepersecurity)",
+   "Nodeworthy (recruitee:nodeworthy)",
+   "Massive Rocket (lever:massive-rocket)",
+   "Serotonin (lever:serotonin)",
+   "Sierra7 (smartrecruiters:sierra7)",
+   "ITQ (recruitee:itq)",
+   "Cint (smartrecruiters:cint)",
+   "QIMA (smartrecruiters:qima)",
+   "Mendix (lever:mendix)",
+   "KIPP (smartrecruiters:kipp)",
+   "Aerostrat (lever:aerostrat)",
+   "Brave (greenhouse:brave)",
+   "Blend360 (smartrecruiters:blend360)",
+   "Zingtree (lever:zingtree)",
+   "BigBinary (smartrecruiters:bigbinary)",
+   "Blue Coding (lever:bluecoding)",
+   "Canva (smartrecruiters:canva)",
+   "Goldstone Partners, Inc. (smartrecruiters:goldstonepartners)",
+   "Onit (lever:onit)"
   ]
  },
- "collectedAt": "2026-10-09T16:50:36+00:00",
- "rawJobs": 42923,
- "matches": 201,
- "new": 6,
- "companies": 797,
- "activeCompanies": 779,
+ "collectedAt": "2026-10-09T19:59:25+00:00",
+ "rawJobs": 44605,
+ "matches": 114,
+ "new": 4,
+ "companies": 818,
+ "activeCompanies": 800,
  "funnel": {
-  "passed": 351,
-  "title": 40995,
-  "duplicate": 150,
-  "company": 61,
-  "salary": 13,
-  "location": 1388,
-  "employment": 17,
-  "too_old": 97
+  "title": 42885,
+  "location": 1411,
+  "passed": 181,
+  "duplicate": 67,
+  "employment": 14,
+  "company": 15,
+  "too_old": 98
  },
  "matchesBySource": {
-  "adzuna": 111,
-  "arbeitnow": 11,
-  "greenhouse": 8,
+  "himalayas": 4,
+  "personio": 11,
+  "arbeitnow": 25,
+  "greenhouse": 7,
   "ashby": 33,
   "jobicy": 6,
-  "personio": 7,
-  "recruitee": 10,
+  "recruitee": 13,
   "weworkremotely": 7,
   "hn": 6,
   "workingnomads": 1,
