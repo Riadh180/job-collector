@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1106
+   "fetched": 1033
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -22,28 +22,41 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 54
+   "fetched": 55
   },
   "hn": {
-   "fetched": 298
+   "fetched": 299
   },
   "workingnomads": {
    "fetched": 54
   },
   "companies": {
-   "checked": 765,
-   "failed": 0
+   "checked": 769,
+   "failed": 12
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Candis": "HTTP 404",
+   "Constellr": "HTTP 404",
+   "Architrave": "HTTP 404",
+   "Planradar": "HTTP 404",
+   "Lendis": "HTTP 404",
+   "Silvernova GmbH": "HTTP 404",
+   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
+   "VIAVI Solutions": "HTTP 404",
+   "Konfetti GmbH": "HTTP 404",
+   "adlicious": "HTTP 404",
+   "Haiilo": "HTTP 404",
+   "Empower": "HTTP 404"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 17,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 510
+  "callsToday": 120,
+  "callsLast7Days": 540
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,46 +64,36 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 44,
+  "tried": 24,
   "found": [
-   "Ruby Labs (ashby:ruby-labs)",
-   "Flex (greenhouse:flex)",
-   "Ethena (lever:ethena)",
-   "Doctolib GmbH (ashby:doctolib)",
-   "Ideals (ashby:ideals)",
-   "Linro (ashby:linro)",
-   "celebrate company GmbH (recruitee:celebratecompany)",
-   "Talan (smartrecruiters:talan)",
-   "Snowflake (ashby:snowflake)",
-   "Accurate Background (smartrecruiters:accuratebackground)",
-   "Ergomed (smartrecruiters:ergomed)",
-   "AbbVie (smartrecruiters:abbvie)",
-   "Mutt Data (lever:muttdata)",
-   "DEPT® (greenhouse:dept)",
-   "Kata.ai (smartrecruiters:kataai)"
+   "einwert (personio:einwert)",
+   "Fact Finder (personio:fact-finder)",
+   "Horizon3Ai (ashby:horizon3ai)",
+   "Wemolo (ashby:wemolo)"
   ]
  },
- "collectedAt": "2026-10-09T11:37:00+00:00",
- "rawJobs": 46173,
- "matches": 213,
- "new": 12,
- "companies": 783,
- "activeCompanies": 765,
+ "collectedAt": "2026-10-09T14:26:54+00:00",
+ "rawJobs": 46235,
+ "matches": 186,
+ "new": 2,
+ "companies": 787,
+ "activeCompanies": 769,
  "funnel": {
-  "title": 44057,
-  "passed": 404,
-  "duplicate": 191,
-  "company": 68,
-  "salary": 17,
-  "location": 1514,
-  "employment": 17,
-  "too_old": 95
+  "title": 44145,
+  "passed": 370,
+  "company": 76,
+  "duplicate": 184,
+  "salary": 11,
+  "location": 1521,
+  "employment": 14,
+  "too_old": 97
  },
  "matchesBySource": {
-  "adzuna": 118,
-  "arbeitnow": 15,
-  "greenhouse": 7,
-  "ashby": 35,
+  "adzuna": 92,
+  "arbeitnow": 14,
+  "greenhouse": 8,
+  "ashby": 33,
+  "himalayas": 1,
   "jobicy": 6,
   "personio": 7,
   "recruitee": 10,
