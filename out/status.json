@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1024
+   "fetched": 1106
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1950
+   "fetched": 1850
   },
   "remotive": {
-   "fetched": 152
+   "fetched": 136
   },
   "jobicy": {
-   "fetched": 141
+   "fetched": 147
   },
   "remoteok": {
    "fetched": 99
@@ -31,37 +31,19 @@
    "fetched": 54
   },
   "companies": {
-   "checked": 750,
-   "failed": 17
+   "checked": 765,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Modash": "HTTP 429",
-   "SalesCaptain": "HTTP 429",
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Jalasoft": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Remotebase": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "SPD Technology": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Power Factors": "HTTP 429",
-   "Avomind": "HTTP 429",
-   "Treantly": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 480
+  "callsToday": 90,
+  "callsLast7Days": 510
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -69,46 +51,48 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 55,
+  "tried": 44,
   "found": [
-   "Assetmetrix Gmbh (personio:assetmetrix-gmbh)",
-   "Netlight (lever:netlight)",
-   "Finnofleet GmbH (personio:finnofleet)",
-   "sonyinteractiveentertainmentglobal (greenhouse:sonyinteractiveentertainmentglobal)",
-   "SysEleven GmbH (personio:syseleven)",
-   "Higharc (ashby:higharc)",
-   "LocalStack (ashby:localstack)",
-   "PermitFlow (ashby:permitflow)",
-   "Terac (ashby:terac)",
-   "5Blue Software (ashby:5bluesoftware)",
-   "Jimmy Technologies (recruitee:jimmytechnologies)",
-   "ServiceTitan (smartrecruiters:servicetitan)"
+   "Ruby Labs (ashby:ruby-labs)",
+   "Flex (greenhouse:flex)",
+   "Ethena (lever:ethena)",
+   "Doctolib GmbH (ashby:doctolib)",
+   "Ideals (ashby:ideals)",
+   "Linro (ashby:linro)",
+   "celebrate company GmbH (recruitee:celebratecompany)",
+   "Talan (smartrecruiters:talan)",
+   "Snowflake (ashby:snowflake)",
+   "Accurate Background (smartrecruiters:accuratebackground)",
+   "Ergomed (smartrecruiters:ergomed)",
+   "AbbVie (smartrecruiters:abbvie)",
+   "Mutt Data (lever:muttdata)",
+   "DEPT® (greenhouse:dept)",
+   "Kata.ai (smartrecruiters:kataai)"
   ]
  },
- "collectedAt": "2026-10-09T08:54:11+00:00",
- "rawJobs": 40762,
- "matches": 183,
- "new": 11,
- "companies": 768,
- "activeCompanies": 750,
+ "collectedAt": "2026-10-09T11:37:00+00:00",
+ "rawJobs": 46173,
+ "matches": 213,
+ "new": 12,
+ "companies": 783,
+ "activeCompanies": 765,
  "funnel": {
-  "title": 38884,
-  "passed": 366,
-  "company": 76,
-  "salary": 12,
-  "location": 1322,
-  "duplicate": 183,
-  "employment": 7,
-  "too_old": 94
+  "title": 44057,
+  "passed": 404,
+  "duplicate": 191,
+  "company": 68,
+  "salary": 17,
+  "location": 1514,
+  "employment": 17,
+  "too_old": 95
  },
  "matchesBySource": {
-  "adzuna": 91,
-  "arbeitnow": 14,
-  "himalayas": 1,
+  "adzuna": 118,
+  "arbeitnow": 15,
+  "greenhouse": 7,
+  "ashby": 35,
   "jobicy": 6,
-  "ashby": 32,
-  "personio": 8,
-  "greenhouse": 6,
+  "personio": 7,
   "recruitee": 10,
   "weworkremotely": 7,
   "hn": 6,
