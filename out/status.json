@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1033
+   "fetched": 776
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 136
   },
   "jobicy": {
-   "fetched": 147
+   "fetched": 144
   },
   "remoteok": {
    "fetched": 99
@@ -31,8 +31,8 @@
    "fetched": 54
   },
   "companies": {
-   "checked": 769,
-   "failed": 12
+   "checked": 779,
+   "failed": 31
   }
  },
  "errors": {
@@ -43,20 +43,39 @@
    "Planradar": "HTTP 404",
    "Lendis": "HTTP 404",
    "Silvernova GmbH": "HTTP 404",
+   "Modash": "HTTP 429",
    "Hochheiden Hausverwaltung GmbH": "HTTP 404",
    "VIAVI Solutions": "HTTP 404",
+   "SalesCaptain": "HTTP 429",
    "Konfetti GmbH": "HTTP 404",
+   "Universalquantum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
    "adlicious": "HTTP 404",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Jalasoft": "HTTP 429",
+   "Remotebase": "HTTP 429",
+   "Codurance": "HTTP 429",
    "Haiilo": "HTTP 404",
-   "Empower": "HTTP 404"
+   "InnovationTeam": "HTTP 429",
+   "SPD Technology": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Power Factors": "HTTP 429",
+   "Avomind": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "Empower": "HTTP 404",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 540
+  "callsToday": 140,
+  "callsLast7Days": 560
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -64,36 +83,41 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 24,
+  "tried": 32,
   "found": [
-   "einwert (personio:einwert)",
-   "Fact Finder (personio:fact-finder)",
-   "Horizon3Ai (ashby:horizon3ai)",
-   "Wemolo (ashby:wemolo)"
+   "Forvis Mazars (greenhouse:forvismazars)",
+   "Lucanet Group (greenhouse:lucanetgroup)",
+   "stakefish (workable:stakefish)",
+   "Zeal Network (ashby:zeal-network)",
+   "Accurids GmbH (personio:accurids-gmbh)",
+   "3Ss (workable:3ss)",
+   "Xibix Solutions Gmbh (personio:xibix-solutions-gmbh)",
+   "Knick Gmbh (personio:knick-gmbh)",
+   "PQShield (greenhouse:pqshield)",
+   "InPost (smartrecruiters:inpost)"
   ]
  },
- "collectedAt": "2026-10-09T14:26:54+00:00",
- "rawJobs": 46235,
- "matches": 186,
- "new": 2,
- "companies": 787,
- "activeCompanies": 769,
+ "collectedAt": "2026-10-09T16:50:36+00:00",
+ "rawJobs": 42923,
+ "matches": 201,
+ "new": 6,
+ "companies": 797,
+ "activeCompanies": 779,
  "funnel": {
-  "title": 44145,
-  "passed": 370,
-  "company": 76,
-  "duplicate": 184,
-  "salary": 11,
-  "location": 1521,
-  "employment": 14,
+  "passed": 351,
+  "title": 40995,
+  "duplicate": 150,
+  "company": 61,
+  "salary": 13,
+  "location": 1388,
+  "employment": 17,
   "too_old": 97
  },
  "matchesBySource": {
-  "adzuna": 92,
-  "arbeitnow": 14,
+  "adzuna": 111,
+  "arbeitnow": 11,
   "greenhouse": 8,
   "ashby": 33,
-  "himalayas": 1,
   "jobicy": 6,
   "personio": 7,
   "recruitee": 10,
