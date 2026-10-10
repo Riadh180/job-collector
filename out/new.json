@@ -1,32 +1,13 @@
 {
- "collectedAt": "2026-10-10T15:45:38+00:00",
+ "collectedAt": "2026-10-10T18:28:55+00:00",
  "count": 3,
  "jobs": [
   {
-   "id": "adzuna:5922298699",
-   "company": "EXWE GmbH",
-   "title": "Full-Stack-Entwickler:in - EXWE GmbH",
-   "url": "https://www.adzuna.de/details/5922298699?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-10",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
-   "firstSeen": "2026-10-10T15:45:38+00:00"
-  },
-  {
-   "id": "adzuna:5922309466",
-   "company": "IT & Internet Karriere",
-   "title": "Cloud Entwickler - AWS / Azure / Terraform / Docker (m/w/d)",
-   "url": "https://www.adzuna.de/details/5922309466?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
+   "id": "adzuna:5922450682",
+   "company": "viadee Unternehmensberatung AG",
+   "title": "Senior Softwareentwickler:in Consulting - viadee Unternehmensberatung AG",
+   "url": "https://www.adzuna.de/details/5922450682?utm_medium=api&utm_source=c19f1397",
+   "location": "Hannover, Region Hannover (Kreis) / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-10",
    "salary": "",
@@ -36,17 +17,38 @@
    "source": "adzuna",
    "ats": "adzuna",
    "stackHits": [
-    "typescript"
+    "react"
    ],
    "match": "generic+stack; remote",
-   "facts": "Diese Balance ist kein Selbstzweck, sondern die Grundvoraussetzung, den Kunden mit erfolgreichen … typescript",
-   "firstSeen": "2026-10-10T15:45:38+00:00"
+   "facts": "Wir sind ein Team aus motivierten Fachexpert:… react",
+   "firstSeen": "2026-10-10T18:28:55+00:00"
   },
   {
-   "id": "adzuna:5922295299",
-   "company": "OneTutor",
-   "title": "Software Engineer (f/m/x) - TypeScript (NestJS or React) - In 3 Minuten erfolgreich bewerben",
-   "url": "https://www.adzuna.de/details/5922295299?utm_medium=api&utm_source=c19f1397",
+   "id": "adzuna:5922450631",
+   "company": "Sharpist GmbH",
+   "title": "Staff Product Engineer (10 Years Experience) - Sharpist GmbH",
+   "url": "https://www.adzuna.de/details/5922450631?utm_medium=api&utm_source=c19f1397",
+   "location": "Berlin, Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "You will join us in our mission to make coaching scalable by building a hybrid experience that combines human empathy with intelligent AI support. | We're working … react",
+   "firstSeen": "2026-10-10T18:28:55+00:00"
+  },
+  {
+   "id": "adzuna:5922295017",
+   "company": "alago",
+   "title": "Design Engineer (f/m/x) - In 3 Minuten erfolgreich bewerben",
+   "url": "https://www.adzuna.de/details/5922295017?utm_medium=api&utm_source=c19f1397",
    "location": "Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-10",
@@ -57,11 +59,11 @@
    "source": "adzuna",
    "ats": "adzuna",
    "stackHits": [
-    "typescript"
+    "react"
    ],
    "match": "title; remote",
-   "facts": "We're past the \"will this work?… typescript",
-   "firstSeen": "2026-10-10T15:45:38+00:00"
+   "facts": "As our Design Engineer, you define how alago looks, feels and behaves — and you ship it yourself, in React. | Actually something a 60-year-old project manager in the office and a 19-year-old worker… react",
+   "firstSeen": "2026-10-10T18:28:55+00:00"
   }
  ]
 }
