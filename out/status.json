@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 674
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -31,37 +31,30 @@
    "fetched": 54
   },
   "companies": {
-   "checked": 814,
-   "failed": 20
+   "checked": 834,
+   "failed": 13
   }
  },
  "errors": {
   "companies": {
    "Modash": "HTTP 429",
    "SalesCaptain": "HTTP 429",
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
    "Jalasoft": "HTTP 429",
    "Remotebase": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
    "SPD Technology": "HTTP 429",
-   "Gridcog": "HTTP 429",
    "Power Factors": "HTTP 429",
    "Avomind": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
+   "3Ss": "HTTP 429",
    "1Kosmos": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429"
+   "Wordwall": "HTTP 429",
+   "OptiTrack": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 12,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 700
@@ -72,40 +65,54 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 39,
+  "tried": 60,
   "found": [
-   "Sharpist GmbH (recruitee:sharpist)",
-   "Wordwall (workable:wordwall)",
-   "AppTweak (recruitee:apptweak)",
-   "NAXCON GmbH (recruitee:naxcon)",
-   "Flexport (greenhouse:flexport)"
+   "Digital Forge Cyber Assurance Group (smartrecruiters:digitalforgecyberassurancegroup)",
+   "Technology Navigators (smartrecruiters:technologynavigators)",
+   "Paidiem (smartrecruiters:paidiem)",
+   "IPS Technology Services (smartrecruiters:ipstechnologyservices)",
+   "Yuno (lever:yuno)",
+   "CaseWare (lever:caseware)",
+   "Devoteam (smartrecruiters:devoteam)",
+   "Doc Clik (smartrecruiters:docclik)",
+   "Zipabout (smartrecruiters:zipabout)",
+   "Clario (recruitee:clario)",
+   "Jack Link's Protein Snacks (smartrecruiters:jacklinksproteinsnacks)",
+   "BetterHelp (greenhouse:betterhelp)",
+   "Mama Money (lever:mamamoney)",
+   "AHEAD (personio:ahead)",
+   "Symmetrio (workable:symmetrio)",
+   "OptiTrack (workable:optitrack)",
+   "ResourceQ Services (smartrecruiters:resourceqservices)",
+   "LingoHub (smartrecruiters:lingohub)",
+   "STIC soft solutions (smartrecruiters:sticsoftsolutions)",
+   "Great Minds (recruitee:greatminds)"
   ]
  },
- "collectedAt": "2026-10-10T18:28:55+00:00",
- "rawJobs": 47830,
- "matches": 171,
- "new": 3,
- "companies": 844,
- "activeCompanies": 814,
+ "collectedAt": "2026-10-10T19:07:01+00:00",
+ "rawJobs": 45983,
+ "matches": 109,
+ "new": 1,
+ "companies": 864,
+ "activeCompanies": 834,
  "funnel": {
-  "title": 45811,
-  "passed": 312,
-  "company": 53,
-  "duplicate": 141,
-  "salary": 5,
-  "location": 1532,
-  "employment": 15,
-  "too_old": 101
+  "title": 44140,
+  "location": 1538,
+  "passed": 174,
+  "duplicate": 65,
+  "employment": 14,
+  "company": 16,
+  "too_old": 100
  },
  "matchesBySource": {
-  "adzuna": 74,
-  "arbeitnow": 15,
+  "himalayas": 2,
+  "arbeitnow": 19,
   "weworkremotely": 8,
-  "ashby": 32,
+  "ashby": 34,
+  "personio": 11,
   "greenhouse": 8,
   "jobicy": 6,
-  "personio": 9,
-  "recruitee": 11,
+  "recruitee": 13,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1
