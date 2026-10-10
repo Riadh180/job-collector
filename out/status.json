@@ -31,7 +31,7 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 847,
+   "checked": 850,
    "failed": 26
   }
  },
@@ -40,12 +40,12 @@
    "Modash": "HTTP 429",
    "SalesCaptain": "HTTP 429",
    "Universalquantum": "HTTP 429",
-   "SORACOM": "HTTP 429",
    "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
-   "Worth AI": "HTTP 429",
    "Jalasoft": "HTTP 429",
+   "Worth AI": "HTTP 429",
    "Remotebase": "HTTP 429",
    "Codurance": "HTTP 429",
    "InnovationTeam": "HTTP 429",
@@ -78,41 +78,31 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 42,
+  "tried": 32,
   "found": [
-   "Distribusion Technologies (recruitee:distribusiontechnologies)",
-   "Artificial (ashby:artificial)",
-   "Canyon GBS (smartrecruiters:canyongbs)",
-   "Vasion (workable:vasion)",
-   "Comet (greenhouse:comet)",
-   "Artera (lever:artera)",
-   "DevGrid (recruitee:devgrid)",
-   "Blackbird Collective (smartrecruiters:blackbirdcollective)",
-   "Improvado (smartrecruiters:improvado)",
-   "Hike2 (recruitee:hike2)",
-   "Olsam Group (recruitee:olsamgroup)",
-   "Homeward (greenhouse:homeward)",
-   "Shield AI (lever:shieldai)"
+   "ScaleOps (greenhouse:scaleops)",
+   "XTB (lever:xtb)",
+   "Lindy (recruitee:lindy)"
   ]
  },
- "collectedAt": "2026-10-10T22:24:34+00:00",
- "rawJobs": 46081,
- "matches": 110,
- "new": 3,
- "companies": 877,
- "activeCompanies": 847,
+ "collectedAt": "2026-10-10T22:56:41+00:00",
+ "rawJobs": 46183,
+ "matches": 111,
+ "new": 1,
+ "companies": 880,
+ "activeCompanies": 850,
  "funnel": {
-  "title": 44326,
+  "title": 44426,
   "location": 1457,
-  "passed": 166,
-  "duplicate": 56,
+  "passed": 168,
+  "duplicate": 57,
   "employment": 14,
   "company": 16,
   "too_old": 101
  },
  "matchesBySource": {
+  "himalayas": 2,
   "recruitee": 16,
-  "himalayas": 1,
   "arbeitnow": 19,
   "weworkremotely": 8,
   "ashby": 34,
