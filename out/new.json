@@ -1,28 +1,68 @@
 {
- "collectedAt": "2026-10-10T19:07:01+00:00",
- "count": 1,
+ "collectedAt": "2026-10-10T22:24:34+00:00",
+ "count": 3,
  "jobs": [
   {
-   "id": "himalayas:https://himalayas.app/companies/resourceful-talent-group/jobs/senior-full-stack-engineer-react-node-js",
-   "company": "Resourceful Talent Group",
-   "title": "Senior Full-Stack Engineer (React/Node.js)",
-   "url": "https://himalayas.app/companies/resourceful-talent-group/jobs/senior-full-stack-engineer-react-node-js",
-   "location": "Worldwide",
+   "id": "recruitee:distribusiontechnologies:2758780",
+   "company": "Distribusion Technologies",
+   "title": "Senior Frontend Engineer (all genders)",
+   "url": "https://careers.distribusion.com/o/senior-frontend-engineer-all-genders-8",
+   "location": "Remote job / Berlin / Germany",
    "remote": true,
-   "postedAt": "2026-10-10",
+   "postedAt": "",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
+   "employment": "fulltime_permanent",
+   "industry": "from job boards",
+   "source": "recruitee",
+   "ats": "recruitee",
    "stackHits": [
     "react",
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "Senior Full-Stack Engineer About the Role We are looking for Senior Full-Stack Engineer with strong experience across React/TypeScript frontend development and Node.js/TypeScript backend systems. | This is a long-term, fully remote opportunity within a fast-moving fintech environment, working EST hours. | Responsibilities Build and maintain production-grade React, , and TypeScript applications. | Requirements 7+ years of professional software engineering experience. | Strong, recent React, Node.js, and TypeScript experience. | Strong English and Russian communication skills. | Highlights Work Arrangement: Remote Level: Senior Tech Stack: React, TypeScript, Node.js, AWS, PostgreSQL Originally",
-   "firstSeen": "2026-10-10T19:07:01+00:00"
+   "facts": "Backed by three leading VCs (Creandum, Northzone, and Lightrock), and now, following our recent €30 m Series B, we are ready to push beyond. | Our product attracts the biggest names in travel technology, such as Booking.com and Google Maps, and national carriers like Amtrak, Deutsche Bahn, Renfe, and SNCF. | We offer flexible and remote working conditions, relocation opportunities and career growth in a small and developing company.",
+   "firstSeen": "2026-10-10T22:24:34+00:00"
+  },
+  {
+   "id": "recruitee:distribusiontechnologies:2724314",
+   "company": "Distribusion Technologies",
+   "title": "Senior Product Engineer, eComm (all gender)",
+   "url": "https://careers.distribusion.com/o/senior-product-engineer-ecomm-all-gender-1",
+   "location": "Remote job / Berlin / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "from job boards",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Workplace: Berlin & Hybrid: HQ office in Berlin, where the team often meets. | Remote: We are a remote-first company with teams located around the Globe. | You have: Several years of experience building and operating backend services in Python, with ownership across the full lifecycle: design, implementation, deployment, monitoring, and maintenance (other languages such as Ruby, Typescript, are a plus). | Experience with frameworks: preferably FastAPI, Django, ReactJS. | Fluent in English, both verbal and written. | Our partners include Booking.com , Google Maps, Amtrak, Deutsche Bahn, Renfe, and SNCF. | Enjoy flexible and remote-friendly working options, relocation opportunities, and plenty",
+   "firstSeen": "2026-10-10T22:24:34+00:00"
+  },
+  {
+   "id": "recruitee:distribusiontechnologies:2704294",
+   "company": "Distribusion Technologies",
+   "title": "Senior Product Engineer, IMS (all genders)",
+   "url": "https://careers.distribusion.com/o/senior-product-engineer-ims-all-genders-1",
+   "location": "Remote job / Berlin / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "from job boards",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Workplace: Berlin & Hybrid: HQ office in Berlin, where the team often meets. | Remote: We are a remote-first company with teams located around the Globe. | Who you are: Several years of experience building and operating backend services in Python, with ownership across the full lifecycle: design, implementation, deployment, monitoring, and maintenance. | Fluent in English, both verbal and written. | Our partners include Booking.com , Google Maps, Amtrak, Deutsche Bahn, Renfe, and SNCF. | Enjoy flexible and remote-friendly working options, relocation opportunities, and plenty of room to grow.",
+   "firstSeen": "2026-10-10T22:24:34+00:00"
   }
  ]
 }
