@@ -1,5 +1,67 @@
 {
- "collectedAt": "2026-10-10T14:16:20+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-10T15:45:38+00:00",
+ "count": 3,
+ "jobs": [
+  {
+   "id": "adzuna:5922298699",
+   "company": "EXWE GmbH",
+   "title": "Full-Stack-Entwickler:in - EXWE GmbH",
+   "url": "https://www.adzuna.de/details/5922298699?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "",
+   "firstSeen": "2026-10-10T15:45:38+00:00"
+  },
+  {
+   "id": "adzuna:5922309466",
+   "company": "IT & Internet Karriere",
+   "title": "Cloud Entwickler - AWS / Azure / Terraform / Docker (m/w/d)",
+   "url": "https://www.adzuna.de/details/5922309466?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Diese Balance ist kein Selbstzweck, sondern die Grundvoraussetzung, den Kunden mit erfolgreichen … typescript",
+   "firstSeen": "2026-10-10T15:45:38+00:00"
+  },
+  {
+   "id": "adzuna:5922295299",
+   "company": "OneTutor",
+   "title": "Software Engineer (f/m/x) - TypeScript (NestJS or React) - In 3 Minuten erfolgreich bewerben",
+   "url": "https://www.adzuna.de/details/5922295299?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We're past the \"will this work?… typescript",
+   "firstSeen": "2026-10-10T15:45:38+00:00"
+  }
+ ]
 }

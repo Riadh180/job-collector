@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 951
+   "fetched": 1214
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1950
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 128
+   "fetched": 126
   },
   "remoteok": {
    "fetched": 99
@@ -31,19 +31,42 @@
    "fetched": 54
   },
   "companies": {
-   "checked": 805,
-   "failed": 0
+   "checked": 809,
+   "failed": 22
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Modash": "HTTP 429",
+   "SalesCaptain": "HTTP 429",
+   "Universalquantum": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Jalasoft": "HTTP 429",
+   "Remotebase": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "SPD Technology": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Power Factors": "HTTP 429",
+   "Avomind": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "1Kosmos": "HTTP 429",
+   "Teamified": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 15,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 650
+  "callsToday": 120,
+  "callsLast7Days": 680
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,38 +74,39 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 28,
+  "tried": 34,
   "found": [
-   "CRB (smartrecruiters:crb)",
-   "Pragmatike (ashby:pragmatike)",
-   "Engio (smartrecruiters:engio)"
+   "Teamified (workable:teamified)",
+   "Envipco (recruitee:envipco)",
+   "Flexa (personio:flexa)",
+   "Slate (ashby:slate)"
   ]
  },
- "collectedAt": "2026-10-10T14:16:20+00:00",
- "rawJobs": 48955,
- "matches": 182,
- "new": 0,
- "companies": 835,
- "activeCompanies": 805,
+ "collectedAt": "2026-10-10T15:45:38+00:00",
+ "rawJobs": 45453,
+ "matches": 209,
+ "new": 3,
+ "companies": 839,
+ "activeCompanies": 809,
  "funnel": {
-  "company": 71,
-  "title": 46730,
-  "passed": 371,
-  "duplicate": 189,
-  "salary": 10,
-  "location": 1657,
-  "employment": 15,
+  "title": 43402,
+  "passed": 405,
+  "salary": 15,
+  "location": 1440,
+  "duplicate": 196,
+  "company": 70,
+  "employment": 20,
   "too_old": 100
  },
  "matchesBySource": {
-  "adzuna": 82,
-  "arbeitnow": 16,
+  "adzuna": 114,
+  "arbeitnow": 15,
   "himalayas": 1,
   "weworkremotely": 8,
-  "ashby": 33,
+  "ashby": 32,
   "greenhouse": 8,
   "jobicy": 6,
-  "personio": 9,
+  "personio": 6,
   "recruitee": 11,
   "hn": 6,
   "workingnomads": 1,
