@@ -656,7 +656,8 @@
   "slug": "candis",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Billie",
@@ -1097,7 +1098,8 @@
   "slug": "constellr",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Stark",
@@ -1381,7 +1383,8 @@
   "slug": "architrave",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Planradar",
@@ -1390,7 +1393,8 @@
   "slug": "planradar-gmbh",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Capmo",
@@ -1552,7 +1556,8 @@
   "slug": "lendis-gmbh",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Rydoo",
@@ -2029,7 +2034,8 @@
   "slug": "silvernova",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Maibornwolff",
@@ -2978,7 +2984,8 @@
   "slug": "hochheidenhausverwaltung",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Auterion",
@@ -3561,7 +3568,8 @@
   "slug": "viavi-solutions",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "JFrog",
@@ -4149,7 +4157,8 @@
   "slug": "konfetti",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Andercore",
@@ -4826,7 +4835,8 @@
   "slug": "adlicious-gmbh",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Airmo",
@@ -5514,7 +5524,8 @@
   "slug": "haiilo",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Mobimeo GmbH",
@@ -5836,7 +5847,8 @@
   "slug": "empower",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "digetiers",
@@ -6707,6 +6719,30 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "gradera",
+  "addedBy": "probe 2026-10-10",
+  "lastOk": "2026-10-10"
+ },
+ {
+  "name": "Hive Robotics",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "hive-robotics",
+  "addedBy": "probe 2026-10-10",
+  "lastOk": "2026-10-10"
+ },
+ {
+  "name": "Pro Coffee Gear",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "procoffeegear",
+  "addedBy": "probe 2026-10-10",
+  "lastOk": "2026-10-10"
+ },
+ {
+  "name": "1Kosmos",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "1kosmos",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-10"
  }

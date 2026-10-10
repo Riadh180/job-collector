@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1006
+   "fetched": 1211
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -10,7 +10,7 @@
    "fetched": 1850
   },
   "remotive": {
-   "fetched": 136
+   "fetched": 144
   },
   "jobicy": {
    "fetched": 136
@@ -31,7 +31,7 @@
    "fetched": 54
   },
   "companies": {
-   "checked": 811,
+   "checked": 814,
    "failed": 12
   }
  },
@@ -39,8 +39,8 @@
   "companies": {
    "Candis": "HTTP 404",
    "Constellr": "HTTP 404",
-   "Planradar": "HTTP 404",
    "Architrave": "HTTP 404",
+   "Planradar": "HTTP 404",
    "Lendis": "HTTP 404",
    "Silvernova GmbH": "HTTP 404",
    "Hochheiden Hausverwaltung GmbH": "HTTP 404",
@@ -53,10 +53,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 18,
+  "searchesThisRun": 16,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 590
+  "callsToday": 60,
+  "callsLast7Days": 620
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -64,46 +64,38 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 120,
+  "tried": 22,
   "found": [
-   "Satellite Office (personio:satellite-office-gmbh)",
-   "Alteos GmbH (personio:alteos)",
-   "Arionkoder (greenhouse:arionkoder)",
-   "Peek (ashby:peek)",
-   "Elegance-Hair GmbH (recruitee:elegancehair)",
-   "Doc Cirrus GmbH (personio:doc-cirrus-gmbh)",
-   "vibe (ashby:vibe)",
-   "Cosuno (ashby:cosuno)",
-   "Timetoact Group (personio:timetoact-group)",
-   "Solflare (smartrecruiters:solflare)",
-   "Gradera Inc. (ashby:gradera)"
+   "Hive Robotics (personio:hive-robotics)",
+   "Pro Coffee Gear (smartrecruiters:procoffeegear)",
+   "1Kosmos (workable:1kosmos)"
   ]
  },
- "collectedAt": "2026-10-10T10:54:40+00:00",
- "rawJobs": 48573,
- "matches": 183,
- "new": 14,
- "companies": 829,
- "activeCompanies": 811,
+ "collectedAt": "2026-10-10T12:07:08+00:00",
+ "rawJobs": 48806,
+ "matches": 199,
+ "new": 2,
+ "companies": 832,
+ "activeCompanies": 814,
  "funnel": {
-  "salary": 11,
-  "passed": 373,
-  "title": 46379,
-  "duplicate": 190,
-  "company": 64,
-  "location": 1630,
-  "employment": 15,
+  "title": 46575,
+  "passed": 393,
+  "company": 69,
+  "salary": 15,
+  "location": 1633,
+  "duplicate": 194,
+  "employment": 20,
   "too_old": 100
  },
  "matchesBySource": {
-  "adzuna": 83,
+  "adzuna": 103,
   "arbeitnow": 16,
   "himalayas": 1,
   "weworkremotely": 8,
-  "ashby": 33,
+  "ashby": 32,
   "greenhouse": 8,
   "jobicy": 6,
-  "personio": 9,
+  "personio": 6,
   "recruitee": 11,
   "hn": 6,
   "workingnomads": 1,
