@@ -31,39 +31,12 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 850,
-   "failed": 26
+   "checked": 842,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Modash": "HTTP 429",
-   "SalesCaptain": "HTTP 429",
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Jalasoft": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Remotebase": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "SPD Technology": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Power Factors": "HTTP 429",
-   "Avomind": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "1Kosmos": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -78,27 +51,23 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 32,
-  "found": [
-   "ScaleOps (greenhouse:scaleops)",
-   "XTB (lever:xtb)",
-   "Lindy (recruitee:lindy)"
-  ]
+  "tried": 0,
+  "found": []
  },
- "collectedAt": "2026-10-10T22:56:41+00:00",
- "rawJobs": 46183,
+ "collectedAt": "2026-10-10T23:01:09+00:00",
+ "rawJobs": 49471,
  "matches": 111,
- "new": 1,
+ "new": 0,
  "companies": 880,
- "activeCompanies": 850,
+ "activeCompanies": 842,
  "funnel": {
-  "title": 44426,
-  "location": 1457,
+  "title": 47544,
+  "location": 1626,
   "passed": 168,
   "duplicate": 57,
   "employment": 14,
   "company": 16,
-  "too_old": 101
+  "too_old": 102
  },
  "matchesBySource": {
   "himalayas": 2,
