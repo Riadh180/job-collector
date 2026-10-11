@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 976
+   "fetched": 808
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1950
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 144
@@ -31,19 +31,39 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 881,
-   "failed": 0
+   "checked": 884,
+   "failed": 19
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Universalquantum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "Teamified": "HTTP 429",
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 820
+  "callsToday": 140,
+  "callsLast7Days": 840
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,38 +71,39 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 9,
+  "tried": 30,
   "found": [
-   "artundweise GmbH (personio:artundweise-gmbh)",
-   "crewAI (workable:crewai)"
+   "TMS, LLC (personio:tmsgmbh)",
+   "Mactores (lever:mactores)",
+   "Fortune Brands (smartrecruiters:fortunebrands)"
   ]
  },
- "collectedAt": "2026-10-11T14:48:39+00:00",
- "rawJobs": 52453,
- "matches": 185,
- "new": 0,
- "companies": 919,
- "activeCompanies": 881,
+ "collectedAt": "2026-10-11T16:10:07+00:00",
+ "rawJobs": 49127,
+ "matches": 192,
+ "new": 1,
+ "companies": 922,
+ "activeCompanies": 884,
  "funnel": {
-  "passed": 338,
-  "title": 50206,
-  "duplicate": 153,
-  "salary": 9,
-  "company": 72,
-  "location": 1707,
-  "employment": 16,
-  "too_old": 104
+  "title": 47050,
+  "passed": 335,
+  "salary": 15,
+  "location": 1534,
+  "duplicate": 143,
+  "company": 69,
+  "employment": 20,
+  "too_old": 103
  },
  "matchesBySource": {
-  "himalayas": 3,
-  "adzuna": 78,
+  "adzuna": 88,
+  "himalayas": 1,
   "arbeitnow": 15,
   "jobicy": 6,
-  "ashby": 33,
+  "ashby": 34,
   "recruitee": 16,
   "weworkremotely": 8,
-  "personio": 10,
   "greenhouse": 8,
+  "personio": 8,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1
