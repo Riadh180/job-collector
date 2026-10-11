@@ -1,6 +1,6 @@
 {
- "collectedAt": "2026-10-11T16:41:21+00:00",
- "count": 1,
+ "collectedAt": "2026-10-11T17:00:16+00:00",
+ "count": 3,
  "jobs": [
   {
    "id": "adzuna:5923400307",
@@ -19,7 +19,49 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "Hast Du Dir schon einmal Gedanken darüber gemacht, wie Dein Gehalt monatlich auf Dein Konto kommt und wohin Deine Pflegeversicherung überwiesen wird? | Zur Verstärkung unseres Teams suchen wir am Standort München (oder nach Einarbeitung Remote) zum nächstmöglichen Zeitpunkt einen .",
-   "firstSeen": "2026-10-11T16:41:21+00:00"
+   "firstSeen": "2026-10-11T17:00:16+00:00"
+  },
+  {
+   "id": "adzuna:5923417395",
+   "company": "Sidestream",
+   "title": "Senior Typescript Developer (f/m/d) - In 3 Minuten erfolgreich bewerben",
+   "url": "https://www.adzuna.de/details/5923417395?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "* Learning & Growth: Gain mentoring from experienced professionals and access to proven processes that prepare you for success in a fast-paced tech enviro… typescript",
+   "firstSeen": "2026-10-11T17:00:16+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/orbit/jobs/product-engineer-m-w-d",
+   "company": "Orbit",
+   "title": "Product Engineer (m/w/d)",
+   "url": "https://himalayas.app/companies/orbit/jobs/product-engineer-m-w-d",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Vor zwei Jahren hätten wir hier einen „TypeScript-Ninja\" gesucht. | Es geht nicht mehr darum, wie schnell du tippst, sondern wie gut du beurteilen kannst, was ein Agent produziert. | Wir transkribieren jedes Meeting, kommunizieren async in Schrift und pflegen ein lebendes Handbuch – nicht für die AI, sondern weil ein gutes Remote-Team so arbeitet.",
+   "firstSeen": "2026-10-11T17:00:16+00:00"
   }
  ]
 }

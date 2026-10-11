@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 806
+   "fetched": 661
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -31,8 +31,8 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 884,
-   "failed": 23
+   "checked": 896,
+   "failed": 18
   }
  },
  "errors": {
@@ -40,31 +40,26 @@
    "Universalquantum": "HTTP 429",
    "Flatgigs": "HTTP 429",
    "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Treantly": "HTTP 429",
-   "Jimmy Technologies": "HTTP 429",
-   "celebrate company GmbH": "HTTP 429",
    "stakefish": "HTTP 429",
    "3Ss": "HTTP 429",
    "SupportYourApp": "HTTP 429",
-   "Nodeworthy": "HTTP 429",
-   "ITQ": "HTTP 429",
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
    "Symmetrio": "HTTP 429",
    "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
+   "Khibraty": "HTTP 429",
    "crewAI": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "searchesThisRun": 10,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 840
@@ -75,38 +70,51 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 31,
+  "tried": 58,
   "found": [
-   "TMS, LLC (personio:tmsgmbh)",
-   "Mactores (lever:mactores)",
+   "Chariot Solutions (smartrecruiters:chariotsolutions)",
+   "Wealthfront (lever:wealthfront)",
+   "Khibraty (workable:khibraty)",
+   "Provectus (lever:provectus)",
+   "Blackbird Interactive (lever:blackbirdinteractive)",
+   "Zimperium (lever:zimperium)",
+   "Kyivstar (lever:kyivstar)",
+   "LeanTaaS (lever:leantaas)",
+   "Jito Labs (ashby:jito-labs)",
+   "Civitech (lever:civitech)",
+   "Xeropan (smartrecruiters:xeropan)",
+   "Luxury Presence (lever:luxurypresence)",
+   "bmp greengas (personio:bmp-greengas-gmbh)",
+   "Upside (ashby:upside)",
    "Fortune Brands (smartrecruiters:fortunebrands)"
   ]
  },
- "collectedAt": "2026-10-11T16:41:21+00:00",
- "rawJobs": 48953,
- "matches": 186,
- "new": 1,
- "companies": 922,
- "activeCompanies": 884,
+ "collectedAt": "2026-10-11T17:00:16+00:00",
+ "rawJobs": 49183,
+ "matches": 190,
+ "new": 3,
+ "companies": 934,
+ "activeCompanies": 896,
  "funnel": {
-  "title": 46949,
-  "passed": 297,
-  "salary": 15,
-  "location": 1505,
-  "duplicate": 111,
-  "company": 69,
-  "employment": 14,
+  "title": 47128,
+  "passed": 328,
+  "location": 1535,
+  "duplicate": 138,
+  "company": 58,
+  "salary": 10,
+  "employment": 20,
   "too_old": 103
  },
  "matchesBySource": {
   "adzuna": 86,
-  "himalayas": 1,
+  "himalayas": 2,
   "arbeitnow": 15,
-  "ashby": 36,
+  "jobicy": 6,
+  "ashby": 32,
   "recruitee": 16,
   "weworkremotely": 8,
   "greenhouse": 8,
-  "personio": 8,
+  "personio": 9,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1
