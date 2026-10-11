@@ -1,6 +1,6 @@
 {
- "collectedAt": "2026-10-11T19:19:44+00:00",
- "count": 1,
+ "collectedAt": "2026-10-11T19:27:32+00:00",
+ "count": 2,
  "jobs": [
   {
    "id": "himalayas:https://himalayas.app/companies/lucid-reality-labs/jobs/senior-full-stack-javascript-developer-4181819675",
@@ -22,7 +22,28 @@
    ],
    "match": "title; remote",
    "facts": "Our company has been recognized among the Top World companies in XR for years. | This is a great opportunity to join the key team, gain hands-on experience and exposure to spatial computing technology, and contribute to our Mission by disrupting global challenges with responsible technology! | The remaining 20% of your responsibilities will involve front-end work using React.",
-   "firstSeen": "2026-10-11T19:19:44+00:00"
+   "firstSeen": "2026-10-11T19:27:32+00:00"
+  },
+  {
+   "id": "ashby:clera:d986c71d-1f3e-425b-b4c1-13ce1012c43b",
+   "company": "Clera",
+   "title": "Forward Deployment Engineer",
+   "url": "https://jobs.ashbyhq.com/clera/d986c71d-1f3e-425b-b4c1-13ce1012c43b",
+   "location": "remote",
+   "remote": false,
+   "postedAt": "2026-10-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "- Several years of experience translating customer requirements into production implementations. | - German proficiency at B2 level or higher. | Exceptional candidates without German proficiency may be considered for escalation. | Voice or telephony integrations, TypeScript or Python, SQL, automation tools, and privacy considerations are relevant additional experience. | COMPENSATION & BENEFITS | Salary range: €60,000 to €90,000 annually. | Remote, Germany.",
+   "firstSeen": "2026-10-11T19:27:32+00:00"
   }
  ]
 }

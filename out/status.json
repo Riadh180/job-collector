@@ -28,11 +28,11 @@
    "fetched": 300
   },
   "workingnomads": {
-   "fetched": 53
+   "fetched": 51
   },
   "companies": {
-   "checked": 913,
-   "failed": 22
+   "checked": 908,
+   "failed": 20
   }
  },
  "errors": {
@@ -56,9 +56,7 @@
    "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "GoReel": "HTTP 429",
-   "Celtic Bank": "HTTP 429"
+   "Khibraty": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -74,10 +72,10 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 43,
+  "tried": 60,
   "found": [
    "Lucid Reality Labs (recruitee:lucidrealitylabs)",
-   "Celtic Bank (workable:celtic-bank)",
+   "BlackSky (greenhouse:blacksky)",
    "Optios (recruitee:optios)",
    "Deep DSG (recruitee:deepdsg)",
    "Motivee (recruitee:motivee)",
@@ -85,26 +83,28 @@
    "JetRails (recruitee:jetrails)",
    "Securitas (smartrecruiters:securitas)",
    "ELEKS (lever:eleks)",
-   "Smartsheet (greenhouse:smartsheet)"
+   "Smartsheet (greenhouse:smartsheet)",
+   "Domino Data Lab (greenhouse:dominodatalab)",
+   "RetailNext (greenhouse:retailnext)"
   ]
  },
- "collectedAt": "2026-10-11T19:19:44+00:00",
- "rawJobs": 49715,
- "matches": 118,
- "new": 1,
- "companies": 951,
- "activeCompanies": 913,
+ "collectedAt": "2026-10-11T19:27:32+00:00",
+ "rawJobs": 49199,
+ "matches": 117,
+ "new": 2,
+ "companies": 946,
+ "activeCompanies": 908,
  "funnel": {
-  "title": 47861,
-  "location": 1546,
+  "title": 47350,
+  "location": 1542,
   "employment": 15,
-  "passed": 173,
+  "passed": 172,
   "duplicate": 55,
   "company": 16,
   "too_old": 103
  },
  "matchesBySource": {
-  "himalayas": 4,
+  "himalayas": 3,
   "ashby": 36,
   "arbeitnow": 19,
   "jobicy": 6,
