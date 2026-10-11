@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1030
+   "fetched": 1175
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 115
+   "fetched": 133
   },
   "remoteok": {
    "fetched": 99
@@ -31,7 +31,7 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 869,
+   "checked": 879,
    "failed": 18
   }
  },
@@ -59,10 +59,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 18,
+  "searchesThisRun": 16,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 760
+  "callsToday": 90,
+  "callsLast7Days": 790
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -70,48 +70,46 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 53,
+  "tried": 44,
   "found": [
-   "Quest Global Technologies (smartrecruiters:questglobaltechnologies)",
-   "PingWind (lever:pingwind)",
-   "Viseven (lever:viseven)",
-   "Arista Networks (smartrecruiters:aristanetworks)",
-   "Cognite (greenhouse:cognite)",
-   "FreedomPay (lever:freedompay)",
-   "Woolpert (greenhouse:woolpert)",
-   "Zuora (greenhouse:zuora)",
-   "Cloudflare (greenhouse:cloudflare)",
-   "Blueland (lever:blueland)",
-   "MedShr (smartrecruiters:medshr)",
-   "Megaport (lever:megaport)"
+   "Skdse (greenhouse:skdse)",
+   "Polar (ashby:polar)",
+   "Alpineeagle (greenhouse:alpineeagle)",
+   "VIVIO Health (smartrecruiters:viviohealth)",
+   "Invisible Technologies (smartrecruiters:invisibletechnologies)",
+   "Radian Arc (greenhouse:radianarc)",
+   "Streem Energy (smartrecruiters:streemenergy)",
+   "Fundrise (lever:fundrise)",
+   "Insider One (lever:insiderone)",
+   "NECSWS (smartrecruiters:necsws)"
   ]
  },
- "collectedAt": "2026-10-11T11:09:17+00:00",
- "rawJobs": 48722,
- "matches": 187,
- "new": 5,
- "companies": 907,
- "activeCompanies": 869,
+ "collectedAt": "2026-10-11T13:51:41+00:00",
+ "rawJobs": 49256,
+ "matches": 217,
+ "new": 1,
+ "companies": 917,
+ "activeCompanies": 879,
  "funnel": {
-  "title": 46647,
-  "company": 73,
-  "passed": 336,
-  "salary": 9,
-  "location": 1538,
-  "duplicate": 149,
-  "employment": 15,
+  "title": 47065,
+  "passed": 431,
+  "location": 1536,
+  "duplicate": 214,
+  "company": 83,
+  "salary": 16,
+  "employment": 21,
   "too_old": 103
  },
  "matchesBySource": {
-  "adzuna": 79,
   "himalayas": 3,
-  "arbeitnow": 16,
+  "adzuna": 114,
+  "arbeitnow": 14,
   "jobicy": 6,
-  "ashby": 33,
+  "ashby": 32,
   "recruitee": 16,
   "weworkremotely": 8,
-  "personio": 10,
   "greenhouse": 8,
+  "personio": 8,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1
