@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3450
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 144
@@ -31,18 +31,20 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 903,
-   "failed": 17
+   "checked": 913,
+   "failed": 22
   }
  },
  "errors": {
   "companies": {
+   "Universalquantum": "HTTP 429",
    "Flatgigs": "HTTP 429",
    "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Treantly": "HTTP 429",
    "stakefish": "HTTP 429",
@@ -51,9 +53,12 @@
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
    "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
-   "GoReel": "HTTP 429"
+   "GoReel": "HTTP 429",
+   "Celtic Bank": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -69,41 +74,44 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 40,
+  "tried": 43,
   "found": [
-   "BlackSky (greenhouse:blacksky)",
-   "RetailNext (greenhouse:retailnext)",
-   "GoReel (workable:goreel)",
-   "Domino Data Lab (greenhouse:dominodatalab)",
-   "Litify (greenhouse:litify)",
-   "RR Donnelley (smartrecruiters:rrdonnelley)",
-   "Authentic8 (lever:authentic8)"
+   "Lucid Reality Labs (recruitee:lucidrealitylabs)",
+   "Celtic Bank (workable:celtic-bank)",
+   "Optios (recruitee:optios)",
+   "Deep DSG (recruitee:deepdsg)",
+   "Motivee (recruitee:motivee)",
+   "Grip (recruitee:grip)",
+   "JetRails (recruitee:jetrails)",
+   "Securitas (smartrecruiters:securitas)",
+   "ELEKS (lever:eleks)",
+   "Smartsheet (greenhouse:smartsheet)"
   ]
  },
- "collectedAt": "2026-10-11T18:11:40+00:00",
- "rawJobs": 50757,
- "matches": 126,
- "new": 4,
- "companies": 941,
- "activeCompanies": 903,
+ "collectedAt": "2026-10-11T19:19:44+00:00",
+ "rawJobs": 49715,
+ "matches": 118,
+ "new": 1,
+ "companies": 951,
+ "activeCompanies": 913,
  "funnel": {
-  "title": 48863,
-  "location": 1568,
+  "title": 47861,
+  "location": 1546,
   "employment": 15,
-  "passed": 191,
-  "duplicate": 65,
+  "passed": 173,
+  "duplicate": 55,
   "company": 16,
   "too_old": 103
  },
  "matchesBySource": {
-  "arbeitnow": 33,
-  "himalayas": 2,
-  "ashby": 35,
+  "himalayas": 4,
+  "ashby": 36,
+  "arbeitnow": 19,
   "jobicy": 6,
   "recruitee": 16,
   "weworkremotely": 8,
-  "personio": 11,
-  "greenhouse": 7,
+  "personio": 13,
+  "greenhouse": 8,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1

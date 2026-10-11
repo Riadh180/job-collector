@@ -1,55 +1,12 @@
 {
- "collectedAt": "2026-10-11T18:11:40+00:00",
- "count": 4,
+ "collectedAt": "2026-10-11T19:19:44+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "arbeitnow:fullstack-developer-camunda-berlin-290137",
-   "company": "Collaboration Betters The World GmbH",
-   "title": "Fullstack Developer Camunda (m/w/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/fullstack-developer-camunda-berlin-290137",
-   "location": "Berlin",
-   "remote": false,
-   "postedAt": "2026-10-09",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "Verhandlungssichere Deutsch- und Englischkenntnisse (C1). | Gehaltsspanne für diese Position (Medior-Level): 62.000 € – 72.000 € brutto/Jahr. | Unsere Kultur lebt von Vertrauen, Eigenverantwortung und echter Zusammenarbeit – egal ob remote oder vor Ort. | 🎵 Schau Dir unsere CBTW-Spotify-Playlist an: CBTW auf Spotify hören Find more English Speaking Jobs in Germany on Arbeitnow",
-   "firstSeen": "2026-10-11T18:11:40+00:00"
-  },
-  {
-   "id": "arbeitnow:fullstack-entwickler-fokus-nextjs-berlin-156081",
-   "company": "Attek Solutions GmbH",
-   "title": "Fullstack Entwickler Fokus Next.js",
-   "url": "https://www.arbeitnow.com/jobs/companies/attek-solutions-gmbh/fullstack-entwickler-fokus-nextjs-berlin-156081",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-10",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "next.js",
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Qualifikation Abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation Mehrjährige Erfahrung in der Entwicklung von Anwendungen Fundierte Kenntnisse in Backend-Technologien speziell Node.js bzw. | Nest.js Erfahrung mit modernen Frontend-Frameworks wie React bzw. | Find more English Speaking Jobs in Germany on Arbeitnow",
-   "firstSeen": "2026-10-11T18:11:40+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/cority/jobs/software-engineer",
-   "company": "Cority",
-   "title": "Software Engineer",
-   "url": "https://himalayas.app/companies/cority/jobs/software-engineer",
+   "id": "himalayas:https://himalayas.app/companies/lucid-reality-labs/jobs/senior-full-stack-javascript-developer-4181819675",
+   "company": "Lucid Reality Labs",
+   "title": "Senior Full Stack Javascript Developer",
+   "url": "https://himalayas.app/companies/lucid-reality-labs/jobs/senior-full-stack-javascript-developer-4181819675",
    "location": "Worldwide",
    "remote": true,
    "postedAt": "2026-10-11",
@@ -63,30 +20,9 @@
     "react",
     "typescript"
    ],
-   "match": "generic+stack; remote",
-   "facts": "For 40 years, Cority has been the market leader in EHS+, recognized by top analysts and trusted by more than 1,500 of the most complex organizations worldwide. | 4+ years of experience as a developer. | Experience with Node, Angular/React, HTML5, CSS, TypeScript, JavaScript, Python. | Experience working with remote teams.",
-   "firstSeen": "2026-10-11T18:11:40+00:00"
-  },
-  {
-   "id": "ashby:clera:d986c71d-1f3e-425b-b4c1-13ce1012c43b",
-   "company": "Clera",
-   "title": "Forward Deployment Engineer",
-   "url": "https://jobs.ashbyhq.com/clera/d986c71d-1f3e-425b-b4c1-13ce1012c43b",
-   "location": "remote",
-   "remote": false,
-   "postedAt": "2026-10-11",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "- Several years of experience translating customer requirements into production implementations. | - German proficiency at B2 level or higher. | Exceptional candidates without German proficiency may be considered for escalation. | Voice or telephony integrations, TypeScript or Python, SQL, automation tools, and privacy considerations are relevant additional experience. | COMPENSATION & BENEFITS | Salary range: €60,000 to €90,000 annually. | Remote, Germany.",
-   "firstSeen": "2026-10-11T18:11:40+00:00"
+   "match": "title; remote",
+   "facts": "Our company has been recognized among the Top World companies in XR for years. | This is a great opportunity to join the key team, gain hands-on experience and exposure to spatial computing technology, and contribute to our Mission by disrupting global challenges with responsible technology! | The remaining 20% of your responsibilities will involve front-end work using React.",
+   "firstSeen": "2026-10-11T19:19:44+00:00"
   }
  ]
 }
