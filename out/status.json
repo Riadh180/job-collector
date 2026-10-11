@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 661
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 3450
   },
   "remotive": {
    "fetched": 144
   },
   "jobicy": {
-   "error": "no results"
+   "fetched": 133
   },
   "remoteok": {
    "fetched": 99
@@ -31,15 +31,15 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 896,
-   "failed": 18
+   "checked": 903,
+   "failed": 17
   }
  },
  "errors": {
   "companies": {
-   "Universalquantum": "HTTP 429",
    "Flatgigs": "HTTP 429",
    "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Codurance": "HTTP 429",
@@ -51,15 +51,14 @@
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
    "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "Khibraty": "HTTP 429",
-   "crewAI": "HTTP 429"
+   "GoReel": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 10,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 840
@@ -70,51 +69,41 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 58,
+  "tried": 40,
   "found": [
-   "Chariot Solutions (smartrecruiters:chariotsolutions)",
-   "Wealthfront (lever:wealthfront)",
-   "Khibraty (workable:khibraty)",
-   "Provectus (lever:provectus)",
-   "Blackbird Interactive (lever:blackbirdinteractive)",
-   "Zimperium (lever:zimperium)",
-   "Kyivstar (lever:kyivstar)",
-   "LeanTaaS (lever:leantaas)",
-   "Jito Labs (ashby:jito-labs)",
-   "Civitech (lever:civitech)",
-   "Xeropan (smartrecruiters:xeropan)",
-   "Luxury Presence (lever:luxurypresence)",
-   "bmp greengas (personio:bmp-greengas-gmbh)",
-   "Upside (ashby:upside)",
-   "Fortune Brands (smartrecruiters:fortunebrands)"
+   "BlackSky (greenhouse:blacksky)",
+   "RetailNext (greenhouse:retailnext)",
+   "GoReel (workable:goreel)",
+   "Domino Data Lab (greenhouse:dominodatalab)",
+   "Litify (greenhouse:litify)",
+   "RR Donnelley (smartrecruiters:rrdonnelley)",
+   "Authentic8 (lever:authentic8)"
   ]
  },
- "collectedAt": "2026-10-11T17:00:16+00:00",
- "rawJobs": 49183,
- "matches": 190,
- "new": 3,
- "companies": 934,
- "activeCompanies": 896,
+ "collectedAt": "2026-10-11T18:11:40+00:00",
+ "rawJobs": 50757,
+ "matches": 126,
+ "new": 4,
+ "companies": 941,
+ "activeCompanies": 903,
  "funnel": {
-  "title": 47128,
-  "passed": 328,
-  "location": 1535,
-  "duplicate": 138,
-  "company": 58,
-  "salary": 10,
-  "employment": 20,
+  "title": 48863,
+  "location": 1568,
+  "employment": 15,
+  "passed": 191,
+  "duplicate": 65,
+  "company": 16,
   "too_old": 103
  },
  "matchesBySource": {
-  "adzuna": 86,
+  "arbeitnow": 33,
   "himalayas": 2,
-  "arbeitnow": 15,
+  "ashby": 35,
   "jobicy": 6,
-  "ashby": 32,
   "recruitee": 16,
   "weworkremotely": 8,
-  "greenhouse": 8,
-  "personio": 9,
+  "personio": 11,
+  "greenhouse": 7,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1

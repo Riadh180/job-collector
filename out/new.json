@@ -1,53 +1,56 @@
 {
- "collectedAt": "2026-10-11T17:00:16+00:00",
- "count": 3,
+ "collectedAt": "2026-10-11T18:11:40+00:00",
+ "count": 4,
  "jobs": [
   {
-   "id": "adzuna:5923400307",
-   "company": "a.b.s. Rechenzentrum GmbH",
-   "title": "Softwareentwickler/fullstack-developer (m/w/d) - Lohn & Hr-lösungen",
-   "url": "https://www.adzuna.de/details/5923400307?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-11",
+   "id": "arbeitnow:fullstack-developer-camunda-berlin-290137",
+   "company": "Collaboration Betters The World GmbH",
+   "title": "Fullstack Developer Camunda (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/fullstack-developer-camunda-berlin-290137",
+   "location": "Berlin",
+   "remote": false,
+   "postedAt": "2026-10-09",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
+   "employment": "Unbefristeter arbeitsvertrag",
    "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "Hast Du Dir schon einmal Gedanken darüber gemacht, wie Dein Gehalt monatlich auf Dein Konto kommt und wohin Deine Pflegeversicherung überwiesen wird? | Zur Verstärkung unseres Teams suchen wir am Standort München (oder nach Einarbeitung Remote) zum nächstmöglichen Zeitpunkt einen .",
-   "firstSeen": "2026-10-11T17:00:16+00:00"
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Verhandlungssichere Deutsch- und Englischkenntnisse (C1). | Gehaltsspanne für diese Position (Medior-Level): 62.000 € – 72.000 € brutto/Jahr. | Unsere Kultur lebt von Vertrauen, Eigenverantwortung und echter Zusammenarbeit – egal ob remote oder vor Ort. | 🎵 Schau Dir unsere CBTW-Spotify-Playlist an: CBTW auf Spotify hören Find more English Speaking Jobs in Germany on Arbeitnow",
+   "firstSeen": "2026-10-11T18:11:40+00:00"
   },
   {
-   "id": "adzuna:5923417395",
-   "company": "Sidestream",
-   "title": "Senior Typescript Developer (f/m/d) - In 3 Minuten erfolgreich bewerben",
-   "url": "https://www.adzuna.de/details/5923417395?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-11",
+   "id": "arbeitnow:fullstack-entwickler-fokus-nextjs-berlin-156081",
+   "company": "Attek Solutions GmbH",
+   "title": "Fullstack Entwickler Fokus Next.js",
+   "url": "https://www.arbeitnow.com/jobs/companies/attek-solutions-gmbh/fullstack-entwickler-fokus-nextjs-berlin-156081",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-10-10",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
+   "employment": "Unbefristeter arbeitsvertrag",
    "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
    "stackHits": [
-    "typescript"
+    "next.js",
+    "react"
    ],
    "match": "title; remote",
-   "facts": "* Learning & Growth: Gain mentoring from experienced professionals and access to proven processes that prepare you for success in a fast-paced tech enviro… typescript",
-   "firstSeen": "2026-10-11T17:00:16+00:00"
+   "facts": "Qualifikation Abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation Mehrjährige Erfahrung in der Entwicklung von Anwendungen Fundierte Kenntnisse in Backend-Technologien speziell Node.js bzw. | Nest.js Erfahrung mit modernen Frontend-Frameworks wie React bzw. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "firstSeen": "2026-10-11T18:11:40+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/orbit/jobs/product-engineer-m-w-d",
-   "company": "Orbit",
-   "title": "Product Engineer (m/w/d)",
-   "url": "https://himalayas.app/companies/orbit/jobs/product-engineer-m-w-d",
-   "location": "Germany",
+   "id": "himalayas:https://himalayas.app/companies/cority/jobs/software-engineer",
+   "company": "Cority",
+   "title": "Software Engineer",
+   "url": "https://himalayas.app/companies/cority/jobs/software-engineer",
+   "location": "Worldwide",
    "remote": true,
    "postedAt": "2026-10-11",
    "salary": "",
@@ -57,11 +60,33 @@
    "source": "himalayas",
    "ats": "himalayas",
    "stackHits": [
+    "react",
     "typescript"
    ],
-   "match": "title; remote",
-   "facts": "Vor zwei Jahren hätten wir hier einen „TypeScript-Ninja\" gesucht. | Es geht nicht mehr darum, wie schnell du tippst, sondern wie gut du beurteilen kannst, was ein Agent produziert. | Wir transkribieren jedes Meeting, kommunizieren async in Schrift und pflegen ein lebendes Handbuch – nicht für die AI, sondern weil ein gutes Remote-Team so arbeitet.",
-   "firstSeen": "2026-10-11T17:00:16+00:00"
+   "match": "generic+stack; remote",
+   "facts": "For 40 years, Cority has been the market leader in EHS+, recognized by top analysts and trusted by more than 1,500 of the most complex organizations worldwide. | 4+ years of experience as a developer. | Experience with Node, Angular/React, HTML5, CSS, TypeScript, JavaScript, Python. | Experience working with remote teams.",
+   "firstSeen": "2026-10-11T18:11:40+00:00"
+  },
+  {
+   "id": "ashby:clera:d986c71d-1f3e-425b-b4c1-13ce1012c43b",
+   "company": "Clera",
+   "title": "Forward Deployment Engineer",
+   "url": "https://jobs.ashbyhq.com/clera/d986c71d-1f3e-425b-b4c1-13ce1012c43b",
+   "location": "remote",
+   "remote": false,
+   "postedAt": "2026-10-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "- Several years of experience translating customer requirements into production implementations. | - German proficiency at B2 level or higher. | Exceptional candidates without German proficiency may be considered for escalation. | Voice or telephony integrations, TypeScript or Python, SQL, automation tools, and privacy considerations are relevant additional experience. | COMPENSATION & BENEFITS | Salary range: €60,000 to €90,000 annually. | Remote, Germany.",
+   "firstSeen": "2026-10-11T18:11:40+00:00"
   }
  ]
 }
