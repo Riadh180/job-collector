@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 808
+   "fetched": 806
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 133
+   "error": "no results"
   },
   "remoteok": {
    "fetched": 99
@@ -32,7 +32,7 @@
   },
   "companies": {
    "checked": 884,
-   "failed": 19
+   "failed": 23
   }
  },
  "errors": {
@@ -47,9 +47,13 @@
    "InnovationTeam": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Treantly": "HTTP 429",
+   "Jimmy Technologies": "HTTP 429",
+   "celebrate company GmbH": "HTTP 429",
    "stakefish": "HTTP 429",
    "3Ss": "HTTP 429",
    "SupportYourApp": "HTTP 429",
+   "Nodeworthy": "HTTP 429",
+   "ITQ": "HTTP 429",
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
    "Symmetrio": "HTTP 429",
@@ -71,35 +75,34 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 30,
+  "tried": 31,
   "found": [
    "TMS, LLC (personio:tmsgmbh)",
    "Mactores (lever:mactores)",
    "Fortune Brands (smartrecruiters:fortunebrands)"
   ]
  },
- "collectedAt": "2026-10-11T16:10:07+00:00",
- "rawJobs": 49127,
- "matches": 192,
+ "collectedAt": "2026-10-11T16:41:21+00:00",
+ "rawJobs": 48953,
+ "matches": 186,
  "new": 1,
  "companies": 922,
  "activeCompanies": 884,
  "funnel": {
-  "title": 47050,
-  "passed": 335,
+  "title": 46949,
+  "passed": 297,
   "salary": 15,
-  "location": 1534,
-  "duplicate": 143,
+  "location": 1505,
+  "duplicate": 111,
   "company": 69,
-  "employment": 20,
+  "employment": 14,
   "too_old": 103
  },
  "matchesBySource": {
-  "adzuna": 88,
+  "adzuna": 86,
   "himalayas": 1,
   "arbeitnow": 15,
-  "jobicy": 6,
-  "ashby": 34,
+  "ashby": 36,
   "recruitee": 16,
   "weworkremotely": 8,
   "greenhouse": 8,
