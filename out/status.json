@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1175
+   "fetched": 976
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 1950
   },
   "remotive": {
    "fetched": 144
@@ -31,38 +31,19 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 879,
-   "failed": 18
+   "checked": 881,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 16,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 790
+  "callsToday": 120,
+  "callsLast7Days": 820
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -70,46 +51,38 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 44,
+  "tried": 9,
   "found": [
-   "Skdse (greenhouse:skdse)",
-   "Polar (ashby:polar)",
-   "Alpineeagle (greenhouse:alpineeagle)",
-   "VIVIO Health (smartrecruiters:viviohealth)",
-   "Invisible Technologies (smartrecruiters:invisibletechnologies)",
-   "Radian Arc (greenhouse:radianarc)",
-   "Streem Energy (smartrecruiters:streemenergy)",
-   "Fundrise (lever:fundrise)",
-   "Insider One (lever:insiderone)",
-   "NECSWS (smartrecruiters:necsws)"
+   "artundweise GmbH (personio:artundweise-gmbh)",
+   "crewAI (workable:crewai)"
   ]
  },
- "collectedAt": "2026-10-11T13:51:41+00:00",
- "rawJobs": 49256,
- "matches": 217,
- "new": 1,
- "companies": 917,
- "activeCompanies": 879,
+ "collectedAt": "2026-10-11T14:48:39+00:00",
+ "rawJobs": 52453,
+ "matches": 185,
+ "new": 0,
+ "companies": 919,
+ "activeCompanies": 881,
  "funnel": {
-  "title": 47065,
-  "passed": 431,
-  "location": 1536,
-  "duplicate": 214,
-  "company": 83,
-  "salary": 16,
-  "employment": 21,
-  "too_old": 103
+  "passed": 338,
+  "title": 50206,
+  "duplicate": 153,
+  "salary": 9,
+  "company": 72,
+  "location": 1707,
+  "employment": 16,
+  "too_old": 104
  },
  "matchesBySource": {
   "himalayas": 3,
-  "adzuna": 114,
-  "arbeitnow": 14,
+  "adzuna": 78,
+  "arbeitnow": 15,
   "jobicy": 6,
-  "ashby": 32,
+  "ashby": 33,
   "recruitee": 16,
   "weworkremotely": 8,
+  "personio": 10,
   "greenhouse": 8,
-  "personio": 8,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1
