@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1106
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 57
+   "fetched": 58
   },
   "hn": {
    "fetched": 300
@@ -31,16 +31,34 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 922,
-   "failed": 0
+   "checked": 925,
+   "failed": 17
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Flatgigs": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "Teamified": "HTTP 429",
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 16,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 60,
   "callsLast7Days": 900
@@ -51,39 +69,37 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 7,
+  "tried": 32,
   "found": [
-   "Pets Deli (personio:pets-deli)",
-   "Q.ANT GmbH (personio:q-ant-gmbh)",
-   "Tonies (personio:tonies)",
-   "Entrix GmbH (personio:entrix)"
+   "Form3 (greenhouse:form3)",
+   "Techpilot (personio:techpilot)",
+   "PatSnap (recruitee:patsnap)"
   ]
  },
- "collectedAt": "2026-10-12T12:39:30+00:00",
- "rawJobs": 54125,
- "matches": 195,
- "new": 3,
- "companies": 960,
- "activeCompanies": 922,
+ "collectedAt": "2026-10-12T14:00:15+00:00",
+ "rawJobs": 50000,
+ "matches": 113,
+ "new": 2,
+ "companies": 963,
+ "activeCompanies": 925,
  "funnel": {
-  "title": 51829,
-  "passed": 356,
-  "duplicate": 161,
-  "company": 65,
-  "salary": 19,
-  "location": 1733,
-  "employment": 18,
+  "title": 48137,
+  "location": 1575,
+  "passed": 153,
+  "duplicate": 40,
+  "company": 17,
+  "employment": 13,
   "too_old": 104
  },
  "matchesBySource": {
-  "adzuna": 97,
-  "ashby": 34,
-  "jobicy": 4,
+  "himalayas": 1,
   "greenhouse": 9,
-  "recruitee": 16,
-  "arbeitnow": 12,
+  "ashby": 37,
+  "arbeitnow": 17,
+  "jobicy": 4,
+  "recruitee": 17,
   "weworkremotely": 8,
-  "personio": 8,
+  "personio": 13,
   "hn": 6,
   "smartrecruiters": 1
  }
