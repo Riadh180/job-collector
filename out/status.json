@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 1017
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 144
   },
   "jobicy": {
-   "fetched": 133
+   "fetched": 144
   },
   "remoteok": {
    "fetched": 99
@@ -28,10 +28,10 @@
    "fetched": 300
   },
   "workingnomads": {
-   "fetched": 51
+   "fetched": 50
   },
   "companies": {
-   "checked": 908,
+   "checked": 918,
    "failed": 20
   }
  },
@@ -60,11 +60,11 @@
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 30,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 140,
-  "callsLast7Days": 840
+  "callsToday": 30,
+  "callsLast7Days": 870
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -72,46 +72,45 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 60,
+  "tried": 109,
   "found": [
-   "Lucid Reality Labs (recruitee:lucidrealitylabs)",
-   "BlackSky (greenhouse:blacksky)",
-   "Optios (recruitee:optios)",
-   "Deep DSG (recruitee:deepdsg)",
-   "Motivee (recruitee:motivee)",
-   "Grip (recruitee:grip)",
-   "JetRails (recruitee:jetrails)",
-   "Securitas (smartrecruiters:securitas)",
-   "ELEKS (lever:eleks)",
-   "Smartsheet (greenhouse:smartsheet)",
-   "Domino Data Lab (greenhouse:dominodatalab)",
-   "RetailNext (greenhouse:retailnext)"
+   "CoderPad (lever:coderpad)",
+   "Deepgram (ashby:deepgram)",
+   "TTEC Digital (lever:ttecdigital)",
+   "iwell (recruitee:iwell)",
+   "Datadog (greenhouse:datadog)",
+   "Tideways GmbH (personio:tideways)",
+   "Kinly (recruitee:kinly)",
+   "Genesis (ashby:genesis)",
+   "LastPass (greenhouse:lastpass)",
+   "OpenZeppelin (greenhouse:openzeppelin)"
   ]
  },
- "collectedAt": "2026-10-11T19:27:32+00:00",
- "rawJobs": 49199,
- "matches": 117,
- "new": 2,
- "companies": 946,
- "activeCompanies": 908,
+ "collectedAt": "2026-10-12T10:50:34+00:00",
+ "rawJobs": 50805,
+ "matches": 181,
+ "new": 4,
+ "companies": 956,
+ "activeCompanies": 918,
  "funnel": {
-  "title": 47350,
-  "location": 1542,
-  "employment": 15,
-  "passed": 172,
-  "duplicate": 55,
-  "company": 16,
-  "too_old": 103
+  "title": 48693,
+  "passed": 318,
+  "company": 88,
+  "salary": 12,
+  "location": 1575,
+  "duplicate": 137,
+  "employment": 14,
+  "too_old": 104
  },
  "matchesBySource": {
-  "himalayas": 3,
-  "ashby": 36,
-  "arbeitnow": 19,
-  "jobicy": 6,
+  "adzuna": 77,
+  "ashby": 33,
+  "arbeitnow": 17,
+  "jobicy": 4,
   "recruitee": 16,
   "weworkremotely": 8,
-  "personio": 13,
-  "greenhouse": 8,
+  "personio": 11,
+  "greenhouse": 7,
   "hn": 6,
   "workingnomads": 1,
   "smartrecruiters": 1
