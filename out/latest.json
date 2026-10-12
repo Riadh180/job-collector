@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-12T14:00:15+00:00",
+ "collectedAt": "2026-10-12T14:19:11+00:00",
  "count": 113,
  "jobs": [
   {
@@ -22,7 +22,7 @@
    ],
    "match": "title; remote",
    "facts": "A competitive compensation package incl.",
-   "firstSeen": "2026-10-12T14:00:15+00:00"
+   "firstSeen": "2026-10-12T14:19:11+00:00"
   },
   {
    "id": "greenhouse:trivago:8878851002",
@@ -44,7 +44,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Enjoy your office days.",
-   "firstSeen": "2026-10-12T14:00:15+00:00"
+   "firstSeen": "2026-10-12T14:19:11+00:00"
   },
   {
    "id": "ashby:clera:d986c71d-1f3e-425b-b4c1-13ce1012c43b",
@@ -1032,7 +1032,7 @@
   },
   {
    "id": "personio:pixelproduction:2825889",
-   "company": "PixelProduction",
+   "company": "PixelProduction GmbH & Co. KG",
    "title": "Teamleitung Webentwicklung / Web Development (m/w/d)",
    "url": "https://pixelproduction.jobs.personio.de/job/2825889?language=en",
    "location": "Wuppertal",
@@ -1930,6 +1930,28 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
+   "id": "recruitee:epilot:1486625",
+   "company": "epilot",
+   "title": "Senior/Staff Product Engineer (Full Stack) (m/f/d)",
+   "url": "https://epilot.recruitee.com/o/senior-product-engineer-fullstack",
+   "location": "Remote job / Köln / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime",
+   "industry": "",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; NRW",
+   "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
    "id": "ashby:restate:c6651462-c412-4f6d-8553-d193a685294a",
    "company": "Restate",
    "title": "Frontend Engineer",
@@ -1974,25 +1996,24 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:epilot:1486625",
-   "company": "epilot",
-   "title": "Senior/Staff Product Engineer (Full Stack) (m/f/d)",
-   "url": "https://epilot.recruitee.com/o/senior-product-engineer-fullstack",
-   "location": "Remote job / Köln / Germany",
+   "id": "recruitee:recaregmbh:2739252",
+   "company": "Recare",
+   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
+   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
+   "location": "Remote job / Berlin / Germany",
    "remote": true,
    "postedAt": "",
    "salary": "",
    "salaryMax": null,
-   "employment": "fulltime",
+   "employment": "fulltime_permanent",
    "industry": "",
    "source": "recruitee",
    "ats": "recruitee",
    "stackHits": [
-    "react",
     "typescript"
    ],
-   "match": "title; NRW",
-   "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
+   "match": "generic+stack; remote",
+   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2086,6 +2107,44 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
+   "id": "personio:semdor-pharma-group-gmbh:2780716",
+   "company": "Semdor Pharma Group",
+   "title": "Fullstack Developer (m/w/d)",
+   "url": "https://semdor-pharma-group-gmbh.jobs.personio.de/job/2780716?language=en",
+   "location": "Köln",
+   "remote": null,
+   "postedAt": "2026-09-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "personio:ass:2760312",
+   "company": "Athletic Sport Sponsoring",
+   "title": "Fullstack Developer (m/w/d) – Expo, React Native & Firebase in Präsenz am Standort Bochum",
+   "url": "https://ass.jobs.personio.de/job/2760312?language=en",
+   "location": "Bochum",
+   "remote": null,
+   "postedAt": "2026-08-19",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
    "id": "recruitee:distribusion:2758780",
    "company": "Distribusion",
    "title": "Senior Frontend Engineer (all genders)",
@@ -2148,44 +2207,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "personio:ass:2760312",
-   "company": "Athletic Sport Sponsoring",
-   "title": "Fullstack Developer (m/w/d) – Expo, React Native & Firebase in Präsenz am Standort Bochum",
-   "url": "https://ass.jobs.personio.de/job/2760312?language=en",
-   "location": "Bochum",
-   "remote": null,
-   "postedAt": "2026-08-19",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "personio:semdor-pharma-group-gmbh:2780716",
-   "company": "Semdor Pharma Group",
-   "title": "Fullstack Developer (m/w/d)",
-   "url": "https://semdor-pharma-group-gmbh.jobs.personio.de/job/2780716?language=en",
-   "location": "Köln",
-   "remote": null,
-   "postedAt": "2026-09-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:zenjob:cb4a5fc7-ee05-41f0-b07a-0d91403c3d8e",
    "company": "Zenjob",
    "title": "Full-Stack Engineer (f/m/d)",
@@ -2204,25 +2225,6 @@
    ],
    "match": "title; remote",
    "facts": "Applicants must already hold the legal right to work in Germany (e.g., EU/EEA citizenship or a valid residence/work permit). | Over 40,000 students and 1,000 partner companies from logistics, retail, and hospitality in all major German cities share our belief that good work is not a coincidence. | - Build and evolve backend services and frontend applications using TypeScript and Java, leveraging gRPC as our primary service communication protocol | - Hybrid working model: We love our brand new office in Prenzlauer Berg. | Zenjob’s flexible working model combines the best of both worlds, so you can work remotely up to 2 days / week (1 day, during the first 6 months, so we can guarantee you the",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "smartrecruiters:Redcare-Pharmacy:744000152108179",
-   "company": "Redcare Pharmacy",
-   "title": "Senior Engineer, FullStack, Retail Media/AdTech Solutions (m/f/d)",
-   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000152108179",
-   "location": "Cologne / de",
-   "remote": true,
-   "postedAt": "2026-09-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full-time",
-   "industry": "",
-   "source": "smartrecruiters",
-   "ats": "smartrecruiters",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2245,6 +2247,25 @@
    ],
    "match": "title; remote",
    "facts": "We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. | Upvest is backed by €280M in total funding from world-class investors, including BlackRock, Tencent, Sapphire Ventures, and Bessemer Venture Partners, Earlybird, Notion Capital, and Motive. | Our latest €105M funding round in March 2026 - led by Sapphire and Tencent - serves as a massive catalyst for our growth, allowing us to offer premier investment experience. | Agentic operations, exposed over MCP, is where we think this goes. | - Take operational problems from concept to production, working across our React/TypeScript frontend and Go backend services. | - Build agent",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "smartrecruiters:Redcare-Pharmacy:744000152108179",
+   "company": "Redcare Pharmacy",
+   "title": "Senior Engineer, FullStack, Retail Media/AdTech Solutions (m/f/d)",
+   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000152108179",
+   "location": "Cologne / de",
+   "remote": true,
+   "postedAt": "2026-09-28",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time",
+   "industry": "",
+   "source": "smartrecruiters",
+   "ats": "smartrecruiters",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
