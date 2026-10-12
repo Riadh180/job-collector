@@ -31,7 +31,7 @@
    "fetched": 50
   },
   "companies": {
-   "checked": 932,
+   "checked": 933,
    "failed": 0
   }
  },
@@ -51,23 +51,23 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 7,
+  "tried": 4,
   "found": [
-   "Guidewheel (greenhouse:guidewheel)"
+   "Algolia (greenhouse:algolia)"
   ]
  },
- "collectedAt": "2026-10-12T21:43:37+00:00",
- "rawJobs": 53630,
+ "collectedAt": "2026-10-12T22:23:04+00:00",
+ "rawJobs": 53669,
  "matches": 108,
  "new": 0,
- "companies": 970,
- "activeCompanies": 932,
+ "companies": 971,
+ "activeCompanies": 933,
  "funnel": {
-  "title": 51617,
-  "location": 1722,
+  "title": 51647,
+  "passed": 156,
+  "location": 1730,
   "employment": 14,
-  "passed": 155,
-  "duplicate": 47,
+  "duplicate": 48,
   "company": 17,
   "too_old": 104
  },
@@ -75,11 +75,11 @@
   "himalayas": 1,
   "greenhouse": 9,
   "ashby": 36,
-  "arbeitnow": 16,
+  "arbeitnow": 17,
   "jobicy": 5,
   "recruitee": 13,
   "weworkremotely": 8,
-  "personio": 13,
+  "personio": 12,
   "hn": 6,
   "smartrecruiters": 1
  }

@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-12T21:43:37+00:00",
+ "collectedAt": "2026-10-12T22:23:04+00:00",
  "count": 108,
  "jobs": [
   {
@@ -427,6 +427,27 @@
    "firstSeen": "2026-10-08T11:43:46+00:00"
   },
   {
+   "id": "arbeitnow:remote-senior-fullstack-entwicklerin-mit-schwerpunkt-frontend-koln-454856",
+   "company": "Rausgegangen GmbH",
+   "title": "(Senior) Fullstack Entwickler:in Mit Schwerpunkt Frontend",
+   "url": "https://www.arbeitnow.com/jobs/companies/rausgegangen-gmbh/remote-senior-fullstack-entwicklerin-mit-schwerpunkt-frontend-koln-454856",
+   "location": "Köln",
+   "remote": true,
+   "postedAt": "2026-10-12",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Experienced Permanent Full time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; NRW",
+   "facts": "Ob vor Ort in Köln oder remote - bei uns ist jedes Modell denkbar. | Lade bitte folgende Unterlagen hoch: Anschreiben Lebenslauf Arbeitsproben/Zeugnisse Dein Top-Grund, warum du bei Rausgegangen arbeiten möchtest Find Jobs in Germany on Arbeitnow",
+   "firstSeen": "2026-10-08T10:31:37+00:00"
+  },
+  {
    "id": "arbeitnow:remote-full-stack-engineer-backend-leaning-creative-agents-142992",
    "company": "ElevenLabs",
    "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
@@ -509,25 +530,6 @@
    ],
    "match": "title; remote",
    "facts": "We trade with global suppliers and distribute to European customers on our own account. | - Strong triple-digit-million euro turnover | - Seven European markets live | - 80+ people across Berlin (HQ), offices in London, Mumbai, and Shanghai | Java 21 and Spring Boot 3, Python, LangGraph and LLM APIs (OpenAI, Anthropic, Gemini), PostgreSQL, Kinesis, AWS with Terraform, GitHub Actions, and TypeScript with Node.js, Next.js and React. | - At least 5 years of experience building and running software in production, with real users and real consequences when it fails. | - Your depth is on the backend, but full-stack delivery is expected: you build frontends in TypeScript and React. | - Location: Be",
-   "firstSeen": "2026-10-08T10:31:37+00:00"
-  },
-  {
-   "id": "personio:rausgegangen:2831679",
-   "company": "Rausgegangen GmbH",
-   "title": "(SENIOR) FULLSTACK ENTWICKLER:IN MIT SCHWERPUNKT FRONTEND",
-   "url": "https://rausgegangen.jobs.personio.de/job/2831679?language=en",
-   "location": "Köln",
-   "remote": null,
-   "postedAt": "2026-10-07",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "from job boards",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
@@ -987,7 +989,7 @@
   },
   {
    "id": "personio:pixelproduction:2825889",
-   "company": "PixelProduction GmbH & Co. KG",
+   "company": "PixelProduction",
    "title": "Teamleitung Webentwicklung / Web Development (m/w/d)",
    "url": "https://pixelproduction.jobs.personio.de/job/2825889?language=en",
    "location": "Wuppertal",
@@ -1601,7 +1603,7 @@
     "typescript"
    ],
    "match": "title; DE+remote-in-text",
-   "facts": "Anfragefunnel, Wirtschaftlichkeitsrechnung und das Partnerportal für Solarteure und Elektriker. | Fit & gesund: Mit unserem Urban Sports Club-Zuschuss trainierst Du deutschlandweit in tausenden Studios und Kursen, von Yoga bis Klettern. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Anfragefunnel, Wirtschaftlichkeitsrechnung und das Partnerportal für Solarteure und Elektriker. | Fit & gesund: Mit unserem Urban Sports Club-Zuschuss trainierst Du deutschlandweit in tausenden Studios und Kursen, von Yoga bis Klettern. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-06T00:39:52+00:00"
   },
   {
@@ -1976,27 +1978,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:recaregmbh:2739252",
-   "company": "Recare",
-   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
-   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
-   "location": "Remote job / Berlin / Germany",
-   "remote": true,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "greenhouse:trivago:8641657002",
    "company": "trivago",
    "title": "Frontend Engineering Lead - Content",
@@ -2020,10 +2001,10 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:distribusion:2704294",
-   "company": "Distribusion",
-   "title": "Senior Product Engineer, IMS (all genders)",
-   "url": "https://careers.distribusion.com/o/senior-product-engineer-ims-all-genders-1",
+   "id": "recruitee:recaregmbh:2739252",
+   "company": "Recare",
+   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
+   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
    "location": "Remote job / Berlin / Germany",
    "remote": true,
    "postedAt": "",
@@ -2033,9 +2014,11 @@
    "industry": "",
    "source": "recruitee",
    "ats": "recruitee",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "Workplace: Berlin & Hybrid: HQ office in Berlin, where the team often meets. | Remote: We are a remote-first company with teams located around the Globe. | Who you are: Several years of experience building and operating backend services in Python, with ownership across the full lifecycle: design, implementation, deployment, monitoring, and maintenance. | Fluent in English, both verbal and written. | Our partners include Booking.com , Google Maps, Amtrak, Deutsche Bahn, Renfe, and SNCF. | Enjoy flexible and remote-friendly working options, relocation opportunities, and plenty of room to grow.",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2077,22 +2060,22 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "smartrecruiters:Redcare-Pharmacy:744000152108179",
-   "company": "Redcare Pharmacy",
-   "title": "Senior Engineer, FullStack, Retail Media/AdTech Solutions (m/f/d)",
-   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000152108179",
-   "location": "Cologne / de",
+   "id": "recruitee:distribusion:2704294",
+   "company": "Distribusion",
+   "title": "Senior Product Engineer, IMS (all genders)",
+   "url": "https://careers.distribusion.com/o/senior-product-engineer-ims-all-genders-1",
+   "location": "Remote job / Berlin / Germany",
    "remote": true,
-   "postedAt": "2026-09-28",
+   "postedAt": "",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full-time",
+   "employment": "fulltime_permanent",
    "industry": "",
-   "source": "smartrecruiters",
-   "ats": "smartrecruiters",
+   "source": "recruitee",
+   "ats": "recruitee",
    "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
+   "match": "title; remote",
+   "facts": "Workplace: Berlin & Hybrid: HQ office in Berlin, where the team often meets. | Remote: We are a remote-first company with teams located around the Globe. | Who you are: Several years of experience building and operating backend services in Python, with ownership across the full lifecycle: design, implementation, deployment, monitoring, and maintenance. | Fluent in English, both verbal and written. | Our partners include Booking.com , Google Maps, Amtrak, Deutsche Bahn, Renfe, and SNCF. | Enjoy flexible and remote-friendly working options, relocation opportunities, and plenty of room to grow.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2114,6 +2097,25 @@
    ],
    "match": "title; remote",
    "facts": "Applicants must already hold the legal right to work in Germany (e.g., EU/EEA citizenship or a valid residence/work permit). | Over 40,000 students and 1,000 partner companies from logistics, retail, and hospitality in all major German cities share our belief that good work is not a coincidence. | - Build and evolve backend services and frontend applications using TypeScript and Java, leveraging gRPC as our primary service communication protocol | - Hybrid working model: We love our brand new office in Prenzlauer Berg. | Zenjob’s flexible working model combines the best of both worlds, so you can work remotely up to 2 days / week (1 day, during the first 6 months, so we can guarantee you the",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "smartrecruiters:Redcare-Pharmacy:744000152108179",
+   "company": "Redcare Pharmacy",
+   "title": "Senior Engineer, FullStack, Retail Media/AdTech Solutions (m/f/d)",
+   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000152108179",
+   "location": "Cologne / de",
+   "remote": true,
+   "postedAt": "2026-09-28",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time",
+   "industry": "",
+   "source": "smartrecruiters",
+   "ats": "smartrecruiters",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
