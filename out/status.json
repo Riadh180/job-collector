@@ -7,13 +7,13 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 2550
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 144
+   "fetched": 159
   },
   "remoteok": {
    "fetched": 99
@@ -22,26 +22,29 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 58
+   "fetched": 61
   },
   "hn": {
-   "fetched": 300
+   "fetched": 301
   },
   "workingnomads": {
-   "fetched": 49
+   "fetched": 50
   },
   "companies": {
-   "checked": 925,
-   "failed": 0
+   "checked": 931,
+   "failed": 20
   }
  },
  "errors": {
   "companies": {
+   "Universalquantum": "HTTP 429",
    "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Treantly": "HTTP 429",
    "stakefish": "HTTP 429",
@@ -69,35 +72,38 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 32,
+  "tried": 54,
   "found": [
-   "Form3 (greenhouse:form3)",
-   "Techpilot (personio:techpilot)",
-   "PatSnap (recruitee:patsnap)"
+   "Vinteden (greenhouse:vinteden)",
+   "Apaleo (greenhouse:apaleo)",
+   "Zeta Global (greenhouse:zetaglobal)",
+   "Paralucent (recruitee:paralucent)",
+   "LionHires (greenhouse:lionhires)",
+   "Launch Potato (greenhouse:launchpotato)"
   ]
  },
- "collectedAt": "2026-10-12T14:19:11+00:00",
- "rawJobs": 53125,
- "matches": 113,
- "new": 2,
- "companies": 963,
- "activeCompanies": 925,
+ "collectedAt": "2026-10-12T19:39:21+00:00",
+ "rawJobs": 51088,
+ "matches": 112,
+ "new": 1,
+ "companies": 969,
+ "activeCompanies": 931,
  "funnel": {
-  "title": 51098,
-  "location": 1739,
-  "passed": 153,
-  "duplicate": 40,
-  "company": 17,
-  "employment": 13,
+  "location": 1570,
+  "title": 49216,
+  "employment": 14,
+  "passed": 165,
+  "duplicate": 53,
+  "company": 18,
   "too_old": 104
  },
  "matchesBySource": {
   "himalayas": 1,
-  "greenhouse": 9,
-  "ashby": 37,
-  "arbeitnow": 17,
-  "jobicy": 4,
-  "recruitee": 17,
+  "greenhouse": 8,
+  "ashby": 35,
+  "arbeitnow": 23,
+  "jobicy": 5,
+  "recruitee": 12,
   "weworkremotely": 8,
   "personio": 13,
   "hn": 6,

@@ -1,13 +1,13 @@
 {
- "collectedAt": "2026-10-12T14:19:11+00:00",
- "count": 2,
+ "collectedAt": "2026-10-12T19:39:21+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "himalayas:https://himalayas.app/companies/devop-one/jobs/senior-frontend-software-engineer",
-   "company": "Devop.One",
-   "title": "Senior Frontend Software Engineer",
-   "url": "https://himalayas.app/companies/devop-one/jobs/senior-frontend-software-engineer",
-   "location": "Germany",
+   "id": "himalayas:https://himalayas.app/companies/the-agile-monkeys/jobs/senior-fullstack-engineer-with-react-team-lead",
+   "company": "The Agile Monkeys",
+   "title": "Senior Fullstack Engineer with React & Team Lead",
+   "url": "https://himalayas.app/companies/the-agile-monkeys/jobs/senior-fullstack-engineer-with-react-team-lead",
+   "location": "Worldwide",
    "remote": true,
    "postedAt": "2026-10-12",
    "salary": "",
@@ -21,30 +21,8 @@
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "A competitive compensation package incl.",
-   "firstSeen": "2026-10-12T14:19:11+00:00"
-  },
-  {
-   "id": "greenhouse:trivago:8878851002",
-   "company": "trivago",
-   "title": "Software Engineer - AI & Productivity Solutions",
-   "url": "https://careers.trivago.com/apply/8878851002.?gh_jid=8878851002",
-   "location": "Düsseldorf / trivago (Düsseldorf)",
-   "remote": null,
-   "postedAt": "2026-10-12",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "Enjoy your office days.",
-   "firstSeen": "2026-10-12T14:19:11+00:00"
+   "facts": "Dedication: It’s a full-time position (8 hours, 5 days a week) and fully remote (preferably if you are in a time zone ranging from GMT -7 to GMT +2 ). | The Agile Monkeys way: You will be part of our team and, therefore, will take advantage of all of our perks : technical workshops and presentations, mentoring, and coaching sessions, among others. | About the Role At The Agile Monkeys , we’re looking for a Senior React Developer who’s ready to go beyond coding and step up as a team lead . | This role is ideal for someone who not only has deep React expertise but also loves mentoring others, coordinating teams, and ensuring project success . | What is required in terms of APTITUDE: At least 8",
+   "firstSeen": "2026-10-12T19:39:21+00:00"
   }
  ]
 }
