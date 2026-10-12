@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1017
+   "fetched": 1106
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -10,7 +10,7 @@
    "fetched": 1850
   },
   "remotive": {
-   "fetched": 144
+   "fetched": 120
   },
   "jobicy": {
    "fetched": 144
@@ -28,43 +28,22 @@
    "fetched": 300
   },
   "workingnomads": {
-   "fetched": 50
+   "fetched": 49
   },
   "companies": {
-   "checked": 918,
-   "failed": 20
+   "checked": 922,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 16,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 870
+  "callsToday": 60,
+  "callsLast7Days": 900
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -72,47 +51,40 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 109,
+  "tried": 7,
   "found": [
-   "CoderPad (lever:coderpad)",
-   "Deepgram (ashby:deepgram)",
-   "TTEC Digital (lever:ttecdigital)",
-   "iwell (recruitee:iwell)",
-   "Datadog (greenhouse:datadog)",
-   "Tideways GmbH (personio:tideways)",
-   "Kinly (recruitee:kinly)",
-   "Genesis (ashby:genesis)",
-   "LastPass (greenhouse:lastpass)",
-   "OpenZeppelin (greenhouse:openzeppelin)"
+   "Pets Deli (personio:pets-deli)",
+   "Q.ANT GmbH (personio:q-ant-gmbh)",
+   "Tonies (personio:tonies)",
+   "Entrix GmbH (personio:entrix)"
   ]
  },
- "collectedAt": "2026-10-12T10:50:34+00:00",
- "rawJobs": 50805,
- "matches": 181,
- "new": 4,
- "companies": 956,
- "activeCompanies": 918,
+ "collectedAt": "2026-10-12T12:39:30+00:00",
+ "rawJobs": 54125,
+ "matches": 195,
+ "new": 3,
+ "companies": 960,
+ "activeCompanies": 922,
  "funnel": {
-  "title": 48693,
-  "passed": 318,
-  "company": 88,
-  "salary": 12,
-  "location": 1575,
-  "duplicate": 137,
-  "employment": 14,
+  "title": 51829,
+  "passed": 356,
+  "duplicate": 161,
+  "company": 65,
+  "salary": 19,
+  "location": 1733,
+  "employment": 18,
   "too_old": 104
  },
  "matchesBySource": {
-  "adzuna": 77,
-  "ashby": 33,
-  "arbeitnow": 17,
+  "adzuna": 97,
+  "ashby": 34,
   "jobicy": 4,
+  "greenhouse": 9,
   "recruitee": 16,
+  "arbeitnow": 12,
   "weworkremotely": 8,
-  "personio": 11,
-  "greenhouse": 7,
+  "personio": 8,
   "hn": 6,
-  "workingnomads": 1,
   "smartrecruiters": 1
  }
 }
