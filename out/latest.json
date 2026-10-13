@@ -1,7 +1,28 @@
 {
- "collectedAt": "2026-10-13T17:57:45+00:00",
- "count": 110,
+ "collectedAt": "2026-10-13T20:30:19+00:00",
+ "count": 108,
  "jobs": [
+  {
+   "id": "ashby:qlub:3f088b11-d5ae-4018-aa32-5c47fd8cc7f1",
+   "company": "Qlub",
+   "title": "Senior Software Engineer, AI-Native Development",
+   "url": "https://jobs.ashbyhq.com/qlub/3f088b11-d5ae-4018-aa32-5c47fd8cc7f1",
+   "location": "Berlin, Germany / Bucharest, Romania / Amsterdam, Netherlands / Warsaw, Poland / Dubai, UAE / Abu Dhabi, UAE / Germany",
+   "remote": true,
+   "postedAt": "2026-10-07",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "We're building the teams that take us to the next stage. | Fluency in English is a must | Exposure to vector databases, embeddings, semantic search, or retrieval systems | React/ modern frontend development experience",
+   "firstSeen": "2026-10-13T20:30:19+00:00"
+  },
   {
    "id": "jobicy:155189",
    "company": "infisical",
@@ -22,52 +43,6 @@
    ],
    "match": "title; remote",
    "facts": "Requirements Deep technical mastery of the JavaScript ecosystem, particularly React.js, Node.js, and TypeScript. | We operate primarily as a remote team, but maintain a strong presence in San Francisco, where we have an office. | At Infisical, we offer competitive compensation, including both salary and equity options.",
-   "firstSeen": "2026-10-13T17:57:45+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/oh-so-digital/jobs/senior-frontend-developer-f-m-d",
-   "company": "OH-SO Digital",
-   "title": "Senior Frontend Developer (f/m/d)",
-   "url": "https://himalayas.app/companies/oh-so-digital/jobs/senior-frontend-developer-f-m-d",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-10-13",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "On the marketing side we build highly customised sites in Next.js and React, with careful design and animation and a real focus on how the page performs and feels. | You have years of hard problems behind you and it shows. | You’re enjoying being part of a team, not a remote desk which prefers to work in isolation most of the time. | The tech stack you will work with: Languages and frameworks: React, Next.js, TypeScript, HTML, CSS, Python.",
-   "firstSeen": "2026-10-13T17:57:45+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/oh-so-digital/jobs/frontend-developer-f-m-d",
-   "company": "OH-SO Digital",
-   "title": "Frontend Developer (f/m/d)",
-   "url": "https://himalayas.app/companies/oh-so-digital/jobs/frontend-developer-f-m-d",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-10-13",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "On the marketing side we build highly customised sites in Next.js and React, with careful design and animation and a real focus on how the page performs and feels. | You’re enjoying being part of a team, not a remote desk which prefers to work in isolation most of the time.",
    "firstSeen": "2026-10-13T17:57:45+00:00"
   },
   {
@@ -127,27 +102,6 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | This role is remote-first, so it can be executed from anywhere in Europe and the US East Coast, with the ability to operate in GMT-5 to GMT+1 timezones required. | If you prefer, you can work from our offices in London, New York, Dublin, Amsterdam, and Warsaw.",
-   "firstSeen": "2026-10-13T17:57:45+00:00"
-  },
-  {
-   "id": "workable:soda-data-nv:C0FCA11DED",
-   "company": "Soda Data Nv",
-   "title": "AI Content Engineer",
-   "url": "https://apply.workable.com/j/C0FCA11DED",
-   "location": "Berlin / Berlin / Germany",
-   "remote": true,
-   "postedAt": "2026-09-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full-time",
-   "industry": "from job boards",
-   "source": "workable",
-   "ats": "workable",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "3+ years building things that go to market : technical content, growth engineering, marketing engineering, GTM engineering, DevRel, marketing ops, RevOps, or a founder background. | Enough code to be autonomous : Python or TypeScript, APIs, webhooks, a database. | Benefits Compensation: $120,000-$130,000 / €110,000-€120,000 per year + equity - the same band wherever you live. | Fully remote (US or EU-based), with offices in Brooklyn if you want one. | Work on your own terms : fully remote, flexible hours. | Paid the same wherever you are : one band for the US and Europe, no geographic discount.",
    "firstSeen": "2026-10-13T17:57:45+00:00"
   },
   {
@@ -233,6 +187,28 @@
    "match": "generic+stack; NRW",
    "facts": "Enjoy your office days.",
    "firstSeen": "2026-10-12T14:19:11+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/lucid-reality-labs/jobs/senior-full-stack-javascript-developer-4181819675",
+   "company": "Lucid Reality Labs",
+   "title": "Senior Full Stack Javascript Developer",
+   "url": "https://himalayas.app/companies/lucid-reality-labs/jobs/senior-full-stack-javascript-developer-4181819675",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Our company has been recognized among the Top World companies in XR for years. | This is a great opportunity to join the key team, gain hands-on experience and exposure to spatial computing technology, and contribute to our Mission by disrupting global challenges with responsible technology! | The remaining 20% of your responsibilities will involve front-end work using React.",
+   "firstSeen": "2026-10-11T19:27:32+00:00"
   },
   {
    "id": "ashby:clera:d986c71d-1f3e-425b-b4c1-13ce1012c43b",
@@ -590,28 +566,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta.",
-   "firstSeen": "2026-10-08T10:31:37+00:00"
-  },
-  {
-   "id": "arbeitnow:remote-senior-fullstack-entwicklerin-mit-schwerpunkt-frontend-koln-454856",
-   "company": "Rausgegangen GmbH",
-   "title": "(Senior) Fullstack Entwickler:in Mit Schwerpunkt Frontend",
-   "url": "https://www.arbeitnow.com/jobs/companies/rausgegangen-gmbh/remote-senior-fullstack-entwicklerin-mit-schwerpunkt-frontend-koln-454856",
-   "location": "Köln",
-   "remote": true,
-   "postedAt": "2026-10-12",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Experienced Permanent Full time",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; NRW",
-   "facts": "Ob vor Ort in Köln oder remote - bei uns ist jedes Modell denkbar. | Lade bitte folgende Unterlagen hoch: Anschreiben Lebenslauf Arbeitsproben/Zeugnisse Dein Top-Grund, warum du bei Rausgegangen arbeiten möchtest Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find more English Speaking Jobs in Switzerland on Arbeitnow",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
@@ -678,6 +633,25 @@
    ],
    "match": "title; remote",
    "facts": "We trade with global suppliers and distribute to European customers on our own account. | - Strong triple-digit-million euro turnover | - Seven European markets live | - 80+ people across Berlin (HQ), offices in London, Mumbai, and Shanghai | Java 21 and Spring Boot 3, Python, LangGraph and LLM APIs (OpenAI, Anthropic, Gemini), PostgreSQL, Kinesis, AWS with Terraform, GitHub Actions, and TypeScript with Node.js, Next.js and React. | - At least 5 years of experience building and running software in production, with real users and real consequences when it fails. | - Your depth is on the backend, but full-stack delivery is expected: you build frontends in TypeScript and React. | - Location: Be",
+   "firstSeen": "2026-10-08T10:31:37+00:00"
+  },
+  {
+   "id": "personio:rausgegangen:2831679",
+   "company": "Rausgegangen GmbH",
+   "title": "(SENIOR) FULLSTACK ENTWICKLER:IN MIT SCHWERPUNKT FRONTEND",
+   "url": "https://rausgegangen.jobs.personio.de/job/2831679?language=en",
+   "location": "Köln",
+   "remote": null,
+   "postedAt": "2026-10-07",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "from job boards",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
@@ -776,7 +750,7 @@
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "Your creative field We are looking for a full-time , permanent Web Developer (all genders) to start as soon as possible . | We live remote-first within Germany , but you have the freedom to choose whether you want to work hybrid or completely on-site due to your proximity to one of our locations. | You work with a modern stack (Astro, SvelteKit, TypeScript) and have the freedom to actively shape the architecture of our website – not as a bystander, but as someone whose fingerprints are visible in the end result. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Your creative field We are looking for a full-time , permanent Web Developer (all genders) to start as soon as possible . | We live remote-first within Germany , but you have the freedom to choose whether you want to work hybrid or completely on-site due to your proximity to one of our locations. | You work with a modern stack (Astro, SvelteKit, TypeScript) and have the freedom to actively shape the architecture of our website – not as a bystander, but as someone whose fingerprints are visible in the end result. | Find Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-07T17:18:42+00:00"
   },
   {
@@ -840,28 +814,6 @@
    ],
    "match": "generic+stack; remote",
    "facts": "- The role is remote in the Netherlands or in Berlin, with a commitment to travel to the office (The Hague or Berlin) twice per week. | - 5+ years of development experience, including meaningful full-stack exposure. | - Experience with strongly typed languages (Typescript, Java, dotnet, PHP, or similar). | We operate in Go and React, and we back ourselves to get a seasoned engineer with strongly typed experience up to speed in our stack quickly. | - Fluency in English is a must. | - Work on genuinely hard problems in a complex domain: XDR, security data at scale, and tooling that empowers security analysts to protect hundreds of customers across Europe. | - Enjoy a competitive compensation p",
-   "firstSeen": "2026-10-07T17:18:42+00:00"
-  },
-  {
-   "id": "greenhouse:alpaca:6162101004",
-   "company": "Alpaca",
-   "title": "Senior Full-Stack Engineer - Alpaca Connect",
-   "url": "https://job-boards.greenhouse.io/alpaca/jobs/6162101004",
-   "location": "Remote - North America - South America - Europe / Remote - Canada / Remote - EU / Remote - North America  / Remote - South America / Remote - United States",
-   "remote": null,
-   "postedAt": "2026-08-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "from job boards",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "You will work across TypeScript and React frontends and Go services. | Things You Get To Do: Build and maintain Connect experiences in TypeScript and React, with supporting Go services. | Who You Are (Must-Haves): 5+ years of experience building production full-stack applications. | Strong TypeScript and React skills. | Experience working at a startup or on a distributed remote team.",
    "firstSeen": "2026-10-07T17:18:42+00:00"
   },
   {
@@ -1129,7 +1081,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; DE+remote-in-text",
-   "facts": "Join a German tech company Become part of an international team building technology for the European logistics market. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Join a German tech company Become part of an international team building technology for the European logistics market. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
@@ -1218,6 +1170,50 @@
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
+   "id": "arbeitnow:full-stack-software-engineer-munich-hybrid-420771",
+   "company": "TWAICE",
+   "title": "Full-Stack Software Engineer (m/f/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/twaice/full-stack-software-engineer-munich-hybrid-420771",
+   "location": "Munich, Hybrid",
+   "remote": false,
+   "postedAt": "2026-10-12",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Experienced Permanent Full time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "About the role As renewable energy reshapes the global power system, batteries are taking center stage. | Deliver your best work with options to work remotely, onsite or hybrid.",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
+   "id": "arbeitnow:fullstack-entwickler-munich-359972",
+   "company": "ICT Digital Solutions",
+   "title": "Fullstack Entwickler (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/ict-digital-solutions/fullstack-entwickler-munich-359972",
+   "location": "Munich",
+   "remote": true,
+   "postedAt": "2026-10-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Zur Verstärkung unseres Teams suchen wir zum nächstmöglichen Zeitpunkt einen engagierten Fullstack Entwickler (m/w/d) am Standort München oder hybrid . | Dein Profil Mehrjährige Erfahrung in der Frontend-Entwicklung mit modernen Frameworks wie React, Angular oder Vue . | mit Node.js (Express/NestJS), Python (Django/FastAPI) oder Java (Spring Boot) . | Kenntnisse in TypeScript oder JavaScript (Python/Java als Plus). | Sprachniveau: Deutsch C1, Englisch B2 Was wir dir bieten Betriebliche Altersvorsorge zur Absicherung deiner Zukunft. | zwischen Tankgutschein, Deutschlandticket oder Rollernutzung. | Hybrides Arbeiten Company Days für Wissensaustausch, Netzwerkpflege und Innovation. | 30 Urlaubs",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
    "id": "arbeitnow:remote-ai-product-engineer-berlin-488060",
    "company": "Getpress Gmbh",
    "title": "AI Product Engineer (m/w/d)",
@@ -1236,7 +1232,7 @@
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "getpress, eine der am schnellsten wachsenden PR-Agenturen Deutschlands (>40 Leute, Kund*innen wie Trivago, Komoot, Fonio AI oder AutoScout24), hat sich entschieden, diesen Wandel zu führen statt abzuwarten. | Tech Stack: TypeScript, Python, PostgreSQL, Docker, Git, LangGraph, Github Erfahrung in der Entwicklung von Backend-Systemen mit Frameworks (FastAPI, Spring Boot und NestJS, etc.) und gängigen Programmiersprachen (z.B. | Flexibilität, die wirklich gelebt wird: Ob im Berliner Office oder remote (in DE) – wir setzen auf flexible Arbeitsmodelle mit viel Eigenverantwortung. | Wir suchen jemanden mit Wohnsitz in Deutschland. | Find Jobs in Germany on Arbeitnow",
+   "facts": "getpress, eine der am schnellsten wachsenden PR-Agenturen Deutschlands (>40 Leute, Kund*innen wie Trivago, Komoot, Fonio AI oder AutoScout24), hat sich entschieden, diesen Wandel zu führen statt abzuwarten. | Tech Stack: TypeScript, Python, PostgreSQL, Docker, Git, LangGraph, Github Erfahrung in der Entwicklung von Backend-Systemen mit Frameworks (FastAPI, Spring Boot und NestJS, etc.) und gängigen Programmiersprachen (z.B. | Flexibilität, die wirklich gelebt wird: Ob im Berliner Office oder remote (in DE) – wir setzen auf flexible Arbeitsmodelle mit viel Eigenverantwortung. | Wir suchen jemanden mit Wohnsitz in Deutschland. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -1620,28 +1616,6 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "personio:twaice:2800467",
-   "company": "TWAICE",
-   "title": "Full-Stack Software Engineer (m/f/d)",
-   "url": "https://twaice.jobs.personio.de/job/2800467?language=en",
-   "location": "Munich, Hybrid",
-   "remote": null,
-   "postedAt": "2026-09-16",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "from job boards",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "As renewable energy reshapes the global power system, batteries are taking center stage. | Deliver your best work with options to work remotely, onsite or hybrid.",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
    "id": "recruitee:agenturfuerhaushaltshilfe:2766251",
    "company": "Agentur für Haushaltshilfe GmbH",
    "title": "Software Developer (m/w/d) – WebApp / PWA",
@@ -1705,27 +1679,6 @@
    "match": "title; DE+remote-in-text",
    "facts": "Several years of experience developing full-stack applications using Java, Spring Boot, Angular, TypeScript, HTML5 and SCSS.",
    "firstSeen": "2026-10-06T09:34:41+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/adalo/jobs/senior-software-engineer-react-node-js",
-   "company": "Adalo",
-   "title": "Senior Software Engineer - React / Node.js",
-   "url": "https://himalayas.app/companies/adalo/jobs/senior-software-engineer-react-node-js",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-13",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Our tech stack includes React, React Native, Node.js, and Postgres.",
-   "firstSeen": "2026-10-06T08:28:32+00:00"
   },
   {
    "id": "arbeitnow:software-engineer-internal-tools-automation-home-office-deutschland-428869",
@@ -1950,19 +1903,20 @@
    "url": "https://jobs.ashbyhq.com/berlitz/4ff3153e-d1d6-4e84-9c71-9b99d29c49cf",
    "location": "Colombia Remote / Germany Remote / Colombia",
    "remote": true,
-   "postedAt": "",
+   "postedAt": "2026-08-19",
    "salary": "",
    "salaryMax": null,
-   "employment": "fulltime",
+   "employment": "FullTime",
    "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
+   "source": "ashby",
+   "ats": "ashby",
    "stackHits": [
+    "expo",
     "react",
     "typescript"
    ],
-   "match": "title; NRW",
-   "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
+   "match": "generic+stack; remote",
+   "facts": "Nearly 150 years of expertise, meeting the ambition and technology to power a new era of learning. | This is a 100% remote position with a preference for candidates operating within European time zones. | - App Architecture: Design and build features in React and TypeScript, from screens and routing to state management, within a shared TypeScript layer also consumed by other client surfaces. | - Core Tech Stack: Utilize React and TypeScript as your primary stack, building on the team’s shared design-system package. | - Experience: 5+ years of professional frontend development experience, with a proven track record shipping production web applications to real users. | - Deep Tech Skills: Stro",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -1988,47 +1942,47 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:recaregmbh:2739252",
-   "company": "Recare",
-   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
-   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
-   "location": "Remote job / Berlin / Germany",
+   "id": "ashby:restate:c6651462-c412-4f6d-8553-d193a685294a",
+   "company": "Restate",
+   "title": "Frontend Engineer",
+   "url": "https://jobs.ashbyhq.com/restate/c6651462-c412-4f6d-8553-d193a685294a",
+   "location": "Remote Europe",
    "remote": true,
-   "postedAt": "",
+   "postedAt": "2026-09-17",
    "salary": "",
    "salaryMax": null,
-   "employment": "fulltime_permanent",
+   "employment": "FullTime",
    "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
+   "source": "ashby",
+   "ats": "ashby",
    "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "greenhouse:trivago:8641657002",
-   "company": "trivago",
-   "title": "Frontend Engineering Lead - Content",
-   "url": "https://careers.trivago.com/apply/8641657002.?gh_jid=8641657002",
-   "location": "Düsseldorf / trivago (Düsseldorf)",
-   "remote": null,
-   "postedAt": "2026-09-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "next.js",
     "react",
     "typescript"
    ],
-   "match": "title; NRW",
-   "facts": "Enjoy your office days.",
+   "match": "title; remote",
+   "facts": "- React and TypeScript. | Several years of it, on an application big enough to get messy. | - Building or maintaining a design system in production, including the part where you keep it coherent two years later. | - Location: remote in Europe preferred; US remote for exceptional candidates",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "ashby:restate:9a198557-1e8c-453b-9ede-6ef6159539ff",
+   "company": "Restate",
+   "title": "Design Engineer",
+   "url": "https://jobs.ashbyhq.com/restate/9a198557-1e8c-453b-9ede-6ef6159539ff",
+   "location": "Remote Europe",
+   "remote": true,
+   "postedAt": "2026-09-17",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "React, TypeScript, and modern HTML/CSS.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2078,66 +2032,26 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "ashby:restate:c6651462-c412-4f6d-8553-d193a685294a",
-   "company": "Restate",
-   "title": "Frontend Engineer",
-   "url": "https://jobs.ashbyhq.com/restate/c6651462-c412-4f6d-8553-d193a685294a",
-   "location": "Remote Europe",
-   "remote": true,
-   "postedAt": "2026-09-17",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "- React and TypeScript. | Several years of it, on an application big enough to get messy. | - Building or maintaining a design system in production, including the part where you keep it coherent two years later. | - Location: remote in Europe preferred; US remote for exceptional candidates",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "ashby:restate:9a198557-1e8c-453b-9ede-6ef6159539ff",
-   "company": "Restate",
-   "title": "Design Engineer",
-   "url": "https://jobs.ashbyhq.com/restate/9a198557-1e8c-453b-9ede-6ef6159539ff",
-   "location": "Remote Europe",
-   "remote": true,
-   "postedAt": "2026-09-17",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "React, TypeScript, and modern HTML/CSS.",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "greenhouse:trivago:8641657002",
    "company": "trivago",
    "title": "Frontend Engineering Lead - Content",
    "url": "https://careers.trivago.com/apply/8641657002.?gh_jid=8641657002",
    "location": "Düsseldorf / trivago (Düsseldorf)",
    "remote": null,
-   "postedAt": "2026-08-19",
+   "postedAt": "2026-09-30",
    "salary": "",
    "salaryMax": null,
-   "employment": "permanent full-time",
+   "employment": "",
    "industry": "",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
    "match": "title; NRW",
-   "facts": "",
+   "facts": "Enjoy your office days.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2162,25 +2076,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "personio:semdor-pharma-group-gmbh:2780716",
-   "company": "Semdor Pharma Group",
-   "title": "Fullstack Developer (m/w/d)",
-   "url": "https://semdor-pharma-group-gmbh.jobs.personio.de/job/2780716?language=en",
-   "location": "Köln",
-   "remote": null,
-   "postedAt": "2026-09-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "recruitee:distribusion:2704294",
    "company": "Distribusion",
    "title": "Senior Product Engineer, IMS (all genders)",
@@ -2197,6 +2092,25 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "Workplace: Berlin & Hybrid: HQ office in Berlin, where the team often meets. | Remote: We are a remote-first company with teams located around the Globe. | Who you are: Several years of experience building and operating backend services in Python, with ownership across the full lifecycle: design, implementation, deployment, monitoring, and maintenance. | Fluent in English, both verbal and written. | Our partners include Booking.com , Google Maps, Amtrak, Deutsche Bahn, Renfe, and SNCF. | Enjoy flexible and remote-friendly working options, relocation opportunities, and plenty of room to grow.",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "personio:semdor-pharma-group-gmbh:2780716",
+   "company": "Semdor Pharma Group",
+   "title": "Fullstack Developer (m/w/d)",
+   "url": "https://semdor-pharma-group-gmbh.jobs.personio.de/job/2780716?language=en",
+   "location": "Köln",
+   "remote": null,
+   "postedAt": "2026-09-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -2259,25 +2173,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "smartrecruiters:Redcare-Pharmacy:744000152108179",
-   "company": "Redcare Pharmacy",
-   "title": "Senior Engineer, FullStack, Retail Media/AdTech Solutions (m/f/d)",
-   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000152108179",
-   "location": "Cologne / de",
-   "remote": true,
-   "postedAt": "2026-09-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full-time",
-   "industry": "",
-   "source": "smartrecruiters",
-   "ats": "smartrecruiters",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:upvest:bc9437fe-dd30-4ed1-be0c-eed956360476",
    "company": "Upvest",
    "title": "Senior Fullstack Engineer (f/m/d)",
@@ -2297,25 +2192,6 @@
    ],
    "match": "title; remote",
    "facts": "We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. | Upvest is backed by €280M in total funding from world-class investors, including BlackRock, Tencent, Sapphire Ventures, and Bessemer Venture Partners, Earlybird, Notion Capital, and Motive. | Our latest €105M funding round in March 2026 - led by Sapphire and Tencent - serves as a massive catalyst for our growth, allowing us to offer premier investment experience. | Agentic operations, exposed over MCP, is where we think this goes. | - Take operational problems from concept to production, working across our React/TypeScript frontend and Go backend services. | - Build agent",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "smartrecruiters:Redcare-Pharmacy:744000152108179",
-   "company": "Redcare Pharmacy",
-   "title": "Senior Engineer, FullStack, Retail Media/AdTech Solutions (m/f/d)",
-   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000152108179",
-   "location": "Cologne / de",
-   "remote": true,
-   "postedAt": "2026-09-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full-time",
-   "industry": "",
-   "source": "smartrecruiters",
-   "ats": "smartrecruiters",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {

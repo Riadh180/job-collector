@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3610
+   "fetched": 3613
   },
   "remotive": {
    "fetched": 128
@@ -31,12 +31,38 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 975,
-   "failed": 0
+   "checked": 996,
+   "failed": 25
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Universalquantum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "Teamified": "HTTP 429",
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "Zingtree": "HTTP 502",
+   "Blue Coding": "HTTP 502",
+   "crewAI": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Soda Data Nv": "HTTP 429",
+   "ClassWallet": "HTTP 429",
+   "Akkadian Labs": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -51,51 +77,54 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 56,
+  "tried": 81,
   "found": [
-   "MILES Mobility (personio:miles-mobility)",
-   "Soda Data Nv (workable:soda-data-nv)",
-   "Mapbox (ashby:mapbox)",
-   "ClassWallet (workable:classwallet)",
-   "Breakmark (ashby:breakmark)",
-   "Patronus (ashby:patronus)",
-   "Fuchs Eule (personio:fuchs-eule)",
-   "Helius (ashby:helius)",
-   "Stp One (personio:stp-one)",
-   "Kpler (lever:kpler)",
-   "Kandou AI (ashby:kandou-ai)",
-   "Neuverge Tron (ashby:neuverge-tron)",
-   "Dryft (ashby:dryft)",
-   "Modus Create (greenhouse:moduscreate)",
-   "Nacre Capital (workable:nacrecapital)",
-   "Akkadian Labs (workable:akkadianlabs)",
-   "FutureFit AI (ashby:futurefitai)"
+   "Swarmaero (ashby:swarmaero)",
+   "ASPER BROTHERS (smartrecruiters:asperbrothers)",
+   "Qlub (ashby:qlub)",
+   "GudangAda (smartrecruiters:gudangada)",
+   "Parlay Games (smartrecruiters:parlaygames)",
+   "Duna (ashby:duna)",
+   "Advantine Technologies (smartrecruiters:advantinetechnologies)",
+   "Robust AI (lever:robust-ai)",
+   "Nopan (ashby:nopan)",
+   "Apex Ai (lever:apex-ai)",
+   "Protective (lever:protective)",
+   "ClanX (recruitee:clanx)",
+   "Intuitive (smartrecruiters:intuitive)",
+   "Loadsmart (lever:loadsmart)",
+   "IvyPanda (smartrecruiters:ivypanda)",
+   "Two-Up Agency Sp. z o.o. (smartrecruiters:two-upagencyspzoo)",
+   "Arcadia (lever:arcadia)",
+   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
+   "Precision Medicine Group (greenhouse:precisionmedicinegroup)",
+   "Patch My PC (lever:patchmypc)",
+   "Quant AIs (smartrecruiters:quantais)"
   ]
  },
- "collectedAt": "2026-10-13T17:57:45+00:00",
- "rawJobs": 56532,
- "matches": 110,
- "new": 7,
- "companies": 1015,
- "activeCompanies": 975,
+ "collectedAt": "2026-10-13T20:30:19+00:00",
+ "rawJobs": 54287,
+ "matches": 108,
+ "new": 1,
+ "companies": 1036,
+ "activeCompanies": 996,
  "funnel": {
-  "title": 54342,
-  "passed": 170,
-  "location": 1879,
-  "duplicate": 60,
-  "employment": 15,
+  "title": 52221,
+  "location": 1765,
+  "passed": 163,
+  "duplicate": 55,
+  "employment": 14,
   "company": 17,
-  "too_old": 108
+  "too_old": 106
  },
  "matchesBySource": {
+  "ashby": 39,
   "jobicy": 6,
-  "himalayas": 3,
   "weworkremotely": 8,
-  "ashby": 38,
-  "workable": 1,
   "recruitee": 14,
-  "greenhouse": 9,
-  "arbeitnow": 11,
+  "greenhouse": 8,
+  "himalayas": 1,
+  "arbeitnow": 12,
   "personio": 13,
   "hn": 6,
   "smartrecruiters": 1
