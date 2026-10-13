@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1044
+   "fetched": 1135
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3450
+   "fetched": 1850
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 155
+   "fetched": 163
   },
   "remoteok": {
    "fetched": 99
@@ -32,35 +32,21 @@
   },
   "companies": {
    "checked": 943,
-   "failed": 16
+   "failed": 2
   }
  },
  "errors": {
   "companies": {
    "Fresha": "HTTP 404",
-   "Chooose": "HTTP 404",
-   "Universalquantum": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429"
+   "Chooose": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 18,
+  "searchesThisRun": 16,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 790
+  "callsToday": 60,
+  "callsLast7Days": 820
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -68,46 +54,33 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 70,
-  "found": [
-   "Aampere GmbH (personio:aampere)",
-   "OpenSea (ashby:opensea)",
-   "Algolia (greenhouse:algolia)",
-   "CKM Group (personio:ckm-group)",
-   "onetrust (greenhouse:onetrust)",
-   "Network Connex (lever:networkconnex)",
-   "Wonderly (ashby:wonderly)",
-   "Lavendo (ashby:lavendo)",
-   "PartsBase (ashby:partsbase)",
-   "Matter Health (ashby:matter-health)",
-   "EY (recruitee:ey)",
-   "Guidewheel (greenhouse:guidewheel)"
-  ]
+  "tried": 1,
+  "found": []
  },
- "collectedAt": "2026-10-13T05:38:11+00:00",
- "rawJobs": 53358,
- "matches": 177,
- "new": 17,
+ "collectedAt": "2026-10-13T05:54:42+00:00",
+ "rawJobs": 54882,
+ "matches": 181,
+ "new": 0,
  "companies": 981,
  "activeCompanies": 943,
  "funnel": {
-  "passed": 364,
-  "company": 124,
-  "title": 51106,
-  "duplicate": 187,
-  "salary": 14,
-  "location": 1631,
-  "employment": 14,
+  "title": 52570,
+  "company": 83,
+  "passed": 351,
+  "salary": 13,
+  "duplicate": 170,
+  "location": 1744,
+  "employment": 16,
   "too_old": 104
  },
  "matchesBySource": {
-  "adzuna": 76,
-  "arbeitnow": 20,
+  "adzuna": 84,
   "himalayas": 1,
-  "greenhouse": 7,
-  "ashby": 31,
+  "greenhouse": 9,
+  "ashby": 33,
+  "arbeitnow": 12,
   "jobicy": 5,
-  "recruitee": 13,
+  "recruitee": 12,
   "weworkremotely": 8,
   "personio": 11,
   "hn": 6
