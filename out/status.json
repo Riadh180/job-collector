@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 4378
+   "fetched": 5411
   },
   "remotive": {
    "fetched": 128
@@ -31,12 +31,40 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 966,
-   "failed": 0
+   "checked": 977,
+   "failed": 27
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Universalquantum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "Teamified": "HTTP 429",
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Horizontal Digital": "HTTP 429",
+   "ClassWallet": "HTTP 429",
+   "Soda Data Nv": "HTTP 429",
+   "Nacre Capital": "HTTP 429",
+   "Akkadian Labs": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -51,41 +79,44 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 25,
+  "tried": 28,
   "found": [
-   "Qlub (ashby:qlub)",
-   "Mapbox (ashby:mapbox)",
-   "Patronus (ashby:patronus)",
-   "Kandou AI (ashby:kandou-ai)",
-   "Neuverge Tron (ashby:neuverge-tron)",
-   "Dryft (ashby:dryft)",
-   "Apex Ai (lever:apex-ai)",
-   "Horizontal Digital (workable:horizontal-digital)"
+   "ClassWallet (workable:classwallet)",
+   "MILES Mobility (personio:miles-mobility)",
+   "Soda Data Nv (workable:soda-data-nv)",
+   "Breakmark (ashby:breakmark)",
+   "Helius (ashby:helius)",
+   "Stp One (personio:stp-one)",
+   "Kpler (lever:kpler)",
+   "SeQura (recruitee:sequra)",
+   "Nacre Capital (workable:nacrecapital)",
+   "Akkadian Labs (workable:akkadianlabs)",
+   "FutureFit AI (ashby:futurefitai)"
   ]
  },
- "collectedAt": "2026-10-13T13:58:31+00:00",
- "rawJobs": 57071,
- "matches": 111,
- "new": 3,
- "companies": 1006,
- "activeCompanies": 966,
+ "collectedAt": "2026-10-13T17:24:08+00:00",
+ "rawJobs": 54874,
+ "matches": 117,
+ "new": 4,
+ "companies": 1017,
+ "activeCompanies": 977,
  "funnel": {
-  "title": 54877,
-  "location": 1887,
-  "passed": 170,
-  "duplicate": 59,
+  "title": 52822,
+  "location": 1733,
+  "passed": 182,
+  "duplicate": 65,
   "company": 17,
-  "employment": 14,
-  "too_old": 105
+  "employment": 13,
+  "too_old": 106
  },
  "matchesBySource": {
+  "himalayas": 3,
+  "ashby": 37,
   "jobicy": 6,
   "weworkremotely": 8,
-  "ashby": 35,
-  "himalayas": 2,
-  "recruitee": 14,
+  "recruitee": 13,
   "greenhouse": 9,
-  "arbeitnow": 17,
+  "arbeitnow": 21,
   "personio": 13,
   "hn": 6,
   "smartrecruiters": 1
