@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1135
+   "fetched": 801
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 163
+   "fetched": 166
   },
   "remoteok": {
    "fetched": 99
@@ -45,8 +45,8 @@
   "callsThisRun": 30,
   "searchesThisRun": 16,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 820
+  "callsToday": 90,
+  "callsLast7Days": 850
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -54,35 +54,35 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 1,
+  "tried": 0,
   "found": []
  },
- "collectedAt": "2026-10-13T05:54:42+00:00",
- "rawJobs": 54882,
- "matches": 181,
+ "collectedAt": "2026-10-13T06:04:17+00:00",
+ "rawJobs": 54549,
+ "matches": 164,
  "new": 0,
  "companies": 981,
  "activeCompanies": 943,
  "funnel": {
-  "title": 52570,
-  "company": 83,
-  "passed": 351,
-  "salary": 13,
-  "duplicate": 170,
-  "location": 1744,
-  "employment": 16,
+  "title": 52285,
+  "passed": 295,
+  "salary": 10,
+  "duplicate": 131,
+  "company": 93,
+  "location": 1747,
+  "employment": 14,
   "too_old": 104
  },
  "matchesBySource": {
-  "adzuna": 84,
+  "adzuna": 65,
   "himalayas": 1,
-  "greenhouse": 9,
-  "ashby": 33,
+  "greenhouse": 8,
+  "ashby": 34,
   "arbeitnow": 12,
   "jobicy": 5,
-  "recruitee": 12,
+  "recruitee": 13,
   "weworkremotely": 8,
-  "personio": 11,
+  "personio": 12,
   "hn": 6
  }
 }
