@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 801
+   "fetched": 1111
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -32,21 +32,25 @@
   },
   "companies": {
    "checked": 943,
-   "failed": 2
+   "failed": 6
   }
  },
  "errors": {
   "companies": {
    "Fresha": "HTTP 404",
-   "Chooose": "HTTP 404"
+   "Chooose": "HTTP 404",
+   "Kinly": "HTTP 429",
+   "PatSnap": "HTTP 429",
+   "Paralucent": "HTTP 429",
+   "EY": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 16,
+  "searchesThisRun": 15,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 850
+  "callsToday": 120,
+  "callsLast7Days": 880
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -57,32 +61,32 @@
   "tried": 0,
   "found": []
  },
- "collectedAt": "2026-10-13T06:04:17+00:00",
- "rawJobs": 54549,
- "matches": 164,
+ "collectedAt": "2026-10-13T06:08:47+00:00",
+ "rawJobs": 54752,
+ "matches": 179,
  "new": 0,
  "companies": 981,
  "activeCompanies": 943,
  "funnel": {
-  "title": 52285,
-  "passed": 295,
-  "salary": 10,
-  "duplicate": 131,
-  "company": 93,
-  "location": 1747,
-  "employment": 14,
+  "title": 52444,
+  "company": 88,
+  "location": 1744,
+  "passed": 339,
+  "salary": 15,
+  "duplicate": 160,
+  "employment": 17,
   "too_old": 104
  },
  "matchesBySource": {
-  "adzuna": 65,
+  "adzuna": 82,
   "himalayas": 1,
   "greenhouse": 8,
-  "ashby": 34,
+  "ashby": 33,
   "arbeitnow": 12,
   "jobicy": 5,
   "recruitee": 13,
   "weworkremotely": 8,
-  "personio": 12,
+  "personio": 11,
   "hn": 6
  }
 }
