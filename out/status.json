@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 5411
+   "fetched": 5211
   },
   "remotive": {
    "fetched": 128
@@ -31,25 +31,23 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 977,
-   "failed": 27
+   "checked": 974,
+   "failed": 22
   }
  },
  "errors": {
   "companies": {
    "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
    "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Codurance": "HTTP 429",
    "InnovationTeam": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Treantly": "HTTP 429",
    "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429",
    "SupportYourApp": "HTTP 429",
+   "3Ss": "HTTP 429",
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
    "Symmetrio": "HTTP 429",
@@ -59,11 +57,8 @@
    "Khibraty": "HTTP 429",
    "WPT Global": "HTTP 429",
    "Payabl": "HTTP 429",
-   "Horizontal Digital": "HTTP 429",
-   "ClassWallet": "HTTP 429",
    "Soda Data Nv": "HTTP 429",
-   "Nacre Capital": "HTTP 429",
-   "Akkadian Labs": "HTTP 429"
+   "ClassWallet": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -79,44 +74,49 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 28,
+  "tried": 51,
   "found": [
-   "ClassWallet (workable:classwallet)",
    "MILES Mobility (personio:miles-mobility)",
+   "Qlub (ashby:qlub)",
    "Soda Data Nv (workable:soda-data-nv)",
+   "Mapbox (ashby:mapbox)",
+   "ClassWallet (workable:classwallet)",
    "Breakmark (ashby:breakmark)",
+   "Patronus (ashby:patronus)",
    "Helius (ashby:helius)",
    "Stp One (personio:stp-one)",
    "Kpler (lever:kpler)",
+   "Kandou AI (ashby:kandou-ai)",
+   "Neuverge Tron (ashby:neuverge-tron)",
+   "Dryft (ashby:dryft)",
+   "Apex Ai (lever:apex-ai)",
    "SeQura (recruitee:sequra)",
-   "Nacre Capital (workable:nacrecapital)",
-   "Akkadian Labs (workable:akkadianlabs)",
    "FutureFit AI (ashby:futurefitai)"
   ]
  },
- "collectedAt": "2026-10-13T17:24:08+00:00",
- "rawJobs": 54874,
- "matches": 117,
- "new": 4,
- "companies": 1017,
- "activeCompanies": 977,
+ "collectedAt": "2026-10-13T17:35:33+00:00",
+ "rawJobs": 57287,
+ "matches": 116,
+ "new": 7,
+ "companies": 1014,
+ "activeCompanies": 974,
  "funnel": {
-  "title": 52822,
-  "location": 1733,
-  "passed": 182,
+  "title": 55170,
+  "location": 1798,
+  "passed": 181,
   "duplicate": 65,
   "company": 17,
-  "employment": 13,
+  "employment": 14,
   "too_old": 106
  },
  "matchesBySource": {
-  "himalayas": 3,
-  "ashby": 37,
   "jobicy": 6,
+  "himalayas": 3,
   "weworkremotely": 8,
+  "ashby": 37,
   "recruitee": 13,
   "greenhouse": 9,
-  "arbeitnow": 21,
+  "arbeitnow": 20,
   "personio": 13,
   "hn": 6,
   "smartrecruiters": 1
