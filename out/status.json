@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 651
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
@@ -13,7 +13,7 @@
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 163
+   "fetched": 174
   },
   "remoteok": {
    "fetched": 99
@@ -31,41 +31,18 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 960,
-   "failed": 24
+   "checked": 965,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Fresha": "HTTP 404",
-   "Chooose": "HTTP 404",
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429"
+   "Provectus": "HTTP 500"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 13,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 900
@@ -76,53 +53,42 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 62,
+  "tried": 8,
   "found": [
-   "Orbem (ashby:orbem)",
-   "Artemis (ashby:artemis)",
-   "WPT Global (workable:wpt-global)",
-   "Luscii (recruitee:luscii)",
-   "INDG (recruitee:indg)",
-   "Itility B.V. (recruitee:itilitybv)",
-   "Hexa (ashby:hexa)",
-   "Payabl (workable:payabl)",
-   "Sonicwall (greenhouse:sonicwall)",
-   "planetlabs (greenhouse:planetlabs)",
-   "Parallel Domain (lever:paralleldomain)",
-   "Tavily (greenhouse:tavily)",
-   "Next Step Systems (smartrecruiters:nextstepsystems)",
-   "Skillerszone (lever:skillerszone)",
-   "Very Good Security (lever:verygoodsecurity)",
-   "Quantazone (smartrecruiters:quantazone)",
-   "Barbaricum (greenhouse:barbaricum)"
+   "Qlub (ashby:qlub)",
+   "Mapbox (ashby:mapbox)",
+   "Patronus (ashby:patronus)",
+   "Kandou AI (ashby:kandou-ai)",
+   "Neuverge Tron (ashby:neuverge-tron)",
+   "Dryft (ashby:dryft)",
+   "Apex Ai (lever:apex-ai)"
   ]
  },
- "collectedAt": "2026-10-13T12:24:49+00:00",
- "rawJobs": 54413,
- "matches": 163,
- "new": 8,
- "companies": 998,
- "activeCompanies": 960,
+ "collectedAt": "2026-10-13T13:19:09+00:00",
+ "rawJobs": 57189,
+ "matches": 114,
+ "new": 3,
+ "companies": 1005,
+ "activeCompanies": 965,
  "funnel": {
-  "passed": 275,
-  "title": 52209,
-  "company": 79,
-  "salary": 9,
-  "duplicate": 112,
-  "location": 1722,
-  "employment": 14,
-  "too_old": 104
+  "title": 54989,
+  "location": 1891,
+  "passed": 171,
+  "duplicate": 57,
+  "employment": 15,
+  "company": 17,
+  "too_old": 105
  },
  "matchesBySource": {
-  "adzuna": 60,
-  "himalayas": 3,
-  "ashby": 33,
-  "recruitee": 14,
-  "greenhouse": 8,
-  "arbeitnow": 13,
-  "jobicy": 5,
+  "jobicy": 6,
   "weworkremotely": 8,
+  "ashby": 36,
+  "himalayas": 3,
+  "recruitee": 14,
+  "greenhouse": 9,
+  "arbeitnow": 18,
   "personio": 13,
-  "hn": 6
+  "hn": 6,
+  "smartrecruiters": 1
  }
 }
