@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 1044
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 3450
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 159
+   "fetched": 155
   },
   "remoteok": {
    "fetched": 99
@@ -25,25 +25,42 @@
    "fetched": 61
   },
   "hn": {
-   "fetched": 303
+   "fetched": 304
   },
   "workingnomads": {
    "fetched": 50
   },
   "companies": {
-   "checked": 933,
-   "failed": 0
+   "checked": 943,
+   "failed": 16
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Fresha": "HTTP 404",
+   "Chooose": "HTTP 404",
+   "Universalquantum": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "Teamified": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 30,
+  "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 900
+  "callsToday": 30,
+  "callsLast7Days": 790
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -51,36 +68,48 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 4,
+  "tried": 70,
   "found": [
-   "Algolia (greenhouse:algolia)"
+   "Aampere GmbH (personio:aampere)",
+   "OpenSea (ashby:opensea)",
+   "Algolia (greenhouse:algolia)",
+   "CKM Group (personio:ckm-group)",
+   "onetrust (greenhouse:onetrust)",
+   "Network Connex (lever:networkconnex)",
+   "Wonderly (ashby:wonderly)",
+   "Lavendo (ashby:lavendo)",
+   "PartsBase (ashby:partsbase)",
+   "Matter Health (ashby:matter-health)",
+   "EY (recruitee:ey)",
+   "Guidewheel (greenhouse:guidewheel)"
   ]
  },
- "collectedAt": "2026-10-12T22:23:04+00:00",
- "rawJobs": 53669,
- "matches": 108,
- "new": 0,
- "companies": 971,
- "activeCompanies": 933,
+ "collectedAt": "2026-10-13T05:38:11+00:00",
+ "rawJobs": 53358,
+ "matches": 177,
+ "new": 17,
+ "companies": 981,
+ "activeCompanies": 943,
  "funnel": {
-  "title": 51647,
-  "passed": 156,
-  "location": 1730,
+  "passed": 364,
+  "company": 124,
+  "title": 51106,
+  "duplicate": 187,
+  "salary": 14,
+  "location": 1631,
   "employment": 14,
-  "duplicate": 48,
-  "company": 17,
   "too_old": 104
  },
  "matchesBySource": {
+  "adzuna": 76,
+  "arbeitnow": 20,
   "himalayas": 1,
-  "greenhouse": 9,
-  "ashby": 36,
-  "arbeitnow": 17,
+  "greenhouse": 7,
+  "ashby": 31,
   "jobicy": 5,
   "recruitee": 13,
   "weworkremotely": 8,
-  "personio": 12,
-  "hn": 6,
-  "smartrecruiters": 1
+  "personio": 11,
+  "hn": 6
  }
 }
