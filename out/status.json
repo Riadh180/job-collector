@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1111
+   "fetched": 651
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 1850
+   "fetched": 4586
   },
   "remotive": {
-   "fetched": 120
+   "fetched": 128
   },
   "jobicy": {
-   "fetched": 166
+   "fetched": 163
   },
   "remoteok": {
    "fetched": 99
@@ -22,35 +22,53 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 61
+   "fetched": 60
   },
   "hn": {
    "fetched": 304
   },
   "workingnomads": {
-   "fetched": 50
+   "fetched": 51
   },
   "companies": {
-   "checked": 943,
-   "failed": 6
+   "checked": 960,
+   "failed": 24
   }
  },
  "errors": {
   "companies": {
    "Fresha": "HTTP 404",
    "Chooose": "HTTP 404",
-   "Kinly": "HTTP 429",
-   "PatSnap": "HTTP 429",
-   "Paralucent": "HTTP 429",
-   "EY": "HTTP 429"
+   "Universalquantum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "Teamified": "HTTP 429",
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 15,
+  "callsThisRun": 20,
+  "searchesThisRun": 13,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 880
+  "callsToday": 140,
+  "callsLast7Days": 900
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -58,35 +76,53 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 62,
+  "found": [
+   "Orbem (ashby:orbem)",
+   "Artemis (ashby:artemis)",
+   "WPT Global (workable:wpt-global)",
+   "Luscii (recruitee:luscii)",
+   "INDG (recruitee:indg)",
+   "Itility B.V. (recruitee:itilitybv)",
+   "Hexa (ashby:hexa)",
+   "Payabl (workable:payabl)",
+   "Sonicwall (greenhouse:sonicwall)",
+   "planetlabs (greenhouse:planetlabs)",
+   "Parallel Domain (lever:paralleldomain)",
+   "Tavily (greenhouse:tavily)",
+   "Next Step Systems (smartrecruiters:nextstepsystems)",
+   "Skillerszone (lever:skillerszone)",
+   "Very Good Security (lever:verygoodsecurity)",
+   "Quantazone (smartrecruiters:quantazone)",
+   "Barbaricum (greenhouse:barbaricum)"
+  ]
  },
- "collectedAt": "2026-10-13T06:08:47+00:00",
- "rawJobs": 54752,
- "matches": 179,
- "new": 0,
- "companies": 981,
- "activeCompanies": 943,
+ "collectedAt": "2026-10-13T12:24:49+00:00",
+ "rawJobs": 54413,
+ "matches": 163,
+ "new": 8,
+ "companies": 998,
+ "activeCompanies": 960,
  "funnel": {
-  "title": 52444,
-  "company": 88,
-  "location": 1744,
-  "passed": 339,
-  "salary": 15,
-  "duplicate": 160,
-  "employment": 17,
+  "passed": 275,
+  "title": 52209,
+  "company": 79,
+  "salary": 9,
+  "duplicate": 112,
+  "location": 1722,
+  "employment": 14,
   "too_old": 104
  },
  "matchesBySource": {
-  "adzuna": 82,
-  "himalayas": 1,
-  "greenhouse": 8,
+  "adzuna": 60,
+  "himalayas": 3,
   "ashby": 33,
-  "arbeitnow": 12,
+  "recruitee": 14,
+  "greenhouse": 8,
+  "arbeitnow": 13,
   "jobicy": 5,
-  "recruitee": 13,
   "weworkremotely": 8,
-  "personio": 11,
+  "personio": 13,
   "hn": 6
  }
 }
