@@ -7,13 +7,13 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 4586
+   "fetched": 4378
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 174
+   "fetched": 178
   },
   "remoteok": {
    "fetched": 99
@@ -31,14 +31,12 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 965,
-   "failed": 1
+   "checked": 966,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Provectus": "HTTP 500"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -53,7 +51,7 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 8,
+  "tried": 25,
   "found": [
    "Qlub (ashby:qlub)",
    "Mapbox (ashby:mapbox)",
@@ -61,32 +59,33 @@
    "Kandou AI (ashby:kandou-ai)",
    "Neuverge Tron (ashby:neuverge-tron)",
    "Dryft (ashby:dryft)",
-   "Apex Ai (lever:apex-ai)"
+   "Apex Ai (lever:apex-ai)",
+   "Horizontal Digital (workable:horizontal-digital)"
   ]
  },
- "collectedAt": "2026-10-13T13:19:09+00:00",
- "rawJobs": 57189,
- "matches": 114,
+ "collectedAt": "2026-10-13T13:58:31+00:00",
+ "rawJobs": 57071,
+ "matches": 111,
  "new": 3,
- "companies": 1005,
- "activeCompanies": 965,
+ "companies": 1006,
+ "activeCompanies": 966,
  "funnel": {
-  "title": 54989,
-  "location": 1891,
-  "passed": 171,
-  "duplicate": 57,
-  "employment": 15,
+  "title": 54877,
+  "location": 1887,
+  "passed": 170,
+  "duplicate": 59,
   "company": 17,
+  "employment": 14,
   "too_old": 105
  },
  "matchesBySource": {
   "jobicy": 6,
   "weworkremotely": 8,
-  "ashby": 36,
-  "himalayas": 3,
+  "ashby": 35,
+  "himalayas": 2,
   "recruitee": 14,
   "greenhouse": 9,
-  "arbeitnow": 18,
+  "arbeitnow": 17,
   "personio": 13,
   "hn": 6,
   "smartrecruiters": 1
