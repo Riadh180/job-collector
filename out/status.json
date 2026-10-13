@@ -7,7 +7,7 @@
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 5211
+   "fetched": 3610
   },
   "remotive": {
    "fetched": 128
@@ -31,35 +31,12 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 974,
-   "failed": 22
+   "checked": 975,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Universalquantum": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "3Ss": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Soda Data Nv": "HTTP 429",
-   "ClassWallet": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 0,
@@ -74,49 +51,51 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 51,
+  "tried": 56,
   "found": [
    "MILES Mobility (personio:miles-mobility)",
-   "Qlub (ashby:qlub)",
    "Soda Data Nv (workable:soda-data-nv)",
    "Mapbox (ashby:mapbox)",
    "ClassWallet (workable:classwallet)",
    "Breakmark (ashby:breakmark)",
    "Patronus (ashby:patronus)",
+   "Fuchs Eule (personio:fuchs-eule)",
    "Helius (ashby:helius)",
    "Stp One (personio:stp-one)",
    "Kpler (lever:kpler)",
    "Kandou AI (ashby:kandou-ai)",
    "Neuverge Tron (ashby:neuverge-tron)",
    "Dryft (ashby:dryft)",
-   "Apex Ai (lever:apex-ai)",
-   "SeQura (recruitee:sequra)",
+   "Modus Create (greenhouse:moduscreate)",
+   "Nacre Capital (workable:nacrecapital)",
+   "Akkadian Labs (workable:akkadianlabs)",
    "FutureFit AI (ashby:futurefitai)"
   ]
  },
- "collectedAt": "2026-10-13T17:35:33+00:00",
- "rawJobs": 57287,
- "matches": 116,
+ "collectedAt": "2026-10-13T17:57:45+00:00",
+ "rawJobs": 56532,
+ "matches": 110,
  "new": 7,
- "companies": 1014,
- "activeCompanies": 974,
+ "companies": 1015,
+ "activeCompanies": 975,
  "funnel": {
-  "title": 55170,
-  "location": 1798,
-  "passed": 181,
-  "duplicate": 65,
+  "title": 54342,
+  "passed": 170,
+  "location": 1879,
+  "duplicate": 60,
+  "employment": 15,
   "company": 17,
-  "employment": 14,
-  "too_old": 106
+  "too_old": 108
  },
  "matchesBySource": {
   "jobicy": 6,
   "himalayas": 3,
   "weworkremotely": 8,
-  "ashby": 37,
-  "recruitee": 13,
+  "ashby": 38,
+  "workable": 1,
+  "recruitee": 14,
   "greenhouse": 9,
-  "arbeitnow": 20,
+  "arbeitnow": 11,
   "personio": 13,
   "hn": 6,
   "smartrecruiters": 1
