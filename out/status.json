@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 733
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3685
+   "fetched": 3484
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 171
+   "fetched": 182
   },
   "remoteok": {
    "fetched": 99
@@ -25,22 +25,35 @@
    "fetched": 60
   },
   "hn": {
-   "fetched": 303
+   "fetched": 304
   },
   "workingnomads": {
    "fetched": 52
   },
   "companies": {
-   "checked": 1005,
-   "failed": 0
+   "checked": 1028,
+   "failed": 12
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "SORACOM": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "Unit8": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 900
@@ -51,35 +64,58 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 72,
+  "found": [
+   "Two-Up Agency Sp. z o.o. (smartrecruiters:two-upagencyspzoo)",
+   "Raya (lever:raya)",
+   "Unit8 (workable:unit8)",
+   "N-iX (greenhouse:nix)",
+   "StartEngine (lever:startengine)",
+   "Playtech (smartrecruiters:playtech)",
+   "Quant AIs (smartrecruiters:quantais)",
+   "VT Enterprise (smartrecruiters:vtenterprise)",
+   "Perk (ashby:perk)",
+   "SpotmyEnergy GmbH (personio:spotmyenergy)",
+   "Kayzen (greenhouse:kayzen)",
+   "Anaplan (greenhouse:anaplan)",
+   "Centric (recruitee:centric)",
+   "OLX (lever:olx)",
+   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
+   "LGC Group (smartrecruiters:lgcgroup)",
+   "Skyhook Interactive (smartrecruiters:skyhookinteractive)",
+   "Parlay Games (smartrecruiters:parlaygames)",
+   "GudangAda (smartrecruiters:gudangada)",
+   "ASPER BROTHERS (smartrecruiters:asperbrothers)",
+   "Unlimit (lever:unlimit)",
+   "Mactores (lever:mactores)",
+   "Included Health (lever:includedhealth)"
+  ]
  },
- "collectedAt": "2026-10-14T15:19:56+00:00",
- "rawJobs": 56479,
- "matches": 174,
- "new": 0,
- "companies": 1059,
- "activeCompanies": 1005,
+ "collectedAt": "2026-10-14T19:10:13+00:00",
+ "rawJobs": 56228,
+ "matches": 116,
+ "new": 1,
+ "companies": 1082,
+ "activeCompanies": 1028,
  "funnel": {
-  "passed": 303,
-  "title": 54206,
-  "company": 72,
-  "location": 1768,
-  "duplicate": 129,
-  "employment": 18,
-  "salary": 3,
+  "title": 54154,
+  "location": 1766,
+  "passed": 166,
+  "employment": 16,
+  "duplicate": 50,
+  "company": 17,
   "too_old": 108
  },
  "matchesBySource": {
-  "adzuna": 64,
-  "himalayas": 2,
-  "ashby": 38,
-  "greenhouse": 10,
+  "himalayas": 3,
   "arbeitnow": 17,
+  "ashby": 40,
+  "greenhouse": 11,
   "weworkremotely": 8,
   "jobicy": 5,
   "recruitee": 13,
-  "personio": 11,
-  "hn": 6
+  "personio": 12,
+  "hn": 6,
+  "smartrecruiters": 1
  }
 }

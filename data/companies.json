@@ -4914,7 +4914,8 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "DAMEDIC",
@@ -7008,7 +7009,8 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "OptiTrack",
@@ -7016,7 +7018,8 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "ResourceQ Services",
@@ -7080,7 +7083,8 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "Comet",
@@ -7489,7 +7493,8 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "Chariot Solutions",
@@ -7513,7 +7518,8 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "Provectus",
@@ -8009,7 +8015,8 @@
   "ats": "workable",
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "Luscii",
@@ -8049,7 +8056,8 @@
   "ats": "workable",
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "Sonicwall",
@@ -8489,7 +8497,8 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "CoLab Software",
@@ -8553,7 +8562,8 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "OKX",
@@ -8601,13 +8611,199 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "sofatutor GmbH",
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "sofatutor",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Two-Up Agency Sp. z o.o.",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "two-upagencyspzoo",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Raya",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "raya",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Unit8",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "unit8",
+  "addedBy": "probe 2026-10-14",
+  "failCount": 1
+ },
+ {
+  "name": "N-iX",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "nix",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "StartEngine",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "startengine",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Playtech",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "playtech",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Quant AIs",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "quantais",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "VT Enterprise",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "vtenterprise",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Perk",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "perk",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "SpotmyEnergy GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "spotmyenergy",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Kayzen",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "kayzen",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Anaplan",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "anaplan",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Centric",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "centric",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "OLX",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "olx",
+  "eu": true,
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Deutsche Telekom IT Solutions Slovakia",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "deutschetelekomitsolutionsslovakia",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "LGC Group",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lgcgroup",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Skyhook Interactive",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "skyhookinteractive",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Parlay Games",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "parlaygames",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "GudangAda",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "gudangada",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "ASPER BROTHERS",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "asperbrothers",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Unlimit",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "unlimit",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Mactores",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "mactores",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Included Health",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "includedhealth",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-10-14"
  }
