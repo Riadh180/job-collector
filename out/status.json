@@ -1,16 +1,16 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1096
+   "fetched": 1086
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 4790
+   "fetched": 5177
   },
   "remotive": {
-   "fetched": 128
+   "fetched": 120
   },
   "jobicy": {
    "fetched": 171
@@ -28,18 +28,17 @@
    "fetched": 303
   },
   "workingnomads": {
-   "fetched": 53
+   "fetched": 52
   },
   "companies": {
-   "checked": 1002,
-   "failed": 22
+   "checked": 1015,
+   "failed": 23
   }
  },
  "errors": {
   "companies": {
    "Universalquantum": "HTTP 429",
    "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
@@ -52,21 +51,23 @@
    "SupportYourApp": "HTTP 429",
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
    "OptiTrack": "HTTP 429",
+   "Symmetrio": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
    "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429"
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 820
+  "callsToday": 90,
+  "callsLast7Days": 850
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -74,46 +75,48 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 44,
+  "tried": 68,
   "found": [
-   "neuland.ai (personio:neuland-ai)",
-   "FutureFit AI (ashby:futurefitai)",
-   "Quorum (ashby:quorum)",
-   "Berlinbrands (greenhouse:berlinbrands)",
-   "Taboola (greenhouse:taboola)",
-   "Soley GmbH (personio:soley-gmbh)",
-   "NielsenIQ (smartrecruiters:nielseniq)",
-   "Reactive Markets (ashby:reactivemarkets)",
-   "ConverzAI (smartrecruiters:converzai)",
-   "Quartermaster (ashby:quartermaster)",
-   "Kong (ashby:kong)"
+   "Skedda (greenhouse:skedda)",
+   "Houst (workable:houst)",
+   "CoLab Software (greenhouse:colabsoftware)",
+   "Nex (greenhouse:nex)",
+   "Right Side Up (lever:rightsideup)",
+   "ClanX (recruitee:clanx)",
+   "Dawn Technology (recruitee:dawntechnology)",
+   "Sentra (ashby:sentra)",
+   "vitaservices GmbH & Co. KG (personio:vitaservices)",
+   "Sperasoft (workable:sperasoft)",
+   "OKX (greenhouse:okx)",
+   "Olo (lever:olo)",
+   "PSI CRO (smartrecruiters:psicro)"
   ]
  },
- "collectedAt": "2026-10-14T09:52:27+00:00",
- "rawJobs": 56840,
- "matches": 177,
- "new": 1,
- "companies": 1042,
- "activeCompanies": 1002,
+ "collectedAt": "2026-10-14T13:34:35+00:00",
+ "rawJobs": 57934,
+ "matches": 192,
+ "new": 8,
+ "companies": 1055,
+ "activeCompanies": 1015,
  "funnel": {
-  "title": 54496,
-  "company": 99,
-  "passed": 355,
-  "duplicate": 178,
-  "salary": 10,
-  "location": 1756,
-  "employment": 16,
+  "title": 55549,
+  "passed": 360,
+  "company": 104,
+  "duplicate": 168,
+  "location": 1789,
+  "employment": 19,
+  "salary": 5,
   "too_old": 107
  },
  "matchesBySource": {
-  "himalayas": 1,
-  "adzuna": 68,
-  "arbeitnow": 22,
+  "adzuna": 78,
+  "himalayas": 2,
+  "ashby": 35,
+  "greenhouse": 10,
+  "arbeitnow": 24,
   "weworkremotely": 8,
-  "greenhouse": 9,
-  "ashby": 33,
-  "recruitee": 14,
   "jobicy": 5,
+  "recruitee": 13,
   "personio": 11,
   "hn": 6
  }
