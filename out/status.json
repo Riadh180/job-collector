@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1058
+   "fetched": 733
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3465
+   "fetched": 3685
   },
   "remotive": {
    "fetched": 120
@@ -31,45 +31,19 @@
    "fetched": 52
   },
   "companies": {
-   "checked": 1019,
-   "failed": 25
+   "checked": 1005,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Universalquantum": "HTTP 429",
-   "Flatgigs": "HTTP 429",
-   "SORACOM": "HTTP 429",
-   "OpenMined": "HTTP 429",
-   "Huzzle": "HTTP 429",
-   "Worth AI": "HTTP 429",
-   "Codurance": "HTTP 429",
-   "InnovationTeam": "HTTP 429",
-   "Gridcog": "HTTP 429",
-   "Treantly": "HTTP 429",
-   "stakefish": "HTTP 429",
-   "3Ss": "HTTP 429",
-   "SupportYourApp": "HTTP 429",
-   "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Azeus Convene": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 30,
-  "searchesThisRun": 18,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 880
+  "callsToday": 140,
+  "callsLast7Days": 900
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -77,36 +51,31 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 22,
-  "found": [
-   "Valova (personio:valova)",
-   "Thomann.io (recruitee:thomannio)",
-   "Azeus Convene (workable:azeus-convene)",
-   "sofatutor GmbH (recruitee:sofatutor)"
-  ]
+  "tried": 0,
+  "found": []
  },
- "collectedAt": "2026-10-14T14:55:05+00:00",
- "rawJobs": 56177,
- "matches": 181,
- "new": 1,
+ "collectedAt": "2026-10-14T15:19:56+00:00",
+ "rawJobs": 56479,
+ "matches": 174,
+ "new": 0,
  "companies": 1059,
- "activeCompanies": 1019,
+ "activeCompanies": 1005,
  "funnel": {
-  "title": 53874,
-  "passed": 344,
-  "company": 95,
-  "duplicate": 163,
-  "salary": 10,
-  "location": 1730,
-  "employment": 16,
-  "too_old": 107
+  "passed": 303,
+  "title": 54206,
+  "company": 72,
+  "location": 1768,
+  "duplicate": 129,
+  "employment": 18,
+  "salary": 3,
+  "too_old": 108
  },
  "matchesBySource": {
-  "adzuna": 70,
+  "adzuna": 64,
   "himalayas": 2,
   "ashby": 38,
-  "greenhouse": 9,
-  "arbeitnow": 19,
+  "greenhouse": 10,
+  "arbeitnow": 17,
   "weworkremotely": 8,
   "jobicy": 5,
   "recruitee": 13,
