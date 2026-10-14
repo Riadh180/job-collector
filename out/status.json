@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1075
+   "fetched": 1096
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 5383
+   "fetched": 4790
   },
   "remotive": {
    "fetched": 128
@@ -31,34 +31,42 @@
    "fetched": 53
   },
   "companies": {
-   "checked": 991,
-   "failed": 15
+   "checked": 1002,
+   "failed": 22
   }
  },
  "errors": {
   "companies": {
    "Universalquantum": "HTTP 429",
-   "SORACOM": "HTTP 429",
    "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
    "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
    "Gridcog": "HTTP 429",
    "Treantly": "HTTP 429",
    "stakefish": "HTTP 429",
    "3Ss": "HTTP 429",
    "SupportYourApp": "HTTP 429",
    "Teamified": "HTTP 429",
-   "Wordwall": "HTTP 429"
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 16,
+  "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 790
+  "callsToday": 60,
+  "callsLast7Days": 820
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -66,67 +74,45 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 120,
+  "tried": 44,
   "found": [
-   "SEITENBAU GmbH (personio:seitenbau-gmbh)",
-   "MILES Mobility (personio:miles-mobility)",
-   "Swarmaero (ashby:swarmaero)",
-   "RevenueCat (ashby:revenuecat)",
-   "Docplanner (ashby:docplanner)",
-   "Qlub (ashby:qlub)",
-   "MILES Mobility GmbH (personio:miles-mobility)",
-   "Mapbox (ashby:mapbox)",
-   "NEXT Ventures (recruitee:nextventures)",
-   "CrazyGames (recruitee:crazygames)",
-   "Duna (ashby:duna)",
-   "Breakmark (ashby:breakmark)",
-   "Patronus (ashby:patronus)",
-   "UniteLabs (personio:unitelabs)",
-   "PCS Systemtechnik (personio:pcs-systemtechnik-gmbh)",
-   "PEEK GmbH (ashby:peek)",
-   "Aios (ashby:aios)",
-   "AlmavivA de Belgique (recruitee:almavivadebelgique)",
-   "Nopan (ashby:nopan)",
-   "ecosio (greenhouse:ecosio)",
-   "Fuchs Eule (personio:fuchs-eule)",
-   "Helius (ashby:helius)",
-   "Stp One (personio:stp-one)",
-   "Kpler (lever:kpler)",
-   "Kandou AI (ashby:kandou-ai)",
-   "Neuverge Tron (ashby:neuverge-tron)",
-   "Dryft (ashby:dryft)",
-   "Apex Ai (lever:apex-ai)",
-   "Eurofins (smartrecruiters:eurofins)",
-   "Esyconnect (smartrecruiters:esyconnect)",
-   "OnTarget Communications (recruitee:ontargetcommunications)",
-   "Fevo (lever:fevo)",
-   "Warp (ashby:warp)"
+   "neuland.ai (personio:neuland-ai)",
+   "FutureFit AI (ashby:futurefitai)",
+   "Quorum (ashby:quorum)",
+   "Berlinbrands (greenhouse:berlinbrands)",
+   "Taboola (greenhouse:taboola)",
+   "Soley GmbH (personio:soley-gmbh)",
+   "NielsenIQ (smartrecruiters:nielseniq)",
+   "Reactive Markets (ashby:reactivemarkets)",
+   "ConverzAI (smartrecruiters:converzai)",
+   "Quartermaster (ashby:quartermaster)",
+   "Kong (ashby:kong)"
   ]
  },
- "collectedAt": "2026-10-14T08:34:46+00:00",
- "rawJobs": 57055,
- "matches": 185,
- "new": 22,
- "companies": 1031,
- "activeCompanies": 991,
+ "collectedAt": "2026-10-14T09:52:27+00:00",
+ "rawJobs": 56840,
+ "matches": 177,
+ "new": 1,
+ "companies": 1042,
+ "activeCompanies": 1002,
  "funnel": {
-  "title": 54706,
-  "passed": 344,
-  "company": 100,
-  "location": 1774,
-  "duplicate": 159,
-  "salary": 5,
-  "employment": 18,
+  "title": 54496,
+  "company": 99,
+  "passed": 355,
+  "duplicate": 178,
+  "salary": 10,
+  "location": 1756,
+  "employment": 16,
   "too_old": 107
  },
  "matchesBySource": {
-  "adzuna": 74,
-  "arbeitnow": 25,
-  "himalayas": 2,
+  "himalayas": 1,
+  "adzuna": 68,
+  "arbeitnow": 22,
   "weworkremotely": 8,
   "greenhouse": 9,
-  "ashby": 32,
-  "recruitee": 13,
+  "ashby": 33,
+  "recruitee": 14,
   "jobicy": 5,
   "personio": 11,
   "hn": 6
