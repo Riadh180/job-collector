@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1086
+   "fetched": 1058
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 5177
+   "fetched": 3465
   },
   "remotive": {
    "fetched": 120
@@ -31,14 +31,15 @@
    "fetched": 52
   },
   "companies": {
-   "checked": 1015,
-   "failed": 23
+   "checked": 1019,
+   "failed": 25
   }
  },
  "errors": {
   "companies": {
    "Universalquantum": "HTTP 429",
    "Flatgigs": "HTTP 429",
+   "SORACOM": "HTTP 429",
    "OpenMined": "HTTP 429",
    "Huzzle": "HTTP 429",
    "Worth AI": "HTTP 429",
@@ -51,23 +52,24 @@
    "SupportYourApp": "HTTP 429",
    "Teamified": "HTTP 429",
    "Wordwall": "HTTP 429",
-   "OptiTrack": "HTTP 429",
    "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
    "WPT Global": "HTTP 429",
    "Payabl": "HTTP 429",
    "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429"
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 17,
+  "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 850
+  "callsToday": 120,
+  "callsLast7Days": 880
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -75,45 +77,36 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 68,
+  "tried": 22,
   "found": [
-   "Skedda (greenhouse:skedda)",
-   "Houst (workable:houst)",
-   "CoLab Software (greenhouse:colabsoftware)",
-   "Nex (greenhouse:nex)",
-   "Right Side Up (lever:rightsideup)",
-   "ClanX (recruitee:clanx)",
-   "Dawn Technology (recruitee:dawntechnology)",
-   "Sentra (ashby:sentra)",
-   "vitaservices GmbH & Co. KG (personio:vitaservices)",
-   "Sperasoft (workable:sperasoft)",
-   "OKX (greenhouse:okx)",
-   "Olo (lever:olo)",
-   "PSI CRO (smartrecruiters:psicro)"
+   "Valova (personio:valova)",
+   "Thomann.io (recruitee:thomannio)",
+   "Azeus Convene (workable:azeus-convene)",
+   "sofatutor GmbH (recruitee:sofatutor)"
   ]
  },
- "collectedAt": "2026-10-14T13:34:35+00:00",
- "rawJobs": 57934,
- "matches": 192,
- "new": 8,
- "companies": 1055,
- "activeCompanies": 1015,
+ "collectedAt": "2026-10-14T14:55:05+00:00",
+ "rawJobs": 56177,
+ "matches": 181,
+ "new": 1,
+ "companies": 1059,
+ "activeCompanies": 1019,
  "funnel": {
-  "title": 55549,
-  "passed": 360,
-  "company": 104,
-  "duplicate": 168,
-  "location": 1789,
-  "employment": 19,
-  "salary": 5,
+  "title": 53874,
+  "passed": 344,
+  "company": 95,
+  "duplicate": 163,
+  "salary": 10,
+  "location": 1730,
+  "employment": 16,
   "too_old": 107
  },
  "matchesBySource": {
-  "adzuna": 78,
+  "adzuna": 70,
   "himalayas": 2,
-  "ashby": 35,
-  "greenhouse": 10,
-  "arbeitnow": 24,
+  "ashby": 38,
+  "greenhouse": 9,
+  "arbeitnow": 19,
   "weworkremotely": 8,
   "jobicy": 5,
   "recruitee": 13,

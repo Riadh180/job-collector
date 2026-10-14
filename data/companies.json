@@ -4479,7 +4479,8 @@
   "slug": "universalquantum",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Kooku",
@@ -4886,7 +4887,8 @@
   "slug": "flatgigs",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Alpaca",
@@ -4912,7 +4914,8 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-14"
+  "lastOk": "2026-10-14",
+  "failCount": 1
  },
  {
   "name": "DAMEDIC",
@@ -4987,7 +4990,8 @@
   "slug": "openmined",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Synera",
@@ -5415,7 +5419,8 @@
   "slug": "huzzle",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Zenjob SE",
@@ -5448,7 +5453,8 @@
   "slug": "worthai",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Xage Security",
@@ -5703,7 +5709,8 @@
   "slug": "codurance",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "OKAPI:Orbits GmbH",
@@ -5801,7 +5808,8 @@
   "slug": "innovationteam",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Complero GmbH",
@@ -5982,7 +5990,8 @@
   "slug": "gridcog",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Saviynt",
@@ -6131,7 +6140,8 @@
   "slug": "treantly",
   "addedBy": "probe 2026-10-09",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Orgatex",
@@ -6436,7 +6446,8 @@
   "slug": "stakefish",
   "addedBy": "probe 2026-10-09",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Zeal Network",
@@ -6461,7 +6472,8 @@
   "slug": "3ss",
   "addedBy": "probe 2026-10-09",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Xibix Solutions Gmbh",
@@ -6502,7 +6514,8 @@
   "slug": "supportyourapp",
   "addedBy": "probe 2026-10-09",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Applaudo Studios",
@@ -6809,7 +6822,8 @@
   "slug": "teamified",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Envipco",
@@ -6850,7 +6864,8 @@
   "slug": "wordwall",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "AppTweak",
@@ -6995,7 +7010,7 @@
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "OptiTrack",
@@ -7004,7 +7019,7 @@
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "ResourceQ Services",
@@ -7069,7 +7084,7 @@
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Comet",
@@ -7479,7 +7494,7 @@
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Chariot Solutions",
@@ -7504,7 +7519,7 @@
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Provectus",
@@ -8001,7 +8016,7 @@
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Luscii",
@@ -8042,7 +8057,7 @@
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Sonicwall",
@@ -8482,7 +8497,7 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "CoLab Software",
@@ -8546,7 +8561,7 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "OKX",
@@ -8569,6 +8584,38 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "psicro",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Valova",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "valova",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Thomann.io",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "thomannio",
+  "addedBy": "probe 2026-10-14",
+  "lastOk": "2026-10-14"
+ },
+ {
+  "name": "Azeus Convene",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "azeus-convene",
+  "addedBy": "probe 2026-10-14",
+  "failCount": 1
+ },
+ {
+  "name": "sofatutor GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "sofatutor",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-10-14"
  }
