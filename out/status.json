@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 733
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3484
+   "fetched": 5684
   },
   "remotive": {
    "fetched": 120
@@ -31,29 +31,16 @@
    "fetched": 52
   },
   "companies": {
-   "checked": 1028,
-   "failed": 12
+   "checked": 1032,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "SORACOM": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Azeus Convene": "HTTP 429",
-   "Unit8": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 36,
   "callsToday": 140,
   "callsLast7Days": 900
@@ -64,10 +51,11 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 72,
+  "tried": 99,
   "found": [
    "Two-Up Agency Sp. z o.o. (smartrecruiters:two-upagencyspzoo)",
    "Raya (lever:raya)",
+   "Powerprozesse (recruitee:powerprozesse)",
    "Unit8 (workable:unit8)",
    "N-iX (greenhouse:nix)",
    "StartEngine (lever:startengine)",
@@ -78,6 +66,7 @@
    "SpotmyEnergy GmbH (personio:spotmyenergy)",
    "Kayzen (greenhouse:kayzen)",
    "Anaplan (greenhouse:anaplan)",
+   "Magic Media (workable:magic-media)",
    "Centric (recruitee:centric)",
    "OLX (lever:olx)",
    "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
@@ -88,34 +77,37 @@
    "ASPER BROTHERS (smartrecruiters:asperbrothers)",
    "Unlimit (lever:unlimit)",
    "Mactores (lever:mactores)",
-   "Included Health (lever:includedhealth)"
+   "Included Health (lever:includedhealth)",
+   "Emergent Software (recruitee:emergentsoftware)",
+   "Capco (greenhouse:capco)"
   ]
  },
- "collectedAt": "2026-10-14T19:10:13+00:00",
- "rawJobs": 56228,
- "matches": 116,
- "new": 1,
- "companies": 1082,
- "activeCompanies": 1028,
+ "collectedAt": "2026-10-14T19:46:28+00:00",
+ "rawJobs": 60386,
+ "matches": 180,
+ "new": 4,
+ "companies": 1086,
+ "activeCompanies": 1032,
  "funnel": {
-  "title": 54154,
-  "location": 1766,
-  "passed": 166,
-  "employment": 16,
-  "duplicate": 50,
-  "company": 17,
-  "too_old": 108
+  "passed": 313,
+  "title": 58010,
+  "company": 72,
+  "duplicate": 133,
+  "employment": 17,
+  "location": 1861,
+  "salary": 3,
+  "too_old": 109
  },
  "matchesBySource": {
-  "himalayas": 3,
-  "arbeitnow": 17,
-  "ashby": 40,
-  "greenhouse": 11,
+  "adzuna": 63,
+  "himalayas": 2,
+  "ashby": 37,
+  "greenhouse": 10,
+  "arbeitnow": 25,
   "weworkremotely": 8,
-  "jobicy": 5,
   "recruitee": 13,
-  "personio": 12,
-  "hn": 6,
-  "smartrecruiters": 1
+  "jobicy": 5,
+  "personio": 11,
+  "hn": 6
  }
 }
