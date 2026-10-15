@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 928
+   "fetched": 1067
   },
   "arbeitsagentur": {
-   "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
+   "fetched": 342
   },
   "arbeitnow": {
-   "fetched": 3597
+   "fetched": 3397
   },
   "remotive": {
    "fetched": 112
   },
   "jobicy": {
-   "fetched": 179
+   "fetched": 175
   },
   "remoteok": {
    "fetched": 99
@@ -31,8 +31,8 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 1034,
-   "failed": 11
+   "checked": 1042,
+   "failed": 12
   }
  },
  "errors": {
@@ -47,77 +47,106 @@
    "Payabl": "HTTP 429",
    "Houst": "HTTP 429",
    "Sperasoft": "HTTP 429",
+   "Dawn Technology": "HTTP 429",
    "Azeus Convene": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 17,
+  "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 770
+  "callsToday": 60,
+  "callsLast7Days": 800
+ },
+ "arbeitsagentur_sample": {
+  "keys": [
+   "aenderungsdatum",
+   "alleBerufe.0",
+   "alleBerufe.1",
+   "alternativBeruf1",
+   "arbeitszeitSchichtNachtWochenende",
+   "arbeitszeitTeilzeitAbend",
+   "arbeitszeitTeilzeitFlexibel",
+   "arbeitszeitTeilzeitNachmittag",
+   "arbeitszeitTeilzeitVormittag",
+   "arbeitszeitVollzeit",
+   "chiffrenummer",
+   "datumErsteVeroeffentlichung",
+   "eintrittszeitraum.von",
+   "externeURL",
+   "firma",
+   "hauptberuf",
+   "homeofficemoeglich",
+   "homeofficetyp",
+   "istGeringfuegigeBeschaeftigung",
+   "quereinstiegGeeignet",
+   "referenznummer",
+   "stellenangebotsTitel",
+   "stellenangebotsart",
+   "stellenlokationen.0.adresse.land",
+   "stellenlokationen.0.adresse.ort",
+   "stellenlokationen.0.adresse.plz",
+   "stellenlokationen.0.adresse.region",
+   "stellenlokationen.0.breite",
+   "stellenlokationen.0.laenge",
+   "verguetungsangabe",
+   "veroeffentlichungszeitraum.von",
+   "vertragsdauer"
+  ],
+  "parsed": {
+   "ref": "13644-305516-S",
+   "title": "Frontend React Developer (m/w/d)",
+   "beruf": "",
+   "employer": "Smartbroker",
+   "city": "Berlin",
+   "region": "BERLIN",
+   "date": "2026-09-03",
+   "url": "https://www.get-in-it.de/jobsuche/p305516?utm_source=arbeitsagentur&utm_medium=organic&utm_campaign=launch-basic"
+  }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
-  "pc/v4/app/jobs -> 403, 0 items, keys=None",
-  "pc/v4/jobs -> 403, 0 items, keys=None"
+  "pc/v6/jobs -> 200, 5 items, max=331, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
+ "arbeitsagentur_searches": {
+  "searches": 36,
+  "failed": 0
+ },
  "probe": {
-  "tried": 120,
+  "tried": 75,
   "found": [
-   "MENA Alliances (smartrecruiters:menaalliances)",
-   "Wallround GmbH (personio:wallround)",
-   "Mayflower GmbH (recruitee:mayflower)",
-   "Melotech (ashby:melotech)",
-   "Stackfuel (ashby:stackfuel)",
-   "Buying Labs (smartrecruiters:buyinglabs)",
-   "neural frames (ashby:neuralframes)",
-   "Hawk (ashby:hawk)",
-   "Travoom (smartrecruiters:travoom)",
-   "Fygaro (smartrecruiters:fygaro)",
-   "Starface GmbH (personio:starface)",
-   "SpotmyEnergy GmbH (personio:spotmyenergy)",
-   "Webmatch GmbH (personio:webmatch)",
-   "Arvana (personio:arvana)",
-   "brandung GmbH (personio:brandung)",
-   "Lemon Markets (ashby:lemon-markets)",
-   "Adikteev (recruitee:adikteev)",
-   "GALVANY (ashby:galvany)",
-   "SkyCell AG (recruitee:skycellag)",
-   "Atira (ashby:atira)",
-   "Perk (ashby:perk)",
-   "Innodata (lever:innodata)",
-   "Spreedly (lever:spreedly)",
-   "Aris Search (smartrecruiters:arissearch)",
-   "SDF Systems (smartrecruiters:sdfsystems)",
-   "Omnidian (lever:omnidian)",
-   "Agiloft (lever:agiloft)",
-   "Crewpulse (smartrecruiters:crewpulse)",
-   "Kinsta (lever:kinsta)"
+   "SMF GmbH (personio:smf-gmbh)",
+   "Dataciders GmbH (personio:dataciders)",
+   "DocuWare GmbH (personio:docuware)",
+   "ImFusion GmbH (personio:imfusion)",
+   "Maiwald GmbH (personio:maiwald)",
+   "Bounteous (lever:bounteous)",
+   "Coface (smartrecruiters:coface)",
+   "TESVOLT AG (personio:tesvolt-gmbh)"
   ]
  },
- "collectedAt": "2026-10-15T22:59:10+00:00",
- "rawJobs": 56664,
- "matches": 200,
- "new": 32,
- "companies": 1088,
- "activeCompanies": 1034,
+ "collectedAt": "2026-10-15T23:18:38+00:00",
+ "rawJobs": 57303,
+ "matches": 208,
+ "new": 25,
+ "companies": 1096,
+ "activeCompanies": 1042,
  "funnel": {
-  "title": 54323,
-  "passed": 346,
-  "company": 100,
-  "duplicate": 146,
-  "employment": 18,
-  "location": 1766,
-  "salary": 3,
-  "too_old": 108
+  "title": 54818,
+  "passed": 444,
+  "duplicate": 236,
+  "salary": 11,
+  "company": 98,
+  "location": 1785,
+  "too_old": 132,
+  "employment": 15
  },
  "matchesBySource": {
-  "adzuna": 86,
-  "arbeitnow": 20,
+  "adzuna": 70,
+  "arbeitsagentur": 26,
+  "arbeitnow": 19,
   "himalayas": 4,
   "ashby": 37,
-  "greenhouse": 11,
+  "greenhouse": 10,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,

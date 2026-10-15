@@ -4915,7 +4915,7 @@
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "DAMEDIC",
@@ -7010,7 +7010,8 @@
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "OptiTrack",
@@ -7019,7 +7020,8 @@
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "ResourceQ Services",
@@ -7084,7 +7086,8 @@
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Comet",
@@ -7494,7 +7497,8 @@
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Chariot Solutions",
@@ -7519,7 +7523,8 @@
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Provectus",
@@ -8016,7 +8021,8 @@
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Luscii",
@@ -8057,7 +8063,8 @@
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Sonicwall",
@@ -8497,7 +8504,7 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "CoLab Software",
@@ -8537,7 +8544,8 @@
   "ats": "recruitee",
   "slug": "dawntechnology",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-15"
+  "lastOk": "2026-10-15",
+  "failCount": 1
  },
  {
   "name": "Sentra",
@@ -8561,7 +8569,7 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "OKX",
@@ -8609,7 +8617,7 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "sofatutor GmbH",
@@ -8848,6 +8856,70 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "kinsta",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "SMF GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "smf-gmbh",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Dataciders GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "dataciders",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "DocuWare GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "docuware",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "ImFusion GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "imfusion",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Maiwald GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "maiwald",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Bounteous",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "bounteous",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Coface",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "coface",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "TESVOLT AG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "tesvolt-gmbh",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-10-15"
  }
