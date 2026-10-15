@@ -32,7 +32,7 @@
   },
   "companies": {
    "checked": 1042,
-   "failed": 12
+   "failed": 11
   }
  },
  "errors": {
@@ -124,19 +124,19 @@
    "TESVOLT AG (personio:tesvolt-gmbh)"
   ]
  },
- "collectedAt": "2026-10-15T23:18:38+00:00",
- "rawJobs": 57303,
+ "collectedAt": "2026-10-15T23:28:18+00:00",
+ "rawJobs": 57318,
  "matches": 208,
  "new": 25,
  "companies": 1096,
  "activeCompanies": 1042,
  "funnel": {
-  "title": 54818,
+  "title": 54832,
   "passed": 444,
   "duplicate": 236,
   "salary": 11,
   "company": 98,
-  "location": 1785,
+  "location": 1786,
   "too_old": 132,
   "employment": 15
  },
