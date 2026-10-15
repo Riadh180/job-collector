@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1038
+   "fetched": 1101
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3416
+   "fetched": 3397
   },
   "remotive": {
    "fetched": 112
   },
   "jobicy": {
-   "fetched": 184
+   "fetched": 180
   },
   "remoteok": {
    "fetched": 99
@@ -28,27 +28,34 @@
    "fetched": 306
   },
   "workingnomads": {
-   "fetched": 53
+   "fetched": 51
   },
   "companies": {
-   "checked": 1082,
-   "failed": 4
+   "checked": 1033,
+   "failed": 11
   }
  },
  "errors": {
   "companies": {
    "SORACOM": "HTTP 429",
-   "Azeus Convene": "HTTP 429",
-   "Unit8": "HTTP 429",
-   "Centric": "HTTP 429"
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 860
+  "callsToday": 30,
+  "callsLast7Days": 770
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -56,55 +63,60 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 102,
+  "tried": 120,
   "found": [
-   "Fygaro (smartrecruiters:fygaro)",
+   "MENA Alliances (smartrecruiters:menaalliances)",
+   "Wallround GmbH (personio:wallround)",
+   "Mayflower GmbH (recruitee:mayflower)",
    "Melotech (ashby:melotech)",
-   "TeamSnap (lever:teamsnap)",
-   "DocuWare GmbH (personio:docuware)",
-   "ImFusion GmbH (personio:imfusion)",
+   "Stackfuel (ashby:stackfuel)",
+   "Buying Labs (smartrecruiters:buyinglabs)",
+   "neural frames (ashby:neuralframes)",
+   "Hawk (ashby:hawk)",
+   "SpotmyEnergy GmbH (personio:spotmyenergy)",
+   "Travoom (smartrecruiters:travoom)",
+   "Fygaro (smartrecruiters:fygaro)",
+   "Starface GmbH (personio:starface)",
+   "Perk (ashby:perk)",
+   "Webmatch GmbH (personio:webmatch)",
+   "SwissPeak Partners GmbH (recruitee:swisspeakpartnersgmbh)",
+   "Arvana (personio:arvana)",
+   "brandung GmbH (personio:brandung)",
    "Lemon Markets (ashby:lemon-markets)",
-   "Docugami (greenhouse:docugami)",
-   "Censys (greenhouse:censys)",
-   "Cologix, Inc. (lever:cologix)",
+   "Adikteev (recruitee:adikteev)",
+   "GALVANY (ashby:galvany)",
+   "Innodata (lever:innodata)",
+   "Spreedly (lever:spreedly)",
+   "Aris Search (smartrecruiters:arissearch)",
+   "SDF Systems (smartrecruiters:sdfsystems)",
+   "Omnidian (lever:omnidian)",
    "Agiloft (lever:agiloft)",
-   "The Athletic (lever:theathletic)",
-   "Endpoint Clinical (lever:endpointclinical)",
-   "Saba Trust (smartrecruiters:sabatrust)",
-   "itechstack (smartrecruiters:itechstack)",
-   "InductiveHealth (lever:inductivehealth)",
-   "Nansen (ashby:nansen)",
-   "InfiniteQuant (smartrecruiters:infinitequant)",
-   "Canary Technologies (lever:canarytechnologies)",
-   "Space Inch (smartrecruiters:spaceinch)",
-   "CloudSmiths (smartrecruiters:cloudsmiths)",
-   "Tango (ashby:tango)",
-   "Unifonic (recruitee:unifonic)",
-   "Vericast (smartrecruiters:vericast)"
+   "Crewpulse (smartrecruiters:crewpulse)",
+   "Kinsta (lever:kinsta)"
   ]
  },
- "collectedAt": "2026-10-15T18:52:32+00:00",
- "rawJobs": 60681,
- "matches": 177,
- "new": 8,
- "companies": 1145,
- "activeCompanies": 1082,
+ "collectedAt": "2026-10-15T22:42:07+00:00",
+ "rawJobs": 56651,
+ "matches": 199,
+ "new": 32,
+ "companies": 1087,
+ "activeCompanies": 1033,
  "funnel": {
-  "title": 58222,
-  "passed": 333,
-  "company": 101,
-  "duplicate": 156,
-  "salary": 11,
-  "location": 1890,
-  "employment": 15,
-  "too_old": 109
+  "title": 54319,
+  "passed": 344,
+  "company": 103,
+  "duplicate": 145,
+  "employment": 17,
+  "location": 1756,
+  "salary": 4,
+  "too_old": 108
  },
  "matchesBySource": {
-  "adzuna": 70,
-  "arbeitnow": 15,
-  "ashby": 39,
-  "greenhouse": 10,
-  "himalayas": 1,
+  "adzuna": 86,
+  "arbeitnow": 19,
+  "himalayas": 4,
+  "ashby": 37,
+  "greenhouse": 11,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,
