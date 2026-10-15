@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1096
+   "fetched": 1042
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3512
+   "fetched": 3482
   },
   "remotive": {
    "fetched": 120
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 60
+   "fetched": 62
   },
   "hn": {
    "fetched": 305
@@ -31,15 +31,15 @@
    "fetched": 52
   },
   "companies": {
-   "checked": 1041,
+   "checked": 1054,
    "failed": 12
   }
  },
  "errors": {
   "companies": {
    "SORACOM": "HTTP 429",
-   "OptiTrack": "HTTP 429",
    "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
@@ -55,8 +55,8 @@
   "callsThisRun": 30,
   "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 770
+  "callsToday": 60,
+  "callsLast7Days": 800
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -64,72 +64,49 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 119,
+  "tried": 51,
   "found": [
-   "ROOMHERO GmbH (smartrecruiters:roomherogmbh)",
-   "Esri (greenhouse:esri)",
-   "Powerprozesse (recruitee:powerprozesse)",
-   "Two-Up Agency Sp. z o.o. (smartrecruiters:two-upagencyspzoo)",
-   "Raya (lever:raya)",
-   "Unit8 (workable:unit8)",
-   "Quant AIs (smartrecruiters:quantais)",
-   "VT Enterprise (smartrecruiters:vtenterprise)",
-   "Atira (ashby:atira)",
-   "Adikteev (recruitee:adikteev)",
-   "SpotmyEnergy GmbH (personio:spotmyenergy)",
-   "RR Donnelley (smartrecruiters:rrdonnelley)",
-   "Rubrik (greenhouse:rubrik)",
-   "NFQ (lever:nfq)",
-   "AccorHotel (smartrecruiters:accorhotel)",
-   "ML Gruppe (personio:mlgruppe)",
-   "Major League Hacking (recruitee:majorleaguehacking)",
-   "Asksuite (recruitee:asksuite)",
-   "OptionMetrics (lever:optionmetrics)",
-   "Kayzen (greenhouse:kayzen)",
-   "Anaplan (greenhouse:anaplan)",
-   "N-iX (greenhouse:nix)",
-   "Adlook (lever:adlook)",
-   "Centric (recruitee:centric)",
-   "OLX (lever:olx)",
-   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
-   "LGC Group (smartrecruiters:lgcgroup)",
-   "Skyhook Interactive (smartrecruiters:skyhookinteractive)",
-   "Parlay Games (smartrecruiters:parlaygames)",
-   "GudangAda (smartrecruiters:gudangada)",
-   "StartEngine (lever:startengine)",
-   "Playtech (smartrecruiters:playtech)",
-   "ASPER BROTHERS (smartrecruiters:asperbrothers)",
-   "Unlimit (lever:unlimit)",
-   "Mactores (lever:mactores)",
-   "Included Health (lever:includedhealth)"
+   "Editorialist (lever:editorialist)",
+   "Qualio (greenhouse:qualio)",
+   "Stackfuel (ashby:stackfuel)",
+   "Hawk (ashby:hawk)",
+   "Resolve (personio:resolve)",
+   "Harvard University (smartrecruiters:harvarduniversity)",
+   "Block Labs (ashby:block-labs)",
+   "Perk (ashby:perk)",
+   "Brandwatch (greenhouse:brandwatch)",
+   "Maiwald GmbH (personio:maiwald)",
+   "GALVANY (ashby:galvany)",
+   "InfluxData (ashby:influxdata)",
+   "GTI Fabrication (lever:gtifabrication)"
   ]
  },
- "collectedAt": "2026-10-15T00:11:51+00:00",
- "rawJobs": 58969,
- "matches": 193,
- "new": 11,
- "companies": 1095,
- "activeCompanies": 1041,
+ "collectedAt": "2026-10-15T09:33:42+00:00",
+ "rawJobs": 59578,
+ "matches": 172,
+ "new": 8,
+ "companies": 1108,
+ "activeCompanies": 1054,
  "funnel": {
-  "passed": 354,
-  "title": 56548,
-  "company": 106,
-  "duplicate": 161,
-  "employment": 18,
-  "location": 1830,
-  "salary": 4,
+  "title": 57184,
+  "passed": 325,
+  "company": 100,
+  "duplicate": 153,
+  "salary": 11,
+  "location": 1834,
+  "employment": 16,
   "too_old": 108
  },
  "matchesBySource": {
-  "adzuna": 78,
-  "himalayas": 6,
-  "ashby": 39,
-  "greenhouse": 11,
-  "arbeitnow": 15,
+  "adzuna": 67,
+  "himalayas": 3,
+  "ashby": 42,
+  "greenhouse": 10,
   "weworkremotely": 8,
   "recruitee": 14,
-  "jobicy": 5,
-  "personio": 11,
+  "jobicy": 2,
+  "personio": 12,
+  "arbeitnow": 8,
   "hn": 6
  }
 }

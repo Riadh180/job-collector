@@ -4915,7 +4915,7 @@
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "DAMEDIC",
@@ -7010,7 +7010,8 @@
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "OptiTrack",
@@ -7019,7 +7020,8 @@
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "ResourceQ Services",
@@ -7084,7 +7086,8 @@
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Comet",
@@ -7494,7 +7497,8 @@
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Chariot Solutions",
@@ -7519,7 +7523,8 @@
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Provectus",
@@ -8016,7 +8021,8 @@
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Luscii",
@@ -8057,7 +8063,8 @@
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Sonicwall",
@@ -8497,7 +8504,7 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "CoLab Software",
@@ -8561,7 +8568,7 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "OKX",
@@ -8609,7 +8616,7 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "sofatutor GmbH",
@@ -8665,7 +8672,7 @@
   "ats": "workable",
   "slug": "unit8",
   "addedBy": "probe 2026-10-15",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Quant AIs",
@@ -8905,6 +8912,110 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "includedhealth",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Editorialist",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "editorialist",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Qualio",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "qualio",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Stackfuel",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "stackfuel",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Hawk",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "hawk",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Resolve",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "resolve",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Harvard University",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "harvarduniversity",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Block Labs",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "block-labs",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Perk",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "perk",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Brandwatch",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "brandwatch",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Maiwald GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "maiwald",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "GALVANY",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "galvany",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "InfluxData",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "influxdata",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "GTI Fabrication",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "gtifabrication",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-10-15"
  }
