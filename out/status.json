@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1042
+   "fetched": 1062
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3482
+   "fetched": 3666
   },
   "remotive": {
-   "fetched": 120
+   "fetched": 112
   },
   "jobicy": {
-   "fetched": 182
+   "error": "no results"
   },
   "remoteok": {
    "fetched": 99
@@ -25,26 +25,19 @@
    "fetched": 62
   },
   "hn": {
-   "fetched": 305
+   "fetched": 306
   },
   "workingnomads": {
-   "fetched": 52
+   "fetched": 51
   },
   "companies": {
-   "checked": 1054,
-   "failed": 12
+   "checked": 1061,
+   "failed": 5
   }
  },
  "errors": {
   "companies": {
    "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
    "Houst": "HTTP 429",
    "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
@@ -55,8 +48,8 @@
   "callsThisRun": 30,
   "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 800
+  "callsToday": 90,
+  "callsLast7Days": 830
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -64,49 +57,49 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 51,
+  "tried": 57,
   "found": [
-   "Editorialist (lever:editorialist)",
-   "Qualio (greenhouse:qualio)",
-   "Stackfuel (ashby:stackfuel)",
-   "Hawk (ashby:hawk)",
-   "Resolve (personio:resolve)",
-   "Harvard University (smartrecruiters:harvarduniversity)",
-   "Block Labs (ashby:block-labs)",
-   "Perk (ashby:perk)",
-   "Brandwatch (greenhouse:brandwatch)",
-   "Maiwald GmbH (personio:maiwald)",
-   "GALVANY (ashby:galvany)",
-   "InfluxData (ashby:influxdata)",
-   "GTI Fabrication (lever:gtifabrication)"
+   "Wallround GmbH (personio:wallround)",
+   "Go RH (lever:gorh)",
+   "neural frames (ashby:neuralframes)",
+   "Elastic (greenhouse:elastic)",
+   "Insomniac Design (lever:insomniacdesign)",
+   "StackAdapt (greenhouse:stackadapt)",
+   "Versapay (lever:versapay)",
+   "ClinChoice (greenhouse:clinchoice)",
+   "ARHS (smartrecruiters:arhs)",
+   "Collabora (lever:collabora)",
+   "VRChat (lever:vrchat)",
+   "EnableComp (lever:enablecomp)",
+   "Patch (lever:patch)",
+   "ELITEBRAIN (smartrecruiters:elitebrain)"
   ]
  },
- "collectedAt": "2026-10-15T09:33:42+00:00",
- "rawJobs": 59578,
- "matches": 172,
- "new": 8,
- "companies": 1108,
- "activeCompanies": 1054,
+ "collectedAt": "2026-10-15T14:42:40+00:00",
+ "rawJobs": 60565,
+ "matches": 189,
+ "new": 7,
+ "companies": 1122,
+ "activeCompanies": 1061,
  "funnel": {
-  "title": 57184,
-  "passed": 325,
-  "company": 100,
-  "duplicate": 153,
-  "salary": 11,
-  "location": 1834,
-  "employment": 16,
-  "too_old": 108
+  "passed": 331,
+  "title": 58163,
+  "duplicate": 142,
+  "company": 89,
+  "employment": 11,
+  "location": 1858,
+  "salary": 4,
+  "too_old": 109
  },
  "matchesBySource": {
-  "adzuna": 67,
-  "himalayas": 3,
-  "ashby": 42,
-  "greenhouse": 10,
+  "adzuna": 81,
+  "arbeitnow": 16,
+  "himalayas": 1,
+  "ashby": 40,
+  "greenhouse": 11,
   "weworkremotely": 8,
   "recruitee": 14,
-  "jobicy": 2,
   "personio": 12,
-  "arbeitnow": 8,
   "hn": 6
  }
 }

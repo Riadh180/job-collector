@@ -4915,7 +4915,7 @@
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-14",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "DAMEDIC",
@@ -8504,7 +8504,8 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "CoLab Software",
@@ -8568,7 +8569,8 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "OKX",
@@ -8616,7 +8618,7 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "sofatutor GmbH",
@@ -8672,7 +8674,7 @@
   "ats": "workable",
   "slug": "unit8",
   "addedBy": "probe 2026-10-15",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Quant AIs",
@@ -9016,6 +9018,118 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "gtifabrication",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Wallround GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "wallround",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Go RH",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "gorh",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "neural frames",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "neuralframes",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Elastic",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "elastic",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Insomniac Design",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "insomniacdesign",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "StackAdapt",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "stackadapt",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Versapay",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "versapay",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "ClinChoice",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "clinchoice",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "ARHS",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "arhs",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Collabora",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "collabora",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "VRChat",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "vrchat",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "EnableComp",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "enablecomp",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Patch",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "patch",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "ELITEBRAIN",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "elitebrain",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-10-15"
  }
