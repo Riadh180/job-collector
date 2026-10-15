@@ -390,24 +390,66 @@ FETCHERS = {"ashby": ashby, "greenhouse": greenhouse, "lever": lever, "personio"
 
 # ---------------------------------------------------------------- job boards / public APIs
 def _ba_items(j):
-    """The job list in a Bundesagentur response (key name differs between API versions)."""
-    if not isinstance(j, dict):
-        return []
-    for k in ("stellenangebote", "jobs", "content", "ergebnisse"):
-        if isinstance(j.get(k), list):
-            return j[k]
-    for v in j.values():
-        if isinstance(v, list) and v and isinstance(v[0], dict) and ("titel" in v[0] or "beruf" in v[0]):
-            return v
-    return []
+    """The job list in a Bundesagentur response. The key has changed between API versions
+    ('stellenangebote' in v4, 'ergebnisliste' in v6), so search for the first list of job-like objects."""
+    def walk(o, depth=0):
+        if depth > 4:
+            return None
+        if isinstance(o, list):
+            if o and all(isinstance(x, dict) for x in o[:3]):
+                return o
+            return None
+        if isinstance(o, dict):
+            for k in ("stellenangebote", "ergebnisliste", "ergebnisse", "jobs", "content", "items", "treffer"):
+                if k in o:
+                    r = walk(o[k], depth + 1)
+                    if r:
+                        return r
+            for k, v in o.items():
+                if k in ("facetten",):
+                    continue
+                r = walk(v, depth + 1)
+                if r:
+                    return r
+        return None
+    return walk(j) or []
 
 
-def _ba_place(x):
-    ao = x.get("arbeitsort")
-    if not ao and isinstance(x.get("arbeitsorte"), list) and x["arbeitsorte"]:
-        ao = x["arbeitsorte"][0]
-    ao = ao or {}
-    return " / ".join(filter(None, [ao.get("ort"), ao.get("region"), "Deutschland"]))
+def _flat(o, prefix="", out=None):
+    """Flatten nested dicts/lists into {"a.b.0.c": value} so fields can be found by name."""
+    out = {} if out is None else out
+    if isinstance(o, dict):
+        for k, v in o.items():
+            _flat(v, f"{prefix}{k}.", out)
+    elif isinstance(o, list):
+        for i, v in enumerate(o[:3]):
+            _flat(v, f"{prefix}{i}.", out)
+    elif o not in (None, ""):
+        out[prefix[:-1]] = o
+    return out
+
+
+def _pick(flat, *patterns):
+    for pat in patterns:
+        rx = re.compile(pat, re.I)
+        for k, v in flat.items():
+            if rx.search(k) and isinstance(v, (str, int, float)) and str(v).strip():
+                return str(v).strip()
+    return ""
+
+
+def _ba_job(x):
+    f = _flat(x)
+    return {
+        "ref": _pick(f, r"(^|\.)refnr$", r"referenznummer$", r"hashid$", r"(^|\.)id$"),
+        "title": _pick(f, r"(^|\.)titel$", r"stellenangebotstitel$", r"stellenbezeichnung$", r"jobtitel$", r"titel$", r"(^|\.)beruf$"),
+        "beruf": _pick(f, r"(^|\.)beruf$", r"berufsbezeichnung"),
+        "employer": _pick(f, r"(^|\.)arbeitgeber$", r"arbeitgebername$", r"arbeitgeber.*name$", r"firma", r"unternehmen"),
+        "city": _pick(f, r"arbeitsorte?\.(0\.)?ort$", r"(^|\.)ort$"),
+        "region": _pick(f, r"arbeitsorte?\.(0\.)?region$", r"(^|\.)region$"),
+        "date": _pick(f, r"aktuelleveroeffentlichungsdatum$", r"veroeffentlich", r"modifikationstimestamp$", r"eintrittsdatum$"),
+        "url": _pick(f, r"externeurl$", r"(^|\.)url$"),
+    }
 
 
 def arbeitsagentur():
@@ -419,8 +461,10 @@ def arbeitsagentur():
                  "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/app/jobs",
                  "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs"):
         code, j = get_json(cand + "?was=React&size=5&angebotsart=1", H)
-        tries.append(f"{cand.split('service/')[1]} -> {code}, {len(_ba_items(j))} items, keys={list(j)[:6] if isinstance(j, dict) else None}")
+        tries.append(f"{cand.split('service/')[1]} -> {code}, {len(_ba_items(j))} items, max={j.get('maxErgebnisse') if isinstance(j, dict) else None}, keys={list(j)[:6] if isinstance(j, dict) else None}")
         if j is not None and _ba_items(j):
+            first = _ba_items(j)[0]
+            STATUS["arbeitsagentur_sample"] = {"keys": sorted(_flat(first))[:40], "parsed": _ba_job(first)}
             base = cand
             break
     STATUS["arbeitsagentur_tries"] = tries
@@ -444,16 +488,14 @@ def arbeitsagentur():
                 errors += 1
                 break
             for x in items:
-                ref = x.get("refnr") or x.get("referenznummer") or x.get("hashId")
-                if not ref:
+                b = _ba_job(x)
+                if not b["ref"] or not b["title"]:
                     continue
-                title = x.get("titel") or x.get("stellenangebotsTitel") or x.get("beruf") or ""
-                loc = _ba_place(x) + (" / Homeoffice" if ho else "")
-                url = x.get("externeUrl") or f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{ref}"
+                loc = " / ".join(filter(None, [b["city"], b["region"], "Deutschland"])) + (" / Homeoffice" if ho else "")
+                url = b["url"] or f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{b['ref']}"
                 # The search term itself is the stack signal (the list API has no description).
-                desc = f"{x.get('beruf') or ''} {params['was']}"
-                out.append(rec("arbeitsagentur", ref, x.get("arbeitgeber"), title, url, loc,
-                               parse_date(x.get("aktuelleVeroeffentlichungsdatum") or x.get("modifikationsTimestamp")),
+                desc = f"{b['beruf']} {params['was']}"
+                out.append(rec("arbeitsagentur", b["ref"], b["employer"], b["title"], url, loc, parse_date(b["date"]),
                                True if ho else None, "", None, desc, "unbefristet", "", "arbeitsagentur"))
             if len(items) < params["size"]:
                 break
