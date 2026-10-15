@@ -1,7 +1,26 @@
 {
- "collectedAt": "2026-10-14T19:46:28+00:00",
- "count": 4,
+ "collectedAt": "2026-10-15T00:11:51+00:00",
+ "count": 11,
  "jobs": [
+  {
+   "id": "adzuna:5928024755",
+   "company": "sustaind GmbH",
+   "title": "(Senior) Product Engineer",
+   "url": "https://www.adzuna.de/details/5928024755?utm_medium=api&utm_source=c19f1397",
+   "location": "Innenstadt, Bielefeld / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-14",
+   "salary": "60000–80000 EUR",
+   "salaryMax": 80000,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
   {
    "id": "adzuna:5927682344",
    "company": "Social Value GmbH für eine bessere Gesellschaft",
@@ -19,13 +38,32 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "Seit 2008 haben wir so über 20,7 Millionen Euro an 47.000 Vereinsprojekte vermittelt.",
-   "firstSeen": "2026-10-14T19:46:28+00:00"
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
+  {
+   "id": "adzuna:5928024860",
+   "company": "Placed Technologies GmbH",
+   "title": "Senior Full Stack Engineer (m/w/d)",
+   "url": "https://www.adzuna.de/details/5928024860?utm_medium=api&utm_source=c19f1397",
+   "location": "Wedding, Berlin / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Start: as soon as possible Location: Berlin Mitte or Potsdam-Babelsberg We have two offices, one in Berlin Mitte and one in Potsdam-Babelsberg. | PLACED is a Berlin-based AI startup rebuilding how Europe's 30,000 recruitment agencies win business.",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
   },
   {
    "id": "adzuna:5927867816",
    "company": "",
    "title": "Full-Stack Entwickler Schwerpunkt Shop-Entwicklung (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5927867816?se=0Gg4FgjI8RGzTbLyus6u7g&utm_medium=api&utm_source=c19f1397&v=707A148E3E33FC5F28637014FF0D10B37F8F4148",
+   "url": "https://www.adzuna.de/land/ad/5927867816?se=PONhJy3I8RG3cvu8UsIQxQ&utm_medium=api&utm_source=c19f1397&v=707A148E3E33FC5F28637014FF0D10B37F8F4148",
    "location": "Buchloe, Ostallgäu (Kreis) / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-14",
@@ -38,13 +76,77 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "",
-   "firstSeen": "2026-10-14T19:46:28+00:00"
+   "firstSeen": "2026-10-15T00:11:51+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/tether-operations-limited/jobs/p2p-node-js-engineer-holepunch-100-remote-worldwide",
+   "id": "adzuna:5927949064",
+   "company": "Beckhoff Automation GmbH & Co. KG",
+   "title": "Softwareentwickler (m/w/d) Kundenapplikationen",
+   "url": "https://www.adzuna.de/land/ad/5927949064?se=zqD3LS3I8RG3cvu8UsIQxQ&utm_medium=api&utm_source=c19f1397&v=B09968AF5BCC645378572D7366EE18AB742F5B16",
+   "location": "Verl, Gütersloh (Kreis) / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Im Geschäftsjahr 2025 erzielten wir weltweit mit 5.450 Mitarbeitenden und Vertretungen in über 75 Ländern einen Umsatz von 1,24 Milliarden Euro. | Wir bieten Ihnen die Möglichkeit, an der Entwicklung von Automatisierungssystemen mitzuwirken, di… typescript",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
+  {
+   "id": "adzuna:5927682641",
+   "company": "TechMinds GmbH",
+   "title": "AI Native Developer (m/w/d)",
+   "url": "https://www.adzuna.de/details/5927682641?utm_medium=api&utm_source=c19f1397",
+   "location": "Bogenhausen, München / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "mit Playwright, sowie Quality Gat… typescript",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/roomhero-gmbh/jobs/senior-frontend-developer-m-w-d",
+   "company": "ROOMHERO GmbH",
+   "title": "Senior Frontend Developer (m/w/d)",
+   "url": "https://himalayas.app/companies/roomhero-gmbh/jobs/senior-frontend-developer-m-w-d",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Aufgaben Implementierung und Wartung bestehender Frontends auf Basis von ReactJS . | Qualifikation Mehrjährige Erfahrung in der Frontend-Entwicklung mit ReactJS. | Sichere Anwendung von HTML5, CSS3 / SCSS und modernen JavaScript-/TypeScript-Konzepten. | Benefits Modernes Tech-Stack & spannende Projekte : Arbeit mit aktuellen Frontend-Technologien (React, TypeScript, moderne Tooling-Landschaft) in einem dynamischen, wachstumsstarken Unternehmen. | Flexibilität : Remote-Option sowie flexible Arbeitszeiten.",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/tether-operations-limited/jobs/frontend-desktop-engineer-100-remote-worldwide",
    "company": "Tether Operations Limited",
-   "title": "P2P Node.js Engineer - Holepunch (100% Remote, Worldwide)",
-   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/p2p-node-js-engineer-holepunch-100-remote-worldwide",
+   "title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/frontend-desktop-engineer-100-remote-worldwide",
    "location": "Worldwide",
    "remote": true,
    "postedAt": "2026-10-14",
@@ -54,10 +156,13 @@
    "industry": "",
    "source": "himalayas",
    "ats": "himalayas",
-   "stackHits": [],
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
    "match": "title; remote",
-   "facts": "Our team is a global talent powerhouse, working remotely from every corner of the world. | If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you. | About the job P2P Node.js Engineer (Remote) We're big fans of Node.js — Holepunch is built on it.",
-   "firstSeen": "2026-10-14T19:46:28+00:00"
+   "facts": "Our team is a global talent powerhouse, working remotely from every corner of the world. | If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you. | By leveraging Node.js-based technology akin to BitTorrent, we create robust peer-to-peer connections and data replication systems that set the foundation for a decentralized web. | Learn more about Keet: Responsibilities In this role, you will be responsible for developing and maintaining Keet Desktop, our cross-platform P2P communications application built with React and running on the Pear runtime. | Requirements Proven experience with React/Prea",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
   },
   {
    "id": "himalayas:https://himalayas.app/companies/powerprozesse/jobs/fullstack-developer-100-remote",
@@ -79,7 +184,52 @@
    ],
    "match": "title; remote",
    "facts": "We're looking for Junior and Senior Developers to join our fully remote team. | Our minimalistic tech stack Everything is TypeScript. | Requirements You are: fluent in English.",
-   "firstSeen": "2026-10-14T19:46:28+00:00"
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/crewfare/jobs/full-stack-typescript-developer",
+   "company": "Crewfare",
+   "title": "Full Stack TypeScript Developer",
+   "url": "https://himalayas.app/companies/crewfare/jobs/full-stack-typescript-developer",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Job Description We are seeking a passionate and experienced Full-Stack TypeScript Developer to join our growing team. | Key Responsibilities Develop and maintain full-stack web applications using TypeScript, React, Node.js, and related technologies. | What We’re Looking For Excellent English communication skills (written and verbal). | 5+ years of professional experience in full-stack web development. | Strong proficiency in TypeScript, JavaScript, React, and Node.js. | Exposure to performance profiling tools and strategies for scaling high-traffic systems. | Flexible Environment: Remote-friendly work culture with flexible hours.",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/termius/jobs/senior-full-stack-engineer",
+   "company": "Termius",
+   "title": "Senior Full Stack Engineer",
+   "url": "https://himalayas.app/companies/termius/jobs/senior-full-stack-engineer",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Secure synchronization keeps hosts, credentials, and settings available across desktop and mobile devices, helping engineers access and manage remote systems from anywhere. | What you wiil do: Build and evolve product experiences using React and TypeScript. | What We’re Looking For: Strong experience with TypeScript, React, and complex production applications. | Strong written English. | Our stack includes React, TypeScript, Electron, Node.js, Redux, Redux Saga, xterm.js, Jest, Storybook, Playwright, Sentry, and native C++ modules. | What do we offer: Remote work from time zones between GMT+4 - GMT+12.",
+   "firstSeen": "2026-10-15T00:11:51+00:00"
   }
  ]
 }

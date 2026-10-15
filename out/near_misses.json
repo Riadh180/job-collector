@@ -8,6 +8,22 @@
   "url": "https://www.adzuna.de/details/5919401043?utm_medium=api&utm_source=c19f1397"
  },
  {
+  "company": "isaraerospace",
+  "title": "(Senior) Design Engineer (m/f/d)",
+  "location": "Parsdorf, Bavaria",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/senior-design-engineer-parsdorf-bavaria-226987"
+ },
+ {
+  "company": "thinkcellsoftware",
+  "title": "Senior Full Stack Developer",
+  "location": "",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/thinkcellsoftware/senior-full-stack-developer-340313"
+ },
+ {
   "company": "Constructor Labs",
   "title": "Senior Frontend Engineer — Scientific Applications",
   "location": "",
@@ -40,20 +56,36 @@
   "url": "https://www.arbeitnow.com/jobs/companies/placed-technologies-gmbh/senior-full-stack-engineer-berlin-180965"
  },
  {
-  "company": "Legal Counsel - 12 month FTC at Rightmove Greenhouse",
-  "title": "Senior Software Engineer II (Frontend) - Search Core",
+  "company": "Checkout.com",
+  "title": "Front end Engineer",
   "location": "London",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/legal-counsel-12-month-ftc-at-rightmove-greenhouse/senior-software-engineer-ii-frontend-search-core-london-169793"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/checkoutcom/front-end-engineer-london-230080"
  },
  {
   "company": "Deliveroo",
-  "title": "Software Engineer II  (Full-Stack) - Merchants",
-  "location": "London",
+  "title": "Staff Software Engineer - Full Stack",
+  "location": "London, England, United Kingdom",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-ii-full-stack-merchants-london-67732"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/staff-software-engineer-full-stack-london-196837"
+ },
+ {
+  "company": "Bloomreach",
+  "title": "Senior Software Engineer",
+  "location": "",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/bloomreach/senior-software-engineer-334569"
+ },
+ {
+  "company": "DigiTickets",
+  "title": "Front-End Team Lead",
+  "location": "Exeter, Devon, United Kingdom",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/digitickets/front-end-team-lead-exeter-67303"
  },
  {
   "company": "Pennylane SAS",
@@ -72,28 +104,12 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/doctolib/staff-dataops-engineer-paris-paris-4079"
  },
  {
-  "company": "capco",
-  "title": "Senior Développeur React - H/F",
-  "location": "",
+  "company": "Callista Group AG",
+  "title": "Senior Frontend Engineer",
+  "location": "Luzern, Luzern, Switzerland",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/capco/senior-developpeur-react-h-f-51842"
- },
- {
-  "company": "Decathlontechnology",
-  "title": "Software Engineer - InStore/Checkout/UnitedPos (f/m/d)",
-  "location": "Lille - Btwin Village, Nord",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/decathlontechnology/software-engineer-instore-checkout-unitedpos-lille-btwin-village-nord-59974"
- },
- {
-  "company": "Decathlontechnology",
-  "title": "Senior Software Engineer - Data Factory (f/m/d)",
-  "location": "Villeneuve-d'Ascq, Nord",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/decathlontechnology/senior-software-engineer-data-factory-villeneuve-dascq-nord-185021"
+  "url": "https://www.arbeitnow.ch/jobs/companies/callista-group-ag/senior-frontend-engineer-luzern-121805"
  },
  {
   "company": "Felfel",
@@ -112,12 +128,100 @@
   "url": "https://www.arbeitnow.ch/jobs/companies/nebius/senior-software-engineer-agentic-search-web-rendering-engineer-zurich-220466"
  },
  {
-  "company": "Nebius",
-  "title": "Senior Software Engineer (Agentic Search) – Web Rendering Engineer",
-  "location": "",
+  "company": "Conflux",
+  "title": "Senior Front End Developer (React)",
+  "location": "Utrecht, Utrecht, Nederland",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/nebius/senior-software-engineer-agentic-search-web-rendering-engineer-18850"
+  "url": "https://www.arbeitnow.nl/jobs/companies/conflux/senior-front-end-developer-react-utrecht-187184"
+ },
+ {
+  "company": "Conflux",
+  "title": "Senior Fullstack Web Developer",
+  "location": "Utrecht, Utrecht, Nederland",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/conflux/senior-fullstack-web-developer-utrecht-22833"
+ },
+ {
+  "company": "Legal Counsel - 12 month FTC at Rightmove Greenhouse",
+  "title": "Senior Software Engineer II (Frontend) - Search Core",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/legal-counsel-12-month-ftc-at-rightmove-greenhouse/senior-software-engineer-ii-frontend-search-core-london-169793"
+ },
+ {
+  "company": "Deliveroo",
+  "title": "Software Engineer II  (Full-Stack) - Merchants",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-ii-full-stack-merchants-london-67732"
+ },
+ {
+  "company": "Deliveroo",
+  "title": "Senior Software Engineer (Full-Stack) - Merchants",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-merchants-london-290282"
+ },
+ {
+  "company": "Deliveroo",
+  "title": "Senior Software Engineer (Full-Stack) - Home Page and Merchandising Platform",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-home-page-and-merchandising-platform-london-454777"
+ },
+ {
+  "company": "Axle Careers",
+  "title": "Solutions Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/axle-careers/solutions-engineer-london-400429"
+ },
+ {
+  "company": "Axle Careers",
+  "title": "Software Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/axle-careers/software-engineer-london-497591"
+ },
+ {
+  "company": "Decathlontechnology",
+  "title": "Software Engineer - InStore/Checkout/UnitedPos (f/m/d)",
+  "location": "Lille - Btwin Village, Nord",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/decathlontechnology/software-engineer-instore-checkout-unitedpos-lille-btwin-village-nord-59974"
+ },
+ {
+  "company": "Decathlontechnology",
+  "title": "Senior Software Engineer - Data Factory (f/m/d)",
+  "location": "Villeneuve-d'Ascq, Nord",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/decathlontechnology/senior-software-engineer-data-factory-villeneuve-dascq-nord-185021"
+ },
+ {
+  "company": "Centric",
+  "title": "Allround Software Engineer",
+  "location": "Gouda, Zuid-Holland, Nederland",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/centric/allround-software-engineer-gouda-326062"
+ },
+ {
+  "company": "Deliveroo",
+  "title": "Software Engineer II  (Full-Stack) - Merchants",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-ii-full-stack-merchants-london-67732"
  },
  {
   "company": "Deliveroo",
@@ -168,20 +272,28 @@
   "url": "https://www.arbeitnow.ch/jobs/companies/saeki/senior-full-stack-engineer-zurich-422586"
  },
  {
-  "company": "Poki",
-  "title": "Senior Frontend Engineer",
-  "location": "Amsterdam",
+  "company": "Fact Finder",
+  "title": "Staff Frontend Engineer / Frontend Architect (m/f/d)",
+  "location": "Berlin",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/poki/senior-frontend-engineer-amsterdam-121383"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/dotmatics/software-development-engineer-in-test-luma-340360"
  },
  {
-  "company": "Duna",
-  "title": "(Founding) Solutions Engineer",
-  "location": "Amsterdam",
+  "company": "Monzo",
+  "title": "Web Engineer",
+  "location": "Cardiff",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/duna/founding-solutions-engineer-amsterdam-254932"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/monzo/web-engineer-cardiff-229136"
+ },
+ {
+  "company": "TechBiz Global GmbH",
+  "title": "Senior/Leading Software Engineer (fintech)",
+  "location": "Remote job",
+  "remote": true,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/techbiz-global-gmbh/remote-senior-leading-software-engineer-fintech-berlin-481208"
  },
  {
   "company": "Dotmatics",
@@ -216,38 +328,6 @@
   "url": "https://www.arbeitnow.co.uk/jobs/companies/graphcore/staff-manufacturing-product-engineer-bristol-245902"
  },
  {
-  "company": "Fanaticsfbg",
-  "title": "Staff Software Engineer - FMX",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/fanaticsfbg/staff-software-engineer-fmx-london-471763"
- },
- {
-  "company": "Solteo",
-  "title": "Senior Software Engineer Full-stack - CDI",
-  "location": "Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/solteo/senior-software-engineer-full-stack-cdi-paris-300688"
- },
- {
-  "company": "Pelico",
-  "title": "Tech Lead - Platform",
-  "location": "Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/pelico/tech-lead-platform-paris-355949"
- },
- {
-  "company": "Pelico",
-  "title": "Tech Lead - Solutions",
-  "location": "Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/pelico/tech-lead-solutions-paris-46303"
- },
- {
   "company": "Destinusgroup",
   "title": "Structural Design Engineer",
   "location": "Payerne, Switzerland",
@@ -264,28 +344,20 @@
   "url": "https://www.arbeitnow.ch/jobs/companies/destinusgroup/structural-design-engineer-zurich-171744"
  },
  {
-  "company": "Quantware",
-  "title": "PCB/RF Design Engineer",
-  "location": "Delft",
+  "company": "Dawn Technology",
+  "title": "Senior TypeScript Developer",
+  "location": "Rotterdam, Zuid-Holland, Nederland",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/quantware/pcb-rf-design-engineer-delft-402554"
+  "url": "https://www.arbeitnow.nl/jobs/companies/dawn-technology/senior-typescript-developer-rotterdam-236789"
  },
  {
-  "company": "Quantware",
-  "title": "Quantum Design Engineer",
-  "location": "Delft",
+  "company": "alago",
+  "title": "Founding Customer Experience Engineer (m/w/d)",
+  "location": "Munich",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/quantware/quantum-design-engineer-delft-236939"
- },
- {
-  "company": "DeWarmte",
-  "title": "Full Stack Engineer, Frontend-focused (Next.js + Django)",
-  "location": "The Hague",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/dewarmte/full-stack-engineer-frontend-focused-nextjs-django-the-hague-284649"
+  "url": "https://www.arbeitnow.com/jobs/companies/alago/founding-customer-experience-engineer-munich-125578"
  },
  {
   "company": "Fact Finder",
@@ -376,6 +448,22 @@
   "url": "https://www.arbeitnow.com/jobs/companies/liveeo-gmbh/senior-full-stack-engineer-liveeo-gmbh-berlin-office-hybrid-435139"
  },
  {
+  "company": "Legartis",
+  "title": "AI Automation Engineer – Software Engineering (Leipzig)",
+  "location": "Leipzig",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/legartis/ai-automation-engineer-software-engineering-leipzig-18451"
+ },
+ {
+  "company": "MILES Mobility",
+  "title": "Senior React Native Engineer - App Owner (w/m/x/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-react-native-engineer-app-owner-d-berlin-421435"
+ },
+ {
   "company": "Radiant",
   "title": "Lead Cloud Product Engineer",
   "location": "London",
@@ -400,100 +488,20 @@
   "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-ii-full-stack-merchants-london-383511"
  },
  {
-  "company": "Listan Gmbh",
-  "title": "Senior Software Engineer AI & Automation (d/m/w)",
-  "location": "Hybrid",
+  "company": "Attendi",
+  "title": "Medior Software Engineer",
+  "location": "Amsterdam, Noord-Holland, Netherlands",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/listan-gmbh/senior-software-engineer-ai-automation-hybrid-117253"
+  "url": "https://www.arbeitnow.nl/jobs/companies/attendi/medior-software-engineer-amsterdam-474749"
  },
  {
-  "company": "Monumental",
-  "title": "Software Engineer, Product",
-  "location": "Amsterdam",
+  "company": "The Sharing Group",
+  "title": "Full-Stack Engineer",
+  "location": "Almere, Flevoland, Nederland",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/monumental/software-engineer-product-amsterdam-63869"
- },
- {
-  "company": "Datasnipper",
-  "title": "Senior Full-stack Software Engineer (Integrations)",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/datasnipper/senior-full-stack-software-engineer-integrations-amsterdam-486423"
- },
- {
-  "company": "Fidamy",
-  "title": "Senior Software Engineer",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/fidamy/senior-software-engineer-amsterdam-469272"
- },
- {
-  "company": "Wetravel",
-  "title": "Senior Product Engineer - Booking Management",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/wetravel/senior-product-engineer-booking-management-amsterdam-119066"
- },
- {
-  "company": "Wetravel",
-  "title": "Senior Software Engineer, Developer Experience (Platform Team)",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/wetravel/senior-software-engineer-developer-experience-platform-team-amsterdam-184530"
- },
- {
-  "company": "Soda Data Nv",
-  "title": "AI Content Engineer",
-  "location": "Amsterdam, Netherlands",
-  "remote": true,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/soda-data-nv/remote-ai-content-engineer-amsterdam-165006"
- },
- {
-  "company": "Legartis",
-  "title": "AI Automation Engineer – Software Engineering (Leipzig)",
-  "location": "Leipzig",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/legartis/ai-automation-engineer-software-engineering-leipzig-18451"
- },
- {
-  "company": "MILES Mobility",
-  "title": "Senior React Native Engineer - App Owner (w/m/x/d)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-react-native-engineer-app-owner-d-berlin-421435"
- },
- {
-  "company": "Deliveroo",
-  "title": "Senior Software Engineer (Full-Stack) - Merchants",
-  "location": "London, England, United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-merchants-london-278076"
- },
- {
-  "company": "Decathlontechnology",
-  "title": "Full Stack Developer - Data Factory (f/m/d)",
-  "location": "Paris, Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/decathlontechnology/full-stack-developer-data-factory-paris-paris-431050"
- },
- {
-  "company": "Prosus",
-  "title": "Community Engineer, Toqan (Prosus AI Platform)",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/prosus/community-engineer-toqan-prosus-ai-platform-amsterdam-305026"
+  "url": "https://www.arbeitnow.nl/jobs/companies/the-sharing-group/full-stack-engineer-almere-461582"
  },
  {
   "company": "Tavily",
@@ -512,44 +520,36 @@
   "url": "https://www.arbeitnow.com/jobs/companies/qlub/senior-software-engineer-ai-native-development-berlin-145821"
  },
  {
-  "company": "Ryftpay",
-  "title": "Senior Software Engineer",
-  "location": "Manchester",
+  "company": "Deliveroo",
+  "title": "Senior Software Engineer (Full-Stack) - Merchants",
+  "location": "London, England, United Kingdom",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/ryftpay/senior-software-engineer-manchester-433416"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-merchants-london-278076"
  },
  {
-  "company": "Hcompany",
-  "title": "Senior Full Stack Engineer",
-  "location": "Hybrid London",
+  "company": "Decathlontechnology",
+  "title": "Full Stack Developer - Data Factory (f/m/d)",
+  "location": "Paris, Paris",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/hcompany/senior-full-stack-engineer-hybrid-london-445683"
+  "url": "https://www.arbeitnow.fr/jobs/companies/decathlontechnology/full-stack-developer-data-factory-paris-paris-431050"
  },
  {
-  "company": "Cypress Labs",
-  "title": "Founding Design Engineer",
-  "location": "London",
+  "company": "Invisix",
+  "title": "Software Design Engineer",
+  "location": "Eindhoven, Noord-Brabant, Netherlands",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/cypress-labs/founding-design-engineer-london-241258"
+  "url": "https://www.arbeitnow.nl/jobs/companies/invisix/software-design-engineer-eindhoven-276780"
  },
  {
-  "company": "Clickhouse",
-  "title": "Full Stack Software Engineer - Control Plane",
-  "location": "The Netherlands",
+  "company": "Nebius",
+  "title": "Senior Software Engineer (Agentic Search) – Web Rendering Engineer",
+  "location": "",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/clickhouse/full-stack-software-engineer-control-plane-the-netherlands-226061"
- },
- {
-  "company": "Lefebvre Sdu",
-  "title": "Senior Software Engineer",
-  "location": "Den Haag, Zuid-Holland, Nederland",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/lefebvre-sdu/senior-software-engineer-den-haag-379522"
+  "url": "https://www.arbeitnow.nl/jobs/companies/nebius/senior-software-engineer-agentic-search-web-rendering-engineer-18850"
  },
  {
   "company": "Orbem",
@@ -560,28 +560,12 @@
   "url": "https://www.arbeitnow.com/jobs/companies/orbem/senior-field-service-engineer-munich-163013"
  },
  {
-  "company": "Researchgate",
-  "title": "Senior Frontend Engineer - React",
-  "location": "Berlin",
+  "company": "Ryftpay",
+  "title": "Senior Software Engineer",
+  "location": "Manchester",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/researchgate/senior-frontend-engineer-react-berlin-385366"
- },
- {
-  "company": "Healthtech 1",
-  "title": "Senior/ Staff Software Engineer",
-  "location": "Stratford, East London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/healthtech-1/senior-staff-software-engineer-london-456276"
- },
- {
-  "company": "Aibidia",
-  "title": "Design Engineer",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/aibidia/design-engineer-london-334454"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/ryftpay/senior-software-engineer-manchester-433416"
  },
  {
   "company": "Lucis",
@@ -608,12 +592,12 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/one-mobility/electrical-design-engineer-machine-safety-specialist-m-f-masevaux-niederbruck-396307"
  },
  {
-  "company": "IXON Cloud",
-  "title": "Software Engineer (Frontend)",
-  "location": "Beugen, Noord-Brabant, Netherlands",
+  "company": "Researchgate",
+  "title": "Senior Frontend Engineer - React",
+  "location": "Berlin",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/ixon-cloud/software-engineer-frontend-beugen-433174"
+  "url": "https://www.arbeitnow.com/jobs/companies/researchgate/senior-frontend-engineer-react-berlin-385366"
  },
  {
   "company": "Topi",
@@ -632,20 +616,36 @@
   "url": "https://www.arbeitnow.com/jobs/companies/knime-ag/full-stack-software-engineer-in-berlin-or-konstanz-177932"
  },
  {
-  "company": "Tavily",
-  "title": "Senior Software Engineer (Agentic Search) – Web Rendering Engineer",
-  "location": "",
+  "company": "Hcompany",
+  "title": "Senior Full Stack Engineer",
+  "location": "Hybrid London",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/tavily/senior-software-engineer-agentic-search-web-rendering-engineer-233571"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/hcompany/senior-full-stack-engineer-hybrid-london-445683"
  },
  {
-  "company": "Quantum Motion Technologies - Personio",
-  "title": "Senior Digital IC Design Engineer",
-  "location": "London, UK",
+  "company": "Cypress Labs",
+  "title": "Founding Design Engineer",
+  "location": "London",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/quantum-motion-technologies-personio/senior-digital-ic-design-engineer-london-uk-439920"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/cypress-labs/founding-design-engineer-london-241258"
+ },
+ {
+  "company": "Healthtech 1",
+  "title": "Senior/ Staff Software Engineer",
+  "location": "Stratford, East London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/healthtech-1/senior-staff-software-engineer-london-456276"
+ },
+ {
+  "company": "Aibidia",
+  "title": "Design Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/aibidia/design-engineer-london-334454"
  },
  {
   "company": "SFEIR",
@@ -672,20 +672,28 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/sfeir/developpeureuse-javascript-experimentee-lille-93668"
  },
  {
-  "company": "Remanence",
-  "title": "Template of Member of Technical Staff — Full-Stack",
-  "location": "Paris",
+  "company": "Poki",
+  "title": "Senior Frontend Engineer",
+  "location": "Amsterdam",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/remanence/template-of-member-of-technical-staff-full-stack-paris-423144"
+  "url": "https://www.arbeitnow.nl/jobs/companies/poki/senior-frontend-engineer-amsterdam-121383"
  },
  {
-  "company": "Schubergphilis",
-  "title": "Software Engineer - Frontend",
-  "location": "Schiphol-Rijk",
+  "company": "Duna",
+  "title": "(Founding) Solutions Engineer",
+  "location": "Amsterdam",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/schubergphilis/software-engineer-frontend-schiphol-rijk-19865"
+  "url": "https://www.arbeitnow.nl/jobs/companies/duna/founding-solutions-engineer-amsterdam-254932"
+ },
+ {
+  "company": "Quantware",
+  "title": "PCB/RF Design Engineer",
+  "location": "Delft",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/quantware/pcb-rf-design-engineer-delft-402554"
  },
  {
   "company": "Think Cell",
@@ -696,12 +704,68 @@
   "url": "https://www.arbeitnow.com/jobs/companies/think-cell/senior-full-stack-developer-234166"
  },
  {
+  "company": "Healthtech 1",
+  "title": "Senior/ Staff Software Engineer",
+  "location": "Stratford, East London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/healthtech-1/senior-staff-software-engineer-london-456276"
+ },
+ {
+  "company": "Aibidia",
+  "title": "Design Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/aibidia/design-engineer-london-334454"
+ },
+ {
+  "company": "Remanence",
+  "title": "Template of Member of Technical Staff — Full-Stack",
+  "location": "Paris",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/remanence/template-of-member-of-technical-staff-full-stack-paris-423144"
+ },
+ {
+  "company": "Lemonway",
+  "title": "Senior Software Engineer, Account",
+  "location": "Paris, Île-de-France, France",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/lemonway/senior-software-engineer-account-paris-171612"
+ },
+ {
+  "company": "Quantware",
+  "title": "Quantum Design Engineer",
+  "location": "Delft",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/quantware/quantum-design-engineer-delft-236939"
+ },
+ {
+  "company": "DeWarmte",
+  "title": "Full Stack Engineer, Frontend-focused (Next.js + Django)",
+  "location": "The Hague",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/dewarmte/full-stack-engineer-frontend-focused-nextjs-django-the-hague-284649"
+ },
+ {
   "company": "fairforce.one",
   "title": "Full Stack Developer (m/w/d) | KI & LegalTech",
   "location": "Leipzig",
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/fairforceone/full-stack-developer-ki-legaltech-leipzig-294478"
+ },
+ {
+  "company": "autonomous-teaming",
+  "title": "Full-Stack AI Developer – Agentic Systems (m/f/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/autonomous-teaming/full-stack-ai-developer-agentic-systems-berlin-116018"
  },
  {
   "company": "Perk",
@@ -742,6 +806,70 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/full-stack-engineer-backend-leaning-creativevoices-united-kingdom-76650"
+ },
+ {
+  "company": "Mytomorrows",
+  "title": "Full Stack Engineer",
+  "location": "Amsterdam HQ",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/full-stack-engineer-amsterdam-443490"
+ },
+ {
+  "company": "Monumental",
+  "title": "Software Engineer, Frontend",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/monumental/software-engineer-frontend-amsterdam-22797"
+ },
+ {
+  "company": "Monumental",
+  "title": "Software Engineer, Product",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/monumental/software-engineer-product-amsterdam-63869"
+ },
+ {
+  "company": "Datasnipper",
+  "title": "Senior Full-stack Software Engineer (Integrations)",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/datasnipper/senior-full-stack-software-engineer-integrations-amsterdam-486423"
+ },
+ {
+  "company": "Fidamy",
+  "title": "Senior Software Engineer",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/fidamy/senior-software-engineer-amsterdam-469272"
+ },
+ {
+  "company": "Trusteq Gmbh",
+  "title": "Cybersecurity (Senior) Software Engineer (m/w/d)",
+  "location": "München",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-software-engineer-munchen-121963"
+ },
+ {
+  "company": "Trusteq Gmbh",
+  "title": "AI (Senior) Developer (m/w/d)",
+  "location": "München",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/ai-senior-developer-munchen-80770"
+ },
+ {
+  "company": "Alteos",
+  "title": "Lead Software Engineer (m/f/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/alteos/lead-software-engineer-berlin-458235"
  },
  {
   "company": "Elevenlabs",
@@ -848,36 +976,44 @@
   "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/full-stack-engineer-back-end-leaning-united-kingdom-44407"
  },
  {
-  "company": "Itility B.V.",
-  "title": "Software Engineer",
-  "location": "Eindhoven, Noord-Brabant, Netherlands",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/itility-bv/software-engineer-eindhoven-383419"
- },
- {
-  "company": "Surfly",
-  "title": "Senior Full-Stack Software Engineer - Webfuse",
-  "location": "Amsterdam, Noord-Holland, Netherlands",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/surfly/senior-full-stack-software-engineer-webfuse-amsterdam-289822"
- },
- {
-  "company": "Suitsupply",
-  "title": "Tech Lead",
+  "company": "Wetravel",
+  "title": "Senior Product Engineer - Booking Management",
   "location": "Amsterdam",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/suitsupply/tech-lead-amsterdam-393557"
+  "url": "https://www.arbeitnow.nl/jobs/companies/wetravel/senior-product-engineer-booking-management-amsterdam-119066"
  },
  {
-  "company": "Alteos",
-  "title": "Lead Software Engineer (m/f/d)",
-  "location": "Berlin",
+  "company": "Wetravel",
+  "title": "Senior Software Engineer, Developer Experience (Platform Team)",
+  "location": "Amsterdam",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/alteos/lead-software-engineer-berlin-458235"
+  "url": "https://www.arbeitnow.nl/jobs/companies/wetravel/senior-software-engineer-developer-experience-platform-team-amsterdam-184530"
+ },
+ {
+  "company": "Soda Data Nv",
+  "title": "AI Content Engineer",
+  "location": "Amsterdam, Netherlands",
+  "remote": true,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/soda-data-nv/remote-ai-content-engineer-amsterdam-165006"
+ },
+ {
+  "company": "Prosus",
+  "title": "Community Engineer, Toqan (Prosus AI Platform)",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/prosus/community-engineer-toqan-prosus-ai-platform-amsterdam-305026"
+ },
+ {
+  "company": "Tavily",
+  "title": "Senior Software Engineer (Agentic Search) – Web Rendering Engineer",
+  "location": "",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/tavily/senior-software-engineer-agentic-search-web-rendering-engineer-444896"
  },
  {
   "company": "Synthesia",
@@ -893,7 +1029,7 @@
   "location": "United Kingdom",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/jiga/full-stack-product-engineer-remote-europe-united-kingdom-194570"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/safety-engineer-free-tier-abuse-united-kingdom-429898"
  },
  {
   "company": "iwoca",
@@ -904,52 +1040,20 @@
   "url": "https://www.arbeitnow.co.uk/jobs/companies/iwoca/full-stack-engineer-operations-engineering-team-london-23968"
  },
  {
-  "company": "Catawiki",
-  "title": "Frontend Engineer",
-  "location": "Amsterdam",
+  "company": "Clickhouse",
+  "title": "Full Stack Software Engineer - Control Plane",
+  "location": "The Netherlands",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/catawiki/frontend-engineer-amsterdam-332402"
+  "url": "https://www.arbeitnow.nl/jobs/companies/clickhouse/full-stack-software-engineer-control-plane-the-netherlands-226061"
  },
  {
-  "company": "Optiverus",
-  "title": "Software Engineer - Talent Tooling",
-  "location": "Amsterdam",
+  "company": "Lefebvre Sdu",
+  "title": "Senior Software Engineer",
+  "location": "Den Haag, Zuid-Holland, Nederland",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/optiverus/software-engineer-talent-tooling-amsterdam-199489"
- },
- {
-  "company": "Optiverus",
-  "title": "Software engineer - Real-Time Pricing",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/optiverus/software-engineer-real-time-pricing-amsterdam-303172"
- },
- {
-  "company": "Flexport",
-  "title": "Staff Software Engineer: Applied AI",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/flexport/staff-software-engineer-applied-ai-amsterdam-287877"
- },
- {
-  "company": "Flexport",
-  "title": "Software Engineer II",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/flexport/software-engineer-ii-amsterdam-393364"
- },
- {
-  "company": "Flexport",
-  "title": "Senior Software Engineer, Applied AI",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/flexport/senior-software-engineer-applied-ai-amsterdam-51985"
+  "url": "https://www.arbeitnow.nl/jobs/companies/lefebvre-sdu/senior-software-engineer-den-haag-379522"
  },
  {
   "company": "Raysono",
@@ -1008,100 +1112,12 @@
   "url": "https://www.arbeitnow.com/jobs/companies/snke/senior-fullstack-engineer-mobile-healthcare-platform-munchen-33325"
  },
  {
-  "company": "Alpineeagle",
-  "title": "Full Stack Engineer – Frontend Focus (m/f/d)",
-  "location": "Karlsruhe, Baden-Württemberg, München, Bavaria",
+  "company": "IXON Cloud",
+  "title": "Software Engineer (Frontend)",
+  "location": "Beugen, Noord-Brabant, Netherlands",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/alpineeagle/full-stack-engineer-frontend-focus-karlsruhe-baden-wurttemberg-munchen-bavaria-131877"
- },
- {
-  "company": "Bjak",
-  "title": "DevSecOps Engineer",
-  "location": "United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/devsecops-engineer-london-315700"
- },
- {
-  "company": "Intus Workforce Solutions B.V.",
-  "title": "Software Engineer (Fullstack)",
-  "location": "Driebergen-Rijsenburg, Utrecht, Netherlands",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/intus-workforce-solutions-bv/software-engineer-fullstack-driebergen-rijsenburg-51533"
- },
- {
-  "company": "Intus Workforce Solutions B.V.",
-  "title": "Front-end Developer",
-  "location": "Driebergen-Rijsenburg, Utrecht, Netherlands",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/intus-workforce-solutions-bv/front-end-developer-driebergen-rijsenburg-300719"
- },
- {
-  "company": "Bjak",
-  "title": "DevSecOps Engineer",
-  "location": "United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/skdse/senior-software-engineer-go-all-genders-berlin-136644"
- },
- {
-  "company": "Skdse",
-  "title": "Senior Frontend Engineer (All Genders)",
-  "location": "",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/skdse/senior-frontend-engineer-all-genders-353996"
- },
- {
-  "company": "Skdse",
-  "title": "Senior Frontend Engineer (All Gender)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/skdse/senior-frontend-engineer-all-gender-berlin-98904"
- },
- {
-  "company": "Roku",
-  "title": "Software Engineer, UI",
-  "location": "Cambridge",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/roku/software-engineer-ui-cambridge-94191"
- },
- {
-  "company": "Optiverus",
-  "title": "Graduate Software Engineer",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/optiverus/graduate-software-engineer-london-342714"
- },
- {
-  "company": "Native Design",
-  "title": "Developer (Graduate)",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/native-design/developer-graduate-london-297219"
- },
- {
-  "company": "Learned",
-  "title": "Senior Web & Mobile Full Stack Developer",
-  "location": "Utrecht, Utrecht, Nederland",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/learned/senior-web-mobile-full-stack-developer-utrecht-46250"
- },
- {
-  "company": "Learned",
-  "title": "Senior full Stack Developer",
-  "location": "Utrecht, Utrecht, Nederland",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/learned/senior-full-stack-developer-utrecht-448583"
+  "url": "https://www.arbeitnow.nl/jobs/companies/ixon-cloud/software-engineer-frontend-beugen-433174"
  },
  {
   "company": "Learned",
@@ -1960,12 +1976,132 @@
   "url": "https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399"
  },
  {
+  "company": "FPT Asia Pacific Pte Ltd",
+  "title": "G45 - Full Stack Engineer",
+  "location": "Singapore",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/fpt-asia-pacific-pte-ltd/jobs/g45-full-stack-engineer"
+ },
+ {
+  "company": "PlanITROI LLC",
+  "title": "Elite AI Agent Engineer- B2B Lead Generation & Automation",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/planitroi-llc/jobs/elite-ai-agent-engineer-b2b-lead-generation-automation"
+ },
+ {
+  "company": "GoDaddy",
+  "title": "Senior Software Engineer - FullStack",
+  "location": "India",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/godaddy/jobs/senior-software-engineer-fullstack"
+ },
+ {
+  "company": "HeroDevs, Inc.",
+  "title": "Senior Software Engineer - Integrations (Shared Services)",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/herodevs-inc/jobs/senior-software-engineer-integrations-shared-services"
+ },
+ {
+  "company": "Mintskill HR Solutions LLP",
+  "title": "Software Engineer - Zoho Applications",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/mintskill-hr-solutions-llp/jobs/software-engineer-zoho-applications"
+ },
+ {
+  "company": "Esri",
+  "title": "Sr. Product Engineer - National Imagery",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/esri/jobs/sr-product-engineer-national-imagery"
+ },
+ {
+  "company": "AmerisourceBergen",
+  "title": "Software Engineer 2",
+  "location": "Poland",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/amerisourcebergen/jobs/software-engineer-2-9445630510"
+ },
+ {
+  "company": "AmerisourceBergen",
+  "title": "Lead Software Engineer",
+  "location": "Poland",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/amerisourcebergen/jobs/lead-software-engineer-6860681361"
+ },
+ {
+  "company": "Almawolf",
+  "title": "Nómada Frontend Dev para Unicornio",
+  "location": "Spain",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/almawolf/jobs/nomada-frontend-dev-para-unicornio"
+ },
+ {
+  "company": "AI2CYBER",
+  "title": "Mobile Application Software Engineer",
+  "location": "Greece",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/ai2cyber/jobs/mobile-application-software-engineer"
+ },
+ {
+  "company": "Intelerad",
+  "title": "Senior Software Developer",
+  "location": "Canada",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/intelerad/jobs/senior-software-developer-8435039982"
+ },
+ {
+  "company": "Fuze Health",
+  "title": "Principal Engineer",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/fuze-health/jobs/principal-engineer"
+ },
+ {
+  "company": "Aether Aerospace",
+  "title": "Full Stack Developer III",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/aether-aerospace/jobs/full-stack-developer-iii"
+ },
+ {
+  "company": "Monzo",
+  "title": "Web Engineer",
+  "location": "United Kingdom",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/monzo/jobs/web-engineer"
+ },
+ {
   "company": "Grid Status",
   "title": "Full Stack Engineer at Grid Status",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
   "url": "https://himalayas.app/companies/grid-status/jobs/full-stack-engineer-at-grid-status"
+ },
+ {
+  "company": "Software Mind",
+  "title": "[8FA] Senior Fullstack Software Engineer (Javascript, Typescript)",
+  "location": "Costa Rica",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/software-mind/jobs/8fa-senior-fullstack-software-engineer-javascript-typescript-3276032970"
  },
  {
   "company": "Global Linking Solutions",
@@ -2022,118 +2158,6 @@
   "remote": true,
   "source": "himalayas",
   "url": "https://himalayas.app/companies/xsolla/jobs/senior-software-engineer"
- },
- {
-  "company": "Zayo Group",
-  "title": "Design Engineer III - Optical",
-  "location": "Kenya",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/zayo-group/jobs/design-engineer-iii-optical"
- },
- {
-  "company": "Hire Overseas",
-  "title": "Full Stack Engineer (AI and Agents)",
-  "location": "Brazil",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/hire-overseas/jobs/full-stack-engineer-ai-and-agents"
- },
- {
-  "company": "Tokio Marine HCC",
-  "title": "Senior Engineer, MDR",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/tokio-marine-hcc/jobs/senior-engineer-mdr-9019221153"
- },
- {
-  "company": "Solv",
-  "title": "Senior Full-Stack Product Engineer, AI Products",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/solv/jobs/senior-full-stack-product-engineer-ai-products"
- },
- {
-  "company": "NirYu",
-  "title": "Sr. Fullstack Developer",
-  "location": "Mexico",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/niryu/jobs/sr-fullstack-developer"
- },
- {
-  "company": "Code & Pepper",
-  "title": "React Native Developer",
-  "location": "Poland",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/code-pepper/jobs/react-native-developer"
- },
- {
-  "company": "mercor",
-  "title": "Full Stack Engineer - AI Lab",
-  "location": "India",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/mercor/jobs/full-stack-engineer-ai-lab"
- },
- {
-  "company": "Fuku",
-  "title": "Full Stack Developer Team Lead-WFH/Remote",
-  "location": "India",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/fuku/jobs/full-stack-developer-team-lead-wfh-remote"
- },
- {
-  "company": "Alpaca",
-  "title": "Staff Fullstack Engineer",
-  "location": "Anguilla / Antigua and Barbuda / Argentina / Aruba / Bahamas / Barbados / Belize / Bermuda / Bolivia / Bonaire, Sint Eus",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/alpaca/jobs/staff-fullstack-engineer"
- },
- {
-  "company": "Motravay.mu",
-  "title": "Senior Fullstack Developer",
-  "location": "Mauritius",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/motravay-mu/jobs/senior-fullstack-developer-2369676779"
- },
- {
-  "company": "Parakeet",
-  "title": "Full-Stack Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/parakeet/jobs/full-stack-engineer"
- },
- {
-  "company": "Parakeet",
-  "title": "Full-Stack Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/parakeet/jobs/full-stack-engineer"
- },
- {
-  "company": "Startup Talents",
-  "title": "Partner Engineer (Devrel)",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/startup-talents/jobs/partner-engineer-devrel"
- },
- {
-  "company": "Global Channel Management, Inc.",
-  "title": "Remote Frontend Engineer",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/global-channel-management-inc/jobs/remote-frontend-engineer"
  },
  {
   "company": "GovStar",
@@ -2680,22 +2704,6 @@
   "url": "https://i22.jobs.personio.com/job/2791922?language=en"
  },
  {
-  "company": "chargecloud",
-  "title": "(Senior) Frontend Engineer (all genders)",
-  "location": "Deutschlandweit Mobil (remote)",
-  "remote": null,
-  "source": "personio",
-  "url": "https://chargecloud-gmbh.jobs.personio.com/job/2713912?language=en"
- },
- {
-  "company": "Talon.One",
-  "title": "Frontend Engineer",
-  "location": "Berlin / Berlin",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://www.talon.one/job-listing?gh_jid=4917445101"
- },
- {
   "company": "Staffbase",
   "title": "Fullstack Engineer - Mid Level - Actions Team",
   "location": "Berlin, Brandenburg, Germany; Chemnitz, Sachsen, Germany; Dresden, Sachsen, Germany / Staffbase SE, Germany",
@@ -2718,6 +2726,22 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/staffbase/jobs/8632485002"
+ },
+ {
+  "company": "Talon.One",
+  "title": "Frontend Engineer",
+  "location": "Berlin / Berlin",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://www.talon.one/job-listing?gh_jid=4917445101"
+ },
+ {
+  "company": "chargecloud",
+  "title": "(Senior) Frontend Engineer (all genders)",
+  "location": "Deutschlandweit Mobil (remote)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://chargecloud-gmbh.jobs.personio.com/job/2713912?language=en"
  },
  {
   "company": "Four 20 Pharma",
@@ -2912,6 +2936,30 @@
   "url": "https://helsing.ai/jobs/4741242101?gh_jid=4741242101"
  },
  {
+  "company": "Redcare Pharmacy",
+  "title": "Senior Fullstack Engineer, Node.js & React.js (m/f/d)",
+  "location": "Berlin / BE / de",
+  "remote": false,
+  "source": "smartrecruiters",
+  "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000149620455"
+ },
+ {
+  "company": "Governikus",
+  "title": "Frontend Developer | Digitale Signaturen (m/w/d)",
+  "location": "Bremen",
+  "remote": null,
+  "source": "personio",
+  "url": "https://governikus.jobs.personio.de/job/2702976?language=en"
+ },
+ {
+  "company": "Pennylane",
+  "title": "Fullstack Software Engineer RoR/JS W/M",
+  "location": "All France (remote) / France",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/pennylane/18f252a7-7b19-44b6-b175-6dfcaea8b2e8"
+ },
+ {
   "company": "Celonis",
   "title": "AI Product Engineer (Demo)",
   "location": "Madrid, Spain / Madrid, Spain",
@@ -2934,38 +2982,6 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/doctolib/jobs/7990890003"
- },
- {
-  "company": "Doctolib",
-  "title": "Staff DataOps Engineer (x/f/m)",
-  "location": "Paris, Paris, France / Paris",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/doctolib/jobs/7675665003"
- },
- {
-  "company": "Doctolib",
-  "title": "Staff Mobile Engineer - React Native (x/f/m)",
-  "location": "Paris, Paris, France / Paris",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/doctolib/jobs/7512129003"
- },
- {
-  "company": "Merantix",
-  "title": "Founding Engineer @ Stealth AI Recruiting Venture",
-  "location": "Berlin",
-  "remote": null,
-  "source": "personio",
-  "url": "https://merantix.jobs.personio.de/job/2532243?language=en"
- },
- {
-  "company": "Pennylane",
-  "title": "Fullstack Software Engineer RoR/JS W/M",
-  "location": "All France (remote) / France",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/pennylane/18f252a7-7b19-44b6-b175-6dfcaea8b2e8"
  },
  {
   "company": "Forto",
@@ -3128,36 +3144,116 @@
   "url": "https://jobs.ashbyhq.com/supabase/1acade7a-0b80-4c6c-9253-7c27a165739d"
  },
  {
+  "company": "Neo4j",
+  "title": "Federal Consulting Engineer",
+  "location": "Washington, D.C. / Washington, D.C.",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4685182006?gh_jid=4685182006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Full-stack Software Engineer - Graph Engine",
+  "location": "Malmö / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4718351006?gh_jid=4718351006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Full-stack Software Engineer - Graph Engine",
+  "location": "London / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4718349006?gh_jid=4718349006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer - Aura, Instances",
+  "location": "Malmö / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4711176006?gh_jid=4711176006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer - Connectors",
+  "location": "London / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4711501006?gh_jid=4711501006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer - Connectors",
+  "location": "Malmö / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4711499006?gh_jid=4711499006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer - Developer Surface",
+  "location": "Malmö / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4709129006?gh_jid=4709129006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer – Product Analytics Platform",
+  "location": "London / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4716565006?gh_jid=4716565006"
+ },
+ {
+  "company": "Neo4j",
+  "title": "Software Engineer – Product Analytics Platform",
+  "location": "Malmö / London / Malmö",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://boards.greenhouse.io/neo4j/jobs/4716592006?gh_jid=4716592006"
+ },
+ {
+  "company": "GitLab",
+  "title": "Senior Frontend Engineer",
+  "location": "Bangalore, India / India",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002"
+ },
+ {
+  "company": "GitLab",
+  "title": "Senior Frontend Engineer (Vue), Create:  Repository Management",
+  "location": "Remote, United Kingdom / United Kingdom",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636539002"
+ },
+ {
+  "company": "GitLab",
+  "title": "Senior Fullstack Engineer, Marketing",
+  "location": "Remote, United Kingdom",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697493002"
+ },
+ {
+  "company": "GitLab",
+  "title": "Staff Frontend Engineer",
+  "location": "Bangalore, India / India",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002"
+ },
+ {
   "company": "Merantix",
   "title": "Founding Engineer @ Stealth AI Recruiting Venture",
   "location": "Berlin",
   "remote": null,
   "source": "personio",
   "url": "https://merantix.jobs.personio.de/job/2532243?language=en"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer",
-  "location": "Remote, San Francisco, CA / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/supabase/a1320bbf-bfae-49a8-a1b7-12eeccaf39ca"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (New York, NY)",
-  "location": "Remote, New York, US / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/supabase/98ae5c78-eab7-4879-b143-96b98e4d0dbb"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "Remote, London UK / United Kingdom",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/supabase/1acade7a-0b80-4c6c-9253-7c27a165739d"
  },
  {
   "company": "Vercel",
@@ -3182,5 +3278,517 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/vercel/jobs/6201179004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Partner Solutions Engineer, EMEA",
+  "location": "Hybrid - London, Berlin / Office - Berlin / Office - London",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6132416004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Site Engineer",
+  "location": "Remote - United States / AMER",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/5732855004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, AI Gateway",
+  "location": "Hybrid - San Francisco / Remote - United States",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/5798406004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, CDN",
+  "location": "Hybrid - San Francisco, New York City / AMER",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/5179639004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, CDN Content",
+  "location": "Hybrid - San Francisco / Office - San Francisco",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6105394004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, eve",
+  "location": "Hybrid - New York City / Remote - United States",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6098390004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer - Next.js",
+  "location": "Hybrid - San Francisco, New York City / Office - New York City / Office - San Francisco",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6137958004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, Observability",
+  "location": "Hybrid - San Francisco, New York City, London / Office - London / Office - New York City",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/5428982004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, Platform",
+  "location": "Hybrid - San Francisco, New York City / Remote - United States",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6195280004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, Scheduled Tasks",
+  "location": "Hybrid - San Francisco / Remote - United States",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6207796004"
+ },
+ {
+  "company": "Vercel",
+  "title": "Software Engineer, Trust & Safety",
+  "location": "Hybrid - San Francisco, New York City / Remote - United States",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/5649459004"
+ },
+ {
+  "company": "Canonical",
+  "title": "Senior Software Engineer - MAAS",
+  "location": "Home Based - Americas; Home based - EMEA / Home Based - Americas / Home Based - EMEA",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/canonical/jobs/3003389"
+ },
+ {
+  "company": "Canonical",
+  "title": "Senior Web Engineer",
+  "location": "Home based - EMEA / Home Based - EMEA",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/canonical/jobs/4417916"
+ },
+ {
+  "company": "Canonical",
+  "title": "Staff Design Engineer - Cloud Networking UX",
+  "location": "Home based - EMEA / Home Based - EMEA",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/canonical/jobs/7574469"
+ },
+ {
+  "company": "Canonical",
+  "title": "Web Developer",
+  "location": "Home based - EMEA / Home Based - EMEA",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/canonical/jobs/2804965"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "Future Projects CAD Design Engineer",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/790ae20b-ba08-45e1-978b-034aa443ff01"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "CAD Design Engineer",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/f6df55b7-198a-4933-9850-4d37c4a616df"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Application Software Engineer (f/m/d)",
+  "location": "Ottobrunn, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4950930101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Fluid Systems / Process Design Engineer",
+  "location": "Ottobrunn, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4907775101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Propulsion Design Engineer, Propulsion - Engine Integration (w/m/f)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4982831101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "(Senior) Design Engineer (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4642289101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Senior Structures Design Engineer, Launch Vehicle Structures (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4978727101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Structural Design Engineer, Spectrum (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4999532101"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Senior Software Engineer - NEURAGym (human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/1f2850df-9a0f-4a55-8e3c-11cdb8c01f60"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Senior Software Engineer - NEURAGym (Mensch)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/caba596e-1b6f-4fdb-9fc5-fdaff594e8fd"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Cybersecurity Engineer - Cloud, Ops (human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/b043e483-4ef9-42fb-a32a-480cd3dff05c"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Cybersecurity Engineer - Cloud, Ops (Mensch)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/9eff3a84-f94d-4ea8-96c5-ee75fc47ffe0"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Lead Design Engineer (Human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/7c9363da-c05d-4bca-b824-f2ad4e72b9f2"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Design Engineer – Peripherals: Cables & Interfaces (Human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/9d4983f7-2edb-4ec0-ba61-ba8f88bf3e13"
+ },
+ {
+  "company": "Sereact",
+  "title": "Mechanical Design Engineer",
+  "location": "Boston, Massachusetts / United States",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/sereact/d3938d18-fe4a-40f6-af8c-f8be70572306"
+ },
+ {
+  "company": "Data4Life",
+  "title": "Full-Stack Customer Success Engineer (f/m/x)",
+  "location": "Berlin/Potsdam",
+  "remote": null,
+  "source": "personio",
+  "url": "https://data4life.jobs.personio.de/job/2516869?language=en"
+ },
+ {
+  "company": "Data4Life",
+  "title": "Senior Full-Stack Developer (f/m/x)",
+  "location": "Berlin/Potsdam",
+  "remote": null,
+  "source": "personio",
+  "url": "https://data4life.jobs.personio.de/job/2574892?language=en"
+ },
+ {
+  "company": "Thermondo",
+  "title": "Mobile Engineer (f/m/d)",
+  "location": "Berlin (Zentrale)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://thermondo.jobs.personio.de/job/2455568?language=en"
+ },
+ {
+  "company": "Thermondo",
+  "title": "Senior Full Stack Engineer (f/m/d)",
+  "location": "Berlin (Zentrale)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://thermondo.jobs.personio.de/job/2400490?language=en"
+ },
+ {
+  "company": "Tanium",
+  "title": "Senior Software Engineer",
+  "location": "Durham, NC (Hybrid); Emeryville, CA (Hybrid) / Emeryville, CA Office",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/8275602"
+ },
+ {
+  "company": "Tanium",
+  "title": "Senior Software Engineer - Full Stack",
+  "location": "Addison, TX (Hybrid); Bellevue, WA (Hybrid); Durham, NC (Hybrid); Emeryville, CA (Hybrid) / Durham, NC Office",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/7631113"
+ },
+ {
+  "company": "LiveEO",
+  "title": "Senior Full Stack Engineer (f/m/x)",
+  "location": "LiveEO GmbH Berlin Office (Hybrid)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://liveeo-gmbh.jobs.personio.de/job/2814883?language=en"
+ },
+ {
+  "company": "LiveEO",
+  "title": "Senior Full Stack Engineer (f/m/x) - Government Solutions",
+  "location": "LiveEO GmbH Berlin Office (Hybrid)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://liveeo-gmbh.jobs.personio.de/job/2568230?language=en"
+ },
+ {
+  "company": "LiveEO",
+  "title": "Team Lead Full-Stack Engineer (f/m/x)",
+  "location": "LiveEO GmbH Berlin Office (Hybrid)",
+  "remote": null,
+  "source": "personio",
+  "url": "https://liveeo-gmbh.jobs.personio.de/job/2763284?language=en"
+ },
+ {
+  "company": "Wandelbots",
+  "title": "Solution Engineer (gn)",
+  "location": "Dresden",
+  "remote": null,
+  "source": "personio",
+  "url": "https://wandelbots.jobs.personio.de/job/2836451?language=en"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Fullstack Engineer (m/f/d)",
+  "location": "Berlin (Germany); Munich (Germany) / AutoScout24 core",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/8014285003"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer",
+  "location": "Toronto, ON (Canada) / Dealertrack",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/7567681003"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer, CMS (Auto Repossession & Remarketing)",
+  "location": "Toronto, ON (Canada) / CMS",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/7567626003"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer (m/f/d)",
+  "location": "Berlin (Germany); Munich (Germany) / AutoScout24 core",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/8016745003"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer (m/f/d)",
+  "location": "Munich (Germany) / AutoScout24 core",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/8000965003"
+ },
+ {
+  "company": "JTL Software",
+  "title": "Senior Fullstack Engineer",
+  "location": "Mobil",
+  "remote": null,
+  "source": "personio",
+  "url": "https://jtl-software-gmbh.jobs.personio.de/job/2780036?language=en"
+ },
+ {
+  "company": "JTL Software",
+  "title": "Senior Fullstack Engineer – Developer Platform (f/m/d)",
+  "location": "Mobil",
+  "remote": null,
+  "source": "personio",
+  "url": "https://jtl-software-gmbh.jobs.personio.de/job/2712705?language=en"
+ },
+ {
+  "company": "Hetzner",
+  "title": "Software Engineer",
+  "location": "Remote job / Durbanville / South Africa",
+  "remote": true,
+  "source": "recruitee",
+  "url": "https://xneelo.recruitee.com/o/software-engineer-22"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer",
+  "location": "Remote US / Remote US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8209734"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer",
+  "location": "Remote / Remote US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8204384"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer",
+  "location": "Remote Canada / Remote US",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8230712"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Canada / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/7583557"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Netherlands / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188889"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Spain / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188887"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Belgium / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188884"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Finland / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188881"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote UK / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188876"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote France / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188873"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote Sweden / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8188892"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Senior Software Engineer, Add-Ons",
+  "location": "Remote / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/7524337"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Product Engineer, Enterprise AI",
+  "location": "Remote Canada / Remote",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8247782"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Product Engineer, Enterprise AI",
+  "location": "Remote / Remote",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8174313"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Product Engineer, Enterprise AI",
+  "location": "Remote US / Remote",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8247802"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Web Application Services",
+  "location": "Remote US / Remote",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8234141"
  }
 ]
