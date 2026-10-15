@@ -1,13 +1,97 @@
 {
- "collectedAt": "2026-10-15T14:42:40+00:00",
- "count": 7,
+ "collectedAt": "2026-10-15T18:52:32+00:00",
+ "count": 8,
  "jobs": [
   {
-   "id": "adzuna:5928803943",
-   "company": "getexperts & Partner",
-   "title": "Senior Full Stack Entwickler (m/w/d)",
-   "url": "https://www.adzuna.de/details/5928803943?utm_medium=api&utm_source=c19f1397",
-   "location": "Eimsbüttel, Hamburg / Deutschland / Homeoffice",
+   "id": "adzuna:5929166925",
+   "company": "Standby GmbH",
+   "title": "App-Entwickler (m/w/d)",
+   "url": "https://www.adzuna.de/details/5929166925?utm_medium=api&utm_source=c19f1397",
+   "location": "Bruch, Dinslaken / Deutschland",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; NRW",
+   "facts": "An unserem deutschen Standort in Dinslaken entwickeln, produzieren und vertreiben wir unsere Produkte direkt. | Im Verbund der schwedischen Standby-Gruppe gehören wir zu den europäischen Marktführern in unserem Segment. | Um unser Team zu unterstützen und weiter auszubauen, suchen wir an unserem Standort in Dinslaken zum nächstmöglichen Zeitpunkt eine/n App-Entwickler (m/w/d) D… react",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
+  },
+  {
+   "id": "adzuna:5929169159",
+   "company": "Zurich Insurance Company Ltd.",
+   "title": "Software Engineer Full-Stack Zurich & DA Kundenportale (m/w/d)",
+   "url": "https://www.adzuna.de/details/5929169159?utm_medium=api&utm_source=c19f1397",
+   "location": "Köln, Nordrhein-Westfalen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; NRW",
+   "facts": "Als Full-Stack Developer gestaltest du Anwendungen, die täglich von tausenden Kund:innen genutzt werden und einen direkten Einfluss auf deren digitale Erf… react",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
+  },
+  {
+   "id": "adzuna:5929284264",
+   "company": "Mercury Media Technology & Co.KG",
+   "title": "Full-Stack Engineer – AI-Driven Development (m/f/d)",
+   "url": "https://www.adzuna.de/details/5929284264?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " part_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Together with your team, you decide what gets built and how it fits together, turning customer needs and business outcomes into clear direction You will help look after the long-term health of your area: its architecture, its quality, and how well i… react",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
+  },
+  {
+   "id": "adzuna:5929254617",
+   "company": "Mercury Media Technology & Co.KG",
+   "title": "Senior Full-Stack Engineer – AI-Driven Development (m/f/d)",
+   "url": "https://www.adzuna.de/details/5929254617?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " part_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "You decide what gets built and how it fits together, turning customer needs and business outcomes into clear direction You will look after the long-term health of your area: its architecture, its quality, and how well it serves our users You will st… react",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
+  },
+  {
+   "id": "adzuna:5929209479",
+   "company": "IDnow",
+   "title": "Solution Engineer (f/m/d)",
+   "url": "https://www.adzuna.de/details/5929209479?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-15",
    "salary": "",
@@ -16,36 +100,19 @@
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Through its broad portfolio of digital identity and fraud prevention solutions, IDnow establishes, maintains and enriches trust throughout the customer journey, ensuring businesses can confi… react",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
   },
   {
-   "id": "adzuna:5928303845",
-   "company": "Hive Robotics",
-   "title": "Senior Electronics PCB & ECAD Design Engineer - RF & Mixed Signal (m/f/d)",
-   "url": "https://www.adzuna.de/details/5928303845?utm_medium=api&utm_source=c19f1397",
-   "location": "Sendling, München / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-15",
-   "salary": "80000–95000 EUR",
-   "salaryMax": 95000,
-   "employment": "permanent full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "Role Hive Robotics is building Europe’s first full-stack orchestration platform for unmanned systems: connecting, controlling, and commanding multi-vendor drone and robot swarms. | Our RF communication systems are Made in Germany, deployed on active frontlines, and targeting a highly valued tactical communication market with zero sovereign alternatives today.",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
-  },
-  {
-   "id": "adzuna:5928908455",
-   "company": "Wallround GmbH",
-   "title": "Senior Software Automation Engineer - Low-Code",
-   "url": "https://www.adzuna.de/details/5928908455?utm_medium=api&utm_source=c19f1397",
-   "location": "Kreuzberg, Berlin / Deutschland / Homeoffice",
+   "id": "adzuna:5929169920",
+   "company": "FindYou Consulting GmbH",
+   "title": "Software Developer",
+   "url": "https://www.adzuna.de/details/5929169920?utm_medium=api&utm_source=c19f1397",
+   "location": "Hamburg, Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-15",
    "salary": "",
@@ -55,61 +122,40 @@
    "source": "adzuna",
    "ats": "adzuna",
    "stackHits": [
-    "typescript"
+    "react"
    ],
    "match": "generic+stack; remote",
-   "facts": "Through our integrated platform and streamlined workflo… typescript",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
+   "facts": "Hier erwartet dich eine Kultur, die eigenverantwortliches Arbeiten, direkte Kundenkommuni… react",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
   },
   {
-   "id": "adzuna:5928448361",
-   "company": "ANKALINK GmbH",
-   "title": "ABAP Developer (m/w/d)",
-   "url": "https://www.adzuna.de/details/5928448361?utm_medium=api&utm_source=c19f1397",
-   "location": "Böckingen, Heilbronn / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Unser Mandant Unser Mandant gehört zu den führenden IT-Dienstleistern in Europa und unterstützt Unternehmen bei der Entwicklung moderner IT-Landschaften. | Mit einer starken Präsenz in mehreren europäischen Ländern verbindet das Unternehmen persönliche Beratung mit digitalen Services und int… typescript",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
-  },
-  {
-   "id": "adzuna:5928276712",
-   "company": "Wallround GmbH",
-   "title": "AI Senior Software Engineer",
-   "url": "https://www.adzuna.de/details/5928276712?utm_medium=api&utm_source=c19f1397",
-   "location": "Kreuzberg, Berlin / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Through our integrated platform and streamlined workflow… typescript",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
-  },
-  {
-   "id": "arbeitnow:senior-fullstack-engineer-berlin-242271",
-   "company": "Protofy GmbH & Co. KG",
-   "title": "Senior Fullstack Engineer (w/m/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/protofy-gmbh-co-kg/senior-fullstack-engineer-berlin-242271",
+   "id": "arbeitnow:full-stack-developer-music-audio-berlin-368725",
+   "company": "Melotech",
+   "title": "Full-Stack Developer, Music & Audio",
+   "url": "https://www.arbeitnow.com/jobs/companies/melotech/full-stack-developer-music-audio-berlin-368725",
    "location": "Berlin",
-   "remote": true,
+   "remote": false,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Founded by entrepreneur and investor Soheil Mirpour, we are backed by top VCs Cherry Ventures, Speedinvest and GFC, alongside world-class angels from firms such as Spotify, Blackstone and KKR. | We work remotely to give you complete freedom over your life, while meeting regularly around the world for global offsites where we strategize, bond, and push boundaries together. | Once you begin our process, you can progress from start to offer within a week, depending on how quickly you can move through each stage: Online assessment : Motivational questionnaire and aptitude test - are you made for the job? | Find Jobs in Germany on Arbeitnow",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
+  },
+  {
+   "id": "arbeitnow:ai-solution-engineer-cologne-122881",
+   "company": "crossbuilders GmbH",
+   "title": "AI Solution Engineer (M/W/D)",
+   "url": "https://www.arbeitnow.com/jobs/companies/crossbuilders-gmbh/ai-solution-engineer-cologne-122881",
+   "location": "Cologne",
+   "remote": false,
    "postedAt": "2026-10-15",
    "salary": "",
    "salaryMax": null,
@@ -121,32 +167,9 @@
     "react",
     "typescript"
    ],
-   "match": "title; remote",
-   "facts": "Deine Rolle Du baust robuste Services und APIs in Kotlin, Java oder TypeScript und bringst sie in unsere Web-Apps, gern auch bis in die Infrastruktur. | PostgreSQL, MongoDB) Du sprichst verhandlungssicher Deutsch und Englisch Bonus Akademischer Hintergrund in Informatik, Wirtschaftsinformatik oder einem anderen relevanten Studiengang (BSc, MSc) Erfahrung mit Kotlin, z. | mit Spring Boot (unsere bevorzugte Wahl) Erfahrung in der Frontend-Entwicklung mit React und TypeScript Aktiver Einsatz von Agentic-Engineering-Tools wie Claude Code, Cursor oder GitHub Copilot Erfahrung mit automatisierten Unit- und Integrationstests (z. | Android/Kotlin, Kotlin Multiplatform, Flutter oder React Native) Erf",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
-  },
-  {
-   "id": "arbeitnow:founding-engineer-tech-lead-full-stack-ai-native-berlin-106809",
-   "company": "Infinos GmbH",
-   "title": "Founding Engineer (Tech Lead) · Full-Stack, AI-native (m/w/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/infinos-gmbh/founding-engineer-tech-lead-full-stack-ai-native-berlin-106809",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag teamleitung",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "expo",
-    "next.js",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Remote in Deutschland · | €85.000–100.000 + 1,0–1,5 % Anteile Warum es diese Stelle gibt Infinos ist eine der größten Telemedizin-Plattformen für medizinische Abnehmtherapie in Deutschland. | Was du machst Unseren Stack verantworten: ein TypeScript-Monorepo mit 11 Apps und 32 Packages. | Next.js, tRPC, Prisma mit Postgres, Trigger.dev für Hintergrundjobs, eine Expo-App für iOS und Android Features von der Idee bis zum Deploy bauen, meistens mehrere pro Tag. | Deine ersten 90 Tage Woche 1: erster eigener Deploy in Produktion. | Wen wir suchen Mindestens 5 Jahre Erfahrung mit produktionsreifer Software, ein guter Teil davon in TypeScript. | Deutsch oder Englisch fließend. | Hilfreich, aber nic",
-   "firstSeen": "2026-10-15T14:42:40+00:00"
+   "match": "generic+stack; NRW",
+   "facts": "Fokus: Financial Services & AI-native Delivery Bereich: Solution Engineering / Kundenprojekte Einsatzort: Köln, Dein Standort oder remote – mit Terminen beim Kunden Sprachen: Deutsch ab C1, Englisch ab C1 Wer wir sind. | Unser Schwerpunkt liegt auf TypeScript mit Node.js, Express und React – bist Du in anderen Sprachen sattelfest, bist Du genauso willkommen. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "firstSeen": "2026-10-15T18:52:32+00:00"
   }
  ]
 }

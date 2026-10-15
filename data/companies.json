@@ -4915,7 +4915,8 @@
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "DAMEDIC",
@@ -8618,7 +8619,8 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "sofatutor GmbH",
@@ -8674,7 +8676,7 @@
   "ats": "workable",
   "slug": "unit8",
   "addedBy": "probe 2026-10-15",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Quant AIs",
@@ -8818,7 +8820,8 @@
   "ats": "recruitee",
   "slug": "centric",
   "addedBy": "probe 2026-10-15",
-  "lastOk": "2026-10-15"
+  "lastOk": "2026-10-15",
+  "failCount": 1
  },
  {
   "name": "OLX",
@@ -9130,6 +9133,190 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "elitebrain",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Fygaro",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "fygaro",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Melotech",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "melotech",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "TeamSnap",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "teamsnap",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "DocuWare GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "docuware",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "ImFusion GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "imfusion",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Lemon Markets",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "lemon-markets",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Docugami",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "docugami",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Censys",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "censys",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Cologix, Inc.",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "cologix",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Agiloft",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "agiloft",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "The Athletic",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "theathletic",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Endpoint Clinical",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "endpointclinical",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Saba Trust",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "sabatrust",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "itechstack",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "itechstack",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "InductiveHealth",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "inductivehealth",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Nansen",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "nansen",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "InfiniteQuant",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "infinitequant",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Canary Technologies",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "canarytechnologies",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Space Inch",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "spaceinch",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "CloudSmiths",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "cloudsmiths",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Tango",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "tango",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Unifonic",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "unifonic",
+  "addedBy": "probe 2026-10-15",
+  "lastOk": "2026-10-15"
+ },
+ {
+  "name": "Vericast",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "vericast",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-10-15"
  }

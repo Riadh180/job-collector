@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1062
+   "fetched": 1038
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3666
+   "fetched": 3416
   },
   "remotive": {
    "fetched": 112
   },
   "jobicy": {
-   "error": "no results"
+   "fetched": 184
   },
   "remoteok": {
    "fetched": 99
@@ -22,34 +22,33 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 62
+   "fetched": 61
   },
   "hn": {
    "fetched": 306
   },
   "workingnomads": {
-   "fetched": 51
+   "fetched": 53
   },
   "companies": {
-   "checked": 1061,
-   "failed": 5
+   "checked": 1082,
+   "failed": 4
   }
  },
  "errors": {
   "companies": {
    "SORACOM": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
-   "Unit8": "HTTP 429"
+   "Unit8": "HTTP 429",
+   "Centric": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 830
+  "callsToday": 120,
+  "callsLast7Days": 860
  },
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']",
@@ -57,48 +56,58 @@
   "pc/v4/jobs -> 403, 0 items, keys=None"
  ],
  "probe": {
-  "tried": 57,
+  "tried": 102,
   "found": [
-   "Wallround GmbH (personio:wallround)",
-   "Go RH (lever:gorh)",
-   "neural frames (ashby:neuralframes)",
-   "Elastic (greenhouse:elastic)",
-   "Insomniac Design (lever:insomniacdesign)",
-   "StackAdapt (greenhouse:stackadapt)",
-   "Versapay (lever:versapay)",
-   "ClinChoice (greenhouse:clinchoice)",
-   "ARHS (smartrecruiters:arhs)",
-   "Collabora (lever:collabora)",
-   "VRChat (lever:vrchat)",
-   "EnableComp (lever:enablecomp)",
-   "Patch (lever:patch)",
-   "ELITEBRAIN (smartrecruiters:elitebrain)"
+   "Fygaro (smartrecruiters:fygaro)",
+   "Melotech (ashby:melotech)",
+   "TeamSnap (lever:teamsnap)",
+   "DocuWare GmbH (personio:docuware)",
+   "ImFusion GmbH (personio:imfusion)",
+   "Lemon Markets (ashby:lemon-markets)",
+   "Docugami (greenhouse:docugami)",
+   "Censys (greenhouse:censys)",
+   "Cologix, Inc. (lever:cologix)",
+   "Agiloft (lever:agiloft)",
+   "The Athletic (lever:theathletic)",
+   "Endpoint Clinical (lever:endpointclinical)",
+   "Saba Trust (smartrecruiters:sabatrust)",
+   "itechstack (smartrecruiters:itechstack)",
+   "InductiveHealth (lever:inductivehealth)",
+   "Nansen (ashby:nansen)",
+   "InfiniteQuant (smartrecruiters:infinitequant)",
+   "Canary Technologies (lever:canarytechnologies)",
+   "Space Inch (smartrecruiters:spaceinch)",
+   "CloudSmiths (smartrecruiters:cloudsmiths)",
+   "Tango (ashby:tango)",
+   "Unifonic (recruitee:unifonic)",
+   "Vericast (smartrecruiters:vericast)"
   ]
  },
- "collectedAt": "2026-10-15T14:42:40+00:00",
- "rawJobs": 60565,
- "matches": 189,
- "new": 7,
- "companies": 1122,
- "activeCompanies": 1061,
+ "collectedAt": "2026-10-15T18:52:32+00:00",
+ "rawJobs": 60681,
+ "matches": 177,
+ "new": 8,
+ "companies": 1145,
+ "activeCompanies": 1082,
  "funnel": {
-  "passed": 331,
-  "title": 58163,
-  "duplicate": 142,
-  "company": 89,
-  "employment": 11,
-  "location": 1858,
-  "salary": 4,
+  "title": 58222,
+  "passed": 333,
+  "company": 101,
+  "duplicate": 156,
+  "salary": 11,
+  "location": 1890,
+  "employment": 15,
   "too_old": 109
  },
  "matchesBySource": {
-  "adzuna": 81,
-  "arbeitnow": 16,
+  "adzuna": 70,
+  "arbeitnow": 15,
+  "ashby": 39,
+  "greenhouse": 10,
   "himalayas": 1,
-  "ashby": 40,
-  "greenhouse": 11,
   "weworkremotely": 8,
   "recruitee": 14,
+  "jobicy": 2,
   "personio": 12,
   "hn": 6
  }
