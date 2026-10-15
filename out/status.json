@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1101
+   "fetched": 928
   },
   "arbeitsagentur": {
    "error": "no endpoint returned jobs: pc/v6/jobs -> 200, 0 items, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten'] | pc/v4/app/jobs -> 403, 0 items, key"
   },
   "arbeitnow": {
-   "fetched": 3397
+   "fetched": 3597
   },
   "remotive": {
    "fetched": 112
   },
   "jobicy": {
-   "fetched": 180
+   "fetched": 179
   },
   "remoteok": {
    "fetched": 99
@@ -31,7 +31,7 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 1033,
+   "checked": 1034,
    "failed": 11
   }
  },
@@ -73,18 +73,19 @@
    "Buying Labs (smartrecruiters:buyinglabs)",
    "neural frames (ashby:neuralframes)",
    "Hawk (ashby:hawk)",
-   "SpotmyEnergy GmbH (personio:spotmyenergy)",
    "Travoom (smartrecruiters:travoom)",
    "Fygaro (smartrecruiters:fygaro)",
    "Starface GmbH (personio:starface)",
-   "Perk (ashby:perk)",
+   "SpotmyEnergy GmbH (personio:spotmyenergy)",
    "Webmatch GmbH (personio:webmatch)",
-   "SwissPeak Partners GmbH (recruitee:swisspeakpartnersgmbh)",
    "Arvana (personio:arvana)",
    "brandung GmbH (personio:brandung)",
    "Lemon Markets (ashby:lemon-markets)",
    "Adikteev (recruitee:adikteev)",
    "GALVANY (ashby:galvany)",
+   "SkyCell AG (recruitee:skycellag)",
+   "Atira (ashby:atira)",
+   "Perk (ashby:perk)",
    "Innodata (lever:innodata)",
    "Spreedly (lever:spreedly)",
    "Aris Search (smartrecruiters:arissearch)",
@@ -95,25 +96,25 @@
    "Kinsta (lever:kinsta)"
   ]
  },
- "collectedAt": "2026-10-15T22:42:07+00:00",
- "rawJobs": 56651,
- "matches": 199,
+ "collectedAt": "2026-10-15T22:59:10+00:00",
+ "rawJobs": 56664,
+ "matches": 200,
  "new": 32,
- "companies": 1087,
- "activeCompanies": 1033,
+ "companies": 1088,
+ "activeCompanies": 1034,
  "funnel": {
-  "title": 54319,
-  "passed": 344,
-  "company": 103,
-  "duplicate": 145,
-  "employment": 17,
-  "location": 1756,
-  "salary": 4,
+  "title": 54323,
+  "passed": 346,
+  "company": 100,
+  "duplicate": 146,
+  "employment": 18,
+  "location": 1766,
+  "salary": 3,
   "too_old": 108
  },
  "matchesBySource": {
   "adzuna": 86,
-  "arbeitnow": 19,
+  "arbeitnow": 20,
   "himalayas": 4,
   "ashby": 37,
   "greenhouse": 11,
