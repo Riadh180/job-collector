@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1092
+   "fetched": 999
   },
   "arbeitsagentur": {
    "fetched": 342
   },
   "arbeitnow": {
-   "fetched": 3407
+   "fetched": 3391
   },
   "remotive": {
    "fetched": 112
@@ -31,19 +31,34 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 1048,
-   "failed": 0
+   "checked": 1052,
+   "failed": 14
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "SORACOM": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "OnTarget Communications": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "ReWorks Solutions": "HTTP 429",
+   "Foodics": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 660
+  "callsToday": 60,
+  "callsLast7Days": 690
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -99,47 +114,37 @@
   "failed": 0
  },
  "probe": {
-  "tried": 75,
+  "tried": 39,
   "found": [
-   "ITB-GmbH (recruitee:itbgmbh)",
-   "SMF GmbH (personio:smf-gmbh)",
-   "G2i (ashby:g2i)",
-   "Dataciders GmbH (personio:dataciders)",
-   "Somnio Software (recruitee:somniosoftware)",
-   "Defuse Labs (greenhouse:defuselabs)",
-   "ImFusion GmbH (personio:imfusion)",
-   "Epistemix (ashby:epistemix)",
-   "DocuWare GmbH (personio:docuware)",
-   "Maiwald GmbH (personio:maiwald)",
-   "E-Space (lever:espace)",
-   "Tilt (ashby:tilthq)",
-   "Solidigm (smartrecruiters:solidigm)",
-   "WeRide (lever:weride)"
+   "ReWorks Solutions (workable:reworkssolutions)",
+   "Tusker (lever:tusker)",
+   "Foodics (workable:foodics)",
+   "FireMon (lever:firemon)"
   ]
  },
- "collectedAt": "2026-10-16T05:03:58+00:00",
- "rawJobs": 57707,
- "matches": 204,
- "new": 32,
- "companies": 1102,
- "activeCompanies": 1048,
+ "collectedAt": "2026-10-16T05:29:18+00:00",
+ "rawJobs": 57184,
+ "matches": 229,
+ "new": 1,
+ "companies": 1106,
+ "activeCompanies": 1052,
  "funnel": {
-  "salary": 16,
-  "title": 55220,
-  "passed": 433,
-  "duplicate": 229,
-  "company": 90,
-  "location": 1800,
-  "too_old": 132,
-  "employment": 16
+  "title": 54691,
+  "passed": 464,
+  "company": 77,
+  "duplicate": 235,
+  "salary": 9,
+  "employment": 19,
+  "location": 1792,
+  "too_old": 132
  },
  "matchesBySource": {
-  "adzuna": 65,
-  "arbeitsagentur": 27,
-  "himalayas": 3,
-  "greenhouse": 11,
+  "adzuna": 90,
+  "arbeitsagentur": 26,
+  "himalayas": 2,
+  "greenhouse": 12,
   "arbeitnow": 17,
-  "ashby": 38,
+  "ashby": 39,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,
