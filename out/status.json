@@ -1,16 +1,16 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1002
+   "fetched": 1009
   },
   "arbeitsagentur": {
-   "fetched": 335
+   "fetched": 339
   },
   "arbeitnow": {
-   "fetched": 3389
+   "fetched": 3388
   },
   "remotive": {
-   "fetched": 112
+   "fetched": 120
   },
   "jobicy": {
    "fetched": 176
@@ -28,10 +28,10 @@
    "fetched": 306
   },
   "workingnomads": {
-   "fetched": 51
+   "fetched": 50
   },
   "companies": {
-   "checked": 1054,
+   "checked": 1058,
    "failed": 12
   }
  },
@@ -48,7 +48,7 @@
    "Houst": "HTTP 429",
    "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
-   "Fuseenergy": "HTTP 429"
+   "Newrich Network": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -105,46 +105,50 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=329, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=328, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 67,
+  "tried": 89,
   "found": [
    "Trading212 (ashby:trading212)",
+   "Newrich Network (workable:newrich-network)",
+   "Valid (ashby:valid)",
+   "ECOM Trading (recruitee:ecomtrading)",
    "WISEcode (lever:wisecode)",
-   "Metabase (lever:metabase)",
-   "Fuseenergy (workable:fuseenergy)",
-   "Drivetrain (lever:drivetrain)",
-   "Forbright Bank (lever:forbrightbank)"
+   "caronsale (greenhouse:caronsale)",
+   "Gotphoto (ashby:gotphoto)",
+   "octonomy AI GmbH (personio:octonomy-ai)",
+   "Viboo AG (personio:viboo)",
+   "Metabase (lever:metabase)"
   ]
  },
- "collectedAt": "2026-10-16T09:49:57+00:00",
- "rawJobs": 57280,
- "matches": 231,
- "new": 9,
- "companies": 1108,
- "activeCompanies": 1054,
+ "collectedAt": "2026-10-16T13:19:10+00:00",
+ "rawJobs": 57300,
+ "matches": 239,
+ "new": 15,
+ "companies": 1112,
+ "activeCompanies": 1058,
  "funnel": {
-  "passed": 459,
-  "title": 54786,
+  "title": 54777,
+  "passed": 472,
   "company": 76,
-  "duplicate": 228,
+  "duplicate": 233,
   "salary": 10,
-  "employment": 10,
-  "location": 1808,
+  "employment": 9,
+  "location": 1825,
   "too_old": 131
  },
  "matchesBySource": {
-  "adzuna": 90,
-  "himalayas": 1,
-  "ashby": 43,
+  "adzuna": 93,
+  "arbeitnow": 18,
+  "himalayas": 3,
+  "ashby": 44,
   "arbeitsagentur": 25,
   "greenhouse": 13,
-  "arbeitnow": 16,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,
