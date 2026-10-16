@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1009
+   "fetched": 1023
   },
   "arbeitsagentur": {
-   "fetched": 339
+   "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3388
+   "fetched": 3384
   },
   "remotive": {
    "fetched": 120
@@ -22,24 +22,24 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 65
+   "fetched": 66
   },
   "hn": {
-   "fetched": 306
+   "fetched": 305
   },
   "workingnomads": {
    "fetched": 50
   },
   "companies": {
-   "checked": 1058,
+   "checked": 1062,
    "failed": 12
   }
  },
  "errors": {
   "companies": {
    "SORACOM": "HTTP 429",
-   "OptiTrack": "HTTP 429",
    "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
@@ -55,8 +55,8 @@
   "callsThisRun": 30,
   "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 690
+  "callsToday": 90,
+  "callsLast7Days": 720
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -105,50 +105,44 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=328, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=332, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 89,
+  "tried": 20,
   "found": [
-   "Trading212 (ashby:trading212)",
-   "Newrich Network (workable:newrich-network)",
-   "Valid (ashby:valid)",
-   "ECOM Trading (recruitee:ecomtrading)",
-   "WISEcode (lever:wisecode)",
-   "caronsale (greenhouse:caronsale)",
-   "Gotphoto (ashby:gotphoto)",
-   "octonomy AI GmbH (personio:octonomy-ai)",
-   "Viboo AG (personio:viboo)",
-   "Metabase (lever:metabase)"
+   "Voltus (lever:voltus)",
+   "LRE Medical GmbH (personio:lremedicalgmbh)",
+   "Yoyo (smartrecruiters:yoyo)",
+   "AppXite (smartrecruiters:appxite)"
   ]
  },
- "collectedAt": "2026-10-16T13:19:10+00:00",
- "rawJobs": 57300,
- "matches": 239,
- "new": 15,
- "companies": 1112,
- "activeCompanies": 1058,
+ "collectedAt": "2026-10-16T14:36:00+00:00",
+ "rawJobs": 57273,
+ "matches": 209,
+ "new": 0,
+ "companies": 1116,
+ "activeCompanies": 1062,
  "funnel": {
-  "title": 54777,
-  "passed": 472,
-  "company": 76,
-  "duplicate": 233,
-  "salary": 10,
-  "employment": 9,
-  "location": 1825,
-  "too_old": 131
+  "passed": 424,
+  "title": 54793,
+  "duplicate": 215,
+  "salary": 18,
+  "company": 71,
+  "location": 1829,
+  "too_old": 130,
+  "employment": 8
  },
  "matchesBySource": {
-  "adzuna": 93,
-  "arbeitnow": 18,
-  "himalayas": 3,
-  "ashby": 44,
+  "adzuna": 66,
+  "arbeitnow": 16,
+  "himalayas": 2,
+  "ashby": 45,
   "arbeitsagentur": 25,
-  "greenhouse": 13,
+  "greenhouse": 12,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,
