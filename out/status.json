@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1067
+   "fetched": 1092
   },
   "arbeitsagentur": {
    "fetched": 342
   },
   "arbeitnow": {
-   "fetched": 3397
+   "fetched": 3407
   },
   "remotive": {
    "fetched": 112
   },
   "jobicy": {
-   "fetched": 175
+   "fetched": 164
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 61
+   "fetched": 62
   },
   "hn": {
    "fetched": 306
@@ -31,32 +31,19 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 1042,
-   "failed": 11
+   "checked": 1048,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Dawn Technology": "HTTP 429",
-   "Azeus Convene": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 18,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 800
+  "callsToday": 30,
+  "callsLast7Days": 660
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -114,43 +101,49 @@
  "probe": {
   "tried": 75,
   "found": [
+   "ITB-GmbH (recruitee:itbgmbh)",
    "SMF GmbH (personio:smf-gmbh)",
+   "G2i (ashby:g2i)",
    "Dataciders GmbH (personio:dataciders)",
-   "DocuWare GmbH (personio:docuware)",
+   "Somnio Software (recruitee:somniosoftware)",
+   "Defuse Labs (greenhouse:defuselabs)",
    "ImFusion GmbH (personio:imfusion)",
+   "Epistemix (ashby:epistemix)",
+   "DocuWare GmbH (personio:docuware)",
    "Maiwald GmbH (personio:maiwald)",
-   "Bounteous (lever:bounteous)",
-   "Coface (smartrecruiters:coface)",
-   "TESVOLT AG (personio:tesvolt-gmbh)"
+   "E-Space (lever:espace)",
+   "Tilt (ashby:tilthq)",
+   "Solidigm (smartrecruiters:solidigm)",
+   "WeRide (lever:weride)"
   ]
  },
- "collectedAt": "2026-10-15T23:28:18+00:00",
- "rawJobs": 57318,
- "matches": 208,
- "new": 25,
- "companies": 1096,
- "activeCompanies": 1042,
+ "collectedAt": "2026-10-16T05:03:58+00:00",
+ "rawJobs": 57707,
+ "matches": 204,
+ "new": 32,
+ "companies": 1102,
+ "activeCompanies": 1048,
  "funnel": {
-  "title": 54832,
-  "passed": 444,
-  "duplicate": 236,
-  "salary": 11,
-  "company": 98,
-  "location": 1786,
+  "salary": 16,
+  "title": 55220,
+  "passed": 433,
+  "duplicate": 229,
+  "company": 90,
+  "location": 1800,
   "too_old": 132,
-  "employment": 15
+  "employment": 16
  },
  "matchesBySource": {
-  "adzuna": 70,
-  "arbeitsagentur": 26,
-  "arbeitnow": 19,
-  "himalayas": 4,
-  "ashby": 37,
-  "greenhouse": 10,
+  "adzuna": 65,
+  "arbeitsagentur": 27,
+  "himalayas": 3,
+  "greenhouse": 11,
+  "arbeitnow": 17,
+  "ashby": 38,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,
-  "personio": 12,
+  "personio": 13,
   "hn": 6
  }
 }

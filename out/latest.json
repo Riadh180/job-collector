@@ -1,7 +1,91 @@
 {
- "collectedAt": "2026-10-15T23:28:18+00:00",
- "count": 208,
+ "collectedAt": "2026-10-16T05:03:58+00:00",
+ "count": 204,
  "jobs": [
+  {
+   "id": "adzuna:5929762022",
+   "company": "isarlend GmbH",
+   "title": "Initiativbewerbung Senior Engineer (m/w/d) — On-Site & Vollzeit",
+   "url": "https://www.adzuna.de/details/5929762022?utm_medium=api&utm_source=c19f1397",
+   "location": "Sendling, München / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Bei uns erwartet dich ein kleines, erfahrenes Tech-Team, in dem du Verantwortung übernehmen und geschäftskritische Lösungen mitgestalten kann… react",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "adzuna:5929729767",
+   "company": "LiveEO GmbH",
+   "title": "Senior Full Stack Engineer (f/m/x) - Government Solutions",
+   "url": "https://www.adzuna.de/details/5929729767?utm_medium=api&utm_source=c19f1397",
+   "location": "Kreuzberg, Berlin / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Concretely, this is the defence and security domain: we build… react",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "adzuna:5929639648",
+   "company": "WeMaintain",
+   "title": "Senior Fullstack Engineer (F/M/X)",
+   "url": "https://www.adzuna.de/details/5929639648?utm_medium=api&utm_source=c19f1397",
+   "location": "Berlin, Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Senior Fullstack Engineer (F/M/X) Full remote - Europe - Product & Engineering Who are we? | In 2017, after more than ten years in the lift industry across Europe and Asia, Benoît Dupont noticed a system stuck in its ways where speed takes priority over quality and frontline teams remain invisible. | Their ambition: give technicians back their autonomy, rely on in-house IoT tec… react",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "adzuna:5929256186",
+   "company": "Senckenberg Gesellschaft für Naturforschung",
+   "title": "Full-Stack Software Developer (m/f/d): TETTRIX project",
+   "url": "https://www.adzuna.de/details/5929256186?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " part_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
   {
    "id": "adzuna:5929209479",
    "company": "IDnow",
@@ -21,7 +105,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "Through its broad portfolio of digital identity and fraud prevention solutions, IDnow establishes, maintains and enriches trust throughout the customer journey, ensuring businesses can confi… react",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "adzuna:5927685220",
@@ -43,28 +127,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "Ihre Aufgaben Entwicklung und Optimierung von Cloud nativen Anwendungen Implementierung von Frontend Lösungen in TypeScript Angular Gestaltung und Umsetzung von Backend Systemen mit Spring Boot Mit… react",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
-  },
-  {
-   "id": "adzuna:5927684872",
-   "company": "prefix.dev GmbH",
-   "title": "Robotics Engineer",
-   "url": "https://www.adzuna.de/details/5927684872?utm_medium=api&utm_source=c19f1397",
-   "location": "Wedding, Berlin / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-14",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "The engineering team is spread across Europe (Netherlands, Germany, UK, Moldova). | This new project is based in Berlin, and… react",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "adzuna:5928415117",
@@ -83,7 +146,7 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003663193-S",
@@ -104,7 +167,7 @@
    ],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003811292-S",
@@ -125,7 +188,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1002227258-S",
@@ -146,7 +209,7 @@
    ],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:13348-1587254-2-S",
@@ -167,7 +230,7 @@
    ],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1002554556-S",
@@ -188,7 +251,7 @@
    ],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1000378823-S",
@@ -209,7 +272,7 @@
    ],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:15835-00090300594001-S",
@@ -230,7 +293,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003713686-S",
@@ -251,7 +314,7 @@
    ],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:13635-b338b642_JB5267041-S",
@@ -270,7 +333,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003395525-S",
@@ -289,7 +352,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:13348-1640579-1-S",
@@ -308,7 +371,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:13635-b5ae1b71_JB5255605-S",
@@ -327,7 +390,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003432453-S",
@@ -346,7 +409,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:12811-2342072-S",
@@ -365,7 +428,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003809672-S",
@@ -384,7 +447,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003549314-S",
@@ -403,7 +466,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:13635-12ea28d6_JB5254057-S",
@@ -422,7 +485,7 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003227862-S",
@@ -443,7 +506,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:10001-1003789383-S",
@@ -464,7 +527,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:14343-2350613-S",
@@ -485,7 +548,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
    "id": "arbeitsagentur:13509-00002110d70003-S",
@@ -506,7 +569,116 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "",
-   "firstSeen": "2026-10-15T23:28:18+00:00"
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/defuse-labs/jobs/senior-product-designer-full-stack",
+   "company": "Defuse Labs",
+   "title": "Senior Product Designer (Full-Stack)",
+   "url": "https://himalayas.app/companies/defuse-labs/jobs/senior-product-designer-full-stack",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Requirements 7+ years of experience designing and shipping complex digital products, ideally within fintech, crypto, or consumer finance. | Familiarity with front-end technologies such as HTML, CSS, React, or design-to-code workflows. | Experience establishing or scaling a design system in an early-stage product.",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/everlastconsulting/jobs/softwareentwickler-vollzeit-m-w-d",
+   "company": "Everlast Media GmbH",
+   "title": "Softwareentwickler- Vollzeit (m/w/d)",
+   "url": "https://himalayas.app/companies/everlastconsulting/jobs/softwareentwickler-vollzeit-m-w-d",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Mit einem messerscharfen Automatisierungs-Fokus, einer Passion für digitalisierte Geschäftsprozesse und der Implementierung von Künstlicher Intelligenz im Unternehmen haben wir die letzten Jahre einen neuen Markt in Deutschland erschaffen. | Über 95 % unserer befristeten Einstellungen gehen in die unbefristete Übernahme. | Ziel jeder Einstellung ist die unbefristete Übernahme, unsere Quote liegt bei über 95 %. | Deine Vergütung steigt leistungsbasiert und jederzeit, nicht erst zum Stichtag oder nach Ablauf der Probezeit. | Weiterbildung, die Du selbst bestimmst: 2.000 € Hardware- und Weiterbildungsbudget pro Jahr, über das Du frei entscheidest. | Maximale Reichweite für Deine Arbeit: Was Du ",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/tether-operations-limited/jobs/mobile-engineer-react-native-100-remote-worldwide",
+   "company": "Tether Operations Limited",
+   "title": "Mobile Engineer - React Native (100% Remote) - Worldwide",
+   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/mobile-engineer-react-native-100-remote-worldwide",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "expo",
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Our team is a global talent powerhouse, working remotely from every corner of the world. | If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you. | The UI logic, on the other hand, is 100% React Native, giving us flexibility and the ability to iterate quickly. | Keet Mobile is built with React Native and Expo, and its P2P core runs on the device itself in a Bare worklet. | Knowledge in native languages (Swift/Kotlin) and familiarity with native build tools (Xcode/Android Studio) is advantageous. | Experience working with a remote team Interested in modernizing and optimizing different mobile o",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "greenhouse:alpaca:6226254004",
+   "company": "Alpaca",
+   "title": "Full-Stack Platform Engineer",
+   "url": "https://job-boards.greenhouse.io/alpaca/jobs/6226254004",
+   "location": "Remote - Americas  / Remote - European Time Zones / Remote - Global - Eastern Time Zone / Remote - North America",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Most of your time will be spent writing Go (backend services, gRPC/REST APIs, shared client libraries), with meaningful work in React/TypeScript for auth-related UI, and occasionally Java for identity-provider extensions. | Who You Are (must-haves) You have 5+ years of experience writing code in strongly-typed languages, with at least one year of experience in Go . | You have experience building web applications with React and TypeScript . | You have worked at least 3 years on systems at scale .",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
+   "id": "adzuna:5929500408",
+   "company": "crossbuilders GmbH",
+   "title": "AI Solution Engineer (M/W/D)",
+   "url": "https://www.adzuna.de/details/5929500408?utm_medium=api&utm_source=c19f1397",
+   "location": "Altstadt-Süd, Köln / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; NRW",
+   "facts": "Fokus: Financial Services & AI-native Delivery Bereich: Solution Engineering / Kundenprojekte Einsatzort: Köln, Dein Standort oder remote – mit Terminen beim Kunden Sprachen: Deutsch ab C1, Englisch ab C1 Wer wir sind. | Mit KI ist Code nicht mehr der Engpass – sondern das richtige Ver… react",
+   "firstSeen": "2026-10-15T22:59:10+00:00"
   },
   {
    "id": "adzuna:5929169159",
@@ -660,7 +832,7 @@
    "id": "adzuna:5929313164",
    "company": "",
    "title": "App-Entwickler (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5929313164?se=lCnCI_DI8RGQ1L6IR_1NGg&utm_medium=api&utm_source=c19f1397&v=0F52C7786572C652181E1DDF2484854DE6F685B6",
+   "url": "https://www.adzuna.de/land/ad/5929313164?se=isyYDB_J8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=0F52C7786572C652181E1DDF2484854DE6F685B6",
    "location": "Bruch, Dinslaken / Deutschland",
    "remote": null,
    "postedAt": "2026-10-15",
@@ -697,16 +869,16 @@
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
   {
-   "id": "adzuna:5928448170",
+   "id": "adzuna:5928024877",
    "company": "Heidi Systems",
    "title": "Senior Frontend Engineer",
-   "url": "https://www.adzuna.de/details/5928448170?utm_medium=api&utm_source=c19f1397",
-   "location": "Berlin, Deutschland / Deutschland / Homeoffice",
+   "url": "https://www.adzuna.de/details/5928024877?utm_medium=api&utm_source=c19f1397",
+   "location": "Wedding, Berlin / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
+   "postedAt": "2026-10-14",
    "salary": "",
    "salaryMax": null,
-   "employment": " full_time",
+   "employment": " ",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
@@ -719,7 +891,7 @@
    "id": "adzuna:5927867816",
    "company": "",
    "title": "Full-Stack Entwickler Schwerpunkt Shop-Entwicklung (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5927867816?se=7GAhMPDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=707A148E3E33FC5F28637014FF0D10B37F8F4148",
+   "url": "https://www.adzuna.de/land/ad/5927867816?se=SnJYGR_J8RGLlYW1GDtWsg&utm_medium=api&utm_source=c19f1397&v=707A148E3E33FC5F28637014FF0D10B37F8F4148",
    "location": "Buchloe, Ostallgäu (Kreis) / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-14",
@@ -832,7 +1004,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
   {
@@ -854,116 +1026,6 @@
    ],
    "match": "title; DE+remote-in-text",
    "facts": "Founded by entrepreneur and investor Soheil Mirpour, we are backed by top VCs Cherry Ventures, Speedinvest and GFC, alongside world-class angels from firms such as Spotify, Blackstone and KKR. | We work remotely to give you complete freedom over your life, while meeting regularly around the world for global offsites where we strategize, bond, and push boundaries together. | Once you begin our process, you can progress from start to offer within a week, depending on how quickly you can move through each stage: Online assessment : Motivational questionnaire and aptitude test - are you made for the job? | Find Jobs in Germany on Arbeitnow",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "arbeitnow:ai-solution-engineer-cologne-122881",
-   "company": "crossbuilders GmbH",
-   "title": "AI Solution Engineer (M/W/D)",
-   "url": "https://www.arbeitnow.com/jobs/companies/crossbuilders-gmbh/ai-solution-engineer-cologne-122881",
-   "location": "Cologne",
-   "remote": false,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "Fokus: Financial Services & AI-native Delivery Bereich: Solution Engineering / Kundenprojekte Einsatzort: Köln, Dein Standort oder remote – mit Terminen beim Kunden Sprachen: Deutsch ab C1, Englisch ab C1 Wer wir sind. | Unser Schwerpunkt liegt auf TypeScript mit Node.js, Express und React – bist Du in anderen Sprachen sattelfest, bist Du genauso willkommen. | Find more English Speaking Jobs in Germany on Arbeitnow",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tether-operations-limited/jobs/frontend-desktop-engineer",
-   "company": "Tether Operations Limited",
-   "title": "Frontend Desktop Engineer",
-   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/frontend-desktop-engineer",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Our team is a global talent powerhouse, working remotely from every corner of the world. | If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you. | By leveraging Node.js-based technology akin to BitTorrent, we create robust peer-to-peer connections and data replication systems that set the foundation for a decentralized web. | Learn more about Keet: Responsibilities In this role, you will be responsible for developing and maintaining Keet Desktop, our cross-platform P2P communications application built with React and running on the Pear runtime. | Requirements Proven experience with React/Prea",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/oh-so-digital/jobs/agentic-engineer-f-m-d",
-   "company": "OH-SO Digital",
-   "title": "Agentic Engineer (f/m/d)",
-   "url": "https://himalayas.app/companies/oh-so-digital/jobs/agentic-engineer-f-m-d",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "On the marketing side we build highly customised sites in Next.js and React, with careful design and animation and a real focus on how the page performs and feels. | AI/Agentic Engineer (typically 2-3+ years) You own an AI feature end-to-end - an agent flow, a RAG pipeline, an integration across its error paths and guardrails - delivered independently with light oversight. | Senior AI/Agentic Engineer (typically 5+ years) You own the AI outcome of a project - you define the integration shape, the multi-agent architecture and orchestration, the evaluation strategy and guardrails, and you write the ADRs that document why.",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/federato/jobs/staff-software-engineer",
-   "company": "Federato",
-   "title": "Staff Software Engineer",
-   "url": "https://himalayas.app/companies/federato/jobs/staff-software-engineer",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Architect and build complex features across the stack using React, TypeScript, Python (Django), Node.js, and PostgreSQL. | Who We Hope You Are: 10+ years of professional software engineering experience, including substantial full stack development. | Strong frontend skills with modern JavaScript/TypeScript and React. | Significant backend experience with Python (Django) and Node.js with TypeScript, including building and scaling APIs and services. | Total compensation package does include stock options, benefits and additional perks.",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tiugo/jobs/staff-senior-staff-software-engineer-ai-systems",
-   "company": "Tiugo Technologies",
-   "title": "Staff / Senior Staff Software Engineer – AI Systems",
-   "url": "https://himalayas.app/companies/tiugo/jobs/staff-senior-staff-software-engineer-ai-systems",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Strong hands-on experience with TypeScript, Node.js , software architecture, and distributed systems . | Flexible schedule and the possibility to work fully remotely. | English lessons with a native speaker and an online language platform where you can learn English, Spanish, and German.",
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
   {
@@ -1071,6 +1133,28 @@
    "firstSeen": "2026-10-14T13:34:35+00:00"
   },
   {
+   "id": "adzuna:5928573167",
+   "company": "byteAgenten",
+   "title": "Senior Software Engineer / Architect (m/w/d)",
+   "url": "https://www.adzuna.de/details/5928573167?utm_medium=api&utm_source=c19f1397",
+   "location": "Buchenbühl, Nürnberg / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "70000–90000 EUR",
+   "salaryMax": 90000,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Wir erwarten fundierte Kenntnisse moderner Backend-Technologien wie Java / Spring Boot, .NET / C# oder TypeScript / Node sowie Frontend-Technol… react",
+   "firstSeen": "2026-10-14T08:34:46+00:00"
+  },
+  {
    "id": "adzuna:5927378326",
    "company": "MILES Mobility GmbH",
    "title": "Senior React Native Engineer - App Owner (w/m/x/d)",
@@ -1173,6 +1257,25 @@
    ],
    "match": "generic+stack; remote",
    "facts": "Ihr diskutiert off… react",
+   "firstSeen": "2026-10-14T08:34:46+00:00"
+  },
+  {
+   "id": "adzuna:5928683071",
+   "company": "SPIE Germany Switzerland Austria",
+   "title": "Softwareentwickler / Software Developer Web m/w/d - Webentwicklung, Anwendungsentwicklung, Ingenieur",
+   "url": "https://www.adzuna.de/details/5928683071?utm_medium=api&utm_source=c19f1397",
+   "location": "Dortmund, Nordrhein-Westfalen / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-15",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "Als Spezialist für energietechnische Infrastruktur sucht die SPIE SAG GmbH für Ihr Team im Geschäftsbereich High Voltage / Grid Solutions zum nächstmöglichen Zeitpunkt Dich als Softwareentwickler / S… javascript",
    "firstSeen": "2026-10-14T08:34:46+00:00"
   },
   {
@@ -1362,13 +1465,34 @@
    "firstSeen": "2026-10-14T08:34:46+00:00"
   },
   {
-   "id": "adzuna:5928280412",
+   "id": "ashby:qlub:3f088b11-d5ae-4018-aa32-5c47fd8cc7f1",
+   "company": "Qlub",
+   "title": "Senior Software Engineer, AI-Native Development",
+   "url": "https://jobs.ashbyhq.com/qlub/3f088b11-d5ae-4018-aa32-5c47fd8cc7f1",
+   "location": "Berlin, Germany / Bucharest, Romania / Amsterdam, Netherlands / Warsaw, Poland / Dubai, UAE / Abu Dhabi, UAE / Germany",
+   "remote": true,
+   "postedAt": "2026-10-07",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "We're building the teams that take us to the next stage. | Fluency in English is a must | Exposure to vector databases, embeddings, semantic search, or retrieval systems | React/ modern frontend development experience",
+   "firstSeen": "2026-10-14T08:34:46+00:00"
+  },
+  {
+   "id": "adzuna:5929762691",
    "company": "Funk - Internationaler Versicherungsmakler und Risk Consultant",
-   "title": "Fullstack Entwickler (m/w/d) – Schwerpunkt Testing",
-   "url": "https://www.adzuna.de/land/ad/5928280412?se=UnsqLvDI8RGQ1L6IR_1NGg&utm_medium=api&utm_source=c19f1397&v=60A36787E1938E3D296948C8F7AACD1A248273D6",
-   "location": "Hamburg-Altstadt, Hamburg / Deutschland / Homeoffice",
+   "title": "Fullstack Entwickler (m/w/d) – Schwerpunkt Datenbanken",
+   "url": "https://www.adzuna.de/land/ad/5929762691?se=MOUDFR_J8RGYwPFSmBM_bA&utm_medium=api&utm_source=c19f1397&v=8C1BDDC400FFEE5522CC3E81E211964E0BCF1736",
+   "location": "Hamburg, Deutschland / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
+   "postedAt": "2026-10-16",
    "salary": "",
    "salaryMax": null,
    "employment": " ",
@@ -1462,27 +1586,6 @@
    "firstSeen": "2026-10-13T12:24:49+00:00"
   },
   {
-   "id": "adzuna:5927843406",
-   "company": "One Unity GmbH",
-   "title": "Software Developer (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5927843406?se=tFyvH_DI8RGQ1L6IR_1NGg&utm_medium=api&utm_source=c19f1397&v=AAD2E86FF72375AFC33909BE268C649A96A8DAD3",
-   "location": "Gersthofen, Augsburg (Kreis) / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-14",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Dein Wissensdurst ist nicht zu sti… react",
-   "firstSeen": "2026-10-13T05:38:11+00:00"
-  },
-  {
    "id": "adzuna:5926827193",
    "company": "Collaboration Betters The World GmbH",
    "title": "Fullstack Developer Camunda (m/w/d)",
@@ -1501,27 +1604,6 @@
    ],
    "match": "title; remote",
    "facts": "Wenn Du bereit bist, die Zukunft der datengetriebenen Transformation mit einem hochmotivierten Team zu gestalten, b… react",
-   "firstSeen": "2026-10-13T05:38:11+00:00"
-  },
-  {
-   "id": "adzuna:5925401906",
-   "company": "LexCom Informationssysteme GmbH",
-   "title": "Softwarearchitekt*in und Softwareentwickler*in (all genders) im Bereich BigData",
-   "url": "https://www.adzuna.de/details/5925401906?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-13",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Wir entwickeln, betreiben und betreuen unsere Systeme und begeistern damit Hersteller, Importeure, … react",
    "firstSeen": "2026-10-13T05:38:11+00:00"
   },
   {
@@ -1880,7 +1962,7 @@
     "typescript"
    ],
    "match": "title; DE+remote-in-text",
-   "facts": "Dein Profil Du bringst sehr gute Kenntnisse TypeScript/JavaScript (Node.js sowie React, Angular oder vergleichbare Web-Component-Ansätze) mit. | Du hast hervorragende Kommunikationsfähigkeiten in Deutsch und Englisch in Wort und Schrift. | Wie wir ticken Jeder bei uns handelt, wie ein Entrepreneur : Wir lieben die Freiheit selbstbestimmt und mit Wirkung zu arbeiten. | Dies erreichen wir dadurch, dass jeder auf die eigene Person, Position und Fähigkeit angepasst wie ein Entrepreneur handelt. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Dein Profil Du bringst sehr gute Kenntnisse TypeScript/JavaScript (Node.js sowie React, Angular oder vergleichbare Web-Component-Ansätze) mit. | Du hast hervorragende Kommunikationsfähigkeiten in Deutsch und Englisch in Wort und Schrift. | Wie wir ticken Jeder bei uns handelt, wie ein Entrepreneur : Wir lieben die Freiheit selbstbestimmt und mit Wirkung zu arbeiten. | Dies erreichen wir dadurch, dass jeder auf die eigene Person, Position und Fähigkeit angepasst wie ein Entrepreneur handelt. | Find Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-09T11:37:00+00:00"
   },
   {
@@ -1991,27 +2073,6 @@
    "firstSeen": "2026-10-09T08:54:11+00:00"
   },
   {
-   "id": "adzuna:5919218108",
-   "company": "Pflegia",
-   "title": "Senior Software Engineer (m/w/d)",
-   "url": "https://www.adzuna.de/details/5919218108?utm_medium=api&utm_source=c19f1397",
-   "location": "Wedding, Berlin / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "next.js"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Our vision is to become Europe's leading job platform for nursing professions and to fight the nursing crisis!",
-   "firstSeen": "2026-10-08T17:14:10+00:00"
-  },
-  {
    "id": "arbeitsagentur:14774-BB-565291-12683-821-S",
    "company": "Deichmann SE",
    "title": "Senior Frontend Product Owner Omnichannel Platform (m/w/d)",
@@ -2029,27 +2090,6 @@
    "match": "title; NRW",
    "facts": "",
    "firstSeen": "2026-10-08T17:14:10+00:00"
-  },
-  {
-   "id": "adzuna:5919216807",
-   "company": "Haeger Consulting GmbH",
-   "title": "Senior Frontend Developer*",
-   "url": "https://www.adzuna.de/details/5919216807?utm_medium=api&utm_source=c19f1397",
-   "location": "Bonn, Nordrhein-Westfalen / Deutschland",
-   "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; NRW",
-   "facts": "Was dich erwartet Du setzt moderne Webprojekte mit Angular, Vue oder React gemeinsam mit unseren Kunden um. | Du optimierst die Anwendungen unserer Kund… react",
-   "firstSeen": "2026-10-08T11:43:46+00:00"
   },
   {
    "id": "adzuna:5927830659",
@@ -2073,44 +2113,45 @@
    "firstSeen": "2026-10-08T11:43:46+00:00"
   },
   {
+   "id": "adzuna:5927567618",
+   "company": "Haeger Consulting",
+   "title": "Senior Frontend Developer*",
+   "url": "https://www.adzuna.de/details/5927567618?utm_medium=api&utm_source=c19f1397",
+   "location": "Bad Godesberg, Bonn / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-14",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; NRW",
+   "facts": "Was dich erwartet Du setzt moderne Webprojekte mit Angular, Vue oder React gemeinsam mit unseren Kunden um. | Du optimierst die Anwendungen unserer Kund… react",
+   "firstSeen": "2026-10-08T11:43:46+00:00"
+  },
+  {
    "id": "adzuna:5928572495",
    "company": "GermanTechJobs Talents",
    "title": "Full‑Stack Product Engineer (m/w/d)",
    "url": "https://www.adzuna.de/details/5928572495?utm_medium=api&utm_source=c19f1397",
    "location": "Altstadt-Lehel, München / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
-   "salary": "70000–100000 EUR",
-   "salaryMax": 100000,
+   "postedAt": "2026-10-09",
+   "salary": "",
+   "salaryMax": null,
    "employment": " full_time",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
    "stackHits": [
-    "react",
-    "typescript"
+    "next.js"
    ],
    "match": "title; remote",
    "facts": "Integration von LLMs oder Aufbau von RAG-Architekturen) und die Fähigkeit, diese f… react",
-   "firstSeen": "2026-10-08T10:31:37+00:00"
-  },
-  {
-   "id": "adzuna:5928497324",
-   "company": "Zenjob SE",
-   "title": "Full-Stack Engineer",
-   "url": "https://www.adzuna.de/details/5928497324?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
@@ -2150,28 +2191,26 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta.",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find more English Speaking Jobs in France on Arbeitnow",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
-   "id": "arbeitnow:remote-senior-fullstack-entwicklerin-mit-schwerpunkt-frontend-koln-454856",
+   "id": "personio:rausgegangen:2831679",
    "company": "Rausgegangen GmbH",
-   "title": "(Senior) Fullstack Entwickler:in Mit Schwerpunkt Frontend",
-   "url": "https://www.arbeitnow.com/jobs/companies/rausgegangen-gmbh/remote-senior-fullstack-entwicklerin-mit-schwerpunkt-frontend-koln-454856",
+   "title": "(SENIOR) FULLSTACK ENTWICKLER:IN MIT SCHWERPUNKT FRONTEND",
+   "url": "https://rausgegangen.jobs.personio.de/job/2831679?language=en",
    "location": "Köln",
-   "remote": true,
-   "postedAt": "2026-10-12",
+   "remote": null,
+   "postedAt": "2026-10-07",
    "salary": "",
    "salaryMax": null,
-   "employment": "Experienced Permanent Full time",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react"
-   ],
+   "employment": "permanent full-time",
+   "industry": "from job boards",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
    "match": "title; NRW",
-   "facts": "Ob vor Ort in Köln oder remote - bei uns ist jedes Modell denkbar. | Lade bitte folgende Unterlagen hoch: Anschreiben Lebenslauf Arbeitsproben/Zeugnisse Dein Top-Grund, warum du bei Rausgegangen arbeiten möchtest Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
@@ -2311,7 +2350,7 @@
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "Your creative field We are looking for a full-time , permanent Web Developer (all genders) to start as soon as possible . | We live remote-first within Germany , but you have the freedom to choose whether you want to work hybrid or completely on-site due to your proximity to one of our locations. | You work with a modern stack (Astro, SvelteKit, TypeScript) and have the freedom to actively shape the architecture of our website – not as a bystander, but as someone whose fingerprints are visible in the end result. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Your creative field We are looking for a full-time , permanent Web Developer (all genders) to start as soon as possible . | We live remote-first within Germany , but you have the freedom to choose whether you want to work hybrid or completely on-site due to your proximity to one of our locations. | You work with a modern stack (Astro, SvelteKit, TypeScript) and have the freedom to actively shape the architecture of our website – not as a bystander, but as someone whose fingerprints are visible in the end result. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-07T17:18:42+00:00"
   },
   {
@@ -2591,16 +2630,16 @@
    "firstSeen": "2026-10-06T17:42:48+00:00"
   },
   {
-   "id": "adzuna:5928261218",
-   "company": "Formel D GmbH",
-   "title": "Microsoft Power App Entwickler (w/m/d)",
-   "url": "https://www.adzuna.de/land/ad/5928261218?se=WFsBTvDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=151A34A43CEE71BC6811AF895AF56D075B03D70E",
-   "location": "Buchheim, Köln / Deutschland",
+   "id": "adzuna:5924335536",
+   "company": "ADVERGY GmbH",
+   "title": "Software Developer Android / Full Stack (m/w/d) | Frankfurt",
+   "url": "https://www.adzuna.de/details/5924335536?utm_medium=api&utm_source=c19f1397",
+   "location": "Frankfurt am Main, Hessen / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
+   "postedAt": "2026-10-12",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
+   "employment": " full_time",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
@@ -2625,6 +2664,25 @@
    "ats": "adzuna",
    "stackHits": [],
    "match": "title; remote",
+   "facts": "",
+   "firstSeen": "2026-10-06T17:42:48+00:00"
+  },
+  {
+   "id": "arbeitsagentur:12288-4951156225-S",
+   "company": "Formel D",
+   "title": "Microsoft Power App Entwickler (w/m/d)",
+   "url": "https://www.persy.jobs/persy/l/job-jn2rm-b",
+   "location": "Köln / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-09-29",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "unbefristet",
+   "industry": "",
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "stackHits": [],
+   "match": "title; NRW",
    "facts": "",
    "firstSeen": "2026-10-06T17:42:48+00:00"
   },
@@ -2687,27 +2745,6 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Tools, Prompts, Retrieval-Pipelines und API-Integrationen - Entwicklung von Tests, Evaluierungen und Observability-Kompon… typescript",
-   "firstSeen": "2026-10-06T17:33:36+00:00"
-  },
-  {
-   "id": "adzuna:5919216713",
-   "company": "ADVERGY GmbH",
-   "title": "Software-Entwickler (m/w/d) | Dortmund",
-   "url": "https://www.adzuna.de/details/5919216713?utm_medium=api&utm_source=c19f1397",
-   "location": "Dortmund, Nordrhein-Westfalen / Deutschland",
-   "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "Abgesehen von diesen Partnerschaften kann man auch auf sehr gute Geschäftspartner wie bekannte Modehä… typescript",
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
@@ -2859,13 +2896,13 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "adzuna:5923006325",
-   "company": "Senacor",
-   "title": "Praktikum im Bereich Cloud & Fullstack Softwareentwicklung (m/w/d) - System Engineering / Admin, Anwendungsentwicklung, Ingenieur",
-   "url": "https://www.adzuna.de/details/5923006325?utm_medium=api&utm_source=c19f1397",
-   "location": "Bonn, Nordrhein-Westfalen / Deutschland",
+   "id": "adzuna:5918055661",
+   "company": "adesso SE",
+   "title": "Lead Software Engineer GenAI Enterprise Applications (all genders)",
+   "url": "https://www.adzuna.de/land/ad/5918055661?se=hPfpM_DI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=1405704F86B25E97C6ECCA33F061BD51EF5E5E86",
+   "location": "Düsseldorf, Nordrhein-Westfalen / Deutschland",
    "remote": null,
-   "postedAt": "2026-10-11",
+   "postedAt": "2026-10-08",
    "salary": "",
    "salaryMax": null,
    "employment": " ",
@@ -2880,34 +2917,13 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "adzuna:5919215040",
-   "company": "ADVERGY GmbH",
-   "title": "Frontend Entwickler (m/w/d) | Köln",
-   "url": "https://www.adzuna.de/details/5919215040?utm_medium=api&utm_source=c19f1397",
-   "location": "Köln, Nordrhein-Westfalen / Deutschland",
-   "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; NRW",
-   "facts": "Über uns Gemeinsam mit unserem etablierten, deutschlandweit agierenden Partner im Bereich datengetriebener Softwarelösungen suchen wir einen Frontend Entwickler (m/w/d) zur Festanstellung im Raum Köln. | Im Fokus stehen webb… react",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "adzuna:5928329634",
+   "id": "adzuna:5929758801",
    "company": "DIEPA GmbH",
    "title": "Senior Frontend Entwickler (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5928329634?se=wjTQHfDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=969894BD8FC0A2CEF3E9C0704C8BFD9EE90DA6CA",
+   "url": "https://www.adzuna.de/land/ad/5929758801?se=9C29Ax_J8RGLlYW1GDtWsg&utm_medium=api&utm_source=c19f1397&v=A299949019A4694230B1F98831F643377FF454AE",
    "location": "Berliner Chaussee, Magdeburg / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
+   "postedAt": "2026-10-16",
    "salary": "",
    "salaryMax": null,
    "employment": " ",
@@ -2922,13 +2938,13 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "adzuna:5928308700",
+   "id": "adzuna:5929744699",
    "company": "viadee Unternehmensberatung AG",
    "title": "Senior Softwareentwickler:in im Consulting",
-   "url": "https://www.adzuna.de/land/ad/5928308700?se=wjTQHfDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=3AE5C40025AE9F1D4C67DE1AC998572CD86FA484",
+   "url": "https://www.adzuna.de/land/ad/5929744699?se=9C29Ax_J8RGLlYW1GDtWsg&utm_medium=api&utm_source=c19f1397&v=5CAE1ECCC512120CDAAEAD5E32A4C8CDE8CAECE0",
    "location": "Hainholz, Hannover / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
+   "postedAt": "2026-10-16",
    "salary": "",
    "salaryMax": null,
    "employment": " ",
@@ -2943,13 +2959,13 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "adzuna:5928259592",
+   "id": "adzuna:5929706365",
    "company": "Famulor",
    "title": "Mobile App Entwickler (Expo & API)",
-   "url": "https://www.adzuna.de/land/ad/5928259592?se=wjTQHfDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=C1BD8475EC206D32ECDCB066079904E04406E19D",
+   "url": "https://www.adzuna.de/land/ad/5929706365?se=9C29Ax_J8RGLlYW1GDtWsg&utm_medium=api&utm_source=c19f1397&v=BB22DE8117E317A4FD46CBECDEDBB6B722BD6B86",
    "location": "Bühl, Kempten (Allgäu) / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-10-15",
+   "postedAt": "2026-10-16",
    "salary": "",
    "salaryMax": null,
    "employment": " ",
@@ -3049,86 +3065,6 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "adzuna:5919215121",
-   "company": "Vesterling AG",
-   "title": "TypeScript / React Senior Developer | Full-Stack, Python, LLM, RAG‑Architektur | Inhouse (mwd)",
-   "url": "https://www.adzuna.de/details/5919215121?utm_medium=api&utm_source=c19f1397",
-   "location": "Altstadt-Lehel, München / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Vesterling Personalberatung für Technologie: Wir sind Pioniere im Technology Recruiting und vermitteln Informatiker und Ingenieure in Festanstellung. | Sie entwickeln in einem interdisziplinären Team innovative Lösungen zur Optimierung von Geschäftsprozessen und Arbeitsabläufen im Gesundheitswes… react native",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "adzuna:5927550861",
-   "company": "Hellmann Worldwide Logistics GmbH & Co. KG",
-   "title": "Senior Fullstack Developer (m/w/d) - Hellmann Worldwide Logistics GmbH & Co. KG",
-   "url": "https://www.adzuna.de/details/5927550861?utm_medium=api&utm_source=c19f1397",
-   "location": "Hamburg, Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-14",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "adzuna:5926978771",
-   "company": "CHECK24",
-   "title": "Senior Fullstack Software Engineer (m/w/d) Greenfield, InsurTech",
-   "url": "https://www.adzuna.de/land/ad/5926978771?se=7GAhMPDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=9DBEA0D347F4500CF4431A99D4E73E7C5AE0B29B",
-   "location": "Hamburg, Deutschland / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-14",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "adzuna:5928266857",
-   "company": "adesso SE",
-   "title": "Lead Software Engineer GenAI-Engineering (all genders)",
-   "url": "https://www.adzuna.de/land/ad/5928266857?se=Di0EMvDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=FDBABA8C628988924AFFB73D15C33B3F39678CF8",
-   "location": "Friedrichstadt, Düsseldorf / Deutschland",
-   "remote": null,
-   "postedAt": "2026-10-15",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "Dafür schaffen wir ein Umfeld, das von gegenseitiger Unterstützung geprägt ist: Raum für fachlich… typescript",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
    "id": "adzuna:5924335368",
    "company": "Stolzberger GmbH",
    "title": "Sharepoint Entwickler (*) bei Dortmund",
@@ -3147,27 +3083,6 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Freuen Sie sich auf ein familiäres Unternehmen, welches sich mit seinen über 1000 Mitarbeitenden mittlerweile zu einem der führenden IT Dienstleister in Deutschland entwickelt hat. | Die fachliche Förderung wird hier folgerichtig genauso geschätzt wie di… typescript",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "adzuna:5918055661",
-   "company": "adesso SE",
-   "title": "Lead Software Engineer GenAI Enterprise Applications (all genders)",
-   "url": "https://www.adzuna.de/land/ad/5918055661?se=hPfpM_DI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=1405704F86B25E97C6ECCA33F061BD51EF5E5E86",
-   "location": "Düsseldorf, Nordrhein-Westfalen / Deutschland",
-   "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "Dafür schaffen wir ein Umfeld, das von gegenseitiger Unterstützung geprägt ist: Raum für fachlich… typescript",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -3775,24 +3690,25 @@
    "firstSeen": "2026-10-06T00:39:52+00:00"
   },
   {
-   "id": "adzuna:5919473804",
-   "company": "GSK Stockmann",
-   "title": "Fullstack Software Engineer Tech & AI (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5919473804?se=Di0EMvDI8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=1B8F064C7AEB4405DAB2B7B4D40257212F8B94B6",
-   "location": "Eicken, Mönchengladbach / Deutschland",
+   "id": "adzuna:5928572615",
+   "company": "adesso SE",
+   "title": "Lead Software Engineer GenAI-Engineering (all genders) - Düsseldorf",
+   "url": "https://www.adzuna.de/details/5928572615?utm_medium=api&utm_source=c19f1397",
+   "location": "Derendorf, Düsseldorf / Deutschland",
    "remote": null,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full_time",
+   "postedAt": "2026-10-15",
+   "salary": "45000–75000 EUR",
+   "salaryMax": 75000,
+   "employment": " full_time",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
    "stackHits": [
+    "react",
     "typescript"
    ],
-   "match": "title; NRW",
-   "facts": "Dafür suchen wir eine erfahrene Fullstack-Persönlichkeit, die nutzerfreundliche Frontends mit leistungsfähigen Backends verbindet und Anwendungen von der Idee bis zum produktiven Eins… typescript",
+   "match": "generic+stack; NRW",
+   "facts": "AI-Tooling-Erfahrung: Du hast bereits intensiv mit AI-gestütztem Developme… typescript",
    "firstSeen": "2026-10-06T00:39:52+00:00"
   },
   {
@@ -3812,6 +3728,25 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "Nachhaltigkeit, Eigenverantwortung und technologische Exzellenz sind … node.js",
+   "firstSeen": "2026-10-06T00:39:52+00:00"
+  },
+  {
+   "id": "adzuna:5921787119",
+   "company": "adesso SE",
+   "title": "Software Architect Frontend (all genders)",
+   "url": "https://www.adzuna.de/land/ad/5921787119?se=fmkrQx_J8RGnv4JedLxTEg&utm_medium=api&utm_source=c19f1397&v=5EC2D141D3D86C59E99C3B748164572CA72FDC0A",
+   "location": "Düsseldorf, Nordrhein-Westfalen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-10-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
    "firstSeen": "2026-10-06T00:39:52+00:00"
   },
   {
@@ -3964,6 +3899,28 @@
    "firstSeen": "2026-10-06T00:39:52+00:00"
   },
   {
+   "id": "ashby:bowatt:e50be588-3916-4c35-952c-126a26a67ff0",
+   "company": "Bowatt",
+   "title": "Founding Design Engineer",
+   "url": "https://jobs.ashbyhq.com/bowatt/e50be588-3916-4c35-952c-126a26a67ff0",
+   "location": "Germany / Munich",
+   "remote": true,
+   "postedAt": "2026-08-18",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We believe AI will reach PhD-level engineering capability within the next 10 years. | We bootstrapped BoWatt to €500k+ ARR before raising our first round. | - You will build and ship features across our React / TypeScript / Tailwind frontend. | - Have 3+ years of experience shipping frontend production code. | - Have 3+ years of experience designing for the web. | - Are based in Germany and have the right to work here. | - Competitive salary based on experience (€65,000 - €100,000) | - Fully remote, hybrid, or onsite?",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
    "id": "ashby:zoe:5f2867a4-cf38-4bec-b6ca-f192a9a8736c",
    "company": "ZOE",
    "title": "Full Stack Engineer (Front-end Focus)",
@@ -3984,28 +3941,6 @@
    ],
    "match": "title; remote",
    "facts": "You'll spend most of your time in TypeScript, React and Next.js. | - Frontend: TypeScript, React, Next.js, React Native, GraphQL | - Have 3–5 years of professional software development experience, with a strong focus on front-end. | - Have strong experience with TypeScript, React and Next.js, and understand state management, hooks and web performance optimisation. | - Fully remote, open to candidates based in the UK, Ireland, Spain, Poland or Germany who have the right to work there. | - We work across UK and Central European time zones. | 🔄 The Remote Loop: 2 to 4 focused interviews assessing your technical expertise, behav",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "ashby:bowatt:e50be588-3916-4c35-952c-126a26a67ff0",
-   "company": "Bowatt",
-   "title": "Founding Design Engineer",
-   "url": "https://jobs.ashbyhq.com/bowatt/e50be588-3916-4c35-952c-126a26a67ff0",
-   "location": "Germany / Munich",
-   "remote": true,
-   "postedAt": "2026-08-18",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "We believe AI will reach PhD-level engineering capability within the next 10 years. | We bootstrapped BoWatt to €500k+ ARR before raising our first round. | - You will build and ship features across our React / TypeScript / Tailwind frontend. | - Have 3+ years of experience shipping frontend production code. | - Have 3+ years of experience designing for the web. | - Are based in Germany and have the right to work here. | - Competitive salary based on experience (€65,000 - €100,000) | - Fully remote, hybrid, or onsite?",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -4053,71 +3988,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:recaregmbh:2739252",
-   "company": "Recare",
-   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
-   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
-   "location": "Remote job / Berlin / Germany",
-   "remote": true,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "greenhouse:trivago:8641657002",
-   "company": "trivago",
-   "title": "Frontend Engineering Lead - Content",
-   "url": "https://careers.trivago.com/apply/8641657002.?gh_jid=8641657002",
-   "location": "Düsseldorf / trivago (Düsseldorf)",
-   "remote": null,
-   "postedAt": "2026-09-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "Enjoy your office days.",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "recruitee:recaregmbh:2739252",
-   "company": "Recare",
-   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
-   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
-   "location": "Remote job / Berlin / Germany",
-   "remote": true,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "personio:journaway-gmbh:2772688",
    "company": "journaway",
    "title": "Senior Frontend Engineer (m/f/d)",
@@ -4161,6 +4031,49 @@
    ],
    "match": "title; remote",
    "facts": "You've spent several years on both sides of the stack — C# and .NET on the backend, React and TypeScript on the frontend. | You're at home in a Next.js codebase with Tailwind, and in the Node.js layer (Express.js, Nest.js) that connects the UI to our services. | You work well in agile teams (Scrum/Kanban), you write clearly, and you're comfortable in English and German. | Fully remote with no relocation required, a hiring process that's three steps end to end, and no bureaucratic layers slowing down a \"yes.\" We're rated 4.7/5 on Trustpilot — what you build ships to real people, not into the void. | We're fully remote, so you work from wherever you do your best thinking. | Three steps, no sur",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "recruitee:epilot:1486625",
+   "company": "epilot",
+   "title": "Senior/Staff Product Engineer (Full Stack) (m/f/d)",
+   "url": "https://epilot.recruitee.com/o/senior-product-engineer-fullstack",
+   "location": "Remote job / Köln / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime",
+   "industry": "",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; NRW",
+   "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "recruitee:recaregmbh:2739252",
+   "company": "Recare",
+   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
+   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
+   "location": "Remote job / Berlin / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -4282,6 +4195,27 @@
    "stackHits": [],
    "match": "title; NRW",
    "facts": "",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "ashby:zenjob:cb4a5fc7-ee05-41f0-b07a-0d91403c3d8e",
+   "company": "Zenjob",
+   "title": "Full-Stack Engineer (f/m/d)",
+   "url": "https://jobs.ashbyhq.com/zenjob/cb4a5fc7-ee05-41f0-b07a-0d91403c3d8e",
+   "location": "Berlin / Germany",
+   "remote": true,
+   "postedAt": "2026-08-31",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "saas",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Applicants must already hold the legal right to work in Germany (e.g., EU/EEA citizenship or a valid residence/work permit). | Over 40,000 students and 1,000 partner companies from logistics, retail, and hospitality in all major German cities share our belief that good work is not a coincidence. | - Build and evolve backend services and frontend applications using TypeScript and Java, leveraging gRPC as our primary service communication protocol | - Hybrid working model: We love our brand new office in Prenzlauer Berg. | Zenjob’s flexible working model combines the best of both worlds, so you can work remotely up to 2 days / week (1 day, during the first 6 months, so we can guarantee you the",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
