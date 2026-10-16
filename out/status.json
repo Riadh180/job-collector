@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 999
+   "fetched": 1014
   },
   "arbeitsagentur": {
-   "fetched": 342
+   "fetched": 335
   },
   "arbeitnow": {
-   "fetched": 3391
+   "fetched": 3390
   },
   "remotive": {
    "fetched": 112
   },
   "jobicy": {
-   "fetched": 164
+   "fetched": 176
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 62
+   "fetched": 65
   },
   "hn": {
    "fetched": 306
@@ -31,34 +31,19 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 1052,
-   "failed": 14
+   "checked": 1059,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "OnTarget Communications": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Azeus Convene": "HTTP 429",
-   "ReWorks Solutions": "HTTP 429",
-   "Foodics": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 690
+  "callsToday": 90,
+  "callsLast7Days": 720
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -107,44 +92,47 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=331, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=329, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 39,
+  "tried": 58,
   "found": [
-   "ReWorks Solutions (workable:reworkssolutions)",
-   "Tusker (lever:tusker)",
-   "Foodics (workable:foodics)",
-   "FireMon (lever:firemon)"
+   "Trading212 (ashby:trading212)",
+   "WISEcode (lever:wisecode)",
+   "LRE Medical GmbH (personio:lremedicalgmbh)",
+   "Fuseenergy (workable:fuseenergy)",
+   "Ripjar (workable:ripjar)",
+   "Drivetrain (lever:drivetrain)",
+   "Forbright Bank (lever:forbrightbank)"
   ]
  },
- "collectedAt": "2026-10-16T05:29:18+00:00",
- "rawJobs": 57184,
- "matches": 229,
- "new": 1,
- "companies": 1106,
- "activeCompanies": 1052,
+ "collectedAt": "2026-10-16T09:26:17+00:00",
+ "rawJobs": 57959,
+ "matches": 198,
+ "new": 7,
+ "companies": 1113,
+ "activeCompanies": 1059,
  "funnel": {
-  "title": 54691,
-  "passed": 464,
-  "company": 77,
-  "duplicate": 235,
-  "salary": 9,
-  "employment": 19,
-  "location": 1792,
-  "too_old": 132
+  "passed": 412,
+  "title": 55480,
+  "duplicate": 214,
+  "salary": 17,
+  "company": 71,
+  "location": 1840,
+  "too_old": 130,
+  "employment": 9
  },
  "matchesBySource": {
-  "adzuna": 90,
+  "adzuna": 60,
+  "himalayas": 1,
+  "ashby": 44,
   "arbeitsagentur": 26,
-  "himalayas": 2,
   "greenhouse": 12,
-  "arbeitnow": 17,
-  "ashby": 39,
+  "arbeitnow": 12,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,

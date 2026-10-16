@@ -1,13 +1,13 @@
 {
- "collectedAt": "2026-10-16T05:29:18+00:00",
- "count": 1,
+ "collectedAt": "2026-10-16T09:26:17+00:00",
+ "count": 7,
  "jobs": [
   {
-   "id": "adzuna:5929515901",
-   "company": "Statkraft",
-   "title": "Full-Stack Developer (m/f/d)",
-   "url": "https://www.adzuna.de/details/5929515901?utm_medium=api&utm_source=c19f1397",
-   "location": "Düsseldorf, Nordrhein-Westfalen / Deutschland",
+   "id": "adzuna:5930237486",
+   "company": "Standby GmbH",
+   "title": "App Developer (m/f/d)",
+   "url": "https://www.adzuna.de/land/ad/5930237486?se=YpdDpEPJ8RGRR9zUsbSGdQ&utm_medium=api&utm_source=c19f1397&v=0B5541653180348961513A2CFCB977FF7AF3DD4D",
+   "location": "Bruch, Dinslaken / Deutschland",
    "remote": null,
    "postedAt": "2026-10-16",
    "salary": "",
@@ -16,10 +16,136 @@
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
-   "stackHits": [],
+   "stackHits": [
+    "react"
+   ],
    "match": "title; NRW",
+   "facts": "At our German facility in Dinslaken, we develop, manufacture, and distribute our products directly. | As part of the Swedish Standby Group, we are among the European market leaders in our segment. | To support and further expand our team, we are seeking a App Developer (m/f/d) Your Responsibilities Design, implementation, and maintenance of mobile application… react native",
+   "firstSeen": "2026-10-16T09:26:17+00:00"
+  },
+  {
+   "id": "adzuna:5930162332",
+   "company": "Standby GmbH",
+   "title": "App-Entwickler (m/w/d)",
+   "url": "https://www.adzuna.de/land/ad/5930162332?se=YpdDpEPJ8RGRR9zUsbSGdQ&utm_medium=api&utm_source=c19f1397&v=A038A39E6AFB76BBBD295884C73172E473816628",
+   "location": "Bruch, Dinslaken / Deutschland",
+   "remote": null,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; NRW",
+   "facts": "An unserem deutschen Standort in Dinslaken entwickeln, produzieren und vertreiben wir unsere Produkte direkt. | Im Verbund der schwedischen Standby-Gruppe gehören wir zu den europäischen Marktführern in unserem Segment. | Um unser Team zu unterstützen und weiter auszubauen, suchen wir an unserem Standort in Dinslaken zum nächstmöglichen Zeitpunkt eine/n App-Entwickler (m/w/d) D… react native",
+   "firstSeen": "2026-10-16T09:26:17+00:00"
+  },
+  {
+   "id": "adzuna:5930106080",
+   "company": "Franz Mensch GmbH",
+   "title": "Full-Stack Entwickler Shop-Entwicklung (m/w/d)",
+   "url": "https://www.adzuna.de/details/5930106080?utm_medium=api&utm_source=c19f1397",
+   "location": "Buchloe, Ostallgäu (Kreis) / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-16",
+   "salary": "100000–100000 EUR",
+   "salaryMax": 100000,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Salary: 100.000 - 100.000 € per year Requirements: Wir setzen fundierte Erfahrung in der Shop-Entwicklung voraus, idealerweise mit Shopware, sowie ein tiefes Verständnis für performante E-Commerce-Architekturen.",
+   "firstSeen": "2026-10-16T09:26:17+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/zup/jobs/pessoa-especialista-em-desenvolvimento-full-stack",
+   "company": "Zup",
+   "title": "Pessoa Especialista em Desenvolvimento Full-stack",
+   "url": "https://himalayas.app/companies/zup/jobs/pessoa-especialista-em-desenvolvimento-full-stack",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [],
+   "match": "title; remote",
    "facts": "",
-   "firstSeen": "2026-10-16T05:29:18+00:00"
+   "firstSeen": "2026-10-16T09:26:17+00:00"
+  },
+  {
+   "id": "ashby:kijimea:db90b570-348b-4db9-a0fd-e9b5df6b4c41",
+   "company": "Kijimea",
+   "title": "E-Commerce Developer – AI & Automation",
+   "url": "https://jobs.ashbyhq.com/kijimea/db90b570-348b-4db9-a0fd-e9b5df6b4c41",
+   "location": "Gräfelfing/Munich / Germany",
+   "remote": true,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Um unser stark wachsendes Geschäft in Europa weiter auszubauen, suchen wir herausragende Talente, die uns bei dieser Mission unterstützen. | Python oder TypeScript sind ein Plus. | - Du arbeitest eigenständig und pragmatisch und übernimmst Verantwortung ohne enge Tagessteuerung. | - Du verfügst über verhandlungssichere Deutsch- und Englischkenntnisse (mind. | Falls Dein Deutsch noch nicht verhandlungssicher ist, sind entsprechend noch bessere Englischkenntnisse erforderlich.",
+   "firstSeen": "2026-10-16T09:26:17+00:00"
+  },
+  {
+   "id": "ashby:trading212:a1c0117e-323c-40c8-88c8-dc09bb7eafdf",
+   "company": "Trading212",
+   "title": "Staff Frontend Engineer",
+   "url": "https://jobs.ashbyhq.com/trading212/a1c0117e-323c-40c8-88c8-dc09bb7eafdf",
+   "location": "Germany / Germany",
+   "remote": true,
+   "postedAt": "2026-08-25",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Today, we serve over 6 million clients, with more than €38 billion in assets under management. | Our frontend platform spans web and mobile: TypeScript, React, React Native and React Native Web in an Nx and pnpm monorepo, with TanStack Query, Zustand, Playwright, Detox and Jest. | - Set direction for frontend architecture across React, React Native and the shared monorepo. | - Deep ownership of complex production systems built with React or React Native and TypeScript. | Staff scope is assessed through ownership, judgement and sustained organisational impact—not years of experience or familiarity with every technology listed. | Your recruiter will explain each stage clearly and follow up aft",
+   "firstSeen": "2026-10-16T09:26:17+00:00"
+  },
+  {
+   "id": "ashby:trading212:ed63bdfe-7a73-424e-ad8c-1b4086adc058",
+   "company": "Trading212",
+   "title": "Senior Frontend Engineer",
+   "url": "https://jobs.ashbyhq.com/trading212/ed63bdfe-7a73-424e-ad8c-1b4086adc058",
+   "location": "Germany / Germany",
+   "remote": true,
+   "postedAt": "2026-08-25",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Today, we serve over 6 million clients, with more than €38 billion in assets under management. | Our frontend platform spans web and mobile: TypeScript, React, React Native and React Native Web in an Nx and pnpm monorepo, with TanStack Query, Zustand, Playwright, Detox and Jest. | - Design and evolve React and React Native systems, shared libraries and durable abstractions. | - Use TypeScript to make behaviour explicit and prevent defects rather than suppressing type errors. | - Proven ownership of production frontend systems built with React or React Native and TypeScript. | - Strong knowledge of React rendering, component boundaries, data flow and state management. | Your recruiter will ex",
+   "firstSeen": "2026-10-16T09:26:17+00:00"
   }
  ]
 }
