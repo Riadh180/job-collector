@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1014
+   "fetched": 1002
   },
   "arbeitsagentur": {
    "fetched": 335
   },
   "arbeitnow": {
-   "fetched": 3390
+   "fetched": 3389
   },
   "remotive": {
    "fetched": 112
@@ -31,19 +31,32 @@
    "fetched": 51
   },
   "companies": {
-   "checked": 1059,
-   "failed": 0
+   "checked": 1054,
+   "failed": 12
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "SORACOM": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "Fuseenergy": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 720
+  "callsToday": 60,
+  "callsLast7Days": 690
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -99,40 +112,39 @@
   "failed": 0
  },
  "probe": {
-  "tried": 58,
+  "tried": 67,
   "found": [
    "Trading212 (ashby:trading212)",
    "WISEcode (lever:wisecode)",
-   "LRE Medical GmbH (personio:lremedicalgmbh)",
+   "Metabase (lever:metabase)",
    "Fuseenergy (workable:fuseenergy)",
-   "Ripjar (workable:ripjar)",
    "Drivetrain (lever:drivetrain)",
    "Forbright Bank (lever:forbrightbank)"
   ]
  },
- "collectedAt": "2026-10-16T09:26:17+00:00",
- "rawJobs": 57959,
- "matches": 198,
- "new": 7,
- "companies": 1113,
- "activeCompanies": 1059,
+ "collectedAt": "2026-10-16T09:49:57+00:00",
+ "rawJobs": 57280,
+ "matches": 231,
+ "new": 9,
+ "companies": 1108,
+ "activeCompanies": 1054,
  "funnel": {
-  "passed": 412,
-  "title": 55480,
-  "duplicate": 214,
-  "salary": 17,
-  "company": 71,
-  "location": 1840,
-  "too_old": 130,
-  "employment": 9
+  "passed": 459,
+  "title": 54786,
+  "company": 76,
+  "duplicate": 228,
+  "salary": 10,
+  "employment": 10,
+  "location": 1808,
+  "too_old": 131
  },
  "matchesBySource": {
-  "adzuna": 60,
+  "adzuna": 90,
   "himalayas": 1,
-  "ashby": 44,
-  "arbeitsagentur": 26,
-  "greenhouse": 12,
-  "arbeitnow": 12,
+  "ashby": 43,
+  "arbeitsagentur": 25,
+  "greenhouse": 13,
+  "arbeitnow": 16,
   "weworkremotely": 8,
   "recruitee": 14,
   "jobicy": 2,
