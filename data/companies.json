@@ -4914,8 +4914,8 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "DAMEDIC",
@@ -7009,8 +7009,8 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "OptiTrack",
@@ -7018,8 +7018,8 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "ResourceQ Services",
@@ -7083,8 +7083,8 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "Comet",
@@ -7493,8 +7493,8 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "Chariot Solutions",
@@ -7518,8 +7518,8 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "Provectus",
@@ -8015,8 +8015,8 @@
   "ats": "workable",
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "Luscii",
@@ -8056,8 +8056,8 @@
   "ats": "workable",
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-17",
-  "failCount": 1
+  "lastOk": "2026-10-16",
+  "failCount": 4
  },
  {
   "name": "Sonicwall",
@@ -8497,7 +8497,7 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-17",
+  "lastOk": "2026-10-16",
   "failCount": 1
  },
  {
@@ -8562,7 +8562,7 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-17",
+  "lastOk": "2026-10-16",
   "failCount": 1
  },
  {
@@ -8611,7 +8611,7 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-17",
+  "lastOk": "2026-10-16",
   "failCount": 1
  },
  {
@@ -8980,7 +8980,7 @@
   "ats": "workable",
   "slug": "newrich-network",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-17",
+  "lastOk": "2026-10-16",
   "failCount": 1
  },
  {
@@ -9125,7 +9125,7 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-17",
+  "lastOk": "2026-10-16",
   "failCount": 1
  },
  {
@@ -9150,7 +9150,7 @@
   "ats": "workable",
   "slug": "lucidya",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-17",
+  "lastOk": "2026-10-16",
   "failCount": 1
  },
  {
@@ -9158,22 +9158,6 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "enode",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Catena Clearing",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "catena-clearing",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Exit83",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "exit83",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  },
@@ -9190,6 +9174,14 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "quicknode",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Catena Clearing",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "catena-clearing",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  },
@@ -9218,108 +9210,20 @@
   "lastOk": "2026-10-17"
  },
  {
-  "name": "Emi Labs",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "emilabs",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Kestrel Intelligence",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "kestrel-intelligence",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Akuity",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "akuity",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "UPROSPECT",
+  "name": "Acumatica",
   "industry": "from job boards",
   "ats": "smartrecruiters",
-  "slug": "uprospect",
+  "slug": "acumatica",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  },
  {
-  "name": "ControlUp",
+  "name": "Profitap",
   "industry": "from job boards",
-  "ats": "lever",
-  "slug": "controlup",
+  "ats": "recruitee",
+  "slug": "profitap",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
- },
- {
-  "name": "Venn",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "venn",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Platform.sh",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "platformsh",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "SmartCookie.App",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "smartcookieapp",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Proof",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "proof",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Waabi",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "waabi",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Arootah",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "arootah",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Semdor Pharma Group GmbH",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "semdor-pharma-group-gmbh",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Dephy, Inc.",
-  "industry": "from job boards",
-  "ats": "workable",
-  "slug": "dephy",
-  "addedBy": "probe 2026-10-17",
-  "failCount": 1
  },
  {
   "name": "Makerble",
@@ -9350,6 +9254,14 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "tutorintelligence",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Emi Labs",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "emilabs",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  }
