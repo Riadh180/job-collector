@@ -1,6 +1,6 @@
 {
- "collectedAt": "2026-10-17T10:05:54+00:00",
- "count": 10,
+ "collectedAt": "2026-10-17T11:25:44+00:00",
+ "count": 9,
  "jobs": [
   {
    "id": "adzuna:5931536816",
@@ -19,7 +19,7 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5931119728",
@@ -40,13 +40,13 @@
    ],
    "match": "title; NRW",
    "facts": "Ihre Aufgaben Konzeption, Design und Entwicklung moderner Web-Anwendungen Entwicklung responsiver und performanter Frontends mit JavaScript und TypeScript Erstellung von Wireframes, Mock-ups und interaktiven Prototypen Gestaltung in… frontend",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5930545462",
    "company": "Amazon TA",
    "title": "Business Intelligence Engineer, Innovation and Design Engineering",
-   "url": "https://www.adzuna.de/land/ad/5930545462?se=3PBvZhLK8RGD3NuKZ_epjg&utm_medium=api&utm_source=c19f1397&v=EAD6C20DAA406C64E98227C8B6D44986F765DC72",
+   "url": "https://www.adzuna.de/land/ad/5930545462?se=uCRxix3K8RGnXIXmSvrOdA&utm_medium=api&utm_source=c19f1397&v=EAD6C20DAA406C64E98227C8B6D44986F765DC72",
    "location": "Altstadt, Düsseldorf / Deutschland",
    "remote": null,
    "postedAt": "2026-10-16",
@@ -61,7 +61,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Innovation and Design team is looking for an experienced, self-driven business-intelligence engineer to help us synthesize da… typescript",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5931599378",
@@ -82,7 +82,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Für unser Kundenunternehmen suchen wir ab sofort einen KI-Entwickler (m/w/d) mit der Möglichkeit, remote zu arbeiten. | Deine Benefits Unbefristeter Arbeitsvertrag Attraktive Vergütung zwischen 60.000 € und 80.000 € brutto jährlich 30 Tage Urlaub Flexible Vertrauensarbeitszeit Wellpass-Mitgliedschaft Dein Aufgabenbereich Konzeption, Entwicklung und Opt… typescript",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5931130379",
@@ -103,7 +103,7 @@
    ],
    "match": "title; NRW",
    "facts": "Du willst gemeinsam mit einem dynamischen und herzlichen Team unse… typescript",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:150846",
@@ -126,7 +126,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "We use Go, TypeScript, React, Expo, GraphQL, Postgres, and run on GCP. | Fully remote from 40+ countries and collaborate using Asana and Slack. | You use AI aggressively and write well in English.",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:153452",
@@ -147,7 +147,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "Edge Functions are server-side TypeScript functions, distributed globally at the edge - close to your users. | Built on top of Supabase Edge Runtime : an open-source, Deno-based runtime written in Rust that runs JavaScript, TypeScript, and WASM services. | What You’ll Bring At least 5 years of backend or systems engineering experience, with strong fluency in Rust and TypeScript. | What We Offer Fully Remote We hire globally. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first.",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:153449",
@@ -169,7 +169,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "About the role Auth , written in Go (server) and with client libraries for TypeScript , SSR and for other frameworks and technologies, is one of the most popular products in the Supabase stack. | What you’ll be responsible for Designing and implementing secure, scalable authentication features in Go and TypeScript. | You might be a good fit if you (Required) Have 4+ years of professional experience writing and shipping Go in production. | (Required) Have 2+ years of professional experience working on an authentication system (implementing protocol support, maintenance at scale). | Have strong knowledge of TypeScript in addition to Go (languages used daily). | What We Offer Fully Remote We hi",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:153404",
@@ -190,31 +190,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "About Enode The grid was built for predictable, centralised power. | Enode provides the infrastructure layer that makes this possible. | The Home Energy team owns Enode's integrations and APIs for batteries, solar inverters, HVAC, and smart meters, along with the home energy management (HEM) system and statistics that customers build on. | Debug and ship production features in Node/TypeScript on our AWS-based stack. | Explore our API docs and the Enode Tech Blog to see what we ship and how we think about it. | Nice to have: Experience with TypeScript/Node, AWS services, PostgreSQL, TimescaleDB, or similar production tooling. | Prior exposure to API-first products or integration platforms. | ",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/nairon/jobs/full-stack-mobile-engineer",
-   "company": "Nairon",
-   "title": "Full-Stack & Mobile Engineer",
-   "url": "https://himalayas.app/companies/nairon/jobs/full-stack-mobile-engineer",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-10-17",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full-Time",
-   "industry": "",
-   "source": "jobicy",
-   "ats": "jobicy",
-   "stackHits": [
-    "expo",
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Intro For this position we are only looking for candidates located in Greece, Germany or Austria . | Your responsibilities will include: Designing, developing and maintaining our web application with Next.js, React, Tailwind CSS and TypeScript : the flow editor, call analytics, billing and partner tools. | Building our native companion app with Expo / React Native or Swift . | Technical Skills: Required: Proficiency with Next.js , React and TypeScript . | Experience building mobile apps with Expo / React Native , Swift or a comparable stack. | Communication: English proficiency is essential , both written and spoken, as it is the working language for all positions. | German is a plus. | Bene",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   }
  ]
 }

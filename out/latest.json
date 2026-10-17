@@ -1,6 +1,6 @@
 {
- "collectedAt": "2026-10-17T10:05:54+00:00",
- "count": 218,
+ "collectedAt": "2026-10-17T11:25:44+00:00",
+ "count": 217,
  "jobs": [
   {
    "id": "adzuna:5931536816",
@@ -19,7 +19,7 @@
    "stackHits": [],
    "match": "title; remote",
    "facts": "",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5931119728",
@@ -40,13 +40,13 @@
    ],
    "match": "title; NRW",
    "facts": "Ihre Aufgaben Konzeption, Design und Entwicklung moderner Web-Anwendungen Entwicklung responsiver und performanter Frontends mit JavaScript und TypeScript Erstellung von Wireframes, Mock-ups und interaktiven Prototypen Gestaltung in… frontend",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5930545462",
    "company": "Amazon TA",
    "title": "Business Intelligence Engineer, Innovation and Design Engineering",
-   "url": "https://www.adzuna.de/land/ad/5930545462?se=3PBvZhLK8RGD3NuKZ_epjg&utm_medium=api&utm_source=c19f1397&v=EAD6C20DAA406C64E98227C8B6D44986F765DC72",
+   "url": "https://www.adzuna.de/land/ad/5930545462?se=uCRxix3K8RGnXIXmSvrOdA&utm_medium=api&utm_source=c19f1397&v=EAD6C20DAA406C64E98227C8B6D44986F765DC72",
    "location": "Altstadt, Düsseldorf / Deutschland",
    "remote": null,
    "postedAt": "2026-10-16",
@@ -61,7 +61,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Innovation and Design team is looking for an experienced, self-driven business-intelligence engineer to help us synthesize da… typescript",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5931599378",
@@ -82,7 +82,7 @@
    ],
    "match": "generic+stack; NRW",
    "facts": "Für unser Kundenunternehmen suchen wir ab sofort einen KI-Entwickler (m/w/d) mit der Möglichkeit, remote zu arbeiten. | Deine Benefits Unbefristeter Arbeitsvertrag Attraktive Vergütung zwischen 60.000 € und 80.000 € brutto jährlich 30 Tage Urlaub Flexible Vertrauensarbeitszeit Wellpass-Mitgliedschaft Dein Aufgabenbereich Konzeption, Entwicklung und Opt… typescript",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5931130379",
@@ -103,7 +103,7 @@
    ],
    "match": "title; NRW",
    "facts": "Du willst gemeinsam mit einem dynamischen und herzlichen Team unse… typescript",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:150846",
@@ -126,7 +126,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "We use Go, TypeScript, React, Expo, GraphQL, Postgres, and run on GCP. | Fully remote from 40+ countries and collaborate using Asana and Slack. | You use AI aggressively and write well in English.",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:153452",
@@ -147,7 +147,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "Edge Functions are server-side TypeScript functions, distributed globally at the edge - close to your users. | Built on top of Supabase Edge Runtime : an open-source, Deno-based runtime written in Rust that runs JavaScript, TypeScript, and WASM services. | What You’ll Bring At least 5 years of backend or systems engineering experience, with strong fluency in Rust and TypeScript. | What We Offer Fully Remote We hire globally. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first.",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:153449",
@@ -169,7 +169,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "About the role Auth , written in Go (server) and with client libraries for TypeScript , SSR and for other frameworks and technologies, is one of the most popular products in the Supabase stack. | What you’ll be responsible for Designing and implementing secure, scalable authentication features in Go and TypeScript. | You might be a good fit if you (Required) Have 4+ years of professional experience writing and shipping Go in production. | (Required) Have 2+ years of professional experience working on an authentication system (implementing protocol support, maintenance at scale). | Have strong knowledge of TypeScript in addition to Go (languages used daily). | What We Offer Fully Remote We hi",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "jobicy:153404",
@@ -190,31 +190,7 @@
    ],
    "match": "generic+stack; remote",
    "facts": "About Enode The grid was built for predictable, centralised power. | Enode provides the infrastructure layer that makes this possible. | The Home Energy team owns Enode's integrations and APIs for batteries, solar inverters, HVAC, and smart meters, along with the home energy management (HEM) system and statistics that customers build on. | Debug and ship production features in Node/TypeScript on our AWS-based stack. | Explore our API docs and the Enode Tech Blog to see what we ship and how we think about it. | Nice to have: Experience with TypeScript/Node, AWS services, PostgreSQL, TimescaleDB, or similar production tooling. | Prior exposure to API-first products or integration platforms. | ",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/nairon/jobs/full-stack-mobile-engineer",
-   "company": "Nairon",
-   "title": "Full-Stack & Mobile Engineer",
-   "url": "https://himalayas.app/companies/nairon/jobs/full-stack-mobile-engineer",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-10-17",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "expo",
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Intro For this position we are only looking for candidates located in Greece, Germany or Austria . | Your responsibilities will include: Designing, developing and maintaining our web application with Next.js, React, Tailwind CSS and TypeScript : the flow editor, call analytics, billing and partner tools. | Building our native companion app with Expo / React Native or Swift . | Technical Skills: Required: Proficiency with Next.js , React and TypeScript . | Experience building mobile apps with Expo / React Native , Swift or a comparable stack. | Communication: English proficiency is essential , both written and spoken, as it is the working language for all positions. | German is a plus. | Bene",
-   "firstSeen": "2026-10-17T10:05:54+00:00"
+   "firstSeen": "2026-10-17T11:25:44+00:00"
   },
   {
    "id": "adzuna:5930894273",
@@ -264,7 +240,7 @@
    "id": "adzuna:5931038942",
    "company": "AraCom IT Services GmbH",
    "title": "Senior Fullstack-Entwickler (m/w/d) - Go & Vue.js",
-   "url": "https://www.adzuna.de/land/ad/5931038942?se=vA1_XxLK8RGD3NuKZ_epjg&utm_medium=api&utm_source=c19f1397&v=3B03E42522EE2EE6A3FD6E9356FE4170163299AF",
+   "url": "https://www.adzuna.de/land/ad/5931038942?se=DoxQhR3K8RGD3NuKZ_epjg&utm_medium=api&utm_source=c19f1397&v=3B03E42522EE2EE6A3FD6E9356FE4170163299AF",
    "location": "Augsburg, Augsburg (Kreis) / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-16",
@@ -363,7 +339,7 @@
    "id": "adzuna:5930744402",
    "company": "Standby GmbH",
    "title": "App Developer (m/f/d)",
-   "url": "https://www.adzuna.de/land/ad/5930744402?se=2JM1VxLK8RGDtPNYS-f4qw&utm_medium=api&utm_source=c19f1397&v=62D92F615A7FDE4D07C889F3BA33E184F5533BBA",
+   "url": "https://www.adzuna.de/land/ad/5930744402?se=DK1Cfh3K8RG0yZvJMLFEkQ&utm_medium=api&utm_source=c19f1397&v=62D92F615A7FDE4D07C889F3BA33E184F5533BBA",
    "location": "Bruch, Dinslaken / Deutschland",
    "remote": null,
    "postedAt": "2026-10-16",
@@ -384,7 +360,7 @@
    "id": "adzuna:5930162332",
    "company": "Standby GmbH",
    "title": "App-Entwickler (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5930162332?se=2JM1VxLK8RGDtPNYS-f4qw&utm_medium=api&utm_source=c19f1397&v=A038A39E6AFB76BBBD295884C73172E473816628",
+   "url": "https://www.adzuna.de/land/ad/5930162332?se=DK1Cfh3K8RG0yZvJMLFEkQ&utm_medium=api&utm_source=c19f1397&v=A038A39E6AFB76BBBD295884C73172E473816628",
    "location": "Bruch, Dinslaken / Deutschland",
    "remote": null,
    "postedAt": "2026-10-16",
@@ -1296,7 +1272,7 @@
    "id": "adzuna:5931038799",
    "company": "Infinos GmbH",
    "title": "Founding Engineer (Tech Lead) · Full-Stack, AI-native (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5931038799?se=TrWtahLK8RGjutuTSb6jOA&utm_medium=api&utm_source=c19f1397&v=EBB7955A9D0AAB6D6434713EAE4AA792B8C1693A",
+   "url": "https://www.adzuna.de/land/ad/5931038799?se=rhE6jx3K8RGnXIXmSvrOdA&utm_medium=api&utm_source=c19f1397&v=EBB7955A9D0AAB6D6434713EAE4AA792B8C1693A",
    "location": "Berlin, Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-16",
@@ -1936,7 +1912,7 @@
    "id": "adzuna:5925401906",
    "company": "LexCom Informationssysteme GmbH",
    "title": "Softwarearchitekt*in und Softwareentwickler*in (all genders) im Bereich BigData",
-   "url": "https://www.adzuna.de/land/ad/5925401906?se=2J4LlBLK8RG0NZtf4mzWVg&utm_medium=api&utm_source=c19f1397&v=5787CC7A492F634998C2443D4D3E9CC6828E4017",
+   "url": "https://www.adzuna.de/land/ad/5925401906?se=MPwztR3K8RG0yZvJMLFEkQ&utm_medium=api&utm_source=c19f1397&v=5787CC7A492F634998C2443D4D3E9CC6828E4017",
    "location": "Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-13",
@@ -2248,7 +2224,7 @@
     "typescript"
    ],
    "match": "title; DE+remote-in-text",
-   "facts": "Dein Profil Du bringst sehr gute Kenntnisse TypeScript/JavaScript (Node.js sowie React, Angular oder vergleichbare Web-Component-Ansätze) mit. | Du hast hervorragende Kommunikationsfähigkeiten in Deutsch und Englisch in Wort und Schrift. | Wie wir ticken Jeder bei uns handelt, wie ein Entrepreneur : Wir lieben die Freiheit selbstbestimmt und mit Wirkung zu arbeiten. | Dies erreichen wir dadurch, dass jeder auf die eigene Person, Position und Fähigkeit angepasst wie ein Entrepreneur handelt. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Dein Profil Du bringst sehr gute Kenntnisse TypeScript/JavaScript (Node.js sowie React, Angular oder vergleichbare Web-Component-Ansätze) mit. | Du hast hervorragende Kommunikationsfähigkeiten in Deutsch und Englisch in Wort und Schrift. | Wie wir ticken Jeder bei uns handelt, wie ein Entrepreneur : Wir lieben die Freiheit selbstbestimmt und mit Wirkung zu arbeiten. | Dies erreichen wir dadurch, dass jeder auf die eigene Person, Position und Fähigkeit angepasst wie ein Entrepreneur handelt. | Find Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-09T11:37:00+00:00"
   },
   {
@@ -2339,7 +2315,7 @@
    "id": "adzuna:5931610442",
    "company": "Bundeskriminalamt",
    "title": "Frontend-Developer (w/m/d)",
-   "url": "https://www.adzuna.de/land/ad/5931610442?se=vA1_XxLK8RGD3NuKZ_epjg&utm_medium=api&utm_source=c19f1397&v=5A8CFC0BBAE851E060A954B2793AA33C3A299A42",
+   "url": "https://www.adzuna.de/land/ad/5931610442?se=DoxQhR3K8RGD3NuKZ_epjg&utm_medium=api&utm_source=c19f1397&v=5A8CFC0BBAE851E060A954B2793AA33C3A299A42",
    "location": "Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-17",
@@ -2462,7 +2438,7 @@
    "id": "adzuna:5928497324",
    "company": "Zenjob SE",
    "title": "Full-Stack Engineer",
-   "url": "https://www.adzuna.de/land/ad/5928497324?se=IhXRYxLK8RGDtPNYS-f4qw&utm_medium=api&utm_source=c19f1397&v=A17734CBF8A0FBF7B36BFBE5A6161250B2D318DC",
+   "url": "https://www.adzuna.de/land/ad/5928497324?se=WGJUiR3K8RG0yZvJMLFEkQ&utm_medium=api&utm_source=c19f1397&v=A17734CBF8A0FBF7B36BFBE5A6161250B2D318DC",
    "location": "Deutschland / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-15",
@@ -2703,6 +2679,25 @@
    "firstSeen": "2026-10-07T17:18:42+00:00"
   },
   {
+   "id": "recruitee:signode:2775081",
+   "company": "Signode",
+   "title": "Product Engineer (m/f/d) - Steel",
+   "url": "https://signode.recruitee.com/o/product-engineer-mfd-steel-3",
+   "location": "Dinslaken, Nordrhein-Westfalen, Germany / Dinslaken / Germany",
+   "remote": false,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "from job boards",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "Minimum 2 years of experience in Product Development, R&D, Manufacturing, Technical Support, or Product Management. | Fluent in English. | Good knowledge of Microsoft Office. | Exposure to customers, suppliers, and industry-leading technologies.",
+   "firstSeen": "2026-10-07T17:18:42+00:00"
+  },
+  {
    "id": "ashby:elevenlabs:35813150-a851-4821-b732-a037b4e6c4fe",
    "company": "ElevenLabs",
    "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
@@ -2825,7 +2820,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Find Jobs in Germany on Arbeitnow",
+   "facts": "Find more English Speaking Jobs in Germany on Arbeitnow",
    "firstSeen": "2026-10-06T19:58:13+00:00"
   },
   {
@@ -2953,7 +2948,7 @@
    "id": "adzuna:5931395836",
    "company": "Formel D GmbH",
    "title": "Microsoft Power App Entwickler (w/m/d)",
-   "url": "https://www.adzuna.de/land/ad/5931395836?se=_mzuhRLK8RGDtPNYS-f4qw&utm_medium=api&utm_source=c19f1397&v=566B30A4108D08585E1C10E4F24A1DF1043B8968",
+   "url": "https://www.adzuna.de/land/ad/5931395836?se=9GIlqB3K8RGq65mh8wCbFA&utm_medium=api&utm_source=c19f1397&v=566B30A4108D08585E1C10E4F24A1DF1043B8968",
    "location": "Buchheim, Köln / Deutschland",
    "remote": null,
    "postedAt": "2026-10-17",
@@ -3949,7 +3944,7 @@
    "id": "adzuna:5921787119",
    "company": "adesso SE",
    "title": "Software Architect Frontend (all genders)",
-   "url": "https://www.adzuna.de/land/ad/5921787119?se=GtckbxLK8RGq65mh8wCbFA&utm_medium=api&utm_source=c19f1397&v=5EC2D141D3D86C59E99C3B748164572CA72FDC0A",
+   "url": "https://www.adzuna.de/land/ad/5921787119?se=8GU2kx3K8RG0yZvJMLFEkQ&utm_medium=api&utm_source=c19f1397&v=5EC2D141D3D86C59E99C3B748164572CA72FDC0A",
    "location": "Düsseldorf, Nordrhein-Westfalen / Deutschland",
    "remote": null,
    "postedAt": "2026-10-10",
@@ -4154,28 +4149,6 @@
    "firstSeen": "2026-10-06T00:39:52+00:00"
   },
   {
-   "id": "ashby:bowatt:e50be588-3916-4c35-952c-126a26a67ff0",
-   "company": "Bowatt",
-   "title": "Founding Design Engineer",
-   "url": "https://jobs.ashbyhq.com/bowatt/e50be588-3916-4c35-952c-126a26a67ff0",
-   "location": "Germany / Munich",
-   "remote": true,
-   "postedAt": "2026-08-18",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "We believe AI will reach PhD-level engineering capability within the next 10 years. | We bootstrapped BoWatt to €500k+ ARR before raising our first round. | - You will build and ship features across our React / TypeScript / Tailwind frontend. | - Have 3+ years of experience shipping frontend production code. | - Have 3+ years of experience designing for the web. | - Are based in Germany and have the right to work here. | - Competitive salary based on experience (€65,000 - €100,000) | - Fully remote, hybrid, or onsite?",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:zoe:5f2867a4-cf38-4bec-b6ca-f192a9a8736c",
    "company": "ZOE",
    "title": "Full Stack Engineer (Front-end Focus)",
@@ -4196,6 +4169,28 @@
    ],
    "match": "title; remote",
    "facts": "You'll spend most of your time in TypeScript, React and Next.js. | - Frontend: TypeScript, React, Next.js, React Native, GraphQL | - Have 3–5 years of professional software development experience, with a strong focus on front-end. | - Have strong experience with TypeScript, React and Next.js, and understand state management, hooks and web performance optimisation. | - Fully remote, open to candidates based in the UK, Ireland, Spain, Poland or Germany who have the right to work there. | - We work across UK and Central European time zones. | 🔄 The Remote Loop: 2 to 4 focused interviews assessing your technical expertise, behav",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "ashby:bowatt:e50be588-3916-4c35-952c-126a26a67ff0",
+   "company": "Bowatt",
+   "title": "Founding Design Engineer",
+   "url": "https://jobs.ashbyhq.com/bowatt/e50be588-3916-4c35-952c-126a26a67ff0",
+   "location": "Germany / Munich",
+   "remote": true,
+   "postedAt": "2026-08-18",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We believe AI will reach PhD-level engineering capability within the next 10 years. | We bootstrapped BoWatt to €500k+ ARR before raising our first round. | - You will build and ship features across our React / TypeScript / Tailwind frontend. | - Have 3+ years of experience shipping frontend production code. | - Have 3+ years of experience designing for the web. | - Are based in Germany and have the right to work here. | - Competitive salary based on experience (€65,000 - €100,000) | - Fully remote, hybrid, or onsite?",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -4306,6 +4301,27 @@
    ],
    "match": "title; NRW",
    "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "recruitee:recaregmbh:2739252",
+   "company": "Recare",
+   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
+   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
+   "location": "Remote job / Berlin / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {

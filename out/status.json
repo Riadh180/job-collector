@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1065
+   "fetched": 1064
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3368
+   "fetched": 3358
   },
   "remotive": {
    "fetched": 104
@@ -31,14 +31,12 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1088,
-   "failed": 1
+   "checked": 1090,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "EY": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
@@ -97,47 +95,48 @@
   "failed": 0
  },
  "probe": {
-  "tried": 83,
+  "tried": 85,
   "found": [
    "Enode (ashby:enode)",
    "Catena Clearing (lever:catena-clearing)",
-   "Sarj.ai (ashby:sarjai)",
+   "Exit83 (smartrecruiters:exit83)",
    "Haufe Group SE (smartrecruiters:haufegroup)",
-   "Resident Advisor (workable:resident-advisor)",
    "QuickNode (ashby:quicknode)",
-   "Reality Defender (ashby:realitydefender)",
    "TECOSIM GmbH (recruitee:tecosim)",
    "Reply (lever:reply)",
    "wongdoody (greenhouse:wongdoody)",
+   "Emi Labs (lever:emilabs)",
+   "Kestrel Intelligence (lever:kestrel-intelligence)",
+   "Akuity (greenhouse:akuity)",
+   "UPROSPECT (smartrecruiters:uprospect)",
+   "ControlUp (lever:controlup)",
    "Venn (ashby:venn)",
    "Platform.sh (greenhouse:platformsh)",
    "SmartCookie.App (smartrecruiters:smartcookieapp)",
    "Proof (lever:proof)",
-   "Arootah (lever:arootah)",
-   "TMS, LLC (personio:tmsgmbh)",
-   "Foxit Software (lever:foxitsoftware)"
+   "Waabi (lever:waabi)",
+   "Arootah (lever:arootah)"
   ]
  },
- "collectedAt": "2026-10-17T10:05:54+00:00",
- "rawJobs": 58401,
- "matches": 218,
- "new": 10,
- "companies": 1142,
- "activeCompanies": 1088,
+ "collectedAt": "2026-10-17T11:25:44+00:00",
+ "rawJobs": 58423,
+ "matches": 217,
+ "new": 9,
+ "companies": 1144,
+ "activeCompanies": 1090,
  "funnel": {
-  "passed": 480,
-  "salary": 21,
-  "title": 55835,
+  "passed": 478,
+  "salary": 20,
+  "title": 55857,
   "company": 70,
-  "duplicate": 262,
-  "location": 1842,
+  "duplicate": 261,
+  "location": 1844,
   "too_old": 135,
-  "employment": 18
+  "employment": 19
  },
  "matchesBySource": {
   "adzuna": 78,
   "jobicy": 6,
-  "himalayas": 1,
   "greenhouse": 12,
   "arbeitnow": 16,
   "ashby": 41,
