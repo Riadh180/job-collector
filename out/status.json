@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1007
+   "fetched": 1087
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3343
+   "fetched": 3743
   },
   "remotive": {
    "fetched": 104
@@ -31,26 +31,28 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1093,
-   "failed": 6
+   "checked": 1087,
+   "failed": 8
   }
  },
  "errors": {
   "companies": {
-   "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429"
+   "Paralucent": "HTTP 429",
+   "EY": "HTTP 429",
+   "Itility B.V.": "HTTP 429",
+   "INDG": "HTTP 429",
+   "Luscii": "HTTP 429",
+   "CrazyGames": "HTTP 429",
+   "NEXT Ventures": "HTTP 429",
+   "AlmavivA de Belgique": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 670
+  "callsToday": 30,
+  "callsLast7Days": 640
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -102,40 +104,48 @@
   "failed": 0
  },
  "probe": {
-  "tried": 54,
+  "tried": 119,
   "found": [
    "Sardine (ashby:sardine)",
+   "Enode (ashby:enode)",
    "Powerprozesse (recruitee:powerprozesse)",
    "DualEntry (ashby:dualentry)",
-   "Semdor Pharma Group GmbH (personio:semdor-pharma-group-gmbh)",
+   "Haufe Group SE (smartrecruiters:haufegroup)",
+   "QuickNode (ashby:quicknode)",
+   "TECOSIM GmbH (recruitee:tecosim)",
+   "WongDoody (greenhouse:wongdoody)",
+   "Reply (lever:reply)",
    "Solace (ashby:solace)",
    "Venn (ashby:venn)",
    "Bitmovin (greenhouse:bitmovin)",
-   "Unifonic (recruitee:unifonic)"
+   "Unifonic (recruitee:unifonic)",
+   "Acumatica (smartrecruiters:acumatica)",
+   "Profitap (recruitee:profitap)",
+   "Catena Clearing (lever:catena-clearing)"
   ]
  },
- "collectedAt": "2026-10-17T17:45:13+00:00",
- "rawJobs": 58317,
- "matches": 247,
- "new": 12,
- "companies": 1147,
- "activeCompanies": 1093,
+ "collectedAt": "2026-10-17T18:05:40+00:00",
+ "rawJobs": 58742,
+ "matches": 229,
+ "new": 24,
+ "companies": 1141,
+ "activeCompanies": 1087,
  "funnel": {
-  "title": 55738,
-  "passed": 510,
-  "salary": 15,
-  "company": 70,
-  "duplicate": 263,
-  "employment": 21,
-  "location": 1828,
-  "too_old": 135
+  "passed": 499,
+  "salary": 21,
+  "title": 56156,
+  "company": 78,
+  "duplicate": 270,
+  "location": 1833,
+  "too_old": 135,
+  "employment": 20
  },
  "matchesBySource": {
-  "adzuna": 104,
-  "himalayas": 4,
-  "ashby": 43,
+  "adzuna": 86,
   "jobicy": 6,
-  "greenhouse": 13,
+  "himalayas": 4,
+  "ashby": 44,
+  "greenhouse": 12,
   "arbeitnow": 12,
   "arbeitsagentur": 24,
   "weworkremotely": 6,

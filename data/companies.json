@@ -4914,9 +4914,7 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-16",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-17"
  },
  {
   "name": "DAMEDIC",
@@ -7010,9 +7008,7 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-16",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-17"
  },
  {
   "name": "OptiTrack",
@@ -7020,9 +7016,7 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-16",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-17"
  },
  {
   "name": "ResourceQ Services",
@@ -7086,9 +7080,7 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-16",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Comet",
@@ -7497,9 +7489,7 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-16",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Chariot Solutions",
@@ -7523,9 +7513,7 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-16",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Provectus",
@@ -7885,7 +7873,8 @@
   "ats": "recruitee",
   "slug": "paralucent",
   "addedBy": "probe 2026-10-12",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "LionHires",
@@ -7989,7 +7978,8 @@
   "ats": "recruitee",
   "slug": "ey",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "Guidewheel",
@@ -8029,7 +8019,8 @@
   "ats": "recruitee",
   "slug": "luscii",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "INDG",
@@ -8037,7 +8028,8 @@
   "ats": "recruitee",
   "slug": "indg",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "Itility B.V.",
@@ -8045,7 +8037,8 @@
   "ats": "recruitee",
   "slug": "itilitybv",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "Hexa",
@@ -8205,7 +8198,8 @@
   "ats": "recruitee",
   "slug": "nextventures",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "CrazyGames",
@@ -8213,7 +8207,8 @@
   "ats": "recruitee",
   "slug": "crazygames",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "Duna",
@@ -8277,7 +8272,8 @@
   "ats": "recruitee",
   "slug": "almavivadebelgique",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-17"
+  "lastOk": "2026-10-16",
+  "failCount": 1
  },
  {
   "name": "Nopan",
@@ -9152,122 +9148,18 @@
   "lastOk": "2026-10-17"
  },
  {
-  "name": "Enode",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "enode",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Haufe Group SE",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "haufegroup",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "QuickNode",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "quicknode",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Catena Clearing",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "catena-clearing",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "TECOSIM GmbH",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "tecosim",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Reply",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "reply",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "wongdoody",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "wongdoody",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Acumatica",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "acumatica",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Profitap",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "profitap",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Makerble",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "makerble",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Wpromote",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "wpromote",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Gcore",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "gcore",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Tutor Intelligence",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "tutorintelligence",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
-  "name": "Emi Labs",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "emilabs",
-  "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-17"
- },
- {
   "name": "Sardine",
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "sardine",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Enode",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "enode",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  },
@@ -9288,10 +9180,42 @@
   "lastOk": "2026-10-17"
  },
  {
-  "name": "Semdor Pharma Group GmbH",
+  "name": "Haufe Group SE",
   "industry": "from job boards",
-  "ats": "personio",
-  "slug": "semdor-pharma-group-gmbh",
+  "ats": "smartrecruiters",
+  "slug": "haufegroup",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "QuickNode",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "quicknode",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "TECOSIM GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "tecosim",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "WongDoody",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "wongdoody",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Reply",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "reply",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  },
@@ -9324,6 +9248,30 @@
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "unifonic",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Acumatica",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "acumatica",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Profitap",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "profitap",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Catena Clearing",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "catena-clearing",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  }
