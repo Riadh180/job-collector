@@ -4915,7 +4915,8 @@
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "DAMEDIC",
@@ -7010,7 +7011,8 @@
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "OptiTrack",
@@ -7019,7 +7021,8 @@
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "ResourceQ Services",
@@ -7084,7 +7087,8 @@
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Comet",
@@ -7494,7 +7498,8 @@
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Chariot Solutions",
@@ -7519,7 +7524,8 @@
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Provectus",
@@ -8015,8 +8021,7 @@
   "ats": "workable",
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-16",
-  "failCount": 4
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Luscii",
@@ -8056,8 +8061,7 @@
   "ats": "workable",
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-16",
-  "failCount": 4
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Sonicwall",
@@ -8497,8 +8501,7 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-16",
-  "failCount": 1
+  "lastOk": "2026-10-17"
  },
  {
   "name": "CoLab Software",
@@ -8562,8 +8565,7 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-16",
-  "failCount": 1
+  "lastOk": "2026-10-17"
  },
  {
   "name": "OKX",
@@ -8611,8 +8613,7 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-16",
-  "failCount": 1
+  "lastOk": "2026-10-17"
  },
  {
   "name": "sofatutor GmbH",
@@ -8980,8 +8981,7 @@
   "ats": "workable",
   "slug": "newrich-network",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-16",
-  "failCount": 1
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Valid",
@@ -9125,8 +9125,7 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-16",
-  "failCount": 1
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Saga",
@@ -9150,8 +9149,7 @@
   "ats": "workable",
   "slug": "lucidya",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-16",
-  "failCount": 1
+  "lastOk": "2026-10-17"
  },
  {
   "name": "Enode",
@@ -9262,6 +9260,70 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "emilabs",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Sardine",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "sardine",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Powerprozesse",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "powerprozesse",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "DualEntry",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "dualentry",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Semdor Pharma Group GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "semdor-pharma-group-gmbh",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Solace",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "solace",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Venn",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "venn",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Bitmovin",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "bitmovin",
+  "addedBy": "probe 2026-10-17",
+  "lastOk": "2026-10-17"
+ },
+ {
+  "name": "Unifonic",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "unifonic",
   "addedBy": "probe 2026-10-17",
   "lastOk": "2026-10-17"
  }
