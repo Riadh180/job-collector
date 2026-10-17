@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 990
+   "fetched": 1065
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3374
+   "fetched": 3368
   },
   "remotive": {
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 212
+   "fetched": 221
   },
   "remoteok": {
    "fetched": 99
@@ -31,34 +31,21 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1091,
-   "failed": 14
+   "checked": 1088,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Azeus Convene": "HTTP 429",
-   "Newrich Network": "HTTP 429",
-   "Crystalia Glass": "HTTP 429",
-   "Lucidya": "HTTP 429"
+   "EY": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 670
+  "callsToday": 30,
+  "callsLast7Days": 640
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -110,35 +97,48 @@
   "failed": 0
  },
  "probe": {
-  "tried": 26,
+  "tried": 83,
   "found": [
    "Enode (ashby:enode)",
+   "Catena Clearing (lever:catena-clearing)",
+   "Sarj.ai (ashby:sarjai)",
+   "Haufe Group SE (smartrecruiters:haufegroup)",
+   "Resident Advisor (workable:resident-advisor)",
    "QuickNode (ashby:quicknode)",
+   "Reality Defender (ashby:realitydefender)",
+   "TECOSIM GmbH (recruitee:tecosim)",
+   "Reply (lever:reply)",
+   "wongdoody (greenhouse:wongdoody)",
    "Venn (ashby:venn)",
-   "Platform.sh (greenhouse:platformsh)"
+   "Platform.sh (greenhouse:platformsh)",
+   "SmartCookie.App (smartrecruiters:smartcookieapp)",
+   "Proof (lever:proof)",
+   "Arootah (lever:arootah)",
+   "TMS, LLC (personio:tmsgmbh)",
+   "Foxit Software (lever:foxitsoftware)"
   ]
  },
- "collectedAt": "2026-10-17T08:57:49+00:00",
- "rawJobs": 57857,
- "matches": 238,
- "new": 5,
- "companies": 1145,
- "activeCompanies": 1091,
+ "collectedAt": "2026-10-17T10:05:54+00:00",
+ "rawJobs": 58401,
+ "matches": 218,
+ "new": 10,
+ "companies": 1142,
+ "activeCompanies": 1088,
  "funnel": {
-  "title": 55313,
-  "passed": 498,
-  "salary": 14,
+  "passed": 480,
+  "salary": 21,
+  "title": 55835,
   "company": 70,
-  "duplicate": 260,
-  "employment": 10,
-  "location": 1817,
-  "too_old": 135
+  "duplicate": 262,
+  "location": 1842,
+  "too_old": 135,
+  "employment": 18
  },
  "matchesBySource": {
-  "adzuna": 97,
+  "adzuna": 78,
   "jobicy": 6,
   "himalayas": 1,
-  "greenhouse": 13,
+  "greenhouse": 12,
   "arbeitnow": 16,
   "ashby": 41,
   "arbeitsagentur": 24,
