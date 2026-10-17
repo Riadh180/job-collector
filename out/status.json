@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1075
+   "fetched": 990
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3371
+   "fetched": 3374
   },
   "remotive": {
-   "fetched": 120
+   "fetched": 104
   },
   "jobicy": {
-   "fetched": 185
+   "fetched": 212
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 65
+   "fetched": 66
   },
   "hn": {
    "fetched": 305
@@ -31,7 +31,7 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1087,
+   "checked": 1091,
    "failed": 14
   }
  },
@@ -55,31 +55,27 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 640
+  "callsToday": 60,
+  "callsLast7Days": 670
  },
  "arbeitsagentur_sample": {
   "keys": [
    "aenderungsdatum",
    "alleBerufe.0",
-   "alleBerufe.1",
-   "alternativBeruf1",
    "arbeitszeitSchichtNachtWochenende",
    "arbeitszeitTeilzeitAbend",
    "arbeitszeitTeilzeitFlexibel",
    "arbeitszeitTeilzeitNachmittag",
    "arbeitszeitTeilzeitVormittag",
    "arbeitszeitVollzeit",
-   "chiffrenummer",
    "datumErsteVeroeffentlichung",
    "eintrittszeitraum.von",
    "externeURL",
    "firma",
    "hauptberuf",
    "homeofficemoeglich",
-   "homeofficetyp",
    "istGeringfuegigeBeschaeftigung",
    "quereinstiegGeeignet",
    "referenznummer",
@@ -96,70 +92,58 @@
    "vertragsdauer"
   ],
   "parsed": {
-   "ref": "13644-305516-S",
-   "title": "Frontend React Developer (m/w/d)",
+   "ref": "12336-a26f813j0456549-S",
+   "title": "Junior Softwareentwickler React / JavaScript (m/w/d)",
    "beruf": "",
-   "employer": "Smartbroker",
-   "city": "Berlin",
-   "region": "BERLIN",
-   "date": "2026-09-03",
-   "url": "https://www.get-in-it.de/jobsuche/p305516?utm_source=arbeitsagentur&utm_medium=organic&utm_campaign=launch-basic"
+   "employer": "ISR Information Products AG",
+   "city": "Münster, Westfalen",
+   "region": "NORDRHEIN_WESTFALEN",
+   "date": "2026-10-17",
+   "url": "https://gute-jobs.de/viewjob-n82ev?utm_source=jsba-premium&utm_medium=n-a&utm_campaign=jsba-premium&utm_term=junior-softwareentwickler-react-javascript-m-w-d"
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=333, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=334, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 80,
+  "tried": 26,
   "found": [
-   "Sarj.ai (ashby:sarjai)",
-   "Whitecollars (smartrecruiters:whitecollars)",
-   "BeiGene (smartrecruiters:beigene)",
-   "Haufe Group SE (smartrecruiters:haufegroup)",
-   "Reality Defender (ashby:realitydefender)",
-   "Catena Clearing (lever:catena-clearing)",
-   "TECOSIM GmbH (recruitee:tecosim)",
-   "Reply (lever:reply)",
-   "wongdoody (greenhouse:wongdoody)",
-   "Foxit Software (lever:foxitsoftware)",
-   "InfluxData (ashby:influxdata)",
-   "Baringa (greenhouse:baringa)",
-   "Superside (lever:superside)",
-   "System1 (lever:system1)",
-   "OneStream (greenhouse:onestream)",
-   "Canary Technologies (lever:canarytechnologies)"
+   "Enode (ashby:enode)",
+   "QuickNode (ashby:quicknode)",
+   "Venn (ashby:venn)",
+   "Platform.sh (greenhouse:platformsh)"
   ]
  },
- "collectedAt": "2026-10-17T04:49:58+00:00",
- "rawJobs": 57834,
- "matches": 213,
- "new": 6,
- "companies": 1141,
- "activeCompanies": 1087,
+ "collectedAt": "2026-10-17T08:57:49+00:00",
+ "rawJobs": 57857,
+ "matches": 238,
+ "new": 5,
+ "companies": 1145,
+ "activeCompanies": 1091,
  "funnel": {
-  "passed": 455,
-  "salary": 24,
-  "title": 55323,
-  "company": 74,
-  "duplicate": 242,
-  "location": 1815,
-  "too_old": 134,
-  "employment": 9
+  "title": 55313,
+  "passed": 498,
+  "salary": 14,
+  "company": 70,
+  "duplicate": 260,
+  "employment": 10,
+  "location": 1817,
+  "too_old": 135
  },
  "matchesBySource": {
-  "adzuna": 77,
+  "adzuna": 97,
+  "jobicy": 6,
   "himalayas": 1,
-  "greenhouse": 12,
+  "greenhouse": 13,
   "arbeitnow": 16,
   "ashby": 41,
   "arbeitsagentur": 24,
   "weworkremotely": 6,
   "recruitee": 14,
-  "jobicy": 2,
   "personio": 13,
   "smartrecruiters": 1,
   "hn": 6
