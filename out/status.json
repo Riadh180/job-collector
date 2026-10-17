@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1025
+   "fetched": 1075
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3386
+   "fetched": 3371
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 187
+   "fetched": 185
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 66
+   "fetched": 65
   },
   "hn": {
    "fetched": 305
@@ -31,8 +31,8 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1071,
-   "failed": 8
+   "checked": 1087,
+   "failed": 14
   }
  },
  "errors": {
@@ -44,15 +44,21 @@
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
    "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429"
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "Newrich Network": "HTTP 429",
+   "Crystalia Glass": "HTTP 429",
+   "Lucidya": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 120,
-  "callsLast7Days": 750
+  "callsToday": 30,
+  "callsLast7Days": 640
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -108,46 +114,54 @@
   "failed": 0
  },
  "probe": {
-  "tried": 69,
+  "tried": 80,
   "found": [
-   "Wrapbook (ashby:wrapbook)",
-   "JSat Automation (smartrecruiters:jsatautomation)",
-   "OKAPI:Orbits (personio:okapiorbits)",
-   "lemon.markets (ashby:lemon-markets)",
-   "Curotec (recruitee:curotec)",
-   "Crystalia Glass (workable:crystalia-glass)",
-   "Saga (recruitee:saga)",
-   "Giftify (personio:giftify)",
-   "Lucidya (workable:lucidya)"
+   "Sarj.ai (ashby:sarjai)",
+   "Whitecollars (smartrecruiters:whitecollars)",
+   "BeiGene (smartrecruiters:beigene)",
+   "Haufe Group SE (smartrecruiters:haufegroup)",
+   "Reality Defender (ashby:realitydefender)",
+   "Catena Clearing (lever:catena-clearing)",
+   "TECOSIM GmbH (recruitee:tecosim)",
+   "Reply (lever:reply)",
+   "wongdoody (greenhouse:wongdoody)",
+   "Foxit Software (lever:foxitsoftware)",
+   "InfluxData (ashby:influxdata)",
+   "Baringa (greenhouse:baringa)",
+   "Superside (lever:superside)",
+   "System1 (lever:system1)",
+   "OneStream (greenhouse:onestream)",
+   "Canary Technologies (lever:canarytechnologies)"
   ]
  },
- "collectedAt": "2026-10-16T18:36:39+00:00",
- "rawJobs": 57692,
- "matches": 242,
- "new": 10,
- "companies": 1125,
- "activeCompanies": 1071,
+ "collectedAt": "2026-10-17T04:49:58+00:00",
+ "rawJobs": 57834,
+ "matches": 213,
+ "new": 6,
+ "companies": 1141,
+ "activeCompanies": 1087,
  "funnel": {
-  "title": 55163,
-  "passed": 466,
-  "company": 78,
-  "duplicate": 224,
-  "salary": 10,
-  "employment": 9,
-  "location": 1834,
-  "too_old": 132
+  "passed": 455,
+  "salary": 24,
+  "title": 55323,
+  "company": 74,
+  "duplicate": 242,
+  "location": 1815,
+  "too_old": 134,
+  "employment": 9
  },
  "matchesBySource": {
-  "adzuna": 98,
+  "adzuna": 77,
   "himalayas": 1,
-  "greenhouse": 14,
-  "arbeitnow": 19,
-  "ashby": 43,
+  "greenhouse": 12,
+  "arbeitnow": 16,
+  "ashby": 41,
   "arbeitsagentur": 24,
-  "weworkremotely": 8,
+  "weworkremotely": 6,
   "recruitee": 14,
   "jobicy": 2,
   "personio": 13,
+  "smartrecruiters": 1,
   "hn": 6
  }
 }
