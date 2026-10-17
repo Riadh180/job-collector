@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1064
+   "fetched": 992
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3358
+   "fetched": 3357
   },
   "remotive": {
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 221
+   "fetched": 223
   },
   "remoteok": {
    "fetched": 99
@@ -31,19 +31,35 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1090,
-   "failed": 0
+   "checked": 1096,
+   "failed": 15
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "SORACOM": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "Newrich Network": "HTTP 429",
+   "Crystalia Glass": "HTTP 429",
+   "Lucidya": "HTTP 429",
+   "Dephy, Inc.": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 640
+  "callsToday": 60,
+  "callsLast7Days": 670
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -95,49 +111,36 @@
   "failed": 0
  },
  "probe": {
-  "tried": 85,
+  "tried": 35,
   "found": [
-   "Enode (ashby:enode)",
-   "Catena Clearing (lever:catena-clearing)",
-   "Exit83 (smartrecruiters:exit83)",
-   "Haufe Group SE (smartrecruiters:haufegroup)",
-   "QuickNode (ashby:quicknode)",
-   "TECOSIM GmbH (recruitee:tecosim)",
-   "Reply (lever:reply)",
-   "wongdoody (greenhouse:wongdoody)",
-   "Emi Labs (lever:emilabs)",
-   "Kestrel Intelligence (lever:kestrel-intelligence)",
-   "Akuity (greenhouse:akuity)",
-   "UPROSPECT (smartrecruiters:uprospect)",
-   "ControlUp (lever:controlup)",
-   "Venn (ashby:venn)",
-   "Platform.sh (greenhouse:platformsh)",
-   "SmartCookie.App (smartrecruiters:smartcookieapp)",
-   "Proof (lever:proof)",
-   "Waabi (lever:waabi)",
-   "Arootah (lever:arootah)"
+   "Semdor Pharma Group GmbH (personio:semdor-pharma-group-gmbh)",
+   "Dephy, Inc. (workable:dephy)",
+   "Makerble (smartrecruiters:makerble)",
+   "Wpromote (lever:wpromote)",
+   "Gcore (smartrecruiters:gcore)",
+   "Tutor Intelligence (lever:tutorintelligence)"
   ]
  },
- "collectedAt": "2026-10-17T11:25:44+00:00",
- "rawJobs": 58423,
- "matches": 217,
- "new": 9,
- "companies": 1144,
- "activeCompanies": 1090,
+ "collectedAt": "2026-10-17T13:29:17+00:00",
+ "rawJobs": 57904,
+ "matches": 238,
+ "new": 1,
+ "companies": 1150,
+ "activeCompanies": 1096,
  "funnel": {
-  "passed": 478,
-  "salary": 20,
-  "title": 55857,
-  "company": 70,
-  "duplicate": 261,
-  "location": 1844,
-  "too_old": 135,
-  "employment": 19
+  "title": 55344,
+  "passed": 498,
+  "salary": 14,
+  "company": 72,
+  "duplicate": 260,
+  "employment": 20,
+  "location": 1821,
+  "too_old": 135
  },
  "matchesBySource": {
-  "adzuna": 78,
+  "adzuna": 97,
   "jobicy": 6,
-  "greenhouse": 12,
+  "greenhouse": 13,
   "arbeitnow": 16,
   "ashby": 41,
   "arbeitsagentur": 24,
@@ -145,6 +148,7 @@
   "recruitee": 14,
   "personio": 13,
   "smartrecruiters": 1,
-  "hn": 6
+  "hn": 6,
+  "himalayas": 1
  }
 }
