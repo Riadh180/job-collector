@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1101
+   "fetched": 1104
   },
   "arbeitsagentur": {
    "fetched": 333
@@ -13,7 +13,7 @@
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 241
+   "fetched": 248
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 72
+   "fetched": 71
   },
   "hn": {
    "fetched": 305
@@ -96,14 +96,14 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=331, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=332, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 89,
+  "tried": 87,
   "found": [
    "wppmedia (greenhouse:wppmedia)",
    "Sitimecorporation (greenhouse:sitimecorporation)",
@@ -116,32 +116,33 @@
    "MindTech (recruitee:mindtech)",
    "nterra (recruitee:nterra)",
    "SNOCKS (personio:snocks)",
-   "Vote Mama (recruitee:votemama)"
+   "BeiGene (smartrecruiters:beigene)"
   ]
  },
- "collectedAt": "2026-10-18T16:35:04+00:00",
- "rawJobs": 61194,
- "matches": 223,
- "new": 2,
+ "collectedAt": "2026-10-18T17:04:45+00:00",
+ "rawJobs": 61180,
+ "matches": 224,
+ "new": 4,
  "companies": 1180,
  "activeCompanies": 1126,
  "funnel": {
-  "passed": 480,
+  "passed": 486,
   "salary": 22,
-  "title": 58547,
+  "title": 58526,
   "company": 81,
-  "duplicate": 257,
-  "location": 1908,
+  "duplicate": 262,
+  "location": 1909,
   "too_old": 138,
   "employment": 18
  },
  "matchesBySource": {
+  "adzuna": 89,
   "arbeitnow": 8,
   "jobicy": 6,
-  "adzuna": 88,
+  "himalayas": 2,
   "weworkremotely": 7,
   "recruitee": 14,
-  "ashby": 43,
+  "ashby": 41,
   "greenhouse": 12,
   "arbeitsagentur": 25,
   "personio": 13,
