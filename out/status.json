@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1103
+   "fetched": 954
   },
   "arbeitsagentur": {
    "fetched": 333
@@ -32,36 +32,22 @@
   },
   "companies": {
    "checked": 1121,
-   "failed": 17
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
-   "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Azeus Convene": "HTTP 429",
-   "Newrich Network": "HTTP 429",
-   "Crystalia Glass": "HTTP 429",
-   "Lucidya": "HTTP 429",
-   "Dean Dorton": "HTTP 429",
-   "Nomios": "HTTP 429",
-   "Zoi": "HTTP 429"
+   "4ALLPORTAL GmbH": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "Vote Mama": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 560
+  "callsToday": 90,
+  "callsLast7Days": 590
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -117,42 +103,34 @@
   "failed": 0
  },
  "probe": {
-  "tried": 62,
-  "found": [
-   "Sitimecorporation (greenhouse:sitimecorporation)",
-   "4ALLPORTAL GmbH (recruitee:4allportal)",
-   "Nomios (recruitee:nomios)",
-   "Zoi (recruitee:zoi)",
-   "Dean Dorton (workable:dean-dorton)",
-   "BeiGene (smartrecruiters:beigene)",
-   "Vote Mama (recruitee:votemama)"
-  ]
+  "tried": 0,
+  "found": []
  },
- "collectedAt": "2026-10-18T13:41:30+00:00",
- "rawJobs": 59084,
- "matches": 226,
- "new": 1,
+ "collectedAt": "2026-10-18T13:47:37+00:00",
+ "rawJobs": 59602,
+ "matches": 242,
+ "new": 0,
  "companies": 1175,
  "activeCompanies": 1121,
  "funnel": {
-  "passed": 484,
-  "salary": 22,
-  "title": 56474,
-  "company": 81,
-  "duplicate": 258,
-  "location": 1867,
-  "too_old": 138,
-  "employment": 18
+  "title": 56982,
+  "passed": 483,
+  "salary": 13,
+  "company": 75,
+  "duplicate": 241,
+  "employment": 19,
+  "location": 1892,
+  "too_old": 138
  },
  "matchesBySource": {
   "arbeitnow": 9,
-  "adzuna": 90,
+  "adzuna": 105,
   "himalayas": 2,
   "weworkremotely": 7,
   "recruitee": 14,
   "jobicy": 5,
   "ashby": 42,
-  "greenhouse": 12,
+  "greenhouse": 13,
   "arbeitsagentur": 25,
   "personio": 13,
   "smartrecruiters": 1,
