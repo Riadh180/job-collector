@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 954
+   "fetched": 1103
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3363
+   "fetched": 3365
   },
   "remotive": {
    "fetched": 96
@@ -31,19 +31,21 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1114,
-   "failed": 0
+   "checked": 1116,
+   "failed": 1
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Zoi": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 530
+  "callsToday": 60,
+  "callsLast7Days": 560
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -95,62 +97,37 @@
   "failed": 0
  },
  "probe": {
-  "tried": 95,
+  "tried": 17,
   "found": [
-   "Semdor Pharma Group GmbH (personio:semdor-pharma-group-gmbh)",
-   "fulfin (personio:fulfin)",
-   "Holzland Becker (recruitee:holzlandbecker)",
-   "Ready (ashby:ready)",
-   "Sona (ashby:sona)",
-   "FANtium (smartrecruiters:fantium)",
-   "Founders Factory (ashby:founders-factory)",
-   "Moonfare (greenhouse:moonfare)",
-   "Game5Mobile (smartrecruiters:game5mobile)",
-   "inovex GmbH (recruitee:inovex)",
-   "Menlo (ashby:menlo)",
-   "Applied (ashby:applied)",
-   "Wire 1 (personio:wire-1)",
-   "Enopai (personio:enopai)",
-   "Hypertrics GmbH (recruitee:hypertricsgmbh)",
-   "Bromcom Computers Plc (recruitee:bromcomcomputersplc)",
-   "One Mobility (recruitee:onemobility)",
-   "CipSoft GmbH (recruitee:cipsoft)",
-   "Sparrow Connected (smartrecruiters:sparrowconnected)",
-   "Bankers without Boundaries (smartrecruiters:bankerswithoutboundaries)",
-   "ESource Corp (smartrecruiters:esourcecorp)",
-   "Strike (greenhouse:strike)",
-   "Logos (greenhouse:logos)",
-   "DigitalFish, Inc (lever:digitalfish)",
-   "Bybit (greenhouse:bybit)",
-   "AltScore (recruitee:altscore)",
-   "Imprint (ashby:imprint)"
+   "Nomios (recruitee:nomios)",
+   "Zoi (recruitee:zoi)"
   ]
  },
- "collectedAt": "2026-10-18T09:16:40+00:00",
- "rawJobs": 59307,
- "matches": 242,
- "new": 12,
- "companies": 1168,
- "activeCompanies": 1114,
+ "collectedAt": "2026-10-18T09:36:21+00:00",
+ "rawJobs": 59494,
+ "matches": 227,
+ "new": 1,
+ "companies": 1170,
+ "activeCompanies": 1116,
  "funnel": {
-  "title": 56672,
-  "passed": 483,
-  "salary": 13,
-  "company": 75,
-  "duplicate": 241,
-  "employment": 21,
-  "location": 1905,
-  "too_old": 138
+  "passed": 486,
+  "salary": 22,
+  "title": 56847,
+  "company": 81,
+  "duplicate": 259,
+  "location": 1899,
+  "too_old": 138,
+  "employment": 21
  },
  "matchesBySource": {
-  "adzuna": 105,
-  "himalayas": 3,
+  "arbeitnow": 8,
+  "adzuna": 91,
+  "himalayas": 2,
   "weworkremotely": 7,
-  "recruitee": 16,
+  "recruitee": 15,
   "jobicy": 5,
-  "ashby": 41,
-  "greenhouse": 13,
-  "arbeitnow": 7,
+  "ashby": 42,
+  "greenhouse": 12,
   "arbeitsagentur": 25,
   "personio": 13,
   "smartrecruiters": 1,
