@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1087
+   "fetched": 954
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3743
+   "fetched": 3363
   },
   "remotive": {
-   "fetched": 104
+   "fetched": 96
   },
   "jobicy": {
-   "fetched": 223
+   "fetched": 229
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 66
+   "fetched": 72
   },
   "hn": {
    "fetched": 305
@@ -31,28 +31,19 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1087,
-   "failed": 8
+   "checked": 1114,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Paralucent": "HTTP 429",
-   "EY": "HTTP 429",
-   "Itility B.V.": "HTTP 429",
-   "INDG": "HTTP 429",
-   "Luscii": "HTTP 429",
-   "CrazyGames": "HTTP 429",
-   "NEXT Ventures": "HTTP 429",
-   "AlmavivA de Belgique": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
   "callsToday": 30,
-  "callsLast7Days": 640
+  "callsLast7Days": 530
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -97,60 +88,71 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=334, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=331, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 119,
+  "tried": 95,
   "found": [
-   "Sardine (ashby:sardine)",
-   "Enode (ashby:enode)",
-   "Powerprozesse (recruitee:powerprozesse)",
-   "DualEntry (ashby:dualentry)",
-   "Haufe Group SE (smartrecruiters:haufegroup)",
-   "QuickNode (ashby:quicknode)",
-   "TECOSIM GmbH (recruitee:tecosim)",
-   "WongDoody (greenhouse:wongdoody)",
-   "Reply (lever:reply)",
-   "Solace (ashby:solace)",
-   "Venn (ashby:venn)",
-   "Bitmovin (greenhouse:bitmovin)",
-   "Unifonic (recruitee:unifonic)",
-   "Acumatica (smartrecruiters:acumatica)",
-   "Profitap (recruitee:profitap)",
-   "Catena Clearing (lever:catena-clearing)"
+   "Semdor Pharma Group GmbH (personio:semdor-pharma-group-gmbh)",
+   "fulfin (personio:fulfin)",
+   "Holzland Becker (recruitee:holzlandbecker)",
+   "Ready (ashby:ready)",
+   "Sona (ashby:sona)",
+   "FANtium (smartrecruiters:fantium)",
+   "Founders Factory (ashby:founders-factory)",
+   "Moonfare (greenhouse:moonfare)",
+   "Game5Mobile (smartrecruiters:game5mobile)",
+   "inovex GmbH (recruitee:inovex)",
+   "Menlo (ashby:menlo)",
+   "Applied (ashby:applied)",
+   "Wire 1 (personio:wire-1)",
+   "Enopai (personio:enopai)",
+   "Hypertrics GmbH (recruitee:hypertricsgmbh)",
+   "Bromcom Computers Plc (recruitee:bromcomcomputersplc)",
+   "One Mobility (recruitee:onemobility)",
+   "CipSoft GmbH (recruitee:cipsoft)",
+   "Sparrow Connected (smartrecruiters:sparrowconnected)",
+   "Bankers without Boundaries (smartrecruiters:bankerswithoutboundaries)",
+   "ESource Corp (smartrecruiters:esourcecorp)",
+   "Strike (greenhouse:strike)",
+   "Logos (greenhouse:logos)",
+   "DigitalFish, Inc (lever:digitalfish)",
+   "Bybit (greenhouse:bybit)",
+   "AltScore (recruitee:altscore)",
+   "Imprint (ashby:imprint)"
   ]
  },
- "collectedAt": "2026-10-17T18:05:40+00:00",
- "rawJobs": 58742,
- "matches": 229,
- "new": 24,
- "companies": 1141,
- "activeCompanies": 1087,
+ "collectedAt": "2026-10-18T09:16:40+00:00",
+ "rawJobs": 59307,
+ "matches": 242,
+ "new": 12,
+ "companies": 1168,
+ "activeCompanies": 1114,
  "funnel": {
-  "passed": 499,
-  "salary": 21,
-  "title": 56156,
-  "company": 78,
-  "duplicate": 270,
-  "location": 1833,
-  "too_old": 135,
-  "employment": 20
+  "title": 56672,
+  "passed": 483,
+  "salary": 13,
+  "company": 75,
+  "duplicate": 241,
+  "employment": 21,
+  "location": 1905,
+  "too_old": 138
  },
  "matchesBySource": {
-  "adzuna": 86,
-  "jobicy": 6,
-  "himalayas": 4,
-  "ashby": 44,
-  "greenhouse": 12,
-  "arbeitnow": 12,
-  "arbeitsagentur": 24,
-  "weworkremotely": 6,
-  "recruitee": 14,
-  "personio": 14,
+  "adzuna": 105,
+  "himalayas": 3,
+  "weworkremotely": 7,
+  "recruitee": 16,
+  "jobicy": 5,
+  "ashby": 41,
+  "greenhouse": 13,
+  "arbeitnow": 7,
+  "arbeitsagentur": 25,
+  "personio": 13,
   "smartrecruiters": 1,
   "hn": 6
  }
