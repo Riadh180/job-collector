@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1104
+   "fetched": 950
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3762
+   "fetched": 4112
   },
   "remotive": {
    "fetched": 96
@@ -31,23 +31,19 @@
    "fetched": 46
   },
   "companies": {
-   "checked": 1126,
+   "checked": 1127,
    "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "Vote Mama": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 560
+  "callsToday": 90,
+  "callsLast7Days": 590
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -103,48 +99,37 @@
   "failed": 0
  },
  "probe": {
-  "tried": 87,
+  "tried": 4,
   "found": [
-   "wppmedia (greenhouse:wppmedia)",
-   "Sitimecorporation (greenhouse:sitimecorporation)",
-   "Emergent Software (recruitee:emergentsoftware)",
-   "Sword Health (greenhouse:swordhealth)",
-   "DCF Verlag GmbH (recruitee:dcfverlag)",
-   "4ALLPORTAL GmbH (recruitee:4allportal)",
-   "Nomios (recruitee:nomios)",
-   "Zoi (recruitee:zoi)",
-   "MindTech (recruitee:mindtech)",
-   "nterra (recruitee:nterra)",
-   "SNOCKS (personio:snocks)",
-   "BeiGene (smartrecruiters:beigene)"
+   "Cloover (personio:cloover)"
   ]
  },
- "collectedAt": "2026-10-18T17:04:45+00:00",
- "rawJobs": 61180,
- "matches": 224,
- "new": 4,
- "companies": 1180,
- "activeCompanies": 1126,
+ "collectedAt": "2026-10-18T17:49:12+00:00",
+ "rawJobs": 61429,
+ "matches": 236,
+ "new": 1,
+ "companies": 1181,
+ "activeCompanies": 1127,
  "funnel": {
-  "passed": 486,
-  "salary": 22,
-  "title": 58526,
-  "company": 81,
-  "duplicate": 262,
-  "location": 1909,
-  "too_old": 138,
-  "employment": 18
+  "title": 58789,
+  "passed": 473,
+  "salary": 13,
+  "company": 78,
+  "duplicate": 237,
+  "employment": 19,
+  "location": 1919,
+  "too_old": 138
  },
  "matchesBySource": {
-  "adzuna": 89,
-  "arbeitnow": 8,
+  "adzuna": 103,
+  "arbeitnow": 4,
   "jobicy": 6,
   "himalayas": 2,
   "weworkremotely": 7,
   "recruitee": 14,
-  "ashby": 41,
-  "greenhouse": 12,
+  "ashby": 43,
   "arbeitsagentur": 25,
+  "greenhouse": 12,
   "personio": 13,
   "smartrecruiters": 1,
   "hn": 6
