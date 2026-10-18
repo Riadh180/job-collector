@@ -7,13 +7,13 @@
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3365
+   "fetched": 3367
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 229
+   "fetched": 236
   },
   "remoteok": {
    "fetched": 99
@@ -31,12 +31,28 @@
    "fetched": 49
   },
   "companies": {
-   "checked": 1116,
-   "failed": 1
+   "checked": 1121,
+   "failed": 17
   }
  },
  "errors": {
   "companies": {
+   "SORACOM": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "Newrich Network": "HTTP 429",
+   "Crystalia Glass": "HTTP 429",
+   "Lucidya": "HTTP 429",
+   "Dean Dorton": "HTTP 429",
+   "Nomios": "HTTP 429",
    "Zoi": "HTTP 429"
   }
  },
@@ -51,18 +67,22 @@
   "keys": [
    "aenderungsdatum",
    "alleBerufe.0",
+   "alleBerufe.1",
+   "alternativBeruf1",
    "arbeitszeitSchichtNachtWochenende",
    "arbeitszeitTeilzeitAbend",
    "arbeitszeitTeilzeitFlexibel",
    "arbeitszeitTeilzeitNachmittag",
    "arbeitszeitTeilzeitVormittag",
    "arbeitszeitVollzeit",
+   "chiffrenummer",
    "datumErsteVeroeffentlichung",
    "eintrittszeitraum.von",
    "externeURL",
    "firma",
    "hauptberuf",
    "homeofficemoeglich",
+   "homeofficetyp",
    "istGeringfuegigeBeschaeftigung",
    "quereinstiegGeeignet",
    "referenznummer",
@@ -79,14 +99,14 @@
    "vertragsdauer"
   ],
   "parsed": {
-   "ref": "12336-a26f813j0456549-S",
-   "title": "Junior Softwareentwickler React / JavaScript (m/w/d)",
+   "ref": "13644-305516-S",
+   "title": "Frontend React Developer (m/w/d)",
    "beruf": "",
-   "employer": "ISR Information Products AG",
-   "city": "Münster, Westfalen",
-   "region": "NORDRHEIN_WESTFALEN",
-   "date": "2026-10-17",
-   "url": "https://gute-jobs.de/viewjob-n82ev?utm_source=jsba-premium&utm_medium=n-a&utm_campaign=jsba-premium&utm_term=junior-softwareentwickler-react-javascript-m-w-d"
+   "employer": "Smartbroker",
+   "city": "Berlin",
+   "region": "BERLIN",
+   "date": "2026-09-03",
+   "url": "https://www.get-in-it.de/jobsuche/p305516?utm_source=arbeitsagentur&utm_medium=organic&utm_campaign=launch-basic"
   }
  },
  "arbeitsagentur_tries": [
@@ -97,34 +117,39 @@
   "failed": 0
  },
  "probe": {
-  "tried": 17,
+  "tried": 62,
   "found": [
+   "Sitimecorporation (greenhouse:sitimecorporation)",
+   "4ALLPORTAL GmbH (recruitee:4allportal)",
    "Nomios (recruitee:nomios)",
-   "Zoi (recruitee:zoi)"
+   "Zoi (recruitee:zoi)",
+   "Dean Dorton (workable:dean-dorton)",
+   "BeiGene (smartrecruiters:beigene)",
+   "Vote Mama (recruitee:votemama)"
   ]
  },
- "collectedAt": "2026-10-18T09:36:21+00:00",
- "rawJobs": 59494,
- "matches": 227,
+ "collectedAt": "2026-10-18T13:41:30+00:00",
+ "rawJobs": 59084,
+ "matches": 226,
  "new": 1,
- "companies": 1170,
- "activeCompanies": 1116,
+ "companies": 1175,
+ "activeCompanies": 1121,
  "funnel": {
-  "passed": 486,
+  "passed": 484,
   "salary": 22,
-  "title": 56847,
+  "title": 56474,
   "company": 81,
-  "duplicate": 259,
-  "location": 1899,
+  "duplicate": 258,
+  "location": 1867,
   "too_old": 138,
-  "employment": 21
+  "employment": 18
  },
  "matchesBySource": {
-  "arbeitnow": 8,
-  "adzuna": 91,
+  "arbeitnow": 9,
+  "adzuna": 90,
   "himalayas": 2,
   "weworkremotely": 7,
-  "recruitee": 15,
+  "recruitee": 14,
   "jobicy": 5,
   "ashby": 42,
   "greenhouse": 12,
