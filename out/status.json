@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 954
+   "fetched": 1101
   },
   "arbeitsagentur": {
    "fetched": 333
   },
   "arbeitnow": {
-   "fetched": 3367
+   "fetched": 3762
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 236
+   "fetched": 241
   },
   "remoteok": {
    "fetched": 99
@@ -28,11 +28,11 @@
    "fetched": 305
   },
   "workingnomads": {
-   "fetched": 49
+   "fetched": 46
   },
   "companies": {
-   "checked": 1121,
-   "failed": 3
+   "checked": 1126,
+   "failed": 0
   }
  },
  "errors": {
@@ -44,10 +44,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 590
+  "callsToday": 60,
+  "callsLast7Days": 560
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -103,34 +103,46 @@
   "failed": 0
  },
  "probe": {
-  "tried": 0,
-  "found": []
+  "tried": 89,
+  "found": [
+   "wppmedia (greenhouse:wppmedia)",
+   "Sitimecorporation (greenhouse:sitimecorporation)",
+   "Emergent Software (recruitee:emergentsoftware)",
+   "Sword Health (greenhouse:swordhealth)",
+   "DCF Verlag GmbH (recruitee:dcfverlag)",
+   "4ALLPORTAL GmbH (recruitee:4allportal)",
+   "Nomios (recruitee:nomios)",
+   "Zoi (recruitee:zoi)",
+   "MindTech (recruitee:mindtech)",
+   "nterra (recruitee:nterra)",
+   "SNOCKS (personio:snocks)",
+   "Vote Mama (recruitee:votemama)"
+  ]
  },
- "collectedAt": "2026-10-18T13:47:37+00:00",
- "rawJobs": 59602,
- "matches": 242,
- "new": 0,
- "companies": 1175,
- "activeCompanies": 1121,
+ "collectedAt": "2026-10-18T16:35:04+00:00",
+ "rawJobs": 61194,
+ "matches": 223,
+ "new": 2,
+ "companies": 1180,
+ "activeCompanies": 1126,
  "funnel": {
-  "title": 56982,
-  "passed": 483,
-  "salary": 13,
-  "company": 75,
-  "duplicate": 241,
-  "employment": 19,
-  "location": 1892,
-  "too_old": 138
+  "passed": 480,
+  "salary": 22,
+  "title": 58547,
+  "company": 81,
+  "duplicate": 257,
+  "location": 1908,
+  "too_old": 138,
+  "employment": 18
  },
  "matchesBySource": {
-  "arbeitnow": 9,
-  "adzuna": 105,
-  "himalayas": 2,
+  "arbeitnow": 8,
+  "jobicy": 6,
+  "adzuna": 88,
   "weworkremotely": 7,
   "recruitee": 14,
-  "jobicy": 5,
-  "ashby": 42,
-  "greenhouse": 13,
+  "ashby": 43,
+  "greenhouse": 12,
   "arbeitsagentur": 25,
   "personio": 13,
   "smartrecruiters": 1,

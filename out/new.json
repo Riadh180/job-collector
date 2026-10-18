@@ -1,5 +1,47 @@
 {
- "collectedAt": "2026-10-18T13:47:37+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-18T16:35:04+00:00",
+ "count": 2,
+ "jobs": [
+  {
+   "id": "arbeitnow:product-engineer-gn-berlin-483580",
+   "company": "Ingestro",
+   "title": "Product Engineer (gn)",
+   "url": "https://www.arbeitnow.com/jobs/companies/ingestro/product-engineer-gn-berlin-483580",
+   "location": "Berlin, Berlin, Germany",
+   "remote": false,
+   "postedAt": "2026-10-18",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Experienced fulltime permanent",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Find Jobs in Germany on Arbeitnow",
+   "firstSeen": "2026-10-18T16:35:04+00:00"
+  },
+  {
+   "id": "jobicy:155727",
+   "company": "Skedda",
+   "title": "Senior Full-Stack Software Engineer (Remote in Europe)",
+   "url": "https://jobicy.com/jobs/155727-senior-full-stack-software-engineer-remote-in-europe-2",
+   "location": "Europe",
+   "remote": true,
+   "postedAt": "2026-10-18",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "",
+   "firstSeen": "2026-10-18T16:35:04+00:00"
+  }
+ ]
 }
