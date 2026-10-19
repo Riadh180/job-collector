@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 950
+   "fetched": 1064
   },
   "arbeitsagentur": {
-   "fetched": 333
+   "fetched": 332
   },
   "arbeitnow": {
-   "fetched": 4112
+   "fetched": 4200
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 248
+   "fetched": 221
   },
   "remoteok": {
    "fetched": 99
@@ -22,28 +22,30 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 71
+   "fetched": 75
   },
   "hn": {
    "fetched": 305
   },
   "workingnomads": {
-   "fetched": 46
+   "fetched": 41
   },
   "companies": {
-   "checked": 1127,
-   "failed": 0
+   "checked": 1134,
+   "failed": 1
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Somnio Software": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 590
+  "callsToday": 30,
+  "callsLast7Days": 560
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -92,45 +94,51 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=332, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=326, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 4,
+  "tried": 76,
   "found": [
-   "Cloover (personio:cloover)"
+   "Mindpeak (ashby:mindpeak)",
+   "Mainspring Energy (lever:mainspringenergy)",
+   "Quince (greenhouse:quince)",
+   "Liatrio (lever:liatrio)",
+   "SichtbarerWerden (recruitee:sichtbarerwerden)",
+   "TeamSnap (lever:teamsnap)",
+   "CAS (ashby:cas)"
   ]
  },
- "collectedAt": "2026-10-18T17:49:12+00:00",
- "rawJobs": 61429,
- "matches": 236,
- "new": 1,
- "companies": 1181,
- "activeCompanies": 1127,
+ "collectedAt": "2026-10-19T10:26:48+00:00",
+ "rawJobs": 61753,
+ "matches": 223,
+ "new": 10,
+ "companies": 1188,
+ "activeCompanies": 1134,
  "funnel": {
-  "title": 58789,
-  "passed": 473,
-  "salary": 13,
-  "company": 78,
-  "duplicate": 237,
-  "employment": 19,
-  "location": 1919,
-  "too_old": 138
+  "passed": 495,
+  "salary": 18,
+  "title": 59088,
+  "company": 82,
+  "duplicate": 272,
+  "location": 1906,
+  "too_old": 140,
+  "employment": 24
  },
  "matchesBySource": {
-  "adzuna": 103,
-  "arbeitnow": 4,
+  "adzuna": 85,
+  "arbeitnow": 10,
+  "himalayas": 3,
+  "ashby": 42,
   "jobicy": 6,
-  "himalayas": 2,
   "weworkremotely": 7,
   "recruitee": 14,
-  "ashby": 43,
-  "arbeitsagentur": 25,
-  "greenhouse": 12,
-  "personio": 13,
+  "greenhouse": 13,
+  "arbeitsagentur": 24,
+  "personio": 12,
   "smartrecruiters": 1,
   "hn": 6
  }
