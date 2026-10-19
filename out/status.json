@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1064
+   "fetched": 1067
   },
   "arbeitsagentur": {
    "fetched": 332
   },
   "arbeitnow": {
-   "fetched": 4200
+   "fetched": 4500
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 221
+   "fetched": 215
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 75
+   "fetched": 76
   },
   "hn": {
    "fetched": 305
@@ -31,13 +31,28 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1134,
-   "failed": 1
+   "checked": 1128,
+   "failed": 16
   }
  },
  "errors": {
   "companies": {
-   "Somnio Software": "HTTP 429"
+   "SORACOM": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "Newrich Network": "HTTP 429",
+   "Somnio Software": "HTTP 429",
+   "ECOM Trading": "HTTP 429",
+   "Crystalia Glass": "HTTP 429",
+   "Lucidya": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -45,7 +60,7 @@
   "searchesThisRun": 20,
   "searchesTotal": 36,
   "callsToday": 30,
-  "callsLast7Days": 560
+  "callsLast7Days": 500
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -94,46 +109,53 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=326, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=327, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 76,
+  "tried": 104,
   "found": [
+   "wppmedia (greenhouse:wppmedia)",
+   "Sitimecorporation (greenhouse:sitimecorporation)",
+   "Sword Health (greenhouse:swordhealth)",
    "Mindpeak (ashby:mindpeak)",
-   "Mainspring Energy (lever:mainspringenergy)",
-   "Quince (greenhouse:quince)",
-   "Liatrio (lever:liatrio)",
+   "Board Intelligence (lever:boardintelligence)",
+   "DCF Verlag GmbH (recruitee:dcfverlag)",
+   "4ALLPORTAL GmbH (recruitee:4allportal)",
+   "Nomios (recruitee:nomios)",
+   "Zoi (recruitee:zoi)",
+   "Dotmatics (greenhouse:dotmatics)",
+   "Peerspace (lever:peerspace)",
    "SichtbarerWerden (recruitee:sichtbarerwerden)",
    "TeamSnap (lever:teamsnap)",
-   "CAS (ashby:cas)"
+   "Mainspring Energy (lever:mainspringenergy)"
   ]
  },
- "collectedAt": "2026-10-19T10:26:48+00:00",
- "rawJobs": 61753,
- "matches": 223,
- "new": 10,
- "companies": 1188,
- "activeCompanies": 1134,
+ "collectedAt": "2026-10-19T13:40:59+00:00",
+ "rawJobs": 61090,
+ "matches": 226,
+ "new": 14,
+ "companies": 1182,
+ "activeCompanies": 1128,
  "funnel": {
-  "passed": 495,
-  "salary": 18,
-  "title": 59088,
-  "company": 82,
-  "duplicate": 272,
-  "location": 1906,
-  "too_old": 140,
-  "employment": 24
+  "passed": 501,
+  "salary": 20,
+  "title": 58425,
+  "company": 81,
+  "duplicate": 275,
+  "location": 1899,
+  "too_old": 139,
+  "employment": 25
  },
  "matchesBySource": {
-  "adzuna": 85,
+  "adzuna": 87,
   "arbeitnow": 10,
-  "himalayas": 3,
-  "ashby": 42,
   "jobicy": 6,
+  "himalayas": 2,
+  "ashby": 44,
   "weworkremotely": 7,
   "recruitee": 14,
   "greenhouse": 13,

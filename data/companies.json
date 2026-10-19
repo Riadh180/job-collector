@@ -4914,7 +4914,8 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "DAMEDIC",
@@ -7008,7 +7009,8 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "OptiTrack",
@@ -7016,7 +7018,8 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "ResourceQ Services",
@@ -7080,7 +7083,8 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Comet",
@@ -7489,7 +7493,8 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Chariot Solutions",
@@ -7513,7 +7518,8 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Provectus",
@@ -8009,7 +8015,8 @@
   "ats": "workable",
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Luscii",
@@ -8049,7 +8056,8 @@
   "ats": "workable",
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Sonicwall",
@@ -8489,7 +8497,8 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "CoLab Software",
@@ -8553,7 +8562,8 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "OKX",
@@ -8601,7 +8611,8 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "sofatutor GmbH",
@@ -8970,7 +8981,8 @@
   "ats": "workable",
   "slug": "newrich-network",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Valid",
@@ -8986,7 +8998,8 @@
   "ats": "recruitee",
   "slug": "ecomtrading",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "WISEcode",
@@ -9114,7 +9127,8 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Saga",
@@ -9138,7 +9152,8 @@
   "ats": "workable",
   "slug": "lucidya",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-19"
+  "lastOk": "2026-10-18",
+  "failCount": 1
  },
  {
   "name": "Sardine",
@@ -9489,7 +9504,7 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "wppmedia",
-  "addedBy": "probe 2026-10-18",
+  "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  },
  {
@@ -9497,15 +9512,7 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "sitimecorporation",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "Emergent Software",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "emergentsoftware",
-  "addedBy": "probe 2026-10-18",
+  "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  },
  {
@@ -9513,79 +9520,7 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "swordhealth",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "DCF Verlag GmbH",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "dcfverlag",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "4ALLPORTAL GmbH",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "4allportal",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "Nomios",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "nomios",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "Zoi",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "zoi",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "MindTech",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "mindtech",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "nterra",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "nterra",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "SNOCKS",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "snocks",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "BeiGene",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "beigene",
-  "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-19"
- },
- {
-  "name": "Cloover",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "cloover",
-  "addedBy": "probe 2026-10-18",
+  "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  },
  {
@@ -9597,26 +9532,58 @@
   "lastOk": "2026-10-19"
  },
  {
-  "name": "Mainspring Energy",
+  "name": "Board Intelligence",
   "industry": "from job boards",
   "ats": "lever",
-  "slug": "mainspringenergy",
+  "slug": "boardintelligence",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  },
  {
-  "name": "Quince",
+  "name": "DCF Verlag GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "dcfverlag",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "4ALLPORTAL GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "4allportal",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Nomios",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "nomios",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Zoi",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "zoi",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Dotmatics",
   "industry": "from job boards",
   "ats": "greenhouse",
-  "slug": "quince",
+  "slug": "dotmatics",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  },
  {
-  "name": "Liatrio",
+  "name": "Peerspace",
   "industry": "from job boards",
   "ats": "lever",
-  "slug": "liatrio",
+  "slug": "peerspace",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  },
@@ -9637,10 +9604,10 @@
   "lastOk": "2026-10-19"
  },
  {
-  "name": "CAS",
+  "name": "Mainspring Energy",
   "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "cas",
+  "ats": "lever",
+  "slug": "mainspringenergy",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  }
