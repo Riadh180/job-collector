@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 965
+   "fetched": 1083
   },
   "arbeitsagentur": {
    "fetched": 334
   },
   "arbeitnow": {
-   "fetched": 4500
+   "fetched": 4200
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 214
+   "fetched": 222
   },
   "remoteok": {
    "fetched": 99
@@ -31,20 +31,28 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1135,
-   "failed": 15
+   "checked": 1146,
+   "failed": 23
   }
  },
  "errors": {
   "companies": {
    "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
    "OptiTrack": "HTTP 429",
+   "Symmetrio": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
+   "Paralucent": "HTTP 429",
    "WPT Global": "HTTP 429",
+   "EY": "HTTP 429",
    "Payabl": "HTTP 429",
+   "Luscii": "HTTP 429",
+   "INDG": "HTTP 429",
+   "Itility B.V.": "HTTP 429",
+   "CrazyGames": "HTTP 429",
+   "NEXT Ventures": "HTTP 429",
+   "AlmavivA de Belgique": "HTTP 429",
    "Houst": "HTTP 429",
    "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
@@ -56,10 +64,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 530
+  "callsToday": 90,
+  "callsLast7Days": 560
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -115,43 +123,47 @@
   "failed": 0
  },
  "probe": {
-  "tried": 38,
+  "tried": 70,
   "found": [
-   "Hireframe (workable:hireframe)",
-   "PCS Systemtechnik GmbH (personio:pcs-systemtechnik-gmbh)",
-   "logicc (personio:logicc)",
-   "Cloover (personio:cloover)",
-   "PartSpace GmbH (personio:partspace)",
-   "Quince (greenhouse:quince)",
-   "Liatrio (lever:liatrio)"
+   "VRChat (lever:vrchat)",
+   "ITB- (recruitee:itbgmbh)",
+   "Fender (greenhouse:fender)",
+   "Epic Brands GmbH (smartrecruiters:epicbrands)",
+   "Rain (ashby:rain)",
+   "Qualifyze (recruitee:qualifyzegmbh)",
+   "PlanetScale (greenhouse:planetscale)",
+   "Wimex-Gruppe (recruitee:wimexgruppe)",
+   "Mactores (lever:mactores)",
+   "Portcast (lever:portcast)",
+   "Go Vocal (recruitee:govocal)"
   ]
  },
- "collectedAt": "2026-10-19T16:49:54+00:00",
- "rawJobs": 61109,
- "matches": 249,
- "new": 10,
- "companies": 1189,
- "activeCompanies": 1135,
+ "collectedAt": "2026-10-19T20:21:23+00:00",
+ "rawJobs": 60946,
+ "matches": 229,
+ "new": 5,
+ "companies": 1200,
+ "activeCompanies": 1146,
  "funnel": {
-  "company": 84,
-  "title": 58428,
-  "passed": 515,
-  "salary": 11,
-  "duplicate": 266,
-  "location": 1907,
-  "too_old": 139,
-  "employment": 25
+  "passed": 506,
+  "salary": 22,
+  "title": 58288,
+  "company": 76,
+  "duplicate": 277,
+  "employment": 28,
+  "location": 1886,
+  "too_old": 140
  },
  "matchesBySource": {
-  "adzuna": 109,
-  "arbeitsagentur": 26,
-  "arbeitnow": 10,
-  "jobicy": 6,
-  "ashby": 45,
+  "arbeitnow": 11,
+  "himalayas": 4,
+  "adzuna": 85,
+  "arbeitsagentur": 25,
+  "jobicy": 7,
+  "ashby": 44,
   "weworkremotely": 7,
   "recruitee": 14,
-  "greenhouse": 12,
-  "himalayas": 1,
+  "greenhouse": 13,
   "personio": 12,
   "smartrecruiters": 1,
   "hn": 6
