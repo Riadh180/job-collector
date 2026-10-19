@@ -4915,7 +4915,7 @@
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "DAMEDIC",
@@ -7010,7 +7010,7 @@
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "OptiTrack",
@@ -7019,7 +7019,7 @@
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "ResourceQ Services",
@@ -7084,7 +7084,7 @@
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Comet",
@@ -7494,7 +7494,7 @@
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Chariot Solutions",
@@ -7519,7 +7519,7 @@
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Provectus",
@@ -8016,7 +8016,7 @@
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Luscii",
@@ -8057,7 +8057,7 @@
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Sonicwall",
@@ -8498,7 +8498,7 @@
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "CoLab Software",
@@ -8563,7 +8563,7 @@
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "OKX",
@@ -8612,7 +8612,7 @@
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "sofatutor GmbH",
@@ -8892,8 +8892,7 @@
   "ats": "recruitee",
   "slug": "somniosoftware",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-18",
-  "failCount": 1
+  "lastOk": "2026-10-19"
  },
  {
   "name": "Defuse Labs",
@@ -8982,7 +8981,7 @@
   "slug": "newrich-network",
   "addedBy": "probe 2026-10-16",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Valid",
@@ -8998,8 +8997,7 @@
   "ats": "recruitee",
   "slug": "ecomtrading",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-18",
-  "failCount": 1
+  "lastOk": "2026-10-19"
  },
  {
   "name": "WISEcode",
@@ -9128,7 +9126,7 @@
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Saga",
@@ -9153,7 +9151,7 @@
   "slug": "lucidya",
   "addedBy": "probe 2026-10-16",
   "lastOk": "2026-10-18",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Sardine",
@@ -9608,6 +9606,62 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "mainspringenergy",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Hireframe",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "hireframe",
+  "addedBy": "probe 2026-10-19",
+  "failCount": 1
+ },
+ {
+  "name": "PCS Systemtechnik GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pcs-systemtechnik-gmbh",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "logicc",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "logicc",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Cloover",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "cloover",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "PartSpace GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "partspace",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Quince",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "quince",
+  "addedBy": "probe 2026-10-19",
+  "lastOk": "2026-10-19"
+ },
+ {
+  "name": "Liatrio",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "liatrio",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-19"
  }

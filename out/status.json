@@ -1,10 +1,10 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1067
+   "fetched": 965
   },
   "arbeitsagentur": {
-   "fetched": 332
+   "fetched": 334
   },
   "arbeitnow": {
    "fetched": 4500
@@ -13,7 +13,7 @@
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 215
+   "fetched": 214
   },
   "remoteok": {
    "fetched": 99
@@ -31,8 +31,8 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1128,
-   "failed": 16
+   "checked": 1135,
+   "failed": 15
   }
  },
  "errors": {
@@ -49,18 +49,17 @@
    "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
    "Newrich Network": "HTTP 429",
-   "Somnio Software": "HTTP 429",
-   "ECOM Trading": "HTTP 429",
    "Crystalia Glass": "HTTP 429",
-   "Lucidya": "HTTP 429"
+   "Lucidya": "HTTP 429",
+   "Hireframe": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 500
+  "callsToday": 60,
+  "callsLast7Days": 530
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -109,57 +108,50 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=327, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=328, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 104,
+  "tried": 38,
   "found": [
-   "wppmedia (greenhouse:wppmedia)",
-   "Sitimecorporation (greenhouse:sitimecorporation)",
-   "Sword Health (greenhouse:swordhealth)",
-   "Mindpeak (ashby:mindpeak)",
-   "Board Intelligence (lever:boardintelligence)",
-   "DCF Verlag GmbH (recruitee:dcfverlag)",
-   "4ALLPORTAL GmbH (recruitee:4allportal)",
-   "Nomios (recruitee:nomios)",
-   "Zoi (recruitee:zoi)",
-   "Dotmatics (greenhouse:dotmatics)",
-   "Peerspace (lever:peerspace)",
-   "SichtbarerWerden (recruitee:sichtbarerwerden)",
-   "TeamSnap (lever:teamsnap)",
-   "Mainspring Energy (lever:mainspringenergy)"
+   "Hireframe (workable:hireframe)",
+   "PCS Systemtechnik GmbH (personio:pcs-systemtechnik-gmbh)",
+   "logicc (personio:logicc)",
+   "Cloover (personio:cloover)",
+   "PartSpace GmbH (personio:partspace)",
+   "Quince (greenhouse:quince)",
+   "Liatrio (lever:liatrio)"
   ]
  },
- "collectedAt": "2026-10-19T13:40:59+00:00",
- "rawJobs": 61090,
- "matches": 226,
- "new": 14,
- "companies": 1182,
- "activeCompanies": 1128,
+ "collectedAt": "2026-10-19T16:49:54+00:00",
+ "rawJobs": 61109,
+ "matches": 249,
+ "new": 10,
+ "companies": 1189,
+ "activeCompanies": 1135,
  "funnel": {
-  "passed": 501,
-  "salary": 20,
-  "title": 58425,
-  "company": 81,
-  "duplicate": 275,
-  "location": 1899,
+  "company": 84,
+  "title": 58428,
+  "passed": 515,
+  "salary": 11,
+  "duplicate": 266,
+  "location": 1907,
   "too_old": 139,
   "employment": 25
  },
  "matchesBySource": {
-  "adzuna": 87,
+  "adzuna": 109,
+  "arbeitsagentur": 26,
   "arbeitnow": 10,
   "jobicy": 6,
-  "himalayas": 2,
-  "ashby": 44,
+  "ashby": 45,
   "weworkremotely": 7,
   "recruitee": 14,
-  "greenhouse": 13,
-  "arbeitsagentur": 24,
+  "greenhouse": 12,
+  "himalayas": 1,
   "personio": 12,
   "smartrecruiters": 1,
   "hn": 6
