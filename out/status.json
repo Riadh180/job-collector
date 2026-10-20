@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1083
+   "fetched": 1028
   },
   "arbeitsagentur": {
-   "fetched": 334
+   "fetched": 327
   },
   "arbeitnow": {
    "fetched": 4200
   },
   "remotive": {
-   "fetched": 96
+   "fetched": 80
   },
   "jobicy": {
-   "fetched": 222
+   "fetched": 231
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 76
+   "fetched": 79
   },
   "hn": {
    "fetched": 305
@@ -31,28 +31,21 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1146,
-   "failed": 23
+   "checked": 1153,
+   "failed": 16
   }
  },
  "errors": {
   "companies": {
+   "InfStones": "HTTP 404",
    "SORACOM": "HTTP 429",
-   "OptiTrack": "HTTP 429",
    "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
-   "Paralucent": "HTTP 429",
    "WPT Global": "HTTP 429",
-   "EY": "HTTP 429",
    "Payabl": "HTTP 429",
-   "Luscii": "HTTP 429",
-   "INDG": "HTTP 429",
-   "Itility B.V.": "HTTP 429",
-   "CrazyGames": "HTTP 429",
-   "NEXT Ventures": "HTTP 429",
-   "AlmavivA de Belgique": "HTTP 429",
    "Houst": "HTTP 429",
    "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
@@ -64,10 +57,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 560
+  "callsToday": 30,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -116,54 +109,49 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=328, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=324, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 70,
+  "tried": 77,
   "found": [
-   "VRChat (lever:vrchat)",
-   "ITB- (recruitee:itbgmbh)",
-   "Fender (greenhouse:fender)",
-   "Epic Brands GmbH (smartrecruiters:epicbrands)",
-   "Rain (ashby:rain)",
-   "Qualifyze (recruitee:qualifyzegmbh)",
-   "PlanetScale (greenhouse:planetscale)",
-   "Wimex-Gruppe (recruitee:wimexgruppe)",
-   "Mactores (lever:mactores)",
-   "Portcast (lever:portcast)",
-   "Go Vocal (recruitee:govocal)"
+   "Hopper (ashby:hopper)",
+   "Onboarded (lever:onboarded)",
+   "AMS Accelerate IT (recruitee:amsaccelerateit)",
+   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
+   "Hirehire (ashby:hirehire)",
+   "Aveni (ashby:aveni)",
+   "Relief International (smartrecruiters:reliefinternational)"
   ]
  },
- "collectedAt": "2026-10-19T20:21:23+00:00",
- "rawJobs": 60946,
- "matches": 229,
- "new": 5,
- "companies": 1200,
- "activeCompanies": 1146,
+ "collectedAt": "2026-10-20T08:07:49+00:00",
+ "rawJobs": 61275,
+ "matches": 246,
+ "new": 19,
+ "companies": 1207,
+ "activeCompanies": 1153,
  "funnel": {
-  "passed": 506,
-  "salary": 22,
-  "title": 58288,
-  "company": 76,
-  "duplicate": 277,
-  "employment": 28,
-  "location": 1886,
-  "too_old": 140
+  "passed": 518,
+  "duplicate": 272,
+  "title": 58597,
+  "location": 1915,
+  "company": 67,
+  "salary": 11,
+  "employment": 26,
+  "too_old": 141
  },
  "matchesBySource": {
-  "arbeitnow": 11,
-  "himalayas": 4,
-  "adzuna": 85,
-  "arbeitsagentur": 25,
+  "adzuna": 112,
+  "arbeitnow": 8,
   "jobicy": 7,
   "ashby": 44,
   "weworkremotely": 7,
   "recruitee": 14,
-  "greenhouse": 13,
+  "arbeitsagentur": 23,
+  "greenhouse": 12,
   "personio": 12,
   "smartrecruiters": 1,
   "hn": 6
