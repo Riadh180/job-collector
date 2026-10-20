@@ -4587,7 +4587,7 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Makpar",
@@ -7402,8 +7402,7 @@
   "ats": "greenhouse",
   "slug": "skdse",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-19",
-  "failCount": 1
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Polar",
@@ -9715,7 +9714,8 @@
   "ats": "recruitee",
   "slug": "wimexgruppe",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-20",
+  "failCount": 1
  },
  {
   "name": "Mactores",
@@ -9787,13 +9787,38 @@
   "ats": "recruitee",
   "slug": "amsaccelerateit",
   "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-20",
+  "failCount": 1
  },
  {
   "name": "Relief International",
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "reliefinternational",
+  "addedBy": "probe 2026-10-20",
+  "lastOk": "2026-10-20"
+ },
+ {
+  "name": "SAP IT Business Systeme",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "sapitbusinesssysteme",
+  "addedBy": "probe 2026-10-20",
+  "lastOk": "2026-10-20"
+ },
+ {
+  "name": "Capmo GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "capmo",
+  "addedBy": "probe 2026-10-20",
+  "lastOk": "2026-10-20"
+ },
+ {
+  "name": "Onebrief",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "onebrief",
   "addedBy": "probe 2026-10-20",
   "lastOk": "2026-10-20"
  }

@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1024
+   "fetched": 1060
   },
   "arbeitsagentur": {
-   "fetched": 327
+   "fetched": 342
   },
   "arbeitnow": {
-   "fetched": 4200
+   "fetched": 4500
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 231
+   "fetched": 219
   },
   "remoteok": {
    "fetched": 99
@@ -31,22 +31,23 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1153,
-   "failed": 2
+   "checked": 1156,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "Skdse": "HTTP 404"
+   "Wimex-Gruppe": "HTTP 429",
+   "AMS Accelerate IT": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 20,
   "searchesTotal": 36,
-  "callsToday": 30,
-  "callsLast7Days": 450
+  "callsToday": 60,
+  "callsLast7Days": 480
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -102,43 +103,39 @@
   "failed": 0
  },
  "probe": {
-  "tried": 95,
+  "tried": 10,
   "found": [
-   "Hopper (ashby:hopper)",
-   "Onboarded (lever:onboarded)",
-   "Hirehire (ashby:hirehire)",
-   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
-   "Aveni (ashby:aveni)",
-   "AMS Accelerate IT (recruitee:amsaccelerateit)",
-   "Relief International (smartrecruiters:reliefinternational)"
+   "SAP IT Business Systeme (smartrecruiters:sapitbusinesssysteme)",
+   "Capmo GmbH (personio:capmo)",
+   "Onebrief (ashby:onebrief)"
   ]
  },
- "collectedAt": "2026-10-20T09:16:19+00:00",
- "rawJobs": 61744,
- "matches": 245,
- "new": 20,
- "companies": 1207,
- "activeCompanies": 1153,
+ "collectedAt": "2026-10-20T09:45:53+00:00",
+ "rawJobs": 62438,
+ "matches": 222,
+ "new": 1,
+ "companies": 1210,
+ "activeCompanies": 1156,
  "funnel": {
-  "passed": 517,
-  "duplicate": 272,
-  "title": 59055,
-  "location": 1927,
-  "company": 67,
-  "salary": 11,
-  "employment": 26,
+  "passed": 475,
+  "salary": 15,
+  "title": 59784,
+  "company": 60,
+  "duplicate": 253,
+  "employment": 25,
+  "location": 1938,
   "too_old": 141
  },
  "matchesBySource": {
-  "adzuna": 112,
+  "adzuna": 87,
   "himalayas": 1,
-  "arbeitnow": 8,
+  "arbeitnow": 7,
   "jobicy": 7,
-  "ashby": 44,
+  "ashby": 46,
   "weworkremotely": 7,
   "recruitee": 13,
+  "greenhouse": 13,
   "arbeitsagentur": 23,
-  "greenhouse": 12,
   "personio": 12,
   "hn": 6
  }
