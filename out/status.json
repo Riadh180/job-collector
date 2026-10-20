@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1018
+   "fetched": 1071
   },
   "arbeitsagentur": {
    "fetched": 344
   },
   "arbeitnow": {
-   "fetched": 4200
+   "fetched": 4082
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 236
+   "fetched": 239
   },
   "remoteok": {
    "fetched": 99
@@ -22,54 +22,68 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 79
+   "fetched": 81
   },
   "hn": {
    "fetched": 305
   },
   "workingnomads": {
-   "fetched": 44
+   "fetched": 45
   },
   "companies": {
-   "checked": 1159,
-   "failed": 25
+   "checked": 1168,
+   "failed": 39
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
    "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
+   "Jimmy Technologies": "HTTP 429",
+   "celebrate company GmbH": "HTTP 429",
+   "Nodeworthy": "HTTP 429",
    "OptiTrack": "HTTP 429",
+   "Symmetrio": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
    "WPT Global": "HTTP 429",
    "Payabl": "HTTP 429",
    "Houst": "HTTP 429",
    "Sperasoft": "HTTP 429",
    "Azeus Convene": "HTTP 429",
+   "Newrich Network": "HTTP 429",
+   "ECOM Trading": "HTTP 429",
    "Crystalia Glass": "HTTP 429",
    "Lucidya": "HTTP 429",
+   "Curotec": "HTTP 429",
+   "Saga": "HTTP 429",
+   "Powerprozesse": "HTTP 429",
+   "TECOSIM GmbH": "HTTP 429",
+   "Unifonic": "HTTP 429",
+   "Profitap": "HTTP 429",
+   "Holzland Becker": "HTTP 429",
+   "inovex GmbH": "HTTP 429",
+   "Bromcom Computers Plc": "HTTP 429",
+   "One Mobility": "HTTP 429",
+   "Hypertrics GmbH": "HTTP 429",
+   "CipSoft GmbH": "HTTP 429",
+   "AltScore": "HTTP 429",
+   "Hireframe": "HTTP 429",
    "4ALLPORTAL GmbH": "HTTP 429",
    "Nomios": "HTTP 429",
-   "Hireframe": "HTTP 429",
-   "Zoi": "HTTP 429",
    "SichtbarerWerden": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429",
+   "DCF Verlag GmbH": "HTTP 429",
+   "Zoi": "HTTP 429",
    "BusPlanner": "HTTP 429",
-   "AMS Accelerate IT": "HTTP 429"
+   "GoGlobal": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 19,
+  "searchesThisRun": 17,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 480
+  "callsToday": 90,
+  "callsLast7Days": 510
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -125,42 +139,46 @@
   "failed": 0
  },
  "probe": {
-  "tried": 35,
+  "tried": 80,
   "found": [
-   "BusPlanner (workable:busplanner)",
-   "Meierhofer AG (personio:meierhofer)",
-   "SAP IT Business Systeme (smartrecruiters:sapitbusinesssysteme)",
-   "Capmo GmbH (personio:capmo)",
-   "Quantumdiamonds (ashby:quantumdiamonds)"
+   "Circuithub (ashby:circuithub)",
+   "Spreetail Inc. (lever:spreetail)",
+   "GoGlobal (workable:goglobal)",
+   "Parallel Wireless (lever:parallelwireless)",
+   "InductiveHealth (lever:inductivehealth)",
+   "Alter Solutions (smartrecruiters:altersolutions)",
+   "Fivetran (greenhouse:fivetran)",
+   "Bolster Inc. (lever:bolster)",
+   "Interlead (personio:interlead)"
   ]
  },
- "collectedAt": "2026-10-20T14:44:41+00:00",
- "rawJobs": 61353,
- "matches": 223,
- "new": 5,
- "companies": 1213,
- "activeCompanies": 1159,
+ "collectedAt": "2026-10-20T18:53:48+00:00",
+ "rawJobs": 61666,
+ "matches": 253,
+ "new": 15,
+ "companies": 1222,
+ "activeCompanies": 1168,
  "funnel": {
-  "passed": 483,
-  "salary": 15,
-  "title": 58712,
-  "company": 58,
-  "duplicate": 260,
-  "employment": 25,
-  "location": 1920,
-  "too_old": 140
+  "title": 58972,
+  "passed": 547,
+  "duplicate": 294,
+  "salary": 10,
+  "employment": 26,
+  "company": 66,
+  "location": 1909,
+  "too_old": 136
  },
  "matchesBySource": {
-  "adzuna": 85,
-  "arbeitnow": 9,
+  "adzuna": 116,
+  "arbeitsagentur": 25,
+  "arbeitnow": 12,
+  "himalayas": 3,
+  "ashby": 41,
   "jobicy": 9,
   "smartrecruiters": 1,
-  "himalayas": 1,
-  "ashby": 46,
   "weworkremotely": 7,
-  "recruitee": 13,
-  "greenhouse": 12,
-  "arbeitsagentur": 24,
+  "greenhouse": 11,
+  "recruitee": 12,
   "personio": 10,
   "hn": 6
  }
