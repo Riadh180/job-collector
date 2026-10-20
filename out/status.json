@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1071
+   "fetched": 1017
   },
   "arbeitsagentur": {
    "fetched": 344
   },
   "arbeitnow": {
-   "fetched": 4082
+   "fetched": 4079
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 239
+   "fetched": 233
   },
   "remoteok": {
    "fetched": 99
@@ -31,19 +31,16 @@
    "fetched": 45
   },
   "companies": {
-   "checked": 1168,
-   "failed": 39
+   "checked": 1159,
+   "failed": 15
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
    "SORACOM": "HTTP 429",
-   "Jimmy Technologies": "HTTP 429",
-   "celebrate company GmbH": "HTTP 429",
-   "Nodeworthy": "HTTP 429",
-   "OptiTrack": "HTTP 429",
    "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
    "Vasion": "HTTP 429",
    "crewAI": "HTTP 429",
    "WPT Global": "HTTP 429",
@@ -80,10 +77,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 17,
+  "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 510
+  "callsToday": 30,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -139,46 +136,50 @@
   "failed": 0
  },
  "probe": {
-  "tried": 80,
+  "tried": 120,
   "found": [
+   "Hopper (ashby:hopper)",
    "Circuithub (ashby:circuithub)",
+   "Meierhofer AG (personio:meierhofer)",
    "Spreetail Inc. (lever:spreetail)",
-   "GoGlobal (workable:goglobal)",
    "Parallel Wireless (lever:parallelwireless)",
-   "InductiveHealth (lever:inductivehealth)",
+   "Quantumdiamonds (ashby:quantumdiamonds)",
+   "Cygrid GmbH (recruitee:cygridgmbh)",
+   "Onebrief (ashby:onebrief)",
+   "Hirehire (ashby:hirehire)",
    "Alter Solutions (smartrecruiters:altersolutions)",
    "Fivetran (greenhouse:fivetran)",
    "Bolster Inc. (lever:bolster)",
    "Interlead (personio:interlead)"
   ]
  },
- "collectedAt": "2026-10-20T18:53:48+00:00",
- "rawJobs": 61666,
- "matches": 253,
- "new": 15,
- "companies": 1222,
- "activeCompanies": 1168,
+ "collectedAt": "2026-10-20T20:30:18+00:00",
+ "rawJobs": 61827,
+ "matches": 259,
+ "new": 37,
+ "companies": 1213,
+ "activeCompanies": 1159,
  "funnel": {
-  "title": 58972,
-  "passed": 547,
-  "duplicate": 294,
-  "salary": 10,
+  "passed": 550,
+  "title": 59125,
+  "company": 62,
+  "salary": 11,
+  "duplicate": 291,
   "employment": 26,
-  "company": 66,
-  "location": 1909,
+  "location": 1917,
   "too_old": 136
  },
  "matchesBySource": {
-  "adzuna": 116,
+  "adzuna": 120,
   "arbeitsagentur": 25,
   "arbeitnow": 12,
-  "himalayas": 3,
-  "ashby": 41,
   "jobicy": 9,
+  "himalayas": 4,
+  "ashby": 41,
   "smartrecruiters": 1,
   "weworkremotely": 7,
+  "recruitee": 13,
   "greenhouse": 11,
-  "recruitee": 12,
   "personio": 10,
   "hn": 6
  }
