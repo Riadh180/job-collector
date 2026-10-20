@@ -4915,8 +4915,7 @@
   "ats": "workable",
   "slug": "soracom",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "DAMEDIC",
@@ -7010,8 +7009,7 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "OptiTrack",
@@ -7019,8 +7017,7 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "ResourceQ Services",
@@ -7084,8 +7081,7 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Comet",
@@ -7406,7 +7402,8 @@
   "ats": "greenhouse",
   "slug": "skdse",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Polar",
@@ -7494,8 +7491,7 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Chariot Solutions",
@@ -7519,8 +7515,7 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Provectus",
@@ -8016,8 +8011,7 @@
   "ats": "workable",
   "slug": "wpt-global",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Luscii",
@@ -8057,8 +8051,7 @@
   "ats": "workable",
   "slug": "payabl",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Sonicwall",
@@ -8498,8 +8491,7 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "CoLab Software",
@@ -8563,8 +8555,7 @@
   "ats": "workable",
   "slug": "sperasoft",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "OKX",
@@ -8612,8 +8603,7 @@
   "ats": "workable",
   "slug": "azeus-convene",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "sofatutor GmbH",
@@ -8981,8 +8971,7 @@
   "ats": "workable",
   "slug": "newrich-network",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Valid",
@@ -9126,8 +9115,7 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Saga",
@@ -9151,8 +9139,7 @@
   "ats": "workable",
   "slug": "lucidya",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-18",
-  "failCount": 4
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Sardine",
@@ -9616,7 +9603,7 @@
   "ats": "workable",
   "slug": "hireframe",
   "addedBy": "probe 2026-10-19",
-  "failCount": 3
+  "lastOk": "2026-10-20"
  },
  {
   "name": "PCS Systemtechnik GmbH",
@@ -9771,10 +9758,10 @@
   "lastOk": "2026-10-20"
  },
  {
-  "name": "AMS Accelerate IT",
+  "name": "Hirehire",
   "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "amsaccelerateit",
+  "ats": "ashby",
+  "slug": "hirehire",
   "addedBy": "probe 2026-10-20",
   "lastOk": "2026-10-20"
  },
@@ -9787,18 +9774,18 @@
   "lastOk": "2026-10-20"
  },
  {
-  "name": "Hirehire",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "hirehire",
-  "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20"
- },
- {
   "name": "Aveni",
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "aveni",
+  "addedBy": "probe 2026-10-20",
+  "lastOk": "2026-10-20"
+ },
+ {
+  "name": "AMS Accelerate IT",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "amsaccelerateit",
   "addedBy": "probe 2026-10-20",
   "lastOk": "2026-10-20"
  },

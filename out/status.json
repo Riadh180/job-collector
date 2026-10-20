@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1028
+   "fetched": 1024
   },
   "arbeitsagentur": {
    "fetched": 327
@@ -32,27 +32,13 @@
   },
   "companies": {
    "checked": 1153,
-   "failed": 16
+   "failed": 2
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "SORACOM": "HTTP 429",
-   "Symmetrio": "HTTP 429",
-   "OptiTrack": "HTTP 429",
-   "Vasion": "HTTP 429",
-   "crewAI": "HTTP 429",
-   "Khibraty": "HTTP 429",
-   "WPT Global": "HTTP 429",
-   "Payabl": "HTTP 429",
-   "Houst": "HTTP 429",
-   "Sperasoft": "HTTP 429",
-   "Azeus Convene": "HTTP 429",
-   "Newrich Network": "HTTP 429",
-   "Crystalia Glass": "HTTP 429",
-   "Lucidya": "HTTP 429",
-   "Hireframe": "HTTP 429"
+   "Skdse": "HTTP 404"
   }
  },
  "adzuna_usage": {
@@ -109,35 +95,35 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=324, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 77,
+  "tried": 95,
   "found": [
    "Hopper (ashby:hopper)",
    "Onboarded (lever:onboarded)",
-   "AMS Accelerate IT (recruitee:amsaccelerateit)",
-   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
    "Hirehire (ashby:hirehire)",
+   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
    "Aveni (ashby:aveni)",
+   "AMS Accelerate IT (recruitee:amsaccelerateit)",
    "Relief International (smartrecruiters:reliefinternational)"
   ]
  },
- "collectedAt": "2026-10-20T08:07:49+00:00",
- "rawJobs": 61275,
- "matches": 246,
- "new": 19,
+ "collectedAt": "2026-10-20T09:16:19+00:00",
+ "rawJobs": 61744,
+ "matches": 245,
+ "new": 20,
  "companies": 1207,
  "activeCompanies": 1153,
  "funnel": {
-  "passed": 518,
+  "passed": 517,
   "duplicate": 272,
-  "title": 58597,
-  "location": 1915,
+  "title": 59055,
+  "location": 1927,
   "company": 67,
   "salary": 11,
   "employment": 26,
@@ -145,15 +131,15 @@
  },
  "matchesBySource": {
   "adzuna": 112,
+  "himalayas": 1,
   "arbeitnow": 8,
   "jobicy": 7,
   "ashby": 44,
   "weworkremotely": 7,
-  "recruitee": 14,
+  "recruitee": 13,
   "arbeitsagentur": 23,
   "greenhouse": 12,
   "personio": 12,
-  "smartrecruiters": 1,
   "hn": 6
  }
 }
