@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1060
+   "fetched": 1024
   },
   "arbeitsagentur": {
    "fetched": 342
@@ -13,7 +13,7 @@
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 219
+   "fetched": 231
   },
   "remoteok": {
    "fetched": 99
@@ -31,23 +31,32 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1156,
-   "failed": 3
+   "checked": 1154,
+   "failed": 12
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "Wimex-Gruppe": "HTTP 429",
-   "AMS Accelerate IT": "HTTP 429"
+   "Holzland Becker": "HTTP 429",
+   "inovex GmbH": "HTTP 429",
+   "One Mobility": "HTTP 429",
+   "Bromcom Computers Plc": "HTTP 429",
+   "Hypertrics GmbH": "HTTP 429",
+   "CipSoft GmbH": "HTTP 429",
+   "AltScore": "HTTP 429",
+   "DCF Verlag GmbH": "HTTP 429",
+   "4ALLPORTAL GmbH": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "Nomios": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
-  "searchesThisRun": 20,
+  "searchesThisRun": 19,
   "searchesTotal": 36,
-  "callsToday": 60,
-  "callsLast7Days": 480
+  "callsToday": 30,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -103,39 +112,44 @@
   "failed": 0
  },
  "probe": {
-  "tried": 10,
+  "tried": 98,
   "found": [
-   "SAP IT Business Systeme (smartrecruiters:sapitbusinesssysteme)",
-   "Capmo GmbH (personio:capmo)",
-   "Onebrief (ashby:onebrief)"
+   "Hopper (ashby:hopper)",
+   "Onboarded (lever:onboarded)",
+   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
+   "Onebrief (ashby:onebrief)",
+   "Hirehire (ashby:hirehire)",
+   "Aveni (ashby:aveni)",
+   "AMS Accelerate IT (recruitee:amsaccelerateit)",
+   "Relief International (smartrecruiters:reliefinternational)"
   ]
  },
- "collectedAt": "2026-10-20T09:45:53+00:00",
- "rawJobs": 62438,
- "matches": 222,
- "new": 1,
- "companies": 1210,
- "activeCompanies": 1156,
+ "collectedAt": "2026-10-20T10:04:44+00:00",
+ "rawJobs": 61841,
+ "matches": 243,
+ "new": 20,
+ "companies": 1208,
+ "activeCompanies": 1154,
  "funnel": {
-  "passed": 475,
-  "salary": 15,
-  "title": 59784,
-  "company": 60,
-  "duplicate": 253,
-  "employment": 25,
-  "location": 1938,
-  "too_old": 141
+  "passed": 515,
+  "duplicate": 272,
+  "title": 59134,
+  "location": 1948,
+  "company": 67,
+  "salary": 11,
+  "employment": 26,
+  "too_old": 140
  },
  "matchesBySource": {
-  "adzuna": 87,
+  "adzuna": 112,
   "himalayas": 1,
-  "arbeitnow": 7,
+  "arbeitnow": 8,
   "jobicy": 7,
   "ashby": 46,
   "weworkremotely": 7,
-  "recruitee": 13,
-  "greenhouse": 13,
   "arbeitsagentur": 23,
+  "greenhouse": 11,
+  "recruitee": 12,
   "personio": 12,
   "hn": 6
  }

@@ -4587,7 +4587,7 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Makpar",
@@ -9290,7 +9290,8 @@
   "ats": "recruitee",
   "slug": "holzlandbecker",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Ready",
@@ -9346,7 +9347,8 @@
   "ats": "recruitee",
   "slug": "inovex",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Menlo",
@@ -9386,7 +9388,8 @@
   "ats": "recruitee",
   "slug": "hypertricsgmbh",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Bromcom Computers Plc",
@@ -9394,7 +9397,8 @@
   "ats": "recruitee",
   "slug": "bromcomcomputersplc",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "One Mobility",
@@ -9402,7 +9406,8 @@
   "ats": "recruitee",
   "slug": "onemobility",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "CipSoft GmbH",
@@ -9410,7 +9415,8 @@
   "ats": "recruitee",
   "slug": "cipsoft",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Sparrow Connected",
@@ -9474,7 +9480,8 @@
   "ats": "recruitee",
   "slug": "altscore",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Imprint",
@@ -9530,7 +9537,8 @@
   "ats": "recruitee",
   "slug": "dcfverlag",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "4ALLPORTAL GmbH",
@@ -9538,7 +9546,8 @@
   "ats": "recruitee",
   "slug": "4allportal",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Nomios",
@@ -9546,7 +9555,8 @@
   "ats": "recruitee",
   "slug": "nomios",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Zoi",
@@ -9554,7 +9564,8 @@
   "ats": "recruitee",
   "slug": "zoi",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-20"
+  "lastOk": "2026-10-19",
+  "failCount": 1
  },
  {
   "name": "Dotmatics",
@@ -9714,8 +9725,7 @@
   "ats": "recruitee",
   "slug": "wimexgruppe",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-20",
-  "failCount": 1
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Mactores",
@@ -9758,18 +9768,26 @@
   "lastOk": "2026-10-20"
  },
  {
-  "name": "Hirehire",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "hirehire",
-  "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20"
- },
- {
   "name": "BOLDLY GO INDUSTRIES",
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "boldlygoindustries",
+  "addedBy": "probe 2026-10-20",
+  "lastOk": "2026-10-20"
+ },
+ {
+  "name": "Onebrief",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "onebrief",
+  "addedBy": "probe 2026-10-20",
+  "lastOk": "2026-10-20"
+ },
+ {
+  "name": "Hirehire",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "hirehire",
   "addedBy": "probe 2026-10-20",
   "lastOk": "2026-10-20"
  },
@@ -9787,38 +9805,13 @@
   "ats": "recruitee",
   "slug": "amsaccelerateit",
   "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20",
-  "failCount": 1
+  "lastOk": "2026-10-20"
  },
  {
   "name": "Relief International",
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "reliefinternational",
-  "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20"
- },
- {
-  "name": "SAP IT Business Systeme",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "sapitbusinesssysteme",
-  "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20"
- },
- {
-  "name": "Capmo GmbH",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "capmo",
-  "addedBy": "probe 2026-10-20",
-  "lastOk": "2026-10-20"
- },
- {
-  "name": "Onebrief",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "onebrief",
   "addedBy": "probe 2026-10-20",
   "lastOk": "2026-10-20"
  }
