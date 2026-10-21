@@ -219,7 +219,17 @@
   ],
   "nationwide_homeoffice": true,
   "veroeffentlichtseit": 30,
-  "pages": 3
+  "pages": 3,
+  "generic_queries": [
+   "Softwareentwickler",
+   "Software Engineer",
+   "Software Developer",
+   "Anwendungsentwickler",
+   "Webentwicklung",
+   "Fullstack-Entwickler",
+   "Frontend-Entwickler"
+  ],
+  "detail_limit": 350
  },
  "boards": {
   "arbeitnow_pages": 30,
@@ -498,7 +508,12 @@
    "javascript",
    "node.js",
    "webentwickler",
-   "app entwickler"
+   "app entwickler",
+   "softwareentwickler react",
+   "software engineer react",
+   "entwickler typescript",
+   "frontend developer react",
+   "mobile developer react native"
   ],
   "places": [
    {
@@ -510,9 +525,9 @@
     "distance": 30
    }
   ],
-  "calls_per_run": 30,
-  "max_per_day": 140,
+  "calls_per_run": 45,
+  "max_per_day": 160,
   "max_per_week": 900,
-  "max_per_month": 2300
+  "max_per_month": 2400
  }
 }

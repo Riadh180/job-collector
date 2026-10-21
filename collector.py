@@ -219,12 +219,35 @@ def accept(r, loc_extra=""):
     r["stackHits"] = sorted(set(m.group(0) for m in RE_STACK.finditer(d)))[:6] if d else []
     r["match"] = f"{why_t}; {why_l}"
     r["facts"] = key_facts(r["_desc"])
+    r["remoteProof"] = remote_proof(r["_desc"], r["location"])
     FUNNEL["passed"] = FUNNEL.get("passed", 0) + 1
     return r
 
 
 RE_FACT = re.compile(r"remote|home ?office|hybrid|office|büro|vor ort|on-?site|days? (a|per) week|tage|€|eur|salary|gehalt|"
                      r"compensation|vergütung|unbefristet|permanent|english|deutsch|german|react|typescript|node|expo|years", re.I)
+
+
+RE_PROOF = re.compile(r"remote|home ?office|home-office|mobiles? arbeit|telearbeit|hybrid|vor ort|on-?site|in[- ]office|"
+                      r"office days?|tage? (im|pro|in der)|days? (a|per) (week|month)|präsenz|büro|ortsunabhängig|"
+                      r"anywhere|work from|deutschlandweit|bundesweit", re.I)
+
+
+def remote_proof(desc, loc=""):
+    """The sentences that say where/how the work happens, so the hunt can apply the location rule without
+    opening the posting (e.g. 'Fully remote within Germany', '2 Tage pro Woche im Büro Köln')."""
+    if not desc:
+        return ""
+    sents = re.split(r"(?<=[.!?•·])\s+|\s{2,}", desc)
+    picked, total = [], 0
+    for s in sents:
+        s = s.strip()
+        if 10 < len(s) < 300 and RE_PROOF.search(s) and s not in picked:
+            picked.append(s)
+            total += len(s)
+            if total > 450:
+                break
+    return " | ".join(picked)[:500]
 
 
 def key_facts(desc, limit=700):
@@ -471,15 +494,16 @@ def arbeitsagentur():
     if base is None:
         raise RuntimeError("no endpoint returned jobs: " + " | ".join(tries))
     searches = []
-    for q in a["queries"]:
-        common = {"was": q, "angebotsart": 1, "befristung": 2, "pav": "false", "zeitarbeit": "false",
-                  "veroeffentlichtseit": a["veroeffentlichtseit"], "size": 50}
-        for place in a["places"]:
-            searches.append(dict(common, wo=place["wo"], umkreis=place["umkreis"]))
-        if a.get("nationwide_homeoffice"):
-            searches.append(dict(common, arbeitszeit="ho"))
-    out, errors = [], 0
-    for params in searches:
+    for generic, qs in ((False, a["queries"]), (True, a.get("generic_queries", []))):
+        for q in qs:
+            common = {"was": q, "angebotsart": 1, "befristung": 2, "pav": "false", "zeitarbeit": "false",
+                      "veroeffentlichtseit": a["veroeffentlichtseit"], "size": 50}
+            for place in a["places"]:
+                searches.append((generic, dict(common, wo=place["wo"], umkreis=place["umkreis"])))
+            if a.get("nationwide_homeoffice"):
+                searches.append((generic, dict(common, arbeitszeit="ho")))
+    out, errors, seen_refs = [], 0, set()
+    for generic, params in searches:
         ho = params.get("arbeitszeit") == "ho"
         for page in range(1, a.get("pages", 3) + 1):
             code, j = get_json(base + "?" + urllib.parse.urlencode(dict(params, page=page)), H)
@@ -489,21 +513,67 @@ def arbeitsagentur():
                 break
             for x in items:
                 b = _ba_job(x)
-                if not b["ref"] or not b["title"]:
+                if not b["ref"] or not b["title"] or b["ref"] in seen_refs:
                     continue
+                seen_refs.add(b["ref"])
                 loc = " / ".join(filter(None, [b["city"], b["region"], "Deutschland"])) + (" / Homeoffice" if ho else "")
                 url = b["url"] or f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{b['ref']}"
-                # The search term itself is the stack signal (the list API has no description).
-                desc = f"{b['beruf']} {params['was']}"
-                out.append(rec("arbeitsagentur", b["ref"], b["employer"], b["title"], url, loc, parse_date(b["date"]),
-                               True if ho else None, "", None, desc, "unbefristet", "", "arbeitsagentur"))
+                # Specific searches (React, TypeScript…): the search term is the stack signal until the
+                # details call below replaces it with the real description. Generic searches carry none.
+                desc = f"{b['beruf']} {'' if generic else params['was']}".strip()
+                r = rec("arbeitsagentur", b["ref"], b["employer"], b["title"], url, loc, parse_date(b["date"]),
+                        True if ho else None, "", None, desc, "unbefristet", "", "arbeitsagentur")
+                r["_generic"] = generic
+                out.append(r)
             if len(items) < params["size"]:
                 break
             time.sleep(0.25)
     if not out and errors:
         raise RuntimeError(f"{errors} searches failed")
-    STATUS["arbeitsagentur_searches"] = {"searches": len(searches), "failed": errors}
+    details = ba_details(out, H, a.get("detail_limit", 300))
+    STATUS["arbeitsagentur_searches"] = {"searches": len(searches), "failed": errors, "jobs": len(out), "details": details}
     return out
+
+
+def _ba_detail_text(j):
+    f = _flat(j)
+    parts = [str(v) for k, v in f.items()
+             if re.search(r"beschreibung|aufgaben|anforderung|arbeitgeberdarstellung|profil|angebot$", k, re.I)
+             and isinstance(v, str) and len(v) > 40]
+    extra = [str(v) for k, v in f.items() if re.search(r"arbeitszeit|homeoffice|telearbeit|befristung|verguetung|gehalt", k, re.I)]
+    return strip_html(" ".join(parts + extra))[:6000]
+
+
+def ba_details(jobs, H, limit):
+    """Fetch the full description for promising Bundesagentur jobs (title could fit), so the stack check
+    and remote/office-day facts work like for company feeds. Generic-title jobs without React/TS etc. in
+    the description are dropped later by the normal title filter."""
+    cand = []
+    for r in jobs:
+        t = (r["title"] or "").lower()
+        if RE_TITLE_HARD.search(t):
+            continue
+        if RE_TITLE_INC.search(t) or RE_TITLE_GEN.search(t):
+            cand.append(r)
+    cand.sort(key=lambda r: (r.get("_generic", False), not bool(RE_TITLE_INC.search((r["title"] or "").lower()))))
+    cand = cand[:limit]
+    import base64
+
+    def one(r):
+        ref = r["id"].split(":", 1)[1]
+        enc = base64.b64encode(ref.encode()).decode()
+        for path in ("pc/v4/jobdetails/", "pc/v3/jobdetails/"):
+            code, j = get_json("https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/" + path + enc, H)
+            if j:
+                return r, _ba_detail_text(j)
+        return r, ""
+    ok = 0
+    with cf.ThreadPoolExecutor(8) as ex:
+        for r, text in ex.map(one, cand):
+            if text:
+                r["_desc"] = (text + " " + r["_desc"]).strip()[:6000]
+                ok += 1
+    return {"tried": len(cand), "ok": ok}
 
 
 def arbeitnow():
@@ -941,6 +1011,7 @@ def main():
             continue
         seen_keys.add(dedupe)
         a.pop("_desc", None)
+        a.pop("_generic", None)
         matches.append(a)
 
     seen = load("data/seen.json", {})
