@@ -28,11 +28,11 @@
    "fetched": 304
   },
   "workingnomads": {
-   "fetched": 44
+   "fetched": 43
   },
   "companies": {
-   "checked": 1181,
-   "failed": 26
+   "checked": 1182,
+   "failed": 17
   }
  },
  "errors": {
@@ -53,15 +53,6 @@
    "Crystalia Glass": "HTTP 429",
    "Lucidya": "HTTP 429",
    "Hireframe": "HTTP 429",
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "DCF Verlag GmbH": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429",
-   "BALLY’S INTRALOT SA": "HTTP 429",
    "Spread Group": "HTTP 429"
   }
  },
@@ -119,7 +110,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=320, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
@@ -128,6 +119,7 @@
  "probe": {
   "tried": 120,
   "found": [
+   "BSI Business Systems Integration Deutschland GmbH (recruitee:bsibusinesssystemsintegrationdeutschlandgmbh)",
    "Circuithub (ashby:circuithub)",
    "DeepJudge AG (ashby:deepjudge)",
    "voize GmbH (ashby:voize)",
@@ -165,20 +157,20 @@
    "Bigblue (lever:bigblue)"
   ]
  },
- "collectedAt": "2026-10-21T12:53:44+00:00",
- "rawJobs": 62738,
+ "collectedAt": "2026-10-21T13:31:57+00:00",
+ "rawJobs": 62884,
  "matches": 278,
  "new": 79,
- "companies": 1235,
- "activeCompanies": 1181,
+ "companies": 1236,
+ "activeCompanies": 1182,
  "funnel": {
   "passed": 600,
-  "title": 59926,
+  "title": 60067,
   "duplicate": 322,
-  "location": 1986,
-  "company": 51,
+  "location": 1989,
+  "company": 52,
   "salary": 7,
-  "employment": 23,
+  "employment": 24,
   "too_old": 138
  },
  "matchesBySource": {
