@@ -4587,7 +4587,7 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Makpar",
@@ -7011,7 +7011,8 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "OptiTrack",
@@ -7019,7 +7020,8 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "ResourceQ Services",
@@ -7083,7 +7085,8 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Comet",
@@ -7492,7 +7495,8 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Chariot Solutions",
@@ -7516,7 +7520,8 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Provectus",
@@ -8496,7 +8501,8 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "CoLab Software",
@@ -9126,7 +9132,8 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Saga",
@@ -9616,7 +9623,8 @@
   "ats": "workable",
   "slug": "hireframe",
   "addedBy": "probe 2026-10-19",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "PCS Systemtechnik GmbH",
@@ -9752,7 +9760,8 @@
   "ats": "recruitee",
   "slug": "govocal",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Circuithub",
@@ -9976,7 +9985,8 @@
   "ats": "recruitee",
   "slug": "ballysintralotsa",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Klaviyo",
@@ -10104,7 +10114,7 @@
   "ats": "workable",
   "slug": "fioneer",
   "addedBy": "probe 2026-10-21",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Quantumdiamonds",
@@ -10199,6 +10209,38 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "level-ai",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Lanshore",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lanshore",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Celestec e. K.",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "celestecek",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Distro",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "distro",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Entersekt",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "entersekt",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }
