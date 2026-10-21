@@ -4587,8 +4587,7 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 5,
-  "disabled": true
+  "failCount": 4
  },
  {
   "name": "Makpar",
@@ -9149,7 +9148,8 @@
   "ats": "recruitee",
   "slug": "saga",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Giftify",
@@ -10279,6 +10279,14 @@
   "ats": "workable",
   "slug": "the-mill-adventure",
   "addedBy": "probe 2026-10-21",
+  "failCount": 1
+ },
+ {
+  "name": "Kombo",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "kombo",
+  "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
  {
@@ -10290,10 +10298,10 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "REDICA Systems",
+  "name": "BeiGene",
   "industry": "from job boards",
   "ats": "smartrecruiters",
-  "slug": "redicasystems",
+  "slug": "beigene",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }

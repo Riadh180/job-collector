@@ -1,12 +1,12 @@
 {
- "collectedAt": "2026-10-21T19:06:09+00:00",
- "count": 2,
+ "collectedAt": "2026-10-21T20:34:13+00:00",
+ "count": 4,
  "jobs": [
   {
    "id": "adzuna:5936957093",
    "company": "Quantum-Systems GmbH",
    "title": "(Senior) Frontend Engineer – Cloud Solutions (m/f/d)",
-   "url": "https://www.adzuna.de/land/ad/5936957093?se=cj6liYLN8RG8f8HyuNM3ow&utm_medium=api&utm_source=c19f1397&v=CC7E4BF9A4BBB166009E3D5CAFC7CEA24A9D7EAD",
+   "url": "https://www.adzuna.de/details/5936957093?utm_medium=api&utm_source=c19f1397",
    "location": "Gilching, Starnberg (Kreis) / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-21",
@@ -16,13 +16,11 @@
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
+   "stackHits": [],
    "match": "title; remote",
-   "facts": "As part of our Cloud Team, you will build applications that increase the efficiency of our innovation and maintenance processes, whi… typescript",
+   "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-21T19:06:09+00:00"
+   "firstSeen": "2026-10-21T20:34:13+00:00"
   },
   {
    "id": "adzuna:5936928713",
@@ -38,13 +36,53 @@
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
-   "stackHits": [
-    "typescript"
-   ],
+   "stackHits": [],
    "match": "title; remote",
-   "facts": "Für unser… typescript",
+   "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-21T19:06:09+00:00"
+   "firstSeen": "2026-10-21T20:34:13+00:00"
+  },
+  {
+   "id": "adzuna:5936956825",
+   "company": "ORBIT Gesellschaft für Applikations- und Informationssysteme mbH",
+   "title": "AI & Software Developer (m/w/d)",
+   "url": "https://www.adzuna.de/details/5936956825?utm_medium=api&utm_source=c19f1397",
+   "location": "Bonn, Nordrhein-Westfalen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-10-21",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; NRW",
+   "facts": "Der respektvolle Umgang auf Augenhöhe gehört hier genauso zum guten Ton wie das freundlic… react",
+   "remoteProof": "",
+   "firstSeen": "2026-10-21T20:34:13+00:00"
+  },
+  {
+   "id": "adzuna:5930995989",
+   "company": "escape",
+   "title": "Full-Stack-Web-Developer (m/w/d)",
+   "url": "https://www.adzuna.de/details/5930995989?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "As part of our Cloud Team, you will build applications that increase the efficiency of our innovation and maintenance processes, whi… typescript",
+   "remoteProof": "",
+   "firstSeen": "2026-10-21T20:34:13+00:00"
   }
  ]
 }

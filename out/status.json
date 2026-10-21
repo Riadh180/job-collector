@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 465
+   "fetched": 1493
   },
   "arbeitsagentur": {
    "fetched": 309
   },
   "arbeitnow": {
-   "fetched": 4039
+   "fetched": 4289
   },
   "remotive": {
    "fetched": 80
@@ -31,36 +31,23 @@
    "fetched": 44
   },
   "companies": {
-   "checked": 1195,
-   "failed": 16
+   "checked": 1196,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "inovex GmbH": "HTTP 429",
-   "Hypertrics GmbH": "HTTP 429",
-   "Bromcom Computers Plc": "HTTP 429",
-   "One Mobility": "HTTP 429",
-   "CipSoft GmbH": "HTTP 429",
-   "AltScore": "HTTP 429",
-   "DCF Verlag GmbH": "HTTP 429",
-   "Nomios": "HTTP 429",
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429"
+   "Saga": "HTTP 429",
+   "The Mill Adventure": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 10,
-  "searchesThisRun": 5,
+  "callsThisRun": 45,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 460
+  "callsToday": 150,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -121,35 +108,37 @@
   }
  },
  "probe": {
-  "tried": 19,
+  "tried": 27,
   "found": [
    "The Mill Adventure (workable:the-mill-adventure)",
+   "Kombo (ashby:kombo)",
    "sonymusicentertainment (greenhouse:sonymusicentertainment)",
-   "REDICA Systems (smartrecruiters:redicasystems)"
+   "BeiGene (smartrecruiters:beigene)"
   ]
  },
- "collectedAt": "2026-10-21T19:06:09+00:00",
- "rawJobs": 63241,
- "matches": 232,
- "new": 2,
- "companies": 1264,
- "activeCompanies": 1195,
+ "collectedAt": "2026-10-21T20:34:13+00:00",
+ "rawJobs": 64947,
+ "matches": 259,
+ "new": 4,
+ "companies": 1265,
+ "activeCompanies": 1196,
  "funnel": {
-  "title": 60691,
-  "passed": 395,
-  "company": 33,
-  "duplicate": 163,
-  "salary": 2,
-  "too_old": 129,
-  "location": 1961,
-  "employment": 23
+  "title": 62144,
+  "passed": 598,
+  "salary": 13,
+  "duplicate": 339,
+  "location": 1972,
+  "company": 59,
+  "employment": 25,
+  "too_old": 129
  },
  "matchesBySource": {
-  "adzuna": 89,
-  "arbeitsagentur": 25,
+  "adzuna": 117,
   "ashby": 45,
+  "arbeitsagentur": 22,
   "arbeitnow": 12,
   "jobicy": 11,
+  "himalayas": 2,
   "smartrecruiters": 3,
   "weworkremotely": 6,
   "greenhouse": 13,
