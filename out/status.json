@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1178
+   "fetched": 1490
   },
   "arbeitsagentur": {
    "fetched": 309
   },
   "arbeitnow": {
-   "fetched": 5350
+   "fetched": 4041
   },
   "remotive": {
    "fetched": 80
@@ -31,24 +31,24 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1193,
+   "checked": 1192,
    "failed": 4
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "Hireframe": "HTTP 429",
-   "City Science": "HTTP 429",
-   "Knuddels & Co. KG": "HTTP 429"
+   "4ALLPORTAL GmbH": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "Nomios": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 32,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 105,
-  "callsLast7Days": 405
+  "callsToday": 150,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -109,35 +109,30 @@
   }
  },
  "probe": {
-  "tried": 75,
-  "found": [
-   "Knuddels & Co. KG (recruitee:knuddels)",
-   "Lupp + Partner (personio:lupp-partner)",
-   "escape (ashby:escape)",
-   "Taskom GmbH & Co. KG (personio:taskom)"
-  ]
+  "tried": 4,
+  "found": []
  },
- "collectedAt": "2026-10-21T17:10:36+00:00",
- "rawJobs": 65516,
- "matches": 284,
- "new": 19,
+ "collectedAt": "2026-10-21T17:30:13+00:00",
+ "rawJobs": 64468,
+ "matches": 255,
+ "new": 0,
  "companies": 1261,
- "activeCompanies": 1193,
+ "activeCompanies": 1192,
  "funnel": {
-  "title": 62690,
-  "passed": 609,
-  "duplicate": 325,
-  "company": 51,
-  "salary": 5,
+  "title": 61676,
+  "passed": 596,
+  "salary": 13,
+  "duplicate": 341,
+  "location": 1962,
+  "company": 60,
   "employment": 25,
-  "location": 2000,
   "too_old": 129
  },
  "matchesBySource": {
-  "adzuna": 141,
-  "ashby": 41,
-  "arbeitsagentur": 23,
-  "arbeitnow": 17,
+  "adzuna": 114,
+  "ashby": 45,
+  "arbeitsagentur": 22,
+  "arbeitnow": 12,
   "jobicy": 11,
   "himalayas": 1,
   "smartrecruiters": 3,
