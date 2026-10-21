@@ -9558,7 +9558,8 @@
   "ats": "recruitee",
   "slug": "dcfverlag",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "4ALLPORTAL GmbH",
@@ -9574,7 +9575,8 @@
   "ats": "recruitee",
   "slug": "nomios",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Zoi",
@@ -9582,7 +9584,8 @@
   "ats": "recruitee",
   "slug": "zoi",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Dotmatics",
@@ -9606,7 +9609,8 @@
   "ats": "recruitee",
   "slug": "sichtbarerwerden",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "TeamSnap",
@@ -9694,7 +9698,8 @@
   "ats": "recruitee",
   "slug": "itbgmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Fender",
@@ -9726,7 +9731,8 @@
   "ats": "recruitee",
   "slug": "qualifyzegmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "PlanetScale",
@@ -9742,7 +9748,8 @@
   "ats": "recruitee",
   "slug": "wimexgruppe",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Mactores",
@@ -10019,6 +10026,14 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Lanshore",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lanshore",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "Frontcareers",
   "industry": "from job boards",
   "ats": "ashby",
@@ -10035,14 +10050,6 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Lanshore",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "lanshore",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
   "name": "Aufinity Group",
   "industry": "from job boards",
   "ats": "ashby",
@@ -10055,6 +10062,30 @@
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "cygridgmbh",
+  "addedBy": "probe 2026-10-21",
+  "failCount": 1
+ },
+ {
+  "name": "Distro",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "distro",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Entersekt",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "entersekt",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Core BTS",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "corebts",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10112,7 +10143,7 @@
   "ats": "recruitee",
   "slug": "spreadgroup",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
+  "failCount": 1
  },
  {
   "name": "Bigblue",
@@ -10128,7 +10159,7 @@
   "ats": "recruitee",
   "slug": "cityscience",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
+  "failCount": 1
  },
  {
   "name": "Quantumdiamonds",
@@ -10155,26 +10186,18 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Distro",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "distro",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "MSX International",
+  "name": "Celestec e. K.",
   "industry": "from job boards",
   "ats": "smartrecruiters",
-  "slug": "msxinternational",
+  "slug": "celestecek",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Entersekt",
+  "name": "RR Donnelley",
   "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "entersekt",
+  "ats": "smartrecruiters",
+  "slug": "rrdonnelley",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10195,42 +10218,10 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Core BTS",
+  "name": "Coalfire",
   "industry": "from job boards",
   "ats": "lever",
-  "slug": "corebts",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Infasta",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "infasta",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Seven Bits Technologies",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "sevenbitstechnologies",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Pintaria.com",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "pintariacom",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Level AI",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "level-ai",
+  "slug": "coalfire",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }

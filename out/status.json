@@ -7,7 +7,7 @@
    "fetched": 336
   },
   "arbeitnow": {
-   "fetched": 4041
+   "fetched": 6011
   },
   "remotive": {
    "fetched": 80
@@ -31,22 +31,37 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1204,
-   "failed": 16
+   "checked": 1202,
+   "failed": 28
   }
  },
  "errors": {
   "companies": {
-   "InfStones": "HTTP 404",
-   "Symmetrio": "HTTP 429",
+   "SORACOM": "HTTP 429",
    "OptiTrack": "HTTP 429",
+   "Symmetrio": "HTTP 429",
    "Vasion": "HTTP 429",
+   "InfStones": "HTTP 404",
    "crewAI": "HTTP 429",
    "Khibraty": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "WPT Global": "HTTP 429",
    "Houst": "HTTP 429",
    "Crystalia Glass": "HTTP 429",
    "Lucidya": "HTTP 429",
-   "Hireframe": "HTTP 429"
+   "DCF Verlag GmbH": "HTTP 429",
+   "Hireframe": "HTTP 429",
+   "Nomios": "HTTP 429",
+   "SichtbarerWerden": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "ITB-": "HTTP 429",
+   "Qualifyze": "HTTP 429",
+   "Wimex-Gruppe": "HTTP 429",
+   "Go Vocal": "HTTP 429",
+   "BALLY’S INTRALOT SA": "HTTP 429",
+   "Cygrid GmbH": "HTTP 429",
+   "Spread Group": "HTTP 429",
+   "City Science": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -110,14 +125,17 @@
   "failed": 0
  },
  "probe": {
-  "tried": 97,
+  "tried": 117,
   "found": [
    "Governikus GmbH & Co. KG (personio:governikus)",
+   "Lanshore (smartrecruiters:lanshore)",
    "Frontcareers (ashby:frontcareers)",
    "fellowork (personio:fellowork-gmbh)",
-   "Lanshore (smartrecruiters:lanshore)",
    "Aufinity Group (ashby:aufinity-group)",
    "Cygrid GmbH (recruitee:cygridgmbh)",
+   "Distro (lever:distro)",
+   "Entersekt (greenhouse:entersekt)",
+   "Core BTS (lever:corebts)",
    "HOLOPLOT GmbH (personio:holoplot)",
    "Turquoise Health (ashby:turquoise-health)",
    "Amber (ashby:amber)",
@@ -130,39 +148,34 @@
    "Quantumdiamonds (ashby:quantumdiamonds)",
    "Onebrief (ashby:onebrief)",
    "Hirehire (ashby:hirehire)",
-   "Distro (lever:distro)",
-   "MSX International (smartrecruiters:msxinternational)",
-   "Entersekt (greenhouse:entersekt)",
+   "Celestec e. K. (smartrecruiters:celestecek)",
+   "RR Donnelley (smartrecruiters:rrdonnelley)",
    "IndSAfri (smartrecruiters:indsafri)",
    "Hello World Technologies (smartrecruiters:helloworldtechnologies)",
-   "Core BTS (lever:corebts)",
-   "Infasta (smartrecruiters:infasta)",
-   "Seven Bits Technologies (smartrecruiters:sevenbitstechnologies)",
-   "Pintaria.com (smartrecruiters:pintariacom)",
-   "Level AI (ashby:level-ai)"
+   "Coalfire (lever:coalfire)"
   ]
  },
- "collectedAt": "2026-10-21T16:18:08+00:00",
- "rawJobs": 63606,
- "matches": 257,
+ "collectedAt": "2026-10-21T16:32:21+00:00",
+ "rawJobs": 65545,
+ "matches": 270,
  "new": 12,
- "companies": 1258,
- "activeCompanies": 1204,
+ "companies": 1256,
+ "activeCompanies": 1202,
  "funnel": {
-  "passed": 552,
+  "passed": 572,
   "salary": 9,
-  "title": 60833,
+  "title": 62694,
   "company": 49,
-  "duplicate": 295,
-  "location": 1996,
+  "duplicate": 302,
+  "location": 2054,
   "too_old": 137,
   "employment": 23
  },
  "matchesBySource": {
   "adzuna": 113,
-  "ashby": 47,
+  "ashby": 45,
   "arbeitsagentur": 22,
-  "arbeitnow": 13,
+  "arbeitnow": 28,
   "jobicy": 11,
   "himalayas": 1,
   "smartrecruiters": 3,
