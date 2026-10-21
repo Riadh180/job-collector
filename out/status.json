@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1021
+   "fetched": 1020
   },
   "arbeitsagentur": {
    "fetched": 338
   },
   "arbeitnow": {
-   "fetched": 4040
+   "fetched": 6098
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 251
+   "fetched": 266
   },
   "remoteok": {
    "fetched": 99
@@ -31,8 +31,8 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1182,
-   "failed": 17
+   "checked": 1176,
+   "failed": 16
   }
  },
  "errors": {
@@ -110,7 +110,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=320, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
@@ -119,7 +119,6 @@
  "probe": {
   "tried": 120,
   "found": [
-   "BSI Business Systems Integration Deutschland GmbH (recruitee:bsibusinesssystemsintegrationdeutschlandgmbh)",
    "Circuithub (ashby:circuithub)",
    "DeepJudge AG (ashby:deepjudge)",
    "voize GmbH (ashby:voize)",
@@ -136,6 +135,7 @@
    "FACT-Finder (personio:fact-finder)",
    "Smartly.io (greenhouse:smartlyio)",
    "LOBECO GmbH (personio:lobeco-gmbh)",
+   "meinphysio+ GmbH (personio:meinphysio-gmbh)",
    "MixMob (smartrecruiters:mixmob)",
    "Valerie Group (ashby:valerie-group)",
    "PURELEI (personio:purelei-gmbh)",
@@ -148,43 +148,37 @@
    "EMIL Group GmbH (personio:emil-group-gmbh)",
    "BALLY’S INTRALOT SA (recruitee:ballysintralotsa)",
    "Klaviyo (greenhouse:klaviyo)",
-   "OpenAI, Inc. (ashby:openai)",
-   "Amber (ashby:amber)",
-   "Wealth Collect (personio:wealthcollect)",
-   "Skalar (ashby:skalar)",
-   "Building Radar GmbH (personio:building-radar)",
-   "Spread Group (recruitee:spreadgroup)",
-   "Bigblue (lever:bigblue)"
+   "OpenAI, Inc. (ashby:openai)"
   ]
  },
- "collectedAt": "2026-10-21T13:31:57+00:00",
- "rawJobs": 62884,
- "matches": 278,
- "new": 79,
- "companies": 1236,
- "activeCompanies": 1182,
+ "collectedAt": "2026-10-21T14:02:59+00:00",
+ "rawJobs": 64832,
+ "matches": 293,
+ "new": 85,
+ "companies": 1230,
+ "activeCompanies": 1176,
  "funnel": {
-  "passed": 600,
-  "title": 60067,
-  "duplicate": 322,
-  "location": 1989,
+  "passed": 628,
+  "title": 61916,
+  "duplicate": 335,
+  "location": 2061,
   "company": 52,
   "salary": 7,
   "employment": 24,
-  "too_old": 138
+  "too_old": 137
  },
  "matchesBySource": {
-  "adzuna": 135,
+  "adzuna": 134,
   "arbeitsagentur": 24,
-  "arbeitnow": 12,
-  "jobicy": 10,
+  "arbeitnow": 30,
+  "jobicy": 11,
   "himalayas": 1,
-  "ashby": 47,
+  "ashby": 43,
   "smartrecruiters": 3,
   "weworkremotely": 6,
   "recruitee": 11,
   "greenhouse": 13,
-  "personio": 10,
+  "personio": 11,
   "hn": 6
  }
 }
