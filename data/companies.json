@@ -4587,7 +4587,7 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Makpar",
@@ -9558,8 +9558,7 @@
   "ats": "recruitee",
   "slug": "dcfverlag",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "4ALLPORTAL GmbH",
@@ -9575,8 +9574,7 @@
   "ats": "recruitee",
   "slug": "nomios",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Zoi",
@@ -9584,8 +9582,7 @@
   "ats": "recruitee",
   "slug": "zoi",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Dotmatics",
@@ -9609,8 +9606,7 @@
   "ats": "recruitee",
   "slug": "sichtbarerwerden",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "TeamSnap",
@@ -9634,7 +9630,8 @@
   "ats": "workable",
   "slug": "hireframe",
   "addedBy": "probe 2026-10-19",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "PCS Systemtechnik GmbH",
@@ -9698,8 +9695,7 @@
   "ats": "recruitee",
   "slug": "itbgmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Fender",
@@ -9731,8 +9727,7 @@
   "ats": "recruitee",
   "slug": "qualifyzegmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "PlanetScale",
@@ -9748,8 +9743,7 @@
   "ats": "recruitee",
   "slug": "wimexgruppe",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Mactores",
@@ -9773,8 +9767,7 @@
   "ats": "recruitee",
   "slug": "govocal",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Circuithub",
@@ -9998,8 +9991,7 @@
   "ats": "recruitee",
   "slug": "ballysintralotsa",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Klaviyo",
@@ -10119,7 +10111,7 @@
   "ats": "recruitee",
   "slug": "spreadgroup",
   "addedBy": "probe 2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Bigblue",
@@ -10135,7 +10127,7 @@
   "ats": "recruitee",
   "slug": "cityscience",
   "addedBy": "probe 2026-10-21",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Quantumdiamonds",
@@ -10230,6 +10222,38 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "infasta",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Knuddels & Co. KG",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "knuddels",
+  "addedBy": "probe 2026-10-21",
+  "failCount": 1
+ },
+ {
+  "name": "Lupp + Partner",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "lupp-partner",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "escape",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "escape",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Taskom GmbH & Co. KG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "taskom",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }
