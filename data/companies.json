@@ -4587,7 +4587,8 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Makpar",
@@ -9374,7 +9375,8 @@
   "ats": "recruitee",
   "slug": "inovex",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Menlo",
@@ -9414,7 +9416,8 @@
   "ats": "recruitee",
   "slug": "hypertricsgmbh",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Bromcom Computers Plc",
@@ -9422,7 +9425,8 @@
   "ats": "recruitee",
   "slug": "bromcomcomputersplc",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "One Mobility",
@@ -9430,7 +9434,8 @@
   "ats": "recruitee",
   "slug": "onemobility",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "CipSoft GmbH",
@@ -9438,7 +9443,8 @@
   "ats": "recruitee",
   "slug": "cipsoft",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Sparrow Connected",
@@ -9502,7 +9508,8 @@
   "ats": "recruitee",
   "slug": "altscore",
   "addedBy": "probe 2026-10-18",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Imprint",
@@ -9558,7 +9565,8 @@
   "ats": "recruitee",
   "slug": "dcfverlag",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "4ALLPORTAL GmbH",
@@ -9567,7 +9575,7 @@
   "slug": "4allportal",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-21",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Nomios",
@@ -9576,7 +9584,7 @@
   "slug": "nomios",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-21",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Zoi",
@@ -9585,7 +9593,7 @@
   "slug": "zoi",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-10-21",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Dotmatics",
@@ -9609,7 +9617,8 @@
   "ats": "recruitee",
   "slug": "sichtbarerwerden",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "TeamSnap",
@@ -9698,7 +9707,8 @@
   "ats": "recruitee",
   "slug": "itbgmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Fender",
@@ -9730,7 +9740,8 @@
   "ats": "recruitee",
   "slug": "qualifyzegmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "PlanetScale",
@@ -9746,7 +9757,8 @@
   "ats": "recruitee",
   "slug": "wimexgruppe",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Mactores",
@@ -9770,7 +9782,8 @@
   "ats": "recruitee",
   "slug": "govocal",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21"
+  "lastOk": "2026-10-21",
+  "failCount": 1
  },
  {
   "name": "Circuithub",
@@ -10257,6 +10270,30 @@
   "industry": "from job boards",
   "ats": "personio",
   "slug": "taskom",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "The Mill Adventure",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "the-mill-adventure",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "sonymusicentertainment",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "sonymusicentertainment",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "REDICA Systems",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "redicasystems",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }
