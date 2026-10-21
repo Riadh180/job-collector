@@ -4587,7 +4587,7 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 3
+  "failCount": 2
  },
  {
   "name": "Makpar",
@@ -7011,8 +7011,9 @@
   "ats": "workable",
   "slug": "symmetrio",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "OptiTrack",
@@ -7020,8 +7021,9 @@
   "ats": "workable",
   "slug": "optitrack",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "ResourceQ Services",
@@ -7085,8 +7087,9 @@
   "ats": "workable",
   "slug": "vasion",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Comet",
@@ -7495,8 +7498,9 @@
   "ats": "workable",
   "slug": "crewai",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Chariot Solutions",
@@ -7520,8 +7524,9 @@
   "ats": "workable",
   "slug": "khibraty",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Provectus",
@@ -8501,8 +8506,9 @@
   "ats": "workable",
   "slug": "houst",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "CoLab Software",
@@ -9132,8 +9138,9 @@
   "ats": "workable",
   "slug": "crystalia-glass",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-18",
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Saga",
@@ -9623,8 +9630,7 @@
   "ats": "workable",
   "slug": "hireframe",
   "addedBy": "probe 2026-10-19",
-  "failCount": 5,
-  "disabled": true
+  "failCount": 4
  },
  {
   "name": "PCS Systemtechnik GmbH",
@@ -10005,6 +10011,14 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Governikus GmbH & Co. KG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "governikus",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "Frontcareers",
   "industry": "from job boards",
   "ats": "ashby",
@@ -10021,6 +10035,14 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Lanshore",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lanshore",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "Aufinity Group",
   "industry": "from job boards",
   "ats": "ashby",
@@ -10029,26 +10051,10 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Building Radar GmbH",
+  "name": "Cygrid GmbH",
   "industry": "from job boards",
-  "ats": "personio",
-  "slug": "building-radar",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "IndSAfri",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "indsafri",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Hello World Technologies",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "helloworldtechnologies",
+  "ats": "recruitee",
+  "slug": "cygridgmbh",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10093,6 +10099,14 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Building Radar GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "building-radar",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "Spread Group",
   "industry": "from job boards",
   "ats": "recruitee",
@@ -10109,26 +10123,18 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Fioneer",
+  "name": "City Science",
   "industry": "from job boards",
-  "ats": "workable",
-  "slug": "fioneer",
+  "ats": "recruitee",
+  "slug": "cityscience",
   "addedBy": "probe 2026-10-21",
-  "failCount": 2
+  "lastOk": "2026-10-21"
  },
  {
   "name": "Quantumdiamonds",
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "quantumdiamonds",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "City Science",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "cityscience",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10149,6 +10155,14 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Distro",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "distro",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "MSX International",
   "industry": "from job boards",
   "ats": "smartrecruiters",
@@ -10157,26 +10171,34 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Entersekt",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "entersekt",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "IndSAfri",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "indsafri",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Hello World Technologies",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "helloworldtechnologies",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "Core BTS",
   "industry": "from job boards",
   "ats": "lever",
   "slug": "corebts",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "ConnectionHub",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "connectionhub",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Coalfire",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "coalfire",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10209,38 +10231,6 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "level-ai",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Lanshore",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "lanshore",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Celestec e. K.",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "celestecek",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Distro",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "distro",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Entersekt",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "entersekt",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }

@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1067
+   "fetched": 1064
   },
   "arbeitsagentur": {
-   "fetched": 338
+   "fetched": 336
   },
   "arbeitnow": {
-   "fetched": 5946
+   "fetched": 4041
   },
   "remotive": {
    "fetched": 80
@@ -31,8 +31,8 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1199,
-   "failed": 12
+   "checked": 1204,
+   "failed": 16
   }
  },
  "errors": {
@@ -45,18 +45,16 @@
    "Khibraty": "HTTP 429",
    "Houst": "HTTP 429",
    "Crystalia Glass": "HTTP 429",
-   "Hireframe": "HTTP 429",
-   "Go Vocal": "HTTP 429",
-   "BALLY’S INTRALOT SA": "HTTP 429",
-   "Fioneer": "HTTP 429"
+   "Lucidya": "HTTP 429",
+   "Hireframe": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 30,
   "searchesThisRun": 18,
   "searchesTotal": 36,
-  "callsToday": 90,
-  "callsLast7Days": 390
+  "callsToday": 60,
+  "callsLast7Days": 360
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -105,42 +103,66 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=323, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 36,
   "failed": 0
  },
  "probe": {
-  "tried": 41,
+  "tried": 97,
   "found": [
+   "Governikus GmbH & Co. KG (personio:governikus)",
+   "Frontcareers (ashby:frontcareers)",
+   "fellowork (personio:fellowork-gmbh)",
    "Lanshore (smartrecruiters:lanshore)",
-   "Celestec e. K. (smartrecruiters:celestecek)",
+   "Aufinity Group (ashby:aufinity-group)",
+   "Cygrid GmbH (recruitee:cygridgmbh)",
+   "HOLOPLOT GmbH (personio:holoplot)",
+   "Turquoise Health (ashby:turquoise-health)",
+   "Amber (ashby:amber)",
+   "Wealth Collect (personio:wealthcollect)",
+   "Skalar (ashby:skalar)",
+   "Building Radar GmbH (personio:building-radar)",
+   "Spread Group (recruitee:spreadgroup)",
+   "Bigblue (lever:bigblue)",
+   "City Science (recruitee:cityscience)",
+   "Quantumdiamonds (ashby:quantumdiamonds)",
+   "Onebrief (ashby:onebrief)",
+   "Hirehire (ashby:hirehire)",
    "Distro (lever:distro)",
-   "Entersekt (greenhouse:entersekt)"
+   "MSX International (smartrecruiters:msxinternational)",
+   "Entersekt (greenhouse:entersekt)",
+   "IndSAfri (smartrecruiters:indsafri)",
+   "Hello World Technologies (smartrecruiters:helloworldtechnologies)",
+   "Core BTS (lever:corebts)",
+   "Infasta (smartrecruiters:infasta)",
+   "Seven Bits Technologies (smartrecruiters:sevenbitstechnologies)",
+   "Pintaria.com (smartrecruiters:pintariacom)",
+   "Level AI (ashby:level-ai)"
   ]
  },
- "collectedAt": "2026-10-21T14:54:04+00:00",
- "rawJobs": 65477,
- "matches": 296,
- "new": 4,
- "companies": 1260,
- "activeCompanies": 1199,
+ "collectedAt": "2026-10-21T16:18:08+00:00",
+ "rawJobs": 63606,
+ "matches": 257,
+ "new": 12,
+ "companies": 1258,
+ "activeCompanies": 1204,
  "funnel": {
-  "title": 62547,
-  "passed": 651,
-  "duplicate": 355,
-  "company": 52,
-  "location": 2053,
-  "salary": 6,
-  "employment": 24,
-  "too_old": 137
+  "passed": 552,
+  "salary": 9,
+  "title": 60833,
+  "company": 49,
+  "duplicate": 295,
+  "location": 1996,
+  "too_old": 137,
+  "employment": 23
  },
  "matchesBySource": {
-  "adzuna": 140,
-  "ashby": 43,
-  "arbeitsagentur": 24,
-  "arbeitnow": 26,
+  "adzuna": 113,
+  "ashby": 47,
+  "arbeitsagentur": 22,
+  "arbeitnow": 13,
   "jobicy": 11,
   "himalayas": 1,
   "smartrecruiters": 3,
