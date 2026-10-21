@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1064
+   "fetched": 1065
   },
   "arbeitsagentur": {
    "fetched": 336
   },
   "arbeitnow": {
-   "fetched": 6011
+   "fetched": 5950
   },
   "remotive": {
    "fetched": 80
@@ -31,8 +31,8 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1202,
-   "failed": 28
+   "checked": 1203,
+   "failed": 20
   }
  },
  "errors": {
@@ -51,15 +51,8 @@
    "Lucidya": "HTTP 429",
    "DCF Verlag GmbH": "HTTP 429",
    "Hireframe": "HTTP 429",
-   "Nomios": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
    "Go Vocal": "HTTP 429",
    "BALLY’S INTRALOT SA": "HTTP 429",
-   "Cygrid GmbH": "HTTP 429",
    "Spread Group": "HTTP 429",
    "City Science": "HTTP 429"
   }
@@ -128,14 +121,11 @@
   "tried": 117,
   "found": [
    "Governikus GmbH & Co. KG (personio:governikus)",
-   "Lanshore (smartrecruiters:lanshore)",
    "Frontcareers (ashby:frontcareers)",
    "fellowork (personio:fellowork-gmbh)",
+   "Lanshore (smartrecruiters:lanshore)",
    "Aufinity Group (ashby:aufinity-group)",
-   "Cygrid GmbH (recruitee:cygridgmbh)",
-   "Distro (lever:distro)",
-   "Entersekt (greenhouse:entersekt)",
-   "Core BTS (lever:corebts)",
+   "ConnectionHub (smartrecruiters:connectionhub)",
    "HOLOPLOT GmbH (personio:holoplot)",
    "Turquoise Health (ashby:turquoise-health)",
    "Amber (ashby:amber)",
@@ -149,33 +139,37 @@
    "Onebrief (ashby:onebrief)",
    "Hirehire (ashby:hirehire)",
    "Celestec e. K. (smartrecruiters:celestecek)",
+   "Distro (lever:distro)",
    "RR Donnelley (smartrecruiters:rrdonnelley)",
+   "MSX International (smartrecruiters:msxinternational)",
+   "Entersekt (greenhouse:entersekt)",
+   "Core BTS (lever:corebts)",
    "IndSAfri (smartrecruiters:indsafri)",
    "Hello World Technologies (smartrecruiters:helloworldtechnologies)",
-   "Coalfire (lever:coalfire)"
+   "Infasta (smartrecruiters:infasta)"
   ]
  },
- "collectedAt": "2026-10-21T16:32:21+00:00",
- "rawJobs": 65545,
- "matches": 270,
- "new": 12,
- "companies": 1256,
- "activeCompanies": 1202,
+ "collectedAt": "2026-10-21T16:51:35+00:00",
+ "rawJobs": 65952,
+ "matches": 268,
+ "new": 13,
+ "companies": 1257,
+ "activeCompanies": 1203,
  "funnel": {
-  "passed": 572,
+  "passed": 568,
   "salary": 9,
-  "title": 62694,
+  "title": 63106,
   "company": 49,
-  "duplicate": 302,
-  "location": 2054,
+  "duplicate": 300,
+  "location": 2053,
   "too_old": 137,
   "employment": 23
  },
  "matchesBySource": {
   "adzuna": 113,
-  "ashby": 45,
+  "ashby": 44,
   "arbeitsagentur": 22,
-  "arbeitnow": 28,
+  "arbeitnow": 27,
   "jobicy": 11,
   "himalayas": 1,
   "smartrecruiters": 3,

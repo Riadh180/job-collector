@@ -10026,14 +10026,6 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Lanshore",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "lanshore",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
   "name": "Frontcareers",
   "industry": "from job boards",
   "ats": "ashby",
@@ -10050,6 +10042,14 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Lanshore",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lanshore",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "Aufinity Group",
   "industry": "from job boards",
   "ats": "ashby",
@@ -10058,34 +10058,10 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Cygrid GmbH",
+  "name": "ConnectionHub",
   "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "cygridgmbh",
-  "addedBy": "probe 2026-10-21",
-  "failCount": 1
- },
- {
-  "name": "Distro",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "distro",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Entersekt",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "entersekt",
-  "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-21"
- },
- {
-  "name": "Core BTS",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "corebts",
+  "ats": "smartrecruiters",
+  "slug": "connectionhub",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10194,10 +10170,42 @@
   "lastOk": "2026-10-21"
  },
  {
+  "name": "Distro",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "distro",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
   "name": "RR Donnelley",
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "rrdonnelley",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "MSX International",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "msxinternational",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Entersekt",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "entersekt",
+  "addedBy": "probe 2026-10-21",
+  "lastOk": "2026-10-21"
+ },
+ {
+  "name": "Core BTS",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "corebts",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  },
@@ -10218,10 +10226,10 @@
   "lastOk": "2026-10-21"
  },
  {
-  "name": "Coalfire",
+  "name": "Infasta",
   "industry": "from job boards",
-  "ats": "lever",
-  "slug": "coalfire",
+  "ats": "smartrecruiters",
+  "slug": "infasta",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-10-21"
  }
