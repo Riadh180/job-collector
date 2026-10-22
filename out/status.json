@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1115
+   "fetched": 1358
   },
   "arbeitsagentur": {
-   "fetched": 302
+   "fetched": 301
   },
   "arbeitnow": {
-   "fetched": 3741
+   "fetched": 3991
   },
   "remotive": {
    "fetched": 80
@@ -31,21 +31,19 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1212,
-   "failed": 1
+   "checked": 1211,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "InfStones": "HTTP 404"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 35,
+  "searchesThisRun": 25,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 465
+  "callsToday": 135,
+  "callsLast7Days": 510
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -99,52 +97,43 @@
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 302,
+  "jobs": 301,
   "details": {
    "tried": 110,
    "ok": 110
   }
  },
  "probe": {
-  "tried": 24,
-  "found": [
-   "Searoutes (workable:searoutes)",
-   "Voyant Photonics (ashby:voyant-photonics)",
-   "Sika AG (personio:sika)",
-   "Space Inch (workable:spaceinch)",
-   "Canary Technologies (lever:canarytechnologies)",
-   "MEDFAR (smartrecruiters:medfar)",
-   "Plasma (ashby:plasma)",
-   "Distribusion Technologies GmbH (recruitee:distribusiontechnologies)"
-  ]
+  "tried": 8,
+  "found": []
  },
- "collectedAt": "2026-10-22T09:47:13+00:00",
- "rawJobs": 64444,
- "matches": 275,
- "new": 8,
+ "collectedAt": "2026-10-22T10:04:18+00:00",
+ "rawJobs": 64936,
+ "matches": 264,
+ "new": 0,
  "companies": 1281,
- "activeCompanies": 1212,
+ "activeCompanies": 1211,
  "funnel": {
-  "company": 41,
   "passed": 572,
-  "duplicate": 297,
-  "title": 61697,
-  "salary": 7,
-  "location": 1963,
-  "employment": 25,
+  "title": 62169,
+  "company": 50,
+  "duplicate": 308,
+  "salary": 13,
+  "location": 1969,
+  "employment": 24,
   "too_old": 132
  },
  "matchesBySource": {
-  "adzuna": 131,
+  "adzuna": 120,
   "personio": 12,
   "himalayas": 2,
   "weworkremotely": 7,
   "ashby": 45,
-  "arbeitsagentur": 24,
+  "arbeitsagentur": 23,
+  "recruitee": 12,
   "arbeitnow": 11,
   "jobicy": 11,
   "smartrecruiters": 3,
-  "recruitee": 11,
   "greenhouse": 12,
   "hn": 6
  }
