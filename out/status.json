@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1495
+   "fetched": 1607
   },
   "arbeitsagentur": {
-   "fetched": 305
+   "fetched": 304
   },
   "arbeitnow": {
-   "fetched": 3742
+   "fetched": 3740
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 263
+   "fetched": 247
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 82
+   "fetched": 86
   },
   "hn": {
    "fetched": 304
@@ -31,29 +31,15 @@
    "fetched": 44
   },
   "companies": {
-   "checked": 1203,
-   "failed": 17
+   "checked": 1208,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "Holzland Becker": "HTTP 429",
-   "inovex GmbH": "HTTP 429",
-   "Hypertrics GmbH": "HTTP 429",
-   "Bromcom Computers Plc": "HTTP 429",
-   "One Mobility": "HTTP 429",
    "CipSoft GmbH": "HTTP 429",
-   "AltScore": "HTTP 429",
-   "DCF Verlag GmbH": "HTTP 429",
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "Nomios": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429"
+   "AltScore": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -110,59 +96,65 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=319, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 305,
+  "jobs": 304,
   "details": {
    "tried": 111,
    "ok": 111
   }
  },
  "probe": {
-  "tried": 56,
+  "tried": 112,
   "found": [
-   "Entertainment Benefits Group (smartrecruiters:entertainmentbenefitsgroup)",
-   "Ginas Tech Jobs (smartrecruiters:ginastechjobs)",
+   "attempto (personio:attempto)",
+   "Pavebank (ashby:pavebank)",
    "Perplexity (ashby:perplexity)",
-   "Panopto (lever:panopto)",
+   "Aviko (smartrecruiters:aviko)",
+   "GVPR (smartrecruiters:gvpr)",
    "Kombo (ashby:kombo)",
    "sonymusicentertainment (greenhouse:sonymusicentertainment)",
-   "Gcore (smartrecruiters:gcore)",
-   "Vericast (smartrecruiters:vericast)",
-   "CD PROJEKT RED (smartrecruiters:cdprojektred)",
-   "Endor Labs (greenhouse:endorlabs)",
-   "BeiGene (smartrecruiters:beigene)"
+   "Mission Critical Group (smartrecruiters:missioncriticalgroup)",
+   "RBL Labs (smartrecruiters:rbllabs)",
+   "Plexus (lever:plexus)",
+   "Voyant Photonics (ashby:voyant-photonics)",
+   "Canary Technologies (lever:canarytechnologies)",
+   "MEDFAR (smartrecruiters:medfar)",
+   "Plasma (ashby:plasma)",
+   "Distribusion Technologies GmbH (recruitee:distribusiontechnologies)",
+   "Appspace (greenhouse:appspace)"
   ]
  },
- "collectedAt": "2026-10-22T00:10:25+00:00",
- "rawJobs": 64257,
- "matches": 249,
- "new": 5,
- "companies": 1272,
- "activeCompanies": 1203,
+ "collectedAt": "2026-10-22T08:10:21+00:00",
+ "rawJobs": 64930,
+ "matches": 270,
+ "new": 22,
+ "companies": 1277,
+ "activeCompanies": 1208,
  "funnel": {
-  "title": 61459,
-  "passed": 603,
-  "salary": 12,
-  "duplicate": 354,
-  "location": 1966,
-  "company": 54,
-  "employment": 25,
-  "too_old": 131
+  "title": 62112,
+  "passed": 615,
+  "duplicate": 345,
+  "location": 1969,
+  "company": 56,
+  "salary": 15,
+  "employment": 24,
+  "too_old": 132
  },
  "matchesBySource": {
-  "adzuna": 113,
-  "ashby": 45,
-  "arbeitsagentur": 22,
-  "arbeitnow": 10,
+  "adzuna": 130,
+  "himalayas": 2,
+  "weworkremotely": 7,
+  "arbeitsagentur": 24,
+  "ashby": 44,
+  "arbeitnow": 9,
   "jobicy": 11,
   "smartrecruiters": 3,
-  "weworkremotely": 6,
+  "recruitee": 11,
   "greenhouse": 12,
-  "recruitee": 10,
   "personio": 11,
   "hn": 6
  }
