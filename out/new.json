@@ -1,5 +1,138 @@
 {
- "collectedAt": "2026-10-22T10:04:18+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-22T14:53:58+00:00",
+ "count": 6,
+ "jobs": [
+  {
+   "id": "adzuna:5937787481",
+   "company": "PHAT CONSULTING GmbH",
+   "title": "Software Architekt (Fullstack) (all genders)",
+   "url": "https://www.adzuna.de/details/5937787481?utm_medium=api&utm_source=c19f1397",
+   "location": "Hamburg, Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Was uns von anderen Beratungen unterscheidet: ein offenes, kollegiales Miteinander auf Augenhöhe, kurze Wege und ein Office mitten auf dem Kiez. | „Pairing Humans And Technology“… react",
+   "remoteProof": "Was uns von anderen Beratungen unterscheidet: ein offenes, kollegiales Miteinander auf Augenhöhe, kurze Wege und ein Office mitten auf dem Kiez.",
+   "firstSeen": "2026-10-22T14:53:58+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-fullstack-softwareentwickler-berlin-133162",
+   "company": "TecFox GmbH",
+   "title": "Senior Fullstack-Softwareentwickler (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/tecfox-gmbh/senior-fullstack-softwareentwickler-berlin-133162",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "Wir übernehmen bundesweit IT-Projekte bei namhaften Unternehmen und aus den unterschiedlichsten Branchen.",
+   "firstSeen": "2026-10-22T14:53:58+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-frontend-softwareentwickler-berlin-422309",
+   "company": "TecFox GmbH",
+   "title": "Senior Frontend-Softwareentwickler (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/tecfox-gmbh/senior-frontend-softwareentwickler-berlin-422309",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "Wir übernehmen bundesweit IT-Projekte bei namhaften Unternehmen und aus den unterschiedlichsten Branchen.",
+   "firstSeen": "2026-10-22T14:53:58+00:00"
+  },
+  {
+   "id": "arbeitnow:tech-lead-ai-engineering-cologne-42688",
+   "company": "Nejo",
+   "title": "Tech Lead AI Engineering (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/nejo/tech-lead-ai-engineering-cologne-42688",
+   "location": "Cologne",
+   "remote": false,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) manager",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js",
+    "typescript"
+   ],
+   "match": "generic+stack; NRW",
+   "facts": "The entire stack is built on TypeScript and Next.js. | The role brings together applied LLM engineering and solid backend engineering in TypeScript. | Stack: TypeScript, Next.js, Node.js, Postgres with pgvector, Docker, Azure, Anthropic and OpenAI APIs, Vercel AI SDK. | Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "",
+   "firstSeen": "2026-10-22T14:53:58+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/kdci/jobs/mobile-app-developer",
+   "company": "KDCI",
+   "title": "Mobile App Developer",
+   "url": "https://himalayas.app/companies/kdci/jobs/mobile-app-developer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-10-22T14:53:58+00:00"
+  },
+  {
+   "id": "smartrecruiters:Redcare-Pharmacy:744000157099739",
+   "company": "Redcare Pharmacy",
+   "title": "Staff Fullstack Engineer, Retail (m/f/d)",
+   "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000157099739",
+   "location": "München / BY / de",
+   "remote": true,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time",
+   "industry": "",
+   "source": "smartrecruiters",
+   "ats": "smartrecruiters",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-10-22T14:53:58+00:00"
+  }
+ ]
 }
