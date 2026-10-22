@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1493
+   "fetched": 1495
   },
   "arbeitsagentur": {
-   "fetched": 309
+   "fetched": 305
   },
   "arbeitnow": {
-   "fetched": 4289
+   "fetched": 3742
   },
   "remotive": {
    "fetched": 80
@@ -31,23 +31,37 @@
    "fetched": 44
   },
   "companies": {
-   "checked": 1196,
-   "failed": 3
+   "checked": 1203,
+   "failed": 17
   }
  },
  "errors": {
   "companies": {
    "InfStones": "HTTP 404",
-   "Saga": "HTTP 429",
-   "The Mill Adventure": "HTTP 429"
+   "Holzland Becker": "HTTP 429",
+   "inovex GmbH": "HTTP 429",
+   "Hypertrics GmbH": "HTTP 429",
+   "Bromcom Computers Plc": "HTTP 429",
+   "One Mobility": "HTTP 429",
+   "CipSoft GmbH": "HTTP 429",
+   "AltScore": "HTTP 429",
+   "DCF Verlag GmbH": "HTTP 429",
+   "4ALLPORTAL GmbH": "HTTP 429",
+   "Nomios": "HTTP 429",
+   "SichtbarerWerden": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "ITB-": "HTTP 429",
+   "Qualifyze": "HTTP 429",
+   "Wimex-Gruppe": "HTTP 429",
+   "Go Vocal": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 28,
   "searchesTotal": 51,
-  "callsToday": 150,
-  "callsLast7Days": 450
+  "callsToday": 45,
+  "callsLast7Days": 420
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -96,53 +110,58 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=323, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 309,
+  "jobs": 305,
   "details": {
-   "tried": 113,
-   "ok": 113
+   "tried": 111,
+   "ok": 111
   }
  },
  "probe": {
-  "tried": 27,
+  "tried": 56,
   "found": [
-   "The Mill Adventure (workable:the-mill-adventure)",
+   "Entertainment Benefits Group (smartrecruiters:entertainmentbenefitsgroup)",
+   "Ginas Tech Jobs (smartrecruiters:ginastechjobs)",
+   "Perplexity (ashby:perplexity)",
+   "Panopto (lever:panopto)",
    "Kombo (ashby:kombo)",
    "sonymusicentertainment (greenhouse:sonymusicentertainment)",
+   "Gcore (smartrecruiters:gcore)",
+   "Vericast (smartrecruiters:vericast)",
+   "CD PROJEKT RED (smartrecruiters:cdprojektred)",
+   "Endor Labs (greenhouse:endorlabs)",
    "BeiGene (smartrecruiters:beigene)"
   ]
  },
- "collectedAt": "2026-10-21T20:34:13+00:00",
- "rawJobs": 64947,
- "matches": 259,
- "new": 4,
- "companies": 1265,
- "activeCompanies": 1196,
+ "collectedAt": "2026-10-22T00:10:25+00:00",
+ "rawJobs": 64257,
+ "matches": 249,
+ "new": 5,
+ "companies": 1272,
+ "activeCompanies": 1203,
  "funnel": {
-  "title": 62144,
-  "passed": 598,
-  "salary": 13,
-  "duplicate": 339,
-  "location": 1972,
-  "company": 59,
+  "title": 61459,
+  "passed": 603,
+  "salary": 12,
+  "duplicate": 354,
+  "location": 1966,
+  "company": 54,
   "employment": 25,
-  "too_old": 129
+  "too_old": 131
  },
  "matchesBySource": {
-  "adzuna": 117,
+  "adzuna": 113,
   "ashby": 45,
   "arbeitsagentur": 22,
-  "arbeitnow": 12,
+  "arbeitnow": 10,
   "jobicy": 11,
-  "himalayas": 2,
   "smartrecruiters": 3,
   "weworkremotely": 6,
-  "greenhouse": 13,
-  "himalayas": 1,
+  "greenhouse": 12,
   "recruitee": 10,
   "personio": 11,
   "hn": 6
