@@ -4587,7 +4587,8 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Makpar",
@@ -9558,8 +9559,7 @@
   "ats": "recruitee",
   "slug": "dcfverlag",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-22"
  },
  {
   "name": "4ALLPORTAL GmbH",
@@ -9575,8 +9575,7 @@
   "ats": "recruitee",
   "slug": "nomios",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-22"
  },
  {
   "name": "Zoi",
@@ -9584,8 +9583,7 @@
   "ats": "recruitee",
   "slug": "zoi",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-22"
  },
  {
   "name": "Dotmatics",
@@ -9609,8 +9607,7 @@
   "ats": "recruitee",
   "slug": "sichtbarerwerden",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-22"
  },
  {
   "name": "TeamSnap",
@@ -9699,8 +9696,7 @@
   "ats": "recruitee",
   "slug": "itbgmbh",
   "addedBy": "probe 2026-10-19",
-  "lastOk": "2026-10-21",
-  "failCount": 1
+  "lastOk": "2026-10-22"
  },
  {
   "name": "Fender",
@@ -10355,6 +10351,70 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "appspace",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Searoutes",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "searoutes",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Voyant Photonics",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "voyant-photonics",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Sika AG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "sika",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Space Inch",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "spaceinch",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Canary Technologies",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "canarytechnologies",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "MEDFAR",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "medfar",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Plasma",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "plasma",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Distribusion Technologies GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "distribusiontechnologies",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22"
  }
