@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 1609
   },
   "arbeitsagentur": {
    "fetched": 302
   },
   "arbeitnow": {
-   "fetched": 3917
+   "fetched": 4167
   },
   "remotive": {
    "fetched": 80
@@ -31,28 +31,19 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1222,
-   "failed": 8
+   "checked": 1220,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Searoutes": "HTTP 429",
-   "Space Inch": "HTTP 429",
-   "Dispel": "HTTP 429",
-   "Hubtype": "HTTP 429",
-   "Roman Mayer GmbH": "HTTP 429",
-   "Distribusion Technologies GmbH": "HTTP 429",
-   "FoodLabs": "HTTP 429",
-   "Hall Tabakwaren e.K": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 45,
+  "searchesThisRun": 25,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 535
+  "callsToday": 135,
+  "callsLast7Days": 510
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -113,35 +104,44 @@
   }
  },
  "probe": {
-  "tried": 47,
+  "tried": 97,
   "found": [
-   "Tembo (smartrecruiters:tembo)",
-   "Hubtype (workable:hubtype)"
+   "exmox (personio:exmox-gmbh)",
+   "Vertical Compute (recruitee:verticalcompute)",
+   "Imnoo AG (recruitee:imnoo)",
+   "Roman Mayer GmbH (recruitee:romanmayer)",
+   "BREUER Nachrichtentechnik GmbH (personio:breuer-nachrichtentechnik-gmbh)",
+   "FoodLabs (recruitee:foodlabs)",
+   "Hall Tabakwaren e.K (recruitee:halltabakwarenek)",
+   "Planner 5D (lever:planner5d)",
+   "Taxera Technologies (smartrecruiters:taxeratechnologies)"
   ]
  },
- "collectedAt": "2026-10-22T19:02:45+00:00",
- "rawJobs": 63627,
- "matches": 162,
- "new": 5,
- "companies": 1292,
- "activeCompanies": 1222,
+ "collectedAt": "2026-10-22T19:35:48+00:00",
+ "rawJobs": 65528,
+ "matches": 265,
+ "new": 12,
+ "companies": 1290,
+ "activeCompanies": 1220,
  "funnel": {
-  "title": 61222,
-  "passed": 243,
-  "too_old": 132,
-  "company": 22,
-  "location": 1979,
-  "employment": 22,
-  "duplicate": 81
+  "company": 90,
+  "title": 62683,
+  "passed": 590,
+  "duplicate": 325,
+  "salary": 15,
+  "location": 1987,
+  "employment": 24,
+  "too_old": 132
  },
  "matchesBySource": {
-  "himalayas": 2,
-  "ashby": 50,
-  "personio": 14,
-  "recruitee": 14,
-  "arbeitnow": 16,
+  "adzuna": 117,
+  "arbeitnow": 12,
+  "himalayas": 1,
   "smartrecruiters": 4,
-  "arbeitsagentur": 26,
+  "ashby": 47,
+  "personio": 12,
+  "recruitee": 13,
+  "arbeitsagentur": 23,
   "weworkremotely": 7,
   "jobicy": 12,
   "greenhouse": 11,
