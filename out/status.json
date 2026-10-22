@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 768
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 303
+   "fetched": 302
   },
   "arbeitnow": {
-   "fetched": 4415
+   "fetched": 3917
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 258
+   "fetched": 259
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 87
+   "fetched": 89
   },
   "hn": {
    "fetched": 304
@@ -31,19 +31,25 @@
    "fetched": 43
   },
   "companies": {
-   "checked": 1220,
-   "failed": 2
+   "checked": 1222,
+   "failed": 8
   }
  },
  "errors": {
   "companies": {
+   "Searoutes": "HTTP 429",
    "Space Inch": "HTTP 429",
-   "Dispel": "HTTP 429"
+   "Dispel": "HTTP 429",
+   "Hubtype": "HTTP 429",
+   "Roman Mayer GmbH": "HTTP 429",
+   "Distribusion Technologies GmbH": "HTTP 429",
+   "FoodLabs": "HTTP 429",
+   "Hall Tabakwaren e.K": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 15,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 160,
   "callsLast7Days": 535
@@ -95,59 +101,50 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=322, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=321, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 303,
+  "jobs": 302,
   "details": {
    "tried": 111,
    "ok": 111
   }
  },
  "probe": {
-  "tried": 36,
+  "tried": 47,
   "found": [
-   "Ellevation Education (lever:ellevationeducation)",
-   "Vertical Compute (recruitee:verticalcompute)",
-   "Imnoo AG (recruitee:imnoo)",
-   "Roman Mayer GmbH (recruitee:romanmayer)",
-   "Dispel (workable:dispel)",
-   "BREUER Nachrichtentechnik GmbH (personio:breuer-nachrichtentechnik-gmbh)",
-   "FoodLabs (recruitee:foodlabs)",
-   "Hall Tabakwaren e.K (recruitee:halltabakwarenek)",
-   "CD PROJEKT RED (smartrecruiters:cdprojektred)"
+   "Tembo (smartrecruiters:tembo)",
+   "Hubtype (workable:hubtype)"
   ]
  },
- "collectedAt": "2026-10-22T14:53:58+00:00",
- "rawJobs": 64924,
- "matches": 254,
- "new": 6,
- "companies": 1290,
- "activeCompanies": 1220,
+ "collectedAt": "2026-10-22T19:02:45+00:00",
+ "rawJobs": 63627,
+ "matches": 162,
+ "new": 5,
+ "companies": 1292,
+ "activeCompanies": 1222,
  "funnel": {
-  "title": 62277,
-  "passed": 450,
-  "duplicate": 196,
-  "company": 48,
-  "location": 1982,
-  "salary": 5,
+  "title": 61222,
+  "passed": 243,
   "too_old": 132,
-  "employment": 23
+  "company": 22,
+  "location": 1979,
+  "employment": 22,
+  "duplicate": 81
  },
  "matchesBySource": {
-  "adzuna": 104,
-  "arbeitnow": 15,
-  "himalayas": 3,
+  "himalayas": 2,
+  "ashby": 50,
+  "personio": 14,
+  "recruitee": 14,
+  "arbeitnow": 16,
   "smartrecruiters": 4,
+  "arbeitsagentur": 26,
   "weworkremotely": 7,
-  "ashby": 45,
-  "arbeitsagentur": 24,
   "jobicy": 12,
-  "recruitee": 12,
   "greenhouse": 11,
-  "personio": 11,
   "hn": 6
  }
 }

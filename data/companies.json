@@ -10360,7 +10360,8 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-22"
+  "lastOk": "2026-10-22",
+  "failCount": 1
  },
  {
   "name": "Voyant Photonics",
@@ -10385,7 +10386,7 @@
   "slug": "spaceinch",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Canary Technologies",
@@ -10417,7 +10418,8 @@
   "ats": "recruitee",
   "slug": "distribusiontechnologies",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-22"
+  "lastOk": "2026-10-22",
+  "failCount": 1
  },
  {
   "name": "Ellevation Education",
@@ -10449,7 +10451,8 @@
   "ats": "recruitee",
   "slug": "romanmayer",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-22"
+  "lastOk": "2026-10-22",
+  "failCount": 1
  },
  {
   "name": "Dispel",
@@ -10457,7 +10460,7 @@
   "ats": "workable",
   "slug": "dispel",
   "addedBy": "probe 2026-10-22",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "BREUER Nachrichtentechnik GmbH",
@@ -10473,7 +10476,8 @@
   "ats": "recruitee",
   "slug": "foodlabs",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-22"
+  "lastOk": "2026-10-22",
+  "failCount": 1
  },
  {
   "name": "Hall Tabakwaren e.K",
@@ -10481,7 +10485,8 @@
   "ats": "recruitee",
   "slug": "halltabakwarenek",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-22"
+  "lastOk": "2026-10-22",
+  "failCount": 1
  },
  {
   "name": "CD PROJEKT RED",
@@ -10490,5 +10495,21 @@
   "slug": "cdprojektred",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Tembo",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "tembo",
+  "addedBy": "probe 2026-10-22",
+  "lastOk": "2026-10-22"
+ },
+ {
+  "name": "Hubtype",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "hubtype",
+  "addedBy": "probe 2026-10-22",
+  "failCount": 1
  }
 ]
