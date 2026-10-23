@@ -1435,7 +1435,7 @@
   "slug": "softgarden",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-22",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Factor Eleven",
@@ -8770,8 +8770,7 @@
   "ats": "recruitee",
   "slug": "adikteev",
   "addedBy": "probe 2026-10-15",
-  "lastOk": "2026-10-22",
-  "failCount": 1
+  "lastOk": "2026-10-23"
  },
  {
   "name": "GALVANY",
@@ -8787,8 +8786,7 @@
   "ats": "recruitee",
   "slug": "skycellag",
   "addedBy": "probe 2026-10-15",
-  "lastOk": "2026-10-22",
-  "failCount": 1
+  "lastOk": "2026-10-23"
  },
  {
   "name": "Atira",
@@ -8876,8 +8874,7 @@
   "ats": "recruitee",
   "slug": "itbgmbh",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-22",
-  "failCount": 1
+  "lastOk": "2026-10-23"
  },
  {
   "name": "SMF GmbH",
@@ -8909,8 +8906,7 @@
   "ats": "recruitee",
   "slug": "somniosoftware",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-22",
-  "failCount": 1
+  "lastOk": "2026-10-23"
  },
  {
   "name": "Defuse Labs",
@@ -10366,7 +10362,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Voyant Photonics",
@@ -10391,7 +10387,7 @@
   "slug": "spaceinch",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Canary Technologies",
@@ -10511,7 +10507,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Getolo",
@@ -10519,7 +10515,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "EverAI",
@@ -10606,6 +10602,78 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "florence",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "TexAu",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "texau",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Kelso Industries",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "kelsoindustries",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "CRUX",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "crux",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Scout24",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "scout24",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "BettercallPaul gmbh",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "bettercallpaul",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Magazino GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "magazino",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Exeon Analytics",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "exeonanalytics",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "RemotePeople",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "remotepeople",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "StarCompliance",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "starcompliance",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-23"
  }
