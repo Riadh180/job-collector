@@ -1435,7 +1435,7 @@
   "slug": "softgarden",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-22",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Factor Eleven",
@@ -7664,7 +7664,8 @@
   "ats": "recruitee",
   "slug": "motivee",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Grip",
@@ -7752,7 +7753,8 @@
   "ats": "recruitee",
   "slug": "iwell",
   "addedBy": "probe 2026-10-12",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Datadog",
@@ -7776,7 +7778,8 @@
   "ats": "recruitee",
   "slug": "kinly",
   "addedBy": "probe 2026-10-12",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Genesis",
@@ -7856,7 +7859,8 @@
   "ats": "recruitee",
   "slug": "patsnap",
   "addedBy": "probe 2026-10-12",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Vinteden",
@@ -10129,7 +10133,8 @@
   "ats": "recruitee",
   "slug": "cityscience",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Quantumdiamonds",
@@ -10233,7 +10238,8 @@
   "ats": "recruitee",
   "slug": "knuddels",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Lupp + Partner",
@@ -10362,7 +10368,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Voyant Photonics",
@@ -10387,7 +10393,8 @@
   "slug": "spaceinch",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-22",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Canary Technologies",
@@ -10419,7 +10426,8 @@
   "ats": "recruitee",
   "slug": "distribusiontechnologies",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Ellevation Education",
@@ -10443,7 +10451,8 @@
   "ats": "recruitee",
   "slug": "verticalcompute",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Imnoo AG",
@@ -10451,7 +10460,8 @@
   "ats": "recruitee",
   "slug": "imnoo",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Roman Mayer GmbH",
@@ -10459,7 +10469,8 @@
   "ats": "recruitee",
   "slug": "romanmayer",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "BREUER Nachrichtentechnik GmbH",
@@ -10475,7 +10486,8 @@
   "ats": "recruitee",
   "slug": "foodlabs",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Hall Tabakwaren e.K",
@@ -10483,7 +10495,8 @@
   "ats": "recruitee",
   "slug": "halltabakwarenek",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-23"
+  "lastOk": "2026-10-23",
+  "failCount": 1
  },
  {
   "name": "Planner 5D",
@@ -10507,7 +10520,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Getolo",
@@ -10515,7 +10528,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "EverAI",
@@ -10674,6 +10687,94 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "starcompliance",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Banyan Software",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "banyansoftware",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "KI Group",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "kigroup",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "pplwise",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "pplwise",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "ARHS",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "arhs",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Rohlik",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "rohlik",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "AMS Accelerate IT",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "amsaccelerateit",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Kayzen",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "kayzen",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "workidentity GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "workidentity",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Colibricode",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "colibricode",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Ro",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "ro",
+  "addedBy": "probe 2026-10-23",
+  "lastOk": "2026-10-23"
+ },
+ {
+  "name": "Bellese",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "bellese",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-23"
  }

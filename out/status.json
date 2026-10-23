@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1539
+   "fetched": 1058
   },
   "arbeitsagentur": {
    "fetched": 298
   },
   "arbeitnow": {
-   "fetched": 3917
+   "fetched": 4156
   },
   "remotive": {
    "fetched": 72
   },
   "jobicy": {
-   "fetched": 290
+   "fetched": 299
   },
   "remoteok": {
    "fetched": 99
@@ -31,25 +31,37 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1243,
-   "failed": 5
+   "checked": 1254,
+   "failed": 17
   }
  },
  "errors": {
   "companies": {
    "Softgarden": "HTTP 404",
+   "Motivee": "HTTP 429",
+   "iwell": "HTTP 429",
+   "Kinly": "HTTP 429",
+   "PatSnap": "HTTP 429",
+   "City Science": "HTTP 429",
+   "Knuddels & Co. KG": "HTTP 429",
    "Searoutes": "HTTP 429",
    "Space Inch": "HTTP 429",
+   "Distribusion Technologies GmbH": "HTTP 429",
+   "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
-   "Writesonic": "HTTP 429"
+   "Vertical Compute": "HTTP 429",
+   "Imnoo AG": "HTTP 429",
+   "Roman Mayer GmbH": "HTTP 429",
+   "FoodLabs": "HTTP 429",
+   "Hall Tabakwaren e.K": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 28,
+  "searchesThisRun": 34,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 480
+  "callsToday": 135,
+  "callsLast7Days": 525
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -110,47 +122,49 @@
   }
  },
  "probe": {
-  "tried": 63,
+  "tried": 62,
   "found": [
-   "TexAu (smartrecruiters:texau)",
-   "Kelso Industries (greenhouse:kelsoindustries)",
-   "CRUX (ashby:crux)",
-   "Scout24 (greenhouse:scout24)",
-   "BettercallPaul gmbh (personio:bettercallpaul)",
-   "Magazino GmbH (personio:magazino)",
-   "Exeon Analytics (recruitee:exeonanalytics)",
-   "RemotePeople (greenhouse:remotepeople)",
-   "StarCompliance (lever:starcompliance)"
+   "Banyan Software (greenhouse:banyansoftware)",
+   "KI Group (recruitee:kigroup)",
+   "pplwise (ashby:pplwise)",
+   "ARHS (smartrecruiters:arhs)",
+   "Rohlik (ashby:rohlik)",
+   "AMS Accelerate IT (recruitee:amsaccelerateit)",
+   "Kayzen (greenhouse:kayzen)",
+   "workidentity GmbH (personio:workidentity)",
+   "Colibricode (smartrecruiters:colibricode)",
+   "Ro (lever:ro)",
+   "Bellese (lever:bellese)"
   ]
  },
- "collectedAt": "2026-10-23T14:42:17+00:00",
- "rawJobs": 65747,
- "matches": 266,
- "new": 7,
- "companies": 1313,
- "activeCompanies": 1243,
+ "collectedAt": "2026-10-23T18:52:55+00:00",
+ "rawJobs": 65782,
+ "matches": 261,
+ "new": 8,
+ "companies": 1324,
+ "activeCompanies": 1254,
  "funnel": {
-  "title": 62883,
-  "passed": 616,
-  "company": 57,
-  "duplicate": 350,
-  "location": 2013,
-  "salary": 15,
-  "employment": 23,
-  "too_old": 133
+  "passed": 530,
+  "title": 63034,
+  "company": 54,
+  "duplicate": 269,
+  "salary": 3,
+  "location": 1998,
+  "too_old": 134,
+  "employment": 22
  },
  "matchesBySource": {
-  "adzuna": 119,
-  "arbeitnow": 9,
+  "adzuna": 111,
+  "himalayas": 1,
+  "greenhouse": 12,
   "jobicy": 12,
-  "ashby": 49,
+  "ashby": 51,
   "personio": 12,
   "recruitee": 15,
   "arbeitsagentur": 22,
   "weworkremotely": 7,
+  "arbeitnow": 9,
   "smartrecruiters": 3,
-  "greenhouse": 11,
-  "himalayas": 1,
   "hn": 6
  }
 }
