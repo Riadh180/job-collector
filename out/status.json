@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1479
+   "fetched": 1285
   },
   "arbeitsagentur": {
    "fetched": 294
@@ -13,7 +13,7 @@
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 321
+   "fetched": 323
   },
   "remoteok": {
    "fetched": 99
@@ -32,44 +32,33 @@
   },
   "companies": {
    "checked": 1265,
-   "failed": 25
+   "failed": 14
   }
  },
  "errors": {
   "companies": {
-   "Saga": "HTTP 429",
-   "Powerprozesse": "HTTP 429",
-   "TECOSIM GmbH": "HTTP 429",
-   "Unifonic": "HTTP 429",
-   "Profitap": "HTTP 429",
-   "Holzland Becker": "HTTP 429",
-   "inovex GmbH": "HTTP 429",
-   "Hypertrics GmbH": "HTTP 429",
-   "Bromcom Computers Plc": "HTTP 429",
-   "One Mobility": "HTTP 429",
-   "CipSoft GmbH": "HTTP 429",
-   "AltScore": "HTTP 429",
    "DCF Verlag GmbH": "HTTP 429",
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "Zoi": "HTTP 429",
    "Nomios": "HTTP 429",
+   "Zoi": "HTTP 429",
    "SichtbarerWerden": "HTTP 429",
    "ITB-": "HTTP 429",
    "Qualifyze": "HTTP 429",
    "Wimex-Gruppe": "HTTP 429",
+   "Go Vocal": "HTTP 429",
+   "BALLY’S INTRALOT SA": "HTTP 429",
    "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 28,
+  "searchesThisRun": 30,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 610
+  "callsToday": 135,
+  "callsLast7Days": 655
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -130,39 +119,35 @@
   }
  },
  "probe": {
-  "tried": 41,
-  "found": [
-   "adorsys (personio:adorsys)",
-   "Intertek (workable:intertek)",
-   "Thorlabs (workable:thorlabs)"
-  ]
+  "tried": 28,
+  "found": []
  },
- "collectedAt": "2026-10-24T13:11:46+00:00",
- "rawJobs": 66269,
- "matches": 264,
- "new": 1,
+ "collectedAt": "2026-10-24T13:51:54+00:00",
+ "rawJobs": 66407,
+ "matches": 258,
+ "new": 0,
  "companies": 1337,
  "activeCompanies": 1265,
  "funnel": {
-  "passed": 590,
+  "title": 63621,
   "company": 77,
-  "title": 63419,
-  "duplicate": 326,
-  "salary": 12,
-  "employment": 13,
-  "location": 2017,
-  "too_old": 134
+  "passed": 544,
+  "duplicate": 286,
+  "location": 2007,
+  "salary": 5,
+  "too_old": 134,
+  "employment": 12
  },
  "matchesBySource": {
   "himalayas": 1,
-  "adzuna": 117,
+  "adzuna": 112,
   "arbeitnow": 9,
   "jobicy": 9,
   "greenhouse": 12,
-  "ashby": 50,
-  "personio": 14,
-  "recruitee": 13,
-  "arbeitsagentur": 23,
+  "ashby": 51,
+  "personio": 12,
+  "recruitee": 14,
+  "arbeitsagentur": 22,
   "weworkremotely": 7,
   "smartrecruiters": 3,
   "hn": 6
