@@ -1,5 +1,160 @@
 {
- "collectedAt": "2026-10-24T13:51:54+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-24T16:46:21+00:00",
+ "count": 7,
+ "jobs": [
+  {
+   "id": "adzuna:5933497172",
+   "company": "Talentspring Academy Group",
+   "title": "Marketing Engineer (m/w/d) - Automatisierung, Tracking & KI-Agenten",
+   "url": "https://www.adzuna.de/details/5933497172?utm_medium=api&utm_source=c19f1397",
+   "location": "Charlottenburg, Berlin / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-18",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "next.js"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Über uns – Talentspring Academy Group Über 6 Millionen Menschen in Deutschland haben keinen anerkannten Berufsabschluss.",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  },
+  {
+   "id": "adzuna:5940676005",
+   "company": "Thomann GmbH",
+   "title": "Wir suchen: IT-Anwendungsentwickler / Full-Stack-Entwickler (m/w/d)",
+   "url": "https://www.adzuna.de/land/ad/5940676005?se=cl2_ocrP8RGsjL0SJR3LEQ&utm_medium=api&utm_source=c19f1397&v=1717954F112A3497DB7C6E0B342F559E58901C69",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  },
+  {
+   "id": "adzuna:5940620935",
+   "company": "Thomann GmbH",
+   "title": "Programmierer / IT-Entwickler (m/w/d) - Vollzeit",
+   "url": "https://www.adzuna.de/land/ad/5940620935?se=5kV3usrP8RG17O__M5KguQ&utm_medium=api&utm_source=c19f1397&v=2F034A99F625E7F06D49BDD0070F3185929F39B7",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "In dieser Rolle entwickelst du Anwendungen rund um unsere internen Prozesse und unsere Warenwirtschaft und bist die technische Schnittstelle zu Fac… react",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  },
+  {
+   "id": "adzuna:5940615537",
+   "company": "CGM",
+   "title": "Senior AI Software Engineer (m/w/d) - ['Vollzeit', 'Homeoffice']",
+   "url": "https://www.adzuna.de/land/ad/5940615537?se=5kV3usrP8RG17O__M5KguQ&utm_medium=api&utm_source=c19f1397&v=2D64920A6B68C4716BEBE6C1EA3D561451864115",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-10-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "CGM Leverages AI: Wir suchen Menschen, die die Kraft von KI im E-Health-Umfeld spüren, den Wandel mitgestalten wollen und mit neugi… react",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/solution-fullstack-engineer-python-js-ai-first",
+   "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+   "title": "Solution&Fullstack Engineer (Python+ JS) - AI First",
+   "url": "https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/solution-fullstack-engineer-python-js-ai-first?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  },
+  {
+   "id": "ashby:supabase:9f2ba0b2-6d3b-43ea-990f-5b4bf3930520",
+   "company": "Supabase",
+   "title": "Software Engineer - Storage",
+   "url": "https://jobs.ashbyhq.com/supabase/9f2ba0b2-6d3b-43ea-990f-5b4bf3930520",
+   "location": "Remote, Global",
+   "remote": true,
+   "postedAt": "2026-10-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "devtools",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "next.js",
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "You will be contributing to both our open source server https://github.com/supabase/storage and upstream dependencies we use, like the TUS server https://github.com/tus/tus-node-server/pulls?q=sort%3Aupdated-desc+is%3Apr+author%3Afenos+is%3Amerged. | - Have 5+ years backend engineering experience of running Node.js in production | - Experience with the frontend ecosystem (Next.js, React, etc) is a plus | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | Supabase was born-remote and open-source-first.",
+   "remoteProof": "- Fully Remote | We believe you can do your best work from anywhere. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | Supabase was born-remote and open-source-first.",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  },
+  {
+   "id": "greenhouse:digitalservice:4974064101",
+   "company": "DigitalService",
+   "title": "Software Engineer (all genders) - Internal Tools & Integrations",
+   "url": "https://job-boards.eu.greenhouse.io/digitalservice/jobs/4974064101",
+   "location": "Berlin + hybrid / Berlin",
+   "remote": null,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "32 Stunden pro Woche), Berlin + hybrid Über uns Wir gestalten einen digitalen Staat – gemeinsam mit der Verwaltung. | Sprachlevel : Deutsch (mind. | Das Gehalt für diese Stelle liegt bei uns zwischen 63.000–70.000 Euro brutto pro Jahr. | Für Deine individuelle Einordnung innerhalb unserer Gehaltsbänder und Level berücksichtigen wir den Verantwortungsumfang der Stelle, die Komplexität der Tätigkeiten und die Einschätzung Deiner Fähigkeiten aus den Kennenlerngesprächen. | Details zu unserem Level- und Gehaltssystem findest Du in unserem Blogbeitrag “ Über Level, Geld und Fairness ”. | Urban Sports Club & mehr: Jeden Monat bekommst Du zum Gehalt einen 50-Euro-Gutschein on top, den Du flexibel e",
+   "remoteProof": "32 Stunden pro Woche), Berlin + hybrid Über uns Wir gestalten einen digitalen Staat – gemeinsam mit der Verwaltung. | Arbeite so, wie es am besten zu Dir passt: Du kannst Deine Arbeitszeiten flexibel organisieren, jederzeit unsere Möglichkeiten für mobiles Arbeiten nutzen und Dein bevorzugtes Betriebssystem auswählen.",
+   "firstSeen": "2026-10-24T16:46:21+00:00"
+  }
+ ]
 }

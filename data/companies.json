@@ -8389,7 +8389,8 @@
   "ats": "recruitee",
   "slug": "ontargetcommunications",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-24",
+  "failCount": 1
  },
  {
   "name": "Fevo",
@@ -8543,7 +8544,8 @@
   "ats": "recruitee",
   "slug": "clanx",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-24",
+  "failCount": 1
  },
  {
   "name": "Dawn Technology",
@@ -8551,7 +8553,8 @@
   "ats": "recruitee",
   "slug": "dawntechnology",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-24",
+  "failCount": 1
  },
  {
   "name": "Sentra",
@@ -8617,7 +8620,8 @@
   "ats": "recruitee",
   "slug": "thomannio",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-24",
+  "failCount": 1
  },
  {
   "name": "Azeus Convene",
@@ -8635,7 +8639,8 @@
   "ats": "recruitee",
   "slug": "sofatutor",
   "addedBy": "probe 2026-10-14",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-24",
+  "failCount": 1
  },
  {
   "name": "MENA Alliances",
@@ -10372,7 +10377,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-24",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Voyant Photonics",
@@ -10519,7 +10524,7 @@
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-24",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Getolo",
@@ -10528,7 +10533,7 @@
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-24",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "EverAI",
@@ -10672,7 +10677,8 @@
   "ats": "recruitee",
   "slug": "exeonanalytics",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-23",
+  "failCount": 2
  },
  {
   "name": "RemotePeople",
@@ -10848,13 +10854,79 @@
   "ats": "recruitee",
   "slug": "stermedia",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-24"
+  "lastOk": "2026-10-24",
+  "failCount": 1
  },
  {
   "name": "Plukon Food Group",
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "plukonfoodgroup",
+  "addedBy": "probe 2026-10-24",
+  "lastOk": "2026-10-24",
+  "failCount": 1
+ },
+ {
+  "name": "Rausgegangen",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "rausgegangen",
+  "addedBy": "probe 2026-10-24",
+  "lastOk": "2026-10-24"
+ },
+ {
+  "name": "B2spin",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "b2spin",
+  "addedBy": "probe 2026-10-24",
+  "lastOk": "2026-10-24"
+ },
+ {
+  "name": "Moneyhub",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "moneyhub",
+  "addedBy": "probe 2026-10-24",
+  "failCount": 1
+ },
+ {
+  "name": "TrustEngine",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "trustengine",
+  "addedBy": "probe 2026-10-24",
+  "failCount": 1
+ },
+ {
+  "name": "HireHawk",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "hirehawk",
+  "addedBy": "probe 2026-10-24",
+  "failCount": 1
+ },
+ {
+  "name": "DigitalService",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "digitalservice",
+  "addedBy": "probe 2026-10-24",
+  "lastOk": "2026-10-24"
+ },
+ {
+  "name": "Nooks",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "nooks",
+  "addedBy": "probe 2026-10-24",
+  "lastOk": "2026-10-24"
+ },
+ {
+  "name": "nexmart GmbH & Co. KG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "nexmart",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-24"
  },
