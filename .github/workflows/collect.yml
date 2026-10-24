@@ -29,6 +29,8 @@ jobs:
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
+          CAREERJET_AFFID: ${{ secrets.CAREERJET_AFFID }}
           PROBE_LIMIT: "120"
         run: python collector.py
 
