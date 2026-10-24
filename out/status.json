@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 257
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 3922
+   "fetched": 3926
   },
   "remotive": {
    "fetched": 80
@@ -25,58 +25,31 @@
    "fetched": 91
   },
   "hn": {
-   "fetched": 304
+   "fetched": 303
   },
   "workingnomads": {
    "fetched": 40
   },
   "germantechjobs": {
-   "fetched": 721
+   "fetched": 769
   },
   "jooble": {
    "fetched": 265
   },
   "careerjet": {
-   "error": "<urlopen error timed out>"
+   "error": "HTTP [403, 403, 403]"
   },
   "companies": {
-   "checked": 1309,
-   "failed": 26
+   "checked": 1311,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "PatSnap": "HTTP 429",
-   "Paralucent": "HTTP 429",
-   "EY": "HTTP 429",
-   "Luscii": "HTTP 429",
-   "INDG": "HTTP 429",
-   "Searoutes": "HTTP 429",
-   "Imnoo AG": "HTTP 429",
-   "Roman Mayer GmbH": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Distribusion Technologies GmbH": "HTTP 429",
-   "FoodLabs": "HTTP 429",
-   "Hall Tabakwaren e.K": "HTTP 429",
-   "Exeon Analytics": "HTTP 429",
-   "KI Group": "HTTP 429",
-   "AMS Accelerate IT": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "Stermedia": "HTTP 429",
-   "Plukon Food Group": "HTTP 429",
-   "Make": "HTTP 429",
-   "NetKnights GmbH": "HTTP 429",
-   "Core-Backbone GmbH": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 9,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 160,
   "callsLast7Days": 680
@@ -143,49 +116,41 @@
   "calls": 40
  },
  "probe": {
-  "tried": 120,
+  "tried": 42,
   "found": [
-   "Leegle (personio:leegle)",
-   "Impossible Cloud (lever:impossiblecloud)",
-   "NetKnights GmbH (recruitee:netknights)",
-   "Core-Backbone GmbH (recruitee:corebackbone)",
-   "LaVita GmbH (personio:lavita-gmbh)",
-   "advasolutions SE (personio:advasolutions)",
-   "ALTEN GmbH (smartrecruiters:alten)",
-   "Ausbildung.de (personio:ausbildung-de)",
-   "VEDA GmbH (ashby:veda)"
+   "Voltus GmbH (lever:voltus)",
+   "Brainlab (smartrecruiters:brainlab)"
   ]
  },
  "adzuna_pages": {
-  "tried": 87,
-  "ok": 82
+  "tried": 2,
+  "ok": 0
  },
- "collectedAt": "2026-10-24T18:00:51+00:00",
- "rawJobs": 68531,
- "matches": 205,
- "new": 1,
- "companies": 1381,
- "activeCompanies": 1309,
+ "collectedAt": "2026-10-24T18:27:47+00:00",
+ "rawJobs": 69316,
+ "matches": 172,
+ "new": 0,
+ "companies": 1383,
+ "activeCompanies": 1311,
  "funnel": {
-  "location": 2209,
-  "title": 65791,
-  "passed": 326,
-  "company": 35,
-  "duplicate": 121,
-  "salary": 9,
+  "title": 66659,
+  "passed": 253,
   "too_old": 141,
-  "employment": 13
+  "company": 22,
+  "location": 2216,
+  "employment": 13,
+  "duplicate": 81,
+  "salary": 5
  },
  "matchesBySource": {
   "jooble": 1,
-  "adzuna": 38,
   "himalayas": 1,
-  "ashby": 61,
+  "ashby": 62,
   "greenhouse": 13,
-  "arbeitnow": 12,
   "jobicy": 9,
-  "germantechjobs": 1,
-  "personio": 13,
+  "germantechjobs": 3,
+  "arbeitnow": 12,
+  "personio": 15,
   "smartrecruiters": 4,
   "recruitee": 16,
   "arbeitsagentur": 23,
