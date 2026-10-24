@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1287
+   "fetched": 1483
   },
   "arbeitsagentur": {
    "fetched": 294
@@ -32,14 +32,27 @@
   },
   "companies": {
    "checked": 1263,
-   "failed": 8
+   "failed": 21
   }
  },
  "errors": {
   "companies": {
-   "Softgarden": "HTTP 404",
-   "NEXT Ventures": "HTTP 429",
-   "CrazyGames": "HTTP 429",
+   "Nomios": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "4ALLPORTAL GmbH": "HTTP 429",
+   "SichtbarerWerden": "HTTP 429",
+   "ITB-": "HTTP 429",
+   "Qualifyze": "HTTP 429",
+   "Wimex-Gruppe": "HTTP 429",
+   "Go Vocal": "HTTP 429",
+   "BALLY’S INTRALOT SA": "HTTP 429",
+   "Spread Group": "HTTP 429",
+   "City Science": "HTTP 429",
+   "Knuddels & Co. KG": "HTTP 429",
+   "Distribusion Technologies GmbH": "HTTP 429",
+   "Vertical Compute": "HTTP 429",
+   "Imnoo AG": "HTTP 429",
+   "Roman Mayer GmbH": "HTTP 429",
    "FoodLabs": "HTTP 429",
    "Hall Tabakwaren e.K": "HTTP 429",
    "Exeon Analytics": "HTTP 429",
@@ -49,10 +62,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 30,
+  "searchesThisRun": 28,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 565
+  "callsToday": 90,
+  "callsLast7Days": 610
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -113,46 +126,37 @@
   }
  },
  "probe": {
-  "tried": 89,
+  "tried": 7,
   "found": [
-   "Smartbroker (personio:smartbroker)",
-   "Cofinpro (personio:cofinpro)",
-   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
-   "Thorit GmbH (ashby:thorit)",
-   "purestorage (greenhouse:purestorage)",
-   "appinio (greenhouse:appinio)",
-   "Devexperts (smartrecruiters:devexperts)",
-   "Redwood Software (greenhouse:redwoodsoftware)",
-   "Stermedia (recruitee:stermedia)",
-   "Plukon Food Group (recruitee:plukonfoodgroup)"
+   "adorsys (personio:adorsys)"
   ]
  },
- "collectedAt": "2026-10-24T09:15:00+00:00",
- "rawJobs": 66468,
- "matches": 259,
- "new": 22,
- "companies": 1334,
+ "collectedAt": "2026-10-24T09:33:41+00:00",
+ "rawJobs": 66491,
+ "matches": 267,
+ "new": 0,
+ "companies": 1335,
  "activeCompanies": 1263,
  "funnel": {
-  "salary": 5,
-  "title": 63685,
-  "passed": 545,
-  "duplicate": 286,
-  "location": 2002,
+  "passed": 590,
   "company": 77,
-  "too_old": 134,
-  "employment": 13
+  "title": 63645,
+  "duplicate": 323,
+  "salary": 12,
+  "employment": 14,
+  "location": 2012,
+  "too_old": 134
  },
  "matchesBySource": {
-  "adzuna": 111,
+  "adzuna": 117,
   "arbeitnow": 8,
   "jobicy": 9,
   "himalayas": 3,
   "greenhouse": 12,
-  "ashby": 52,
-  "personio": 12,
+  "ashby": 51,
+  "personio": 14,
   "recruitee": 14,
-  "arbeitsagentur": 22,
+  "arbeitsagentur": 23,
   "weworkremotely": 7,
   "smartrecruiters": 3,
   "hn": 6
