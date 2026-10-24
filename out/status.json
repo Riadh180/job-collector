@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1270
+   "fetched": 257
   },
   "arbeitsagentur": {
    "fetched": 294
@@ -31,59 +31,55 @@
    "fetched": 40
   },
   "germantechjobs": {
-   "fetched": 769
+   "fetched": 721
   },
   "jooble": {
-   "error": "no API key set (optional)"
+   "fetched": 265
   },
   "careerjet": {
-   "error": "no partner ID set (optional)"
+   "error": "<urlopen error timed out>"
   },
   "companies": {
-   "checked": 1300,
-   "failed": 30
+   "checked": 1309,
+   "failed": 26
   }
  },
  "errors": {
   "companies": {
-   "ITQ": "HTTP 429",
-   "Elegance-Hair GmbH": "HTTP 429",
-   "TECOSIM GmbH": "HTTP 429",
-   "Powerprozesse": "HTTP 429",
-   "Unifonic": "HTTP 429",
-   "Profitap": "HTTP 429",
-   "Holzland Becker": "HTTP 429",
-   "inovex GmbH": "HTTP 429",
-   "Bromcom Computers Plc": "HTTP 429",
-   "Hypertrics GmbH": "HTTP 429",
-   "One Mobility": "HTTP 429",
-   "CipSoft GmbH": "HTTP 429",
-   "AltScore": "HTTP 429",
-   "Nomios": "HTTP 429",
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "DCF Verlag GmbH": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429",
+   "PatSnap": "HTTP 429",
+   "Paralucent": "HTTP 429",
+   "EY": "HTTP 429",
+   "Luscii": "HTTP 429",
+   "INDG": "HTTP 429",
    "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
+   "Imnoo AG": "HTTP 429",
+   "Roman Mayer GmbH": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Distribusion Technologies GmbH": "HTTP 429",
+   "FoodLabs": "HTTP 429",
+   "Hall Tabakwaren e.K": "HTTP 429",
+   "Exeon Analytics": "HTTP 429",
+   "KI Group": "HTTP 429",
+   "AMS Accelerate IT": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429"
+   "Thorlabs": "HTTP 429",
+   "Stermedia": "HTTP 429",
+   "Plukon Food Group": "HTTP 429",
+   "Make": "HTTP 429",
+   "NetKnights GmbH": "HTTP 429",
+   "Core-Backbone GmbH": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 30,
+  "callsThisRun": 25,
+  "searchesThisRun": 9,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 655
+  "callsToday": 160,
+  "callsLast7Days": 680
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -143,71 +139,57 @@
    "ok": 106
   }
  },
+ "jooble_usage": {
+  "calls": 40
+ },
  "probe": {
   "tried": 120,
   "found": [
-   "1Password (ashby:1password)",
-   "Elastic (greenhouse:elastic)",
-   "MongoDB (greenhouse:mongodb)",
-   "Make (recruitee:make)",
-   "Lokalise (greenhouse:lokalise)",
-   "Alan (ashby:alan)",
-   "Back Market (ashby:backmarket)",
-   "Preply (ashby:preply)",
-   "Rasa (ashby:rasa)",
-   "WorkOS (ashby:workos)",
-   "Clerk (ashby:clerk)",
-   "Inngest (ashby:inngest)",
-   "Trigger.dev (ashby:triggerdev)",
-   "Resend (ashby:resend)",
-   "Primer (ashby:primer)",
-   "sipgate (personio:sipgate)",
-   "Inkitt (lever:inkitt)",
-   "Cleversoft (personio:cleversoft)",
-   "Choco (ashby:choco)",
-   "Reev (personio:reev)",
-   "Neara (ashby:neara)",
-   "Marvel Fusion (greenhouse:marvelfusion)",
-   "Alpine Eagle (greenhouse:alpineeagle)",
-   "XITASO GmbH (personio:xitaso)",
-   "vitagroup (personio:vitagroup)",
-   "AND-E (personio:and-e)",
-   "BAUER Elektroanlagen (personio:bauer-elektroanlagen)"
+   "Leegle (personio:leegle)",
+   "Impossible Cloud (lever:impossiblecloud)",
+   "NetKnights GmbH (recruitee:netknights)",
+   "Core-Backbone GmbH (recruitee:corebackbone)",
+   "LaVita GmbH (personio:lavita-gmbh)",
+   "advasolutions SE (personio:advasolutions)",
+   "ALTEN GmbH (smartrecruiters:alten)",
+   "Ausbildung.de (personio:ausbildung-de)",
+   "VEDA GmbH (ashby:veda)"
   ]
  },
  "adzuna_pages": {
-  "tried": 120,
-  "ok": 117
+  "tried": 87,
+  "ok": 82
  },
- "collectedAt": "2026-10-24T17:49:24+00:00",
- "rawJobs": 68464,
- "matches": 259,
- "new": 14,
- "companies": 1372,
- "activeCompanies": 1300,
+ "collectedAt": "2026-10-24T18:00:51+00:00",
+ "rawJobs": 68531,
+ "matches": 205,
+ "new": 1,
+ "companies": 1381,
+ "activeCompanies": 1309,
  "funnel": {
-  "passed": 549,
-  "title": 65581,
-  "company": 76,
-  "duplicate": 290,
-  "location": 2086,
-  "salary": 11,
+  "location": 2209,
+  "title": 65791,
+  "passed": 326,
+  "company": 35,
+  "duplicate": 121,
+  "salary": 9,
   "too_old": 141,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 105,
+  "jooble": 1,
+  "adzuna": 38,
   "himalayas": 1,
-  "ashby": 60,
+  "ashby": 61,
   "greenhouse": 13,
-  "arbeitnow": 9,
+  "arbeitnow": 12,
   "jobicy": 9,
-  "personio": 11,
-  "recruitee": 13,
-  "arbeitsagentur": 21,
-  "weworkremotely": 7,
-  "smartrecruiters": 3,
   "germantechjobs": 1,
+  "personio": 13,
+  "smartrecruiters": 4,
+  "recruitee": 16,
+  "arbeitsagentur": 23,
+  "weworkremotely": 7,
   "hn": 6
  }
 }
