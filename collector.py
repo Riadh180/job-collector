@@ -924,29 +924,33 @@ def jooble():
 
 
 def careerjet():
-    """Careerjet job search engine (free partner ID from careerjet.de/partners; GitHub secret CAREERJET_AFFID)."""
-    affid = os.environ.get("CAREERJET_AFFID")
-    if not affid:
-        raise RuntimeError("no partner ID set (optional)")
+    """Careerjet job search engine, API v4 (key from careerjet.de partner account → API-Zugang;
+    GitHub secret CAREERJET_AFFID or CAREERJET_KEY). Basic auth: key as user name, empty password."""
+    import base64
+    key = os.environ.get("CAREERJET_KEY") or os.environ.get("CAREERJET_AFFID")
+    if not key:
+        raise RuntimeError("no API key set (optional)")
     cfg = CFG.get("careerjet", {})
     try:
-        _, ipb = http("https://api.ipify.org")
+        _, ipb = http("https://api.ipify.org", timeout=10, retries=0)
         ip = ipb.decode().strip() or "127.0.0.1"
     except Exception:
         ip = "127.0.0.1"
-    out = []
+    auth = {"Authorization": "Basic " + base64.b64encode((key.strip() + ":").encode()).decode(),
+            "Referer": "https://riadhsouissi.vercel.app/"}
+    out, errors = [], []
     for what in cfg.get("queries", []):
         for where in cfg.get("locations", ["Essen", "Köln"]):
             for page in (1, 2):
-                params = {"locale_code": "de_DE", "affid": affid, "user_ip": ip,
-                          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) job-radar", "url": "https://github.com/Riadh180/job-collector",
-                          "keywords": what, "location": where, "pagesize": 100, "page": page, "sort": "date",
-                          "contracttype": "p", "contractperiod": "f"}
-                code, j = get_json("http://public.api.careerjet.net/search?" + urllib.parse.urlencode(params),
-                                   {"Referer": "https://github.com/Riadh180/job-collector"})
+                params = {"locale_code": "de_DE", "keywords": what, "location": where, "radius": 40,
+                          "user_ip": ip, "user_agent": "Mozilla/5.0 (X11; Linux x86_64) job-radar",
+                          "page": page, "page_size": 100, "sort": "date", "contract_type": "p",
+                          "work_hours": "f", "fragment_size": 1500}
+                code, j = get_json("https://search.api.careerjet.net/v4/query?" + urllib.parse.urlencode(params), auth)
                 if j is None:
-                    if not out:
-                        raise RuntimeError(f"HTTP {code}")
+                    errors.append(code)
+                    if not out and len(errors) >= 3:
+                        raise RuntimeError(f"HTTP {errors[:3]}")
                     break
                 if j.get("type") != "JOBS":
                     break
@@ -956,12 +960,19 @@ def careerjet():
                     desc = strip_html(x.get("description") or "")
                     if re.search(r"remote|home ?office", desc + " " + (x.get("title") or ""), re.I):
                         loc += " / Homeoffice"
+                    smax = None
+                    if x.get("salary_currency_code") in ("EUR", None) and x.get("salary_type") == "Y":
+                        try:
+                            smax = float(x.get("salary_max")) or None
+                        except Exception:
+                            smax = None
                     out.append(rec("careerjet", x.get("url"), x.get("company"), x.get("title"), x.get("url"), loc,
-                                   parse_date(x.get("date")), None, x.get("salary") or "", _salary_max_eur(x.get("salary")),
+                                   parse_date(x.get("date")), None, x.get("salary") or "", smax,
                                    desc + " " + what, "permanent", "", "careerjet"))
                 if page >= int(j.get("pages") or 1):
                     break
-                time.sleep(0.5)
+                time.sleep(0.4)
+    STATUS["careerjet_usage"] = {"jobs": len(out), "errors": errors[:5]}
     return out
 
 
