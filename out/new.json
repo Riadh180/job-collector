@@ -1,5 +1,29 @@
 {
- "collectedAt": "2026-10-24T09:33:41+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-24T13:11:46+00:00",
+ "count": 1,
+ "jobs": [
+  {
+   "id": "himalayas:https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/solution-fullstack-engineer-python-js-ai-first",
+   "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+   "title": "Solution&Fullstack Engineer (Python+ JS) - AI First",
+   "url": "https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/solution-fullstack-engineer-python-js-ai-first?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T13:11:46+00:00"
+  }
+ ]
 }

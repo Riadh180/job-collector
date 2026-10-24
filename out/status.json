@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1483
+   "fetched": 1479
   },
   "arbeitsagentur": {
    "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 3923
+   "fetched": 3922
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 319
+   "fetched": 321
   },
   "remoteok": {
    "fetched": 99
@@ -31,33 +31,37 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1263,
-   "failed": 21
+   "checked": 1265,
+   "failed": 25
   }
  },
  "errors": {
   "companies": {
-   "Nomios": "HTTP 429",
-   "Zoi": "HTTP 429",
+   "Saga": "HTTP 429",
+   "Powerprozesse": "HTTP 429",
+   "TECOSIM GmbH": "HTTP 429",
+   "Unifonic": "HTTP 429",
+   "Profitap": "HTTP 429",
+   "Holzland Becker": "HTTP 429",
+   "inovex GmbH": "HTTP 429",
+   "Hypertrics GmbH": "HTTP 429",
+   "Bromcom Computers Plc": "HTTP 429",
+   "One Mobility": "HTTP 429",
+   "CipSoft GmbH": "HTTP 429",
+   "AltScore": "HTTP 429",
+   "DCF Verlag GmbH": "HTTP 429",
    "4ALLPORTAL GmbH": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "Nomios": "HTTP 429",
    "SichtbarerWerden": "HTTP 429",
    "ITB-": "HTTP 429",
    "Qualifyze": "HTTP 429",
    "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429",
-   "BALLY’S INTRALOT SA": "HTTP 429",
-   "Spread Group": "HTTP 429",
-   "City Science": "HTTP 429",
-   "Knuddels & Co. KG": "HTTP 429",
-   "Distribusion Technologies GmbH": "HTTP 429",
-   "Vertical Compute": "HTTP 429",
-   "Imnoo AG": "HTTP 429",
-   "Roman Mayer GmbH": "HTTP 429",
-   "FoodLabs": "HTTP 429",
-   "Hall Tabakwaren e.K": "HTTP 429",
-   "Exeon Analytics": "HTTP 429",
-   "KI Group": "HTTP 429",
-   "AMS Accelerate IT": "HTTP 429"
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -126,36 +130,38 @@
   }
  },
  "probe": {
-  "tried": 7,
+  "tried": 41,
   "found": [
-   "adorsys (personio:adorsys)"
+   "adorsys (personio:adorsys)",
+   "Intertek (workable:intertek)",
+   "Thorlabs (workable:thorlabs)"
   ]
  },
- "collectedAt": "2026-10-24T09:33:41+00:00",
- "rawJobs": 66491,
- "matches": 267,
- "new": 0,
- "companies": 1335,
- "activeCompanies": 1263,
+ "collectedAt": "2026-10-24T13:11:46+00:00",
+ "rawJobs": 66269,
+ "matches": 264,
+ "new": 1,
+ "companies": 1337,
+ "activeCompanies": 1265,
  "funnel": {
   "passed": 590,
   "company": 77,
-  "title": 63645,
-  "duplicate": 323,
+  "title": 63419,
+  "duplicate": 326,
   "salary": 12,
-  "employment": 14,
-  "location": 2012,
+  "employment": 13,
+  "location": 2017,
   "too_old": 134
  },
  "matchesBySource": {
+  "himalayas": 1,
   "adzuna": 117,
-  "arbeitnow": 8,
+  "arbeitnow": 9,
   "jobicy": 9,
-  "himalayas": 3,
   "greenhouse": 12,
-  "ashby": 51,
+  "ashby": 50,
   "personio": 14,
-  "recruitee": 14,
+  "recruitee": 13,
   "arbeitsagentur": 23,
   "weworkremotely": 7,
   "smartrecruiters": 3,
