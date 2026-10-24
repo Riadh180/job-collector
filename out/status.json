@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 967
+   "fetched": 1287
   },
   "arbeitsagentur": {
-   "fetched": 298
+   "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 4156
+   "fetched": 3923
   },
   "remotive": {
-   "fetched": 72
+   "fetched": 80
   },
   "jobicy": {
-   "fetched": 299
+   "fetched": 319
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 88
+   "fetched": 92
   },
   "hn": {
    "fetched": 304
@@ -31,31 +31,28 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 1253,
-   "failed": 11
+   "checked": 1263,
+   "failed": 8
   }
  },
  "errors": {
   "companies": {
    "Softgarden": "HTTP 404",
-   "Powerprozesse": "HTTP 429",
-   "TECOSIM GmbH": "HTTP 429",
-   "Unifonic": "HTTP 429",
-   "Profitap": "HTTP 429",
-   "Holzland Becker": "HTTP 429",
-   "inovex GmbH": "HTTP 429",
-   "Hypertrics GmbH": "HTTP 429",
-   "Bromcom Computers Plc": "HTTP 429",
-   "One Mobility": "HTTP 429",
-   "CipSoft GmbH": "HTTP 429"
+   "NEXT Ventures": "HTTP 429",
+   "CrazyGames": "HTTP 429",
+   "FoodLabs": "HTTP 429",
+   "Hall Tabakwaren e.K": "HTTP 429",
+   "Exeon Analytics": "HTTP 429",
+   "KI Group": "HTTP 429",
+   "AMS Accelerate IT": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 14,
+  "callsThisRun": 45,
+  "searchesThisRun": 30,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 550
+  "callsToday": 45,
+  "callsLast7Days": 565
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -109,43 +106,54 @@
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 298,
+  "jobs": 294,
   "details": {
-   "tried": 108,
-   "ok": 108
+   "tried": 106,
+   "ok": 106
   }
  },
  "probe": {
-  "tried": 4,
-  "found": []
+  "tried": 89,
+  "found": [
+   "Smartbroker (personio:smartbroker)",
+   "Cofinpro (personio:cofinpro)",
+   "BOLDLY GO INDUSTRIES (smartrecruiters:boldlygoindustries)",
+   "Thorit GmbH (ashby:thorit)",
+   "purestorage (greenhouse:purestorage)",
+   "appinio (greenhouse:appinio)",
+   "Devexperts (smartrecruiters:devexperts)",
+   "Redwood Software (greenhouse:redwoodsoftware)",
+   "Stermedia (recruitee:stermedia)",
+   "Plukon Food Group (recruitee:plukonfoodgroup)"
+  ]
  },
- "collectedAt": "2026-10-23T19:06:49+00:00",
- "rawJobs": 65566,
- "matches": 244,
- "new": 1,
- "companies": 1324,
- "activeCompanies": 1253,
+ "collectedAt": "2026-10-24T09:15:00+00:00",
+ "rawJobs": 66468,
+ "matches": 259,
+ "new": 22,
+ "companies": 1334,
+ "activeCompanies": 1263,
  "funnel": {
-  "title": 62901,
-  "passed": 452,
-  "salary": 11,
-  "employment": 23,
-  "company": 45,
-  "duplicate": 208,
-  "location": 1993,
-  "too_old": 134
+  "salary": 5,
+  "title": 63685,
+  "passed": 545,
+  "duplicate": 286,
+  "location": 2002,
+  "company": 77,
+  "too_old": 134,
+  "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 91,
-  "himalayas": 1,
+  "adzuna": 111,
+  "arbeitnow": 8,
+  "jobicy": 9,
+  "himalayas": 3,
   "greenhouse": 12,
-  "jobicy": 12,
   "ashby": 52,
-  "personio": 14,
-  "recruitee": 15,
+  "personio": 12,
+  "recruitee": 14,
   "arbeitsagentur": 22,
   "weworkremotely": 7,
-  "arbeitnow": 9,
   "smartrecruiters": 3,
   "hn": 6
  }
