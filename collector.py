@@ -106,7 +106,7 @@ def parse_date(v):
         d = dt.datetime.fromisoformat(s)
         return d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)
     except Exception:
-        for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%Y-%m-%d %H:%M:%S", "%d.%m.%Y"):
+        for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT", "%Y-%m-%d %H:%M:%S", "%d.%m.%Y"):
             try:
                 d = dt.datetime.strptime(str(v), fmt)
                 return d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)
@@ -535,6 +535,45 @@ def arbeitsagentur():
     return out
 
 
+def enrich_adzuna(raw, limit):
+    """Adzuna's API gives only a short snippet. For promising Adzuna jobs (title fits, NRW or nationwide
+    home office), open the ad page (it redirects to the employer's posting when there is one) and keep its
+    text, so the remote / office-day sentence and the stack can be checked like for company feeds."""
+    cand = []
+    for r in raw:
+        if r["source"] not in ("adzuna", "jooble", "careerjet"):
+            continue
+        t = (r["title"] or "").lower()
+        if RE_TITLE_HARD.search(t) or RE_COMPANY_EXC.search((r["company"] or "").lower()):
+            continue
+        if not (RE_TITLE_INC.search(t) or RE_TITLE_GEN.search(t)):
+            continue
+        l = (r["location"] or "").lower()
+        if not (RE_NRW.search(l) or "homeoffice" in l):
+            continue
+        cand.append(r)
+    cand.sort(key=lambda r: (not RE_NRW.search(r["location"].lower()), not bool(RE_TITLE_INC.search(r["title"].lower()))))
+    cand = cand[:limit]
+
+    def one(r):
+        try:
+            code, body = http(r["url"], {"Accept": "text/html,application/xhtml+xml"}, timeout=20, retries=0)
+        except Exception:
+            return r, ""
+        if code != 200 or not body:
+            return r, ""
+        txt = body.decode("utf-8", "replace")
+        txt = re.sub(r"(?is)<(script|style|noscript|svg|header|footer|nav)[^>]*>.*?</\1>", " ", txt)
+        return r, strip_html(txt)[:8000]
+    ok = 0
+    with cf.ThreadPoolExecutor(8) as ex:
+        for r, text in ex.map(one, cand):
+            if len(text) > 400:
+                r["_desc"] = (text + " " + r["_desc"]).strip()[:8000]
+                ok += 1
+    STATUS["adzuna_pages"] = {"tried": len(cand), "ok": ok}
+
+
 def _ba_detail_text(j):
     f = _flat(j)
     parts = [str(v) for k, v in f.items()
@@ -811,9 +850,125 @@ def workingnomads():
             for x in j]
 
 
+def _salary_max_eur(txt):
+    """Highest yearly EUR figure in a salary text like '€70.000 – 85.000' or '70k-85k EUR'; None if unclear."""
+    t = (txt or "").lower().replace(".", "").replace(",", "")
+    if not re.search(r"€|eur", t):
+        return None
+    nums = [int(n) * (1000 if k else 1) for n, k in re.findall(r"(\d{2,6})\s*(k)?", t)]
+    nums = [n for n in nums if 20000 <= n <= 400000]
+    return max(nums) if nums else None
+
+
+def germantechjobs():
+    """GermanTechJobs.de public XML job feed (German IT jobs, full descriptions, often salary)."""
+    code, body = http("https://germantechjobs.de/job_feed.xml", {"Accept": "application/xml,text/xml"}, timeout=60)
+    if code != 200 or not body.strip():
+        raise RuntimeError(f"HTTP {code}")
+    root = ET.fromstring(body)
+    out = []
+    for jb in root.iter("job"):
+        g = lambda k: (jb.findtext(k) or "").strip()
+        title = g("title") or g("name")
+        company = g("company") or g("company-name")
+        loc = " / ".join(filter(None, [g("city") or g("location"), g("region"), "Deutschland"]))
+        desc = strip_html(g("description"))[:6000]
+        remote = bool(re.search(r"\b(100 ?% )?remote\b|homeoffice|home office", (title + " " + g("location") + " " + desc[:1500]).lower()))
+        sal = g("salary")
+        out.append(rec("germantechjobs", jb.get("id") or g("id") or g("url"), company, title, g("url") or g("link"), loc,
+                       parse_date(g("pubdate")), remote or None, sal, _salary_max_eur(sal), desc,
+                       g("jobtype") or g("job-type"), "", "germantechjobs"))
+    if not out:
+        raise RuntimeError("feed empty")
+    return out
+
+
+def jooble():
+    """Jooble job search engine (free API key by email from jooble.org/api/about; GitHub secret JOOBLE_KEY)."""
+    key = os.environ.get("JOOBLE_KEY")
+    if not key:
+        raise RuntimeError("no API key set (optional)")
+    cfg = CFG.get("jooble", {})
+    out, calls = [], 0
+    for what in cfg.get("queries", []):
+        for where in cfg.get("locations", ["Essen", "Köln", "Deutschland"]):
+            for page in (1, 2):
+                payload = json.dumps({"keywords": what + (" remote" if where == "Deutschland" else ""),
+                                      "location": where, "page": str(page)}).encode()
+                try:
+                    req = urllib.request.Request(f"https://jooble.org/api/{key}", data=payload,
+                                                 headers={"Content-Type": "application/json", "User-Agent": UA})
+                    with urllib.request.urlopen(req, timeout=25) as r:
+                        j = json.loads(r.read().decode("utf-8", "replace"))
+                except urllib.error.HTTPError as e:
+                    if not out:
+                        raise RuntimeError(f"HTTP {e.code}")
+                    j = None
+                except Exception:
+                    j = None
+                calls += 1
+                jobs = (j or {}).get("jobs") or []
+                for x in jobs:
+                    loc = (x.get("location") or "") + " / Deutschland"
+                    snip = strip_html(x.get("snippet") or "")
+                    if where == "Deutschland" or re.search(r"remote|home ?office", snip + " " + (x.get("title") or ""), re.I):
+                        loc += " / Homeoffice"
+                    out.append(rec("jooble", x.get("id") or x.get("link"), x.get("company"), strip_html(x.get("title") or ""),
+                                   x.get("link"), loc, parse_date(x.get("updated")), None, x.get("salary") or "",
+                                   _salary_max_eur(x.get("salary")), snip + " " + what, x.get("type") or "", "", "jooble"))
+                if len(jobs) < 20:
+                    break
+                time.sleep(0.5)
+    STATUS["jooble_usage"] = {"calls": calls}
+    return out
+
+
+def careerjet():
+    """Careerjet job search engine (free partner ID from careerjet.de/partners; GitHub secret CAREERJET_AFFID)."""
+    affid = os.environ.get("CAREERJET_AFFID")
+    if not affid:
+        raise RuntimeError("no partner ID set (optional)")
+    cfg = CFG.get("careerjet", {})
+    try:
+        _, ipb = http("https://api.ipify.org")
+        ip = ipb.decode().strip() or "127.0.0.1"
+    except Exception:
+        ip = "127.0.0.1"
+    out = []
+    for what in cfg.get("queries", []):
+        for where in cfg.get("locations", ["Essen", "Köln"]):
+            for page in (1, 2):
+                params = {"locale_code": "de_DE", "affid": affid, "user_ip": ip,
+                          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) job-radar", "url": "https://github.com/Riadh180/job-collector",
+                          "keywords": what, "location": where, "pagesize": 100, "page": page, "sort": "date",
+                          "contracttype": "p", "contractperiod": "f"}
+                code, j = get_json("http://public.api.careerjet.net/search?" + urllib.parse.urlencode(params),
+                                   {"Referer": "https://github.com/Riadh180/job-collector"})
+                if j is None:
+                    if not out:
+                        raise RuntimeError(f"HTTP {code}")
+                    break
+                if j.get("type") != "JOBS":
+                    break
+                jobs = j.get("jobs") or []
+                for x in jobs:
+                    loc = (x.get("locations") or "") + " / Deutschland"
+                    desc = strip_html(x.get("description") or "")
+                    if re.search(r"remote|home ?office", desc + " " + (x.get("title") or ""), re.I):
+                        loc += " / Homeoffice"
+                    out.append(rec("careerjet", x.get("url"), x.get("company"), x.get("title"), x.get("url"), loc,
+                                   parse_date(x.get("date")), None, x.get("salary") or "", _salary_max_eur(x.get("salary")),
+                                   desc + " " + what, "permanent", "", "careerjet"))
+                if page >= int(j.get("pages") or 1):
+                    break
+                time.sleep(0.5)
+    return out
+
+
 BOARDS = {"adzuna": adzuna, "arbeitsagentur": arbeitsagentur, "arbeitnow": arbeitnow, "remotive": remotive,
           "jobicy": jobicy, "remoteok": remoteok, "himalayas": himalayas, "weworkremotely": weworkremotely,
-          "hn": hn_hiring, "workingnomads": workingnomads}
+          "hn": hn_hiring, "workingnomads": workingnomads, "germantechjobs": germantechjobs,
+          "jooble": jooble, "careerjet": careerjet}
 
 
 # ---------------------------------------------------------------- probing (auto-discovery of company feeds)
@@ -996,6 +1151,11 @@ def main():
                     c["disabled"] = True
     STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails)}
     STATUS["errors"]["companies"] = fails
+
+    try:
+        enrich_adzuna(raw, CFG["adzuna"].get("page_limit", 80))
+    except Exception as e:
+        STATUS["adzuna_pages"] = {"error": str(e)[:120]}
 
     # filter
     matches, seen_keys = [], set()

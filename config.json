@@ -528,6 +528,43 @@
   "calls_per_run": 45,
   "max_per_day": 160,
   "max_per_week": 900,
-  "max_per_month": 2400
+  "max_per_month": 2400,
+  "page_limit": 120
+ },
+ "jooble": {
+  "queries": [
+   "react",
+   "react native",
+   "frontend react",
+   "fullstack typescript",
+   "next.js",
+   "typescript",
+   "softwareentwickler react",
+   "frontend entwickler"
+  ],
+  "locations": [
+   "Essen",
+   "Köln",
+   "Düsseldorf",
+   "Deutschland"
+  ]
+ },
+ "careerjet": {
+  "queries": [
+   "react",
+   "react native",
+   "frontend react",
+   "fullstack typescript",
+   "next.js",
+   "typescript",
+   "softwareentwickler react",
+   "frontend entwickler"
+  ],
+  "locations": [
+   "Essen",
+   "Köln",
+   "Düsseldorf",
+   "Dortmund"
+  ]
  }
 }
