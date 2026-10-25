@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1061
+   "fetched": 1556
   },
   "arbeitsagentur": {
    "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 4050
+   "fetched": 4047
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 347
+   "fetched": 365
   },
   "remoteok": {
    "fetched": 99
@@ -31,53 +31,53 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 696
+   "fetched": 722
   },
   "jooble": {
-   "fetched": 265
+   "fetched": 264
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1335,
+   "checked": 1343,
    "failed": 24
   }
  },
  "errors": {
   "companies": {
-   "Saga": "HTTP 429",
-   "Powerprozesse": "HTTP 429",
-   "TECOSIM GmbH": "HTTP 429",
-   "Profitap": "HTTP 429",
-   "Unifonic": "HTTP 429",
-   "Holzland Becker": "HTTP 429",
-   "inovex GmbH": "HTTP 429",
-   "Bromcom Computers Plc": "HTTP 429",
-   "Hypertrics GmbH": "HTTP 429",
-   "CipSoft GmbH": "HTTP 429",
-   "One Mobility": "HTTP 429",
-   "AltScore": "HTTP 429",
-   "DCF Verlag GmbH": "HTTP 429",
+   "Sonarsource": "HTTP 502",
+   "Docsumo": "HTTP 502",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Hall Tabakwaren e.K": "HTTP 429",
+   "Exeon Analytics": "HTTP 429",
+   "KI Group": "HTTP 429",
+   "AMS Accelerate IT": "HTTP 429",
    "Moneyhub": "HTTP 429",
+   "Stermedia": "HTTP 429",
    "TrustEngine": "HTTP 429",
+   "Plukon Food Group": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Make": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
-   "Toyota Tsusho Systems": "HTTP 429"
+   "NetKnights GmbH": "HTTP 429",
+   "Core-Backbone GmbH": "HTTP 429",
+   "Toyota Tsusho Systems": "HTTP 429",
+   "Aramark": "HTTP 429",
+   "Lamm HR GmbH": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 740
+  "callsToday": 135,
+  "callsLast7Days": 785
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -126,7 +126,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=318, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=317, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -141,50 +141,52 @@
   "calls": 40
  },
  "probe": {
-  "tried": 25,
+  "tried": 83,
   "found": [
-   "Sevaa Group (smartrecruiters:sevaagroup)",
-   "Lamm HR GmbH (recruitee:lammhr)",
-   "Mobileye (lever:mobileye)",
-   "Toyota Tsusho Systems (workable:toyota-tsusho-systems)",
-   "Assist World (lever:assist-world)",
-   "Velo3D (lever:velo3d)",
-   "CareerTEAM, LLC (smartrecruiters:careerteam)"
+   "BrightEdge (lever:brightedge)",
+   "Limetax (ashby:limetax)",
+   "Agile Defense (lever:agile-defense)",
+   "Cognition+ (ashby:cognition)",
+   "Cprime (lever:cprime)",
+   "Databento (greenhouse:databento)",
+   "Interview Mocha (smartrecruiters:interviewmocha)",
+   "Ubiquiti Inc. (greenhouse:ubiquiti)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
   "ok": 120
  },
- "collectedAt": "2026-10-25T10:07:28+00:00",
- "rawJobs": 69978,
- "matches": 262,
- "new": 1,
- "companies": 1407,
- "activeCompanies": 1335,
+ "collectedAt": "2026-10-25T14:08:21+00:00",
+ "rawJobs": 71127,
+ "matches": 272,
+ "new": 4,
+ "companies": 1415,
+ "activeCompanies": 1343,
  "funnel": {
-  "passed": 548,
-  "duplicate": 286,
-  "title": 66945,
-  "salary": 16,
-  "company": 64,
-  "location": 2239,
-  "too_old": 146,
-  "employment": 13
+  "title": 67967,
+  "company": 82,
+  "passed": 632,
+  "duplicate": 360,
+  "salary": 18,
+  "employment": 14,
+  "location": 2260,
+  "too_old": 147
  },
  "matchesBySource": {
-  "himalayas": 3,
-  "adzuna": 105,
-  "jobicy": 11,
-  "jooble": 1,
-  "ashby": 58,
+  "adzuna": 112,
+  "himalayas": 2,
   "personio": 14,
+  "jobicy": 13,
+  "jooble": 1,
+  "ashby": 56,
   "greenhouse": 12,
-  "arbeitnow": 8,
-  "recruitee": 13,
-  "arbeitsagentur": 21,
+  "arbeitnow": 9,
+  "recruitee": 14,
+  "arbeitsagentur": 22,
   "weworkremotely": 7,
   "smartrecruiters": 3,
+  "germantechjobs": 1,
   "hn": 6
  }
 }
