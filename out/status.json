@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 1587
   },
   "arbeitsagentur": {
    "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 3926
+   "fetched": 3950
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 330
+   "fetched": 347
   },
   "remoteok": {
    "fetched": 99
@@ -22,37 +22,54 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 91
+   "fetched": 92
   },
   "hn": {
    "fetched": 303
   },
   "workingnomads": {
-   "fetched": 40
+   "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 769
+   "fetched": 682
   },
   "jooble": {
    "fetched": 265
   },
   "careerjet": {
-   "error": "HTTP [403, 403, 403]"
+   "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1311,
-   "failed": 0
+   "checked": 1328,
+   "failed": 16
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Saga": "HTTP 429",
+   "Powerprozesse": "HTTP 429",
+   "TECOSIM GmbH": "HTTP 429",
+   "Profitap": "HTTP 429",
+   "Unifonic": "HTTP 429",
+   "Holzland Becker": "HTTP 429",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 45,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 680
+  "callsToday": 45,
+  "callsLast7Days": 695
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -101,7 +118,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=319, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=318, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -116,45 +133,61 @@
   "calls": 40
  },
  "probe": {
-  "tried": 42,
+  "tried": 110,
   "found": [
-   "Voltus GmbH (lever:voltus)",
-   "Brainlab (smartrecruiters:brainlab)"
+   "AJAIA (workable:ajaia)",
+   "Lamdax (workable:lamdax)",
+   "Leadway Pensure (smartrecruiters:leadwaypensure)",
+   "Ethereum Community Fund (smartrecruiters:ethereumcommunityfund)",
+   "Acrobyte Technologies (smartrecruiters:acrobytetechnologies)",
+   "Innogames (lever:innogames)",
+   "Socket (ashby:socket)",
+   "DBServices Portugal (smartrecruiters:dbservicesportugal)",
+   "Sunday Gmbh (ashby:sunday)",
+   "Sunday Natural (ashby:sunday-natural)",
+   "Sereact GmbH (ashby:sereact)",
+   "FuseFX (smartrecruiters:fusefx)",
+   "Modus Create (greenhouse:moduscreate)",
+   "Toolbx (ashby:toolbx)",
+   "Aramark (recruitee:aramark)",
+   "Blue Mantis (lever:blue-mantis)",
+   "Fly (lever:fly)"
   ]
  },
  "adzuna_pages": {
-  "tried": 2,
-  "ok": 0
+  "tried": 120,
+  "ok": 120
  },
- "collectedAt": "2026-10-24T18:27:47+00:00",
- "rawJobs": 69316,
- "matches": 172,
- "new": 0,
- "companies": 1383,
- "activeCompanies": 1311,
+ "collectedAt": "2026-10-25T09:31:54+00:00",
+ "rawJobs": 70344,
+ "matches": 271,
+ "new": 12,
+ "companies": 1400,
+ "activeCompanies": 1328,
  "funnel": {
-  "title": 66659,
-  "passed": 253,
-  "too_old": 141,
-  "company": 22,
-  "location": 2216,
-  "employment": 13,
-  "duplicate": 81,
-  "salary": 5
+  "title": 67232,
+  "salary": 18,
+  "passed": 621,
+  "company": 82,
+  "employment": 14,
+  "duplicate": 350,
+  "location": 2224,
+  "too_old": 146
  },
  "matchesBySource": {
+  "adzuna": 109,
+  "jobicy": 11,
+  "himalayas": 5,
   "jooble": 1,
-  "himalayas": 1,
-  "ashby": 62,
-  "greenhouse": 13,
-  "jobicy": 9,
-  "germantechjobs": 3,
-  "arbeitnow": 12,
-  "personio": 15,
-  "smartrecruiters": 4,
-  "recruitee": 16,
-  "arbeitsagentur": 23,
+  "ashby": 58,
+  "personio": 13,
+  "greenhouse": 12,
+  "arbeitnow": 9,
+  "recruitee": 14,
+  "arbeitsagentur": 22,
   "weworkremotely": 7,
+  "smartrecruiters": 3,
+  "germantechjobs": 1,
   "hn": 6
  }
 }
