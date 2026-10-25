@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1556
+   "fetched": 650
   },
   "arbeitsagentur": {
    "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 4047
+   "fetched": 4010
   },
   "remotive": {
    "fetched": 80
@@ -40,44 +40,38 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1343,
-   "failed": 24
+   "checked": 1351,
+   "failed": 18
   }
  },
  "errors": {
   "companies": {
-   "Sonarsource": "HTTP 502",
-   "Docsumo": "HTTP 502",
+   "Quincus": "HTTP 502",
+   "Holzland Becker": "HTTP 429",
+   "inovex GmbH": "HTTP 429",
+   "Bromcom Computers Plc": "HTTP 429",
+   "Hypertrics GmbH": "HTTP 429",
+   "One Mobility": "HTTP 429",
+   "CipSoft GmbH": "HTTP 429",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
-   "Hall Tabakwaren e.K": "HTTP 429",
-   "Exeon Analytics": "HTTP 429",
-   "KI Group": "HTTP 429",
-   "AMS Accelerate IT": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "Stermedia": "HTTP 429",
    "TrustEngine": "HTTP 429",
-   "Plukon Food Group": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Thorlabs": "HTTP 429",
    "Intertek": "HTTP 429",
-   "Make": "HTTP 429",
+   "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
-   "NetKnights GmbH": "HTTP 429",
-   "Core-Backbone GmbH": "HTTP 429",
-   "Toyota Tsusho Systems": "HTTP 429",
-   "Aramark": "HTTP 429",
-   "Lamm HR GmbH": "HTTP 429"
+   "Toyota Tsusho Systems": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 26,
+  "callsThisRun": 25,
+  "searchesThisRun": 18,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 785
+  "callsToday": 160,
+  "callsLast7Days": 810
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -141,51 +135,51 @@
   "calls": 40
  },
  "probe": {
-  "tried": 83,
+  "tried": 59,
   "found": [
-   "BrightEdge (lever:brightedge)",
-   "Limetax (ashby:limetax)",
-   "Agile Defense (lever:agile-defense)",
-   "Cognition+ (ashby:cognition)",
-   "Cprime (lever:cprime)",
-   "Databento (greenhouse:databento)",
-   "Interview Mocha (smartrecruiters:interviewmocha)",
-   "Ubiquiti Inc. (greenhouse:ubiquiti)"
+   "Sarj.ai (ashby:sarjai)",
+   "We Are Rosie (smartrecruiters:wearerosie)",
+   "Clear Capital (lever:clearcapital)",
+   "Aduna Global (lever:adunaglobal)",
+   "HumanSignal (greenhouse:humansignal)",
+   "CD PROJEKT RED (smartrecruiters:cdprojektred)",
+   "BackerKit (lever:backerkit)",
+   "Terawatt Infrastructure (lever:terawattinfrastructure)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 120
+  "ok": 102
  },
- "collectedAt": "2026-10-25T14:08:21+00:00",
- "rawJobs": 71127,
- "matches": 272,
- "new": 4,
- "companies": 1415,
- "activeCompanies": 1343,
+ "collectedAt": "2026-10-25T18:07:04+00:00",
+ "rawJobs": 70347,
+ "matches": 247,
+ "new": 7,
+ "companies": 1423,
+ "activeCompanies": 1351,
  "funnel": {
-  "title": 67967,
-  "company": 82,
-  "passed": 632,
-  "duplicate": 360,
-  "salary": 18,
-  "employment": 14,
-  "location": 2260,
-  "too_old": 147
+  "title": 67433,
+  "passed": 434,
+  "duplicate": 187,
+  "salary": 14,
+  "company": 48,
+  "location": 2251,
+  "too_old": 147,
+  "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 112,
-  "himalayas": 2,
-  "personio": 14,
+  "adzuna": 76,
+  "himalayas": 7,
+  "personio": 16,
   "jobicy": 13,
   "jooble": 1,
-  "ashby": 56,
-  "greenhouse": 12,
-  "arbeitnow": 9,
+  "ashby": 57,
+  "greenhouse": 13,
+  "arbeitnow": 11,
+  "smartrecruiters": 4,
   "recruitee": 14,
-  "arbeitsagentur": 22,
+  "arbeitsagentur": 21,
   "weworkremotely": 7,
-  "smartrecruiters": 3,
   "germantechjobs": 1,
   "hn": 6
  }
