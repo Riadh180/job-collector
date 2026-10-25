@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1349,
-   "failed": 12
+   "checked": 1350,
+   "failed": 10
   }
  },
  "errors": {
@@ -55,9 +55,7 @@
    "Thorlabs": "HTTP 429",
    "Intertek": "HTTP 429",
    "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Aramark": "HTTP 429",
-   "Lamm HR GmbH": "HTTP 429"
+   "Lamdax": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -129,33 +127,34 @@
   "calls": 39
  },
  "probe": {
-  "tried": 29,
+  "tried": 33,
   "found": [
    "Coditation Systems (smartrecruiters:coditationsystems)",
+   "Kepler (lever:kepler)",
+   "Ten Mile Square Technologies (smartrecruiters:tenmilesquaretechnologies)",
    "Owner (ashby:owner)",
    "Magnet Forensics (lever:magnetforensics)",
-   "Kepler (lever:kepler)",
    "Swarco AG (smartrecruiters:swarco)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 112
+  "ok": 120
  },
- "collectedAt": "2026-10-25T22:18:23+00:00",
- "rawJobs": 70876,
+ "collectedAt": "2026-10-25T23:40:54+00:00",
+ "rawJobs": 70954,
  "matches": 278,
  "new": 1,
- "companies": 1421,
- "activeCompanies": 1349,
+ "companies": 1422,
+ "activeCompanies": 1350,
  "funnel": {
-  "title": 67720,
+  "title": 67797,
   "company": 84,
   "passed": 636,
   "duplicate": 358,
   "salary": 17,
   "employment": 14,
-  "location": 2251,
+  "location": 2252,
   "too_old": 147
  },
  "matchesBySource": {
