@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1062
+   "fetched": 1560
   },
   "arbeitsagentur": {
    "fetched": 294
   },
   "arbeitnow": {
-   "fetched": 3938
+   "fetched": 3500
   },
   "remotive": {
    "fetched": 80
@@ -31,28 +31,41 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 703
+   "fetched": 647
   },
   "jooble": {
-   "fetched": 264
+   "fetched": 262
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1344,
-   "failed": 0
+   "checked": 1349,
+   "failed": 12
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Aramark": "HTTP 429",
+   "Lamm HR GmbH": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 740
+  "callsToday": 135,
+  "callsLast7Days": 785
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -113,53 +126,42 @@
   }
  },
  "jooble_usage": {
-  "calls": 40
+  "calls": 39
  },
  "probe": {
-  "tried": 107,
+  "tried": 29,
   "found": [
-   "Sarj.ai (ashby:sarjai)",
-   "Lamm HR GmbH (recruitee:lammhr)",
-   "We Are Rosie (smartrecruiters:wearerosie)",
-   "Clear Capital (lever:clearcapital)",
-   "BrightEdge (lever:brightedge)",
-   "Aduna Global (lever:adunaglobal)",
-   "Databento (greenhouse:databento)",
-   "Limetax (ashby:limetax)",
-   "Agile Defense (lever:agile-defense)",
-   "Mobileye (lever:mobileye)",
-   "HumanSignal (greenhouse:humansignal)",
-   "CD PROJEKT RED (smartrecruiters:cdprojektred)",
-   "BackerKit (lever:backerkit)",
-   "Terawatt Infrastructure (lever:terawattinfrastructure)",
-   "Cognition+ (ashby:cognition)",
-   "Cprime (lever:cprime)"
+   "Coditation Systems (smartrecruiters:coditationsystems)",
+   "Owner (ashby:owner)",
+   "Magnet Forensics (lever:magnetforensics)",
+   "Kepler (lever:kepler)",
+   "Swarco AG (smartrecruiters:swarco)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 102
+  "ok": 112
  },
- "collectedAt": "2026-10-25T18:43:08+00:00",
- "rawJobs": 71482,
- "matches": 270,
- "new": 10,
- "companies": 1416,
- "activeCompanies": 1344,
+ "collectedAt": "2026-10-25T22:18:23+00:00",
+ "rawJobs": 70876,
+ "matches": 278,
+ "new": 1,
+ "companies": 1421,
+ "activeCompanies": 1349,
  "funnel": {
-  "title": 68407,
-  "passed": 569,
-  "duplicate": 299,
-  "salary": 16,
-  "company": 62,
-  "location": 2261,
-  "too_old": 147,
-  "employment": 13
+  "title": 67720,
+  "company": 84,
+  "passed": 636,
+  "duplicate": 358,
+  "salary": 17,
+  "employment": 14,
+  "location": 2251,
+  "too_old": 147
  },
  "matchesBySource": {
-  "adzuna": 106,
-  "himalayas": 6,
-  "personio": 15,
+  "adzuna": 115,
+  "himalayas": 5,
+  "personio": 14,
   "jobicy": 13,
   "jooble": 1,
   "ashby": 56,
@@ -169,6 +171,7 @@
   "arbeitsagentur": 21,
   "weworkremotely": 7,
   "smartrecruiters": 3,
+  "germantechjobs": 1,
   "hn": 6
  }
 }
