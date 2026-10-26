@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1560
+   "fetched": 1585
   },
   "arbeitsagentur": {
-   "fetched": 294
+   "fetched": 293
   },
   "arbeitnow": {
-   "fetched": 3500
+   "fetched": 3548
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 365
+   "fetched": 377
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 92
+   "fetched": 93
   },
   "hn": {
    "fetched": 303
@@ -31,7 +31,7 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 647
+   "fetched": 682
   },
   "jooble": {
    "fetched": 262
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1350,
-   "failed": 10
+   "checked": 1361,
+   "failed": 11
   }
  },
  "errors": {
@@ -50,20 +50,21 @@
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "TrustEngine": "HTTP 429",
-   "Thorlabs": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429"
+   "Lamdax": "HTTP 429",
+   "Verisian": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
   "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 785
+  "callsToday": 45,
+  "callsLast7Days": 695
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -112,12 +113,12 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=317, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=318, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 294,
+  "jobs": 293,
   "details": {
    "tried": 106,
    "ok": 106
@@ -127,48 +128,58 @@
   "calls": 39
  },
  "probe": {
-  "tried": 33,
+  "tried": 91,
   "found": [
    "Coditation Systems (smartrecruiters:coditationsystems)",
-   "Kepler (lever:kepler)",
-   "Ten Mile Square Technologies (smartrecruiters:tenmilesquaretechnologies)",
-   "Owner (ashby:owner)",
-   "Magnet Forensics (lever:magnetforensics)",
-   "Swarco AG (smartrecruiters:swarco)"
+   "Verisian (workable:verisian)",
+   "Interview Mocha (smartrecruiters:interviewmocha)",
+   "PolicyMe (lever:policyme)",
+   "Mitratech (greenhouse:mitratech)",
+   "AFRY (smartrecruiters:afry)",
+   "Wabtec (smartrecruiters:wabtec)",
+   "Clariness GmbH (greenhouse:clariness)",
+   "Picus (lever:picus)",
+   "ERG (lever:erg)",
+   "Zero Carbon Systems, Inc. (lever:zerocarbonsystems)",
+   "Lighthouse (greenhouse:lighthouse)",
+   "Imagine Worldwide (greenhouse:imagineworldwide)",
+   "Waabi (lever:waabi)",
+   "eTrepid (smartrecruiters:etrepid)",
+   "Business Wire (lever:businesswire)",
+   "Endpoint Clinical (lever:endpointclinical)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
   "ok": 120
  },
- "collectedAt": "2026-10-25T23:40:54+00:00",
- "rawJobs": 70954,
- "matches": 278,
- "new": 1,
- "companies": 1422,
- "activeCompanies": 1350,
+ "collectedAt": "2026-10-26T08:11:34+00:00",
+ "rawJobs": 72032,
+ "matches": 285,
+ "new": 9,
+ "companies": 1433,
+ "activeCompanies": 1361,
  "funnel": {
-  "title": 67797,
-  "company": 84,
-  "passed": 636,
-  "duplicate": 358,
-  "salary": 17,
+  "title": 68826,
+  "company": 86,
+  "passed": 661,
+  "duplicate": 376,
+  "salary": 14,
   "employment": 14,
-  "location": 2252,
+  "location": 2277,
   "too_old": 147
  },
  "matchesBySource": {
-  "adzuna": 115,
-  "himalayas": 5,
-  "personio": 14,
-  "jobicy": 13,
+  "adzuna": 126,
+  "arbeitnow": 10,
+  "weworkremotely": 8,
+  "jobicy": 14,
   "jooble": 1,
-  "ashby": 56,
+  "ashby": 53,
+  "personio": 13,
   "greenhouse": 13,
-  "arbeitnow": 9,
-  "recruitee": 14,
+  "recruitee": 16,
   "arbeitsagentur": 21,
-  "weworkremotely": 7,
   "smartrecruiters": 3,
   "germantechjobs": 1,
   "hn": 6
