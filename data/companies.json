@@ -9151,7 +9151,8 @@
   "ats": "recruitee",
   "slug": "saga",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-26"
+  "lastOk": "2026-10-26",
+  "failCount": 1
  },
  {
   "name": "Giftify",
@@ -9193,7 +9194,8 @@
   "ats": "recruitee",
   "slug": "powerprozesse",
   "addedBy": "probe 2026-10-17",
-  "lastOk": "2026-10-26"
+  "lastOk": "2026-10-26",
+  "failCount": 1
  },
  {
   "name": "DualEntry",
@@ -10362,8 +10364,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "Voyant Photonics",
@@ -10509,8 +10510,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "Getolo",
@@ -10518,8 +10518,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "EverAI",
@@ -10871,8 +10870,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "TrustEngine",
@@ -10880,8 +10878,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "HireHawk",
@@ -10889,8 +10886,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "DigitalService",
@@ -10930,8 +10926,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "Thorlabs",
@@ -10939,8 +10934,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "1Password",
@@ -11252,8 +11246,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "Lamdax",
@@ -11261,8 +11254,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-25",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "Leadway Pensure",
@@ -11528,7 +11520,7 @@
   "ats": "workable",
   "slug": "verisian",
   "addedBy": "probe 2026-10-26",
-  "failCount": 1
+  "lastOk": "2026-10-26"
  },
  {
   "name": "Interview Mocha",
@@ -11647,6 +11639,14 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "endpointclinical",
+  "addedBy": "probe 2026-10-26",
+  "lastOk": "2026-10-26"
+ },
+ {
+  "name": "Much Better Adventures",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "muchbetteradventures",
   "addedBy": "probe 2026-10-26",
   "lastOk": "2026-10-26"
  }
