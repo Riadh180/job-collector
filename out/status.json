@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1101
+   "fetched": 1567
   },
   "arbeitsagentur": {
-   "fetched": 295
+   "fetched": 293
   },
   "arbeitnow": {
-   "fetched": 3569
+   "fetched": 3567
   },
   "remotive": {
    "fetched": 80
@@ -31,7 +31,7 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 723
+   "fetched": 715
   },
   "jooble": {
    "fetched": 210
@@ -40,19 +40,43 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1354,
-   "failed": 0
+   "checked": 1357,
+   "failed": 23
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "One Impression": "HTTP 502",
+   "Building Swell": "HTTP 502",
+   "Mendix": "HTTP 502",
+   "4ALLPORTAL GmbH": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "Nomios": "HTTP 429",
+   "SichtbarerWerden": "HTTP 429",
+   "ITB-": "HTTP 429",
+   "Wimex-Gruppe": "HTTP 429",
+   "Qualifyze": "HTTP 429",
+   "Go Vocal": "HTTP 429",
+   "BALLY’S INTRALOT SA": "HTTP 429",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 740
+  "callsToday": 135,
+  "callsLast7Days": 785
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -101,12 +125,12 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=318, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=317, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 295,
+  "jobs": 293,
   "details": {
    "tried": 107,
    "ok": 107
@@ -116,44 +140,46 @@
   "calls": 39
  },
  "probe": {
-  "tried": 8,
+  "tried": 30,
   "found": [
-   "Telli (ashby:telli)",
-   "Constructor (ashby:constructor)"
+   "Hetzner Cloud GmbH (recruitee:hetznercloudgmbh)",
+   "Payflows (recruitee:payflows)",
+   "escape GmbH (ashby:escape)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 120
+  "ok": 111
  },
- "collectedAt": "2026-10-26T20:18:01+00:00",
- "rawJobs": 71513,
- "matches": 252,
- "new": 3,
- "companies": 1426,
- "activeCompanies": 1354,
+ "collectedAt": "2026-10-26T23:18:59+00:00",
+ "rawJobs": 70959,
+ "matches": 263,
+ "new": 0,
+ "companies": 1429,
+ "activeCompanies": 1357,
  "funnel": {
-  "title": 68520,
-  "company": 66,
-  "passed": 542,
-  "duplicate": 290,
-  "location": 2207,
-  "salary": 12,
-  "too_old": 145,
-  "employment": 14
+  "title": 67877,
+  "company": 88,
+  "passed": 634,
+  "duplicate": 371,
+  "salary": 13,
+  "employment": 14,
+  "location": 2182,
+  "too_old": 144
  },
  "matchesBySource": {
-  "adzuna": 100,
   "weworkremotely": 9,
+  "adzuna": 112,
   "arbeitnow": 5,
-  "himalayas": 3,
-  "greenhouse": 13,
   "ashby": 51,
-  "personio": 15,
+  "personio": 14,
   "jobicy": 13,
+  "greenhouse": 13,
   "recruitee": 16,
-  "arbeitsagentur": 19,
+  "arbeitsagentur": 20,
   "smartrecruiters": 3,
+  "germantechjobs": 1,
+  "himalayas": 1,
   "hn": 5
  }
 }
