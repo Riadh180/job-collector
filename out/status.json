@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1133
+   "fetched": 1575
   },
   "arbeitsagentur": {
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 3553
+   "fetched": 3570
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 381
+   "fetched": 393
   },
   "remoteok": {
    "fetched": 99
@@ -31,17 +31,17 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 682
+   "fetched": 722
   },
   "jooble": {
-   "fetched": 264
+   "fetched": 265
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1362,
-   "failed": 2
+   "checked": 1356,
+   "failed": 0
   }
  },
  "errors": {
@@ -52,10 +52,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 740
+  "callsToday": 45,
+  "callsLast7Days": 695
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -104,7 +104,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=320, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=319, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -119,43 +119,56 @@
   "calls": 39
  },
  "probe": {
-  "tried": 16,
+  "tried": 91,
   "found": [
-   "Much Better Adventures (workable:muchbetteradventures)"
+   "Anypear (workable:anypear)",
+   "Intuitive (smartrecruiters:intuitive)",
+   "Coditation Systems (smartrecruiters:coditationsystems)",
+   "FLEX Capital Management GmbH (personio:flex-capital-management-gmbh)",
+   "Picus (lever:picus)",
+   "Liqid Lig (ashby:liqid-lig)",
+   "Swissitsecuritygroup (greenhouse:swissitsecuritygroup)",
+   "Versa Networks (workable:versa-networks)",
+   "Thunkable (lever:thunkable)",
+   "Coretek Services (workable:coretek-services)",
+   "ERG (lever:erg)",
+   "Zero Carbon Systems, Inc. (lever:zerocarbonsystems)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 116
+  "ok": 120
  },
- "collectedAt": "2026-10-26T10:42:08+00:00",
- "rawJobs": 72256,
- "matches": 273,
- "new": 2,
- "companies": 1434,
- "activeCompanies": 1362,
+ "collectedAt": "2026-10-26T15:01:44+00:00",
+ "rawJobs": 72013,
+ "matches": 283,
+ "new": 14,
+ "companies": 1428,
+ "activeCompanies": 1356,
  "funnel": {
-  "passed": 576,
-  "title": 69159,
-  "duplicate": 303,
-  "location": 2275,
-  "company": 65,
+  "title": 68819,
+  "company": 86,
+  "passed": 674,
+  "duplicate": 391,
   "salary": 14,
-  "too_old": 147,
-  "employment": 13
+  "employment": 15,
+  "location": 2252,
+  "too_old": 146
  },
  "matchesBySource": {
-  "adzuna": 117,
-  "arbeitnow": 8,
+  "adzuna": 126,
+  "arbeitnow": 5,
+  "himalayas": 4,
   "weworkremotely": 8,
-  "personio": 15,
-  "jobicy": 14,
+  "ashby": 51,
+  "personio": 14,
+  "jobicy": 15,
   "jooble": 1,
-  "ashby": 53,
   "greenhouse": 13,
   "recruitee": 16,
-  "arbeitsagentur": 20,
+  "arbeitsagentur": 21,
   "smartrecruiters": 3,
+  "germantechjobs": 1,
   "hn": 5
  }
 }
