@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1567
+   "fetched": 1101
   },
   "arbeitsagentur": {
    "fetched": 295
   },
   "arbeitnow": {
-   "fetched": 3576
+   "fetched": 3569
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 384
+   "fetched": 387
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 93
+   "fetched": 94
   },
   "hn": {
    "fetched": 302
@@ -34,49 +34,25 @@
    "fetched": 723
   },
   "jooble": {
-   "fetched": 209
+   "fetched": 210
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1352,
-   "failed": 23
+   "checked": 1354,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Nomios": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Go Vocal": "HTTP 429",
-   "BALLY’S INTRALOT SA": "HTTP 429",
-   "Spread Group": "HTTP 429",
-   "City Science": "HTTP 429",
-   "Knuddels & Co. KG": "HTTP 429",
-   "Searoutes": "HTTP 429",
-   "Distribusion Technologies GmbH": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 26,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 695
+  "callsToday": 90,
+  "callsLast7Days": 740
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -137,54 +113,47 @@
   }
  },
  "jooble_usage": {
-  "calls": 38
+  "calls": 39
  },
  "probe": {
-  "tried": 106,
+  "tried": 8,
   "found": [
-   "Anypear (workable:anypear)",
-   "Intuitive (smartrecruiters:intuitive)",
-   "FLEX Capital Management GmbH (personio:flex-capital-management-gmbh)",
-   "Liqid Lig (ashby:liqid-lig)",
-   "Swissitsecuritygroup (greenhouse:swissitsecuritygroup)",
-   "Exinity (smartrecruiters:exinity)",
-   "Thunkable (lever:thunkable)",
-   "Swarco AG (smartrecruiters:swarco)"
+   "Telli (ashby:telli)",
+   "Constructor (ashby:constructor)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 118
+  "ok": 120
  },
- "collectedAt": "2026-10-26T18:49:19+00:00",
- "rawJobs": 70921,
- "matches": 262,
- "new": 12,
- "companies": 1424,
- "activeCompanies": 1352,
+ "collectedAt": "2026-10-26T20:18:01+00:00",
+ "rawJobs": 71513,
+ "matches": 252,
+ "new": 3,
+ "companies": 1426,
+ "activeCompanies": 1354,
  "funnel": {
-  "title": 67836,
-  "company": 88,
-  "passed": 632,
-  "duplicate": 370,
-  "salary": 13,
-  "employment": 15,
-  "location": 2185,
-  "too_old": 145
+  "title": 68520,
+  "company": 66,
+  "passed": 542,
+  "duplicate": 290,
+  "location": 2207,
+  "salary": 12,
+  "too_old": 145,
+  "employment": 14
  },
  "matchesBySource": {
-  "adzuna": 112,
+  "adzuna": 100,
+  "weworkremotely": 9,
   "arbeitnow": 5,
-  "himalayas": 2,
-  "weworkremotely": 8,
-  "ashby": 51,
+  "himalayas": 3,
   "greenhouse": 13,
-  "personio": 14,
+  "ashby": 51,
+  "personio": 15,
   "jobicy": 13,
-  "recruitee": 15,
-  "arbeitsagentur": 20,
+  "recruitee": 16,
+  "arbeitsagentur": 19,
   "smartrecruiters": 3,
-  "germantechjobs": 1,
   "hn": 5
  }
 }
