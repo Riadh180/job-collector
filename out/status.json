@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1101
+   "fetched": 1567
   },
   "arbeitsagentur": {
    "fetched": 295
   },
   "arbeitnow": {
-   "fetched": 4192
+   "fetched": 3576
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 394
+   "fetched": 384
   },
   "remoteok": {
    "fetched": 99
@@ -31,7 +31,7 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 722
+   "fetched": 723
   },
   "jooble": {
    "fetched": 209
@@ -40,19 +40,43 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1359,
-   "failed": 0
+   "checked": 1352,
+   "failed": 23
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Nomios": "HTTP 429",
+   "Zoi": "HTTP 429",
+   "SichtbarerWerden": "HTTP 429",
+   "ITB-": "HTTP 429",
+   "Qualifyze": "HTTP 429",
+   "Wimex-Gruppe": "HTTP 429",
+   "Go Vocal": "HTTP 429",
+   "BALLY’S INTRALOT SA": "HTTP 429",
+   "Spread Group": "HTTP 429",
+   "City Science": "HTTP 429",
+   "Knuddels & Co. KG": "HTTP 429",
+   "Searoutes": "HTTP 429",
+   "Distribusion Technologies GmbH": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 740
+  "callsToday": 45,
+  "callsLast7Days": 695
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -101,7 +125,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=319, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=318, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -116,45 +140,51 @@
   "calls": 38
  },
  "probe": {
-  "tried": 29,
+  "tried": 106,
   "found": [
-   "Much Better Adventures (workable:muchbetteradventures)",
+   "Anypear (workable:anypear)",
+   "Intuitive (smartrecruiters:intuitive)",
+   "FLEX Capital Management GmbH (personio:flex-capital-management-gmbh)",
+   "Liqid Lig (ashby:liqid-lig)",
+   "Swissitsecuritygroup (greenhouse:swissitsecuritygroup)",
    "Exinity (smartrecruiters:exinity)",
-   "Atimi (workable:atimi)"
+   "Thunkable (lever:thunkable)",
+   "Swarco AG (smartrecruiters:swarco)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 119
+  "ok": 118
  },
- "collectedAt": "2026-10-26T16:34:30+00:00",
- "rawJobs": 72111,
- "matches": 257,
- "new": 1,
- "companies": 1431,
- "activeCompanies": 1359,
+ "collectedAt": "2026-10-26T18:49:19+00:00",
+ "rawJobs": 70921,
+ "matches": 262,
+ "new": 12,
+ "companies": 1424,
+ "activeCompanies": 1352,
  "funnel": {
-  "company": 68,
-  "title": 69079,
-  "passed": 550,
-  "duplicate": 293,
-  "location": 2234,
-  "salary": 14,
-  "too_old": 146,
-  "employment": 13
+  "title": 67836,
+  "company": 88,
+  "passed": 632,
+  "duplicate": 370,
+  "salary": 13,
+  "employment": 15,
+  "location": 2185,
+  "too_old": 145
  },
  "matchesBySource": {
-  "adzuna": 97,
-  "arbeitnow": 10,
-  "himalayas": 4,
+  "adzuna": 112,
+  "arbeitnow": 5,
+  "himalayas": 2,
   "weworkremotely": 8,
   "ashby": 51,
-  "personio": 15,
-  "jobicy": 15,
   "greenhouse": 13,
-  "recruitee": 16,
+  "personio": 14,
+  "jobicy": 13,
+  "recruitee": 15,
   "arbeitsagentur": 20,
   "smartrecruiters": 3,
+  "germantechjobs": 1,
   "hn": 5
  }
 }
