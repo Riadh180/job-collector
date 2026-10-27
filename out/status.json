@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1099
+   "fetched": 1570
   },
   "arbeitsagentur": {
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 4708
+   "fetched": 4674
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 365
+   "fetched": 376
   },
   "remoteok": {
    "fetched": 99
@@ -28,7 +28,7 @@
    "fetched": 302
   },
   "workingnomads": {
-   "fetched": 39
+   "fetched": 40
   },
   "germantechjobs": {
    "fetched": 713
@@ -40,33 +40,30 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1374,
-   "failed": 12
+   "checked": 1380,
+   "failed": 10
   }
  },
  "errors": {
   "companies": {
    "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Writesonic": "HTTP 429",
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
+   "AJAIA": "HTTP 429",
    "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429"
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 830
+  "callsToday": 135,
+  "callsLast7Days": 875
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -110,7 +107,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=312, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=313, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -125,45 +122,50 @@
   "calls": 39
  },
  "probe": {
-  "tried": 78,
+  "tried": 87,
   "found": [
-   "Sennder (smartrecruiters:senndergmbh)",
-   "Hygraph (recruitee:hygraph)",
-   "Giant Swarm (personio:giant-swarm)"
+   "Charge Construct (personio:charge-construct-gmbh)",
+   "Kaia Health (smartrecruiters:kaiahealth)",
+   "Cara Care (workable:cara-care)",
+   "Wunder Mobility (smartrecruiters:wundermobility)",
+   "Home24 (smartrecruiters:home24)",
+   "Qualysoft (lever:qualysoft)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 194
+  "ok": 200
  },
- "collectedAt": "2026-10-27T15:48:28+00:00",
- "rawJobs": 72323,
- "matches": 249,
- "new": 2,
- "companies": 1446,
- "activeCompanies": 1374,
+ "collectedAt": "2026-10-27T17:47:34+00:00",
+ "rawJobs": 73241,
+ "matches": 260,
+ "new": 4,
+ "companies": 1452,
+ "activeCompanies": 1380,
  "funnel": {
-  "passed": 552,
-  "title": 69226,
-  "duplicate": 303,
-  "company": 58,
+  "title": 70029,
+  "passed": 611,
+  "duplicate": 351,
+  "company": 88,
+  "location": 2335,
   "salary": 11,
-  "location": 2309,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 93,
-  "arbeitsagentur": 18,
-  "arbeitnow": 15,
+  "adzuna": 109,
+  "arbeitnow": 12,
+  "arbeitsagentur": 19,
   "jobicy": 12,
-  "himalayas": 3,
+  "recruitee": 16,
   "weworkremotely": 8,
-  "ashby": 48,
-  "personio": 15,
+  "ashby": 46,
+  "personio": 14,
   "jooble": 1,
   "greenhouse": 13,
-  "smartrecruiters": 2,
-  "hn": 5
+  "smartrecruiters": 3,
+  "germantechjobs": 1,
+  "hn": 5,
+  "himalayas": 1
  }
 }

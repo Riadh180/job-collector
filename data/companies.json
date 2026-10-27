@@ -10363,7 +10363,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Voyant Photonics",
@@ -10509,8 +10509,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-27",
-  "failCount": 1
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Getolo",
@@ -10518,8 +10517,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-26",
-  "failCount": 2
+  "lastOk": "2026-10-27"
  },
  {
   "name": "EverAI",
@@ -10872,7 +10870,7 @@
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "TrustEngine",
@@ -10881,7 +10879,7 @@
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "HireHawk",
@@ -10889,8 +10887,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 2
+  "lastOk": "2026-10-27"
  },
  {
   "name": "DigitalService",
@@ -10931,7 +10928,7 @@
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Thorlabs",
@@ -10940,7 +10937,7 @@
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "1Password",
@@ -11253,7 +11250,7 @@
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Lamdax",
@@ -11262,7 +11259,7 @@
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Leadway Pensure",
@@ -11521,7 +11518,7 @@
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
   "lastOk": "2026-10-26",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Intuitive",
@@ -11625,7 +11622,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Distru",
@@ -11752,6 +11749,54 @@
   "industry": "devtools",
   "ats": "personio",
   "slug": "giant-swarm",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Charge Construct",
+  "industry": "energy",
+  "ats": "personio",
+  "slug": "charge-construct-gmbh",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Kaia Health",
+  "industry": "health",
+  "ats": "smartrecruiters",
+  "slug": "kaiahealth",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Cara Care",
+  "industry": "health",
+  "ats": "workable",
+  "slug": "cara-care",
+  "addedBy": "probe 2026-10-27",
+  "failCount": 1
+ },
+ {
+  "name": "Wunder Mobility",
+  "industry": "mobility",
+  "ats": "smartrecruiters",
+  "slug": "wundermobility",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Home24",
+  "industry": "ecommerce",
+  "ats": "smartrecruiters",
+  "slug": "home24",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Qualysoft",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "qualysoft",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-27"
  }
