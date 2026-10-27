@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1561
+   "fetched": 1099
   },
   "arbeitsagentur": {
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 4707
+   "fetched": 3888
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 368
+   "fetched": 365
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 94
+   "fetched": 93
   },
   "hn": {
    "fetched": 302
@@ -40,13 +40,14 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1371,
-   "failed": 10
+   "checked": 1375,
+   "failed": 11
   }
  },
  "errors": {
   "companies": {
    "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
    "HireHawk": "HTTP 429",
@@ -60,10 +61,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 26,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 785
+  "callsToday": 90,
+  "callsLast7Days": 830
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -120,60 +121,51 @@
   "calls": 39
  },
  "probe": {
-  "tried": 93,
+  "tried": 98,
   "found": [
-   "Sierra (ashby:sierra)",
+   "Hygraph (recruitee:hygraph)",
+   "Giant Swarm (personio:giant-swarm)",
    "casavi GmbH (personio:casavi)",
    "Bsteuern (ashby:bsteuern)",
-   "Dentons Europe (workable:dentons-europe)",
-   "Distru (lever:distru)",
    "Rulemapping (personio:rulemapping)",
    "Clariness GmbH (greenhouse:clariness)",
-   "PROBIS Software GmbH (personio:probis-software-gmbh)",
-   "Payflows (recruitee:payflows)",
-   "Wagmo (ashby:wagmo)",
    "Soum (lever:soum)",
    "Sectigo (smartrecruiters:sectigo)",
-   "Phished (recruitee:phished)",
-   "Sembly (smartrecruiters:sembly)",
-   "Parallel (recruitee:parallel)",
-   "Doppel (ashby:doppel)",
-   "Playtech (smartrecruiters:playtech)"
+   "Phished (recruitee:phished)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 112
+  "ok": 120
  },
- "collectedAt": "2026-10-27T15:18:07+00:00",
- "rawJobs": 72751,
- "matches": 263,
- "new": 6,
- "companies": 1443,
- "activeCompanies": 1371,
+ "collectedAt": "2026-10-27T15:40:06+00:00",
+ "rawJobs": 71670,
+ "matches": 244,
+ "new": 4,
+ "companies": 1447,
+ "activeCompanies": 1375,
  "funnel": {
-  "title": 69563,
-  "company": 78,
-  "passed": 619,
-  "duplicate": 356,
-  "salary": 13,
-  "location": 2311,
+  "passed": 542,
+  "title": 68613,
+  "duplicate": 298,
+  "location": 2281,
+  "company": 56,
+  "salary": 11,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 106,
-  "arbeitnow": 14,
+  "adzuna": 94,
+  "arbeitnow": 7,
+  "recruitee": 16,
   "jobicy": 12,
   "himalayas": 3,
-  "recruitee": 16,
   "weworkremotely": 8,
-  "ashby": 48,
-  "personio": 14,
+  "ashby": 49,
+  "personio": 15,
   "jooble": 1,
   "greenhouse": 13,
-  "arbeitsagentur": 20,
-  "germantechjobs": 1,
+  "arbeitsagentur": 19,
   "smartrecruiters": 2,
   "hn": 5
  }

@@ -10363,7 +10363,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Voyant Photonics",
@@ -10509,7 +10509,8 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-27"
+  "lastOk": "2026-10-26",
+  "failCount": 2
  },
  {
   "name": "Getolo",
@@ -10518,7 +10519,7 @@
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "EverAI",
@@ -10871,7 +10872,7 @@
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "TrustEngine",
@@ -10879,7 +10880,8 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-27"
+  "lastOk": "2026-10-26",
+  "failCount": 2
  },
  {
   "name": "HireHawk",
@@ -10888,7 +10890,7 @@
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "DigitalService",
@@ -10929,7 +10931,7 @@
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Thorlabs",
@@ -10938,7 +10940,7 @@
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "1Password",
@@ -11251,7 +11253,7 @@
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Lamdax",
@@ -11260,7 +11262,7 @@
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Leadway Pensure",
@@ -11519,7 +11521,7 @@
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
   "lastOk": "2026-10-26",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Intuitive",
@@ -11726,6 +11728,102 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "playtech",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "The Nielsen Company",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "thenielsencompany",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Spreetail Inc.",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "spreetail",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Ema",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "ema",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Hygraph",
+  "industry": "devtools",
+  "ats": "recruitee",
+  "slug": "hygraph",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Giant Swarm",
+  "industry": "devtools",
+  "ats": "personio",
+  "slug": "giant-swarm",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "casavi GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "casavi",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Bsteuern",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "bsteuern",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Rulemapping",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "rulemapping",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Clariness GmbH",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "clariness",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Soum",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "soum",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Sectigo",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "sectigo",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Phished",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "phished",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-27"
  }
