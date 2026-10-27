@@ -48,6 +48,9 @@ def http(url, headers=None, timeout=25, retries=1):
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.status, r.read()
         except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries:  # rate limited: wait and try again
+                time.sleep(6 * (attempt + 1))
+                continue
             return e.code, b""
         except Exception as e:  # timeouts, DNS, resets
             last = e
@@ -132,14 +135,29 @@ def title_ok(title, desc):
     return False, ""
 
 
+HOME = (51.4556, 7.0116)  # Essen
+def km_from_home(lat, lon):
+    try:
+        lat, lon = float(lat), float(lon)
+    except (TypeError, ValueError):
+        return None
+    if not (-90 <= lat <= 90 and -180 <= lon <= 180) or (lat == 0 and lon == 0):
+        return None
+    from math import radians, sin, cos, asin, sqrt
+    a = sin(radians(lat - HOME[0]) / 2) ** 2 + cos(radians(HOME[0])) * cos(radians(lat)) * sin(radians(lon - HOME[1]) / 2) ** 2
+    return 6371 * 2 * asin(sqrt(a))
+
+
 REMOTE_BOARDS = ("remoteok", "remotive", "jobicy", "himalayas", "weworkremotely", "hn", "workingnomads")
 
 
-def location_ok(loc_text, remote_flag=None, desc="", source=""):
+def location_ok(loc_text, remote_flag=None, desc="", source="", dist=None):
     """Return (ok, label). Generous pre-filter; Claude makes the final call."""
     l = (loc_text or "").lower()
     d = (desc or "").lower()
-    if RE_NRW.search(l):
+    if dist is not None and dist <= CFG.get("max_km", 62):
+        return True, f"NRW ~{round(dist)} km"
+    if RE_NRW.search(l) and dist is None:  # with coordinates, distance decides instead of the place name
         return True, "NRW"
     remoteish = bool(remote_flag) or bool(RE_REMOTE.search(l))
     if remoteish:
@@ -205,7 +223,10 @@ def accept(r, loc_extra=""):
         return _drop("title")
     if RE_COMPANY_EXC.search((r["company"] or "").lower()):
         return _drop("company")
-    ok_l, why_l = location_ok(r["location"] + " " + loc_extra, r["remote"], r["_desc"], r["source"])
+    dist = r.get("_km")
+    ok_l, why_l = location_ok(r["location"] + " " + loc_extra, r["remote"], r["_desc"], r["source"], dist)
+    if dist is not None:
+        r["kmFromEssen"] = round(dist)
     if not ok_l:
         return _drop("location", r)
     if not fresh(parse_date(r["postedAt"])):
@@ -472,6 +493,8 @@ def _ba_job(x):
         "region": _pick(f, r"arbeitsorte?\.(0\.)?region$", r"(^|\.)region$"),
         "date": _pick(f, r"aktuelleveroeffentlichungsdatum$", r"veroeffentlich", r"modifikationstimestamp$", r"eintrittsdatum$"),
         "url": _pick(f, r"externeurl$", r"(^|\.)url$"),
+        "lat": _pick(f, r"stellenlokationen\.0\.breite$", r"koordinaten\.lat$", r"(^|\.)breite$"),
+        "lon": _pick(f, r"stellenlokationen\.0\.laenge$", r"koordinaten\.lon$", r"(^|\.)laenge$"),
     }
 
 
@@ -524,6 +547,7 @@ def arbeitsagentur():
                 r = rec("arbeitsagentur", b["ref"], b["employer"], b["title"], url, loc, parse_date(b["date"]),
                         True if ho else None, "", None, desc, "unbefristet", "", "arbeitsagentur")
                 r["_generic"] = generic
+                r["_km"] = km_from_home(b.get("lat"), b.get("lon"))
                 out.append(r)
             if len(items) < params["size"]:
                 break
@@ -549,10 +573,12 @@ def enrich_adzuna(raw, limit):
         if not (RE_TITLE_INC.search(t) or RE_TITLE_GEN.search(t)):
             continue
         l = (r["location"] or "").lower()
-        if not (RE_NRW.search(l) or "homeoffice" in l):
+        near = r.get("_km") is not None and r["_km"] <= CFG.get("max_km", 62)
+        if not (near or RE_NRW.search(l) or "homeoffice" in l):
             continue
         cand.append(r)
-    cand.sort(key=lambda r: (not RE_NRW.search(r["location"].lower()), not bool(RE_TITLE_INC.search(r["title"].lower()))))
+    near = lambda r: (r.get("_km") is not None and r["_km"] <= CFG.get("max_km", 62)) or bool(RE_NRW.search(r["location"].lower()))
+    cand.sort(key=lambda r: (not near(r), not bool(RE_TITLE_INC.search(r["title"].lower()))))
     cand = cand[:limit]
 
     def one(r):
@@ -752,7 +778,8 @@ def adzuna():
                 break
             res = j.get("results", [])
             for x in res:
-                loc = ((x.get("location") or {}).get("display_name") or "") + " / Deutschland"
+                area = [a for a in ((x.get("location") or {}).get("area") or [])[1:3] if isinstance(a, str)]
+                loc = ((x.get("location") or {}).get("display_name") or "") + "".join(" / " + a for a in area) + " / Deutschland"
                 desc = strip_html(x.get("description") or "")
                 if not where or re.search(r"remote|home ?office|home-office|mobiles arbeiten", desc + " " + (x.get("title") or ""), re.I):
                     loc += " / Homeoffice"
@@ -762,6 +789,7 @@ def adzuna():
                                x.get("salary_max") if x.get("salary_is_predicted") in ("0", 0) else None,
                                desc[:3000] + " " + what, (x.get("contract_type") or "") + " " + (x.get("contract_time") or ""),
                                "", "adzuna"))
+                out[-1]["_km"] = km_from_home(x.get("latitude"), x.get("longitude"))
             ok_search = True
             if len(res) < 50:
                 break
