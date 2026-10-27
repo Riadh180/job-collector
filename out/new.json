@@ -1,36 +1,13 @@
 {
- "collectedAt": "2026-10-27T15:40:06+00:00",
- "count": 4,
+ "collectedAt": "2026-10-27T15:48:28+00:00",
+ "count": 2,
  "jobs": [
-  {
-   "id": "adzuna:5943386089",
-   "company": "casavi GmbH",
-   "title": "Senior Full-Stack Engineer (TypeScript) (m/f/d)",
-   "url": "https://www.adzuna.de/details/5943386089?utm_medium=api&utm_source=c19f1397",
-   "location": "Altstadt-Lehel, München / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-27",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "You and your team plan, architect & develop applications within the team’s tech stack, which includes TypeScript, Node.js, Mastra AI, React, MySQL, Kubernetes, Docker, Git/GitLab, all running on AWS. | You work closely with Product Managers and Designers to cr… typescript",
-   "remoteProof": "",
-   "firstSeen": "2026-10-27T15:40:06+00:00"
-  },
   {
    "id": "adzuna:5943220869",
    "company": "Deloitte",
    "title": "Cloud Software Engineer (m/w/d) - System Engineering / Admin, Anwendungsentwicklung, Ingenieur",
    "url": "https://www.adzuna.de/details/5943220869?utm_medium=api&utm_source=c19f1397",
-   "location": "Hamburg, Deutschland / Deutschland / Homeoffice",
+   "location": "Hamburg, Deutschland / Hamburg / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-27",
    "salary": "",
@@ -39,57 +16,37 @@
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
+   "_km": 308.46321689389794,
+   "kmFromEssen": 308,
    "stackHits": [
     "typescript"
    ],
    "match": "generic+stack; remote",
    "facts": "Du willst im Bereich Consult… typescript",
    "remoteProof": "",
-   "firstSeen": "2026-10-27T15:40:06+00:00"
+   "firstSeen": "2026-10-27T15:48:28+00:00"
   },
   {
-   "id": "arbeitnow:senior-full-stack-software-engineer-govtech-ai-berlin-98054",
-   "company": "Lexaru GmbH",
-   "title": "Senior Full Stack Software Engineer (w/m/d) (GovTech & AI)",
-   "url": "https://www.arbeitnow.com/jobs/companies/lexaru-gmbh/senior-full-stack-software-engineer-govtech-ai-berlin-98054",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-27",
+   "id": "arbeitsagentur:10000-1207820571-S",
+   "company": "TRIMET ALUMINIUM SE",
+   "title": "Full-Stack-Entwickler (m/w/d)",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207820571-S",
+   "location": "Voerde (Niederrhein) / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-09-08",
    "salary": "",
    "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "employment": "unbefristet",
    "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Standort: Remote-first aus Deutschland oder Österreich (mit gelegentlichen Teamtreffen nach Absprache und der Möglichkeit der Nutzung von Büros in Garching) Start: Voraussichtlich ab 01.01.2027; den Einstiegstermin vereinbaren wir flexibel mit dir. | Vergütung: Gehalt nach Erfahrung und Expertise; Bonuszahlungen vorgesehen, Mitarbeiterbeteiligungen möglich. | Gesetzlich geforderte Information für Beschäftigung mit Arbeitsort Österreich, absolutes Mindestgehalt: In Österreich beträgt die Mindestvergütung auf Basis des IT-KV 2026 ab 4.061 € brutto monatlich bei 38,5 Wochenstunden, zuzüglich Sonderzahlungen. | Was wir dir bieten Du arbeitest remote-first mit kurzen Entscheidungswegen und direkt",
-   "remoteProof": "Standort: Remote-first aus Deutschland oder Österreich (mit gelegentlichen Teamtreffen nach Absprache und der Möglichkeit der Nutzung von Büros in Garching) Start: Voraussichtlich ab 01.01.2027; den Einstiegstermin vereinbaren wir flexibel mit dir. | Was wir dir bieten Du arbeitest remote-first mit kurzen Entscheidungswegen und direktem Austausch mit den Gründern. | Bewerbung über das Formular Kurzes Kennenlernen – remote, ca. | 20 Minuten Take-Home Case – remote, ca.",
-   "firstSeen": "2026-10-27T15:40:06+00:00"
-  },
-  {
-   "id": "recruitee:egroup:2729065",
-   "company": "eGroup",
-   "title": "Voice AI Product Engineer (f/m/d)",
-   "url": "https://egroup.recruitee.com/o/voice-ai-product-engineer-fmd",
-   "location": "Berlin, Berlin, Germany / Berlin / Germany",
-   "remote": false,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "from job boards",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "eGroup is the leading provider of virtual office services in Europe. | We develop and operate a Software-as-a-Service platform to provide tens of thousands of freelancers and small businesses customers across Europe with remote secretarial and new work solutions. | 28 days for everyone, after three years it’s 30 days You don´t smoke?",
-   "remoteProof": "We develop and operate a Software-as-a-Service platform to provide tens of thousands of freelancers and small businesses customers across Europe with remote secretarial and new work solutions. | We have core hours to maintain flexibility A nice office located in the city-center in Berlin-Schöneberg (U7 Kleistpark, S1 Julius-Leber Brücke or by bus M48, M85, 106, 187, 204) Complimentary daily breakfast buffet in the office The flexibility to work remotely Sounds terrific?",
-   "firstSeen": "2026-10-27T15:40:06+00:00"
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "_km": 29.59020956427655,
+   "kmFromEssen": 30,
+   "stackHits": [],
+   "match": "title; NRW ~30 km",
+   "facts": "Gute Deutsch- und Englischkenntnisse in Wort und Schrift • | Ein attraktives Gehalt nach Tarifvertrag (inklusive entsprechender Sozialleistungen) • | 30 Urlaubstage •",
+   "remoteProof": "",
+   "firstSeen": "2026-10-27T15:48:28+00:00"
   }
  ]
 }

@@ -10509,8 +10509,8 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-26",
-  "failCount": 2
+  "lastOk": "2026-10-27",
+  "failCount": 1
  },
  {
   "name": "Getolo",
@@ -10880,8 +10880,8 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 2
+  "lastOk": "2026-10-27",
+  "failCount": 1
  },
  {
   "name": "HireHawk",
@@ -11625,7 +11625,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Distru",
@@ -11732,26 +11732,10 @@
   "lastOk": "2026-10-27"
  },
  {
-  "name": "The Nielsen Company",
-  "industry": "from job boards",
+  "name": "Sennder",
+  "industry": "logistics",
   "ats": "smartrecruiters",
-  "slug": "thenielsencompany",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Spreetail Inc.",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "spreetail",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Ema",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "ema",
+  "slug": "senndergmbh",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-27"
  },
@@ -11768,62 +11752,6 @@
   "industry": "devtools",
   "ats": "personio",
   "slug": "giant-swarm",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "casavi GmbH",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "casavi",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Bsteuern",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "bsteuern",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Rulemapping",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "rulemapping",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Clariness GmbH",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "clariness",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Soum",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "soum",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Sectigo",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "sectigo",
-  "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-27"
- },
- {
-  "name": "Phished",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "phished",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-27"
  }

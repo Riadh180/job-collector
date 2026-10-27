@@ -7,7 +7,7 @@
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 3888
+   "fetched": 4708
   },
   "remotive": {
    "fetched": 80
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1375,
-   "failed": 11
+   "checked": 1374,
+   "failed": 12
   }
  },
  "errors": {
@@ -49,10 +49,12 @@
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
    "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Thorlabs": "HTTP 429",
    "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429",
@@ -102,7 +104,9 @@
    "city": "Berlin",
    "region": "BERLIN",
    "date": "2026-10-27",
-   "url": ""
+   "url": "",
+   "lat": "52.528725",
+   "lon": "13.337352"
   }
  },
  "arbeitsagentur_tries": [
@@ -121,51 +125,44 @@
   "calls": 39
  },
  "probe": {
-  "tried": 98,
+  "tried": 78,
   "found": [
+   "Sennder (smartrecruiters:senndergmbh)",
    "Hygraph (recruitee:hygraph)",
-   "Giant Swarm (personio:giant-swarm)",
-   "casavi GmbH (personio:casavi)",
-   "Bsteuern (ashby:bsteuern)",
-   "Rulemapping (personio:rulemapping)",
-   "Clariness GmbH (greenhouse:clariness)",
-   "Soum (lever:soum)",
-   "Sectigo (smartrecruiters:sectigo)",
-   "Phished (recruitee:phished)"
+   "Giant Swarm (personio:giant-swarm)"
   ]
  },
  "adzuna_pages": {
-  "tried": 120,
-  "ok": 120
+  "tried": 200,
+  "ok": 194
  },
- "collectedAt": "2026-10-27T15:40:06+00:00",
- "rawJobs": 71670,
- "matches": 244,
- "new": 4,
- "companies": 1447,
- "activeCompanies": 1375,
+ "collectedAt": "2026-10-27T15:48:28+00:00",
+ "rawJobs": 72323,
+ "matches": 249,
+ "new": 2,
+ "companies": 1446,
+ "activeCompanies": 1374,
  "funnel": {
-  "passed": 542,
-  "title": 68613,
-  "duplicate": 298,
-  "location": 2281,
-  "company": 56,
+  "passed": 552,
+  "title": 69226,
+  "duplicate": 303,
+  "company": 58,
   "salary": 11,
+  "location": 2309,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 94,
-  "arbeitnow": 7,
-  "recruitee": 16,
+  "adzuna": 93,
+  "arbeitsagentur": 18,
+  "arbeitnow": 15,
   "jobicy": 12,
   "himalayas": 3,
   "weworkremotely": 8,
-  "ashby": 49,
+  "ashby": 48,
   "personio": 15,
   "jooble": 1,
   "greenhouse": 13,
-  "arbeitsagentur": 19,
   "smartrecruiters": 2,
   "hn": 5
  }
