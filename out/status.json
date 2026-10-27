@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1134
+   "fetched": 1601
   },
   "arbeitsagentur": {
    "fetched": 292
@@ -40,34 +40,46 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1368,
-   "failed": 14
+   "checked": 1366,
+   "failed": 26
   }
  },
  "errors": {
   "companies": {
-   "PatSnap": "HTTP 429",
-   "City Science": "HTTP 429",
-   "Knuddels & Co. KG": "HTTP 429",
+   "OnTarget Communications": "HTTP 429",
+   "ClanX": "HTTP 429",
+   "Dawn Technology": "HTTP 429",
+   "Thomann.io": "HTTP 429",
+   "sofatutor GmbH": "HTTP 429",
+   "Mayflower GmbH": "HTTP 429",
+   "Adikteev": "HTTP 429",
+   "SkyCell AG": "HTTP 429",
    "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
+   "Make": "HTTP 429",
+   "NetKnights GmbH": "HTTP 429",
+   "Core-Backbone GmbH": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429"
+   "Aramark": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Lamm HR GmbH": "HTTP 429",
+   "Parallel": "HTTP 429",
+   "Payflows": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 34,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 830
+  "callsToday": 45,
+  "callsLast7Days": 785
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -131,44 +143,55 @@
   "calls": 39
  },
  "probe": {
-  "tried": 67,
+  "tried": 74,
   "found": [
-   "Hygraph (recruitee:hygraph)",
-   "Giant Swarm (personio:giant-swarm)"
+   "Sierra (ashby:sierra)",
+   "Parallel (recruitee:parallel)",
+   "Distru (lever:distru)",
+   "PROBIS Software GmbH (personio:probis-software-gmbh)",
+   "Payflows (recruitee:payflows)",
+   "Wagmo (ashby:wagmo)",
+   "Sembly (smartrecruiters:sembly)",
+   "Doppel (ashby:doppel)",
+   "Playtech (smartrecruiters:playtech)",
+   "The Nielsen Company (smartrecruiters:thenielsencompany)",
+   "Spreetail Inc. (lever:spreetail)",
+   "Ema (ashby:ema)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 109
+  "ok": 112
  },
- "collectedAt": "2026-10-27T10:09:27+00:00",
- "rawJobs": 71173,
- "matches": 238,
- "new": 1,
- "companies": 1440,
- "activeCompanies": 1368,
+ "collectedAt": "2026-10-27T10:19:18+00:00",
+ "rawJobs": 71458,
+ "matches": 249,
+ "new": 2,
+ "companies": 1438,
+ "activeCompanies": 1366,
  "funnel": {
-  "passed": 541,
-  "title": 68119,
-  "duplicate": 303,
-  "location": 2277,
-  "company": 58,
-  "salary": 11,
+  "title": 68321,
+  "company": 78,
+  "passed": 607,
+  "duplicate": 358,
+  "salary": 13,
+  "location": 2272,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 92,
   "jobicy": 12,
   "himalayas": 4,
   "weworkremotely": 8,
-  "arbeitnow": 5,
+  "adzuna": 103,
+  "arbeitnow": 3,
   "greenhouse": 13,
   "ashby": 48,
   "jooble": 1,
-  "personio": 14,
-  "recruitee": 15,
-  "arbeitsagentur": 19,
+  "personio": 13,
+  "recruitee": 16,
+  "arbeitsagentur": 20,
+  "germantechjobs": 1,
   "smartrecruiters": 2,
   "hn": 5
  }
