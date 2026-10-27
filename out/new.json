@@ -1,5 +1,77 @@
 {
- "collectedAt": "2026-10-26T23:18:59+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-10-27T09:50:32+00:00",
+ "count": 3,
+ "jobs": [
+  {
+   "id": "jobicy:151671",
+   "company": "Sierra",
+   "title": "Software Engineer, Agent",
+   "url": "https://jobicy.com/jobs/151671-software-engineer-agent",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-27",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "We are primarily an in-person company based in San Francisco, with growing offices across North America, Europe, and Asia. | Before founding Sierra, Clay spent 18 years at Google, where he most recently led Google Labs.",
+   "remoteProof": "",
+   "firstSeen": "2026-10-27T09:50:32+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/gofasti/jobs/1159-senior-full-stack-software-engineer",
+   "company": "GoFasti",
+   "title": "1159 - Senior Full-Stack Software Engineer",
+   "url": "https://himalayas.app/companies/gofasti/jobs/1159-senior-full-stack-software-engineer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-27",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "expo",
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We Make Remote Work Remarkable • | We need an English-fluent Senior Full-Stack Software Engineer , based in Latin America, available to work remotely. | Responsibilities: A TypeScript monorepo: a Next.js 16 web app and API, an Expo mobile app, and a Cloudflare Worker. | Requirements: 6+ years as a software engineer, 3+ years shipping production TypeScript/Node backends. | Written English good enough that a PR description or incident write-up needs no follow-up questions. | Next.js App Router and React Server Components. | Expo / React Native. | Compensation: The salary range offered for this position varies from (USD) $3,000 - $3,200 per month, depending on seniority and skillset. | The tale",
+   "remoteProof": "We Make Remote Work Remarkable • | We need an English-fluent Senior Full-Stack Software Engineer , based in Latin America, available to work remotely. | The talent will work remotely allocated at our client.",
+   "firstSeen": "2026-10-27T09:50:32+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/powerprozesse/jobs/fullstack-developer-100-remote-german-speaking",
+   "company": "Powerprozesse",
+   "title": "🇩🇪 Fullstack-Developer (100% Remote / German-Speaking)",
+   "url": "https://himalayas.app/companies/powerprozesse/jobs/fullstack-developer-100-remote-german-speaking?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-27",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Fluent German is required for this role. | Our customers are property management companies in Germany. | We're looking for Junior and Senior Developers for our fully remote team who want to be responsible for a part of the product: talking to the property managers who use it, deciding what to build next and making sure it works for them. | You work on this directly with the customer: importing years of email, hundreds of thousands of documents, and every record on their buildings, apartments, contracts and contacts, plus syncing with systems a customer still runs alongside us. | Our minimalistic tech stack Everything is TypeScript. | Requirements You are: fluent in German and English.",
+   "remoteProof": "We're looking for Junior and Senior Developers for our fully remote team who want to be responsible for a part of the product: talking to the property managers who use it, deciding what to build next and making sure it works for them.",
+   "firstSeen": "2026-10-27T09:50:32+00:00"
+  }
+ ]
 }

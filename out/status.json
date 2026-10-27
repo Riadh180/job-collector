@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1567
+   "fetched": 1600
   },
   "arbeitsagentur": {
-   "fetched": 293
+   "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 3567
+   "fetched": 3561
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 387
+   "fetched": 382
   },
   "remoteok": {
    "fetched": 99
@@ -31,41 +31,47 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 715
+   "fetched": 708
   },
   "jooble": {
-   "fetched": 210
+   "fetched": 260
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1357,
-   "failed": 23
+   "checked": 1366,
+   "failed": 29
   }
  },
  "errors": {
   "companies": {
-   "One Impression": "HTTP 502",
-   "Building Swell": "HTTP 502",
-   "Mendix": "HTTP 502",
-   "4ALLPORTAL GmbH": "HTTP 429",
-   "Zoi": "HTTP 429",
-   "Nomios": "HTTP 429",
-   "SichtbarerWerden": "HTTP 429",
-   "ITB-": "HTTP 429",
-   "Wimex-Gruppe": "HTTP 429",
-   "Qualifyze": "HTTP 429",
-   "Go Vocal": "HTTP 429",
-   "BALLY’S INTRALOT SA": "HTTP 429",
+   "EY": "HTTP 429",
+   "Luscii": "HTTP 429",
+   "INDG": "HTTP 429",
+   "Itility B.V.": "HTTP 429",
+   "NEXT Ventures": "HTTP 429",
+   "CrazyGames": "HTTP 429",
+   "AlmavivA de Belgique": "HTTP 429",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
+   "Distribusion Technologies GmbH": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Hall Tabakwaren e.K": "HTTP 429",
+   "FoodLabs": "HTTP 429",
+   "Exeon Analytics": "HTTP 429",
+   "KI Group": "HTTP 429",
+   "AMS Accelerate IT": "HTTP 429",
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
+   "Stermedia": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
+   "Plukon Food Group": "HTTP 429",
+   "Make": "HTTP 429",
+   "NetKnights GmbH": "HTTP 429",
+   "Core-Backbone GmbH": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429"
@@ -73,9 +79,9 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 26,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 135,
+  "callsToday": 45,
   "callsLast7Days": 785
  },
  "arbeitsagentur_sample": {
@@ -125,12 +131,12 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=317, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=315, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 293,
+  "jobs": 292,
   "details": {
    "tried": 107,
    "ok": 107
@@ -140,46 +146,56 @@
   "calls": 39
  },
  "probe": {
-  "tried": 30,
+  "tried": 76,
   "found": [
-   "Hetzner Cloud GmbH (recruitee:hetznercloudgmbh)",
+   "Sierra (ashby:sierra)",
+   "Distru (lever:distru)",
+   "PROBIS Software GmbH (personio:probis-software-gmbh)",
+   "Parallel (recruitee:parallel)",
    "Payflows (recruitee:payflows)",
-   "escape GmbH (ashby:escape)"
+   "Wagmo (ashby:wagmo)",
+   "Sembly (smartrecruiters:sembly)",
+   "Doppel (ashby:doppel)",
+   "Playtech (smartrecruiters:playtech)",
+   "The Nielsen Company (smartrecruiters:thenielsencompany)",
+   "Spreetail Inc. (lever:spreetail)",
+   "Ema (ashby:ema)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 111
+  "ok": 112
  },
- "collectedAt": "2026-10-26T23:18:59+00:00",
- "rawJobs": 70959,
- "matches": 263,
- "new": 0,
- "companies": 1429,
- "activeCompanies": 1357,
+ "collectedAt": "2026-10-27T09:50:32+00:00",
+ "rawJobs": 71482,
+ "matches": 253,
+ "new": 3,
+ "companies": 1438,
+ "activeCompanies": 1366,
  "funnel": {
-  "title": 67877,
-  "company": 88,
-  "passed": 634,
-  "duplicate": 371,
+  "title": 68335,
+  "company": 78,
+  "passed": 627,
+  "duplicate": 374,
   "salary": 13,
-  "employment": 14,
-  "location": 2182,
-  "too_old": 144
+  "location": 2262,
+  "too_old": 147,
+  "employment": 13
  },
  "matchesBySource": {
-  "weworkremotely": 9,
-  "adzuna": 112,
-  "arbeitnow": 5,
-  "ashby": 51,
-  "personio": 14,
-  "jobicy": 13,
+  "jobicy": 14,
+  "himalayas": 6,
+  "weworkremotely": 8,
+  "adzuna": 103,
+  "arbeitnow": 4,
+  "ashby": 47,
+  "jooble": 1,
+  "personio": 13,
   "greenhouse": 13,
   "recruitee": 16,
   "arbeitsagentur": 20,
-  "smartrecruiters": 3,
   "germantechjobs": 1,
-  "himalayas": 1,
+  "smartrecruiters": 2,
   "hn": 5
  }
 }
