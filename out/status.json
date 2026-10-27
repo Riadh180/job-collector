@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1601
+   "fetched": 1561
   },
   "arbeitsagentur": {
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 3561
+   "fetched": 4707
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 366
+   "fetched": 368
   },
   "remoteok": {
    "fetched": 99
@@ -31,52 +31,36 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 712
+   "fetched": 713
   },
   "jooble": {
-   "fetched": 260
+   "fetched": 261
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1366,
-   "failed": 26
+   "checked": 1371,
+   "failed": 10
   }
  },
  "errors": {
   "companies": {
-   "OnTarget Communications": "HTTP 429",
-   "ClanX": "HTTP 429",
-   "Dawn Technology": "HTTP 429",
-   "Thomann.io": "HTTP 429",
-   "sofatutor GmbH": "HTTP 429",
-   "Mayflower GmbH": "HTTP 429",
-   "Adikteev": "HTTP 429",
-   "SkyCell AG": "HTTP 429",
    "Searoutes": "HTTP 429",
    "Getolo": "HTTP 429",
-   "Writesonic": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
-   "Make": "HTTP 429",
-   "NetKnights GmbH": "HTTP 429",
-   "Core-Backbone GmbH": "HTTP 429",
+   "Intertek": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
-   "Aramark": "HTTP 429",
    "Anypear": "HTTP 429",
-   "Lamm HR GmbH": "HTTP 429",
-   "Parallel": "HTTP 429",
-   "Payflows": "HTTP 429"
+   "Dentons Europe": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 26,
   "searchesTotal": 51,
   "callsToday": 45,
   "callsLast7Days": 785
@@ -85,31 +69,24 @@
   "keys": [
    "aenderungsdatum",
    "alleBerufe.0",
-   "alleBerufe.1",
-   "alternativBeruf1",
-   "arbeitszeitSchichtNachtWochenende",
-   "arbeitszeitTeilzeitAbend",
-   "arbeitszeitTeilzeitFlexibel",
-   "arbeitszeitTeilzeitNachmittag",
-   "arbeitszeitTeilzeitVormittag",
+   "arbeitgeberKundennummerHash",
    "arbeitszeitVollzeit",
-   "chiffrenummer",
+   "artDerVerguetung",
    "datumErsteVeroeffentlichung",
    "eintrittszeitraum.von",
-   "externeURL",
    "firma",
+   "gehaltsspanneBis",
+   "gehaltsspanneVon",
    "hauptberuf",
-   "homeofficemoeglich",
-   "homeofficetyp",
-   "istGeringfuegigeBeschaeftigung",
-   "quereinstiegGeeignet",
    "referenznummer",
    "stellenangebotsTitel",
    "stellenangebotsart",
+   "stellenlokationen.0.adresse.hausnummer",
    "stellenlokationen.0.adresse.land",
    "stellenlokationen.0.adresse.ort",
    "stellenlokationen.0.adresse.plz",
    "stellenlokationen.0.adresse.region",
+   "stellenlokationen.0.adresse.strasse",
    "stellenlokationen.0.breite",
    "stellenlokationen.0.laenge",
    "verguetungsangabe",
@@ -117,18 +94,18 @@
    "vertragsdauer"
   ],
   "parsed": {
-   "ref": "13644-305516-S",
-   "title": "Frontend React Developer (m/w/d)",
+   "ref": "10001-1003921312-S",
+   "title": "React Native Engineer (m/f/d)",
    "beruf": "",
-   "employer": "Smartbroker",
+   "employer": "go-e Labs GmbH",
    "city": "Berlin",
    "region": "BERLIN",
-   "date": "2026-09-03",
-   "url": "https://www.get-in-it.de/jobsuche/p305516?utm_source=arbeitsagentur&utm_medium=organic&utm_campaign=launch-basic"
+   "date": "2026-10-27",
+   "url": ""
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=315, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=312, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -143,53 +120,58 @@
   "calls": 39
  },
  "probe": {
-  "tried": 74,
+  "tried": 93,
   "found": [
    "Sierra (ashby:sierra)",
-   "Parallel (recruitee:parallel)",
+   "casavi GmbH (personio:casavi)",
+   "Bsteuern (ashby:bsteuern)",
+   "Dentons Europe (workable:dentons-europe)",
    "Distru (lever:distru)",
+   "Rulemapping (personio:rulemapping)",
+   "Clariness GmbH (greenhouse:clariness)",
    "PROBIS Software GmbH (personio:probis-software-gmbh)",
    "Payflows (recruitee:payflows)",
    "Wagmo (ashby:wagmo)",
+   "Soum (lever:soum)",
+   "Sectigo (smartrecruiters:sectigo)",
+   "Phished (recruitee:phished)",
    "Sembly (smartrecruiters:sembly)",
+   "Parallel (recruitee:parallel)",
    "Doppel (ashby:doppel)",
-   "Playtech (smartrecruiters:playtech)",
-   "The Nielsen Company (smartrecruiters:thenielsencompany)",
-   "Spreetail Inc. (lever:spreetail)",
-   "Ema (ashby:ema)"
+   "Playtech (smartrecruiters:playtech)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
   "ok": 112
  },
- "collectedAt": "2026-10-27T10:19:18+00:00",
- "rawJobs": 71458,
- "matches": 249,
- "new": 2,
- "companies": 1438,
- "activeCompanies": 1366,
+ "collectedAt": "2026-10-27T15:18:07+00:00",
+ "rawJobs": 72751,
+ "matches": 263,
+ "new": 6,
+ "companies": 1443,
+ "activeCompanies": 1371,
  "funnel": {
-  "title": 68321,
+  "title": 69563,
   "company": 78,
-  "passed": 607,
-  "duplicate": 358,
+  "passed": 619,
+  "duplicate": 356,
   "salary": 13,
-  "location": 2272,
+  "location": 2311,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
+  "adzuna": 106,
+  "arbeitnow": 14,
   "jobicy": 12,
-  "himalayas": 4,
-  "weworkremotely": 8,
-  "adzuna": 103,
-  "arbeitnow": 3,
-  "greenhouse": 13,
-  "ashby": 48,
-  "jooble": 1,
-  "personio": 13,
+  "himalayas": 3,
   "recruitee": 16,
+  "weworkremotely": 8,
+  "ashby": 48,
+  "personio": 14,
+  "jooble": 1,
+  "greenhouse": 13,
   "arbeitsagentur": 20,
   "germantechjobs": 1,
   "smartrecruiters": 2,
