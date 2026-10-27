@@ -1,97 +1,29 @@
 {
- "collectedAt": "2026-10-27T17:47:34+00:00",
- "count": 4,
+ "collectedAt": "2026-10-27T18:15:50+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "adzuna:5943563276",
-   "company": "Versicherungen Karriere",
-   "title": "Fullstack Entwickler (m/w/d) – Schwerpunkt Testing",
-   "url": "https://www.adzuna.de/land/ad/5943563276?se=nMIvgi7S8RGmCrXKpsNruQ&utm_medium=api&utm_source=c19f1397&v=1BA00126142B5D8E353594A021581047F41620A2",
-   "location": "Deutschland / Deutschland / Homeoffice",
+   "id": "adzuna:5943655843",
+   "company": "SMH Analytics GmbH",
+   "title": "Full Stack Software Engineer (m/w/d) - SMH Analytics GmbH",
+   "url": "https://www.adzuna.de/details/5943655843?utm_medium=api&utm_source=c19f1397",
+   "location": "München, München (Kreis) / Bayern / München (Kreis) / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-27",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
+   "employment": " full_time",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
    "_km": null,
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "Als Deutschlands größter inhabergeführter Versicherungsmakler gestalten wir seit 145 Jahren diese Sicherheit – gehen wir gemeinsam den nächsten Schritt!",
-   "remoteProof": "",
-   "firstSeen": "2026-10-27T17:47:34+00:00"
-  },
-  {
-   "id": "adzuna:5943561527",
-   "company": "Finmas GmbH",
-   "title": "Lead Software Developer Produktentwicklung (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5943561527?se=GqFHxy7S8RGo-vaGDT5ODQ&utm_medium=api&utm_source=c19f1397&v=2FB4E0E8C89E6312199FF38CE8F8328A605EDA15",
-   "location": "Berlin, Deutschland / Berlin / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-27",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": 454.09418773487886,
-   "kmFromEssen": 454,
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-27T17:47:34+00:00"
-  },
-  {
-   "id": "adzuna:5943561503",
-   "company": "Finmas GmbH",
-   "title": "Tech Lead - Architektur & Softwareentwicklung - Berlin (m/w/d)",
-   "url": "https://www.adzuna.de/land/ad/5943561503?se=GqFHxy7S8RGo-vaGDT5ODQ&utm_medium=api&utm_source=c19f1397&v=43377148008ECC987633BFE9D529610651539EF8",
-   "location": "Berlin, Deutschland / Berlin / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-27",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": 454.09418773487886,
-   "kmFromEssen": 454,
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-27T17:47:34+00:00"
-  },
-  {
-   "id": "arbeitnow:ai-product-engineer-paris-212944",
-   "company": "Finary",
-   "title": "AI Product Engineer",
-   "url": "https://www.arbeitnow.fr/jobs/companies/finary/ai-product-engineer-paris-212944",
-   "location": "Remote",
-   "remote": false,
-   "postedAt": "2026-10-27",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
    "stackHits": [
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "In July 2026, the AMF granted us our MiCA license, on top of our Investment Firm license: one of the very few French platforms holding both, offering stocks, ETFs and crypto on a single regulated platform, right as Europe consolidates around licensed players. | What we offer We're 70 builders who genuinely love what they do: real ownership from day one, tier-1 salary and equity, offices in the heart of Paris with hybrid remote, and quarterly gatherings we actually look forward to. | Our stack is TypeScript, Rust and Ruby, on Google Cloud and Kubernetes with infrastructure as code. | Base salary €65K – €80K • | Offers Equity Find more English Speaking Jobs in France on Arbeitnow",
-   "remoteProof": "What we offer We're 70 builders who genuinely love what they do: real ownership from day one, tier-1 salary and equity, offices in the heart of Paris with hybrid remote, and quarterly gatherings we actually look forward to.",
-   "firstSeen": "2026-10-27T17:47:34+00:00"
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Tätigkeiten - Entwicklung von webbasierten Anwendungen mit Angular & Javascript / Typescript für das Frontend und C#/.NET/Java für das Backend - Implementierung von RESTful APIs zur Anbindung an Backend-Dienste. | Oft remote, teilweise vor Ort. | Tätigkeiten - Entwicklung von webbasierten Anwendungen mit Angular & Javascript / Typescript für das Frontend und C#/.NET/Java für das Backend - Implementierung von RESTful APIs zur … frontend",
+   "remoteProof": "Oft remote, teilweise vor Ort.",
+   "firstSeen": "2026-10-27T18:15:50+00:00"
   }
  ]
 }

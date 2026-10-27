@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1570
+   "fetched": 641
   },
   "arbeitsagentur": {
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 4674
+   "fetched": 3538
   },
   "remotive": {
    "fetched": 80
@@ -40,30 +40,19 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1380,
-   "failed": 10
+   "checked": 1388,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Searoutes": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 26,
+  "callsThisRun": 25,
+  "searchesThisRun": 19,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 875
+  "callsToday": 160,
+  "callsLast7Days": 900
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -122,50 +111,52 @@
   "calls": 39
  },
  "probe": {
-  "tried": 87,
+  "tried": 119,
   "found": [
-   "Charge Construct (personio:charge-construct-gmbh)",
-   "Kaia Health (smartrecruiters:kaiahealth)",
-   "Cara Care (workable:cara-care)",
-   "Wunder Mobility (smartrecruiters:wundermobility)",
-   "Home24 (smartrecruiters:home24)",
-   "Qualysoft (lever:qualysoft)"
+   "Nexthink (smartrecruiters:nexthink)",
+   "Haufe Group (smartrecruiters:haufegroup)",
+   "Omio (smartrecruiters:omio)",
+   "Auto1 (smartrecruiters:auto1)",
+   "Heyjobs (ashby:heyjobs)",
+   "Tado (personio:tado)",
+   "Wise (smartrecruiters:wise)",
+   "Hugging Face (workable:huggingface)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 200
+  "tried": 184,
+  "ok": 163
  },
- "collectedAt": "2026-10-27T17:47:34+00:00",
- "rawJobs": 73241,
- "matches": 260,
- "new": 4,
- "companies": 1452,
- "activeCompanies": 1380,
+ "collectedAt": "2026-10-27T18:15:50+00:00",
+ "rawJobs": 72706,
+ "matches": 222,
+ "new": 1,
+ "companies": 1460,
+ "activeCompanies": 1388,
  "funnel": {
-  "title": 70029,
-  "passed": 611,
-  "duplicate": 351,
-  "company": 88,
-  "location": 2335,
-  "salary": 11,
+  "title": 69763,
+  "passed": 410,
+  "company": 42,
+  "duplicate": 188,
+  "salary": 7,
+  "location": 2317,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 109,
-  "arbeitnow": 12,
+  "adzuna": 68,
+  "arbeitnow": 7,
   "arbeitsagentur": 19,
   "jobicy": 12,
   "recruitee": 16,
   "weworkremotely": 8,
-  "ashby": 46,
-  "personio": 14,
+  "ashby": 49,
+  "personio": 16,
+  "himalayas": 2,
   "jooble": 1,
   "greenhouse": 13,
-  "smartrecruiters": 3,
-  "germantechjobs": 1,
-  "hn": 5,
-  "himalayas": 1
+  "germantechjobs": 2,
+  "smartrecruiters": 4,
+  "hn": 5
  }
 }

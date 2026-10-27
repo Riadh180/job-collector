@@ -10362,8 +10362,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Voyant Photonics",
@@ -10869,8 +10868,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "TrustEngine",
@@ -10878,8 +10876,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-27",
-  "failCount": 2
+  "lastOk": "2026-10-27"
  },
  {
   "name": "HireHawk",
@@ -10927,8 +10924,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Thorlabs",
@@ -10936,8 +10932,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "1Password",
@@ -11249,8 +11244,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Lamdax",
@@ -11258,8 +11252,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Leadway Pensure",
@@ -11517,8 +11510,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-26",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Intuitive",
@@ -11622,7 +11614,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "failCount": 3
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Distru",
@@ -11774,7 +11766,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "failCount": 1
+  "lastOk": "2026-10-27"
  },
  {
   "name": "Wunder Mobility",
@@ -11797,6 +11789,70 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "qualysoft",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Nexthink",
+  "industry": "saas",
+  "ats": "smartrecruiters",
+  "slug": "nexthink",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Haufe Group",
+  "industry": "saas",
+  "ats": "smartrecruiters",
+  "slug": "haufegroup",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Omio",
+  "industry": "travel",
+  "ats": "smartrecruiters",
+  "slug": "omio",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Auto1",
+  "industry": "mobility",
+  "ats": "smartrecruiters",
+  "slug": "auto1",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Heyjobs",
+  "industry": "saas",
+  "ats": "ashby",
+  "slug": "heyjobs",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Tado",
+  "industry": "energy",
+  "ats": "personio",
+  "slug": "tado",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Wise",
+  "industry": "fintech",
+  "ats": "smartrecruiters",
+  "slug": "wise",
+  "addedBy": "probe 2026-10-27",
+  "lastOk": "2026-10-27"
+ },
+ {
+  "name": "Hugging Face",
+  "industry": "ai",
+  "ats": "workable",
+  "slug": "huggingface",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-27"
  }
