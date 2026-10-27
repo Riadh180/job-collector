@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 641
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 292
   },
   "arbeitnow": {
-   "fetched": 3538
+   "fetched": 3540
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 376
+   "fetched": 374
   },
   "remoteok": {
    "fetched": 99
@@ -31,7 +31,7 @@
    "fetched": 40
   },
   "germantechjobs": {
-   "fetched": 713
+   "fetched": 712
   },
   "jooble": {
    "fetched": 261
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1388,
+   "checked": 1389,
    "failed": 0
   }
  },
@@ -48,8 +48,8 @@
   "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 19,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 160,
   "callsLast7Days": 900
@@ -111,51 +111,43 @@
   "calls": 39
  },
  "probe": {
-  "tried": 119,
+  "tried": 28,
   "found": [
-   "Nexthink (smartrecruiters:nexthink)",
-   "Haufe Group (smartrecruiters:haufegroup)",
-   "Omio (smartrecruiters:omio)",
-   "Auto1 (smartrecruiters:auto1)",
-   "Heyjobs (ashby:heyjobs)",
-   "Tado (personio:tado)",
-   "Wise (smartrecruiters:wise)",
-   "Hugging Face (workable:huggingface)"
+   "Seeq (workable:seeq)"
   ]
  },
  "adzuna_pages": {
-  "tried": 184,
-  "ok": 163
+  "tried": 2,
+  "ok": 0
  },
- "collectedAt": "2026-10-27T18:15:50+00:00",
- "rawJobs": 72706,
- "matches": 222,
+ "collectedAt": "2026-10-27T19:49:01+00:00",
+ "rawJobs": 72119,
+ "matches": 166,
  "new": 1,
- "companies": 1460,
- "activeCompanies": 1388,
+ "companies": 1461,
+ "activeCompanies": 1389,
  "funnel": {
-  "title": 69763,
-  "passed": 410,
-  "company": 42,
-  "duplicate": 188,
-  "salary": 7,
-  "location": 2317,
+  "title": 69363,
+  "passed": 270,
   "too_old": 147,
-  "employment": 13
+  "location": 2291,
+  "company": 24,
+  "duplicate": 104,
+  "employment": 13,
+  "salary": 4
  },
  "matchesBySource": {
-  "adzuna": 68,
-  "arbeitnow": 7,
-  "arbeitsagentur": 19,
+  "ashby": 53,
+  "arbeitnow": 11,
+  "arbeitsagentur": 21,
   "jobicy": 12,
   "recruitee": 16,
   "weworkremotely": 8,
-  "ashby": 49,
-  "personio": 16,
+  "personio": 17,
   "himalayas": 2,
   "jooble": 1,
   "greenhouse": 13,
-  "germantechjobs": 2,
+  "germantechjobs": 3,
   "smartrecruiters": 4,
   "hn": 5
  }

@@ -1,29 +1,29 @@
 {
- "collectedAt": "2026-10-27T18:15:50+00:00",
+ "collectedAt": "2026-10-27T19:49:01+00:00",
  "count": 1,
  "jobs": [
   {
-   "id": "adzuna:5943655843",
-   "company": "SMH Analytics GmbH",
-   "title": "Full Stack Software Engineer (m/w/d) - SMH Analytics GmbH",
-   "url": "https://www.adzuna.de/details/5943655843?utm_medium=api&utm_source=c19f1397",
-   "location": "München, München (Kreis) / Bayern / München (Kreis) / Deutschland / Homeoffice",
-   "remote": null,
+   "id": "ashby:clickhouse:5822f2c8-a00c-4499-b595-85e8796db3cd",
+   "company": "ClickHouse",
+   "title": "Sr. Frontend Software Engineer - SysAdmin & Internal Ops Platform",
+   "url": "https://jobs.ashbyhq.com/clickhouse/5822f2c8-a00c-4499-b595-85e8796db3cd",
+   "location": "Europe or US",
+   "remote": true,
    "postedAt": "2026-10-27",
    "salary": "",
    "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
    "stackHits": [
+    "react",
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Tätigkeiten - Entwicklung von webbasierten Anwendungen mit Angular & Javascript / Typescript für das Frontend und C#/.NET/Java für das Backend - Implementierung von RESTful APIs zur Anbindung an Backend-Dienste. | Oft remote, teilweise vor Ort. | Tätigkeiten - Entwicklung von webbasierten Anwendungen mit Angular & Javascript / Typescript für das Frontend und C#/.NET/Java für das Backend - Implementierung von RESTful APIs zur … frontend",
-   "remoteProof": "Oft remote, teilweise vor Ort.",
-   "firstSeen": "2026-10-27T18:15:50+00:00"
+   "facts": "- Experience: 6+ years in full-stack software engineering, specifically building back-office tooling, admin consoles, or internal developer platforms. | - Core Stack: Strong TypeScript/Node.js and React for dense, data-heavy UIs. | - Flexible work environment - ClickHouse is a globally distributed company and remote-friendly. | - A USD$500 Home office setup if you’re a remote employee.",
+   "remoteProof": "- Flexible work environment - ClickHouse is a globally distributed company and remote-friendly. | - A USD$500 Home office setup if you’re a remote employee.",
+   "firstSeen": "2026-10-27T19:49:01+00:00"
   }
  ]
 }
