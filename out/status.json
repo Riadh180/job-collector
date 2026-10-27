@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1600
+   "fetched": 1134
   },
   "arbeitsagentur": {
    "fetched": 292
@@ -13,7 +13,7 @@
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 382
+   "fetched": 366
   },
   "remoteok": {
    "fetched": 99
@@ -31,7 +31,7 @@
    "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 708
+   "fetched": 712
   },
   "jooble": {
    "fetched": 260
@@ -40,38 +40,23 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1366,
-   "failed": 29
+   "checked": 1368,
+   "failed": 14
   }
  },
  "errors": {
   "companies": {
-   "EY": "HTTP 429",
-   "Luscii": "HTTP 429",
-   "INDG": "HTTP 429",
-   "Itility B.V.": "HTTP 429",
-   "NEXT Ventures": "HTTP 429",
-   "CrazyGames": "HTTP 429",
-   "AlmavivA de Belgique": "HTTP 429",
+   "PatSnap": "HTTP 429",
+   "City Science": "HTTP 429",
+   "Knuddels & Co. KG": "HTTP 429",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
-   "Distribusion Technologies GmbH": "HTTP 429",
    "Getolo": "HTTP 429",
-   "Hall Tabakwaren e.K": "HTTP 429",
-   "FoodLabs": "HTTP 429",
-   "Exeon Analytics": "HTTP 429",
-   "KI Group": "HTTP 429",
-   "AMS Accelerate IT": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Stermedia": "HTTP 429",
+   "TrustEngine": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
-   "Plukon Food Group": "HTTP 429",
-   "Make": "HTTP 429",
-   "NetKnights GmbH": "HTTP 429",
-   "Core-Backbone GmbH": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429"
@@ -79,10 +64,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 34,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 785
+  "callsToday": 90,
+  "callsLast7Days": 830
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -146,55 +131,44 @@
   "calls": 39
  },
  "probe": {
-  "tried": 76,
+  "tried": 67,
   "found": [
-   "Sierra (ashby:sierra)",
-   "Distru (lever:distru)",
-   "PROBIS Software GmbH (personio:probis-software-gmbh)",
-   "Parallel (recruitee:parallel)",
-   "Payflows (recruitee:payflows)",
-   "Wagmo (ashby:wagmo)",
-   "Sembly (smartrecruiters:sembly)",
-   "Doppel (ashby:doppel)",
-   "Playtech (smartrecruiters:playtech)",
-   "The Nielsen Company (smartrecruiters:thenielsencompany)",
-   "Spreetail Inc. (lever:spreetail)",
-   "Ema (ashby:ema)"
+   "Hygraph (recruitee:hygraph)",
+   "Giant Swarm (personio:giant-swarm)"
   ]
  },
  "adzuna_pages": {
   "tried": 120,
-  "ok": 112
+  "ok": 109
  },
- "collectedAt": "2026-10-27T09:50:32+00:00",
- "rawJobs": 71482,
- "matches": 253,
- "new": 3,
- "companies": 1438,
- "activeCompanies": 1366,
+ "collectedAt": "2026-10-27T10:09:27+00:00",
+ "rawJobs": 71173,
+ "matches": 238,
+ "new": 1,
+ "companies": 1440,
+ "activeCompanies": 1368,
  "funnel": {
-  "title": 68335,
-  "company": 78,
-  "passed": 627,
-  "duplicate": 374,
-  "salary": 13,
-  "location": 2262,
+  "passed": 541,
+  "title": 68119,
+  "duplicate": 303,
+  "location": 2277,
+  "company": 58,
+  "salary": 11,
   "too_old": 147,
   "employment": 13
  },
  "matchesBySource": {
-  "jobicy": 14,
-  "himalayas": 6,
+  "adzuna": 92,
+  "jobicy": 12,
+  "himalayas": 4,
   "weworkremotely": 8,
-  "adzuna": 103,
-  "arbeitnow": 4,
-  "ashby": 47,
-  "jooble": 1,
-  "personio": 13,
+  "arbeitnow": 5,
   "greenhouse": 13,
-  "recruitee": 16,
-  "arbeitsagentur": 20,
-  "germantechjobs": 1,
+  "ashby": 48,
+  "jooble": 1,
+  "personio": 14,
+  "recruitee": 15,
+  "arbeitsagentur": 19,
   "smartrecruiters": 2,
   "hn": 5
  }
