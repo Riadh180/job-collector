@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1067
+   "fetched": 769
   },
   "arbeitsagentur": {
-   "fetched": 296
+   "fetched": 295
   },
   "arbeitnow": {
-   "fetched": 3551
+   "fetched": 3547
   },
   "remotive": {
    "fetched": 88
   },
   "jobicy": {
-   "fetched": 394
+   "fetched": 372
   },
   "remoteok": {
    "fetched": 99
@@ -40,33 +40,33 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1390,
+   "checked": 1407,
    "failed": 13
   }
  },
  "errors": {
   "companies": {
    "Optios": "HTTP 404",
+   "WeRide": "HTTP 500",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "TrustEngine": "HTTP 429",
-   "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 815
+  "callsToday": 65,
+  "callsLast7Days": 835
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -115,7 +115,7 @@
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 296,
+  "jobs": 295,
   "details": {
    "tried": 107,
    "ok": 107
@@ -125,53 +125,60 @@
   "calls": 39
  },
  "probe": {
-  "tried": 120,
+  "tried": 108,
   "found": [
-   "Nexthink (smartrecruiters:nexthink)",
-   "Haufe Group (smartrecruiters:haufegroup)",
-   "Omio (smartrecruiters:omio)",
-   "Auto1 (smartrecruiters:auto1)",
-   "Homeday (personio:homeday)",
-   "Heyjobs (ashby:heyjobs)",
-   "Tado (personio:tado)",
-   "Wise (smartrecruiters:wise)",
-   "Kled AI (ashby:kled-ai)",
-   "Serverfarm (lever:serverfarm)"
+   "Altisource (smartrecruiters:altisource)",
+   "Hercules (ashby:hercules)",
+   "OLX (lever:olx)",
+   "QPLIX (personio:qplix)",
+   "Almetra (ashby:almetra)",
+   "Lupa Pets (ashby:lupapets)",
+   "Palantir (lever:palantir)",
+   "Shieldai (ashby:shieldai)",
+   "Cagents (lever:cagents)",
+   "Justdice (ashby:justdice)",
+   "Ema (ashby:ema)",
+   "M-KOPA (ashby:m-kopa)",
+   "EWOR GmbH (lever:ewor)",
+   "Anomali (lever:anomali)",
+   "Mom's Meals (lever:momsmeals)",
+   "Coalfire (lever:coalfire)",
+   "CXT Software (lever:cxtsoftware)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 176
+  "ok": 182
  },
- "collectedAt": "2026-10-28T09:40:51+00:00",
- "rawJobs": 73374,
- "matches": 225,
- "new": 11,
- "companies": 1462,
- "activeCompanies": 1390,
+ "collectedAt": "2026-10-28T10:55:44+00:00",
+ "rawJobs": 74478,
+ "matches": 229,
+ "new": 0,
+ "companies": 1479,
+ "activeCompanies": 1407,
  "funnel": {
-  "title": 70375,
-  "passed": 480,
-  "company": 61,
-  "duplicate": 255,
+  "title": 71478,
+  "passed": 422,
+  "duplicate": 193,
+  "company": 62,
+  "location": 2337,
   "salary": 7,
-  "location": 2279,
   "too_old": 152,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 82,
-  "arbeitsagentur": 19,
-  "himalayas": 1,
-  "ashby": 49,
-  "arbeitnow": 5,
-  "jobicy": 11,
+  "adzuna": 84,
+  "arbeitsagentur": 20,
+  "himalayas": 2,
+  "ashby": 51,
+  "arbeitnow": 4,
+  "jobicy": 10,
   "recruitee": 16,
   "weworkremotely": 7,
   "greenhouse": 12,
-  "personio": 13,
+  "personio": 12,
   "jooble": 1,
-  "germantechjobs": 1,
+  "germantechjobs": 2,
   "smartrecruiters": 3,
   "hn": 5
  }
