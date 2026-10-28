@@ -7650,7 +7650,7 @@
   "slug": "optios",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Deep DSG",
@@ -10363,8 +10363,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Voyant Photonics",
@@ -10510,8 +10509,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Getolo",
@@ -10519,8 +10517,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "EverAI",
@@ -10872,8 +10869,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "TrustEngine",
@@ -10881,8 +10877,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "HireHawk",
@@ -10890,8 +10885,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "DigitalService",
@@ -10931,8 +10925,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Thorlabs",
@@ -10940,8 +10933,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "1Password",
@@ -11253,8 +11245,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Lamdax",
@@ -11262,8 +11253,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Leadway Pensure",
@@ -11521,8 +11511,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Intuitive",
@@ -11626,8 +11615,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Distru",
@@ -11779,8 +11767,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Wunder Mobility",
@@ -11868,8 +11855,7 @@
   "ats": "ashby",
   "slug": "kled-ai",
   "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Serverfarm",
@@ -12012,6 +11998,78 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "m-kopa",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "Tango",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "tango",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "Thimble",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "thimble",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "Great Question",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "greatquestion",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "engelhart",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "engelhart",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "Codat",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "codat",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "CoreView",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "coreview",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "EcoVadis",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "ecovadis",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "MonetizeNow",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "monetizenow",
+  "addedBy": "probe 2026-10-28",
+  "lastOk": "2026-10-28"
+ },
+ {
+  "name": "EWOR GmbH",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "ewor",
   "addedBy": "probe 2026-10-28",
   "lastOk": "2026-10-28"
  }

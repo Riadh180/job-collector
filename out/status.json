@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 774
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 295
+   "fetched": 296
   },
   "arbeitnow": {
-   "fetched": 4677
+   "fetched": 3567
   },
   "remotive": {
    "fetched": 88
   },
   "jobicy": {
-   "fetched": 383
+   "fetched": 402
   },
   "remoteok": {
    "fetched": 99
@@ -22,50 +22,36 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 93
+   "fetched": 94
   },
   "hn": {
    "fetched": 302
   },
   "workingnomads": {
-   "fetched": 42
+   "fetched": 41
   },
   "germantechjobs": {
-   "fetched": 713
+   "fetched": 703
   },
   "jooble": {
-   "fetched": 257
+   "fetched": 259
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1406,
-   "failed": 15
+   "checked": 1415,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Optios": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Kled AI": "HTTP 404",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429"
+   "Optios": "HTTP 404"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 65,
   "callsLast7Days": 835
@@ -112,75 +98,66 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=312, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=313, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 295,
+  "jobs": 296,
   "details": {
-   "tried": 108,
-   "ok": 108
+   "tried": 109,
+   "ok": 109
   }
  },
  "jooble_usage": {
   "calls": 39
  },
  "probe": {
-  "tried": 109,
+  "tried": 88,
   "found": [
-   "Mom's Meals (lever:momsmeals)",
-   "CaptivateIQ (lever:captivateiq)",
-   "Ema (ashby:ema)",
-   "QPLIX (personio:qplix)",
-   "Schlafender Hase GmbH (personio:schlafender-hase-gmbh)",
-   "WPP Media (greenhouse:wppmedia)",
-   "Sphere (ashby:sphere)",
-   "Almetra (ashby:almetra)",
-   "Lupa Pets (ashby:lupapets)",
-   "Palantir (lever:palantir)",
-   "Shieldai (ashby:shieldai)",
-   "Cagents (lever:cagents)",
-   "Justdice (ashby:justdice)",
-   "HelloKindred (smartrecruiters:hellokindred)",
-   "Hercules (ashby:hercules)",
-   "M-KOPA (ashby:m-kopa)"
+   "Tango (ashby:tango)",
+   "Thimble (lever:thimble)",
+   "Great Question (ashby:greatquestion)",
+   "engelhart (greenhouse:engelhart)",
+   "Codat (ashby:codat)",
+   "CoreView (greenhouse:coreview)",
+   "EcoVadis (smartrecruiters:ecovadis)",
+   "MonetizeNow (smartrecruiters:monetizenow)",
+   "EWOR GmbH (lever:ewor)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 186
+  "tried": 3,
+  "ok": 0
  },
- "collectedAt": "2026-10-28T16:27:54+00:00",
- "rawJobs": 75212,
- "matches": 228,
- "new": 3,
- "companies": 1478,
- "activeCompanies": 1406,
+ "collectedAt": "2026-10-28T20:04:05+00:00",
+ "rawJobs": 74294,
+ "matches": 152,
+ "new": 1,
+ "companies": 1487,
+ "activeCompanies": 1415,
  "funnel": {
-  "title": 72188,
-  "passed": 426,
-  "duplicate": 198,
-  "company": 61,
-  "location": 2359,
-  "salary": 7,
-  "too_old": 150,
-  "employment": 14
+  "title": 71489,
+  "passed": 243,
+  "too_old": 149,
+  "location": 2365,
+  "company": 24,
+  "duplicate": 91,
+  "employment": 13,
+  "salary": 4
  },
  "matchesBySource": {
-  "himalayas": 2,
-  "ashby": 50,
+  "jooble": 2,
+  "ashby": 52,
   "greenhouse": 13,
-  "adzuna": 80,
-  "arbeitsagentur": 20,
-  "arbeitnow": 8,
+  "arbeitsagentur": 21,
+  "arbeitnow": 6,
   "jobicy": 10,
   "recruitee": 16,
   "weworkremotely": 7,
-  "personio": 12,
-  "jooble": 1,
+  "personio": 15,
   "germantechjobs": 2,
-  "smartrecruiters": 2,
+  "smartrecruiters": 3,
   "hn": 5
  }
 }

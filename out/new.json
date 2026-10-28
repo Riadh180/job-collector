@@ -1,73 +1,28 @@
 {
- "collectedAt": "2026-10-28T16:27:54+00:00",
- "count": 3,
+ "collectedAt": "2026-10-28T20:04:05+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "himalayas:https://himalayas.app/companies/g2i/jobs/full-stack-developer-g2i-talent-pool",
-   "company": "G2i",
-   "title": "Full Stack Developer - G2i Talent Pool",
-   "url": "https://himalayas.app/companies/g2i/jobs/full-stack-developer-g2i-talent-pool?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-28T16:27:54+00:00"
-  },
-  {
-   "id": "ashby:zoe:4ad2103d-9044-4e28-bd15-2d3cd9e5cfd5",
-   "company": "ZOE",
-   "title": "Senior Full Stack Engineer, Front-end Focus - Growth",
-   "url": "https://jobs.ashbyhq.com/zoe/4ad2103d-9044-4e28-bd15-2d3cd9e5cfd5",
-   "location": "UK / Spain / Ireland / Germany / UK",
-   "remote": true,
-   "postedAt": "2026-10-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "You’ll spend most of your time in TypeScript, React and Next.js, and you’ll work in our backend services (Kotlin or Python) whenever a feature needs it. | - Frontend: TypeScript, React, Next.js, React, GraphQL | - Have 5+ years of professional software development experience, with a strong focus on front-end. | - Have strong experience with TypeScript, React and Next.js, and know how to build fast, accessible and well-tested web experiences. | - React Native experience, or interest in growth across web and mobile | - This is a permanent, full-time employed position. | - Fully remote, open to candidates based in the UK, Ireland, Spain or Germany who have the permanent right to work there. | -",
-   "remoteProof": "- Fully remote, open to candidates based in the UK, Ireland, Spain or Germany who have the permanent right to work there. | 🔄 The Remote Loop: 2 to 4 focused interviews assessing your technical expertise, behavioural approach, and collaboration style.",
-   "firstSeen": "2026-10-28T16:27:54+00:00"
-  },
-  {
-   "id": "greenhouse:alpaca:6231762004",
-   "company": "Alpaca",
-   "title": "Senior Frontend Engineer - Acquisition",
-   "url": "https://job-boards.greenhouse.io/alpaca/jobs/6231762004",
-   "location": "Remote - North America - Europe / Remote - EU",
+   "id": "jooble:-550314846983546414",
+   "company": "20four7va",
+   "title": "AI & ML Developer",
+   "url": "https://jooble.org/desc/-550314846983546414?ckey=next.js&rgn=55146&pos=21&groupId=-675061143&elckey=-2127827738870325985&p=2&aq=-804083236082608225&cid=22409&jobAge=14&brelb=100&bscr=8.793935&scr=8.793935",
+   "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
    "salary": "",
    "salaryMax": null,
    "employment": "",
-   "industry": "from job boards",
-   "source": "greenhouse",
-   "ats": "greenhouse",
+   "industry": "",
+   "source": "jooble",
+   "ats": "jooble",
    "stackHits": [
-    "react",
-    "typescript"
+    "next.js"
    ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-28T16:27:54+00:00"
+   "match": "generic+stack; remote",
+   "facts": "Title: Independent Contractor – AI & ML Developer (Remote).",
+   "remoteProof": "Title: Independent Contractor – AI & ML Developer (Remote).",
+   "firstSeen": "2026-10-28T20:04:05+00:00"
   }
  ]
 }
