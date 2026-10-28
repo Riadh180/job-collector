@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 769
+   "fetched": 1067
   },
   "arbeitsagentur": {
    "fetched": 295
@@ -40,33 +40,23 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1407,
-   "failed": 13
+   "checked": 1390,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
-   "Optios": "HTTP 404",
-   "WeRide": "HTTP 500",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Cara Care": "HTTP 429"
+   "Offchain Labs": "HTTP 502",
+   "airSlate": "HTTP 502",
+   "Optios": "HTTP 404"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "callsThisRun": 45,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 65,
-  "callsLast7Days": 835
+  "callsToday": 45,
+  "callsLast7Days": 815
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -125,60 +115,53 @@
   "calls": 39
  },
  "probe": {
-  "tried": 108,
+  "tried": 120,
   "found": [
-   "Altisource (smartrecruiters:altisource)",
-   "Hercules (ashby:hercules)",
-   "OLX (lever:olx)",
-   "QPLIX (personio:qplix)",
-   "Almetra (ashby:almetra)",
-   "Lupa Pets (ashby:lupapets)",
-   "Palantir (lever:palantir)",
-   "Shieldai (ashby:shieldai)",
-   "Cagents (lever:cagents)",
-   "Justdice (ashby:justdice)",
-   "Ema (ashby:ema)",
-   "M-KOPA (ashby:m-kopa)",
-   "EWOR GmbH (lever:ewor)",
-   "Anomali (lever:anomali)",
-   "Mom's Meals (lever:momsmeals)",
-   "Coalfire (lever:coalfire)",
-   "CXT Software (lever:cxtsoftware)"
+   "Nexthink (smartrecruiters:nexthink)",
+   "Haufe Group (smartrecruiters:haufegroup)",
+   "Omio (smartrecruiters:omio)",
+   "Auto1 (smartrecruiters:auto1)",
+   "Homeday (personio:homeday)",
+   "Heyjobs (ashby:heyjobs)",
+   "Tado (personio:tado)",
+   "Kled AI (ashby:kled-ai)",
+   "Serverfarm (lever:serverfarm)",
+   "Altisource (smartrecruiters:altisource)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 182
+  "ok": 176
  },
- "collectedAt": "2026-10-28T10:55:44+00:00",
- "rawJobs": 74478,
- "matches": 229,
- "new": 0,
- "companies": 1479,
- "activeCompanies": 1407,
+ "collectedAt": "2026-10-28T11:04:24+00:00",
+ "rawJobs": 73530,
+ "matches": 225,
+ "new": 11,
+ "companies": 1462,
+ "activeCompanies": 1390,
  "funnel": {
-  "title": 71478,
-  "passed": 422,
-  "duplicate": 193,
-  "company": 62,
-  "location": 2337,
+  "title": 70524,
+  "passed": 472,
+  "company": 61,
+  "duplicate": 247,
   "salary": 7,
+  "location": 2294,
   "too_old": 152,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 84,
-  "arbeitsagentur": 20,
+  "adzuna": 82,
+  "arbeitsagentur": 19,
   "himalayas": 2,
-  "ashby": 51,
-  "arbeitnow": 4,
+  "ashby": 49,
+  "arbeitnow": 5,
   "jobicy": 10,
   "recruitee": 16,
   "weworkremotely": 7,
   "greenhouse": 12,
-  "personio": 12,
+  "personio": 13,
   "jooble": 1,
-  "germantechjobs": 2,
+  "germantechjobs": 1,
   "smartrecruiters": 3,
   "hn": 5
  }

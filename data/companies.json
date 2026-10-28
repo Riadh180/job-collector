@@ -4580,7 +4580,8 @@
   "ats": "lever",
   "slug": "offchainlabs",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-28"
+  "lastOk": "2026-10-27",
+  "failCount": 1
  },
  {
   "name": "InfStones",
@@ -5335,7 +5336,8 @@
   "ats": "lever",
   "slug": "airslate",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-10-28"
+  "lastOk": "2026-10-27",
+  "failCount": 1
  },
  {
   "name": "Laminar Projects",
@@ -7650,7 +7652,7 @@
   "slug": "optios",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-27",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Deep DSG",
@@ -8980,8 +8982,7 @@
   "ats": "lever",
   "slug": "weride",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Trading212",
@@ -10364,9 +10365,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Voyant Photonics",
@@ -10512,8 +10511,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-27",
-  "failCount": 2
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Getolo",
@@ -10521,8 +10519,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-27",
-  "failCount": 2
+  "lastOk": "2026-10-28"
  },
  {
   "name": "EverAI",
@@ -10874,9 +10871,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-28"
  },
  {
   "name": "TrustEngine",
@@ -10884,8 +10879,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-27",
-  "failCount": 4
+  "lastOk": "2026-10-28"
  },
  {
   "name": "HireHawk",
@@ -10893,8 +10887,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-28"
  },
  {
   "name": "DigitalService",
@@ -10942,9 +10935,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-28"
  },
  {
   "name": "1Password",
@@ -11256,9 +11247,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Lamdax",
@@ -11266,9 +11255,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Leadway Pensure",
@@ -11526,9 +11513,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Intuitive",
@@ -11784,7 +11769,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "failCount": 3
+  "lastOk": "2026-10-28"
  },
  {
   "name": "Wunder Mobility",
@@ -11867,14 +11852,6 @@
   "lastOk": "2026-10-28"
  },
  {
-  "name": "Wise",
-  "industry": "fintech",
-  "ats": "smartrecruiters",
-  "slug": "wise",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
   "name": "Kled AI",
   "industry": "from job boards",
   "ats": "ashby",
@@ -11895,135 +11872,6 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "altisource",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Hercules",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "hercules",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "OLX",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "olx",
-  "eu": true,
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "QPLIX",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "qplix",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Almetra",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "almetra",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Lupa Pets",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "lupapets",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Palantir",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "palantir",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Shieldai",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "shieldai",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Cagents",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "cagents",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Justdice",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "justdice",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Ema",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "ema",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "M-KOPA",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "m-kopa",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "EWOR GmbH",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "ewor",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Anomali",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "anomali",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Mom's Meals",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "momsmeals",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "Coalfire",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "coalfire",
-  "addedBy": "probe 2026-10-28",
-  "lastOk": "2026-10-28"
- },
- {
-  "name": "CXT Software",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "cxtsoftware",
   "addedBy": "probe 2026-10-28",
   "lastOk": "2026-10-28"
  }
