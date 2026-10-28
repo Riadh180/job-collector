@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 773
   },
   "arbeitsagentur": {
    "fetched": 296
   },
   "arbeitnow": {
-   "fetched": 3567
+   "fetched": 4649
   },
   "remotive": {
    "fetched": 88
@@ -31,7 +31,7 @@
    "fetched": 41
   },
   "germantechjobs": {
-   "fetched": 703
+   "fetched": 682
   },
   "jooble": {
    "fetched": 259
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1415,
+   "checked": 1409,
    "failed": 1
   }
  },
@@ -50,8 +50,8 @@
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 51,
   "callsToday": 65,
   "callsLast7Days": 835
@@ -116,10 +116,20 @@
   "tried": 88,
   "found": [
    "Tango (ashby:tango)",
+   "Seeq (workable:seeq)",
    "Thimble (lever:thimble)",
-   "Great Question (ashby:greatquestion)",
+   "QPLIX (personio:qplix)",
+   "Schlafender Hase GmbH (personio:schlafender-hase-gmbh)",
+   "WPP Media (greenhouse:wppmedia)",
    "engelhart (greenhouse:engelhart)",
+   "Sphere (ashby:sphere)",
    "Codat (ashby:codat)",
+   "Almetra (ashby:almetra)",
+   "Lupa Pets (ashby:lupapets)",
+   "Palantir (lever:palantir)",
+   "Shieldai (ashby:shieldai)",
+   "Cagents (lever:cagents)",
+   "Justdice (ashby:justdice)",
    "CoreView (greenhouse:coreview)",
    "EcoVadis (smartrecruiters:ecovadis)",
    "MonetizeNow (smartrecruiters:monetizenow)",
@@ -127,37 +137,38 @@
   ]
  },
  "adzuna_pages": {
-  "tried": 3,
-  "ok": 0
+  "tried": 200,
+  "ok": 187
  },
- "collectedAt": "2026-10-28T20:04:05+00:00",
- "rawJobs": 74294,
- "matches": 152,
- "new": 1,
- "companies": 1487,
- "activeCompanies": 1415,
+ "collectedAt": "2026-10-28T20:34:35+00:00",
+ "rawJobs": 76227,
+ "matches": 234,
+ "new": 8,
+ "companies": 1481,
+ "activeCompanies": 1409,
  "funnel": {
-  "title": 71489,
-  "passed": 243,
+  "title": 73155,
+  "passed": 426,
+  "duplicate": 192,
+  "company": 61,
+  "location": 2408,
+  "salary": 8,
   "too_old": 149,
-  "location": 2365,
-  "company": 24,
-  "duplicate": 91,
-  "employment": 13,
-  "salary": 4
+  "employment": 13
  },
  "matchesBySource": {
+  "adzuna": 86,
   "jooble": 2,
-  "ashby": 52,
+  "ashby": 51,
   "greenhouse": 13,
-  "arbeitsagentur": 21,
-  "arbeitnow": 6,
+  "arbeitnow": 9,
+  "arbeitsagentur": 19,
   "jobicy": 10,
   "recruitee": 16,
   "weworkremotely": 7,
-  "personio": 15,
+  "personio": 12,
   "germantechjobs": 2,
-  "smartrecruiters": 3,
+  "smartrecruiters": 2,
   "hn": 5
  }
 }
