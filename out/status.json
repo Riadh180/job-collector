@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1067
+   "fetched": 774
   },
   "arbeitsagentur": {
    "fetched": 295
   },
   "arbeitnow": {
-   "fetched": 3547
+   "fetched": 4677
   },
   "remotive": {
    "fetched": 88
   },
   "jobicy": {
-   "fetched": 372
+   "fetched": 383
   },
   "remoteok": {
    "fetched": 99
@@ -28,35 +28,47 @@
    "fetched": 302
   },
   "workingnomads": {
-   "fetched": 41
+   "fetched": 42
   },
   "germantechjobs": {
-   "fetched": 693
+   "fetched": 713
   },
   "jooble": {
-   "fetched": 256
+   "fetched": 257
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1390,
-   "failed": 3
+   "checked": 1406,
+   "failed": 15
   }
  },
  "errors": {
   "companies": {
-   "Offchain Labs": "HTTP 502",
-   "airSlate": "HTTP 502",
-   "Optios": "HTTP 404"
+   "Optios": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Kled AI": "HTTP 404",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 20,
+  "searchesThisRun": 11,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 815
+  "callsToday": 65,
+  "callsLast7Days": 835
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -100,69 +112,75 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=311, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=312, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
   "jobs": 295,
   "details": {
-   "tried": 107,
-   "ok": 107
+   "tried": 108,
+   "ok": 108
   }
  },
  "jooble_usage": {
   "calls": 39
  },
  "probe": {
-  "tried": 120,
+  "tried": 109,
   "found": [
-   "Nexthink (smartrecruiters:nexthink)",
-   "Haufe Group (smartrecruiters:haufegroup)",
-   "Omio (smartrecruiters:omio)",
-   "Auto1 (smartrecruiters:auto1)",
-   "Homeday (personio:homeday)",
-   "Heyjobs (ashby:heyjobs)",
-   "Tado (personio:tado)",
-   "Kled AI (ashby:kled-ai)",
-   "Serverfarm (lever:serverfarm)",
-   "Altisource (smartrecruiters:altisource)"
+   "Mom's Meals (lever:momsmeals)",
+   "CaptivateIQ (lever:captivateiq)",
+   "Ema (ashby:ema)",
+   "QPLIX (personio:qplix)",
+   "Schlafender Hase GmbH (personio:schlafender-hase-gmbh)",
+   "WPP Media (greenhouse:wppmedia)",
+   "Sphere (ashby:sphere)",
+   "Almetra (ashby:almetra)",
+   "Lupa Pets (ashby:lupapets)",
+   "Palantir (lever:palantir)",
+   "Shieldai (ashby:shieldai)",
+   "Cagents (lever:cagents)",
+   "Justdice (ashby:justdice)",
+   "HelloKindred (smartrecruiters:hellokindred)",
+   "Hercules (ashby:hercules)",
+   "M-KOPA (ashby:m-kopa)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 176
+  "ok": 186
  },
- "collectedAt": "2026-10-28T11:04:24+00:00",
- "rawJobs": 73530,
- "matches": 225,
- "new": 11,
- "companies": 1462,
- "activeCompanies": 1390,
+ "collectedAt": "2026-10-28T16:27:54+00:00",
+ "rawJobs": 75212,
+ "matches": 228,
+ "new": 3,
+ "companies": 1478,
+ "activeCompanies": 1406,
  "funnel": {
-  "title": 70524,
-  "passed": 472,
+  "title": 72188,
+  "passed": 426,
+  "duplicate": 198,
   "company": 61,
-  "duplicate": 247,
+  "location": 2359,
   "salary": 7,
-  "location": 2294,
-  "too_old": 152,
-  "employment": 13
+  "too_old": 150,
+  "employment": 14
  },
  "matchesBySource": {
-  "adzuna": 82,
-  "arbeitsagentur": 19,
   "himalayas": 2,
-  "ashby": 49,
-  "arbeitnow": 5,
+  "ashby": 50,
+  "greenhouse": 13,
+  "adzuna": 80,
+  "arbeitsagentur": 20,
+  "arbeitnow": 8,
   "jobicy": 10,
   "recruitee": 16,
   "weworkremotely": 7,
-  "greenhouse": 12,
-  "personio": 13,
+  "personio": 12,
   "jooble": 1,
-  "germantechjobs": 1,
-  "smartrecruiters": 3,
+  "germantechjobs": 2,
+  "smartrecruiters": 2,
   "hn": 5
  }
 }
