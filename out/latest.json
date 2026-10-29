@@ -1,7 +1,30 @@
 {
- "collectedAt": "2026-10-29T11:13:51+00:00",
- "count": 195,
+ "collectedAt": "2026-10-29T16:40:26+00:00",
+ "count": 154,
  "jobs": [
+  {
+   "id": "greenhouse:lokalise:8078426003",
+   "company": "Lokalise",
+   "title": "Senior Full-Stack Engineer",
+   "url": "https://lokalise.com/job?gh_jid=8078426003",
+   "location": "Remote role Latvia; Remote role Spain; Remote role United Kingdom / Remote role in Europe",
+   "remote": null,
+   "postedAt": "2026-10-29",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "saas",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Location While our company operates exclusively on a remote basis, you must reside and have the legal right to work in one of the following countries: the United Kingdom, Latvia, or Spain. | This is a full-time, remote position. | Build modern applications with React, TanStack Router, and modular-react on the frontend, and Node.js, Fastify, Drizzle on the backend. | Work in a Dockerized TypeScript environment with Vitest and Playwright for testing. | You Must Have 5+ years of experience building and maintaining production software, with strong hands-on experience in Node.js, TypeScript, and React, and the ability to work across different systems and technologies. | Excellent problem-solving,",
+   "remoteProof": "Location While our company operates exclusively on a remote basis, you must reside and have the legal right to work in one of the following countries: the United Kingdom, Latvia, or Spain. | This is a full-time, remote position. | Excellent problem-solving, communication skills, attention to detail, and a genuine drive to keep learning in a fast-paced, remote setting. | 🌍 Fully remote setup with flexible working hours. | 🏢 Co-working budget — for those days you want a change from your home offic",
+   "firstSeen": "2026-10-29T16:40:26+00:00"
+  },
   {
    "id": "arbeitnow:senior-full-stack-engineer-ai-essen-288385",
    "company": "Edri",
@@ -68,367 +91,6 @@
    "firstSeen": "2026-10-29T11:13:51+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/customer-io/jobs/staff-software-engineer-product",
-   "company": "Customer.io",
-   "title": "Staff Software Engineer, Product",
-   "url": "https://himalayas.app/companies/customer-io/jobs/staff-software-engineer-product?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Under the hood: Go, React, and AI help us ship fast and scale with confidence. | Compensation & Benefits We believe in transparency. | Starting salary for this role is $200,000 - $280,000 USD (or equivalent in local currency) depending on experience and subject to market rate adjustment. | We also offer 16 weeks paid parental leave, unlimited PTO, stipends for remote work and wellness, a professional development budget, and more.",
-   "remoteProof": "We also offer 16 weeks paid parental leave, unlimited PTO, stipends for remote work and wellness, a professional development budget, and more.",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/nestifytech-solutions-private-limited/jobs/full-stack-developer",
-   "company": "Nestifytech Solutions Private Limited",
-   "title": "Full Stack Developer",
-   "url": "https://himalayas.app/companies/nestifytech-solutions-private-limited/jobs/full-stack-developer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Required Qualifications: 3+ years experience in full-stack web development. | Strong in React, Node.js, Express, and databases (PostgreSQL, MongoDB).",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/canonical/jobs/senior-software-engineer-digital-workplace",
-   "company": "Canonical",
-   "title": "Senior Software Engineer - Digital Workplace",
-   "url": "https://himalayas.app/companies/canonical/jobs/senior-software-engineer-digital-workplace?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. | What we offer colleagues We consider geographical location, experience, and performance in shaping compensation worldwide. | We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tiny/jobs/senior-react-native-engineer-hfc",
-   "company": "Tiny",
-   "title": "Senior React Native Engineer, HFC",
-   "url": "https://himalayas.app/companies/tiny/jobs/senior-react-native-engineer-hfc?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "expo",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "We’re looking for a Senior React Native Engineer to design, build and refine performant mobile applications that deliver exceptional user experiences on both iOS and Android. | What You’ll Do Build and ship high-quality React Native applications using Expo and Tamagui for shared design systems and cross-platform UI. | Stay current with the React Native ecosystem, Expo SDK releases and platform best practices. | What You’ll Bring 5+ years of professional mobile development experience, including 3+ years with React Native. | Strong proficiency in TypeScript / JavaScript, with exposure to Kotlin or Swift a plus. | Hands-on experience with Expo, Tamagui, and modern UI component architectures.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/canonical/jobs/staff-design-engineer-cloud-networking-ux-6818844847",
-   "company": "Canonical",
-   "title": "Staff Design Engineer - Cloud Networking UX",
-   "url": "https://himalayas.app/companies/canonical/jobs/staff-design-engineer-cloud-networking-ux-6818844847?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office based roles. | Location: This role will be based remotely in the EMEA region. | Our compensation philosophy is to ensure equity right across our global workforce. | Please note that additional benefits may apply depending on the work location and, for more information on these, you can ask in the later stages of the recruitment process. | Fully remote working environment - we’ve been working remotely since 2004! | Canonical has been a remote-first company since its inception in 2004.​ Work at Canonical is a step into the future, and will challenge you to think differently,",
-   "remoteProof": "Location: This role will be based remotely in the EMEA region. | Fully remote working environment - we’ve been working remotely since 2004! | Canonical has been a remote-first company since its inception in 2004.​ Work at Canonical is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/gitstart/jobs/javascript-engineer",
-   "company": "GitStart",
-   "title": "Javascript Engineer",
-   "url": "https://himalayas.app/companies/gitstart/jobs/javascript-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "🌍 World-class codebases – Condense years of learning into months by working on some of the most advanced and technical JavaScript projects in the world. | 👩‍💻 Fully remote + async – Work when, where, and how you want. | 🚀 Gain OSS experience – Build your open-source profile and contribute to important JavaScript and Node.js repositories.",
-   "remoteProof": "Locations: Anywhere TL;DR: Join a career accelerator for developers, built by developers. | 👩‍💻 Fully remote + async – Work when, where, and how you want.",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tether-operations-limited/jobs/mobile-engineer-react-native-100-remote",
-   "company": "Tether Operations Limited",
-   "title": "Mobile Engineer - React Native (100% Remote)",
-   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/mobile-engineer-react-native-100-remote?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "expo",
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Our team is a global talent powerhouse, working remotely from every corner of the world. | If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you. | The UI logic, on the other hand, is 100% React Native, giving us flexibility and the ability to iterate quickly. | Keet Mobile is built with React Native and Expo, and its P2P core runs on the device itself in a Bare worklet. | Knowledge in native languages (Swift/Kotlin) and familiarity with native build tools (Xcode/Android Studio) is advantageous. | Experience working with a remote team Interested in modernizing and optimizing different mobile o",
-   "remoteProof": "Our team is a global talent powerhouse, working remotely from every corner of the world. | Experience working with a remote team Interested in modernizing and optimizing different mobile or web applications.",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/enjoy-gaming-llc/jobs/senior-node-js-developer",
-   "company": "Enjoy Gaming LLC",
-   "title": "Senior Node.js Developer",
-   "url": "https://himalayas.app/companies/enjoy-gaming-llc/jobs/senior-node-js-developer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "We are currently seeking a skilled Senior Node JS Developer to join our innovative team and contribute to the development of high-performance backend systems.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tarteel-ai/jobs/developer-advocate",
-   "company": "Tarteel AI",
-   "title": "Developer Advocate",
-   "url": "https://himalayas.app/companies/tarteel-ai/jobs/developer-advocate?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/customer-io/jobs/senior-software-engineer-email-channel",
-   "company": "Customer.io",
-   "title": "Senior Software Engineer - Email Channel",
-   "url": "https://himalayas.app/companies/customer-io/jobs/senior-software-engineer-email-channel?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Under the hood: Go, React, Ember and AI help us ship fast and scale with confidence. | Starting salary for this role is $150,000 - $200,000 USD (or equivalent in local currency) depending on experience and subject to market rate adjustment. | We also offer 16 weeks paid parental leave , unlimited PTO , stipends for remote work and wellness, a professional development budget, and more.",
-   "remoteProof": "We also offer 16 weeks paid parental leave , unlimited PTO , stipends for remote work and wellness, a professional development budget, and more.",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tarteel-ai/jobs/senior-full-stack-engineer",
-   "company": "Tarteel AI",
-   "title": "Senior Full-Stack Engineer",
-   "url": "https://himalayas.app/companies/tarteel-ai/jobs/senior-full-stack-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "nextjs",
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/tarteel-ai/jobs/senior-mobile-engineer-react-native",
-   "company": "Tarteel AI",
-   "title": "Senior Mobile Engineer (React Native)",
-   "url": "https://himalayas.app/companies/tarteel-ai/jobs/senior-mobile-engineer-react-native?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Our mobile app is primarily built with React Native, including some native modules. | Because we build most features in Tarteel to work offline, the kind of challenges you will get to solve will push the limits of your skillset and expose you to challenges you haven’t previously encountered. | If you have a strong background in mobile development (especially with React Native) and a passion for building high-quality software, we want to hear from you!",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/emetlab/jobs/senior-software-engineer",
-   "company": "Emetlab",
-   "title": "Senior Software Engineer",
-   "url": "https://himalayas.app/companies/emetlab/jobs/senior-software-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Develop and optimise systems that support multi-stage quality assurance, expert contributor workflows, and high-throughput data processing across diverse domains. | What You'll Need to Succeed 4+ years of professional software engineering experience, with strong proficiency in one or more languages such as Python, C#, Java, TypeScript, or Go.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/perena/jobs/frontend-engineer",
-   "company": "Perena",
-   "title": "Frontend Engineer",
-   "url": "https://himalayas.app/companies/perena/jobs/frontend-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/nuclear/jobs/software-engineer",
-   "company": "Nuclear",
-   "title": "Software Engineer",
-   "url": "https://himalayas.app/companies/nuclear/jobs/software-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/s-pro/jobs/senior-full-stack-engineer-frontend-focused-ai",
-   "company": "S-PRO",
-   "title": "Senior Full-Stack Engineer (Frontend-Focused, AI)",
-   "url": "https://himalayas.app/companies/s-pro/jobs/senior-full-stack-engineer-frontend-focused-ai?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Vue 3 + TypeScript on the front, Django + DRF on the back. | 5+ years building production software, with real depth on both sides of the stack. | 3+ years hands-on / React+ TypeScript — this is a Vue shop. | English — Upper-Intermediate (B2) or higher. | Remote work model.",
-   "remoteProof": "Remote work model.",
-   "firstSeen": "2026-10-29T11:13:51+00:00"
-  },
-  {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/edconic-front-end-developer",
    "company": "Edconic",
    "title": "Front-End Developer",
@@ -477,7 +139,7 @@
    "id": "jooble:4099517956178006872",
    "company": "20four7va",
    "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=21&groupId=-675061143&elckey=-8283035909881672271&p=2&aq=2335833842568619846&cid=22409&jobAge=29&brelb=10&bscr=8.773642&scr=8.773642",
+   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=21&groupId=-675061143&elckey=493267585892725076&p=2&aq=-6368701330652526507&cid=22409&jobAge=34&brelb=10&bscr=9.003403&scr=9.003403",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
@@ -563,26 +225,6 @@
    ],
    "match": "generic+stack; DE+remote-in-text",
    "facts": "Mit über 8.000 Kolleg*innen betreiben und modernisieren wir eine der größten und komplexesten IT-Infrastrukturen in Deutschland. | Wir suchen verantwortungsvolle IT-Spezialist*innen, die die Bundeswehr-IT aus Überzeugung in herausfordernden Digitalisierungsvorhaben weiterentwickeln und so einen Beitrag zur Sicherheit Deutschlands leisten wollen.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-28T09:40:51+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/knowmad-mood/jobs/web-developer-marketing-technology-specialist-6454854867",
-   "company": "knowmad mood",
-   "title": "Web Developer & Marketing Technology Specialist",
-   "url": "https://himalayas.app/companies/knowmad-mood/jobs/web-developer-marketing-technology-specialist-6454854867?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "5+ years of experience developing and maintaining business-critical WordPress websites.",
    "remoteProof": "",
    "firstSeen": "2026-10-28T09:40:51+00:00"
   },
@@ -673,30 +315,6 @@
    "match": "title; remote",
    "facts": "Standort: Remote-first aus Deutschland oder Österreich (mit gelegentlichen Teamtreffen nach Absprache und der Möglichkeit der Nutzung von Büros in Garching) Start: Voraussichtlich ab 01.01.2027; den Einstiegstermin vereinbaren wir flexibel mit dir. | Vergütung: Gehalt nach Erfahrung und Expertise; Bonuszahlungen vorgesehen, Mitarbeiterbeteiligungen möglich. | Gesetzlich geforderte Information für Beschäftigung mit Arbeitsort Österreich, absolutes Mindestgehalt: In Österreich beträgt die Mindestvergütung auf Basis des IT-KV 2026 ab 4.061 € brutto monatlich bei 38,5 Wochenstunden, zuzüglich Sonderzahlungen. | Was wir dir bieten Du arbeitest remote-first mit kurzen Entscheidungswegen und direkt",
    "remoteProof": "Standort: Remote-first aus Deutschland oder Österreich (mit gelegentlichen Teamtreffen nach Absprache und der Möglichkeit der Nutzung von Büros in Garching) Start: Voraussichtlich ab 01.01.2027; den Einstiegstermin vereinbaren wir flexibel mit dir. | Was wir dir bieten Du arbeitest remote-first mit kurzen Entscheidungswegen und direktem Austausch mit den Gründern. | Bewerbung über das Formular Kurzes Kennenlernen – remote, ca. | 20 Minuten Take-Home Case – remote, ca.",
-   "firstSeen": "2026-10-27T15:18:07+00:00"
-  },
-  {
-   "id": "arbeitnow:full-stack-developer-react-nextjs-tailwind-postgresql-supabase-all-genders-munich-459347",
-   "company": "ECENT GmbH",
-   "title": "Full-Stack Developer | React/Nextjs, Tailwind, PostgreSQL/Supabase! (all genders)",
-   "url": "https://www.arbeitnow.com/jobs/companies/ecent-gmbh/full-stack-developer-react-nextjs-tailwind-postgresql-supabase-all-genders-munich-459347",
-   "location": "Munich",
-   "remote": false,
-   "postedAt": "2026-10-24",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "Wir arbeiten flexibel, aber persönlich: Für diese Rolle ist es uns wichtig, dass du regelmäßig in unser Büro in der Maxvorstadt kommen kannst (Remote Work ist teilweise natürlich möglich). | Unser Versprechen: Du bekommst innerhalb von 2 Tagen eine Antwort. | Kilian und Tanina Find Jobs in Germany on Arbeitnow",
-   "remoteProof": "Wir arbeiten flexibel, aber persönlich: Für diese Rolle ist es uns wichtig, dass du regelmäßig in unser Büro in der Maxvorstadt kommen kannst (Remote Work ist teilweise natürlich möglich).",
    "firstSeen": "2026-10-27T15:18:07+00:00"
   },
   {
@@ -861,29 +479,6 @@
    "firstSeen": "2026-10-26T18:49:19+00:00"
   },
   {
-   "id": "greenhouse:smartlyio:6126660004",
-   "company": "smartlyio",
-   "title": "Senior Software Engineer - AI Platform",
-   "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126660004",
-   "location": "Berlin, Berlin, Germany / Berlin",
-   "remote": null,
-   "postedAt": "2026-10-06",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "from job boards",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; DE+remote-in-text",
-   "facts": "We use Python, TypeScript, PostgreSQL, Node.js, Docker and Kubernetes for our microservices, TypeScript and React in the frontend of our products. | Total Rewards: Benefit from equity options, performance-based rewards, competitive compensation, and ample career development opportunities. | Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
-   "remoteProof": "Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
-   "firstSeen": "2026-10-26T18:49:19+00:00"
-  },
-  {
    "id": "ashby:5bluesoftware:0f8cb8db-c6d3-46c3-b238-58e6e8fa496b",
    "company": "5Blue Software",
    "title": "Senior Full-Stack Developer (AI-Driven Development)",
@@ -907,29 +502,6 @@
    "firstSeen": "2026-10-26T18:49:19+00:00"
   },
   {
-   "id": "greenhouse:smartlyio:6126660004",
-   "company": "Smartly.io",
-   "title": "Senior Software Engineer - AI Platform",
-   "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126660004",
-   "location": "Berlin, Berlin, Germany / Berlin",
-   "remote": null,
-   "postedAt": "2026-10-06",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "from job boards",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; DE+remote-in-text",
-   "facts": "We use Python, TypeScript, PostgreSQL, Node.js, Docker and Kubernetes for our microservices, TypeScript and React in the frontend of our products. | Total Rewards: Benefit from equity options, performance-based rewards, competitive compensation, and ample career development opportunities. | Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
-   "remoteProof": "Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
-   "firstSeen": "2026-10-26T18:49:19+00:00"
-  },
-  {
    "id": "ashby:alan:3b78382c-b243-46c1-a22e-a67850b21821",
    "company": "Alan",
    "title": "Fullstack Software Engineer (x/f/m) - Agentic Platform",
@@ -950,28 +522,6 @@
    "facts": "We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. | Python services on FastAPI, async SQLAlchemy and PydanticAI, Temporal for durable execution, PostgreSQL, MCP, Daytona sandboxes, various LLM model providers, Terraform on AWS, React with Vite.",
    "remoteProof": "",
    "firstSeen": "2026-10-26T18:49:19+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/mixrank/jobs/software-engineer-remote-global-full-time",
-   "company": "Mixrank",
-   "title": "Software Engineer - Remote (Global), Full-Time",
-   "url": "https://himalayas.app/companies/mixrank/jobs/software-engineer-remote-global-full-time?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Our team is 50+ full-time, full-remote from 20+ countries. | Effectively all of our codebase is written in Python, Rust, SQL, Javascript/TypeScript, and Nix. | Beneficial (but optional!) experience includes PostgreSQL, Python, Rust, Linux, TypeScript, Nix, frontend/backend web development, and data mining.",
-   "remoteProof": "Our team is 50+ full-time, full-remote from 20+ countries.",
-   "firstSeen": "2026-10-25T18:43:08+00:00"
   },
   {
    "id": "personio:polarise:2858654",
@@ -1043,7 +593,7 @@
    "id": "jooble:-6320563847304922999",
    "company": "homie AI",
    "title": "Full Stack Developer (AI SaaS)",
-   "url": "https://jooble.org/desc/-6320563847304922999?ckey=fullstack+typescript&rgn=55146&pos=3&groupId=-1143041055&elckey=7552425235081865845&p=1&aq=1178646766075888265&cid=22409&jobAge=485&brelb=100&bscr=124.3629&scr=124.3629",
+   "url": "https://jooble.org/desc/-6320563847304922999?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=-2118015342853288424&p=1&aq=4019683118524512354&cid=22409&jobAge=490&brelb=100&bscr=126.18901&scr=126.18901",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-09",
@@ -1268,28 +818,6 @@
    "firstSeen": "2026-10-24T16:46:21+00:00"
   },
   {
-   "id": "arbeitnow:remote-senior-product-engineer-499608",
-   "company": "prolific",
-   "title": "Senior Product Engineer",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/prolific/remote-senior-product-engineer-499608",
-   "location": "Remote",
-   "remote": true,
-   "postedAt": "2026-10-24",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-24T09:15:00+00:00"
-  },
-  {
    "id": "jobicy:149522",
    "company": "Canonical",
    "title": "Senior/Staff/Principal Engineer",
@@ -1354,28 +882,6 @@
    "facts": "We are looking for mission-driven people to join our European teams – and apply their skills to solve the most complex and impactful problems.",
    "remoteProof": "",
    "firstSeen": "2026-10-23T18:52:55+00:00"
-  },
-  {
-   "id": "arbeitnow:lead-frontend-fullstack-engineer-berlin-131896",
-   "company": "Protofy GmbH & Co. KG",
-   "title": "Lead Frontend / Fullstack Engineer",
-   "url": "https://www.arbeitnow.com/jobs/companies/protofy-gmbh-co-kg/lead-frontend-fullstack-engineer-berlin-131896",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-23",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag teamleitung",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Du bringst fundierte Erfahrung mit React sowie in Node.js, Flutter oder Kotlin mit und hast ein sehr gutes Verständnis von Architektur. | Das bieten wir dir Dich erwartet ein unbefristeter Arbeitsvertrag bei einer wöchentlichen Arbeitszeit von 40 Stunden und einer Probezeit von 6 Monaten sowie 29 Urlaubstagen im Jahr. | Wir unterstützen deine berufliche Bildung und bieten dir flexible Arbeitszeiten sowie die Möglichkeit zum vollständigen Remote-Arbeiten oder im Homeoffice, wofür wir dir eine passende Home-Office-Ausstattung und einen Firmenlaptop zur Verfügung stellen. | Vor Ort oder remote erwarten dich zudem kostenlose Getränke, kostenlose Snacks, eine lockere Kleiderordnung und die Möglic",
-   "remoteProof": "Wir unterstützen deine berufliche Bildung und bieten dir flexible Arbeitszeiten sowie die Möglichkeit zum vollständigen Remote-Arbeiten oder im Homeoffice, wofür wir dir eine passende Home-Office-Ausstattung und einen Firmenlaptop zur Verfügung stellen. | Vor Ort oder remote erwarten dich zudem kostenlose Getränke, kostenlose Snacks, eine lockere Kleiderordnung und die Möglichkeit, Haustiere mitzubringen.",
-   "firstSeen": "2026-10-23T14:42:17+00:00"
   },
   {
    "id": "jobicy:156560",
@@ -1462,51 +968,6 @@
    "facts": "",
    "remoteProof": "",
    "firstSeen": "2026-10-23T09:42:21+00:00"
-  },
-  {
-   "id": "arbeitnow:tech-lead-ai-engineering-cologne-42688",
-   "company": "Nejo",
-   "title": "Tech Lead AI Engineering (m/w/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/nejo/tech-lead-ai-engineering-cologne-42688",
-   "location": "Cologne",
-   "remote": false,
-   "postedAt": "2026-10-22",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Permanent employment (unbefristeter arbeitsvertrag) manager",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "next.js",
-    "typescript"
-   ],
-   "match": "generic+stack; NRW",
-   "facts": "The entire stack is built on TypeScript and Next.js. | The role brings together applied LLM engineering and solid backend engineering in TypeScript. | Stack: TypeScript, Next.js, Node.js, Postgres with pgvector, Docker, Azure, Anthropic and OpenAI APIs, Vercel AI SDK. | Find more English Speaking Jobs in Germany on Arbeitnow",
-   "remoteProof": "",
-   "firstSeen": "2026-10-22T19:35:48+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/senior-backend-engineer-python-full-stack-mindset",
-   "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-   "title": "Senior Backend Engineer (Python) - Full-Stack Mindset",
-   "url": "https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/senior-backend-engineer-python-full-stack-mindset?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Requirements Minimum 6 years of commercial experience in Python backend development , with strong expertise in designing and building production-grade applications. | Advanced English communication skills , both written and spoken, for collaboration with international clients and teams. | Practical experience with frontend development using React, , Angular , or other modern JavaScript frameworks.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-22T19:35:48+00:00"
   },
   {
    "id": "smartrecruiters:Redcare-Pharmacy:744000157099739",
@@ -1957,26 +1418,6 @@
    "firstSeen": "2026-10-16T18:36:39+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/zup/jobs/pessoa-especialista-em-desenvolvimento-full-stack",
-   "company": "Zup",
-   "title": "Pessoa Especialista em Desenvolvimento Full-stack",
-   "url": "https://himalayas.app/companies/zup/jobs/pessoa-especialista-em-desenvolvimento-full-stack?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-16T13:19:10+00:00"
-  },
-  {
    "id": "ashby:qonto:f32bcd63-83c4-4897-9ec4-166ff3b322da",
    "company": "Qonto",
    "title": "Senior Web Engineer (React) - Remote friendly",
@@ -2239,29 +1680,6 @@
    "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/tether-operations-limited/jobs/mobile-engineer-react-native-100-remote-worldwide",
-   "company": "Tether Operations Limited",
-   "title": "Mobile Engineer - React Native (100% Remote) - Worldwide",
-   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/mobile-engineer-react-native-100-remote-worldwide?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "expo",
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Our team is a global talent powerhouse, working remotely from every corner of the world. | If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you. | The UI logic, on the other hand, is 100% React Native, giving us flexibility and the ability to iterate quickly. | Keet Mobile is built with React Native and Expo, and its P2P core runs on the device itself in a Bare worklet. | Knowledge in native languages (Swift/Kotlin) and familiarity with native build tools (Xcode/Android Studio) is advantageous. | Experience working with a remote team Interested in modernizing and optimizing different mobile o",
-   "remoteProof": "Our team is a global talent powerhouse, working remotely from every corner of the world. | Experience working with a remote team Interested in modernizing and optimizing different mobile or web applications.",
-   "firstSeen": "2026-10-16T05:03:58+00:00"
-  },
-  {
    "id": "greenhouse:alpaca:6226254004",
    "company": "Alpaca",
    "title": "Senior Fullstack Engineer- Auth Team",
@@ -2307,72 +1725,6 @@
    "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
-   "id": "arbeitnow:remote-full-stack-engineer-frontend-leaning-studio-291198",
-   "company": "ElevenLabs",
-   "title": "Full-Stack Engineer (Frontend Leaning) - Studio",
-   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-frontend-leaning-studio-291198",
-   "location": "Remote",
-   "remote": true,
-   "postedAt": "2026-10-22",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find more English Speaking Jobs in Germany on Arbeitnow",
-   "remoteProof": "",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "arbeitnow:senior-fullstack-engineer-berlin-242271",
-   "company": "Protofy GmbH & Co. KG",
-   "title": "Senior Fullstack Engineer",
-   "url": "https://www.arbeitnow.com/jobs/companies/protofy-gmbh-co-kg/senior-fullstack-engineer-berlin-242271",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-23",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Deine Rolle Du baust robuste Services und APIs in Kotlin, Java oder TypeScript und bringst sie in unsere Web-Apps, gern auch bis in die Infrastruktur. | PostgreSQL, MongoDB) Du sprichst verhandlungssicher Deutsch und Englisch Bonus Akademischer Hintergrund in Informatik, Wirtschaftsinformatik oder einem anderen relevanten Studiengang (BSc, MSc) Erfahrung mit Kotlin, z. | mit Spring Boot (unsere bevorzugte Wahl) Erfahrung in der Frontend-Entwicklung mit React und TypeScript Aktiver Einsatz von Agentic-Engineering-Tools wie Claude Code, Cursor oder GitHub Copilot Erfahrung mit automatisierten Unit- und Integrationstests (z. | Android/Kotlin, Kotlin Multiplatform, Flutter oder React Native) Erf",
-   "remoteProof": "",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "arbeitnow:senior-product-engineer-bielefeld-429098",
-   "company": "sustaind GmbH",
-   "title": "(Senior) Product Engineer",
-   "url": "https://www.arbeitnow.com/jobs/companies/sustaind-gmbh/senior-product-engineer-bielefeld-429098",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
    "id": "ashby:melotech:a7d99ee2-75fe-4a12-8f6c-1ecedaa68a3e",
    "company": "Melotech",
    "title": "Full-Stack Developer, Music & Audio",
@@ -2416,30 +1768,6 @@
    "facts": "The frontend is a modern TypeScript monorepo made of a host application and a growing set of independently deployable microfrontends. | These remotes are designed to be built once and used in two places: our new shadcn/ui-based Investigation Agent and our existing Material UI-based Case Manager. | - Features: Build product features end to end in React and TypeScript, such as workflow graph editors, investigation timelines, data-heavy tables and dashboards that make agentic AI output understandable for analysts. | - Microfrontends: Develop and maintain Module Federation remotes, keep remote/host contracts stable, and make sure features fit into both the Investigation Agent and the MUI-based C",
    "remoteProof": "These remotes are designed to be built once and used in two places: our new shadcn/ui-based Investigation Agent and our existing Material UI-based Case Manager. | - Microfrontends: Develop and maintain Module Federation remotes, keep remote/host contracts stable, and make sure features fit into both the Investigation Agent and the MUI-based Case Manager. | - Microfrontends and delivery: Module Federation or similar runtime composition, shared dependencies and host/remote contracts, plus the buil",
    "firstSeen": "2026-10-15T22:59:10+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/chasi/jobs/senior-software-engineer",
-   "company": "Chasi",
-   "title": "Senior Software Engineer",
-   "url": "https://himalayas.app/companies/chasi/jobs/senior-software-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Senior Software Engineering (Full Stack) — Chasi Website : Location : Remote About Chasi Chasi is building the future of industrial commerce — a connected ecosystem powered by AI for the equipment industry. | What You’ll Do Build and ship production features across Next.js and TypeScript. | Contribute to backend APIs and services built in Node.js. | Proficient with JavaScript/TypeScript, React, and modern web development fundamentals. | 2+ years of work experience building apps for startups or big tech Comfortable with backend concepts — APIs, databases, authentication, and REST/GraphQL.",
-   "remoteProof": "Senior Software Engineering (Full Stack) — Chasi Website : Location : Remote About Chasi Chasi is building the future of industrial commerce — a connected ecosystem powered by AI for the equipment industry.",
-   "firstSeen": "2026-10-14T13:34:35+00:00"
   },
   {
    "id": "ashby:elevenlabs:ce3d5a59-fb8c-482b-bc3f-60e44576c5e0",
@@ -2548,28 +1876,6 @@
    "match": "generic+stack; remote",
    "facts": "We're a remote-first team of 150+ people across 25+ countries, guided by values we actually practice: Customer Obsession, Always Be Shipping, Own It, and Balance. | We’re specifically looking for someone with a strong backend foundation who is also genuinely proficient in React. | You’re proficient in React and have genuinely built on the frontend before. | We’re a fully remote team, and how you write is as important as how you code. | What we offer: Competitive equity in a fast-growing, Series C startup backed by top-tier investors, including Y Combinator 10-year window to exercise vested equity options A fully remote environment designed around autonomy and flexibil",
    "remoteProof": "We're a remote-first team of 150+ people across 25+ countries, guided by values we actually practice: Customer Obsession, Always Be Shipping, Own It, and Balance. | We’re a fully remote team, and how you write is as important as how you code. | What we offer: Competitive equity in a fast-growing, Series C startup backed by top-tier investors, including Y Combinator 10-year window to exercise vested equity options A fully remote environment designed around autonomy and flexibil",
-   "firstSeen": "2026-10-14T08:34:46+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/crazygames/jobs/remote-senior-liveops-developer-mobile-games",
-   "company": "CrazyGames",
-   "title": "[REMOTE] Senior LiveOps Developer - Mobile Games",
-   "url": "https://himalayas.app/companies/crazygames/jobs/remote-senior-liveops-developer-mobile-games?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Senior LiveOps Developer - Mobile Games Remote - Full Time CrazyGames , one of the world's largest browser game platforms with over 60 million monthly active users, is doubling down on its IP portfolio. | You'll write the code for the events, the progression systems, the offers, the economy and the remote config that keep a game growing. | You've set an update cadence, shipped a meaningful live system (event framework, progression, offers, remote config, economy tuning), and we can see the effect in retention or monetization. | Build the live system behind it: event framework, remote config, A/B test, progression or economy change. | Requirements You're a great fit if you Have 2+ years runni",
-   "remoteProof": "Senior LiveOps Developer - Mobile Games Remote - Full Time CrazyGames , one of the world's largest browser game platforms with over 60 million monthly active users, is doubling down on its IP portfolio. | You'll write the code for the events, the progression systems, the offers, the economy and the remote config that keep a game growing. | You've set an update cadence, shipped a meaningful live system (event framework, progression, offers, remote config, economy tuning), and we can see the effec",
    "firstSeen": "2026-10-14T08:34:46+00:00"
   },
   {
@@ -2747,70 +2053,6 @@
    "firstSeen": "2026-10-11T19:27:32+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/solution-community/jobs/ai-full-stack-engineer-volunteer-unpaid",
-   "company": "Solution Community",
-   "title": "AI Full Stack Engineer (Volunteer, unpaid)",
-   "url": "https://himalayas.app/companies/solution-community/jobs/ai-full-stack-engineer-volunteer-unpaid?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Volunteer",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Solid full-stack fundamentals (front end: React, Vue, or similar; back end: Node.js, Python, or similar) — enough to review, debug, and correct AI-generated code, not necessarily to write everything by hand.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-11T13:51:41+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/sand-technologies/jobs/senior-test-automation-engineer",
-   "company": "Sand Technologies",
-   "title": "Senior Test Automation Engineer",
-   "url": "https://himalayas.app/companies/sand-technologies/jobs/senior-test-automation-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "With colleagues across Africa, Europe, the UK and the US, we operate across the full stack - from research and engineering to deployment and capability building. | About the role We are looking for a Senior Test Automation Engineer to join our QA team in a fully remote capacity. | This role requires a strong focus on GraphQL API testing, manual test design, and UI automation using TypeScript and Playwright. | Scaling Automation: Expand and maintain our existing Playwright + TypeScript automation suite, ensuring scripts are stable, readable, and efficient. | Who you are Experience: 5+ years in Software Quality Engineering with a heavy focus on automation. | Coding Proficiency: Strong experien",
-   "remoteProof": "About the role We are looking for a Senior Test Automation Engineer to join our QA team in a fully remote capacity.",
-   "firstSeen": "2026-10-11T11:09:17+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/pontoonglobal/jobs/btp-custom-node-js-capm-ui5",
-   "company": "Pontoonglobal",
-   "title": "BTP Custom (Node.js + CAPM + UI5)",
-   "url": "https://himalayas.app/companies/pontoonglobal/jobs/btp-custom-node-js-capm-ui5?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "🚀 We Are Hiring: BTP Custom (Node.js + CAPM + UI5) 🚀 Looking for an exciting remote opportunity to work on cutting-edge SAP BTP projects? | Build backend services using Node.js and SAP CAPM ( Cloud Application Programming Model ). | Required Skills & Experience: 10+ years of experience with Node.js, CAPM, and SAP UI5 development .",
-   "remoteProof": "🚀 We Are Hiring: BTP Custom (Node.js + CAPM + UI5) 🚀 Looking for an exciting remote opportunity to work on cutting-edge SAP BTP projects? | 📍 Location: Remote ⏳ Duration: 6 Months 💼 Experience Required: 10+ Years Job Description: As a BTP Custom Developer , you will be responsible for developing full-stack applications using Node.js , SAP CAPM , and SAP UI5 , while ensuring seamless integration with SAP S/4HANA and other systems.",
-   "firstSeen": "2026-10-11T10:21:26+00:00"
-  },
-  {
    "id": "ashby:clipbook:0db15f4a-50bb-4112-888c-d82614d142cf",
    "company": "Clipbook",
    "title": "Founding Senior Software Engineer (Europe – Remote)",
@@ -2897,29 +2139,6 @@
    "facts": "- Build and maintain application services using NestJS and TypeScript. | - Several years of professional NestJS experience, typically within a 3 to 10+ year engineering background. | - Very strong TypeScript skills and solid MongoDB experience. | - Native or C2-level German proficiency. | COMPENSATION & BENEFITS | Remote across Europe, or hybrid from Cologne or Hamburg, Germany. | The primary location is Cologne, North Rhine-Westphalia, Germany.",
    "remoteProof": "Remote across Europe, or hybrid from Cologne or Hamburg, Germany.",
    "firstSeen": "2026-10-10T10:54:40+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/yellow-card/jobs/senior-frontend-engineer-3135982811",
-   "company": "Yellow Card",
-   "title": "Senior Frontend Engineer",
-   "url": "https://himalayas.app/companies/yellow-card/jobs/senior-frontend-engineer-3135982811?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "We’re looking to hire a Senior Frontend Engineer located within Africa to join our fast-growing, fully remote team.",
-   "remoteProof": "We’re looking to hire a Senior Frontend Engineer located within Africa to join our fast-growing, fully remote team.",
-   "firstSeen": "2026-10-09T19:59:25+00:00"
   },
   {
    "id": "personio:einwert:2836066",
@@ -3034,29 +2253,6 @@
    "firstSeen": "2026-10-09T11:37:00+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/dwelly/jobs/staff-software-engineer",
-   "company": "Dwelly",
-   "title": "Staff Software Engineer",
-   "url": "https://himalayas.app/companies/dwelly/jobs/staff-software-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "That’s about what we believe in, how we operate and make decisions What we offer is not a fancy office or a static workplace.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-09T08:54:11+00:00"
-  },
-  {
    "id": "arbeitsagentur:14774-BB-565291-12683-821-S",
    "company": "Deichmann SE",
    "title": "Senior Frontend Product Owner Omnichannel Platform (m/w/d)",
@@ -3077,29 +2273,6 @@
    "facts": "Als eigenfinanziertes Familienunternehmen sind wir weit mehr als ein Filialnetz mit rund 4.700 Standorten in über 30 Ländern, mehr als 8,9 Milliarden Euro Jahresumsatz und einem der erfolgreichsten Online-Shops für Schuhe in Europa. | * Sehr gute Deutsch- und gute Englischkenntnisse. | Bewirb Dich jetzt online mit Angabe Deiner Gehaltsvorstellung und Deines frühestmöglichen Eintrittstermins.",
    "remoteProof": "",
    "firstSeen": "2026-10-08T17:14:10+00:00"
-  },
-  {
-   "id": "arbeitnow:senior-frontend-developer-bonn-45153",
-   "company": "Haeger Consulting GmbH",
-   "title": "Senior Frontend Developer*",
-   "url": "https://www.arbeitnow.com/jobs/companies/haeger-consulting-gmbh/senior-frontend-developer-bonn-45153",
-   "location": "Bonn",
-   "remote": false,
-   "postedAt": "2026-10-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "Was dich erwartet Du setzt moderne Webprojekte mit Angular, Vue oder React gemeinsam mit unseren Kunden um. | Du beherrschst HTML5, CSS3, SCSS, JavaScript und TypeScript sicher. | Du hast Expertenwissen in mindestens einem Framework: Angular, Vue oder React. | Du sprichst Deutsch auf Muttersprachniveau und kannst auch ohne Weiteres in Englisch kommunizieren. | Idealerweise hast du Erfahrung mit Node.js– z. | Flexibilität: Gestalte deinen Arbeitsalltag mit Homeoffice und flexiblen Arbeitszeiten individuell nach deinen Bedürfnissen. | Für den persönlichen Austausch und unser Miteinander treffen wir uns einmal pro Woche vor Ort. | Mit unserer wöchentlichen „Bewegten Pause“ bringst du außerdem B",
-   "remoteProof": "Flexibilität: Gestalte deinen Arbeitsalltag mit Homeoffice und flexiblen Arbeitszeiten individuell nach deinen Bedürfnissen. | Für den persönlichen Austausch und unser Miteinander treffen wir uns einmal pro Woche vor Ort. | Mit unserer wöchentlichen „Bewegten Pause“ bringst du außerdem Bewegung und Mobilisierung in deinen Arbeitsalltag – im Büro oder im Homeoffice. | Office zum Wohlfühlen: Helles, modernes Büro, leckerer Kaffee, eine Auswahl an Tees, ein gut gefüllter Getränkekühlschrank sowie f",
-   "firstSeen": "2026-10-08T11:43:46+00:00"
   },
   {
    "id": "personio:schauinsland-reisen-gmbh:2799962",
@@ -3145,29 +2318,6 @@
    "match": "title; NRW ~15 km",
    "facts": "Du baust Features End-to-End: Next.js (React, App Router) und Tailwind v4 im Frontend, Server Actions, Route Handler und Supabase (Postgres, Auth, Realtime) im Backend • | Du hast solide Kenntnisse in TypeScript und praktische Erfahrung mit Next.js oder einem vergleichbaren React-Framework • | Du arbeitest lieber im Office, als im Homeoffice. | Du sprichst Deutsch auf C2-Niveau.",
    "remoteProof": "Du arbeitest lieber im Office, als im Homeoffice.",
-   "firstSeen": "2026-10-08T10:31:37+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/parqet-fintech-gmbh/jobs/mobile-engineer-react-native",
-   "company": "Parqet Fintech GmbH",
-   "title": "Mobile Engineer (React Native)",
-   "url": "https://himalayas.app/companies/parqet-fintech-gmbh/jobs/mobile-engineer-react-native?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
@@ -3233,29 +2383,6 @@
    "facts": "We only offer permanent employment contracts.",
    "remoteProof": "",
    "firstSeen": "2026-10-08T10:31:37+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/consensys-io/jobs/staff-software-engineer-perpetuals",
-   "company": "Consensys",
-   "title": "Staff Software Engineer: Perpetuals",
-   "url": "https://himalayas.app/companies/consensys-io/jobs/staff-software-engineer-perpetuals?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Please note that we are unable to consider applications from candidates based in France, Italy, or Germany for this role. | MetaMask spent the last ten years building it; with 100M+ downloads, users in ~190 countries, and trillions in cumulative transaction volume, it's the most trusted self-custodial financial platform on the internet. | Join a remote-first, global team rebuilding how money works: a problem that touches everyone, every day. | We’re passionate about building a diverse team of humans and as such, if you think you've got what it takes for our chaotic-but-fun, remote-friendly, start-up environment—apply anyway, detailing your relevant transferable skills in your cover letter.",
-   "remoteProof": "Join a remote-first, global team rebuilding how money works: a problem that touches everyone, every day. | We’re passionate about building a diverse team of humans and as such, if you think you've got what it takes for our chaotic-but-fun, remote-friendly, start-up environment—apply anyway, detailing your relevant transferable skills in your cover letter.",
-   "firstSeen": "2026-10-07T20:24:29+00:00"
   },
   {
    "id": "ashby:elevenlabs:c7d59014-b918-4c15-ae33-79f5c9f2cf9f",
@@ -3498,28 +2625,6 @@
    "firstSeen": "2026-10-06T17:42:48+00:00"
   },
   {
-   "id": "arbeitsagentur:12288-4951156225-S",
-   "company": "Formel D",
-   "title": "Microsoft Power App Entwickler (w/m/d)",
-   "url": "https://www.persy.jobs/persy/l/job-jn2rm-b",
-   "location": "Köln / NORDRHEIN_WESTFALEN / Deutschland",
-   "remote": null,
-   "postedAt": "2026-09-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "unbefristet",
-   "industry": "",
-   "source": "arbeitsagentur",
-   "ats": "arbeitsagentur",
-   "_km": 54.00008945208596,
-   "kmFromEssen": 54,
-   "stackHits": [],
-   "match": "title; NRW ~54 km",
-   "facts": "Zusätzlich runden sehr gute Englisch- (C1) und Deutschkenntnisse (C2) dein Profil ab. | Dann bringen Sie jetzt Ihre Bewerbung auf die Strecke – mit Angaben zu Ihrem möglichen Startzeitpunkt, Ihrer Gehaltsvorstellung sowie der Kennziffer.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-06T17:42:48+00:00"
-  },
-  {
    "id": "recruitee:holepunch:2216042",
    "company": "Holepunch",
    "title": "P2P Node.js Engineer (100% Remote, Worldwide)",
@@ -3648,50 +2753,6 @@
    "match": "title; NRW ~57 km",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "arbeitnow:principal-software-engineer-berlin-456975",
-   "company": "1KOMMA5˚",
-   "title": "Principal Software Engineer (m/f/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/1komma50/principal-software-engineer-berlin-456975",
-   "location": "Berlin",
-   "remote": false,
-   "postedAt": "2026-10-22",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; DE+remote-in-text",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "arbeitnow:web-developer-full-time-munich-243414",
-   "company": "CONROO GmbH",
-   "title": "Web Developer | Full Time (m/w/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/conroo-gmbh/web-developer-full-time-munich-243414",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-26",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "🚀 What You Need to Be Successful You bring 4+ years of experience in developing web applications. | You have extensive experience with TypeScript and its practical application. | You are fluent in English. | ⚙️ Must Have Tools and Technologies Vue js Typescript Vuetify 💡 It’s a Plus If You Have experience working with Nuxt.js. | 👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location. | 🏔️ Company getaway: Two annual team getaways where we work, unwind, and connect – away from the office. | 🏢 Multiple ",
-   "remoteProof": "👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location.",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -3914,6 +2975,29 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
+   "id": "greenhouse:smartlyio:6218155004",
+   "company": "smartlyio",
+   "title": "Senior Software Engineer - AI Platform",
+   "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6218155004",
+   "location": "Helsinki, Uusimaa, Finland / Berlin",
+   "remote": null,
+   "postedAt": "2026-10-06",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "We use Python, TypeScript, PostgreSQL, Node.js, Docker and Kubernetes for our microservices, TypeScript and React in the frontend of our products. | Total Rewards: Benefit from equity options, performance-based rewards, competitive compensation, and ample career development opportunities. | Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
+   "remoteProof": "Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
    "id": "personio:zvoove:2825784",
    "company": "zvoove",
    "title": "(Senior) Software Engineer (m/f/d) - AI-First Development",
@@ -3956,6 +3040,29 @@
    "match": "title; DE+remote-in-text",
    "facts": "As renewable energy reshapes the global power system, batteries are taking center stage. | Deliver your best work with options to work remotely, onsite or hybrid.",
    "remoteProof": "Deliver your best work with options to work remotely, onsite or hybrid.",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
+   "id": "greenhouse:smartlyio:6218155004",
+   "company": "Smartly.io",
+   "title": "Senior Software Engineer - AI Platform",
+   "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6218155004",
+   "location": "Helsinki, Uusimaa, Finland / Berlin",
+   "remote": null,
+   "postedAt": "2026-10-06",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "We use Python, TypeScript, PostgreSQL, Node.js, Docker and Kubernetes for our microservices, TypeScript and React in the frontend of our products. | Total Rewards: Benefit from equity options, performance-based rewards, competitive compensation, and ample career development opportunities. | Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
+   "remoteProof": "Hybrid Workplace: Experience the flexibility of a hybrid work model, balancing office and remote work, with the option to work abroad for up to 30 days. | #LI-hybrid About Smartly Smartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers.",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -4139,25 +3246,26 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/sporty-group/jobs/frontend-engineering-team-lead-martech",
-   "company": "Sporty Group",
-   "title": "Frontend Engineering Team Lead - MarTech",
-   "url": "https://himalayas.app/companies/sporty-group/jobs/frontend-engineering-team-lead-martech?utm_source=api",
-   "location": "Worldwide",
+   "id": "recruitee:epilot:1486625",
+   "company": "epilot",
+   "title": "Senior/Staff Product Engineer (Full Stack) (m/f/d)",
+   "url": "https://epilot.recruitee.com/o/senior-product-engineer-fullstack",
+   "location": "Remote job / Köln / Germany",
    "remote": true,
-   "postedAt": "2026-10-29",
+   "postedAt": "",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "fulltime",
    "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
+   "source": "recruitee",
+   "ats": "recruitee",
    "stackHits": [
+    "react",
     "typescript"
    ],
-   "match": "title; remote",
-   "facts": "What you'll bring 8+ years of software development experience with a primary focus on Frontend technologies. | 2+ years of experience in a formal leadership or line management role (mentoring, performance evaluations, work allocation). | Strong technical mastery of JavaScript/TypeScript (ES6+), CSS preprocessors (Less/Sass), Webpack, and Git.",
-   "remoteProof": "",
+   "match": "title; NRW",
+   "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
+   "remoteProof": "Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
@@ -4181,29 +3289,6 @@
    "match": "title; remote",
    "facts": "React, TypeScript, and modern HTML/CSS.",
    "remoteProof": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "recruitee:epilot:1486625",
-   "company": "epilot",
-   "title": "Senior/Staff Product Engineer (Full Stack) (m/f/d)",
-   "url": "https://epilot.recruitee.com/o/senior-product-engineer-fullstack",
-   "location": "Remote job / Köln / Germany",
-   "remote": true,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime",
-   "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "You’ll play an integral role in building our cutting-edge platform using technologies like TypeScript , React , Svelte , and serverless AWS microservices . | Technical Expertise : Hands-on experience with React or other JavaScript frameworks. | Entrepreneurial Spirit : You think like a business owner, understanding how your work impacts our goals. | Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours. | Competitive Compensation : We take your desired salary seriously and value performance.",
-   "remoteProof": "Flexibility : Work remotely or from our centrally located office in Cologne, with flexible working hours.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
