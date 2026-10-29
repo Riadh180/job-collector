@@ -7,13 +7,13 @@
    "fetched": 298
   },
   "arbeitnow": {
-   "fetched": 3331
+   "fetched": 3333
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 444
+   "fetched": 447
   },
   "remoteok": {
    "fetched": 99
@@ -22,13 +22,13 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 90
+   "fetched": 88
   },
   "hn": {
    "fetched": 301
   },
   "workingnomads": {
-   "fetched": 41
+   "fetched": 38
   },
   "germantechjobs": {
    "fetched": 644
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1441,
-   "failed": 14
+   "checked": 1452,
+   "failed": 16
   }
  },
  "errors": {
@@ -53,13 +53,15 @@
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429"
+   "Seeq": "HTTP 429",
+   "Imtf": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -126,46 +128,48 @@
   "calls": 39
  },
  "probe": {
-  "tried": 114,
+  "tried": 65,
   "found": [
-   "Company (ashby:company)",
-   "Betr (lever:betr)",
-   "AiFi (lever:aifi)",
-   "BrightBee (lever:brightbee)",
-   "Airwallex (ashby:airwallex)",
-   "ShyftLabs (lever:shyftlabs)",
-   "TMS, LLC (personio:tmsgmbh)",
-   "Welo Global (lever:weloglobal)",
-   "ASSYSTEM (smartrecruiters:assystem)",
-   "Enveritas (greenhouse:enveritas)"
+   "Gitty (smartrecruiters:gitty)",
+   "Spreetail Inc. (lever:spreetail)",
+   "Imtf (workable:imtf)",
+   "Makersite GmbH (recruitee:makersitegmbh)",
+   "Harbor (ashby:harbor)",
+   "SwingDev (lever:swingdev)",
+   "WISE INTEGRATION (lever:wise-integration)",
+   "Cologix, Inc. (lever:cologix)",
+   "LGC Group (smartrecruiters:lgcgroup)",
+   "Weekday (recruitee:weekday)",
+   "SemiDot Infotech (smartrecruiters:semidotinfotech)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-29T16:40:26+00:00",
- "rawJobs": 75104,
- "matches": 154,
- "new": 1,
- "companies": 1513,
- "activeCompanies": 1441,
+ "collectedAt": "2026-10-29T20:03:35+00:00",
+ "rawJobs": 75171,
+ "matches": 163,
+ "new": 8,
+ "companies": 1524,
+ "activeCompanies": 1452,
  "funnel": {
-  "title": 72247,
-  "passed": 253,
-  "too_old": 149,
-  "location": 2410,
+  "title": 72304,
+  "passed": 260,
+  "too_old": 150,
+  "location": 2412,
   "company": 22,
-  "duplicate": 99,
+  "duplicate": 97,
   "employment": 13,
   "salary": 3
  },
  "matchesBySource": {
-  "greenhouse": 14,
-  "arbeitnow": 6,
+  "arbeitnow": 10,
+  "himalayas": 2,
+  "greenhouse": 15,
+  "ashby": 56,
   "jobicy": 11,
-  "weworkremotely": 8,
-  "ashby": 53,
+  "weworkremotely": 7,
   "jooble": 2,
   "arbeitsagentur": 20,
   "personio": 15,
