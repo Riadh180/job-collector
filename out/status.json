@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 773
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 296
+   "fetched": 298
   },
   "arbeitnow": {
-   "fetched": 4649
+   "fetched": 4586
   },
   "remotive": {
-   "fetched": 88
+   "fetched": 96
   },
   "jobicy": {
-   "fetched": 402
+   "fetched": 435
   },
   "remoteok": {
    "fetched": 99
@@ -22,39 +22,53 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 94
+   "fetched": 90
   },
   "hn": {
-   "fetched": 302
+   "fetched": 301
   },
   "workingnomads": {
    "fetched": 41
   },
   "germantechjobs": {
-   "fetched": 682
+   "fetched": 662
   },
   "jooble": {
-   "fetched": 259
+   "fetched": 258
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1409,
-   "failed": 1
+   "checked": 1431,
+   "failed": 15
   }
  },
  "errors": {
   "companies": {
-   "Optios": "HTTP 404"
+   "Optios": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
-  "callsToday": 65,
-  "callsLast7Days": 835
+  "callsToday": 0,
+  "callsLast7Days": 700
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -98,12 +112,12 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=313, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=312, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 296,
+  "jobs": 298,
   "details": {
    "tried": 109,
    "ok": 109
@@ -113,60 +127,64 @@
   "calls": 39
  },
  "probe": {
-  "tried": 88,
+  "tried": 75,
   "found": [
-   "Tango (ashby:tango)",
-   "Seeq (workable:seeq)",
-   "Thimble (lever:thimble)",
-   "QPLIX (personio:qplix)",
-   "Schlafender Hase GmbH (personio:schlafender-hase-gmbh)",
-   "WPP Media (greenhouse:wppmedia)",
-   "engelhart (greenhouse:engelhart)",
-   "Sphere (ashby:sphere)",
-   "Codat (ashby:codat)",
-   "Almetra (ashby:almetra)",
-   "Lupa Pets (ashby:lupapets)",
-   "Palantir (lever:palantir)",
-   "Shieldai (ashby:shieldai)",
-   "Cagents (lever:cagents)",
-   "Justdice (ashby:justdice)",
-   "CoreView (greenhouse:coreview)",
-   "EcoVadis (smartrecruiters:ecovadis)",
-   "MonetizeNow (smartrecruiters:monetizenow)",
-   "EWOR GmbH (lever:ewor)"
+   "Edri (personio:edri)",
+   "Workwize (greenhouse:workwize)",
+   "Mayflower (recruitee:mayflower)",
+   "Enjoy Gaming LLC (recruitee:enjoygaming)",
+   "Miaplaza (recruitee:miaplaza)",
+   "RainFocus (lever:rainfocus)",
+   "Great Question (ashby:greatquestion)",
+   "Europ Assistance Services GmbH (personio:europ-assistance-services-gmbh)",
+   "High Tech Genesis (recruitee:hightechgenesis)",
+   "Red Sky (recruitee:redsky)",
+   "bunch (ashby:bunch)",
+   "Gematik (personio:gematik)",
+   "Htgf (personio:htgf)",
+   "coeo Group (personio:coeo-group-gmbh)",
+   "Imagine Worldwide (greenhouse:imagineworldwide)",
+   "Trafilea (recruitee:trafilea)",
+   "Major League Hacking (recruitee:majorleaguehacking)",
+   "SeQura (recruitee:sequra)",
+   "Yopeso (recruitee:yopeso)",
+   "ZIGChain (recruitee:zigchain)",
+   "Nansen (ashby:nansen)",
+   "SWAN (ashby:swan)",
+   "epilot GmbH (recruitee:epilot)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 187
+  "tried": 3,
+  "ok": 0
  },
- "collectedAt": "2026-10-28T20:34:35+00:00",
- "rawJobs": 76227,
- "matches": 234,
- "new": 8,
- "companies": 1481,
- "activeCompanies": 1409,
+ "collectedAt": "2026-10-29T11:13:51+00:00",
+ "rawJobs": 74464,
+ "matches": 195,
+ "new": 21,
+ "companies": 1503,
+ "activeCompanies": 1431,
  "funnel": {
-  "title": 73155,
-  "passed": 426,
-  "duplicate": 192,
-  "company": 61,
-  "location": 2408,
-  "salary": 8,
+  "title": 71590,
+  "passed": 298,
   "too_old": 149,
-  "employment": 13
+  "location": 2372,
+  "company": 22,
+  "duplicate": 103,
+  "employment": 22,
+  "salary": 4
  },
  "matchesBySource": {
-  "adzuna": 86,
+  "arbeitnow": 16,
+  "jobicy": 11,
+  "himalayas": 31,
+  "weworkremotely": 8,
+  "ashby": 53,
   "jooble": 2,
-  "ashby": 51,
   "greenhouse": 13,
-  "arbeitnow": 9,
-  "arbeitsagentur": 19,
-  "jobicy": 10,
+  "arbeitsagentur": 21,
+  "personio": 15,
   "recruitee": 16,
-  "weworkremotely": 7,
-  "personio": 12,
   "germantechjobs": 2,
   "smartrecruiters": 2,
   "hn": 5
