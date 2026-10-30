@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 710
+   "fetched": 387
   },
   "arbeitsagentur": {
-   "fetched": 306
+   "fetched": 308
   },
   "arbeitnow": {
-   "fetched": 3387
+   "fetched": 3385
   },
   "remotive": {
    "fetched": 96
@@ -31,7 +31,7 @@
    "fetched": 38
   },
   "germantechjobs": {
-   "fetched": 636
+   "fetched": 648
   },
   "jooble": {
    "fetched": 260
@@ -41,32 +41,17 @@
   },
   "companies": {
    "checked": 1412,
-   "failed": 14
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Optios": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Imtf": "HTTP 429"
+   "Optios": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 20,
-  "searchesThisRun": 11,
+  "searchesThisRun": 7,
   "searchesTotal": 51,
   "callsToday": 20,
   "callsLast7Days": 540
@@ -113,12 +98,12 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=312, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=314, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 306,
+  "jobs": 308,
   "details": {
    "tried": 109,
    "ok": 109
@@ -131,13 +116,13 @@
   "tried": 65,
   "found": [
    "Edri (personio:edri)",
+   "Seeq (workable:seeq)",
    "Yassir (smartrecruiters:yassir)",
    "Refold AI (ashby:refoldai)",
-   "Mawave Marketing GmbH (personio:mawave-marketing-gmbh)",
    "Schlafender Hase GmbH (personio:schlafender-hase-gmbh)",
-   "QPLIX (personio:qplix)",
-   "GFOS (personio:gfos)",
    "WPP Media (greenhouse:wppmedia)",
+   "Mawave Marketing GmbH (personio:mawave-marketing-gmbh)",
+   "GFOS (personio:gfos)",
    "Airwallex (ashby:airwallex)",
    "bunch (ashby:bunch)",
    "Europ Assistance Services GmbH (personio:europ-assistance-services-gmbh)",
@@ -155,38 +140,38 @@
   ]
  },
  "adzuna_pages": {
-  "tried": 181,
-  "ok": 171
+  "tried": 66,
+  "ok": 60
  },
- "collectedAt": "2026-10-30T08:58:48+00:00",
- "rawJobs": 74303,
- "matches": 223,
- "new": 35,
+ "collectedAt": "2026-10-30T10:01:07+00:00",
+ "rawJobs": 74833,
+ "matches": 186,
+ "new": 30,
  "companies": 1484,
  "activeCompanies": 1412,
  "funnel": {
-  "title": 71390,
-  "passed": 330,
-  "duplicate": 107,
-  "company": 55,
-  "location": 2348,
-  "salary": 9,
+  "title": 72020,
+  "passed": 231,
+  "company": 35,
+  "salary": 5,
+  "location": 2371,
+  "duplicate": 45,
   "too_old": 151,
   "employment": 13
  },
  "matchesBySource": {
-  "adzuna": 75,
-  "arbeitnow": 8,
+  "adzuna": 36,
+  "arbeitnow": 6,
   "himalayas": 5,
   "weworkremotely": 7,
   "jooble": 2,
-  "ashby": 57,
+  "ashby": 58,
   "greenhouse": 15,
   "arbeitsagentur": 18,
   "recruitee": 16,
-  "personio": 12,
+  "personio": 14,
   "germantechjobs": 2,
-  "smartrecruiters": 1,
+  "smartrecruiters": 2,
   "hn": 5
  }
 }

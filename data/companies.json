@@ -10363,9 +10363,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Voyant Photonics",
@@ -10511,8 +10509,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-27",
-  "failCount": 2
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Getolo",
@@ -10520,8 +10517,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-27",
-  "failCount": 2
+  "lastOk": "2026-10-30"
  },
  {
   "name": "EverAI",
@@ -10873,9 +10869,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "TrustEngine",
@@ -10883,8 +10877,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-27",
-  "failCount": 4
+  "lastOk": "2026-10-30"
  },
  {
   "name": "HireHawk",
@@ -10892,8 +10885,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-28",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "DigitalService",
@@ -10933,9 +10925,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Thorlabs",
@@ -10943,9 +10933,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "1Password",
@@ -11257,9 +11245,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Lamdax",
@@ -11267,9 +11253,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Leadway Pensure",
@@ -11527,9 +11511,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-26",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Intuitive",
@@ -11633,8 +11615,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "failCount": 5,
-  "disabled": true
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Distru",
@@ -11786,7 +11767,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "failCount": 3
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Wunder Mobility",
@@ -11901,6 +11882,14 @@
   "lastOk": "2026-10-30"
  },
  {
+  "name": "Seeq",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "seeq",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
   "name": "Yassir",
   "industry": "from job boards",
   "ats": "smartrecruiters",
@@ -11917,14 +11906,6 @@
   "lastOk": "2026-10-30"
  },
  {
-  "name": "Mawave Marketing GmbH",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "mawave-marketing-gmbh",
-  "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-10-30"
- },
- {
   "name": "Schlafender Hase GmbH",
   "industry": "from job boards",
   "ats": "personio",
@@ -11933,10 +11914,18 @@
   "lastOk": "2026-10-30"
  },
  {
-  "name": "QPLIX",
+  "name": "WPP Media",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "wppmedia",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Mawave Marketing GmbH",
   "industry": "from job boards",
   "ats": "personio",
-  "slug": "qplix",
+  "slug": "mawave-marketing-gmbh",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-10-30"
  },
@@ -11945,14 +11934,6 @@
   "industry": "from job boards",
   "ats": "personio",
   "slug": "gfos",
-  "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-10-30"
- },
- {
-  "name": "WPP Media",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "wppmedia",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-10-30"
  },
