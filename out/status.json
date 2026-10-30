@@ -4,10 +4,10 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 308
+   "fetched": 310
   },
   "arbeitnow": {
-   "fetched": 3680
+   "fetched": 4316
   },
   "remotive": {
    "fetched": 96
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 85
+   "fetched": 86
   },
   "hn": {
    "fetched": 301
@@ -31,22 +31,37 @@
    "fetched": 38
   },
   "germantechjobs": {
-   "fetched": 648
+   "fetched": 615
   },
   "jooble": {
-   "fetched": 260
+   "fetched": 264
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1419,
-   "failed": 1
+   "checked": 1425,
+   "failed": 16
   }
  },
  "errors": {
   "companies": {
-   "Optios": "HTTP 404"
+   "Valtech": "HTTP 404",
+   "Optios": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -102,7 +117,7 @@
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 308,
+  "jobs": 310,
   "details": {
    "tried": 109,
    "ok": 109
@@ -112,46 +127,45 @@
   "calls": 39
  },
  "probe": {
-  "tried": 84,
+  "tried": 70,
   "found": [
-   "Great Question (ashby:greatquestion)",
-   "Knuddels (recruitee:knuddels)",
-   "MinIO (greenhouse:minio)",
-   "CDNetworks (smartrecruiters:cdnetworks)",
-   "Raya (lever:raya)",
-   "Casebook PBC (smartrecruiters:casebookpbc)",
-   ".change GmbH (ashby:change)"
+   "Havenpark Communities (lever:havenparkcommunities)",
+   "Reonic (ashby:reonic)",
+   "Kickdown GmbH (personio:kickdown)",
+   "Snapp (recruitee:snapp)",
+   "PR Volt (smartrecruiters:prvolt)",
+   "WorkWave (lever:workwave)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-30T11:08:14+00:00",
- "rawJobs": 74782,
- "matches": 154,
- "new": 1,
- "companies": 1491,
- "activeCompanies": 1419,
+ "collectedAt": "2026-10-30T16:33:38+00:00",
+ "rawJobs": 74521,
+ "matches": 166,
+ "new": 6,
+ "companies": 1497,
+ "activeCompanies": 1425,
  "funnel": {
-  "title": 72048,
-  "passed": 182,
-  "too_old": 151,
-  "location": 2355,
+  "title": 71807,
+  "passed": 197,
+  "too_old": 152,
+  "location": 2320,
   "company": 22,
-  "duplicate": 28,
-  "employment": 14,
-  "salary": 3
+  "duplicate": 31,
+  "employment": 12,
+  "salary": 4
  },
  "matchesBySource": {
-  "arbeitnow": 9,
+  "arbeitnow": 20,
+  "personio": 16,
+  "ashby": 62,
   "himalayas": 1,
   "weworkremotely": 7,
   "jooble": 2,
-  "ashby": 60,
-  "greenhouse": 15,
+  "greenhouse": 13,
   "arbeitsagentur": 20,
-  "personio": 15,
   "recruitee": 16,
   "germantechjobs": 2,
   "smartrecruiters": 2,
