@@ -2310,7 +2310,7 @@
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-30",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Deutsche Glasfaser",
@@ -4542,7 +4542,7 @@
   "slug": "valtech",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Experian",
@@ -10366,7 +10366,8 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Voyant Photonics",
@@ -10512,7 +10513,8 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Getolo",
@@ -10872,7 +10874,8 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "TrustEngine",
@@ -10880,7 +10883,8 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "HireHawk",
@@ -10888,7 +10892,8 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "DigitalService",
@@ -10928,7 +10933,8 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Thorlabs",
@@ -10936,7 +10942,8 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "1Password",
@@ -11248,7 +11255,8 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Lamdax",
@@ -11256,7 +11264,8 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Leadway Pensure",
@@ -11514,7 +11523,8 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Intuitive",
@@ -11618,7 +11628,8 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Distru",
@@ -11770,7 +11781,8 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Wunder Mobility",
@@ -11890,7 +11902,8 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Yassir",
@@ -12209,6 +12222,70 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "deutschetelekomitsolutionsslovakia",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "AssistIQ",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "assistiq",
+  "addedBy": "probe 2026-10-30",
+  "failCount": 1
+ },
+ {
+  "name": "intent",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "intent",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "coeo Group",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "coeo-group-gmbh",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Arcadia",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "arcadia",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Arize AI",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "arizeai",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Miaplaza",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "miaplaza",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Calabrio",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "calabrio",
+  "addedBy": "probe 2026-10-30",
+  "failCount": 1
+ },
+ {
+  "name": "Casa",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "casa",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-10-30"
  }

@@ -7,13 +7,13 @@
    "fetched": 310
   },
   "arbeitnow": {
-   "fetched": 3383
+   "fetched": 3373
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 28
+   "fetched": 27
   },
   "remoteok": {
    "fetched": 99
@@ -40,15 +40,29 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1432,
-   "failed": 3
+   "checked": 1439,
+   "failed": 17
   }
  },
  "errors": {
   "companies": {
    "WeMatch.": "HTTP 404",
    "Valtech": "HTTP 404",
-   "Optios": "HTTP 404"
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "AssistIQ": "HTTP 429",
+   "Calabrio": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -114,43 +128,42 @@
   "calls": 39
  },
  "probe": {
-  "tried": 46,
+  "tried": 50,
   "found": [
-   "Capco (greenhouse:capco)",
-   "OpenX (lever:openx)",
-   "Veramed (greenhouse:veramed)",
-   "ShopFully (greenhouse:shopfully)",
-   "Alter Solutions (smartrecruiters:altersolutions)",
-   "PolicyMe (lever:policyme)",
-   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)"
+   "AssistIQ (workable:assistiq)",
+   "intent (recruitee:intent)",
+   "coeo Group (personio:coeo-group-gmbh)",
+   "Arcadia (lever:arcadia)",
+   "Arize AI (greenhouse:arizeai)",
+   "Miaplaza (recruitee:miaplaza)",
+   "Calabrio (workable:calabrio)",
+   "Casa (ashby:casa)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-30T18:35:57+00:00",
- "rawJobs": 75524,
- "matches": 162,
- "new": 1,
- "companies": 1504,
- "activeCompanies": 1432,
+ "collectedAt": "2026-10-30T19:51:05+00:00",
+ "rawJobs": 74756,
+ "matches": 161,
+ "new": 0,
+ "companies": 1512,
+ "activeCompanies": 1439,
  "funnel": {
-  "title": 72768,
-  "passed": 197,
+  "title": 72023,
+  "passed": 191,
   "too_old": 153,
-  "location": 2362,
+  "location": 2345,
   "company": 22,
-  "duplicate": 35,
+  "duplicate": 30,
   "employment": 11,
   "salary": 4
  },
  "matchesBySource": {
-  "workable": 1,
   "arbeitnow": 14,
   "personio": 16,
   "ashby": 62,
-  "himalayas": 2,
   "weworkremotely": 7,
   "jooble": 2,
   "greenhouse": 13,
@@ -158,6 +171,7 @@
   "recruitee": 16,
   "germantechjobs": 2,
   "smartrecruiters": 2,
+  "himalayas": 2,
   "hn": 5
  }
 }
