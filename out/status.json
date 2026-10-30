@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 387
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 308
   },
   "arbeitnow": {
-   "fetched": 3385
+   "fetched": 3680
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 27
+   "fetched": 28
   },
   "remoteok": {
    "fetched": 99
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1412,
+   "checked": 1419,
    "failed": 1
   }
  },
@@ -50,8 +50,8 @@
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 20,
-  "searchesThisRun": 7,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 20,
   "callsLast7Days": 540
@@ -61,23 +61,22 @@
    "aenderungsdatum",
    "alleBerufe.0",
    "arbeitgeberKundennummerHash",
+   "arbeitszeitSchichtNachtWochenende",
+   "arbeitszeitTeilzeitAbend",
+   "arbeitszeitTeilzeitFlexibel",
+   "arbeitszeitTeilzeitNachmittag",
+   "arbeitszeitTeilzeitVormittag",
    "arbeitszeitVollzeit",
-   "artDerVerguetung",
    "datumErsteVeroeffentlichung",
    "eintrittszeitraum.von",
    "firma",
-   "gehaltsspanneBis",
-   "gehaltsspanneVon",
    "hauptberuf",
    "referenznummer",
    "stellenangebotsTitel",
    "stellenangebotsart",
-   "stellenlokationen.0.adresse.hausnummer",
    "stellenlokationen.0.adresse.land",
    "stellenlokationen.0.adresse.ort",
-   "stellenlokationen.0.adresse.plz",
    "stellenlokationen.0.adresse.region",
-   "stellenlokationen.0.adresse.strasse",
    "stellenlokationen.0.breite",
    "stellenlokationen.0.laenge",
    "verguetungsangabe",
@@ -85,20 +84,20 @@
    "vertragsdauer"
   ],
   "parsed": {
-   "ref": "10001-1003921312-S",
-   "title": "React Native Engineer (m/f/d)",
+   "ref": "10001-1003939909-S",
+   "title": "Junior Softwareentwickler React / JavaScript (m/w/d)",
    "beruf": "",
-   "employer": "go-e Labs GmbH",
-   "city": "Berlin",
-   "region": "BERLIN",
-   "date": "2026-10-27",
+   "employer": "ISR Information Products AG",
+   "city": "Münster, Westfalen",
+   "region": "NORDRHEIN_WESTFALEN",
+   "date": "2026-10-30",
    "url": "",
-   "lat": "52.528725",
-   "lon": "13.337352"
+   "lat": "51.9513111",
+   "lon": "7.6234927"
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=314, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=316, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -113,63 +112,47 @@
   "calls": 39
  },
  "probe": {
-  "tried": 65,
+  "tried": 84,
   "found": [
-   "Edri (personio:edri)",
-   "Seeq (workable:seeq)",
-   "Yassir (smartrecruiters:yassir)",
-   "Refold AI (ashby:refoldai)",
-   "Schlafender Hase GmbH (personio:schlafender-hase-gmbh)",
-   "WPP Media (greenhouse:wppmedia)",
-   "Mawave Marketing GmbH (personio:mawave-marketing-gmbh)",
-   "GFOS (personio:gfos)",
-   "Airwallex (ashby:airwallex)",
-   "bunch (ashby:bunch)",
-   "Europ Assistance Services GmbH (personio:europ-assistance-services-gmbh)",
-   "Gematik (personio:gematik)",
-   "Htgf (personio:htgf)",
-   "engelhart (greenhouse:engelhart)",
-   "Sphere (ashby:sphere)",
-   "Codat (ashby:codat)",
-   "Almetra (ashby:almetra)",
-   "Lupa Pets (ashby:lupapets)",
-   "Palantir (lever:palantir)",
-   "Shieldai (ashby:shieldai)",
-   "Cagents (lever:cagents)",
-   "Justdice (ashby:justdice)"
+   "Great Question (ashby:greatquestion)",
+   "Knuddels (recruitee:knuddels)",
+   "MinIO (greenhouse:minio)",
+   "CDNetworks (smartrecruiters:cdnetworks)",
+   "Raya (lever:raya)",
+   "Casebook PBC (smartrecruiters:casebookpbc)",
+   ".change GmbH (ashby:change)"
   ]
  },
  "adzuna_pages": {
-  "tried": 66,
-  "ok": 60
+  "tried": 3,
+  "ok": 0
  },
- "collectedAt": "2026-10-30T10:01:07+00:00",
- "rawJobs": 74833,
- "matches": 186,
- "new": 30,
- "companies": 1484,
- "activeCompanies": 1412,
+ "collectedAt": "2026-10-30T11:08:14+00:00",
+ "rawJobs": 74782,
+ "matches": 154,
+ "new": 1,
+ "companies": 1491,
+ "activeCompanies": 1419,
  "funnel": {
-  "title": 72020,
-  "passed": 231,
-  "company": 35,
-  "salary": 5,
-  "location": 2371,
-  "duplicate": 45,
+  "title": 72048,
+  "passed": 182,
   "too_old": 151,
-  "employment": 13
+  "location": 2355,
+  "company": 22,
+  "duplicate": 28,
+  "employment": 14,
+  "salary": 3
  },
  "matchesBySource": {
-  "adzuna": 36,
-  "arbeitnow": 6,
-  "himalayas": 5,
+  "arbeitnow": 9,
+  "himalayas": 1,
   "weworkremotely": 7,
   "jooble": 2,
-  "ashby": 58,
+  "ashby": 60,
   "greenhouse": 15,
-  "arbeitsagentur": 18,
+  "arbeitsagentur": 20,
+  "personio": 15,
   "recruitee": 16,
-  "personio": 14,
   "germantechjobs": 2,
   "smartrecruiters": 2,
   "hn": 5
