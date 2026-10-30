@@ -1,7 +1,30 @@
 {
- "collectedAt": "2026-10-30T16:33:38+00:00",
- "count": 166,
+ "collectedAt": "2026-10-30T18:35:57+00:00",
+ "count": 162,
  "jobs": [
+  {
+   "id": "workable:cara-care:561F4B2DC6",
+   "company": "Cara Care",
+   "title": "(Senior) React Native Engineer (m/f/x) - Based in Germany",
+   "url": "https://apply.workable.com/j/561F4B2DC6",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-30",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time",
+   "industry": "health",
+   "source": "workable",
+   "ats": "workable",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "As we expand our product portfolio and modernize our platform, we’re looking for a versatile, pragmatic, and forward-thinking (Senior) React Native Engineer (m/f/x) to help shape the future of digital therapeutics. | Your Responsibilities Design, build, and ship high-quality React Native apps for iOS and Android with TypeScript . | Requirements Your Profile 5+ years of professional software engineering experience, with at least 3 years focused on React Native and shipping production apps. | Expert with React Native and TypeScript, React Navigation, state management, and testing (Jest, React Native Testing Library; Detox a plus). | Proven track record delivering to App Store and Google Play, ",
+   "remoteProof": "Bonus : experience in regulated industries, healthcare, or other security-conscious environments; native iOS/Android development (Swift/Kotlin) 💡 Please note : Cara Care is a remote-first company with a fully distributed team. | 👨‍💻 Remote-first working: Prefer working from home? | Want to join us at our Berlin office? | Our remote-first approach gives you the flexibility to work where it suits you best.",
+   "firstSeen": "2026-10-30T18:35:57+00:00"
+  },
   {
    "id": "arbeitnow:senior-full-stack-developer-schwerpunkt-typescript-saas-plattform-berlin-229612",
    "company": "IT Studio Rech GmbH",
@@ -316,7 +339,7 @@
    "id": "jooble:4099517956178006872",
    "company": "20four7va",
    "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=22&groupId=-675061143&elckey=8544880162767337103&p=2&aq=5612746726038381584&cid=22409&jobAge=58&brelb=10&bscr=8.859201&scr=8.859201",
+   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=22&groupId=-675061143&elckey=5512500681537075961&p=2&aq=4826513368085489722&cid=22409&jobAge=60&brelb=10&bscr=8.862562&scr=8.862562",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
@@ -363,7 +386,7 @@
    "company": "Deliveroo",
    "title": "Senior Software Engineer (Fullstack) - Merchant EMEA",
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8236503",
-   "location": "London, England / Berlin, Germany / Helsinki, Finland",
+   "location": "London, England / Berlin, Germany",
    "remote": null,
    "postedAt": "2026-09-28",
    "salary": "",
@@ -609,30 +632,6 @@
    "firstSeen": "2026-10-27T15:18:07+00:00"
   },
   {
-   "id": "arbeitnow:full-stack-developer-react-nextjs-tailwind-postgresql-supabase-all-genders-munich-459347",
-   "company": "ECENT GmbH",
-   "title": "Full-Stack Developer | React/Nextjs, Tailwind, PostgreSQL/Supabase! (all genders)",
-   "url": "https://www.arbeitnow.com/jobs/companies/ecent-gmbh/full-stack-developer-react-nextjs-tailwind-postgresql-supabase-all-genders-munich-459347",
-   "location": "Munich",
-   "remote": false,
-   "postedAt": "2026-10-24",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "Wir arbeiten flexibel, aber persönlich: Für diese Rolle ist es uns wichtig, dass du regelmäßig in unser Büro in der Maxvorstadt kommen kannst (Remote Work ist teilweise natürlich möglich). | Unser Versprechen: Du bekommst innerhalb von 2 Tagen eine Antwort. | Kilian und Tanina Find more English Speaking Jobs in Germany on Arbeitnow",
-   "remoteProof": "Wir arbeiten flexibel, aber persönlich: Für diese Rolle ist es uns wichtig, dass du regelmäßig in unser Büro in der Maxvorstadt kommen kannst (Remote Work ist teilweise natürlich möglich).",
-   "firstSeen": "2026-10-27T15:18:07+00:00"
-  },
-  {
    "id": "personio:casavi:2862478",
    "company": "Casavi",
    "title": "Senior Full-Stack Engineer (TypeScript) (m/f/d)",
@@ -842,7 +841,7 @@
    "id": "jooble:-6320563847304922999",
    "company": "homie AI",
    "title": "Full Stack Developer (AI SaaS)",
-   "url": "https://jooble.org/desc/-6320563847304922999?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=514&brelb=100&bscr=129.13074&scr=129.13074",
+   "url": "https://jooble.org/desc/-6320563847304922999?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=516&brelb=100&bscr=130.23772&scr=130.23772",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-09",
@@ -1067,28 +1066,6 @@
    "firstSeen": "2026-10-24T16:46:21+00:00"
   },
   {
-   "id": "arbeitnow:remote-senior-product-engineer-499608",
-   "company": "prolific",
-   "title": "Senior Product Engineer",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/prolific/remote-senior-product-engineer-499608",
-   "location": "Remote",
-   "remote": true,
-   "postedAt": "2026-10-24",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-24T09:15:00+00:00"
-  },
-  {
    "id": "germantechjobs:6a7b8d40225a25660fac6cf3-W44",
    "company": "KI Group",
    "title": "(Senior) LLM Application Engineer (m/w/d) – pricenxt",
@@ -1130,28 +1107,6 @@
    "facts": "We are looking for mission-driven people to join our European teams – and apply their skills to solve the most complex and impactful problems.",
    "remoteProof": "",
    "firstSeen": "2026-10-23T18:52:55+00:00"
-  },
-  {
-   "id": "arbeitnow:lead-frontend-fullstack-engineer-berlin-131896",
-   "company": "Protofy GmbH & Co. KG",
-   "title": "Lead Fullstack Engineer",
-   "url": "https://www.arbeitnow.com/jobs/companies/protofy-gmbh-co-kg/lead-frontend-fullstack-engineer-berlin-131896",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag teamleitung",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react"
-   ],
-   "match": "title; remote",
-   "facts": "Du bringst fundierte Erfahrung mit React sowie in Node.js, Flutter oder Kotlin mit und hast ein sehr gutes Verständnis von Architektur. | Das bieten wir dir Dich erwartet ein unbefristeter Arbeitsvertrag bei einer wöchentlichen Arbeitszeit von 40 Stunden und einer Probezeit von 6 Monaten sowie 29 Urlaubstagen im Jahr. | Wir unterstützen deine berufliche Bildung und bieten dir flexible Arbeitszeiten sowie die Möglichkeit zum vollständigen Remote-Arbeiten oder im Homeoffice, wofür wir dir eine passende Home-Office-Ausstattung und einen Firmenlaptop zur Verfügung stellen. | Vor Ort oder remote erwarten dich zudem kostenlose Getränke, kostenlose Snacks, eine lockere Kleiderordnung und die Möglic",
-   "remoteProof": "Wir unterstützen deine berufliche Bildung und bieten dir flexible Arbeitszeiten sowie die Möglichkeit zum vollständigen Remote-Arbeiten oder im Homeoffice, wofür wir dir eine passende Home-Office-Ausstattung und einen Firmenlaptop zur Verfügung stellen. | Vor Ort oder remote erwarten dich zudem kostenlose Getränke, kostenlose Snacks, eine lockere Kleiderordnung und die Möglichkeit, Haustiere mitzubringen.",
-   "firstSeen": "2026-10-23T14:42:17+00:00"
   },
   {
    "id": "ashby:enpal:a30fc82d-a5ba-4cac-8cf3-914ebfb33e87",
@@ -1905,6 +1860,29 @@
    "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
+   "id": "himalayas:https://himalayas.app/companies/ticket-io/jobs/senior-fullstack-entwickler-m-w-d-node-js-6936827349",
+   "company": "ticket i/O",
+   "title": "(Senior) Fullstack Entwickler (m/w/d) Node.js",
+   "url": "https://himalayas.app/companies/ticket-io/jobs/senior-fullstack-entwickler-m-w-d-node-js-6936827349?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-10-30",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "TypeScript (nodeJS) ist dabei unsere Programmiersprache der Wahl, als Framework vertrauen wir auf die Vorzüge von nestJS im Backend, sowie ReactJS im Frontend. | und nutzt GIT um mit deinem Team im sync zu bleiben Du bist wissbegierig und hast keine Scheu, neue Programmiersprachen, Technologien und Methoden kennen zu lernen Du sprichst fließend Englisch und gutes Deutsch (mind. | Lebenslauf, Link zu deinem Github-Account, Gehaltsvorstellung und möglichem Startdatum z.",
+   "remoteProof": "",
+   "firstSeen": "2026-10-16T05:03:58+00:00"
+  },
+  {
    "id": "greenhouse:alpaca:6226254004",
    "company": "Alpaca",
    "title": "Senior Fullstack Engineer- Auth Team",
@@ -1948,29 +1926,6 @@
    "facts": "Requirements 7+ years of experience designing and shipping complex digital products, ideally within fintech, crypto, or consumer finance. | Familiarity with front-end technologies such as HTML, CSS, React, or design-to-code workflows. | Experience establishing or scaling a design system in an early-stage product.",
    "remoteProof": "Experience establishing or scaling a design system in an early-stage product.",
    "firstSeen": "2026-10-16T05:03:58+00:00"
-  },
-  {
-   "id": "arbeitnow:senior-product-engineer-bielefeld-429098",
-   "company": "sustaind GmbH",
-   "title": "(Senior) Product Engineer",
-   "url": "https://www.arbeitnow.com/jobs/companies/sustaind-gmbh/senior-product-engineer-bielefeld-429098",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-15T22:59:10+00:00"
   },
   {
    "id": "ashby:melotech:a7d99ee2-75fe-4a12-8f6c-1ecedaa68a3e",
@@ -2499,29 +2454,6 @@
    "firstSeen": "2026-10-08T17:14:10+00:00"
   },
   {
-   "id": "arbeitnow:senior-frontend-developer-bonn-45153",
-   "company": "Haeger Consulting GmbH",
-   "title": "Senior Frontend Developer*",
-   "url": "https://www.arbeitnow.com/jobs/companies/haeger-consulting-gmbh/senior-frontend-developer-bonn-45153",
-   "location": "Bonn",
-   "remote": false,
-   "postedAt": "2026-10-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "Was dich erwartet Du setzt moderne Webprojekte mit Angular, Vue oder React gemeinsam mit unseren Kunden um. | Du beherrschst HTML5, CSS3, SCSS, JavaScript und TypeScript sicher. | Du hast Expertenwissen in mindestens einem Framework: Angular, Vue oder React. | Du sprichst Deutsch auf Muttersprachniveau und kannst auch ohne Weiteres in Englisch kommunizieren. | Idealerweise hast du Erfahrung mit Node.js– z. | Flexibilität: Gestalte deinen Arbeitsalltag mit Homeoffice und flexiblen Arbeitszeiten individuell nach deinen Bedürfnissen. | Für den persönlichen Austausch und unser Miteinander treffen wir uns einmal pro Woche vor Ort. | Mit unserer wöchentlichen „Bewegten Pause“ bringst du außerdem B",
-   "remoteProof": "Flexibilität: Gestalte deinen Arbeitsalltag mit Homeoffice und flexiblen Arbeitszeiten individuell nach deinen Bedürfnissen. | Für den persönlichen Austausch und unser Miteinander treffen wir uns einmal pro Woche vor Ort. | Mit unserer wöchentlichen „Bewegten Pause“ bringst du außerdem Bewegung und Mobilisierung in deinen Arbeitsalltag – im Büro oder im Homeoffice. | Office zum Wohlfühlen: Helles, modernes Büro, leckerer Kaffee, eine Auswahl an Tees, ein gut gefüllter Getränkekühlschrank sowie f",
-   "firstSeen": "2026-10-08T11:43:46+00:00"
-  },
-  {
    "id": "personio:schauinsland-reisen-gmbh:2799962",
    "company": "schauinsland-reisen gmbh",
    "title": "UX/UI Designer & Frontend Developer (m/w/d)",
@@ -2940,7 +2872,7 @@
   },
   {
    "id": "personio:pixelproduction:2825889",
-   "company": "PixelProduction",
+   "company": "PixelProduction GmbH & Co. KG",
    "title": "Teamleitung Webentwicklung / Web Development (m/w/d)",
    "url": "https://pixelproduction.jobs.personio.de/job/2825889?language=en",
    "location": "Wuppertal",
@@ -3023,28 +2955,6 @@
    "match": "title; NRW ~57 km",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "arbeitnow:web-developer-full-time-munich-243414",
-   "company": "CONROO GmbH",
-   "title": "Web Developer | Full Time (m/w/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/conroo-gmbh/web-developer-full-time-munich-243414",
-   "location": "Berlin",
-   "remote": true,
-   "postedAt": "2026-10-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "🚀 What You Need to Be Successful You bring 4+ years of professional experience in developing web applications. | You have extensive experience with TypeScript and its practical application. | You are fluent in English. | ⚙️ Must Have Tools and Technologies Vue js Typescript Vuetify 💡 It’s a Plus If You Have experience working with Nuxt.js. | 👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location. | 🏔️ Company getaway: Two annual team getaways where we work, unwind, and connect – away from the office. ",
-   "remoteProof": "👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location.",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -3542,28 +3452,6 @@
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
-   "id": "recruitee:recaregmbh:2739252",
-   "company": "Recare",
-   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
-   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
-   "location": "Remote job / Berlin / Germany",
-   "remote": true,
-   "postedAt": "",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "",
-   "source": "recruitee",
-   "ats": "recruitee",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
-   "remoteProof": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | We are a remote-friendly company offering flexible working hours.",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
    "id": "ashby:mazehq:971941ec-5aa2-49eb-bb0d-fed342455619",
    "company": "Maze",
    "title": "Product Engineer (Full Stack)",
@@ -3584,6 +3472,28 @@
    "match": "title; remote",
    "facts": "You'll work alongside our full stack product team with significant autonomy, owning your own API layer that powers the React application, enabling you to move fast and deliver exceptional experiences without dependencies or blockers. | - Proven Full Stack Product Experience: 6+ years building production applications with strong command of both front-end (50%) and back-end development (50%) - you must be genuinely skilled at both, not primarily one with dabbling in the other",
    "remoteProof": "",
+   "firstSeen": "2026-10-05T23:14:49+00:00"
+  },
+  {
+   "id": "recruitee:recaregmbh:2739252",
+   "company": "Recare",
+   "title": "Software Engineer (Computer Use & Integrations) (m/w/d)",
+   "url": "https://careers.recaresolutions.com/o/software-engineer-computer-use-integrations-mwd",
+   "location": "Remote job / Berlin / Germany",
+   "remote": true,
+   "postedAt": "",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "fulltime_permanent",
+   "industry": "",
+   "source": "recruitee",
+   "ats": "recruitee",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. | With currently around 100 employees, we continue to grow – and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. | We are a remote-friendly company offering flexible working hours. | You have professio",
+   "remoteProof": "Software Engineer – Backend (Computer Use & Integrations) (m/w/d) Remote job About Recare As one of the leading German HealthTech companies, we are reshaping discharge management – technology-driven, patient-centered, and free from bureaucracy. | We are a remote-friendly company offering flexible working hours.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {

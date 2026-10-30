@@ -7,7 +7,7 @@
    "fetched": 310
   },
   "arbeitnow": {
-   "fetched": 4316
+   "fetched": 3383
   },
   "remotive": {
    "fetched": 96
@@ -40,28 +40,15 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1425,
-   "failed": 16
+   "checked": 1432,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
+   "WeMatch.": "HTTP 404",
    "Valtech": "HTTP 404",
-   "Optios": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429"
+   "Optios": "HTTP 404"
   }
  },
  "adzuna_usage": {
@@ -127,41 +114,43 @@
   "calls": 39
  },
  "probe": {
-  "tried": 70,
+  "tried": 46,
   "found": [
-   "Havenpark Communities (lever:havenparkcommunities)",
-   "Reonic (ashby:reonic)",
-   "Kickdown GmbH (personio:kickdown)",
-   "Snapp (recruitee:snapp)",
-   "PR Volt (smartrecruiters:prvolt)",
-   "WorkWave (lever:workwave)"
+   "Capco (greenhouse:capco)",
+   "OpenX (lever:openx)",
+   "Veramed (greenhouse:veramed)",
+   "ShopFully (greenhouse:shopfully)",
+   "Alter Solutions (smartrecruiters:altersolutions)",
+   "PolicyMe (lever:policyme)",
+   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-30T16:33:38+00:00",
- "rawJobs": 74521,
- "matches": 166,
- "new": 6,
- "companies": 1497,
- "activeCompanies": 1425,
+ "collectedAt": "2026-10-30T18:35:57+00:00",
+ "rawJobs": 75524,
+ "matches": 162,
+ "new": 1,
+ "companies": 1504,
+ "activeCompanies": 1432,
  "funnel": {
-  "title": 71807,
+  "title": 72768,
   "passed": 197,
-  "too_old": 152,
-  "location": 2320,
+  "too_old": 153,
+  "location": 2362,
   "company": 22,
-  "duplicate": 31,
-  "employment": 12,
+  "duplicate": 35,
+  "employment": 11,
   "salary": 4
  },
  "matchesBySource": {
-  "arbeitnow": 20,
+  "workable": 1,
+  "arbeitnow": 14,
   "personio": 16,
   "ashby": 62,
-  "himalayas": 1,
+  "himalayas": 2,
   "weworkremotely": 7,
   "jooble": 2,
   "greenhouse": 13,

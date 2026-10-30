@@ -16,28 +16,20 @@
   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1640579-1-S"
  },
  {
-  "company": "Mistral.ai",
-  "title": "Software Engineer,  Frontend",
-  "location": "Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/software-engineer-frontend-paris-34099"
- },
- {
-  "company": "Odoo DE GmbH",
-  "title": "Full Stack Software Engineer (m/w/d)",
+  "company": "Cortea AI",
+  "title": "Senior/Staff Product Engineer (m/f/x)",
   "location": "Berlin",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/odoo-de-gmbh/full-stack-software-engineer-berlin-213368"
+  "url": "https://www.arbeitnow.com/jobs/companies/cortea-ai/senior-staff-product-engineer-berlin-288747"
  },
  {
-  "company": "Bjak",
-  "title": "Frontend Engineer",
-  "location": "Germany",
+  "company": "Twilio",
+  "title": "Senior Solutions Engineer",
+  "location": "",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/bjak/frontend-engineer-germany-461975"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/twilio/senior-solutions-engineer-310354"
  },
  {
   "company": "iwoca",
@@ -80,20 +72,28 @@
   "url": "https://www.arbeitnow.nl/jobs/companies/priva/staff-frontend-engineer-de-lier-72329"
  },
  {
+  "company": "Odoo DE GmbH",
+  "title": "Full Stack Software Engineer (m/w/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/odoo-de-gmbh/full-stack-software-engineer-berlin-213368"
+ },
+ {
+  "company": "Bjak",
+  "title": "Frontend Engineer",
+  "location": "Germany",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/bjak/frontend-engineer-germany-461975"
+ },
+ {
   "company": "intercom",
   "title": "Product Engineer",
   "location": "Berlin",
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/intercom/product-engineer-berlin-196661"
- },
- {
-  "company": "leasingmarkt",
-  "title": "Senior Software Engineer  / AI Enabler (m/f/d)",
-  "location": "",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/leasingmarkt/senior-software-engineer-ai-enabler-81323"
  },
  {
   "company": "Tether Operations Limited",
@@ -190,6 +190,14 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.nl/jobs/companies/polarsteps/senior-frontend-engineer-amsterdam-345968"
+ },
+ {
+  "company": "leasingmarkt",
+  "title": "Senior Software Engineer  / AI Enabler (m/f/d)",
+  "location": "",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/leasingmarkt/senior-software-engineer-ai-enabler-81323"
  },
  {
   "company": "Zoe",
@@ -345,6 +353,14 @@
  },
  {
   "company": "Evervault",
+  "title": "Product Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/evervault/product-engineer-london-349743"
+ },
+ {
+  "company": "Evervault",
   "title": "Design Engineer",
   "location": "London",
   "remote": false,
@@ -382,14 +398,6 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.nl/jobs/companies/valcon/senior-principal-mendix-developer-utrecht-252417"
- },
- {
-  "company": "RIZM",
-  "title": "Product Engineer (m/f/x)",
-  "location": "Munich",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/rizm/product-engineer-munich-335169"
  },
  {
   "company": "Samsara",
@@ -440,20 +448,12 @@
   "url": "https://www.arbeitnow.nl/jobs/companies/sevenlab/ai-solutions-engineer-amsterdam-244457"
  },
  {
-  "company": "isaraerospace",
-  "title": "Lead Full Stack Software Engineer - Internal Platforms (f/m/d)",
-  "location": "Parsdorf, Bavaria",
+  "company": "RIZM",
+  "title": "Product Engineer (m/f/x)",
+  "location": "Munich",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/lead-full-stack-software-engineer-internal-platforms-parsdorf-bavaria-277361"
- },
- {
-  "company": "isaraerospace",
-  "title": "Application Software Engineer (f/m/d)",
-  "location": "Parsdorf, Bavaria",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/application-software-engineer-parsdorf-bavaria-355969"
+  "url": "https://www.arbeitnow.com/jobs/companies/rizm/product-engineer-munich-335169"
  },
  {
   "company": "hyperexponential",
@@ -470,6 +470,38 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.co.uk/jobs/companies/iwoca/full-stack-engineer-broker-terms-team-london-414128"
+ },
+ {
+  "company": "isaraerospace",
+  "title": "Lead Full Stack Software Engineer - Internal Platforms (f/m/d)",
+  "location": "Parsdorf, Bavaria",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/lead-full-stack-software-engineer-internal-platforms-parsdorf-bavaria-277361"
+ },
+ {
+  "company": "isaraerospace",
+  "title": "Application Software Engineer (f/m/d)",
+  "location": "Parsdorf, Bavaria",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/application-software-engineer-parsdorf-bavaria-355969"
+ },
+ {
+  "company": "Neuverge Tron",
+  "title": "Operations Engineer",
+  "location": "Munich, Germany",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/neuverge-tron/operations-engineer-munich-223482"
+ },
+ {
+  "company": "Comand Ai",
+  "title": "Front-end Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/comand-ai/front-end-engineer-london-382196"
  },
  {
   "company": "Backmarket",
@@ -504,6 +536,14 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/doctrine/confirmed-fullstack-engineer-platform-squad-paris-432475"
  },
  {
+  "company": "360Learning",
+  "title": "Software Engineer",
+  "location": "Paris, Remote",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/360learning/remote-software-engineer-69648"
+ },
+ {
   "company": "nice",
   "title": "Senior AI Software Engineer",
   "location": "",
@@ -526,14 +566,6 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/bsteuern/product-engineer-berlin-347131"
- },
- {
-  "company": "360Learning",
-  "title": "Software Engineer",
-  "location": "Paris, Remote",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/360learning/remote-software-engineer-69648"
  },
  {
   "company": "Almedia",
@@ -632,14 +664,6 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/winamax/senior-developpeur-front-end-team-poker-h-f-paris-201409"
  },
  {
-  "company": "Hypertrics GmbH",
-  "title": "Softwareentwickler (m/w/d)",
-  "location": "Schutterwald, Baden-Württemberg, Deutschland",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/hypertrics-gmbh/softwareentwickler-schutterwald-232042"
- },
- {
   "company": "scaleai",
   "title": "Software Engineer, Enterprise",
   "location": "London",
@@ -696,196 +720,20 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/upflow/senior-full-stack-engineer-paris-164464"
  },
  {
+  "company": "Hypertrics GmbH",
+  "title": "Softwareentwickler (m/w/d)",
+  "location": "Schutterwald, Baden-Württemberg, Deutschland",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/hypertrics-gmbh/softwareentwickler-schutterwald-232042"
+ },
+ {
   "company": "Ably30",
   "title": "Staff Tech Lead, Web & Developer Products",
   "location": "London",
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.co.uk/jobs/companies/ably30/staff-tech-lead-web-developer-products-london-163562"
- },
- {
-  "company": "The Exploration Company",
-  "title": "Software Engineer – Mission Control Software",
-  "location": "Munich, Germany",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/the-exploration-company/software-engineer-mission-control-software-munich-247496"
- },
- {
-  "company": "Stealthrocketrystartup",
-  "title": "Mechanical Design Engineer",
-  "location": "Germany",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/stealthrocketrystartup/mechanical-design-engineer-germany-70429"
- },
- {
-  "company": "Octopus Energy Group",
-  "title": "Frontend Engineer",
-  "location": "London (GB)",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/octopus-energy-group/frontend-engineer-london-gb-166476"
- },
- {
-  "company": "tripadvisor",
-  "title": "Software Engineer II",
-  "location": "Oxford",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/tripadvisor/software-engineer-ii-oxford-53842"
- },
- {
-  "company": "Taktile",
-  "title": "Senior Full-Stack Engineer - Team Agent",
-  "location": "Berlin Office",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/taktile/senior-full-stack-engineer-team-agent-berlin-462322"
- },
- {
-  "company": "Kpler",
-  "title": "Fullstack Engineer",
-  "location": "United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/kpler/fullstack-engineer-united-kingdom-158685"
- },
- {
-  "company": "Wisdomtree UK",
-  "title": "Senior Associate, Software Engineer",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/wisdomtree-uk/senior-associate-software-engineer-london-108301"
- },
- {
-  "company": "Andercore",
-  "title": "Staff Engineer",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/andercore/staff-engineer-berlin-461575"
- },
- {
-  "company": "Quantumdiamonds",
-  "title": "Senior Optical Design Engineer (f/m/d)",
-  "location": "Munich HQ",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/quantumdiamonds/senior-optical-design-engineer-munich-2359"
- },
- {
-  "company": "Controlup",
-  "title": "Senior Full Stack Engineer (UK)",
-  "location": "UK",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/controlup/senior-full-stack-engineer-uk-313527"
- },
- {
-  "company": "Kaluza",
-  "title": "Senior Software Engineer",
-  "location": "Bristol; Edinburgh; London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/kaluza/senior-software-engineer-bristol-edinburgh-london-17458"
- },
- {
-  "company": "8Thlightrebuild",
-  "title": "Principal Software Engineer (Hybrid)",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/8thlightrebuild/principal-software-engineer-hybrid-london-41987"
- },
- {
-  "company": "8Thlightrebuild",
-  "title": "Lead Software Engineer (Hybrid)",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/8thlightrebuild/lead-software-engineer-hybrid-london-303831"
- },
- {
-  "company": "Checkatrade",
-  "title": "Senior Software Engineer",
-  "location": "Moorgate London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/checkatrade/senior-software-engineer-moorgate-173856"
- },
- {
-  "company": "Quantum-Systems GmbH",
-  "title": "Senior Frontend Engineer (m/f/d)",
-  "location": "London, Greater London, United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/quantum-systems-gmbh/senior-frontend-engineer-london-53961"
- },
- {
-  "company": "neural frames",
-  "title": "Growth Engineer // AI Music Video Platform",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/neural-frames/product-engineer-growth-ai-music-video-platform-berlin-213663"
- },
- {
-  "company": "alago",
-  "title": "Founding Customer Experience Engineer (m/w/d)",
-  "location": "Munich",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/alago/founding-customer-experience-engineer-munich-125578"
- },
- {
-  "company": "MILES Mobility",
-  "title": "Senior React Native Engineer - App Owner (w/m/x/d)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-react-native-engineer-app-owner-d-berlin-421435"
- },
- {
-  "company": "Lendable",
-  "title": "Senior Python Engineer (Full Stack)",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/lendable/senior-python-engineer-full-stack-london-374298"
- },
- {
-  "company": "Lendable",
-  "title": "Senior Full Stack Engineer",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/lendable/senior-full-stack-engineer-london-354665"
- },
- {
-  "company": "WePush",
-  "title": "Fullstack Platform Engineer",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/wepush/fullstack-platform-engineer-berlin-225651"
- },
- {
-  "company": "GeneralMind",
-  "title": "Lead Full Stack Engineer (all genders)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/generalmind/lead-full-stack-engineer-berlin-86960"
- },
- {
-  "company": "WePush",
-  "title": "AI Product Engineer (Fullstack)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/wepush/ai-product-engineer-fullstack-berlin-69626"
  },
  {
   "company": "Mitre Media",
@@ -1040,44 +888,44 @@
   "url": "https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410"
  },
  {
-  "company": "CI&T",
-  "title": "[Job-32457] Senior Full Stack Developer (React & Node)",
-  "location": "Brazil",
+  "company": "Kainos",
+  "title": "Senior Software Engineer (Nodejs / Typescript)",
+  "location": "United Kingdom",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/ci-t/jobs/job-32457-senior-full-stack-developer-react-node?utm_source=api"
+  "url": "https://himalayas.app/companies/kainos/jobs/senior-software-engineer-nodejs-typescript?utm_source=api"
  },
  {
-  "company": "ddroidd",
-  "title": "Full Stack Developer",
-  "location": "Romania",
+  "company": "Kainos",
+  "title": "Senior Software Engineer (Nodejs / Typescript)",
+  "location": "United Kingdom",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/ddroidd/jobs/full-stack-developer?utm_source=api"
+  "url": "https://himalayas.app/companies/kainos/jobs/senior-software-engineer-nodejs-typescript?utm_source=api"
  },
  {
-  "company": "GEICO",
-  "title": "Staff Engineer – FinOps",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/geico-jobs/jobs/staff-engineer-finops?utm_source=api"
- },
- {
-  "company": "CACI International Inc",
+  "company": "CSC",
   "title": "Software Engineer",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/caci-international-inc/jobs/software-engineer?utm_source=api"
+  "url": "https://himalayas.app/companies/csc/jobs/software-engineer?utm_source=api"
  },
  {
-  "company": "CACI International Inc",
+  "company": "CSC",
   "title": "Software Engineer",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/caci-international-inc/jobs/software-engineer?utm_source=api"
+  "url": "https://himalayas.app/companies/csc/jobs/software-engineer?utm_source=api"
+ },
+ {
+  "company": "Proto",
+  "title": "Product Engineer",
+  "location": "Pakistan",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/useproto/jobs/product-engineer?utm_source=api"
  },
  {
   "company": "Proto",
@@ -1096,12 +944,44 @@
   "url": "https://himalayas.app/companies/bowery-valuation/jobs/software-engineer-ai-team?utm_source=api"
  },
  {
+  "company": "Sezzle",
+  "title": "Mobile Engineer (Brazil, All Levels)",
+  "location": "Brazil",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/sezzle/jobs/mobile-engineer-brazil-all-levels?utm_source=api"
+ },
+ {
+  "company": "Sezzle",
+  "title": "Mobile Engineer (Turkey, All Levels)",
+  "location": "Turkey",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/sezzle/jobs/mobile-engineer-turkey-all-levels?utm_source=api"
+ },
+ {
+  "company": "Storyblok",
+  "title": "Documentation Engineer II - Poland",
+  "location": "Poland",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/storyblok/jobs/documentation-engineer-ii-poland?utm_source=api"
+ },
+ {
   "company": "Experity",
   "title": "Senior Software Engineer (PACS) - Full Time - Remote",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
   "url": "https://himalayas.app/companies/experity/jobs/senior-software-engineer-pacs-full-time-remote?utm_source=api"
+ },
+ {
+  "company": "Capco",
+  "title": "Senior Full-Stack Developer (Python) - COM INGLÊS - Remoto",
+  "location": "Brazil",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/capco/jobs/senior-full-stack-developer-python-com-ingles-remoto?utm_source=api"
  },
  {
   "company": "Reddit",
@@ -1112,12 +992,20 @@
   "url": "https://himalayas.app/companies/reddit/jobs/senior-frontend-engineer-ads-formats?utm_source=api"
  },
  {
-  "company": "Levellr",
-  "title": "Senior Engineer (Ingestion)",
+  "company": "Twilio",
+  "title": "Principal Presales Engineer  (German speaker)",
+  "location": "Spain",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/twilio/jobs/principal-presales-engineer-german-speaker?utm_source=api"
+ },
+ {
+  "company": "Toast",
+  "title": "Principal Software Engineer",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/levellr/jobs/senior-engineer-ingestion?utm_source=api"
+  "url": "https://himalayas.app/companies/toasttab/jobs/principal-software-engineer?utm_source=api"
  },
  {
   "company": "iDelsoft",
@@ -1128,12 +1016,20 @@
   "url": "https://himalayas.app/companies/idelsoft/jobs/search-relevance-engineer-semantic-ai-search-europe-remote?utm_source=api"
  },
  {
-  "company": "Natera",
-  "title": "Staff Software Engineer",
+  "company": "NBH Bank",
+  "title": "2U - Principal Full Stack Engineer",
   "location": "United States",
   "remote": true,
   "source": "himalayas",
-  "url": "https://himalayas.app/companies/natera/jobs/staff-software-engineer?utm_source=api"
+  "url": "https://himalayas.app/companies/nbh-bank/jobs/2u-principal-full-stack-engineer?utm_source=api"
+ },
+ {
+  "company": "Maania Consultancy Services",
+  "title": "Frontend Software Engineer - Secret",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/maania-consultancy-services/jobs/frontend-software-engineer-secret?utm_source=api"
  },
  {
   "company": "OutSystems",
@@ -1701,7 +1597,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=react&jobAge=634&brelb=15&scr=78.87175&bscr=78.87175&aq=5973231682819950377&elckey=7194874359362042938"
+  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=react&jobAge=636&brelb=15&scr=80.806564&bscr=80.806564&aq=6139372228833827661&elckey=4162494878131781796"
  },
  {
   "company": "Parloa",
@@ -1709,7 +1605,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=react&rgn=55146&pos=3&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=514&brelb=100&bscr=45.421387&scr=45.421387"
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=react&rgn=55146&pos=3&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=516&brelb=100&bscr=45.756306&scr=45.756306"
  },
  {
   "company": "IDnow",
@@ -1717,7 +1613,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1134249869557940895?ckey=react&rgn=55146&pos=7&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=394&brelb=100&bscr=32.324806&scr=32.324806"
+  "url": "https://jooble.org/desc/-1134249869557940895?ckey=react&rgn=55146&pos=7&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=396&brelb=100&bscr=32.55732&scr=32.55732"
  },
  {
   "company": "Upvest",
@@ -1725,15 +1621,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=react&rgn=55146&pos=8&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=1042&brelb=100&bscr=28.17256&scr=28.17256"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=react&rgn=55146&pos=9&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=58&brelb=10&bscr=24.933716&scr=24.933716"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=react&rgn=55146&pos=8&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=1044&brelb=100&bscr=28.505192&scr=28.505192"
  },
  {
   "company": "IDnow",
@@ -1741,7 +1629,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-4180730514795065688?p=1&pos=10&rgn=55146&cid=22409&ckey=react&jobAge=778&brelb=15&scr=24.905178&bscr=24.905178&aq=5973231682819950377&elckey=7194874359362042938"
+  "url": "https://jooble.org/desc/-4180730514795065688?ckey=react&rgn=55146&pos=9&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=780&brelb=15&bscr=25.619078&scr=25.619078"
+ },
+ {
+  "company": "20four7va",
+  "title": "AI & ML Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=react&rgn=55146&pos=10&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=60&brelb=10&bscr=25.063791&scr=25.063791"
  },
  {
   "company": "SelectCode",
@@ -1749,7 +1645,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=react&rgn=55146&pos=11&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=682&brelb=100&bscr=23.50062&scr=23.50062"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=react&rgn=55146&pos=11&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=684&brelb=100&bscr=23.75914&scr=23.75914"
  },
  {
   "company": "SCAILE",
@@ -1757,7 +1653,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6796360922697388260?ckey=react&rgn=55146&pos=12&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=778&brelb=15&bscr=21.612032&scr=21.612032"
+  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=12&rgn=55146&cid=22409&ckey=react&jobAge=780&brelb=15&scr=22.396484&bscr=22.396484&aq=6139372228833827661&elckey=4162494878131781796"
  },
  {
   "company": "Leegle",
@@ -1765,7 +1661,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=react&rgn=55146&pos=14&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=562&brelb=100&bscr=20.875412&scr=20.875412"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=react&rgn=55146&pos=14&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=564&brelb=100&bscr=20.877829&scr=20.877829"
  },
  {
   "company": "Leegle",
@@ -1773,7 +1669,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=react&rgn=55146&pos=15&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=562&brelb=100&bscr=19.953188&scr=19.953188"
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=react&rgn=55146&pos=15&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=564&brelb=100&bscr=19.951778&scr=19.951778"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -1781,7 +1677,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=react&rgn=55146&pos=17&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=3226&brelb=100&bscr=13.747378&scr=13.747378"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=react&rgn=55146&pos=17&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=3228&brelb=100&bscr=13.853699&scr=13.853699"
  },
  {
   "company": "Augustus",
@@ -1789,7 +1685,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/1260614507841549232?p=1&pos=18&rgn=55146&cid=22409&ckey=react&jobAge=946&brelb=15&scr=12.415866&bscr=12.415866&aq=5973231682819950377&elckey=7194874359362042938"
+  "url": "https://jooble.org/desc/1260614507841549232?ckey=react&rgn=55146&pos=18&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=948&brelb=15&bscr=12.898685&scr=12.898685"
  },
  {
   "company": "ABB E-mobility",
@@ -1797,7 +1693,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-4316457707064804427?p=1&pos=19&rgn=55146&cid=22409&ckey=react&jobAge=538&brelb=15&scr=11.99997&bscr=11.99997&aq=5973231682819950377&elckey=7194874359362042938"
+  "url": "https://jooble.org/desc/-4316457707064804427?ckey=react&rgn=55146&pos=19&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=540&brelb=15&bscr=12.704867&scr=12.704867"
  },
  {
   "company": "Cello (cello.so)",
@@ -1805,15 +1701,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=react&rgn=55146&pos=20&groupId=40846&elckey=7194874359362042938&p=1&aq=5973231682819950377&cid=22409&jobAge=322&brelb=100&bscr=9.649294&scr=9.649294"
- },
- {
-  "company": "homie AI",
-  "title": "Full Stack Developer (AI SaaS)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-6320563847304922999?ckey=react&rgn=55146&pos=28&groupId=40846&elckey=7194874359362042938&p=2&aq=7268455040969754410&cid=22409&jobAge=514&brelb=100&bscr=5.478692&scr=5.478692"
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=react&rgn=55146&pos=20&groupId=40846&elckey=4162494878131781796&p=1&aq=6139372228833827661&cid=22409&jobAge=324&brelb=100&bscr=9.711551&scr=9.711551"
  },
  {
   "company": "Applied Intuition",
@@ -1821,7 +1709,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-338132375457953131?ckey=react&rgn=55146&pos=29&groupId=40846&elckey=7194874359362042938&p=2&aq=7268455040969754410&cid=22409&jobAge=562&brelb=100&bscr=5.3930926&scr=5.3930926"
+  "url": "https://jooble.org/desc/-338132375457953131?ckey=react&rgn=55146&pos=28&groupId=40846&elckey=4162494878131781796&p=2&aq=5363131065994579520&cid=22409&jobAge=564&brelb=100&bscr=5.6726103&scr=5.6726103"
+ },
+ {
+  "company": "homie AI",
+  "title": "Full Stack Developer (AI SaaS)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-6320563847304922999?ckey=react&rgn=55146&pos=29&groupId=40846&elckey=4162494878131781796&p=2&aq=5363131065994579520&cid=22409&jobAge=516&brelb=100&bscr=5.6482897&scr=5.6482897"
  },
  {
   "company": "Eversource Energy",
@@ -1829,7 +1725,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1033862029372602186?ckey=react&rgn=55146&pos=32&groupId=40846&elckey=7194874359362042938&p=2&aq=7268455040969754410&cid=22409&jobAge=322&brelb=100&bscr=4.823983&scr=4.823983"
+  "url": "https://jooble.org/desc/-1033862029372602186?ckey=react&rgn=55146&pos=32&groupId=40846&elckey=4162494878131781796&p=2&aq=5363131065994579520&cid=22409&jobAge=324&brelb=100&bscr=4.936925&scr=4.936925"
  },
  {
   "company": "World",
@@ -1837,7 +1733,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7279234623258571084?ckey=react&rgn=55146&pos=37&groupId=40846&elckey=7194874359362042938&p=2&aq=7268455040969754410&cid=22409&jobAge=1354&brelb=100&bscr=3.5728664&scr=3.5728664"
+  "url": "https://jooble.org/desc/-7279234623258571084?ckey=react&rgn=55146&pos=37&groupId=40846&elckey=4162494878131781796&p=2&aq=5363131065994579520&cid=22409&jobAge=1356&brelb=100&bscr=3.6652946&scr=3.6652946"
  },
  {
   "company": "Delvo",
@@ -1845,7 +1741,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-5568366705037875658?ckey=react+native&rgn=55146&pos=2&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=634&brelb=15&bscr=79.752304&scr=79.752304"
+  "url": "https://jooble.org/desc/-5568366705037875658?ckey=react+native&rgn=55146&pos=2&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=636&brelb=15&bscr=81.20711&scr=81.20711"
  },
  {
   "company": "IDnow",
@@ -1853,7 +1749,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1134249869557940895?ckey=react+native&rgn=55146&pos=4&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=394&brelb=100&bscr=64.93916&scr=64.93916"
+  "url": "https://jooble.org/desc/-1134249869557940895?ckey=react+native&rgn=55146&pos=4&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=396&brelb=100&bscr=65.115105&scr=65.115105"
  },
  {
   "company": "Parloa",
@@ -1861,7 +1757,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=react+native&rgn=55146&pos=5&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=514&brelb=100&bscr=45.650948&scr=45.650948"
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=react+native&rgn=55146&pos=5&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=516&brelb=100&bscr=45.7566&scr=45.7566"
  },
  {
   "company": "Leegle",
@@ -1869,7 +1765,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=react+native&rgn=55146&pos=7&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=562&brelb=100&bscr=41.750824&scr=41.750824"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=react+native&rgn=55146&pos=7&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=564&brelb=100&bscr=41.911446&scr=41.911446"
  },
  {
   "company": "Leegle",
@@ -1877,7 +1773,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=react+native&rgn=55146&pos=9&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=562&brelb=100&bscr=39.906376&scr=39.906376"
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=react+native&rgn=55146&pos=9&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=564&brelb=100&bscr=40.049145&scr=40.049145"
  },
  {
   "company": "Upvest",
@@ -1885,7 +1781,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=react+native&rgn=55146&pos=12&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=1042&brelb=100&bscr=28.37194&scr=28.37194"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=react+native&rgn=55146&pos=12&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=1044&brelb=100&bscr=28.50518&scr=28.50518"
  },
  {
   "company": "IDnow",
@@ -1893,7 +1789,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-4180730514795065688?p=1&pos=13&rgn=55146&cid=22409&ckey=react+native&jobAge=778&brelb=15&scr=24.997871&bscr=24.997871&aq=8355693318757178075&elckey=6651437554766188768"
+  "url": "https://jooble.org/away/-4180730514795065688?p=1&pos=13&rgn=55146&cid=22409&ckey=react+native&jobAge=780&brelb=15&scr=25.746008&bscr=25.746008&aq=-1393412328285842178&elckey=3619058073535927626"
  },
  {
   "company": "20four7va",
@@ -1901,7 +1797,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=react+native&rgn=55146&pos=14&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=58&brelb=10&bscr=24.72305&scr=24.72305"
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=react+native&rgn=55146&pos=14&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=60&brelb=10&bscr=25.063913&scr=25.063913"
  },
  {
   "company": "SelectCode",
@@ -1909,7 +1805,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=react+native&rgn=55146&pos=15&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=682&brelb=100&bscr=23.50062&scr=23.50062"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=react+native&rgn=55146&pos=15&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=684&brelb=100&bscr=23.759365&scr=23.759365"
  },
  {
   "company": "SCAILE",
@@ -1917,7 +1813,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6796360922697388260?ckey=react+native&rgn=55146&pos=16&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=778&brelb=15&bscr=22.055891&scr=22.055891"
+  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=16&rgn=55146&cid=22409&ckey=react+native&jobAge=780&brelb=15&scr=22.50741&bscr=22.50741&aq=-1393412328285842178&elckey=3619058073535927626"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -1925,7 +1821,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=react+native&rgn=55146&pos=19&groupId=40846&elckey=6651437554766188768&p=1&aq=8355693318757178075&cid=22409&jobAge=3226&brelb=100&bscr=13.747378&scr=13.747378"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=react+native&rgn=55146&pos=19&groupId=40846&elckey=3619058073535927626&p=1&aq=-1393412328285842178&cid=22409&jobAge=3228&brelb=100&bscr=13.925535&scr=13.925535"
  },
  {
   "company": "Augustus",
@@ -1933,7 +1829,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/1260614507841549232?p=1&pos=20&rgn=55146&cid=22409&ckey=react+native&jobAge=946&brelb=15&scr=12.554463&bscr=12.554463&aq=8355693318757178075&elckey=6651437554766188768"
+  "url": "https://jooble.org/away/1260614507841549232?p=1&pos=20&rgn=55146&cid=22409&ckey=react+native&jobAge=948&brelb=15&scr=12.9989805&bscr=12.9989805&aq=-1393412328285842178&elckey=3619058073535927626"
  },
  {
   "company": "ABB E-mobility",
@@ -1941,7 +1837,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-4316457707064804427?ckey=react+native&rgn=55146&pos=21&groupId=40846&elckey=6651437554766188768&p=2&aq=-5370060723789014587&cid=22409&jobAge=538&brelb=15&bscr=12.1887&scr=12.1887"
+  "url": "https://jooble.org/away/-4316457707064804427?p=2&pos=21&rgn=55146&cid=22409&ckey=react+native&jobAge=540&brelb=15&scr=12.767827&bscr=12.767827&aq=-9036344822576026147&elckey=3619058073535927626"
  },
  {
   "company": "Cello (cello.so)",
@@ -1949,15 +1845,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=react+native&rgn=55146&pos=22&groupId=40846&elckey=6651437554766188768&p=2&aq=-5370060723789014587&cid=22409&jobAge=322&brelb=100&bscr=9.650046&scr=9.650046"
- },
- {
-  "company": "homie AI",
-  "title": "Full Stack Developer (AI SaaS)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-6320563847304922999?ckey=react+native&rgn=55146&pos=28&groupId=40846&elckey=6651437554766188768&p=2&aq=-5370060723789014587&cid=22409&jobAge=514&brelb=100&bscr=5.5702496&scr=5.5702496"
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=react+native&rgn=55146&pos=22&groupId=40846&elckey=3619058073535927626&p=2&aq=-9036344822576026147&cid=22409&jobAge=324&brelb=100&bscr=9.765325&scr=9.765325"
  },
  {
   "company": "Applied Intuition",
@@ -1965,7 +1853,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-338132375457953131?ckey=react+native&rgn=55146&pos=29&groupId=40846&elckey=6651437554766188768&p=2&aq=-5370060723789014587&cid=22409&jobAge=562&brelb=100&bscr=5.3930926&scr=5.3930926"
+  "url": "https://jooble.org/desc/-338132375457953131?ckey=react+native&rgn=55146&pos=28&groupId=40846&elckey=3619058073535927626&p=2&aq=-9036344822576026147&cid=22409&jobAge=564&brelb=100&bscr=5.6726584&scr=5.6726584"
+ },
+ {
+  "company": "homie AI",
+  "title": "Full Stack Developer (AI SaaS)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-6320563847304922999?ckey=react+native&rgn=55146&pos=29&groupId=40846&elckey=3619058073535927626&p=2&aq=-9036344822576026147&cid=22409&jobAge=516&brelb=100&bscr=5.648197&scr=5.648197"
  },
  {
   "company": "Eversource Energy",
@@ -1973,15 +1869,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1033862029372602186?ckey=react+native&rgn=55146&pos=32&groupId=40846&elckey=6651437554766188768&p=2&aq=-5370060723789014587&cid=22409&jobAge=322&brelb=100&bscr=4.82399&scr=4.82399"
+  "url": "https://jooble.org/desc/-1033862029372602186?ckey=react+native&rgn=55146&pos=33&groupId=40846&elckey=3619058073535927626&p=2&aq=-9036344822576026147&cid=22409&jobAge=324&brelb=100&bscr=4.9368587&scr=4.9368587"
  },
  {
-  "company": "Tools for Humanity",
+  "company": "World",
   "title": "Software Engineer, ML Ops and Platform",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1044658708616374353?ckey=react+native&rgn=55146&pos=37&groupId=40846&elckey=6651437554766188768&p=2&aq=-5370060723789014587&cid=22409&jobAge=1354&brelb=100&bscr=3.59999&scr=3.59999"
+  "url": "https://jooble.org/desc/-7279234623258571084?ckey=react+native&rgn=55146&pos=37&groupId=40846&elckey=3619058073535927626&p=2&aq=-9036344822576026147&cid=22409&jobAge=1356&brelb=100&bscr=3.6653042&scr=3.6653042"
  },
  {
   "company": "Delvo",
@@ -1989,7 +1885,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-5568366705037875658?ckey=frontend+react&rgn=55146&pos=1&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=634&brelb=15&bscr=434.14954&scr=434.14954"
+  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=frontend+react&jobAge=636&brelb=15&scr=437.9749&bscr=437.9749&aq=1490561722644624529&elckey=6085296813352734640"
  },
  {
   "company": "SelectCode",
@@ -1997,7 +1893,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=frontend+react&rgn=55146&pos=2&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=682&brelb=100&bscr=179.49292&scr=179.49292"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=frontend+react&rgn=55146&pos=2&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=684&brelb=100&bscr=181.06442&scr=181.06442"
  },
  {
   "company": "Leegle",
@@ -2005,7 +1901,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=frontend+react&rgn=55146&pos=4&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=562&brelb=100&bscr=159.14127&scr=159.14127"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=frontend+react&rgn=55146&pos=4&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=564&brelb=100&bscr=159.48509&scr=159.48509"
  },
  {
   "company": "20four7va",
@@ -2013,7 +1909,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+react&rgn=55146&pos=5&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=58&brelb=10&bscr=134.65894&scr=134.65894"
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+react&rgn=55146&pos=5&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=60&brelb=10&bscr=135.2908&scr=135.2908"
  },
  {
   "company": "IDnow",
@@ -2021,7 +1917,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1134249869557940895?ckey=frontend+react&rgn=55146&pos=6&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=394&brelb=100&bscr=130.8111&scr=130.8111"
+  "url": "https://jooble.org/desc/-1134249869557940895?ckey=frontend+react&rgn=55146&pos=6&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=396&brelb=100&bscr=131.24973&scr=131.24973"
  },
  {
   "company": "Upvest",
@@ -2029,7 +1925,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=frontend+react&rgn=55146&pos=7&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=1042&brelb=100&bscr=128.95976&scr=128.95976"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=frontend+react&rgn=55146&pos=7&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=1044&brelb=100&bscr=129.35909&scr=129.35909"
  },
  {
   "company": "SCAILE",
@@ -2037,7 +1933,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6796360922697388260?ckey=frontend+react&rgn=55146&pos=9&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=778&brelb=15&bscr=80.247986&scr=80.247986"
+  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=9&rgn=55146&cid=22409&ckey=frontend+react&jobAge=780&brelb=15&scr=80.73793&bscr=80.73793&aq=1490561722644624529&elckey=6085296813352734640"
  },
  {
   "company": "Parloa",
@@ -2045,7 +1941,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=frontend+react&rgn=55146&pos=11&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=514&brelb=100&bscr=42.711617&scr=42.711617"
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=frontend+react&rgn=55146&pos=11&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=516&brelb=100&bscr=42.769943&scr=42.769943"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -2053,7 +1949,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+react&rgn=55146&pos=12&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=3226&brelb=100&bscr=39.25603&scr=39.25603"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+react&rgn=55146&pos=12&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=3228&brelb=100&bscr=39.53669&scr=39.53669"
  },
  {
   "company": "IDnow",
@@ -2061,7 +1957,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-4180730514795065688?p=1&pos=15&rgn=55146&cid=22409&ckey=frontend+react&jobAge=778&brelb=15&scr=25.374878&bscr=25.374878&aq=-5152970512601065265&elckey=9117676294582995782"
+  "url": "https://jooble.org/desc/-4180730514795065688?ckey=frontend+react&rgn=55146&pos=15&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=780&brelb=15&bscr=25.608232&scr=25.608232"
  },
  {
   "company": "Leegle",
@@ -2069,7 +1965,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=frontend+react&rgn=55146&pos=17&groupId=1039704638&elckey=9117676294582995782&p=1&aq=-5152970512601065265&cid=22409&jobAge=562&brelb=100&bscr=19.953382&scr=19.953382"
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=frontend+react&rgn=55146&pos=17&groupId=1039704638&elckey=6085296813352734640&p=1&aq=1490561722644624529&cid=22409&jobAge=564&brelb=100&bscr=20.024748&scr=20.024748"
  },
  {
   "company": "Cello (cello.so)",
@@ -2077,7 +1973,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=frontend+react&rgn=55146&pos=23&groupId=1039704638&elckey=9117676294582995782&p=2&aq=6253994244177184838&cid=22409&jobAge=322&brelb=100&bscr=8.590598&scr=8.590598"
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=frontend+react&rgn=55146&pos=23&groupId=1039704638&elckey=6085296813352734640&p=2&aq=3002168108871994322&cid=22409&jobAge=324&brelb=100&bscr=8.674549&scr=8.674549"
  },
  {
   "company": "SCAILE",
@@ -2085,7 +1981,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=1&rgn=55146&cid=22409&ckey=fullstack+typescript&jobAge=778&brelb=15&scr=211.41103&bscr=211.41103&aq=-4549415306195635764&elckey=5933597234021323603"
+  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=1&rgn=55146&cid=22409&ckey=fullstack+typescript&jobAge=780&brelb=15&scr=218.63843&bscr=218.63843&aq=1592651203446581508&elckey=2901217752791062461"
  },
  {
   "company": "Upvest",
@@ -2093,7 +1989,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=fullstack+typescript&rgn=55146&pos=3&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=1042&brelb=100&bscr=133.76976&scr=133.76976"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=fullstack+typescript&rgn=55146&pos=3&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=1044&brelb=100&bscr=134.34756&scr=134.34756"
  },
  {
   "company": "SelectCode",
@@ -2101,7 +1997,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=fullstack+typescript&rgn=55146&pos=5&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=682&brelb=100&bscr=108.196655&scr=108.196655"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=fullstack+typescript&rgn=55146&pos=5&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=684&brelb=100&bscr=109.3898&scr=109.3898"
  },
  {
   "company": "Leegle",
@@ -2109,7 +2005,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=fullstack+typescript&rgn=55146&pos=6&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=562&brelb=100&bscr=95.32693&scr=95.32693"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=fullstack+typescript&rgn=55146&pos=6&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=564&brelb=100&bscr=97.63263&scr=97.63263"
  },
  {
   "company": "Delvo",
@@ -2117,7 +2013,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=8&rgn=55146&cid=22409&ckey=fullstack+typescript&jobAge=634&brelb=15&scr=57.309258&bscr=57.309258&aq=-4549415306195635764&elckey=5933597234021323603"
+  "url": "https://jooble.org/desc/-5568366705037875658?ckey=fullstack+typescript&rgn=55146&pos=8&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=636&brelb=15&bscr=59.283077&scr=59.283077"
  },
  {
   "company": "Parloa",
@@ -2125,7 +2021,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=fullstack+typescript&rgn=55146&pos=12&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=514&brelb=100&bscr=28.252924&scr=28.252924"
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=fullstack+typescript&rgn=55146&pos=12&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=516&brelb=100&bscr=28.479742&scr=28.479742"
  },
  {
   "company": "Cello (cello.so)",
@@ -2133,7 +2029,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=fullstack+typescript&rgn=55146&pos=13&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=322&brelb=100&bscr=25.315344&scr=25.315344"
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=fullstack+typescript&rgn=55146&pos=13&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=324&brelb=100&bscr=25.52689&scr=25.52689"
  },
  {
   "company": "Leegle",
@@ -2141,7 +2037,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=fullstack+typescript&rgn=55146&pos=16&groupId=-1143041055&elckey=5933597234021323603&p=1&aq=-4549415306195635764&cid=22409&jobAge=562&brelb=100&bscr=23.682213&scr=23.682213"
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=fullstack+typescript&rgn=55146&pos=15&groupId=-1143041055&elckey=2901217752791062461&p=1&aq=1592651203446581508&cid=22409&jobAge=564&brelb=100&bscr=24.228344&scr=24.228344"
  },
  {
   "company": "Founders Factory",
@@ -2149,7 +2045,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8607187707887391882?ckey=fullstack+typescript&rgn=55146&pos=22&groupId=-1143041055&elckey=5933597234021323603&p=2&aq=-3049541392311805787&cid=22409&jobAge=1402&brelb=100&bscr=13.680524&scr=13.680524"
+  "url": "https://jooble.org/desc/-8607187707887391882?ckey=fullstack+typescript&rgn=55146&pos=22&groupId=-1143041055&elckey=2901217752791062461&p=2&aq=-5798329634365472624&cid=22409&jobAge=1404&brelb=100&bscr=14.016101&scr=14.016101"
  },
  {
   "company": "Product· Full-time",
@@ -2157,7 +2053,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/2642892934218966806?ckey=fullstack+typescript&rgn=55146&pos=23&groupId=-1143041055&elckey=5933597234021323603&p=2&aq=-3049541392311805787&cid=22409&jobAge=2746&brelb=100&bscr=12.732939&scr=12.732939"
+  "url": "https://jooble.org/desc/2642892934218966806?ckey=fullstack+typescript&rgn=55146&pos=23&groupId=-1143041055&elckey=2901217752791062461&p=2&aq=-5798329634365472624&cid=22409&jobAge=2748&brelb=100&bscr=12.844102&scr=12.844102"
+ },
+ {
+  "company": "Software Engineering· Full-time",
+  "title": "Full-Stack Developer, Music & Audio",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=fullstack+typescript&rgn=55146&pos=25&groupId=-1143041055&elckey=2901217752791062461&p=2&aq=-5798329634365472624&cid=22409&jobAge=3228&brelb=100&bscr=9.341553&scr=9.341553"
  },
  {
   "company": "Impossible Cloud",
@@ -2165,15 +2069,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6843441570256967727?ckey=fullstack+typescript&rgn=55146&pos=25&groupId=-1143041055&elckey=5933597234021323603&p=2&aq=-3049541392311805787&cid=22409&jobAge=754&brelb=100&bscr=9.228624&scr=9.228624"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=fullstack+typescript&rgn=55146&pos=27&groupId=-1143041055&elckey=5933597234021323603&p=2&aq=-3049541392311805787&cid=22409&jobAge=3226&brelb=100&bscr=9.141312&scr=9.141312"
+  "url": "https://jooble.org/desc/6843441570256967727?ckey=fullstack+typescript&rgn=55146&pos=27&groupId=-1143041055&elckey=2901217752791062461&p=2&aq=-5798329634365472624&cid=22409&jobAge=756&brelb=100&bscr=9.266298&scr=9.266298"
  },
  {
   "company": "Delvo",
@@ -2181,7 +2077,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=next.js&jobAge=634&brelb=15&scr=100.51381&bscr=100.51381&aq=-6420600942671151950&elckey=8544880162767337103"
+  "url": "https://jooble.org/desc/-5568366705037875658?ckey=next.js&rgn=55146&pos=1&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=636&brelb=15&bscr=101.99794&scr=101.99794"
  },
  {
   "company": "IDnow",
@@ -2189,7 +2085,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-4180730514795065688?p=1&pos=5&rgn=55146&cid=22409&ckey=next.js&jobAge=778&brelb=15&scr=41.97292&bscr=41.97292&aq=-6420600942671151950&elckey=8544880162767337103"
+  "url": "https://jooble.org/desc/-4180730514795065688?ckey=next.js&rgn=55146&pos=5&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=780&brelb=15&bscr=42.7025&scr=42.7025"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -2197,7 +2093,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=next.js&rgn=55146&pos=6&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=3226&brelb=100&bscr=40.298706&scr=40.298706"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=next.js&rgn=55146&pos=6&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=3228&brelb=100&bscr=40.56664&scr=40.56664"
  },
  {
   "company": "SCAILE",
@@ -2205,7 +2101,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6796360922697388260?ckey=next.js&rgn=55146&pos=7&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=778&brelb=15&bscr=31.194626&scr=31.194626"
+  "url": "https://jooble.org/desc/6796360922697388260?ckey=next.js&rgn=55146&pos=7&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=780&brelb=15&bscr=31.613028&scr=31.613028"
  },
  {
   "company": "Parloa",
@@ -2213,7 +2109,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=next.js&rgn=55146&pos=9&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=514&brelb=100&bscr=27.710533&scr=27.710533"
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=next.js&rgn=55146&pos=9&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=516&brelb=100&bscr=27.759163&scr=27.759163"
  },
  {
   "company": "Cello (cello.so)",
@@ -2221,7 +2117,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=next.js&rgn=55146&pos=10&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=322&brelb=100&bscr=14.317757&scr=14.317757"
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=next.js&rgn=55146&pos=10&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=324&brelb=100&bscr=14.392811&scr=14.392811"
  },
  {
   "company": "IDnow",
@@ -2229,7 +2125,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1134249869557940895?ckey=next.js&rgn=55146&pos=12&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=394&brelb=100&bscr=13.328632&scr=13.328632"
+  "url": "https://jooble.org/desc/-1134249869557940895?ckey=next.js&rgn=55146&pos=12&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=396&brelb=100&bscr=13.341282&scr=13.341282"
  },
  {
   "company": "SelectCode",
@@ -2237,7 +2133,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=next.js&rgn=55146&pos=13&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=682&brelb=100&bscr=11.750036&scr=11.750036"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=next.js&rgn=55146&pos=13&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=684&brelb=100&bscr=11.879968&scr=11.879968"
  },
  {
   "company": "Leegle",
@@ -2245,7 +2141,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=next.js&rgn=55146&pos=18&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=562&brelb=100&bscr=10.437747&scr=10.437747"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=next.js&rgn=55146&pos=18&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=564&brelb=100&bscr=10.43882&scr=10.43882"
  },
  {
   "company": "Leegle",
@@ -2253,7 +2149,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=next.js&rgn=55146&pos=19&groupId=-675061143&elckey=8544880162767337103&p=1&aq=-6420600942671151950&cid=22409&jobAge=562&brelb=100&bscr=9.976624&scr=9.976624"
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=next.js&rgn=55146&pos=19&groupId=-675061143&elckey=5512500681537075961&p=1&aq=-265414663444169839&cid=22409&jobAge=564&brelb=100&bscr=9.975803&scr=9.975803"
  },
  {
   "company": "Upvest",
@@ -2261,7 +2157,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=next.js&rgn=55146&pos=23&groupId=-675061143&elckey=8544880162767337103&p=2&aq=5612746726038381584&cid=22409&jobAge=1042&brelb=100&bscr=7.2643147&scr=7.2643147"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=next.js&rgn=55146&pos=23&groupId=-675061143&elckey=5512500681537075961&p=2&aq=4826513368085489722&cid=22409&jobAge=1044&brelb=100&bscr=7.2451363&scr=7.2451363"
  },
  {
   "company": "homie AI",
@@ -2269,7 +2165,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6320563847304922999?ckey=next.js&rgn=55146&pos=27&groupId=-675061143&elckey=8544880162767337103&p=2&aq=5612746726038381584&cid=22409&jobAge=514&brelb=100&bscr=2.3505063&scr=2.3505063"
+  "url": "https://jooble.org/desc/-6320563847304922999?ckey=next.js&rgn=55146&pos=27&groupId=-675061143&elckey=5512500681537075961&p=2&aq=4826513368085489722&cid=22409&jobAge=516&brelb=100&bscr=2.3025382&scr=2.3025382"
  },
  {
   "company": "Delvo",
@@ -2277,7 +2173,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=typescript&jobAge=634&brelb=15&scr=57.949066&bscr=57.949066&aq=5407519237548284884&elckey=4811624045720375826"
+  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=typescript&jobAge=636&brelb=15&scr=58.868282&bscr=58.868282&aq=-1243799587126563830&elckey=1779244564490114684"
  },
  {
   "company": "SCAILE",
@@ -2285,15 +2181,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6796360922697388260?ckey=typescript&rgn=55146&pos=2&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=778&brelb=15&bscr=55.477367&scr=55.477367"
- },
- {
-  "company": "Parloa",
-  "title": "Staff Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=typescript&rgn=55146&pos=7&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=514&brelb=100&bscr=28.253017&scr=28.253017"
+  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=2&rgn=55146&cid=22409&ckey=typescript&jobAge=780&brelb=15&scr=56.532536&bscr=56.532536&aq=-1243799587126563830&elckey=1779244564490114684"
  },
  {
   "company": "SelectCode",
@@ -2301,47 +2189,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=typescript&rgn=55146&pos=8&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=682&brelb=100&bscr=28.060137&scr=28.060137"
- },
- {
-  "company": "Cello (cello.so)",
-  "title": "Senior Platform Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=typescript&rgn=55146&pos=9&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=322&brelb=100&bscr=25.344067&scr=25.344067"
- },
- {
-  "company": "Leegle",
-  "title": "Senior Founding Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=typescript&rgn=55146&pos=10&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=562&brelb=100&bscr=24.971107&scr=24.971107"
- },
- {
-  "company": "Leegle",
-  "title": "Founding Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=typescript&rgn=55146&pos=14&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=562&brelb=100&bscr=23.867928&scr=23.867928"
- },
- {
-  "company": "Upvest",
-  "title": "Senior Fullstack Engineer (f/m/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=typescript&rgn=55146&pos=19&groupId=41651&elckey=4811624045720375826&p=1&aq=5407519237548284884&cid=22409&jobAge=1042&brelb=100&bscr=17.357819&scr=17.357819"
- },
- {
-  "company": "Delvo",
-  "title": "Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-5568366705037875658?ckey=softwareentwickler+react&rgn=55146&pos=1&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=634&brelb=15&bscr=129.98035&scr=129.98035"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=typescript&rgn=55146&pos=7&groupId=41651&elckey=1779244564490114684&p=1&aq=-1243799587126563830&cid=22409&jobAge=684&brelb=100&bscr=28.66539&scr=28.66539"
  },
  {
   "company": "Parloa",
@@ -2349,23 +2197,31 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6176875895944317264?ckey=softwareentwickler+react&rgn=55146&pos=2&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=514&brelb=100&bscr=94.57652&scr=94.57652"
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=typescript&rgn=55146&pos=8&groupId=41651&elckey=1779244564490114684&p=1&aq=-1243799587126563830&cid=22409&jobAge=516&brelb=100&bscr=28.479927&scr=28.479927"
  },
  {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
+  "company": "Cello (cello.so)",
+  "title": "Senior Platform Software Engineer",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=softwareentwickler+react&rgn=55146&pos=4&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=58&brelb=10&bscr=66.625114&scr=66.625114"
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=typescript&rgn=55146&pos=9&groupId=41651&elckey=1779244564490114684&p=1&aq=-1243799587126563830&cid=22409&jobAge=324&brelb=100&bscr=25.708374&scr=25.708374"
  },
  {
-  "company": "IDnow",
-  "title": "Solution Engineer (f/m/d)",
+  "company": "Leegle",
+  "title": "Senior Founding Product Engineer",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-1134249869557940895?ckey=softwareentwickler+react&rgn=55146&pos=5&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=394&brelb=100&bscr=54.81569&scr=54.81569"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=typescript&rgn=55146&pos=10&groupId=41651&elckey=1779244564490114684&p=1&aq=-1243799587126563830&cid=22409&jobAge=564&brelb=100&bscr=25.356804&scr=25.356804"
+ },
+ {
+  "company": "Leegle",
+  "title": "Founding Product Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=typescript&rgn=55146&pos=13&groupId=41651&elckey=1779244564490114684&p=1&aq=-1243799587126563830&cid=22409&jobAge=564&brelb=100&bscr=24.230103&scr=24.230103"
  },
  {
   "company": "Upvest",
@@ -2373,7 +2229,39 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=softwareentwickler+react&rgn=55146&pos=6&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=1042&brelb=100&bscr=48.316383&scr=48.316383"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=typescript&rgn=55146&pos=19&groupId=41651&elckey=1779244564490114684&p=1&aq=-1243799587126563830&cid=22409&jobAge=1044&brelb=100&bscr=17.447456&scr=17.447456"
+ },
+ {
+  "company": "Delvo",
+  "title": "Product Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=1&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=636&brelb=15&scr=131.91908&bscr=131.91908&aq=-4832957361467236803&elckey=3611060009229412524"
+ },
+ {
+  "company": "Parloa",
+  "title": "Staff Software Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-6176875895944317264?ckey=softwareentwickler+react&rgn=55146&pos=2&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=516&brelb=100&bscr=96.030014&scr=96.030014"
+ },
+ {
+  "company": "20four7va",
+  "title": "AI & ML Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=softwareentwickler+react&rgn=55146&pos=4&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=60&brelb=10&bscr=66.96951&scr=66.96951"
+ },
+ {
+  "company": "IDnow",
+  "title": "Solution Engineer (f/m/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-1134249869557940895?ckey=softwareentwickler+react&rgn=55146&pos=5&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=396&brelb=100&bscr=55.475784&scr=55.475784"
  },
  {
   "company": "Augustus",
@@ -2381,143 +2269,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/1260614507841549232?p=1&pos=7&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=946&brelb=15&scr=46.237125&bscr=46.237125&aq=-1641258468344537052&elckey=6643439490459673666"
- },
- {
-  "company": "SelectCode",
-  "title": "(Senior) Product Engineer (w/m/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=softwareentwickler+react&rgn=55146&pos=8&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=682&brelb=100&bscr=45.36107&scr=45.36107"
- },
- {
-  "company": "Leegle",
-  "title": "Senior Founding Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=softwareentwickler+react&rgn=55146&pos=10&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=562&brelb=100&bscr=42.65595&scr=42.65595"
- },
- {
-  "company": "SCAILE",
-  "title": "Senior Full-Stack Developer (Backend Focus)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=11&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=778&brelb=15&scr=41.980476&bscr=41.980476&aq=-1641258468344537052&elckey=6643439490459673666"
- },
- {
-  "company": "Leegle",
-  "title": "Founding Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3669199562150775701?ckey=softwareentwickler+react&rgn=55146&pos=12&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=562&brelb=100&bscr=41.740524&scr=41.740524"
- },
- {
-  "company": "ABB E-mobility",
-  "title": "Solution Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-4316457707064804427?ckey=softwareentwickler+react&rgn=55146&pos=14&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=538&brelb=15&bscr=37.533447&scr=37.533447"
- },
- {
-  "company": "IDnow",
-  "title": "IT Integration Engineer (f/m/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/-4180730514795065688?p=1&pos=16&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=778&brelb=15&scr=25.183872&bscr=25.183872&aq=-1641258468344537052&elckey=6643439490459673666"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=softwareentwickler+react&rgn=55146&pos=17&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=3226&brelb=100&bscr=23.527512&scr=23.527512"
- },
- {
-  "company": "Applied Intuition",
-  "title": "Software Engineer - Mapping and Localization",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-338132375457953131?ckey=softwareentwickler+react&rgn=55146&pos=19&groupId=-846279423&elckey=6643439490459673666&p=1&aq=-1641258468344537052&cid=22409&jobAge=562&brelb=100&bscr=20.443499&scr=20.443499"
- },
- {
-  "company": "Eversource Energy",
-  "title": "Lead Engineer, Grid Operations Technology (Hybrid Schedule))",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-1033862029372602186?ckey=softwareentwickler+react&rgn=55146&pos=21&groupId=-846279423&elckey=6643439490459673666&p=2&aq=618108606050402706&cid=22409&jobAge=322&brelb=100&bscr=18.296299&scr=18.296299"
- },
- {
-  "company": "Cello (cello.so)",
-  "title": "Senior Platform Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-631606560699857196?ckey=softwareentwickler+react&rgn=55146&pos=25&groupId=-846279423&elckey=6643439490459673666&p=2&aq=618108606050402706&cid=22409&jobAge=322&brelb=100&bscr=16.77806&scr=16.77806"
- },
- {
-  "company": "homie AI",
-  "title": "Full Stack Developer (AI SaaS)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-6320563847304922999?ckey=softwareentwickler+react&rgn=55146&pos=29&groupId=-846279423&elckey=6643439490459673666&p=2&aq=618108606050402706&cid=22409&jobAge=514&brelb=100&bscr=15.550659&scr=15.550659"
- },
- {
-  "company": "World",
-  "title": "Software Engineer, ML Ops and Platform",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-7279234623258571084?ckey=softwareentwickler+react&rgn=55146&pos=32&groupId=-846279423&elckey=6643439490459673666&p=2&aq=618108606050402706&cid=22409&jobAge=1354&brelb=100&bscr=13.555685&scr=13.555685"
- },
- {
-  "company": "Founders Factory",
-  "title": "Founding Lead Engineer — AI & Workflow Automation",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8607187707887391882?ckey=softwareentwickler+react&rgn=55146&pos=36&groupId=-846279423&elckey=6643439490459673666&p=2&aq=618108606050402706&cid=22409&jobAge=1402&brelb=100&bscr=12.458847&scr=12.458847"
- },
- {
-  "company": "Product· Full-time",
-  "title": "Founding Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/2642892934218966806?ckey=softwareentwickler+react&rgn=55146&pos=38&groupId=-846279423&elckey=6643439490459673666&p=2&aq=618108606050402706&cid=22409&jobAge=2746&brelb=100&bscr=11.054913&scr=11.054913"
- },
- {
-  "company": "SCAILE",
-  "title": "Senior Full-Stack Developer (Backend Focus)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=1&rgn=55146&cid=22409&ckey=frontend+entwickler&jobAge=778&brelb=15&scr=64.161865&bscr=64.161865&aq=7782868282180644032&elckey=-8331492898046930320"
- },
- {
-  "company": "Delvo",
-  "title": "Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=2&rgn=55146&cid=22409&ckey=frontend+entwickler&jobAge=634&brelb=15&scr=44.142887&bscr=44.142887&aq=7782868282180644032&elckey=-8331492898046930320"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+entwickler&rgn=55146&pos=4&groupId=40304&elckey=-8331492898046930320&p=1&aq=7782868282180644032&cid=22409&jobAge=3226&brelb=100&bscr=26.130466&scr=26.130466"
+  "url": "https://jooble.org/away/1260614507841549232?p=1&pos=6&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=948&brelb=15&scr=49.212517&bscr=49.212517&aq=-4832957361467236803&elckey=3611060009229412524"
  },
  {
   "company": "Upvest",
@@ -2525,23 +2277,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-7301058896810918370?ckey=frontend+entwickler&rgn=55146&pos=6&groupId=40304&elckey=-8331492898046930320&p=1&aq=7782868282180644032&cid=22409&jobAge=1042&brelb=100&bscr=24.192776&scr=24.192776"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+entwickler&rgn=55146&pos=7&groupId=40304&elckey=-8331492898046930320&p=1&aq=7782868282180644032&cid=22409&jobAge=58&brelb=10&bscr=23.099068&scr=23.099068"
- },
- {
-  "company": "IDnow",
-  "title": "Solution Engineer (f/m/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-1134249869557940895?ckey=frontend+entwickler&rgn=55146&pos=8&groupId=40304&elckey=-8331492898046930320&p=1&aq=7782868282180644032&cid=22409&jobAge=394&brelb=100&bscr=22.688091&scr=22.688091"
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=softwareentwickler+react&rgn=55146&pos=7&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=1044&brelb=100&bscr=49.09725&scr=49.09725"
  },
  {
   "company": "SelectCode",
@@ -2549,7 +2285,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3561024259989035204?ckey=frontend+entwickler&rgn=55146&pos=9&groupId=40304&elckey=-8331492898046930320&p=1&aq=7782868282180644032&cid=22409&jobAge=682&brelb=100&bscr=21.325048&scr=21.325048"
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=softwareentwickler+react&rgn=55146&pos=8&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=684&brelb=100&bscr=45.966553&scr=45.966553"
  },
  {
   "company": "Leegle",
@@ -2557,7 +2293,71 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4851769486813526532?ckey=frontend+entwickler&rgn=55146&pos=10&groupId=40304&elckey=-8331492898046930320&p=1&aq=7782868282180644032&cid=22409&jobAge=562&brelb=100&bscr=18.91012&scr=18.91012"
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=softwareentwickler+react&rgn=55146&pos=9&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=564&brelb=100&bscr=43.298088&scr=43.298088"
+ },
+ {
+  "company": "SCAILE",
+  "title": "Senior Full-Stack Developer (Backend Focus)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/away/6796360922697388260?p=1&pos=11&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=780&brelb=15&scr=43.180325&bscr=43.180325&aq=-4832957361467236803&elckey=3611060009229412524"
+ },
+ {
+  "company": "Leegle",
+  "title": "Founding Product Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/3669199562150775701?ckey=softwareentwickler+react&rgn=55146&pos=12&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=564&brelb=100&bscr=42.36695&scr=42.36695"
+ },
+ {
+  "company": "ABB E-mobility",
+  "title": "Solution Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-4316457707064804427?ckey=softwareentwickler+react&rgn=55146&pos=14&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=540&brelb=15&bscr=38.7927&scr=38.7927"
+ },
+ {
+  "company": "IDnow",
+  "title": "IT Integration Engineer (f/m/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-4180730514795065688?ckey=softwareentwickler+react&rgn=55146&pos=16&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=780&brelb=15&bscr=25.632572&scr=25.632572"
+ },
+ {
+  "company": "Software Engineering· Full-time",
+  "title": "Full-Stack Developer, Music & Audio",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=softwareentwickler+react&rgn=55146&pos=17&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=3228&brelb=100&bscr=24.139252&scr=24.139252"
+ },
+ {
+  "company": "Applied Intuition",
+  "title": "Software Engineer - Mapping and Localization",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-338132375457953131?ckey=softwareentwickler+react&rgn=55146&pos=19&groupId=-846279423&elckey=3611060009229412524&p=1&aq=-4832957361467236803&cid=22409&jobAge=564&brelb=100&bscr=21.299145&scr=21.299145"
+ },
+ {
+  "company": "Eversource Energy",
+  "title": "Lead Engineer, Grid Operations Technology (Hybrid Schedule))",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-1033862029372602186?ckey=softwareentwickler+react&rgn=55146&pos=21&groupId=-846279423&elckey=3611060009229412524&p=2&aq=-2328158623636786407&cid=22409&jobAge=324&brelb=100&bscr=18.532774&scr=18.532774"
+ },
+ {
+  "company": "Cello (cello.so)",
+  "title": "Senior Platform Software Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-631606560699857196?ckey=softwareentwickler+react&rgn=55146&pos=25&groupId=-846279423&elckey=3611060009229412524&p=2&aq=-2328158623636786407&cid=22409&jobAge=324&brelb=100&bscr=17.115715&scr=17.115715"
  },
  {
   "company": "homie AI",
@@ -2565,7 +2365,119 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-6320563847304922999?ckey=frontend+entwickler&rgn=55146&pos=24&groupId=40304&elckey=-8331492898046930320&p=2&aq=-8414888126521559100&cid=22409&jobAge=514&brelb=100&bscr=5.4789405&scr=5.4789405"
+  "url": "https://jooble.org/desc/-6320563847304922999?ckey=softwareentwickler+react&rgn=55146&pos=29&groupId=-846279423&elckey=3611060009229412524&p=2&aq=-2328158623636786407&cid=22409&jobAge=516&brelb=100&bscr=15.914722&scr=15.914722"
+ },
+ {
+  "company": "World",
+  "title": "Software Engineer, ML Ops and Platform",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-7279234623258571084?ckey=softwareentwickler+react&rgn=55146&pos=32&groupId=-846279423&elckey=3611060009229412524&p=2&aq=-2328158623636786407&cid=22409&jobAge=1356&brelb=100&bscr=13.920632&scr=13.920632"
+ },
+ {
+  "company": "Founders Factory",
+  "title": "Founding Lead Engineer — AI & Workflow Automation",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-8607187707887391882?ckey=softwareentwickler+react&rgn=55146&pos=36&groupId=-846279423&elckey=3611060009229412524&p=2&aq=-2328158623636786407&cid=22409&jobAge=1404&brelb=100&bscr=12.796983&scr=12.796983"
+ },
+ {
+  "company": "Product· Full-time",
+  "title": "Founding Product Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/2642892934218966806?ckey=softwareentwickler+react&rgn=55146&pos=38&groupId=-846279423&elckey=3611060009229412524&p=2&aq=-2328158623636786407&cid=22409&jobAge=2748&brelb=100&bscr=11.101144&scr=11.101144"
+ },
+ {
+  "company": "SCAILE",
+  "title": "Senior Full-Stack Developer (Backend Focus)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/6796360922697388260?ckey=frontend+entwickler&rgn=55146&pos=1&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=780&brelb=15&bscr=65.59394&scr=65.59394"
+ },
+ {
+  "company": "Delvo",
+  "title": "Product Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/away/-5568366705037875658?p=1&pos=2&rgn=55146&cid=22409&ckey=frontend+entwickler&jobAge=636&brelb=15&scr=44.599483&bscr=44.599483&aq=-8322331478981483920&elckey=7082871694432360154"
+ },
+ {
+  "company": "Software Engineering· Full-time",
+  "title": "Full-Stack Developer, Music & Audio",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+entwickler&rgn=55146&pos=4&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=3228&brelb=100&bscr=26.322147&scr=26.322147"
+ },
+ {
+  "company": "Upvest",
+  "title": "Senior Fullstack Engineer (f/m/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-7301058896810918370?ckey=frontend+entwickler&rgn=55146&pos=6&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=1044&brelb=100&bscr=24.481327&scr=24.481327"
+ },
+ {
+  "company": "20four7va",
+  "title": "AI & ML Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+entwickler&rgn=55146&pos=7&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=60&brelb=10&bscr=23.477476&scr=23.477476"
+ },
+ {
+  "company": "IDnow",
+  "title": "Solution Engineer (f/m/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-1134249869557940895?ckey=frontend+entwickler&rgn=55146&pos=8&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=396&brelb=100&bscr=22.973433&scr=22.973433"
+ },
+ {
+  "company": "SelectCode",
+  "title": "(Senior) Product Engineer (w/m/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/3561024259989035204?ckey=frontend+entwickler&rgn=55146&pos=9&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=684&brelb=100&bscr=21.504004&scr=21.504004"
+ },
+ {
+  "company": "Leegle",
+  "title": "Senior Founding Product Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/4851769486813526532?ckey=frontend+entwickler&rgn=55146&pos=10&groupId=40304&elckey=7082871694432360154&p=1&aq=-8322331478981483920&cid=22409&jobAge=564&brelb=100&bscr=18.91598&scr=18.91598"
+ },
+ {
+  "company": "homie AI",
+  "title": "Full Stack Developer (AI SaaS)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-6320563847304922999?ckey=frontend+entwickler&rgn=55146&pos=25&groupId=40304&elckey=7082871694432360154&p=2&aq=3216334695953991235&cid=22409&jobAge=516&brelb=100&bscr=5.6478415&scr=5.6478415"
+ },
+ {
+  "company": "Pandektes",
+  "title": "Senior Product Engineer",
+  "location": "Copenhagen / Denmark",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/pandektes/de20f12c-79ab-4d6e-9b35-e033a8322e60"
+ },
+ {
+  "company": "Pandektes",
+  "title": "Product Engineer",
+  "location": "Copenhagen / Denmark",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/pandektes/4a4e8158-06ef-4b6b-ab8c-c066ee48c7d9"
  },
  {
   "company": "SoSafe",
@@ -2592,22 +2504,6 @@
   "url": "https://jobs.ashbyhq.com/sosafe/ea7c6c30-fb67-4dea-ae08-a0f12bc400fa"
  },
  {
-  "company": "Pandektes",
-  "title": "Senior Product Engineer",
-  "location": "Copenhagen / Denmark",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/pandektes/de20f12c-79ab-4d6e-9b35-e033a8322e60"
- },
- {
-  "company": "Pandektes",
-  "title": "Product Engineer",
-  "location": "Copenhagen / Denmark",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/pandektes/4a4e8158-06ef-4b6b-ab8c-c066ee48c7d9"
- },
- {
   "company": "i22",
   "title": "(Senior) Software Engineer – Frontend, Backend oder Full-Stack (m/w/d)",
   "location": "Hybrid",
@@ -2622,14 +2518,6 @@
   "remote": null,
   "source": "personio",
   "url": "https://chargecloud-gmbh.jobs.personio.com/job/2713912?language=en"
- },
- {
-  "company": "Talon.One",
-  "title": "Frontend Engineer",
-  "location": "Berlin / Berlin",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://www.talon.one/job-listing?gh_jid=4917445101"
  },
  {
   "company": "Staffbase",
@@ -2654,6 +2542,14 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/staffbase/jobs/8632485002"
+ },
+ {
+  "company": "Talon.One",
+  "title": "Frontend Engineer",
+  "location": "Berlin / Berlin",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://www.talon.one/job-listing?gh_jid=4917445101"
  },
  {
   "company": "JTL-Software",
@@ -2688,6 +2584,22 @@
   "url": "https://zollsoft.jobs.personio.com/job/2700747?language=en"
  },
  {
+  "company": "Langdock",
+  "title": "(Senior) Design Engineer - m/f/d",
+  "location": "Berlin / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/langdock/b443b7ae-975e-42da-b515-58fcf9870839"
+ },
+ {
+  "company": "Langdock",
+  "title": "(Senior) Product Engineer - m/f/d",
+  "location": "Berlin / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/langdock/ba8e2d17-818f-4ffb-b5ee-05d97b59a596"
+ },
+ {
   "company": "Parloa",
   "title": "Senior Software Engineer",
   "location": "Berlin Office / Berlin HQ",
@@ -2710,22 +2622,6 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.eu.greenhouse.io/parloa/jobs/4842135101"
- },
- {
-  "company": "Langdock",
-  "title": "(Senior) Design Engineer - m/f/d",
-  "location": "Berlin / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/langdock/b443b7ae-975e-42da-b515-58fcf9870839"
- },
- {
-  "company": "Langdock",
-  "title": "(Senior) Product Engineer - m/f/d",
-  "location": "Berlin / Germany",
-  "remote": false,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/langdock/ba8e2d17-818f-4ffb-b5ee-05d97b59a596"
  },
  {
   "company": "Pliant",
@@ -2808,36 +2704,12 @@
   "url": "https://job-boards.greenhouse.io/contentful/jobs/8233486"
  },
  {
-  "company": "Celonis",
-  "title": "AI Product Engineer (Demo)",
-  "location": "Madrid, Spain / Madrid, Spain",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/celonis/jobs/8002490003?gh_jid=8002490003"
- },
- {
-  "company": "Celonis",
-  "title": "Sr. Frontend Engineer - Process Modeling Team",
-  "location": "Madrid, Spain / Madrid, Spain",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://job-boards.greenhouse.io/celonis/jobs/7884206003?gh_jid=7884206003"
- },
- {
   "company": "Governikus",
   "title": "Frontend Developer | Digitale Signaturen (m/w/d)",
   "location": "Bremen",
   "remote": null,
   "source": "personio",
   "url": "https://governikus.jobs.personio.de/job/2702976?language=en"
- },
- {
-  "company": "Redcare Pharmacy",
-  "title": "Senior Fullstack Engineer, Node.js & React.js (m/f/d)",
-  "location": "Berlin / BE / de",
-  "remote": false,
-  "source": "smartrecruiters",
-  "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000149620455"
  },
  {
   "company": "Helsing",
@@ -2864,6 +2736,30 @@
   "url": "https://helsing.ai/jobs/4741242101?gh_jid=4741242101"
  },
  {
+  "company": "Redcare Pharmacy",
+  "title": "Senior Fullstack Engineer, Node.js & React.js (m/f/d)",
+  "location": "Berlin / BE / de",
+  "remote": false,
+  "source": "smartrecruiters",
+  "url": "https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000149620455"
+ },
+ {
+  "company": "Celonis",
+  "title": "AI Product Engineer (Demo)",
+  "location": "Madrid, Spain / Madrid, Spain",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/celonis/jobs/8002490003?gh_jid=8002490003"
+ },
+ {
+  "company": "Celonis",
+  "title": "Sr. Frontend Engineer - Process Modeling Team",
+  "location": "Madrid, Spain / Madrid, Spain",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/celonis/jobs/7884206003?gh_jid=7884206003"
+ },
+ {
   "company": "Qonto",
   "title": "Senior Web Engineer (React) - Remote friendly",
   "location": "Milan, Italy / Italy",
@@ -2878,6 +2774,30 @@
   "remote": true,
   "source": "ashby",
   "url": "https://jobs.ashbyhq.com/qonto/8e8f149e-3c69-44d4-a602-4203adb7ec06"
+ },
+ {
+  "company": "Sanity",
+  "title": "Senior Software Engineer, AI Developer Experience",
+  "location": "Remote in the United States / San Francisco Bay Area / United States",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/sanity/371433d5-dc01-43c3-bb82-67ce2902488e"
+ },
+ {
+  "company": "Sanity",
+  "title": "Senior Developer Advocate",
+  "location": "Remote in the United States / Remote in the UK / United States",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/sanity/11b54218-44f5-4cec-bc66-9abfb140f3c5"
+ },
+ {
+  "company": "Sanity",
+  "title": "Senior Software Engineer, Content Agent",
+  "location": "London, UK / Oslo, Norway / United Kingdom",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/sanity/52fc85b3-fa35-48ec-ae43-63f8e7d22ac7"
  },
  {
   "company": "Scalable Capital",
@@ -3006,30 +2926,6 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://boards.greenhouse.io/neo4j/jobs/4716565006?gh_jid=4716565006"
- },
- {
-  "company": "Sanity",
-  "title": "Senior Software Engineer, AI Developer Experience",
-  "location": "Remote in the United States / San Francisco Bay Area / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/sanity/371433d5-dc01-43c3-bb82-67ce2902488e"
- },
- {
-  "company": "Sanity",
-  "title": "Senior Developer Advocate",
-  "location": "Remote in the United States / Remote in the UK / United States",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/sanity/11b54218-44f5-4cec-bc66-9abfb140f3c5"
- },
- {
-  "company": "Sanity",
-  "title": "Senior Software Engineer, Content Agent",
-  "location": "London, UK / Oslo, Norway / United Kingdom",
-  "remote": true,
-  "source": "ashby",
-  "url": "https://jobs.ashbyhq.com/sanity/52fc85b3-fa35-48ec-ae43-63f8e7d22ac7"
  },
  {
   "company": "Supabase",
@@ -3198,5 +3094,109 @@
   "remote": null,
   "source": "greenhouse",
   "url": "https://job-boards.greenhouse.io/canonical/jobs/7574469"
+ },
+ {
+  "company": "Canonical",
+  "title": "Web Developer",
+  "location": "Home based - EMEA / Home Based - EMEA",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/canonical/jobs/2804965"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "Software Engineer – Mission Control Software",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/ea754862-55ec-4677-bd8c-fdc3e9e9b3ea"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "CAD Design Engineer",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/f6df55b7-198a-4933-9850-4d37c4a616df"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "Composite CAD Design Engineer",
+  "location": "Munich, Germany / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/5b1b1345-65f3-478b-835f-961b566c9a42"
+ },
+ {
+  "company": "The Exploration Company",
+  "title": "Mechanism Design Engineer",
+  "location": "Turin, Italy / Italy",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/the-exploration-company/97f66d2f-0a39-4a00-9359-c8f84c692c47"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Application Software Engineer (f/m/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4950930101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Lead Full Stack Software Engineer - Internal Platforms (f/m/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5014934101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Propulsion Design Engineer, Propulsion - Engine Integration (w/m/f)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4982831101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Propulsion Design Engineer, Propulsion (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5011474101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Propulsion Test Design Engineer (m/f/d)",
+  "location": "Kiruna, Norrbotten, Sweden / Kiruna, Sweden",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5017349101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "(Senior) Design Engineer (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4642289101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Senior Structures Design Engineer, Launch Vehicle Structures (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4978727101"
+ },
+ {
+  "company": "Isar Aerospace",
+  "title": "Structural Design Engineer, Spectrum (m/f/d)",
+  "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4999532101"
  }
 ]

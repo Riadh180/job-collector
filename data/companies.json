@@ -2309,7 +2309,8 @@
   "ats": "ashby",
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-10-30"
+  "lastOk": "2026-10-30",
+  "failCount": 1
  },
  {
   "name": "Deutsche Glasfaser",
@@ -4541,7 +4542,7 @@
   "slug": "valtech",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-30",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Experian",
@@ -7651,7 +7652,8 @@
   "slug": "optios",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Deep DSG",
@@ -10364,8 +10366,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Voyant Photonics",
@@ -10511,8 +10512,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Getolo",
@@ -10520,8 +10520,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "EverAI",
@@ -10873,8 +10872,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "TrustEngine",
@@ -10882,8 +10880,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "HireHawk",
@@ -10891,8 +10888,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "DigitalService",
@@ -10932,8 +10928,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Thorlabs",
@@ -10941,8 +10936,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "1Password",
@@ -11254,8 +11248,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Lamdax",
@@ -11263,8 +11256,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Leadway Pensure",
@@ -11522,8 +11514,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Intuitive",
@@ -11627,8 +11618,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Distru",
@@ -11780,8 +11770,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Wunder Mobility",
@@ -11901,8 +11890,7 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-10-30",
-  "failCount": 1
+  "lastOk": "2026-10-30"
  },
  {
   "name": "Yassir",
@@ -12165,6 +12153,62 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "workwave",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Capco",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "capco",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "OpenX",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "openx",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Veramed",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "veramed",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "ShopFully",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "shopfully",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Alter Solutions",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "altersolutions",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "PolicyMe",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "policyme",
+  "addedBy": "probe 2026-10-30",
+  "lastOk": "2026-10-30"
+ },
+ {
+  "name": "Deutsche Telekom IT Solutions Slovakia",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "deutschetelekomitsolutionsslovakia",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-10-30"
  }
