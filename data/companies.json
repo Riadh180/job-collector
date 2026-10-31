@@ -2310,7 +2310,7 @@
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Deutsche Glasfaser",
@@ -4542,7 +4542,7 @@
   "slug": "valtech",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-30",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Experian",
@@ -10366,8 +10366,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Voyant Photonics",
@@ -10513,8 +10512,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Getolo",
@@ -10522,8 +10520,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "EverAI",
@@ -10875,8 +10872,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "TrustEngine",
@@ -10884,8 +10880,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "HireHawk",
@@ -10893,8 +10888,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "DigitalService",
@@ -10934,8 +10928,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Thorlabs",
@@ -10943,8 +10936,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "1Password",
@@ -11256,8 +11248,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Lamdax",
@@ -11265,8 +11256,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Leadway Pensure",
@@ -11524,8 +11514,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Intuitive",
@@ -11629,8 +11618,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Distru",
@@ -11782,8 +11770,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Wunder Mobility",
@@ -11903,8 +11890,7 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-10-30",
-  "failCount": 3
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Yassir",
@@ -12176,7 +12162,7 @@
   "ats": "workable",
   "slug": "thanx",
   "addedBy": "probe 2026-10-31",
-  "failCount": 2
+  "lastOk": "2026-10-31"
  },
  {
   "name": "Litify",
@@ -12279,6 +12265,46 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "braze",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "Paperpile",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "paperpile",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "Makersite GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "makersitegmbh",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "Gcore",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "gcore",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "CXT Software",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "cxtsoftware",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "TMS, LLC",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "tmsgmbh",
   "addedBy": "probe 2026-10-31",
   "lastOk": "2026-10-31"
  }
