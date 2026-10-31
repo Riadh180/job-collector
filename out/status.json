@@ -7,7 +7,7 @@
    "fetched": 307
   },
   "arbeitnow": {
-   "fetched": 3399
+   "fetched": 3397
   },
   "remotive": {
    "fetched": 104
@@ -31,7 +31,7 @@
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 628
+   "fetched": 627
   },
   "jooble": {
    "fetched": 259
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1436,
-   "failed": 18
+   "checked": 1438,
+   "failed": 17
   }
  },
  "errors": {
@@ -50,9 +50,10 @@
    "Valtech": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "TrustEngine": "HTTP 429",
+   "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
@@ -127,36 +128,28 @@
   "calls": 39
  },
  "probe": {
-  "tried": 82,
+  "tried": 32,
   "found": [
-   "Thanx (workable:thanx)",
-   "Litify (greenhouse:litify)",
-   "CERTUSS GmbH (recruitee:certuss)",
-   "Velo3D (lever:velo3d)",
-   "Merlin Labs (lever:merlinlabs)",
-   "Esri (greenhouse:esri)",
-   "Plenti (lever:plenti)",
-   "InnoCraft (lever:innocraft)",
-   "ThriveCart (greenhouse:thrivecart)",
-   "Hercules (ashby:hercules)",
-   "Lighthouse (greenhouse:lighthouse)"
+   "PolicyMe (lever:policyme)",
+   "Unlimit (lever:unlimit)",
+   "Braze (greenhouse:braze)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-31T10:01:28+00:00",
- "rawJobs": 74336,
+ "collectedAt": "2026-10-31T10:41:22+00:00",
+ "rawJobs": 74753,
  "matches": 159,
- "new": 2,
- "companies": 1508,
- "activeCompanies": 1436,
+ "new": 0,
+ "companies": 1511,
+ "activeCompanies": 1438,
  "funnel": {
-  "title": 71536,
+  "title": 71922,
   "passed": 187,
   "too_old": 154,
-  "location": 2407,
+  "location": 2438,
   "company": 22,
   "duplicate": 28,
   "employment": 19,
@@ -173,7 +166,6 @@
   "recruitee": 16,
   "germantechjobs": 2,
   "smartrecruiters": 2,
-  "himalayas": 2,
   "hn": 5
  }
 }

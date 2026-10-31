@@ -2310,7 +2310,7 @@
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-30",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Deutsche Glasfaser",
@@ -4542,7 +4542,7 @@
   "slug": "valtech",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Experian",
@@ -10367,7 +10367,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Voyant Photonics",
@@ -10514,7 +10514,7 @@
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Getolo",
@@ -10523,7 +10523,7 @@
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "EverAI",
@@ -10876,7 +10876,7 @@
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "TrustEngine",
@@ -10885,7 +10885,7 @@
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "HireHawk",
@@ -10894,7 +10894,7 @@
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "DigitalService",
@@ -10935,7 +10935,7 @@
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Thorlabs",
@@ -10944,7 +10944,7 @@
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "1Password",
@@ -11257,7 +11257,7 @@
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Lamdax",
@@ -11266,7 +11266,7 @@
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Leadway Pensure",
@@ -11525,7 +11525,7 @@
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Intuitive",
@@ -11630,7 +11630,7 @@
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Distru",
@@ -11783,7 +11783,7 @@
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Wunder Mobility",
@@ -11904,7 +11904,7 @@
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Yassir",
@@ -12176,7 +12176,7 @@
   "ats": "workable",
   "slug": "thanx",
   "addedBy": "probe 2026-10-31",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Litify",
@@ -12255,6 +12255,30 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "lighthouse",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "PolicyMe",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "policyme",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "Unlimit",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "unlimit",
+  "addedBy": "probe 2026-10-31",
+  "lastOk": "2026-10-31"
+ },
+ {
+  "name": "Braze",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "braze",
   "addedBy": "probe 2026-10-31",
   "lastOk": "2026-10-31"
  }
