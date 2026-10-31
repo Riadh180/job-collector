@@ -1,7 +1,52 @@
 {
- "collectedAt": "2026-10-30T19:51:05+00:00",
- "count": 161,
+ "collectedAt": "2026-10-31T10:01:28+00:00",
+ "count": 159,
  "jobs": [
+  {
+   "id": "weworkremotely:https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "company": "Ritual",
+   "title": "Developer Experience Engineer",
+   "url": "https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "location": "Anywhere in the World",
+   "remote": true,
+   "postedAt": "2026-10-31",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "weworkremotely",
+   "ats": "weworkremotely",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. | To apply: https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "remoteProof": "Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. | To apply: https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "firstSeen": "2026-10-31T10:01:28+00:00"
+  },
+  {
+   "id": "greenhouse:litify:8334694",
+   "company": "Litify",
+   "title": "Software Engineer (Time & Billing)",
+   "url": "https://job-boards.greenhouse.io/litify/jobs/8334694",
+   "location": "Anywhere, USA",
+   "remote": null,
+   "postedAt": "2026-10-29",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Prior Salesforce experience isn’t required: if you come from Java, C#, TypeScript, or a similar stack, senior engineers on the team will help you learn the platform. | Our NYC/NJ employees adhere to our hybrid schedule, which involves working in our Manhattan office 6 days a month. | The estimated base salary for this role is $115-120k. | Our salary ranges are based on paying competitively for our size and industry, and are one part of many compensation, benefits and other reward opportunities we provide.",
+   "remoteProof": "Our NYC/NJ employees adhere to our hybrid schedule, which involves working in our Manhattan office 6 days a month.",
+   "firstSeen": "2026-10-31T10:01:28+00:00"
+  },
   {
    "id": "arbeitnow:senior-full-stack-developer-schwerpunkt-typescript-saas-plattform-berlin-229612",
    "company": "IT Studio Rech GmbH",
@@ -292,7 +337,7 @@
    "id": "jooble:4099517956178006872",
    "company": "20four7va",
    "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=22&groupId=-675061143&elckey=-6669787039093244936&p=2&aq=6200696385460863255&cid=22409&jobAge=61&brelb=10&bscr=8.791536&scr=8.791536",
+   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=21&groupId=-675061143&elckey=-8496817380623347668&p=2&aq=5443615354609043283&cid=22409&jobAge=76&brelb=10&bscr=8.616127&scr=8.616127",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
@@ -654,52 +699,6 @@
    "firstSeen": "2026-10-26T20:18:01+00:00"
   },
   {
-   "id": "arbeitnow:product-engineer-cologne-10607",
-   "company": "ilert GmbH",
-   "title": "Product Engineer (f/m/x)",
-   "url": "https://www.arbeitnow.com/jobs/companies/ilert-gmbh/product-engineer-cologne-10607",
-   "location": "Cologne",
-   "remote": false,
-   "postedAt": "2026-10-26",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Permanent employment (unbefristeter arbeitsvertrag)",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "Cologne, Germany (Hybrid) Team: Product & Engineering · | Format: Full-time, permanent Own a piece of the product, not a ticket queue ilert is the alerting, on-call and incident response platform that engineering teams worldwide rely on when things break. | Java and Rust on the backend, React and TypeScript on the frontend. | What you bring 2+ years of software engineering in a team codebase. | Fluent English (our working language). | Able to be in our Cologne office 3 days a week. | Bonus Experience at a B2B SaaS or developer-tools company Exposure to incident management, DevOps, SRE or on-call, or just real curiosity about it. | 🏡 Hybrid Freedom: Our office in Cologne Rheinauhafen with a r",
-   "remoteProof": "Cologne, Germany (Hybrid) Team: Product & Engineering · | Able to be in our Cologne office 3 days a week. | 🏡 Hybrid Freedom: Our office in Cologne Rheinauhafen with a roof terrace (3 days/week), plus work from home on Tuesdays and Thursdays.",
-   "firstSeen": "2026-10-26T18:49:19+00:00"
-  },
-  {
-   "id": "arbeitnow:senior-product-engineer-berlin-253211",
-   "company": "Cosuno",
-   "title": "Senior Product Engineer",
-   "url": "https://www.arbeitnow.com/jobs/companies/cosuno/senior-product-engineer-berlin-253211",
-   "location": "Berlin/Remote",
-   "remote": false,
-   "postedAt": "2026-10-26",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Your profile TypeScript, React, Node: Non-negotiable. | Excellent communication skills in English. | Competitive Compensation: A competitive salary above the market average. | Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin. | Job Security: A permanent contract in a stable, well-funded company. | Compensation: €90K – €120K • | €90K – €120K Find Jobs in Germany on Arbeitnow",
-   "remoteProof": "Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin.",
-   "firstSeen": "2026-10-26T18:49:19+00:00"
-  },
-  {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/reddit-frontend-engineer-ads",
    "company": "Reddit",
    "title": "Frontend Engineer, Ads",
@@ -794,7 +793,7 @@
    "id": "jooble:-6320563847304922999",
    "company": "homie AI",
    "title": "Full Stack Developer (AI SaaS)",
-   "url": "https://jooble.org/desc/-6320563847304922999?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=9165674105870293180&p=1&aq=-2844243957483947426&cid=22409&jobAge=517&brelb=100&bscr=130.53384&scr=130.53384",
+   "url": "https://jooble.org/desc/-6320563847304922999?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=7338643764340190448&p=1&aq=-4439401265911871153&cid=22409&jobAge=532&brelb=100&bscr=128.06943&scr=128.06943",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-09",
@@ -2297,6 +2296,29 @@
    "firstSeen": "2026-10-10T10:54:40+00:00"
   },
   {
+   "id": "ashby:cosuno:dd93b733-ed03-4d72-ba19-ed36afcbba75",
+   "company": "Cosuno",
+   "title": "Senior Product Engineer (AI Agents)",
+   "url": "https://jobs.ashbyhq.com/cosuno/dd93b733-ed03-4d72-ba19-ed36afcbba75",
+   "location": "Berlin/Remote / Germany",
+   "remote": true,
+   "postedAt": "2026-09-10",
+   "salary": "€90K – €120K",
+   "salaryMax": 120000,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "- Ship end-to-end into the product: Own features from model/agent through API to the TypeScript front-end — backend service, API, and the integration into the web app. | - TypeScript, React, Node: Non-negotiable. | - Strong Python: You have 5+ years writing production-grade Python. | - Competitive Compensation: A competitive salary above the market average. | - Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin. | - Job Security: A permanent contract in a stable, well-funded company.",
+   "remoteProof": "- Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin.",
+   "firstSeen": "2026-10-10T10:54:40+00:00"
+  },
+  {
    "id": "personio:einwert:2836066",
    "company": "einwert",
    "title": "Software Engineer – Product & Full-Stack (m/w/d)",
@@ -2911,29 +2933,6 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/redcare-pharmacy/jobs/staff-engineer-retail-m-f-d",
-   "company": "Redcare Pharmacy",
-   "title": "Staff Engineer, Retail (m/f/d)",
-   "url": "https://himalayas.app/companies/redcare-pharmacy/jobs/staff-engineer-retail-m-f-d?utm_source=api",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-10-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "next.js",
-    "react"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Profit from a membership (M) package at Urban Sports Club, so that you can take advantage of a huge variety of sport offers. | Work from Home: If your job does not require you to be present in the office, we can arrange the place you work from individually - even for up to 20 days a year anywhere in the EU. | Mobility: We provide our employees with a fully costed Deutschland Ticket which can be used at any time. | About Redcare Pharmacy : As Europe’s No.1 e-pharmacy Redcare Pharmacy is powered by passionate teams and cutting-edge innovation. | About the role: As a Staff Software Engineer within our Retail domain, you’ll combine hands-on engineering with technical leadership, shaping solution",
-   "remoteProof": "Work from Home: If your job does not require you to be present in the office, we can arrange the place you work from individually - even for up to 20 days a year anywhere in the EU. | While this is a remote position based in Germany, it may require occasional on-site collaboration at our offices in Berlin or Cologne, depending on business and team requirements.",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
    "id": "hn:49930919",
    "company": "eventfirst",
    "title": "Senior Full-Stack Engineer",
@@ -3510,28 +3509,6 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "ashby:zenjob:cb4a5fc7-ee05-41f0-b07a-0d91403c3d8e",
-   "company": "Zenjob",
-   "title": "Full-Stack Engineer (f/m/d)",
-   "url": "https://jobs.ashbyhq.com/zenjob/cb4a5fc7-ee05-41f0-b07a-0d91403c3d8e",
-   "location": "Berlin / Germany",
-   "remote": true,
-   "postedAt": "2026-08-31",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "saas",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Applicants must already hold the legal right to work in Germany (e.g., EU/EEA citizenship or a valid residence/work permit). | Over 40,000 students and 1,000 partner companies from logistics, retail, and hospitality in all major German cities share our belief that good work is not a coincidence. | - Build and evolve backend services and frontend applications using TypeScript and Java, leveraging gRPC as our primary service communication protocol | - Hybrid working model: We love our brand new office in Prenzlauer Berg. | Zenjob’s flexible working model combines the best of both worlds, so you can work remotely up to 2 days / week (1 day, during the first 6 months, so we can guarantee you the",
-   "remoteProof": "- Hybrid working model: We love our brand new office in Prenzlauer Berg. | Zenjob’s flexible working model combines the best of both worlds, so you can work remotely up to 2 days / week (1 day, during the first 6 months, so we can guarantee you the best onboarding).",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {

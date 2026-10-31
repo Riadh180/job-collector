@@ -4,16 +4,16 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 310
+   "fetched": 307
   },
   "arbeitnow": {
-   "fetched": 3373
+   "fetched": 3399
   },
   "remotive": {
-   "fetched": 96
+   "fetched": 104
   },
   "jobicy": {
-   "fetched": 27
+   "fetched": 21
   },
   "remoteok": {
    "fetched": 99
@@ -22,26 +22,26 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 86
+   "fetched": 89
   },
   "hn": {
    "fetched": 301
   },
   "workingnomads": {
-   "fetched": 38
+   "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 615
+   "fetched": 628
   },
   "jooble": {
-   "fetched": 264
+   "fetched": 259
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1439,
-   "failed": 17
+   "checked": 1436,
+   "failed": 18
   }
  },
  "errors": {
@@ -61,16 +61,15 @@
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
    "Seeq": "HTTP 429",
-   "AssistIQ": "HTTP 429",
-   "Calabrio": "HTTP 429"
+   "Thanx": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 0,
   "searchesThisRun": 0,
   "searchesTotal": 51,
-  "callsToday": 20,
-  "callsLast7Days": 540
+  "callsToday": 0,
+  "callsLast7Days": 380
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -113,60 +112,63 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=316, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=315, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 310,
+  "jobs": 307,
   "details": {
-   "tried": 109,
-   "ok": 109
+   "tried": 107,
+   "ok": 107
   }
  },
  "jooble_usage": {
   "calls": 39
  },
  "probe": {
-  "tried": 50,
+  "tried": 82,
   "found": [
-   "AssistIQ (workable:assistiq)",
-   "intent (recruitee:intent)",
-   "coeo Group (personio:coeo-group-gmbh)",
-   "Arcadia (lever:arcadia)",
-   "Arize AI (greenhouse:arizeai)",
-   "Miaplaza (recruitee:miaplaza)",
-   "Calabrio (workable:calabrio)",
-   "Casa (ashby:casa)"
+   "Thanx (workable:thanx)",
+   "Litify (greenhouse:litify)",
+   "CERTUSS GmbH (recruitee:certuss)",
+   "Velo3D (lever:velo3d)",
+   "Merlin Labs (lever:merlinlabs)",
+   "Esri (greenhouse:esri)",
+   "Plenti (lever:plenti)",
+   "InnoCraft (lever:innocraft)",
+   "ThriveCart (greenhouse:thrivecart)",
+   "Hercules (ashby:hercules)",
+   "Lighthouse (greenhouse:lighthouse)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-30T19:51:05+00:00",
- "rawJobs": 74756,
- "matches": 161,
- "new": 0,
- "companies": 1512,
- "activeCompanies": 1439,
+ "collectedAt": "2026-10-31T10:01:28+00:00",
+ "rawJobs": 74336,
+ "matches": 159,
+ "new": 2,
+ "companies": 1508,
+ "activeCompanies": 1436,
  "funnel": {
-  "title": 72023,
-  "passed": 191,
-  "too_old": 153,
-  "location": 2345,
+  "title": 71536,
+  "passed": 187,
+  "too_old": 154,
+  "location": 2407,
   "company": 22,
-  "duplicate": 30,
-  "employment": 11,
+  "duplicate": 28,
+  "employment": 19,
   "salary": 4
  },
  "matchesBySource": {
-  "arbeitnow": 14,
+  "weworkremotely": 8,
+  "greenhouse": 14,
+  "arbeitnow": 12,
   "personio": 16,
   "ashby": 62,
-  "weworkremotely": 7,
   "jooble": 2,
-  "greenhouse": 13,
   "arbeitsagentur": 20,
   "recruitee": 16,
   "germantechjobs": 2,
