@@ -7,13 +7,13 @@
    "fetched": 307
   },
   "arbeitnow": {
-   "fetched": 4442
+   "fetched": 3401
   },
   "remotive": {
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 25
+   "fetched": 24
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 89
+   "fetched": 91
   },
   "hn": {
    "fetched": 301
@@ -31,7 +31,7 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 624
+   "fetched": 619
   },
   "jooble": {
    "fetched": 263
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1443,
+   "checked": 1455,
    "failed": 2
   }
  },
@@ -98,7 +98,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=315, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=313, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -113,41 +113,49 @@
   "calls": 39
  },
  "probe": {
-  "tried": 49,
+  "tried": 70,
   "found": [
-   "Paperpile (workable:paperpile)",
-   "Makersite GmbH (recruitee:makersitegmbh)",
-   "Gcore (smartrecruiters:gcore)",
-   "CXT Software (lever:cxtsoftware)",
-   "TMS, LLC (personio:tmsgmbh)"
+   "Red Sky (recruitee:redsky)",
+   "intent (recruitee:intent)",
+   "Zen Educate (lever:zeneducate)",
+   "C the Signs (workable:c-the-signs)",
+   "Harbor (ashby:harbor)",
+   "Loadsmart (lever:loadsmart)",
+   "Wpromote (lever:wpromote)",
+   "John Snow Labs (smartrecruiters:johnsnowlabs)",
+   "Alter Solutions (smartrecruiters:altersolutions)",
+   "Eon (ashby:eon)",
+   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
+   "Virtualitics (lever:virtualitics)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-10-31T15:37:12+00:00",
- "rawJobs": 76774,
- "matches": 166,
- "new": 1,
- "companies": 1516,
- "activeCompanies": 1443,
+ "collectedAt": "2026-10-31T19:05:28+00:00",
+ "rawJobs": 76230,
+ "matches": 163,
+ "new": 3,
+ "companies": 1528,
+ "activeCompanies": 1455,
  "funnel": {
-  "title": 73887,
-  "passed": 198,
+  "title": 73351,
+  "passed": 193,
   "too_old": 154,
-  "location": 2483,
+  "location": 2480,
   "company": 22,
-  "duplicate": 32,
+  "duplicate": 30,
   "employment": 19,
   "salary": 4
  },
  "matchesBySource": {
-  "arbeitnow": 20,
+  "himalayas": 3,
+  "arbeitnow": 13,
   "weworkremotely": 8,
   "greenhouse": 14,
   "personio": 16,
-  "ashby": 61,
+  "ashby": 62,
   "jooble": 2,
   "arbeitsagentur": 20,
   "recruitee": 16,

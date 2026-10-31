@@ -1,29 +1,70 @@
 {
- "collectedAt": "2026-10-31T15:37:12+00:00",
- "count": 1,
+ "collectedAt": "2026-10-31T19:05:28+00:00",
+ "count": 3,
  "jobs": [
   {
-   "id": "arbeitnow:remote-senior-react-native-engineer-based-in-germany-berlin-388773",
-   "company": "Cara Care",
-   "title": "(Senior) React Native Engineer (m/f/x) - Based in Germany",
-   "url": "https://www.arbeitnow.com/jobs/companies/cara-care/remote-senior-react-native-engineer-based-in-germany-berlin-388773",
-   "location": "Berlin, Germany",
+   "id": "himalayas:https://himalayas.app/companies/red-sky/jobs/builder-of-tech-foundations-backend-frontend-fullstack",
+   "company": "Red Sky",
+   "title": "Builder of Tech Foundations (Backend/Frontend/Fullstack)",
+   "url": "https://himalayas.app/companies/red-sky/jobs/builder-of-tech-foundations-backend-frontend-fullstack?utm_source=api",
+   "location": "Worldwide",
    "remote": true,
    "postedAt": "2026-10-31",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full time",
+   "employment": "Full Time",
    "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "As a Venture Builder with 20 years of experience, we create startups from the ground up (0→1). | How it works: Apply: Fill the form in the next step The Match: When a project perfectly aligned with your skills kicks off, we contact you and skip the \"getting to know you\" phase—moving straight to the next recruitment stage.",
+   "remoteProof": "",
+   "firstSeen": "2026-10-31T19:05:28+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/rekluti/jobs/desarrollador-frontend-react",
+   "company": "XKTalent Inc. - Rimutee",
+   "title": "DESARROLLADOR FRONTEND (REACT)",
+   "url": "https://himalayas.app/companies/rekluti/jobs/desarrollador-frontend-react?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-31",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
    "stackHits": [
-    "react",
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "🧑‍💻 Desarrollador/a Frontend React – Proyecto Internacional ¿Te gustaría formar parte de un equipo que desarrolla soluciones tecnológicas para una de las empresas más grandes de México?",
+   "remoteProof": "",
+   "firstSeen": "2026-10-31T19:05:28+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/unifonic/jobs/senior-frontend-engineer",
+   "company": "Unifonic",
+   "title": "Senior Frontend Engineer",
+   "url": "https://himalayas.app/companies/unifonic/jobs/senior-frontend-engineer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-10-31",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "As we expand our product portfolio and modernize our platform, we’re looking for a versatile, pragmatic, and forward-thinking (Senior) React Native Engineer (m/f/x) to help shape the future of digital therapeutics. | Your Responsibilities Design, build, and ship high-quality React Native apps for iOS and Android with TypeScript . | Requirements Your Profile 5+ years of professional software engineering experience, with at least 3 years focused on React Native and shipping production apps. | Expert with React Native and TypeScript, React Navigation, state management, and testing (Jest, React Native Testing Library; Detox a plus). | Proven track record delivering to App Store and Google Play, ",
-   "remoteProof": "Bonus : experience in regulated industries, healthcare, or other security-conscious environments; native iOS/Android development (Swift/Kotlin) 💡 Please note : Cara Care is a remote-first company with a fully distributed team. | 👨‍💻 Remote-first working: Prefer working from home? | Want to join us at our Berlin office? | Our remote-first approach gives you the flexibility to work where it suits you best.",
-   "firstSeen": "2026-10-31T15:37:12+00:00"
+   "facts": "Requirements What you'll bring: Hands-on 4+ years of professional software engineering experience working on building SaaS applications in frontend capacity using Angular. | High level of expertise with TypeScript. | Strong understanding of RxJS and state management tools such as NgRx (or Redux, MobX, etc.), and practical experience applying reactive programming patterns in complex applications. | Fluent in English with excellent written and verbal communication skills. | As a Unifone you will receive a range of benefits: Competitive salary and bonus.",
+   "remoteProof": "Spend up to 25 days per year working from anywhere in the world!",
+   "firstSeen": "2026-10-31T19:05:28+00:00"
   }
  ]
 }
