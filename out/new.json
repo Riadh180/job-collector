@@ -1,70 +1,30 @@
 {
- "collectedAt": "2026-10-31T19:05:28+00:00",
- "count": 3,
+ "collectedAt": "2026-11-01T11:36:58+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "himalayas:https://himalayas.app/companies/red-sky/jobs/builder-of-tech-foundations-backend-frontend-fullstack",
-   "company": "Red Sky",
-   "title": "Builder of Tech Foundations (Backend/Frontend/Fullstack)",
-   "url": "https://himalayas.app/companies/red-sky/jobs/builder-of-tech-foundations-backend-frontend-fullstack?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-31",
+   "id": "arbeitsagentur:15835-000903005f3001-S",
+   "company": "BridgingIT GmbH",
+   "title": "Lead Software Developer (w|m|d)",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15835-000903005f3001-S",
+   "location": "Köln / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-01",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "unbefristet",
    "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "As a Venture Builder with 20 years of experience, we create startups from the ground up (0→1). | How it works: Apply: Fill the form in the next step The Match: When a project perfectly aligned with your skills kicks off, we contact you and skip the \"getting to know you\" phase—moving straight to the next recruitment stage.",
-   "remoteProof": "",
-   "firstSeen": "2026-10-31T19:05:28+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/rekluti/jobs/desarrollador-frontend-react",
-   "company": "XKTalent Inc. - Rimutee",
-   "title": "DESARROLLADOR FRONTEND (REACT)",
-   "url": "https://himalayas.app/companies/rekluti/jobs/desarrollador-frontend-react?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-31",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "_km": 57.62067702314168,
+   "kmFromEssen": 58,
    "stackHits": [
     "react"
    ],
-   "match": "title; remote",
-   "facts": "🧑‍💻 Desarrollador/a Frontend React – Proyecto Internacional ¿Te gustaría formar parte de un equipo que desarrolla soluciones tecnológicas para una de las empresas más grandes de México?",
-   "remoteProof": "",
-   "firstSeen": "2026-10-31T19:05:28+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/unifonic/jobs/senior-frontend-engineer",
-   "company": "Unifonic",
-   "title": "Senior Frontend Engineer",
-   "url": "https://himalayas.app/companies/unifonic/jobs/senior-frontend-engineer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "postedAt": "2026-10-31",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Requirements What you'll bring: Hands-on 4+ years of professional software engineering experience working on building SaaS applications in frontend capacity using Angular. | High level of expertise with TypeScript. | Strong understanding of RxJS and state management tools such as NgRx (or Redux, MobX, etc.), and practical experience applying reactive programming patterns in complex applications. | Fluent in English with excellent written and verbal communication skills. | As a Unifone you will receive a range of benefits: Competitive salary and bonus.",
-   "remoteProof": "Spend up to 25 days per year working from anywhere in the world!",
-   "firstSeen": "2026-10-31T19:05:28+00:00"
+   "match": "generic+stack; NRW ~58 km",
+   "facts": "DEINE Rolle - Fullstack-Expert*in: Du beherrschst das Zusammenspiel aus performanten Backends und modernen Frontends, indem du flexibel mit Java / Spring Boot oder .NET sowie Angular oder React entwickelst. | - Frontend-Know-how: Du hast ausgeprägte Kenntnisse in der Entwicklung moderner Web-Frontends mit Technologien wie Angular oder React. | - Sprachkenntnisse: Du beherrschst Deutsch auf mind. | C1 Niveau und kannst es erfolgreich im Berufsalltag einsetzen - Your German language proficiency is at least C1 level, and you are able to use it successfully in your daily work. | An einem unserer 9 kunden­nahen Standorte in Deutschland bist du Teil einer herstellerunabhängigen und produktneutrale",
+   "remoteProof": "Standort(e): Berlin, Frankfurt am Main, Köln, Mannheim, München, Stuttgart Art: Festanstellung, Vollzeit, Teilzeit und mobiles Arbeiten Auf der Suche nach einem Job, der dir echte Flexibilität ermög­licht und deine fachliche Excellence zu schätzen weiß, stellen wir dir folgende Stelle vor.",
+   "firstSeen": "2026-11-01T11:36:58+00:00"
   }
  ]
 }
