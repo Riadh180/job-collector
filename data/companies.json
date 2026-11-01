@@ -2310,7 +2310,7 @@
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-30",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Deutsche Glasfaser",
@@ -4542,7 +4542,7 @@
   "slug": "valtech",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Experian",
@@ -10366,8 +10366,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Voyant Photonics",
@@ -10513,8 +10512,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Getolo",
@@ -10522,8 +10520,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "EverAI",
@@ -10875,8 +10872,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "TrustEngine",
@@ -10884,8 +10880,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "HireHawk",
@@ -10893,8 +10888,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "DigitalService",
@@ -10934,8 +10928,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Thorlabs",
@@ -10943,8 +10936,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "1Password",
@@ -11256,8 +11248,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Lamdax",
@@ -11265,8 +11256,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Leadway Pensure",
@@ -11524,8 +11514,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Intuitive",
@@ -11629,8 +11618,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Distru",
@@ -11782,8 +11770,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Wunder Mobility",
@@ -11903,8 +11890,7 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-10-30",
-  "failCount": 2
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Yassir",
@@ -12200,7 +12186,7 @@
   "ats": "workable",
   "slug": "advancing-eco-agriculture",
   "addedBy": "probe 2026-11-01",
-  "failCount": 1
+  "lastOk": "2026-11-01"
  },
  {
   "name": "Rohrer",
@@ -12287,6 +12273,94 @@
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "eleken",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "OnHires",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "onhires",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Thanx",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "thanx",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Fivetran",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "fivetran",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Spreetail Inc.",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "spreetail",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Zencore",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "zencore",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "InductiveHealth",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "inductivehealth",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Natuvion",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "natuvion",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Quant AIs",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "quantais",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "InfiniteQuant",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "infinitequant",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "The Sales Factory",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "thesalesfactory",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Skydance",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "skydance",
   "addedBy": "probe 2026-11-01",
   "lastOk": "2026-11-01"
  }

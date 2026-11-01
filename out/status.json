@@ -7,7 +7,7 @@
    "fetched": 308
   },
   "arbeitnow": {
-   "fetched": 4228
+   "fetched": 3441
   },
   "remotive": {
    "fetched": 96
@@ -31,39 +31,23 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 757
+   "fetched": 748
   },
   "jooble": {
-   "fetched": 264
+   "fetched": 263
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1440,
-   "failed": 18
+   "checked": 1450,
+   "failed": 2
   }
  },
  "errors": {
   "companies": {
    "WeMatch.": "HTTP 404",
-   "Valtech": "HTTP 404",
-   "Optios": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Advancing Eco Agriculture": "HTTP 429"
+   "Valtech": "HTTP 404"
   }
  },
  "adzuna_usage": {
@@ -129,58 +113,53 @@
   "calls": 39
  },
  "probe": {
-  "tried": 97,
+  "tried": 58,
   "found": [
-   "Vendavo (lever:vendavo)",
-   "Houzz (lever:houzz)",
-   "Pomelo Care (ashby:pomelo-care)",
-   "Advancing Eco Agriculture (workable:advancing-eco-agriculture)",
-   "Rohrer (personio:rohrer)",
-   "Emidat GmbH (ashby:emidat)",
-   "Kertos (ashby:kertos)",
-   "CERTUSS GmbH (recruitee:certuss)",
-   "LGC Group (smartrecruiters:lgcgroup)",
-   "Gushwork (lever:gushwork)",
-   "Miaplaza (recruitee:miaplaza)",
-   "Hostaway (recruitee:hostaway)",
-   "Allara Health (ashby:allarahealth)",
-   "Breathe for Change (ashby:breatheforchange)",
-   "Eleken (recruitee:eleken)"
+   "OnHires (ashby:onhires)",
+   "Thanx (workable:thanx)",
+   "Fivetran (greenhouse:fivetran)",
+   "Spreetail Inc. (lever:spreetail)",
+   "Zencore (lever:zencore)",
+   "InductiveHealth (lever:inductivehealth)",
+   "Natuvion (recruitee:natuvion)",
+   "Quant AIs (smartrecruiters:quantais)",
+   "InfiniteQuant (smartrecruiters:infinitequant)",
+   "The Sales Factory (lever:thesalesfactory)",
+   "Skydance (lever:skydance)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-11-01T11:42:46+00:00",
- "rawJobs": 75166,
- "matches": 169,
- "new": 6,
- "companies": 1512,
- "activeCompanies": 1440,
+ "collectedAt": "2026-11-01T16:36:49+00:00",
+ "rawJobs": 75618,
+ "matches": 166,
+ "new": 7,
+ "companies": 1523,
+ "activeCompanies": 1450,
  "funnel": {
-  "title": 72382,
-  "passed": 199,
+  "title": 72798,
+  "passed": 195,
   "too_old": 156,
-  "location": 2377,
+  "location": 2416,
   "company": 22,
-  "duplicate": 30,
-  "employment": 19,
+  "duplicate": 29,
+  "employment": 20,
   "salary": 4
  },
  "matchesBySource": {
+  "himalayas": 7,
   "arbeitsagentur": 20,
-  "arbeitnow": 19,
-  "himalayas": 5,
+  "arbeitnow": 13,
   "weworkremotely": 8,
   "personio": 16,
-  "ashby": 59,
+  "ashby": 60,
   "jooble": 2,
   "greenhouse": 13,
   "recruitee": 16,
   "germantechjobs": 4,
   "smartrecruiters": 2,
-  "himalayas": 1,
   "hn": 5
  }
 }
