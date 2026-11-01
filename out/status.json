@@ -7,7 +7,7 @@
    "fetched": 308
   },
   "arbeitnow": {
-   "fetched": 3244
+   "fetched": 4228
   },
   "remotive": {
    "fetched": 96
@@ -31,7 +31,7 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 694
+   "fetched": 757
   },
   "jooble": {
    "fetched": 264
@@ -40,13 +40,30 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1468,
-   "failed": 1
+   "checked": 1440,
+   "failed": 18
   }
  },
  "errors": {
   "companies": {
-   "WeMatch.": "HTTP 404"
+   "WeMatch.": "HTTP 404",
+   "Valtech": "HTTP 404",
+   "Optios": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -112,39 +129,40 @@
   "calls": 39
  },
  "probe": {
-  "tried": 78,
+  "tried": 97,
   "found": [
    "Vendavo (lever:vendavo)",
    "Houzz (lever:houzz)",
    "Pomelo Care (ashby:pomelo-care)",
    "Advancing Eco Agriculture (workable:advancing-eco-agriculture)",
-   "InfluxData (ashby:influxdata)",
+   "Rohrer (personio:rohrer)",
    "Emidat GmbH (ashby:emidat)",
    "Kertos (ashby:kertos)",
+   "CERTUSS GmbH (recruitee:certuss)",
    "LGC Group (smartrecruiters:lgcgroup)",
    "Gushwork (lever:gushwork)",
    "Miaplaza (recruitee:miaplaza)",
    "Hostaway (recruitee:hostaway)",
-   "Gradle (greenhouse:gradle)",
-   "FireMon (lever:firemon)",
-   "Allara Health (ashby:allarahealth)"
+   "Allara Health (ashby:allarahealth)",
+   "Breathe for Change (ashby:breatheforchange)",
+   "Eleken (recruitee:eleken)"
   ]
  },
  "adzuna_pages": {
   "tried": 3,
   "ok": 0
  },
- "collectedAt": "2026-11-01T11:36:58+00:00",
- "rawJobs": 76715,
- "matches": 161,
- "new": 1,
- "companies": 1542,
- "activeCompanies": 1468,
+ "collectedAt": "2026-11-01T11:42:46+00:00",
+ "rawJobs": 75166,
+ "matches": 169,
+ "new": 6,
+ "companies": 1512,
+ "activeCompanies": 1440,
  "funnel": {
-  "title": 73823,
-  "passed": 191,
+  "title": 72382,
+  "passed": 199,
   "too_old": 156,
-  "location": 2493,
+  "location": 2377,
   "company": 22,
   "duplicate": 30,
   "employment": 19,
@@ -152,12 +170,13 @@
  },
  "matchesBySource": {
   "arbeitsagentur": 20,
-  "arbeitnow": 13,
+  "arbeitnow": 19,
+  "himalayas": 5,
   "weworkremotely": 8,
-  "greenhouse": 14,
   "personio": 16,
-  "ashby": 60,
+  "ashby": 59,
   "jooble": 2,
+  "greenhouse": 13,
   "recruitee": 16,
   "germantechjobs": 4,
   "smartrecruiters": 2,

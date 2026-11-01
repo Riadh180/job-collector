@@ -1,6 +1,6 @@
 {
- "collectedAt": "2026-11-01T11:36:58+00:00",
- "count": 1,
+ "collectedAt": "2026-11-01T11:42:46+00:00",
+ "count": 6,
  "jobs": [
   {
    "id": "arbeitsagentur:15835-000903005f3001-S",
@@ -24,7 +24,112 @@
    "match": "generic+stack; NRW ~58 km",
    "facts": "DEINE Rolle - Fullstack-Expert*in: Du beherrschst das Zusammenspiel aus performanten Backends und modernen Frontends, indem du flexibel mit Java / Spring Boot oder .NET sowie Angular oder React entwickelst. | - Frontend-Know-how: Du hast ausgeprägte Kenntnisse in der Entwicklung moderner Web-Frontends mit Technologien wie Angular oder React. | - Sprachkenntnisse: Du beherrschst Deutsch auf mind. | C1 Niveau und kannst es erfolgreich im Berufsalltag einsetzen - Your German language proficiency is at least C1 level, and you are able to use it successfully in your daily work. | An einem unserer 9 kunden­nahen Standorte in Deutschland bist du Teil einer herstellerunabhängigen und produktneutrale",
    "remoteProof": "Standort(e): Berlin, Frankfurt am Main, Köln, Mannheim, München, Stuttgart Art: Festanstellung, Vollzeit, Teilzeit und mobiles Arbeiten Auf der Suche nach einem Job, der dir echte Flexibilität ermög­licht und deine fachliche Excellence zu schätzen weiß, stellen wir dir folgende Stelle vor.",
-   "firstSeen": "2026-11-01T11:36:58+00:00"
+   "firstSeen": "2026-11-01T11:42:46+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-senior-react-native-engineer-based-in-germany-berlin-388773",
+   "company": "Cara Care",
+   "title": "(Senior) React Native Engineer (m/f/x) - Based in Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/cara-care/remote-senior-react-native-engineer-based-in-germany-berlin-388773",
+   "location": "Berlin, Germany",
+   "remote": true,
+   "postedAt": "2026-10-31",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "As we expand our product portfolio and modernize our platform, we’re looking for a versatile, pragmatic, and forward-thinking (Senior) React Native Engineer (m/f/x) to help shape the future of digital therapeutics. | Your Responsibilities Design, build, and ship high-quality React Native apps for iOS and Android with TypeScript . | Requirements Your Profile 5+ years of professional software engineering experience, with at least 3 years focused on React Native and shipping production apps. | Expert with React Native and TypeScript, React Navigation, state management, and testing (Jest, React Native Testing Library; Detox a plus). | Proven track record delivering to App Store and Google Play, ",
+   "remoteProof": "Bonus : experience in regulated industries, healthcare, or other security-conscious environments; native iOS/Android development (Swift/Kotlin) 💡 Please note : Cara Care is a remote-first company with a fully distributed team. | 👨‍💻 Remote-first working: Prefer working from home? | Want to join us at our Berlin office? | Our remote-first approach gives you the flexibility to work where it suits you best.",
+   "firstSeen": "2026-11-01T11:42:46+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/bjak/jobs/product-engineer-ai-investing-7505900343",
+   "company": "Bjak",
+   "title": "Product Engineer - AI Investing",
+   "url": "https://himalayas.app/companies/bjak/jobs/product-engineer-ai-investing-7505900343?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-11-01",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. | Experience in fintech, insurance, payments, consumer apps or high-growth products is a strong advantage. | Location This role is remote, but candidates must be based in Germany . | We are hiring specifically for this market, so applicants should already be based in Germany . | Language English is our main working language across global teams. | Strong English communication is required.",
+   "remoteProof": "We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. | Location This role is remote, but candidates must be based in Germany .",
+   "firstSeen": "2026-11-01T11:42:46+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/bjak/jobs/product-engineer-ai-stockbroking-4321557",
+   "company": "Bjak",
+   "title": "Product Engineer - AI Stockbroking",
+   "url": "https://himalayas.app/companies/bjak/jobs/product-engineer-ai-stockbroking-4321557?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-11-01",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. | Experience in fintech, insurance, payments, consumer apps or high-growth products is a strong advantage. | Location This role is remote, but candidates must be based in Germany . | We are hiring specifically for this market, so applicants should already be based in Germany . | Language English is our main working language across global teams. | Strong English communication is required.",
+   "remoteProof": "We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. | Location This role is remote, but candidates must be based in Germany .",
+   "firstSeen": "2026-11-01T11:42:46+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/bjak/jobs/product-engineer-ai-finance-1029060311",
+   "company": "Bjak",
+   "title": "Product Engineer - AI Finance",
+   "url": "https://himalayas.app/companies/bjak/jobs/product-engineer-ai-finance-1029060311?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-11-01",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. | Experience in fintech, insurance, payments, consumer apps or high-growth products is a strong advantage. | Location This role is remote, but candidates must be based in Germany . | We are hiring specifically for this market, so applicants should already be based in Germany . | Language English is our main working language across global teams. | Strong English communication is required.",
+   "remoteProof": "We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. | Location This role is remote, but candidates must be based in Germany .",
+   "firstSeen": "2026-11-01T11:42:46+00:00"
+  },
+  {
+   "id": "weworkremotely:https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "company": "Ritual",
+   "title": "Developer Experience Engineer",
+   "url": "https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "location": "Anywhere in the World",
+   "remote": true,
+   "postedAt": "2026-10-31",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "weworkremotely",
+   "ats": "weworkremotely",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. | To apply: https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "remoteProof": "Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. | To apply: https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer",
+   "firstSeen": "2026-11-01T11:42:46+00:00"
   }
  ]
 }
