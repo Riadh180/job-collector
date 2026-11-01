@@ -2310,7 +2310,7 @@
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-30",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Deutsche Glasfaser",
@@ -4542,7 +4542,7 @@
   "slug": "valtech",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-30",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Experian",
@@ -10366,7 +10366,8 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Voyant Photonics",
@@ -10512,7 +10513,8 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Getolo",
@@ -10520,7 +10522,8 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "EverAI",
@@ -10872,7 +10875,8 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "TrustEngine",
@@ -10880,7 +10884,8 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "HireHawk",
@@ -10888,7 +10893,8 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "DigitalService",
@@ -10928,7 +10934,8 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Thorlabs",
@@ -10936,7 +10943,8 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "1Password",
@@ -11248,7 +11256,8 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Lamdax",
@@ -11256,7 +11265,8 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Leadway Pensure",
@@ -11514,7 +11524,8 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Intuitive",
@@ -11618,7 +11629,8 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Distru",
@@ -11770,7 +11782,8 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Wunder Mobility",
@@ -11890,7 +11903,8 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Yassir",
@@ -12186,7 +12200,8 @@
   "ats": "workable",
   "slug": "advancing-eco-agriculture",
   "addedBy": "probe 2026-11-01",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Rohrer",
@@ -12290,7 +12305,8 @@
   "ats": "workable",
   "slug": "thanx",
   "addedBy": "probe 2026-11-01",
-  "lastOk": "2026-11-01"
+  "lastOk": "2026-11-01",
+  "failCount": 1
  },
  {
   "name": "Fivetran",
@@ -12361,6 +12377,30 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "skydance",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "AnywhereNow",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "anywherenow",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Harbor",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "harbor",
+  "addedBy": "probe 2026-11-01",
+  "lastOk": "2026-11-01"
+ },
+ {
+  "name": "Workwize",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "workwize",
   "addedBy": "probe 2026-11-01",
   "lastOk": "2026-11-01"
  }
