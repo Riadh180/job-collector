@@ -4,10 +4,10 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 308
+   "fetched": 307
   },
   "arbeitnow": {
-   "fetched": 3241
+   "fetched": 3235
   },
   "remotive": {
    "fetched": 96
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 98
+   "fetched": 99
   },
   "hn": {
    "fetched": 301
@@ -31,23 +31,24 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 748
+   "fetched": 724
   },
   "jooble": {
-   "fetched": 264
+   "fetched": 261
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1453,
-   "failed": 18
+   "checked": 1459,
+   "failed": 19
   }
  },
  "errors": {
   "companies": {
    "WeMatch.": "HTTP 404",
    "Valtech": "HTTP 404",
+   "Aircall": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
@@ -71,7 +72,7 @@
   "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 0,
-  "callsLast7Days": 290
+  "callsLast7Days": 200
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -91,9 +92,12 @@
    "referenznummer",
    "stellenangebotsTitel",
    "stellenangebotsart",
+   "stellenlokationen.0.adresse.hausnummer",
    "stellenlokationen.0.adresse.land",
    "stellenlokationen.0.adresse.ort",
+   "stellenlokationen.0.adresse.plz",
    "stellenlokationen.0.adresse.region",
+   "stellenlokationen.0.adresse.strasse",
    "stellenlokationen.0.breite",
    "stellenlokationen.0.laenge",
    "verguetungsangabe",
@@ -109,65 +113,68 @@
    "region": "NORDRHEIN_WESTFALEN",
    "date": "2026-10-30",
    "url": "",
-   "lat": "51.9513111",
-   "lon": "7.6234927"
+   "lat": "51.950655",
+   "lon": "7.6408605"
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=314, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=302, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 308,
+  "jobs": 307,
   "details": {
-   "tried": 108,
-   "ok": 108
+   "tried": 105,
+   "ok": 105
   }
  },
  "jooble_usage": {
   "calls": 39
  },
  "probe": {
-  "tried": 25,
+  "tried": 52,
   "found": [
-   "AnywhereNow (recruitee:anywherenow)",
-   "Harbor (ashby:harbor)",
-   "Workwize (greenhouse:workwize)"
+   "Aroundhome (personio:aroundhome)",
+   "Dnb (lever:dnb)",
+   "Innocraft (lever:innocraft)",
+   "PushPress (lever:pushpress)",
+   "Revolution Medicines (greenhouse:revolutionmedicines)",
+   "CXT Software (lever:cxtsoftware)"
   ]
  },
  "adzuna_pages": {
-  "tried": 3,
+  "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-01T19:22:00+00:00",
- "rawJobs": 74548,
- "matches": 163,
- "new": 2,
- "companies": 1526,
- "activeCompanies": 1453,
+ "collectedAt": "2026-11-02T13:00:03+00:00",
+ "rawJobs": 74785,
+ "matches": 146,
+ "new": 0,
+ "companies": 1532,
+ "activeCompanies": 1459,
  "funnel": {
-  "title": 71780,
-  "passed": 191,
-  "too_old": 156,
-  "location": 2367,
+  "title": 72065,
+  "passed": 173,
+  "too_old": 160,
+  "location": 2334,
   "company": 22,
-  "duplicate": 28,
-  "employment": 21,
+  "duplicate": 27,
+  "employment": 20,
   "salary": 4
  },
  "matchesBySource": {
-  "arbeitnow": 16,
-  "himalayas": 4,
-  "arbeitsagentur": 20,
+  "arbeitnow": 13,
+  "arbeitsagentur": 19,
   "weworkremotely": 8,
   "personio": 16,
-  "ashby": 57,
-  "jooble": 2,
+  "ashby": 50,
+  "jooble": 1,
   "greenhouse": 13,
-  "recruitee": 16,
+  "recruitee": 15,
   "germantechjobs": 4,
   "smartrecruiters": 2,
-  "hn": 5
+  "himalayas": 1,
+  "hn": 4
  }
 }
