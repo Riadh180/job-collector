@@ -4,10 +4,10 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 307
+   "fetched": 310
   },
   "arbeitnow": {
-   "fetched": 3235
+   "fetched": 3209
   },
   "remotive": {
    "fetched": 96
@@ -22,39 +22,39 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 99
+   "fetched": 102
   },
   "hn": {
-   "fetched": 301
+   "fetched": 197
   },
   "workingnomads": {
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 724
+   "fetched": 747
   },
   "jooble": {
-   "fetched": 261
+   "fetched": 260
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1459,
+   "checked": 1473,
    "failed": 19
   }
  },
  "errors": {
   "companies": {
+   "Doctolib": "HTTP 404",
    "WeMatch.": "HTTP 404",
-   "Valtech": "HTTP 404",
    "Aircall": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
@@ -118,63 +118,72 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=302, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=301, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 307,
+  "jobs": 310,
   "details": {
-   "tried": 105,
-   "ok": 105
+   "tried": 109,
+   "ok": 109
   }
  },
  "jooble_usage": {
   "calls": 39
  },
  "probe": {
-  "tried": 52,
+  "tried": 99,
   "found": [
-   "Aroundhome (personio:aroundhome)",
-   "Dnb (lever:dnb)",
-   "Innocraft (lever:innocraft)",
-   "PushPress (lever:pushpress)",
-   "Revolution Medicines (greenhouse:revolutionmedicines)",
-   "CXT Software (lever:cxtsoftware)"
+   "Butterfly Network, Inc. (greenhouse:butterflynetwork)",
+   "Trustonic (smartrecruiters:trustonic)",
+   "Exit83 (smartrecruiters:exit83)",
+   "LIDROTEC GmbH (personio:lidrotec)",
+   "Liqmatic GmbH (recruitee:liqmatic)",
+   "FreedUp (smartrecruiters:freedup)",
+   "Grantek Systems Integration (smartrecruiters:granteksystemsintegration)",
+   "Instrument (lever:instrument)",
+   "Arcadia (lever:arcadia)",
+   "Konecranes (smartrecruiters:konecranes)",
+   "Hex (ashby:hex)",
+   "Land O'Lakes, Inc. (smartrecruiters:landolakes)",
+   "Jump (ashby:jump)",
+   "Juro (ashby:juro)",
+   "Lyra (smartrecruiters:lyra)"
   ]
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-02T13:00:03+00:00",
- "rawJobs": 74785,
- "matches": 146,
- "new": 0,
- "companies": 1532,
- "activeCompanies": 1459,
+ "collectedAt": "2026-11-02T19:59:44+00:00",
+ "rawJobs": 75010,
+ "matches": 153,
+ "new": 6,
+ "companies": 1547,
+ "activeCompanies": 1473,
  "funnel": {
-  "title": 72065,
-  "passed": 173,
-  "too_old": 160,
-  "location": 2334,
+  "title": 72299,
+  "passed": 180,
+  "too_old": 159,
+  "location": 2319,
   "company": 22,
   "duplicate": 27,
   "employment": 20,
   "salary": 4
  },
  "matchesBySource": {
+  "arbeitsagentur": 20,
+  "himalayas": 2,
+  "weworkremotely": 9,
+  "hn": 5,
+  "greenhouse": 15,
   "arbeitnow": 13,
-  "arbeitsagentur": 19,
-  "weworkremotely": 8,
   "personio": 16,
   "ashby": 50,
   "jooble": 1,
-  "greenhouse": 13,
   "recruitee": 15,
-  "germantechjobs": 4,
-  "smartrecruiters": 2,
-  "himalayas": 1,
-  "hn": 4
+  "germantechjobs": 5,
+  "smartrecruiters": 2
  }
 }

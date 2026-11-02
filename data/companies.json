@@ -525,7 +525,8 @@
   "name": "Doctolib",
   "industry": "health",
   "addedBy": "watchlist",
-  "lastOk": "2026-11-02"
+  "lastOk": "2026-11-02",
+  "failCount": 1
  },
  {
   "ats": "ashby",
@@ -2310,7 +2311,8 @@
   "slug": "wematch",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-30",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "Deutsche Glasfaser",
@@ -5645,7 +5647,7 @@
   "slug": "aircall",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-11-01",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "BlueCat Networks",
@@ -10369,7 +10371,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Voyant Photonics",
@@ -10516,7 +10518,7 @@
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Getolo",
@@ -10525,7 +10527,7 @@
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "EverAI",
@@ -10878,7 +10880,7 @@
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "TrustEngine",
@@ -10887,7 +10889,7 @@
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "HireHawk",
@@ -10896,7 +10898,7 @@
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "DigitalService",
@@ -10937,7 +10939,7 @@
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Thorlabs",
@@ -10946,7 +10948,7 @@
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "1Password",
@@ -11259,7 +11261,7 @@
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Lamdax",
@@ -11268,7 +11270,7 @@
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Leadway Pensure",
@@ -11527,7 +11529,7 @@
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Intuitive",
@@ -11632,7 +11634,7 @@
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Distru",
@@ -11785,7 +11787,7 @@
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Wunder Mobility",
@@ -11906,7 +11908,7 @@
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Yassir",
@@ -12203,7 +12205,7 @@
   "slug": "advancing-eco-agriculture",
   "addedBy": "probe 2026-11-01",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Rohrer",
@@ -12308,7 +12310,7 @@
   "slug": "thanx",
   "addedBy": "probe 2026-11-01",
   "lastOk": "2026-11-01",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Fivetran",
@@ -12451,6 +12453,126 @@
   "industry": "from job boards",
   "ats": "lever",
   "slug": "cxtsoftware",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Butterfly Network, Inc.",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "butterflynetwork",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Trustonic",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "trustonic",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Exit83",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "exit83",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "LIDROTEC GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "lidrotec",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Liqmatic GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "liqmatic",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "FreedUp",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "freedup",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Grantek Systems Integration",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "granteksystemsintegration",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Instrument",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "instrument",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Arcadia",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "arcadia",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Konecranes",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "konecranes",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Hex",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "hex",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Land O'Lakes, Inc.",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "landolakes",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Jump",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "jump",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Juro",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "juro",
+  "addedBy": "probe 2026-11-02",
+  "lastOk": "2026-11-02"
+ },
+ {
+  "name": "Lyra",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lyra",
   "addedBy": "probe 2026-11-02",
   "lastOk": "2026-11-02"
  }
