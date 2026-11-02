@@ -7,7 +7,7 @@
    "fetched": 310
   },
   "arbeitnow": {
-   "fetched": 4126
+   "fetched": 3216
   },
   "remotive": {
    "fetched": 96
@@ -25,7 +25,7 @@
    "fetched": 102
   },
   "hn": {
-   "fetched": 208
+   "fetched": 210
   },
   "workingnomads": {
    "fetched": 35
@@ -40,32 +40,31 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1480,
-   "failed": 22
+   "checked": 1503,
+   "failed": 21
   }
  },
  "errors": {
   "companies": {
    "Doctolib": "HTTP 404",
-   "WeMatch.": "HTTP 404",
    "Aircall": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Thorlabs": "HTTP 429",
+   "TrustEngine": "HTTP 429",
    "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
    "Seeq": "HTTP 429",
-   "Thanx": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
    "Paperpile": "HTTP 429",
-   "C the Signs": "HTTP 429",
+   "Thanx": "HTTP 429",
    "QuickTeam": "HTTP 429",
    "Creative Chaos": "HTTP 429"
   }
@@ -136,59 +135,39 @@
   "calls": 39
  },
  "probe": {
-  "tried": 120,
+  "tried": 109,
   "found": [
-   "QuickTeam (workable:quickteam)",
-   "AnywhereNow (recruitee:anywherenow)",
-   "Butterfly Network, Inc. (greenhouse:butterflynetwork)",
-   "Liqmatic GmbH (recruitee:liqmatic)",
-   "LIDROTEC GmbH (personio:lidrotec)",
-   "Ircagroup (lever:ircagroup)",
-   "Aroundhome (personio:aroundhome)",
-   "Dnb (lever:dnb)",
-   "Emidat GmbH (ashby:emidat)",
-   "Vendavo (lever:vendavo)",
-   "Kertos (ashby:kertos)",
-   "Revolution Medicines (greenhouse:revolutionmedicines)",
-   "Endpoint Clinical (lever:endpointclinical)",
-   "Health Evolution (smartrecruiters:healthevolution)",
-   "FreedUp (smartrecruiters:freedup)",
-   "Grantek Systems Integration (smartrecruiters:granteksystemsintegration)",
-   "Instrument (lever:instrument)",
-   "Trustonic (smartrecruiters:trustonic)",
-   "Arcadia (lever:arcadia)",
-   "Konecranes (smartrecruiters:konecranes)",
-   "Hex (ashby:hex)",
-   "Pigment (lever:pigment)",
-   "GRID (recruitee:grid)",
-   "Creative Chaos (workable:creativechaos)",
-   "Exit83 (smartrecruiters:exit83)",
-   "Jump (ashby:jump)"
+   "Asteralabs (greenhouse:asteralabs)",
+   "Webflow (ashby:webflow)",
+   "Meta (recruitee:meta)",
+   "Juro (ashby:juro)",
+   "Lyra (smartrecruiters:lyra)"
   ]
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-02T22:29:30+00:00",
- "rawJobs": 76927,
- "matches": 158,
- "new": 8,
- "companies": 1554,
- "activeCompanies": 1480,
+ "collectedAt": "2026-11-02T22:58:53+00:00",
+ "rawJobs": 77195,
+ "matches": 154,
+ "new": 1,
+ "companies": 1578,
+ "activeCompanies": 1503,
  "funnel": {
-  "title": 74072,
-  "passed": 183,
+  "title": 74315,
+  "passed": 180,
   "too_old": 160,
-  "location": 2459,
+  "location": 2487,
   "company": 22,
-  "duplicate": 25,
+  "duplicate": 26,
   "employment": 20,
   "salary": 4
  },
  "matchesBySource": {
+  "himalayas": 2,
   "arbeitsagentur": 20,
-  "arbeitnow": 18,
+  "arbeitnow": 13,
   "weworkremotely": 9,
   "hn": 5,
   "greenhouse": 16,
@@ -197,7 +176,6 @@
   "jooble": 1,
   "recruitee": 15,
   "germantechjobs": 5,
-  "smartrecruiters": 2,
-  "himalayas": 1
+  "smartrecruiters": 2
  }
 }
