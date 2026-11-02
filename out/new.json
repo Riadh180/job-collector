@@ -1,7 +1,31 @@
 {
- "collectedAt": "2026-11-02T19:59:44+00:00",
- "count": 6,
+ "collectedAt": "2026-11-02T22:29:30+00:00",
+ "count": 8,
  "jobs": [
+  {
+   "id": "arbeitsagentur:15835-000903005f3001-S",
+   "company": "BridgingIT GmbH",
+   "title": "Lead Software Developer (w|m|d)",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15835-000903005f3001-S",
+   "location": "Köln / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-01",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "unbefristet",
+   "industry": "",
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "_km": 57.62067702314168,
+   "kmFromEssen": 58,
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; NRW ~58 km",
+   "facts": "DEINE Rolle - Fullstack-Expert*in: Du beherrschst das Zusammenspiel aus performanten Backends und modernen Frontends, indem du flexibel mit Java / Spring Boot oder .NET sowie Angular oder React entwickelst. | - Frontend-Know-how: Du hast ausgeprägte Kenntnisse in der Entwicklung moderner Web-Frontends mit Technologien wie Angular oder React. | - Sprachkenntnisse: Du beherrschst Deutsch auf mind. | C1 Niveau und kannst es erfolgreich im Berufsalltag einsetzen - Your German language proficiency is at least C1 level, and you are able to use it successfully in your daily work. | An einem unserer 9 kunden­nahen Standorte in Deutschland bist du Teil einer herstellerunabhängigen und produktneutrale",
+   "remoteProof": "Standort(e): Berlin, Frankfurt am Main, Köln, Mannheim, München, Stuttgart Art: Festanstellung, Vollzeit, Teilzeit und mobiles Arbeiten Auf der Suche nach einem Job, der dir echte Flexibilität ermög­licht und deine fachliche Excellence zu schätzen weiß, stellen wir dir folgende Stelle vor.",
+   "firstSeen": "2026-11-02T22:29:30+00:00"
+  },
   {
    "id": "arbeitsagentur:10001-1003461400-S",
    "company": "epiNET GmbH",
@@ -24,30 +48,52 @@
    "match": "generic+stack; NRW ~18 km",
    "facts": "- Du arbeitest sicher mit **C# und hast Erfahrung mit modernen Webtechnologien, insbesondere React**. | - Du hast **sehr gute Deutschkenntnisse** in Wort und Schrift – technisch wie kommunikativ.",
    "remoteProof": "",
-   "firstSeen": "2026-11-02T19:59:44+00:00"
+   "firstSeen": "2026-11-02T22:29:30+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/equitable-earth/jobs/senior-fullstack-engineer-ts-react",
-   "company": "Equitable Earth",
-   "title": "Senior Fullstack Engineer (TS/React)",
-   "url": "https://himalayas.app/companies/equitable-earth/jobs/senior-fullstack-engineer-ts-react?utm_source=api",
-   "location": "Albania / Andorra / Austria / Belarus / Belgium / Bosnia and Herzegovina / Bulgaria / Croatia / Cyprus / Czechia / Denmark / Estonia / Faroe Islands / Finland / France / Germany / Gibraltar / Greece /",
+   "id": "arbeitnow:senior-product-engineer-ai-remote-berlin-51768",
+   "company": "MAIA",
+   "title": "(Senior) Product Engineer – AI (m/f/d) – Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/maia/senior-product-engineer-ai-remote-berlin-51768",
+   "location": "Berlin",
    "remote": true,
-   "postedAt": "2026-11-02",
+   "postedAt": "2026-11-01",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
    "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
    "stackHits": [
     "react",
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "This role is fully remote, with working hours that significantly overlap with French time zone. | Compensation: The final compensation offered will be contingent upon role, level and location. | Here's what you can look forward to when joining our team: A fully remote setup - Work from anywhere that inspires you and fits your lifestyle. | The tools to succeed - From a company laptop and a comprehensive health insurance plan to a remote work pass, we've got you covered. | Please fill out the application form and submit a CV in English (PDF format) through our recruitment portal.",
-   "remoteProof": "This role is fully remote, with working hours that significantly overlap with French time zone. | Here's what you can look forward to when joining our team: A fully remote setup - Work from anywhere that inspires you and fits your lifestyle. | The tools to succeed - From a company laptop and a comprehensive health insurance plan to a remote work pass, we've got you covered.",
-   "firstSeen": "2026-11-02T19:59:44+00:00"
+   "facts": "Many industrial companies have been using MAIA intensively for years. | TypeScript, Python or Go, ideally one of the statically typed ones. | You are fluent in English. | German is a strong plus, as many of our customer conversations are in German. | Much of the team works together in our office in Leipzig, centrally located between the city centre and the zoo, where we cook together almost every day. | You work remotely from anywhere in Germany. | You need to live in Germany for this role. | Access to the latest frontier models and coding agents Support for training that fits your professional development Access to a Wellpass membership Compensation The annual gross salary is €75,000 to €95",
+   "remoteProof": "Remote-ready. | You work remotely from anywhere in Germany.",
+   "firstSeen": "2026-11-02T22:29:30+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-software-engineer-ai-remote-berlin-132265",
+   "company": "MAIA",
+   "title": "(Senior) Software Engineer – AI (m/f/d) – Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/maia/senior-software-engineer-ai-remote-berlin-132265",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-01",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Many industrial companies have been using MAIA intensively for years. | TypeScript, Python or Go, ideally one of the statically typed ones. | Additional retrieval stages, prompt chains or abstractions only come in when measurements justify them. | You are fluent in English. | German is a plus. | Much of the team works together in our office in Leipzig, centrally located between the city centre and the zoo, where we cook together almost every day. | You work remotely from anywhere in Germany. | You need to live in Germany for this role. | Access to the latest frontier models and coding agents Support for training that fits your professional development Access to a Wellpass membership Compensa",
+   "remoteProof": "Remote-ready. | You work remotely from anywhere in Germany.",
+   "firstSeen": "2026-11-02T22:29:30+00:00"
   },
   {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/welcomehome-software-senior-software-engineer",
@@ -69,7 +115,7 @@
    "match": "generic+stack; remote",
    "facts": "This role is fully remote (based in the U.S.), will report to our VP of Engineering (based in Las Vegas), and play an integral role in product development and have the opportunity to impact several areas of the business. | But, on top of that, you'll be surrounded by awesome people who care deeply about what they do and will do whatever it takes to help you succeed To apply: https://weworkremotely.com/remote-jobs/welcomehome-software-senior-software-engineer",
    "remoteProof": "This role is fully remote (based in the U.S.), will report to our VP of Engineering (based in Las Vegas), and play an integral role in product development and have the opportunity to impact several areas of the business. | But, on top of that, you'll be surrounded by awesome people who care deeply about what they do and will do whatever it takes to help you succeed To apply: https://weworkremotely.com/remote-jobs/welcomehome-software-senior-software-engineer",
-   "firstSeen": "2026-11-02T19:59:44+00:00"
+   "firstSeen": "2026-11-02T22:29:30+00:00"
   },
   {
    "id": "hn:50340600",
@@ -92,7 +138,7 @@
    "match": "title; remote",
    "facts": "Distru ( https://www.distru.com ) | AI Product Engineer | AI Product Manager | VP of Product (AI focus) | REMOTE (Americas & Europe) | Full-Time Distru is the #1 ERP in the cannabis industry. | Stack: React + TypeScript, Elixir/Phoenix + GraphQL, PostgreSQL, React Native, LangGraph, Python Please apply at https://distru.com/careers and mention Hacker News!",
    "remoteProof": "Distru ( https://www.distru.com ) | AI Product Engineer | AI Product Manager | VP of Product (AI focus) | REMOTE (Americas & Europe) | Full-Time Distru is the #1 ERP in the cannabis industry.",
-   "firstSeen": "2026-11-02T19:59:44+00:00"
+   "firstSeen": "2026-11-02T22:29:30+00:00"
   },
   {
    "id": "greenhouse:alpaca:6237975004",
@@ -114,7 +160,7 @@
    "match": "generic+stack; remote",
    "facts": "Who You Are (Must-Haves): 5+ years of software engineering experience, with ownership of production systems that other developers use. | Proficiency in Python or TypeScript, and a willingness to work primarily in Go. | Experience working remotely.",
    "remoteProof": "Experience working remotely. | How We Take Care of You: Competitive Salary & Stock Options Health Benefits New Hire Home-Office Setup: One-time USD $500 Monthly Stipend: USD $150 per month via a Brex Card Alpaca is proud to be an equal opportunity workplace dedicated to pursuing and hiring a diverse workforce.",
-   "firstSeen": "2026-11-02T19:59:44+00:00"
+   "firstSeen": "2026-11-02T22:29:30+00:00"
   },
   {
    "id": "greenhouse:alpaca:6237960004",
@@ -136,7 +182,7 @@
    "match": "generic+stack; remote",
    "facts": "Who You Are (Must-Haves): 5+ years of software engineering experience, building and operating production backend systems. | Proficiency in Python or TypeScript, and a willingness to work primarily in Go. | Experience working remotely.",
    "remoteProof": "Experience working remotely. | How We Take Care of You: Competitive Salary & Stock Options Health Benefits New Hire Home-Office Setup: One-time USD $500 Monthly Stipend: USD $150 per month via a Brex Card Alpaca is proud to be an equal opportunity workplace dedicated to pursuing and hiring a diverse workforce.",
-   "firstSeen": "2026-11-02T19:59:44+00:00"
+   "firstSeen": "2026-11-02T22:29:30+00:00"
   }
  ]
 }
