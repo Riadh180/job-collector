@@ -4,16 +4,16 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 309
+   "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 4107
+   "fetched": 4102
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 23
+   "fetched": 18
   },
   "remoteok": {
    "fetched": 99
@@ -25,13 +25,13 @@
    "fetched": 101
   },
   "hn": {
-   "fetched": 229
+   "fetched": 238
   },
   "workingnomads": {
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 756
+   "fetched": 760
   },
   "jooble": {
    "fetched": 250
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1509,
-   "failed": 8
+   "checked": 1516,
+   "failed": 5
   }
  },
  "errors": {
@@ -51,9 +51,8 @@
    "Makpar": "HTTP 502",
    "Kwanso": "HTTP 502",
    "Overstory": "HTTP 404",
-   "Lyra Health": "HTTP 502",
    "Aircall": "HTTP 404",
-   "Quantum Metric": "HTTP 502"
+   "Insider One": "HTTP 500"
   }
  },
  "adzuna_usage": {
@@ -107,52 +106,60 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=295, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=298, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 309,
+  "jobs": 316,
   "details": {
-   "tried": 111,
-   "ok": 111
+   "tried": 112,
+   "ok": 112
   }
  },
  "jooble_usage": {
   "calls": 39
  },
  "probe": {
-  "tried": 7,
-  "found": []
+  "tried": 28,
+  "found": [
+   "Matchmatch (ashby:matchmatch)",
+   "Roger (recruitee:rogergmbh)",
+   "Antithesis (ashby:antithesis)",
+   "Pennylane De (ashby:pennylane-de)",
+   "Nubank (ashby:nubank)",
+   "Motherduck (ashby:motherduck)",
+   "ControlPlane (greenhouse:controlplane)"
+  ]
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-03T12:47:14+00:00",
- "rawJobs": 78745,
- "matches": 162,
- "new": 0,
- "companies": 1584,
- "activeCompanies": 1509,
+ "collectedAt": "2026-11-03T16:23:48+00:00",
+ "rawJobs": 79291,
+ "matches": 167,
+ "new": 7,
+ "companies": 1591,
+ "activeCompanies": 1516,
  "funnel": {
-  "title": 75784,
-  "passed": 190,
+  "title": 76298,
+  "passed": 199,
   "too_old": 162,
-  "location": 2566,
+  "location": 2586,
   "company": 14,
-  "duplicate": 28,
-  "employment": 19,
-  "salary": 3
+  "duplicate": 32,
+  "employment": 21,
+  "salary": 4
  },
  "matchesBySource": {
-  "arbeitsagentur": 21,
-  "hn": 6,
-  "ashby": 52,
-  "arbeitnow": 18,
-  "weworkremotely": 9,
-  "greenhouse": 15,
+  "arbeitsagentur": 22,
+  "arbeitnow": 20,
+  "greenhouse": 16,
+  "ashby": 53,
   "workable": 1,
+  "hn": 6,
+  "weworkremotely": 9,
   "personio": 15,
   "jooble": 1,
   "recruitee": 16,

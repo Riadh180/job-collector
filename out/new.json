@@ -1,5 +1,170 @@
 {
- "collectedAt": "2026-11-03T12:47:14+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-11-03T16:23:48+00:00",
+ "count": 7,
+ "jobs": [
+  {
+   "id": "arbeitsagentur:13635-334eedcf_JB5288471-S",
+   "company": "Netcetera Software Services GmbH",
+   "title": "Software Engineer (m/w/d)",
+   "url": "https://www.jobexport.de/job/5288471.html?exp=81&cid=334eedcf-97b4-4823-9707-89e5c5d57ff2",
+   "location": "Köln / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "unbefristet",
+   "industry": "",
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "_km": 54.79998503283749,
+   "kmFromEssen": 55,
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; NRW ~55 km",
+   "facts": "Frontend: React, Node.js • | 5 Jahre praktische Erfahrung in der Entwicklung von Java oder Kotlin mit Typescript (JavaScript) Anwendungen und WebServices (z.B. | Sehr gute Deutsch- und gute Englischkenntnisse sind erforderlich Was wir dir bieten – Dein Arbeitsumfeld:Für Können und Kultur • | 30 Urlaubstage und 3,5 Brauchtumstage für deine Erholung Für Gesundheit und Mobilität • | Office-Ausstattung: Ergonomische Arbeitsplätze und kreative Workspaces, in denen du dich wohlfühlst • | Gesunde Ernährung : Bezuschusstes, ausgewogenes Mittagessen mit Fokus auf Nachhaltigkeit • | Mobilität: Deutschlandticket und Bike-Leasing für deinen täglichen Arbeitsweg •",
+   "remoteProof": "",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-fullstack-engineer-a-n-full-time-remote-hybrid-dusseldorf-237524",
+   "company": "freshcells systems engineering GmbH",
+   "title": "Senior Fullstack Engineer (H/U/M/A/N) full-time (remote/hybrid)",
+   "url": "https://www.arbeitnow.com/jobs/companies/freshcells-systems-engineering-gmbh/senior-fullstack-engineer-a-n-full-time-remote-hybrid-dusseldorf-237524",
+   "location": "Düsseldorf",
+   "remote": false,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; NRW",
+   "facts": "Join us on our exciting journey in what is probably the most important and forward-looking area - software development - as a Senior Fullstack Engineer (m/f/d) in full-time hybrid or remote. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "Join us on our exciting journey in what is probably the most important and forward-looking area - software development - as a Senior Fullstack Engineer (m/f/d) in full-time hybrid or remote.",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-staff-ai-software-engineer-302654",
+   "company": "Matchmatch",
+   "title": "Staff AI Software Engineer",
+   "url": "https://www.arbeitnow.com/jobs/companies/matchmatch/remote-staff-ai-software-engineer-302654",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
+   "id": "greenhouse:mozilla:8315181",
+   "company": "Mozilla",
+   "title": "Staff Software Engineer, Tools & Systems",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315181",
+   "location": "Remote Germany / Remote Canada",
+   "remote": null,
+   "postedAt": "2026-10-22",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "devtools",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. | Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. | Strong programming skills in languages such as Python or JavaScript/TypeScript.",
+   "remoteProof": "",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
+   "id": "ashby:ruby-labs:e91e9b7a-9317-4cf2-a102-90e1c2c83366",
+   "company": "Ruby Labs",
+   "title": "Senior Full-Stack Developer (Next.js)",
+   "url": "https://jobs.ashbyhq.com/ruby-labs/e91e9b7a-9317-4cf2-a102-90e1c2c83366",
+   "location": "Ukraine / North Macedonia / Turkey / European Union / Serbia / Bosnia / Georgia / Ukraine",
+   "remote": true,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "- 2+ years of commercial React experience, including 1+ year with Next.js (App Router, Server Components, route handlers, rendering and caching strategies) and solid TypeScript | - Hands-on with the modern client stack: TanStack Query, Zustand, React Hook Form + Zod, Tailwind CSS, and a React component library such as HeroUI, MUI, or shadcn/ui | - Structured communicator — surfaces risks, blockers, and estimate changes early, in writing, in a remote team | Ruby Labs operates within the CET (Central European Time) zone. | - Remote Work Environment: Embrace the freedom to work from anywhere, anytime, promoting a healthy work-life balance.",
+   "remoteProof": "- Structured communicator — surfaces risks, blockers, and estimate changes early, in writing, in a remote team | - Remote Work Environment: Embrace the freedom to work from anywhere, anytime, promoting a healthy work-life balance.",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
+   "id": "workable:cara-care:70CD56C23B",
+   "company": "Cara Care",
+   "title": "(Senior) Full Stack Engineer (m/f/x) - Based in Germany",
+   "url": "https://apply.workable.com/j/70CD56C23B",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time",
+   "industry": "health",
+   "source": "workable",
+   "ats": "workable",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Your main focus will be building and improving our backend services, while also contributing to our React Native apps. | Your Responsibilities Design, build, and operate reliable backend services and APIs , primarily using Python, Django, and PostgreSQL, and contribute targeted changes to our React Native applications with TypeScript. | Requirements Your Profile Must haves 5+ years of professional software engineering experience , with a strong backend focus and an understanding of how complete applications work from user interface to infrastructure. | Strong backend development skills in an established language such as Python, TypeScript, Java, or PHP. | Working knowledge of React Native an",
+   "remoteProof": "Requirements Your Profile Must haves 5+ years of professional software engineering experience , with a strong backend focus and an understanding of how complete applications work from user interface to infrastructure. | 💡 Please note : Cara Care is a remote-first company with a fully distributed team. | 👨‍💻 Remote-first working: Prefer working from home? | Want to join us at our Berlin office? | Our remote-first approach gives you the flexibility to work where it suits you best.",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
+   "id": "ashby:matchmatch:8ad107b2-9d75-4684-9b34-ef5383a7bed9",
+   "company": "Matchmatch",
+   "title": "Senior Frontend Software Engineer",
+   "url": "https://jobs.ashbyhq.com/matchmatch/8ad107b2-9d75-4684-9b34-ef5383a7bed9",
+   "location": "Berlin / Remote / Germany",
+   "remote": true,
+   "postedAt": "2026-11-02",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "The current applications are written in Typescript using React as a framework, served through Next.js, and using React Query. | - Evolve React/Next.js structure: routing, state, and code‑split rules | - Define React Query caching, retries, and optimistic updates. | - 5+ years of experience as a software engineer | - 3+ years of experience building and shipping web applications with React and Next.js. | - Strong knowledge of TypeScript, React, and React Native.",
+   "remoteProof": "",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  }
+ ]
 }
