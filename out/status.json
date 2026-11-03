@@ -4,16 +4,16 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 316
+   "fetched": 317
   },
   "arbeitnow": {
-   "fetched": 4102
+   "fetched": 4211
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 18
+   "fetched": 312
   },
   "remoteok": {
    "fetched": 99
@@ -22,37 +22,34 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 101
+   "fetched": 103
   },
   "hn": {
-   "fetched": 238
+   "fetched": 239
   },
   "workingnomads": {
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 760
+   "fetched": 765
   },
   "jooble": {
-   "fetched": 250
+   "fetched": 251
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1516,
-   "failed": 5
+   "checked": 1518,
+   "failed": 4
   }
  },
  "errors": {
   "companies": {
    "Doctolib": "HTTP 404",
    "Docsumo": "HTTP 404",
-   "Makpar": "HTTP 502",
-   "Kwanso": "HTTP 502",
    "Overstory": "HTTP 404",
-   "Aircall": "HTTP 404",
-   "Insider One": "HTTP 500"
+   "Aircall": "HTTP 404"
   }
  },
  "adzuna_usage": {
@@ -111,7 +108,7 @@
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 316,
+  "jobs": 317,
   "details": {
    "tried": 112,
    "ok": 112
@@ -121,41 +118,37 @@
   "calls": 39
  },
  "probe": {
-  "tried": 28,
+  "tried": 8,
   "found": [
-   "Matchmatch (ashby:matchmatch)",
-   "Roger (recruitee:rogergmbh)",
-   "Antithesis (ashby:antithesis)",
-   "Pennylane De (ashby:pennylane-de)",
-   "Nubank (ashby:nubank)",
-   "Motherduck (ashby:motherduck)",
-   "ControlPlane (greenhouse:controlplane)"
+   "Hozah (ashby:hozah)",
+   "Neuphonic (ashby:neuphonic)"
   ]
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-03T16:23:48+00:00",
- "rawJobs": 79291,
- "matches": 167,
- "new": 7,
- "companies": 1591,
- "activeCompanies": 1516,
+ "collectedAt": "2026-11-03T17:35:54+00:00",
+ "rawJobs": 79826,
+ "matches": 174,
+ "new": 5,
+ "companies": 1593,
+ "activeCompanies": 1518,
  "funnel": {
-  "title": 76298,
-  "passed": 199,
-  "too_old": 162,
-  "location": 2586,
+  "title": 76791,
+  "passed": 235,
+  "too_old": 161,
+  "location": 2593,
   "company": 14,
-  "duplicate": 32,
+  "duplicate": 61,
   "employment": 21,
   "salary": 4
  },
  "matchesBySource": {
+  "arbeitnow": 22,
+  "jobicy": 5,
   "arbeitsagentur": 22,
-  "arbeitnow": 20,
-  "greenhouse": 16,
+  "greenhouse": 17,
   "ashby": 53,
   "workable": 1,
   "hn": 6,
@@ -164,7 +157,6 @@
   "jooble": 1,
   "recruitee": 16,
   "germantechjobs": 5,
-  "smartrecruiters": 2,
-  "jobicy": 1
+  "smartrecruiters": 2
  }
 }

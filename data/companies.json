@@ -526,7 +526,8 @@
   "industry": "health",
   "addedBy": "watchlist",
   "lastOk": "2026-10-31",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "ats": "ashby",
@@ -2078,8 +2079,7 @@
   "ats": "lever",
   "slug": "quantummetric",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-03"
  },
  {
   "name": "Prior Labs",
@@ -4461,7 +4461,7 @@
   "slug": "docsumo",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "syte GmbH",
@@ -4605,8 +4605,7 @@
   "ats": "lever",
   "slug": "makpar",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-03"
  },
  {
   "name": "DEUNA",
@@ -4670,8 +4669,7 @@
   "ats": "lever",
   "slug": "kwanso",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-03"
  },
  {
   "name": "MetaWealth",
@@ -5120,7 +5118,7 @@
   "slug": "overstory",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Airbnb",
@@ -5152,8 +5150,7 @@
   "ats": "lever",
   "slug": "lyrahealth",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-03"
  },
  {
   "name": "Xsolla",
@@ -5653,7 +5650,8 @@
   "slug": "aircall",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-31",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "BlueCat Networks",
@@ -7489,8 +7487,7 @@
   "ats": "lever",
   "slug": "insiderone",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-03"
  },
  {
   "name": "NECSWS",
@@ -12916,6 +12913,22 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "controlplane",
+  "addedBy": "probe 2026-11-03",
+  "lastOk": "2026-11-03"
+ },
+ {
+  "name": "Hozah",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "hozah",
+  "addedBy": "probe 2026-11-03",
+  "lastOk": "2026-11-03"
+ },
+ {
+  "name": "Neuphonic",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "neuphonic",
   "addedBy": "probe 2026-11-03",
   "lastOk": "2026-11-03"
  }

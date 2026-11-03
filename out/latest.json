@@ -1,7 +1,122 @@
 {
- "collectedAt": "2026-11-03T16:23:48+00:00",
- "count": 167,
+ "collectedAt": "2026-11-03T17:35:54+00:00",
+ "count": 174,
  "jobs": [
+  {
+   "id": "arbeitnow:remote-developer-relations-engineer-london-uk-202326",
+   "company": "Supabase",
+   "title": "Developer Relations Engineer (London, UK)",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/supabase/remote-developer-relations-engineer-london-uk-202326",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "What You'll Do Make content — Publish compelling technical content, especially video, to help developers learn Supabase quickly Build demos and tutorials — Ship real-world apps using Supabase and tools like Next.js, React, and Stripe. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first.",
+   "remoteProof": "We believe you can do your best work from anywhere. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first.",
+   "firstSeen": "2026-11-03T17:35:54+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-software-engineer-33490",
+   "company": "Hozah",
+   "title": "Software Engineer",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/hozah/remote-software-engineer-33490",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "We work in Kotlin on the backend (Spring Boot WebFlux, a domain-driven layering of domain, edge services and repository, Postgres, Axon event sourcing and Pub/Sub) and in TypeScript with Next.js and React on the front end, on GCP and Kubernetes. | The work is mostly Kotlin backend plus Next.js and React front end. | You’ve changed a React or Next.js front end, or worked properly against an API contract, even if you lean backend. | Fully remote working in the UK, with access to a fully refurbished, modern office, right next to East Croydon Station (with a fully stocked kitchen, offering free breakfast, lunch and drinks!).",
+   "remoteProof": "Fully remote, or from our London office next to East Croydon Station Working pattern: Fully remote working is allowed, and the London office is available to you Reports to: CTO About Us Hozah is a tech-led, award-winning company driving change in the parking industry and reimagining urban mobility. | We are a small engineering team, and we form teams around the work from the people we have. | Fully remote working in the UK, with access to a fully refurbished, modern office, right next to East Cr",
+   "firstSeen": "2026-11-03T17:35:54+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-senior-software-engineer-71703",
+   "company": "Hozah",
+   "title": "Senior Software Engineer",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/hozah/remote-senior-software-engineer-71703",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "We work in Kotlin on the backend (Spring Boot WebFlux, a domain-driven layering of domain, edge services and repository, Postgres, Axon event sourcing and Pub/Sub) and in TypeScript with Next.js and React on the front end, on GCP and Kubernetes. | You own a product area: its architecture, how it is staged, its quality bar, and working out with customers what is needed. | You’ve changed a React or Next.js front end, or worked properly against an API contract, even if you lean backend. | You’ve owned a product area on your own, from first design to production, and staged it so each stage delivered something usable. | What We Offer Fully remote working in the UK if you want it, with our London ",
+   "remoteProof": "Fully remote, or from our London office next to East Croydon Station Working pattern: Fully remote working is allowed, and the London office is available to you Reports to: CTO About Us Hozah is a tech-led, award-winning company driving change in the parking industry and reimagining urban mobility. | We are a small engineering team, and we form teams around the work from the people we have. | What We Offer Fully remote working in the UK if you want it, with our London office next to East Croydon",
+   "firstSeen": "2026-11-03T17:35:54+00:00"
+  },
+  {
+   "id": "jobicy:157993",
+   "company": "Bloomreach",
+   "title": "Staff Software Engineer",
+   "url": "https://jobicy.com/jobs/157993-staff-software-engineer-14",
+   "location": "Europe",
+   "remote": true,
+   "postedAt": "2026-10-30",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "You will work remotely first (from Central & Eastern Europe) , but we are more than happy to meet you in our nice offices in Bratislava, Brno or Prague . | We all work remotely from the US, India, and Europe.",
+   "remoteProof": "You will work remotely first (from Central & Eastern Europe) , but we are more than happy to meet you in our nice offices in Bratislava, Brno or Prague . | We all work remotely from the US, India, and Europe.",
+   "firstSeen": "2026-11-03T17:35:54+00:00"
+  },
+  {
+   "id": "jobicy:151927",
+   "company": "Ashby",
+   "title": "Staff Design Engineer - EU",
+   "url": "https://jobicy.com/jobs/151927-staff-design-engineer-eu",
+   "location": "Croatia,  Estonia,  Germany,  Ireland,  Italy,  Portugal,  Romania,  Spain,  Sweden,  Switzerland",
+   "remote": true,
+   "postedAt": "2026-10-29",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Our first hire was over five years ago, and we’re doubling the team from five to over ten in the next year. | Junior Design Engineer - You should have no more than 2 years of industry experience as a designer or engineer. | You have 2+ years of continuous experience (e.g., internships don’t count) as an Engineer or a Designer.",
+   "remoteProof": "",
+   "firstSeen": "2026-11-03T17:35:54+00:00"
+  },
   {
    "id": "arbeitsagentur:13635-334eedcf_JB5288471-S",
    "company": "Netcetera Software Services GmbH",
@@ -69,7 +184,7 @@
     "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-11-03T16:23:48+00:00"
   },
@@ -723,6 +838,29 @@
    "firstSeen": "2026-10-30T10:01:07+00:00"
   },
   {
+   "id": "jobicy:157958",
+   "company": "Enode",
+   "title": "Senior Design Engineer",
+   "url": "https://jobicy.com/jobs/157958-senior-design-engineer",
+   "location": "Europe",
+   "remote": true,
+   "postedAt": "2026-10-30",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "About Enode The grid was built for predictable, centralised power. | Europe’s largest energy companies build on Enode : retailers, utilities and the teams that trade for them. | The role The design team at Enode ships. | You’ll build the interfaces energy retailers and their developers use: the Enode Platform, where they integrate and debug; Link UI, the flow their customers go through when they connect a car or a heat pump; and the website that tells our story. | We’re looking for: 5+ years building user interfaces, in a design engineering, front-end or design-focused engineering role. | Deep knowledge of React and TypeScript, and a strong understanding of HTML, CSS and accessibility. | Exc",
+   "remoteProof": "Excellent written communication: we are remote-first, so writing well is key. | Remote-first in Europe, with the option of attending an office in Oslo or receiving a co-working pass on demand",
+   "firstSeen": "2026-10-30T10:01:07+00:00"
+  },
+  {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/edconic-front-end-developer",
    "company": "Edconic",
    "title": "Front-End Developer",
@@ -748,7 +886,7 @@
    "id": "jooble:4099517956178006872",
    "company": "20four7va",
    "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=23&groupId=-675061143&elckey=-3153895393060496801&p=2&aq=-6508736948513273640&cid=22409&jobAge=154&brelb=10&bscr=8.768669&scr=8.768669",
+   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=24&groupId=-675061143&elckey=3831923931598941177&p=2&aq=8165948703981217156&cid=22409&jobAge=155&brelb=10&bscr=8.797909&scr=8.797909",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
@@ -810,29 +948,6 @@
    "match": "title; remote",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-30T10:01:07+00:00"
-  },
-  {
-   "id": "ashby:enode:fff28f87-ee9c-45d9-969d-90bcc0450a06",
-   "company": "Enode",
-   "title": "Senior Design Engineer",
-   "url": "https://jobs.ashbyhq.com/enode/fff28f87-ee9c-45d9-969d-90bcc0450a06",
-   "location": "Remote - Europe / Norway",
-   "remote": true,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Our platform https://enode.com/platform/overview connects every asset, coordinates every home and shapes thousands as one. | Asset connectivity https://enode.com/platform/assets gives energy retailers one API for 1,000+ device models across 100+ brands. | Home energy coordination https://enode.com/platform/homes turns that connection into smarter behavior at home, like charging an EV in the cheapest hours or using more of your own solar. | Residential flexibility https://enode.com/platform/flexibility brings connected homes together into a dispatchable resource the grid can count on. | Europe’s largest energy companies build on Enode https://enode.com/company: retailers, utilities and the te",
-   "remoteProof": "- Excellent written communication: we are remote-first, so writing well is key.",
    "firstSeen": "2026-10-30T10:01:07+00:00"
   },
   {
@@ -1202,53 +1317,6 @@
    "firstSeen": "2026-10-25T18:43:08+00:00"
   },
   {
-   "id": "ashby:resend:2e3d92c5-79d9-4511-8faf-e2326e7a081e",
-   "company": "Resend",
-   "title": "Software Engineer, Developer Tools",
-   "url": "https://jobs.ashbyhq.com/resend/2e3d92c5-79d9-4511-8faf-e2326e7a081e",
-   "location": "Europe / Ireland",
-   "remote": true,
-   "postedAt": "2026-10-01",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "devtools",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "On our DevTools Squad, you’ll work across our SDKs, React Email, CLI, MCP, and integrations, alongside the backend services that support them. | This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Are experienced in TypeScript and Node.js | - Have experience with React or frontend build tooling | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
-   "remoteProof": "This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
-   "firstSeen": "2026-10-24T17:49:24+00:00"
-  },
-  {
-   "id": "ashby:resend:73a37f4c-02d9-40e4-a116-70507ed413b9",
-   "company": "Resend",
-   "title": "Software Engineer, Trust & Safety",
-   "url": "https://jobs.ashbyhq.com/resend/73a37f4c-02d9-40e4-a116-70507ed413b9",
-   "location": "Europe / Ireland",
-   "remote": true,
-   "postedAt": "2026-10-08",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "devtools",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Bring 5+ years of software engineering experience | - Are fluent in writing and speaking English | - Have deep experience with Node.js, TypeScript, React (Hono, Next.js) | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
-   "remoteProof": "This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
-   "firstSeen": "2026-10-24T17:49:24+00:00"
-  },
-  {
    "id": "ashby:alan:14729a35-9c9f-479e-860b-3d6c1348a2b0",
    "company": "Alan",
    "title": "Fullstack Software Engineer (x/f/m) - Tech Foundations",
@@ -1337,6 +1405,53 @@
    "match": "title; remote",
    "facts": "We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. | - 5+ years building scalable software systems | Our stack is React, Python/Flask, PostgreSQL in a monorepo.",
    "remoteProof": "",
+   "firstSeen": "2026-10-24T17:49:24+00:00"
+  },
+  {
+   "id": "ashby:resend:2e3d92c5-79d9-4511-8faf-e2326e7a081e",
+   "company": "Resend",
+   "title": "Software Engineer, Developer Tools",
+   "url": "https://jobs.ashbyhq.com/resend/2e3d92c5-79d9-4511-8faf-e2326e7a081e",
+   "location": "Europe / Ireland",
+   "remote": true,
+   "postedAt": "2026-10-01",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "devtools",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "On our DevTools Squad, you’ll work across our SDKs, React Email, CLI, MCP, and integrations, alongside the backend services that support them. | This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Are experienced in TypeScript and Node.js | - Have experience with React or frontend build tooling | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
+   "remoteProof": "This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
+   "firstSeen": "2026-10-24T17:49:24+00:00"
+  },
+  {
+   "id": "ashby:resend:73a37f4c-02d9-40e4-a116-70507ed413b9",
+   "company": "Resend",
+   "title": "Software Engineer, Trust & Safety",
+   "url": "https://jobs.ashbyhq.com/resend/73a37f4c-02d9-40e4-a116-70507ed413b9",
+   "location": "Europe / Ireland",
+   "remote": true,
+   "postedAt": "2026-10-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "devtools",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Bring 5+ years of software engineering experience | - Are fluent in writing and speaking English | - Have deep experience with Node.js, TypeScript, React (Hono, Next.js) | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
+   "remoteProof": "This role is fully remote based in Americas or European timezones, with some expected travel for team offsites, conferences, meetups, and more. | - Work remotely with teammates around the world | Our fully remote team of 50 spans 15 countries and counting.",
    "firstSeen": "2026-10-24T17:49:24+00:00"
   },
   {
@@ -1695,6 +1810,28 @@
    "firstSeen": "2026-10-21T17:10:36+00:00"
   },
   {
+   "id": "ashby:clera:1dbadfa4-6547-43bc-98d6-42c47ecc8993",
+   "company": "Clera",
+   "title": "Founding Engineer, AI and Geometry / CAD",
+   "url": "https://jobs.ashbyhq.com/clera/1dbadfa4-6547-43bc-98d6-42c47ecc8993",
+   "location": "Karlsruhe / Germany",
+   "remote": false,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "Join an early-stage AI and construction technology team building a new BIM authoring tool designed for AI agents. | - Experience shipping production software, typically one or more years; substantial personal projects can complement shorter professional experience. | - Startup or founder experience, and an interest in an early-stage environment. | - Fluent English; German is not required. | - Experience with Python, PyTorch, TypeScript, three.js, AEC or BIM workflows, or generative and multimodal models is useful. | COMPENSATION & BENEFITS | Remote within Europe, including the UK and Switzerland. | The primary location is Karlsruhe, Germany.",
+   "remoteProof": "Remote within Europe, including the UK and Switzerland.",
+   "firstSeen": "2026-10-21T17:10:36+00:00"
+  },
+  {
    "id": "recruitee:knuddels:2758260",
    "company": "Knuddels & Co. KG",
    "title": "Product Engineer (m/w/d) - remote oder Karlsruhe",
@@ -1901,6 +2038,50 @@
    "facts": "GitLab/GitHub Actions) und integrierst Containisierung (Docker) fest in euren Workflow. | React, Angular oder Vue) und wählst Tools pragmatisch nach Einsatzzweck, nicht nach Vorliebe. | Sprachkompetenz: Sehr gute Deutschkenntnisse sind Voraussetzung (mind.",
    "remoteProof": "",
    "firstSeen": "2026-10-18T09:16:40+00:00"
+  },
+  {
+   "id": "jobicy:149734",
+   "company": "Enode",
+   "title": "Senior Software Engineer - (Home Energy)",
+   "url": "https://jobicy.com/jobs/149734-senior-software-engineer-home-energy",
+   "location": "Europe,  Norway",
+   "remote": true,
+   "postedAt": "2026-10-29",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "About Enode The grid was built for predictable, centralised power. | Enode provides the infrastructure layer that makes this possible. | The Home Energy team owns Enode's integrations and APIs for batteries, solar inverters, HVAC, and smart meters, along with the home energy management (HEM) system and statistics that customers build on. | Debug and ship production features in Node/TypeScript on our AWS-based stack. | Explore our API docs and the Enode Tech Blog to see what we ship and how we think about it. | Nice to have: Experience with TypeScript/Node, AWS services, PostgreSQL, TimescaleDB, or similar production tooling. | Prior exposure to API-first products or integration platforms. | ",
+   "remoteProof": "Ability to own work from initial scoping to production rollout, including iterating based on customer or usage insights. | Remote-first in Europe, with the option of attending an office in Oslo or receiving a co-working pass on demand. | Stipend for setting up your home office.",
+   "firstSeen": "2026-10-17T18:05:40+00:00"
+  },
+  {
+   "id": "ashby:clera:68e2fae1-ba8d-452f-a9e8-df49aa8acbfa",
+   "company": "Clera",
+   "title": "Senior Platform Software Engineer",
+   "url": "https://jobs.ashbyhq.com/clera/68e2fae1-ba8d-452f-a9e8-df49aa8acbfa",
+   "location": "remote",
+   "remote": false,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "- At least 5 years of professional software engineering experience, including ownership in platform engineering, infrastructure, DevOps, or founding engineering. | - Working familiarity with TypeScript and Node.js application code, including NestJS. | COMPENSATION & BENEFITS | Competitive salary and employee stock options. | Fully remote within Europe, with residence within three hours of Central European Time.",
+   "remoteProof": "Fully remote within Europe, with residence within three hours of Central European Time.",
+   "firstSeen": "2026-10-17T18:05:40+00:00"
   },
   {
    "id": "ashby:sardine:8e9d4ba5-92f9-48f4-925d-090fd5d6e303",
@@ -2220,7 +2401,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
@@ -2466,28 +2647,6 @@
    "facts": "👉 What a week at Synera could look like: Monday: You kick off the week by syncing with fellow devs across teams: sharing breakthroughs, tackling tough bugs, or dropping a hot tip about that obscure TypeScript feature you mastered recently. | We believe in transparent conversations about compensation from the start. | Check out this page to learn how we approach salary, career growth, and creating an environment where everyone can shine. | What we offer beyond salary: Flexible working: you decide when & where to work (as long as you have a residency in Germany). | Home office setup support + access to our office in Bremen. | Personal development budget of €2,000 to attend conferences and trai",
    "remoteProof": "Home office setup support + access to our office in Bremen.",
    "firstSeen": "2026-10-13T12:24:49+00:00"
-  },
-  {
-   "id": "ashby:clera:eee1249b-4232-4d13-bc61-94c10a96c831",
-   "company": "Clera",
-   "title": "Forward Deployment Engineer",
-   "url": "https://jobs.ashbyhq.com/clera/eee1249b-4232-4d13-bc61-94c10a96c831",
-   "location": "remote",
-   "remote": false,
-   "postedAt": "2026-10-27",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "- Several years of experience translating customer requirements into production implementation plans. | - German proficiency at B2 level or above; exceptional candidates without German proficiency may be considered for escalation. | Experience with TypeScript or Python, SQL, workflow automation, monitoring and tracing, or privacy considerations is also helpful. | COMPENSATION & BENEFITS | Base salary: €60,000 to €90,000 annually. | Remote, based in Germany.",
-   "remoteProof": "Remote, based in Germany.",
-   "firstSeen": "2026-10-11T19:27:32+00:00"
   },
   {
    "id": "ashby:clipbook:0db15f4a-50bb-4112-888c-d82614d142cf",
@@ -2897,7 +3056,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; NRW",
-   "facts": "Wir melden uns innerhalb von drei Tagen bei Dir Erstes Gespräch (30 Minuten): Gegenseitiges Kennenlernen und erster Eindruck. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Wir melden uns innerhalb von drei Tagen bei Dir Erstes Gespräch (30 Minuten): Gegenseitiges Kennenlernen und erster Eindruck. | Find Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-10-07T07:38:06+00:00"
   },
@@ -3079,30 +3238,6 @@
    "firstSeen": "2026-10-06T17:42:48+00:00"
   },
   {
-   "id": "arbeitnow:tech-lead-berlin-152424",
-   "company": "Superchat",
-   "title": "Tech Lead (m/f/d)",
-   "url": "https://www.arbeitnow.com/jobs/companies/superchat/tech-lead-berlin-152424",
-   "location": "Berlin",
-   "remote": false,
-   "postedAt": "2026-10-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Permanent employment (unbefristeter arbeitsvertrag)",
-   "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; DE+remote-in-text",
-   "facts": "We're 100 people , profitable , and have raised €18M in funding (last round 4.5 years ago, we've been growing on our own money since). | You bring 3+ years of experience as a Senior or Staff Engineer and remain deeply involved in software development. | You may already have worked in a hybrid Tech Lead role, have been an Engineering manager for a short time or be taking your first steps in people leadership after successfully owning projects and architecture. | Remote-only operator. | You prefer fully remote work and don’t want to actively build relationships and culture in person with the team. | Kotlin/Quarkus, AWS, TypeScript/React/Next.js, and LangGraph for AI-powered features Squad-base",
-   "remoteProof": "You may already have worked in a hybrid Tech Lead role, have been an Engineering manager for a short time or be taking your first steps in people leadership after successfully owning projects and architecture. | Remote-only operator. | You prefer fully remote work and don’t want to actively build relationships and culture in person with the team. | PMs report directly to the CPO, keeping product strategy focused, consistent, and clearly prioritized Hybrid by design.",
-   "firstSeen": "2026-10-06T17:33:36+00:00"
-  },
-  {
    "id": "personio:pixelproduction:2825889",
    "company": "PixelProduction",
    "title": "Teamleitung Webentwicklung / Web Development (m/w/d)",
@@ -3120,29 +3255,6 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-10-06T17:33:36+00:00"
-  },
-  {
-   "id": "ashby:clera:62653a52-6f70-4c46-b3ae-6d32ff30927c",
-   "company": "Clera",
-   "title": "Founding Product Engineer",
-   "url": "https://jobs.ashbyhq.com/clera/62653a52-6f70-4c46-b3ae-6d32ff30927c",
-   "location": "remote",
-   "remote": false,
-   "postedAt": "2026-10-27",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Join the engineering team at a European AI communications company as a Founding Product Engineer. | - At least three years of product engineering experience delivering features end to end. | - Full-stack experience with Node.js, TypeScript, NestJS, and React. | - German proficiency at B2 level or above, and fluent English for team and product communication. | - Experience integrating large language models or building AI-powered features is an advantage. | COMPENSATION & BENEFITS | Compensation is €80,000 to €120,000 annually, with equity. | Remote role based in Germany, with overlap during Central European Time working hours.",
-   "remoteProof": "Remote role based in Germany, with overlap during Central European Time working hours.",
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
@@ -3165,6 +3277,53 @@
    "match": "generic+stack; remote",
    "facts": "- Five to fifteen years of backend engineering experience, including five or more years building scalable distributed systems. | - Proficiency in Python and TypeScript or Node.js, SQL, relational data modeling, and REST or gRPC API development. | COMPENSATION & BENEFITS | Base salary is $140,000 to $180,000 annually, with equity and a cash bonus. | Remote within the United States.",
    "remoteProof": "Remote within the United States.",
+   "firstSeen": "2026-10-06T17:33:36+00:00"
+  },
+  {
+   "id": "ashby:clera:7ec3c28e-583f-4433-8747-c734a04b7cfa",
+   "company": "Clera",
+   "title": "Founding Product Engineer",
+   "url": "https://jobs.ashbyhq.com/clera/7ec3c28e-583f-4433-8747-c734a04b7cfa",
+   "location": "Munich / Germany",
+   "remote": false,
+   "postedAt": "2026-11-03",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Join an early-stage energy technology team building an enterprise-grade platform for energy procurement and management. | - At least two years of software engineering experience delivering scalable web applications in an early-stage startup environment. | - Fluent spoken and written German, and a product-minded, hands-on approach suited to an early-stage team. | PostgreSQL, React, and Python experience are relevant; TypeScript, FastAPI, and Supabase are useful. | COMPENSATION & BENEFITS | Salary range: €85,000 to €140,000 annually. | Hybrid, based in Munich, Germany. | The role requires working on-site most of the week, with occasional remote work.",
+   "remoteProof": "Hybrid, based in Munich, Germany. | The role requires working on-site most of the week, with occasional remote work.",
+   "firstSeen": "2026-10-06T17:33:36+00:00"
+  },
+  {
+   "id": "greenhouse:superchat:4969144101",
+   "company": "Superchat",
+   "title": "Tech Lead (m/f/d)",
+   "url": "https://job-boards.eu.greenhouse.io/superchat/jobs/4969144101",
+   "location": "Berlin, Berlin, Germany / Berlin",
+   "remote": null,
+   "postedAt": "2026-09-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "We're 100 people , profitable , and have raised €18M in funding (last round 4.5 years ago, we've been growing on our own money since). | You bring 3+ years of experience as a Senior or Staff Engineer and remain deeply involved in software development. | You may already have worked in a hybrid Tech Lead role, have been an Engineering manager for a short time or be taking your first steps in people leadership after successfully owning projects and architecture. | Remote-only operator. | You prefer fully remote work and don’t want to actively build relationships and culture in person with the team. | Kotlin/Quarkus, AWS, TypeScript/React/Next.js, and LangGraph for AI-powered features Squad-base",
+   "remoteProof": "You may already have worked in a hybrid Tech Lead role, have been an Engineering manager for a short time or be taking your first steps in people leadership after successfully owning projects and architecture. | Remote-only operator. | You prefer fully remote work and don’t want to actively build relationships and culture in person with the team. | PMs report directly to the CPO, keeping product strategy focused, consistent, and clearly prioritized Hybrid by design.",
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
