@@ -7,13 +7,13 @@
    "fetched": 317
   },
   "arbeitnow": {
-   "fetched": 4211
+   "fetched": 3437
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 312
+   "fetched": 315
   },
   "remoteok": {
    "fetched": 99
@@ -25,31 +25,29 @@
    "fetched": 103
   },
   "hn": {
-   "fetched": 239
+   "fetched": 243
   },
   "workingnomads": {
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 765
+   "fetched": 802
   },
   "jooble": {
-   "fetched": 251
+   "fetched": 249
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1518,
-   "failed": 4
+   "checked": 1529,
+   "failed": 2
   }
  },
  "errors": {
   "companies": {
-   "Doctolib": "HTTP 404",
    "Docsumo": "HTTP 404",
-   "Overstory": "HTTP 404",
-   "Aircall": "HTTP 404"
+   "Overstory": "HTTP 404"
   }
  },
  "adzuna_usage": {
@@ -103,7 +101,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=298, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=297, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -118,34 +116,46 @@
   "calls": 39
  },
  "probe": {
-  "tried": 8,
+  "tried": 66,
   "found": [
-   "Hozah (ashby:hozah)",
-   "Neuphonic (ashby:neuphonic)"
+   "Resonance (ashby:resonance)",
+   "Xenon7 (workable:xenon7)",
+   "Virtual Identity (ashby:virtual-identity)",
+   "Greenlight (lever:greenlight)",
+   "Sonatype (lever:sonatype)",
+   "Tango (ashby:tango)",
+   "CruxOCM (lever:cruxocm)",
+   "Q ENERGY (personio:q-energy)",
+   "MindTech (recruitee:mindtech)",
+   "Conga (greenhouse:conga)",
+   "PIP Labs (lever:piplabs)",
+   "Outbound Operators (recruitee:outboundoperators)",
+   "Startup Insider (personio:startup-insider)"
   ]
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-03T17:35:54+00:00",
- "rawJobs": 79826,
- "matches": 174,
- "new": 5,
- "companies": 1593,
- "activeCompanies": 1518,
+ "collectedAt": "2026-11-03T20:45:47+00:00",
+ "rawJobs": 79262,
+ "matches": 173,
+ "new": 2,
+ "companies": 1606,
+ "activeCompanies": 1529,
  "funnel": {
-  "title": 76791,
-  "passed": 235,
+  "title": 76243,
+  "passed": 236,
   "too_old": 161,
-  "location": 2593,
+  "location": 2577,
   "company": 14,
-  "duplicate": 61,
-  "employment": 21,
+  "duplicate": 63,
+  "employment": 20,
   "salary": 4
  },
  "matchesBySource": {
-  "arbeitnow": 22,
+  "arbeitnow": 19,
+  "himalayas": 2,
   "jobicy": 5,
   "arbeitsagentur": 22,
   "greenhouse": 17,
