@@ -25,7 +25,7 @@
    "fetched": 101
   },
   "hn": {
-   "fetched": 228
+   "fetched": 229
   },
   "workingnomads": {
    "fetched": 35
@@ -41,15 +41,19 @@
   },
   "companies": {
    "checked": 1509,
-   "failed": 4
+   "failed": 8
   }
  },
  "errors": {
   "companies": {
    "Doctolib": "HTTP 404",
    "Docsumo": "HTTP 404",
+   "Makpar": "HTTP 502",
+   "Kwanso": "HTTP 502",
    "Overstory": "HTTP 404",
-   "Aircall": "HTTP 404"
+   "Lyra Health": "HTTP 502",
+   "Aircall": "HTTP 404",
+   "Quantum Metric": "HTTP 502"
   }
  },
  "adzuna_usage": {
@@ -118,31 +122,24 @@
   "calls": 39
  },
  "probe": {
-  "tried": 69,
-  "found": [
-   "Focused (ashby:focused)",
-   "Spear AI (ashby:spear-ai)",
-   "Sodalis, Inc. (ashby:sodalis)",
-   "Pairs (ashby:pairs)",
-   "Sourcing Unicorns (recruitee:sourcingunicorns)",
-   "Hatch (ashby:hatch)"
-  ]
+  "tried": 7,
+  "found": []
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-03T12:34:05+00:00",
- "rawJobs": 79248,
+ "collectedAt": "2026-11-03T12:47:14+00:00",
+ "rawJobs": 78745,
  "matches": 162,
- "new": 4,
+ "new": 0,
  "companies": 1584,
  "activeCompanies": 1509,
  "funnel": {
-  "title": 76292,
+  "title": 75784,
   "passed": 190,
   "too_old": 162,
-  "location": 2561,
+  "location": 2566,
   "company": 14,
   "duplicate": 28,
   "employment": 19,
