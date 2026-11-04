@@ -526,8 +526,7 @@
   "industry": "health",
   "addedBy": "watchlist",
   "lastOk": "2026-10-31",
-  "failCount": 5,
-  "disabled": true
+  "failCount": 4
  },
  {
   "ats": "ashby",
@@ -3473,7 +3472,8 @@
   "ats": "personio",
   "slug": "xolife",
   "addedBy": "probe 2026-10-06",
-  "lastOk": "2026-11-04"
+  "lastOk": "2026-11-03",
+  "failCount": 1
  },
  {
   "name": "Ceis Gmbh",
@@ -4461,8 +4461,7 @@
   "slug": "docsumo",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 5,
-  "disabled": true
+  "failCount": 2
  },
  {
   "name": "syte GmbH",
@@ -5119,8 +5118,7 @@
   "slug": "overstory",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 5,
-  "disabled": true
+  "failCount": 2
  },
  {
   "name": "Airbnb",
@@ -5345,7 +5343,8 @@
   "ats": "lever",
   "slug": "airslate",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-04"
+  "lastOk": "2026-11-03",
+  "failCount": 1
  },
  {
   "name": "Laminar Projects",
@@ -5652,8 +5651,7 @@
   "slug": "aircall",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-31",
-  "failCount": 5,
-  "disabled": true
+  "failCount": 4
  },
  {
   "name": "BlueCat Networks",
@@ -12882,187 +12880,18 @@
   "lastOk": "2026-11-04"
  },
  {
-  "name": "Matchmatch",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "matchmatch",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Roger",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "rogergmbh",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Antithesis",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "antithesis",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Pennylane De",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "pennylane-de",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Nubank",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "nubank",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Motherduck",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "motherduck",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "ControlPlane",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "controlplane",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
   "name": "Hozah",
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "hozah",
-  "addedBy": "probe 2026-11-03",
+  "addedBy": "probe 2026-11-04",
   "lastOk": "2026-11-04"
  },
  {
-  "name": "Neuphonic",
+  "name": "Matchmatch",
   "industry": "from job boards",
   "ats": "ashby",
-  "slug": "neuphonic",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Resonance",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "resonance",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Xenon7",
-  "industry": "from job boards",
-  "ats": "workable",
-  "slug": "xenon7",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-03",
-  "failCount": 1
- },
- {
-  "name": "Virtual Identity",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "virtual-identity",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Greenlight",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "greenlight",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Sonatype",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "sonatype",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Tango",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "tango",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "CruxOCM",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "cruxocm",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Q ENERGY",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "q-energy",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "MindTech",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "mindtech",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Conga",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "conga",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "PIP Labs",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "piplabs",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Outbound Operators",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "outboundoperators",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Startup Insider",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "startup-insider",
-  "addedBy": "probe 2026-11-03",
-  "lastOk": "2026-11-04"
- },
- {
-  "name": "Vogel",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "vogel",
+  "slug": "matchmatch",
   "addedBy": "probe 2026-11-04",
   "lastOk": "2026-11-04"
  },
@@ -13075,10 +12904,34 @@
   "lastOk": "2026-11-04"
  },
  {
-  "name": "Code",
+  "name": "Vogel",
   "industry": "from job boards",
-  "ats": "personio",
-  "slug": "code",
+  "ats": "ashby",
+  "slug": "vogel",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Resonance",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "resonance",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Roger",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "rogergmbh",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Antithesis",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "antithesis",
   "addedBy": "probe 2026-11-04",
   "lastOk": "2026-11-04"
  },
@@ -13099,6 +12952,30 @@
   "lastOk": "2026-11-04"
  },
  {
+  "name": "Pennylane De",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "pennylane-de",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "simtrabps",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "simtrabps",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Fivetran",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "fivetran",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
   "name": "cloudpunks GmbH",
   "industry": "from job boards",
   "ats": "recruitee",
@@ -13115,18 +12992,50 @@
   "lastOk": "2026-11-04"
  },
  {
-  "name": "Fivetran",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "fivetran",
-  "addedBy": "probe 2026-11-04",
-  "lastOk": "2026-11-04"
- },
- {
   "name": "Carwow",
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "carwow",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Virtual Identity",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "virtual-identity",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Neuphonic",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "neuphonic",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Nubank",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "nubank",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Motherduck",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "motherduck",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "Manara",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "manara",
   "addedBy": "probe 2026-11-04",
   "lastOk": "2026-11-04"
  },
@@ -13143,6 +13052,14 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "teya",
+  "addedBy": "probe 2026-11-04",
+  "lastOk": "2026-11-04"
+ },
+ {
+  "name": "ControlPlane",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "controlplane",
   "addedBy": "probe 2026-11-04",
   "lastOk": "2026-11-04"
  }
