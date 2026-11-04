@@ -7,13 +7,13 @@
    "fetched": 313
   },
   "arbeitnow": {
-   "fetched": 4344
+   "fetched": 3267
   },
   "remotive": {
    "fetched": 88
   },
   "jobicy": {
-   "fetched": 243
+   "fetched": 250
   },
   "remoteok": {
    "fetched": 99
@@ -25,33 +25,50 @@
    "fetched": 105
   },
   "hn": {
-   "fetched": 247
+   "fetched": 249
   },
   "workingnomads": {
    "fetched": 34
   },
   "germantechjobs": {
-   "fetched": 691
+   "fetched": 703
   },
   "jooble": {
-   "fetched": 199
+   "fetched": 151
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1532,
-   "failed": 6
+   "checked": 1534,
+   "failed": 23
   }
  },
  "errors": {
   "companies": {
-   "Doctolib": "HTTP 404",
    "Xolife": "HTTP 404",
    "Docsumo": "HTTP 404",
    "Overstory": "HTTP 404",
-   "Aircall": "HTTP 404",
-   "Wattpad": "HTTP 502"
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
+   "Paperpile": "HTTP 429",
+   "Thanx": "HTTP 429",
+   "QuickTeam": "HTTP 429",
+   "Creative Chaos": "HTTP 429",
+   "Tenchi Security": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -117,40 +134,45 @@
   }
  },
  "jooble_usage": {
-  "calls": 37
+  "calls": 36
  },
  "probe": {
-  "tried": 11,
-  "found": []
+  "tried": 35,
+  "found": [
+   "Stand Together (lever:standtogether)",
+   "Tenchi Security (workable:tenchi-security)",
+   "True Tandem (lever:truetandem)",
+   "RTB House (greenhouse:rtbhouse)"
+  ]
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-04T17:48:20+00:00",
- "rawJobs": 80504,
- "matches": 177,
- "new": 0,
- "companies": 1607,
- "activeCompanies": 1532,
+ "collectedAt": "2026-11-04T21:03:46+00:00",
+ "rawJobs": 78374,
+ "matches": 175,
+ "new": 2,
+ "companies": 1611,
+ "activeCompanies": 1534,
  "funnel": {
-  "title": 77457,
-  "passed": 245,
-  "too_old": 160,
+  "title": 75448,
+  "passed": 235,
+  "too_old": 161,
   "company": 14,
-  "duplicate": 68,
-  "location": 2595,
+  "duplicate": 60,
+  "location": 2483,
   "employment": 22,
   "salary": 4
  },
  "matchesBySource": {
+  "arbeitnow": 24,
+  "himalayas": 1,
   "arbeitsagentur": 23,
-  "arbeitnow": 25,
   "jobicy": 5,
-  "himalayas": 4,
   "greenhouse": 17,
-  "ashby": 50,
   "personio": 16,
+  "ashby": 52,
   "hn": 7,
   "weworkremotely": 9,
   "jooble": 1,

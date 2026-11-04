@@ -1,5 +1,50 @@
 {
- "collectedAt": "2026-11-04T17:48:20+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-11-04T21:03:46+00:00",
+ "count": 2,
+ "jobs": [
+  {
+   "id": "arbeitnow:product-engineer-frontend-munich-345313",
+   "company": "Particula",
+   "title": "Product Engineer (Frontend) (m/f/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/particula/product-engineer-frontend-munich-345313",
+   "location": "Munich",
+   "remote": false,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Permanent employment professional / experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Requirements Must have 5+ years of commercial software engineering, with evidence of owned product work: features you took from problem to production and measured. | Strong frontend expertise: Deep proficiency in TypeScript and a modern component framework (Vue 3 / Nuxt preferred). | Clear communication: Fluent written and spoken English, comfortable presenting ideas to non-technical stakeholders and working through written proposals. | Our stack TypeScript · | Values-based start-up culture Many opportunities to develop further and network with committed people Flat hierarchy We're a hybrid company building our core development team in Europe around Central European Time. | The goal is to es",
+   "remoteProof": "AI-assisted development workflows Benefits Offsites with the team in exciting locations Flexible working hours in a company that relies on remote work Exciting product in a very dynamic market environment as well as founding-level ownership of a key growth function. | Values-based start-up culture Many opportunities to develop further and network with committed people Flat hierarchy We're a hybrid company building our core development team in Europe around Central European Time.",
+   "firstSeen": "2026-11-04T21:03:46+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/naxcon-gmbh/jobs/senior-full-stack-developer-it-maintenance-specialist",
+   "company": "NAXCON GmbH",
+   "title": "Senior Full-Stack Developer & IT Maintenance Specialist",
+   "url": "https://himalayas.app/companies/naxcon-gmbh/jobs/senior-full-stack-developer-it-maintenance-specialist?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "﻿ NAXCON GmbH , located in the heart of Freiburg, is at the forefront of the German IT and engineering industry. | Renowned companies from a wide range of German industries place their trust in us - demonstrating the outstanding expertise and commitment of our engineers. | Position : Senior Full-Stack Developer & IT Maintenance Specialist Type : Full-time/Remote Field : IT Prequalification Requirement Relevant project references are mandatory for this role. | Contract Value in EUR: Please provide an estimate if the exact value is not known or cannot be disclosed. | 3–5 years of experience in full-stack web application development and/or ongoing software maintenance. | Prior engagement with a",
+   "remoteProof": "Position : Senior Full-Stack Developer & IT Maintenance Specialist Type : Full-time/Remote Field : IT Prequalification Requirement Relevant project references are mandatory for this role. | Nice to Have: Experience with Cisco AnyConnect VPN or remote access in secured government environments.",
+   "firstSeen": "2026-11-04T21:03:46+00:00"
+  }
+ ]
 }
