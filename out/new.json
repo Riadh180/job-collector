@@ -1,35 +1,39 @@
 {
- "collectedAt": "2026-11-03T20:45:47+00:00",
- "count": 2,
+ "collectedAt": "2026-11-04T12:43:36+00:00",
+ "count": 4,
  "jobs": [
   {
-   "id": "arbeitnow:senior-high-voltage-electrical-design-engineer-all-genders-munich-349797",
-   "company": "væridion",
-   "title": "Senior High-Voltage Electrical Design Engineer (all genders)",
-   "url": "https://www.arbeitnow.com/jobs/companies/vaeridion/senior-high-voltage-electrical-design-engineer-all-genders-munich-349797",
-   "location": "Munich HQ",
-   "remote": false,
-   "postedAt": "2026-11-03",
+   "id": "arbeitsagentur:13509-0000211137e002-S",
+   "company": "BWI GmbH",
+   "title": "Senior Test Automation Engineer - BundesMessenger (m/w/d)",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-0000211137e002-S",
+   "location": "Bonn / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-04",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "unbefristet",
    "industry": "",
-   "source": "arbeitnow",
-   "ats": "arbeitnow",
-   "stackHits": [],
-   "match": "title; DE+remote-in-text",
-   "facts": "5+ years of experience in HV electrical design, preferably in aerospace or automotive battery systems, or other safety-critical industries. | Excellent verbal and written communication skills in English. | German is a plus. | We are an in-office company, but we value flexibility and trust employees to manage their schedules responsibly. | This may include occasional remote work or adjusting hours to accommodate personal commitments. | Enjoy a subsidized lunch with a 5€ company contribution per meal on office days",
-   "remoteProof": "We are an in-office company, but we value flexibility and trust employees to manage their schedules responsibly. | This may include occasional remote work or adjusting hours to accommodate personal commitments. | Enjoy a subsidized lunch with a 5€ company contribution per meal on office days",
-   "firstSeen": "2026-11-03T20:45:47+00:00"
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "_km": 78.88153524841842,
+   "kmFromEssen": 79,
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "Mit über 8.000 Kolleg*innen betreiben und modernisieren wir eine der größten und komplexesten IT-Infrastrukturen in Deutschland. | Wir suchen verantwortungsvolle IT-Spezialist*innen, die die Bundeswehr-IT aus Überzeugung in herausfordernden Digitalisierungsvorhaben weiterentwickeln und so einen Beitrag zur Sicherheit Deutschlands leisten wollen. | Bei uns gestaltest du den BundesMessenger - eine sichere Kommunikationsplattform für ganz Deutschland. | Wenn du mit Leidenschaft innovative Software baust und die digitale Souveränität Deutschlands aktiv mitgestalten möchtest, dann bist du in unserem Team genau richtig!",
+   "remoteProof": "Senior Test Automation Engineer - BundesMessenger (m/w/d) ab sofort und in Vollzeit in Bonn, alternativ bundesweit an einem unserer BWI Standorte.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/reap/jobs/senior-software-engineer-reap-direct-europe",
-   "company": "Reap",
-   "title": "Senior Software Engineer, Reap Direct - Europe",
-   "url": "https://himalayas.app/companies/reap/jobs/senior-software-engineer-reap-direct-europe?utm_source=api",
-   "location": "Czechia / Germany / Ireland / Poland / United Kingdom",
+   "id": "himalayas:https://himalayas.app/companies/iwoca/jobs/full-stack-engineer-operations-engineering-team",
+   "company": "iwoca",
+   "title": "Full-Stack Engineer - Operations Engineering Team",
+   "url": "https://himalayas.app/companies/iwoca/jobs/full-stack-engineer-operations-engineering-team?utm_source=api",
+   "location": "Germany / United Kingdom",
    "remote": true,
-   "postedAt": "2026-11-03",
+   "postedAt": "2026-11-04",
    "salary": "",
    "salaryMax": null,
    "employment": "Full Time",
@@ -40,10 +44,55 @@
     "react",
     "typescript"
    ],
-   "match": "generic+stack; remote",
-   "facts": "Minimum requirements Experience: 6+ years of software engineering experience for senior candidates (strong mid-level engineers with 3+ years also considered), with a track record of owning and operating business-critical systems. | Full-stack engineering: Strong across the entire stack — the React ecosystem (state management, component frameworks) on the front end, and TypeScript/NestJS services and APIs on the back end, deployed to cloud infrastructure. | Preferred qualifications Domain exposure: Experience or interest in fintech domains — payments, card issuing, or exchanges — is a plus. | Mobile development: Familiarity with app development using tools like React Native, and with publishi",
-   "remoteProof": "",
-   "firstSeen": "2026-11-03T20:45:47+00:00"
+   "match": "title; remote",
+   "facts": "Full-Stack Engineer - Operations Engineering Team Hybrid or Remote working in the UK or Germany. | We’re looking for a Full-Stack Engineer to build the systems that power iwoca ’s German business. | You’ll join the Operations Engineering team, a cross-functional group that builds the proprietary tools (like our CRM) that our German operations staff use every day. | The team builds and maintains the internal systems – including tools for underwriting, notifications, and account management – that power iwoca ’s German market. | As the German business grows, the Operations Engineering team is moving beyond small improvements and into reworking how work is done. | The requirements Essential: Pro",
+   "remoteProof": "Full-Stack Engineer - Operations Engineering Team Hybrid or Remote working in the UK or Germany. | A track record of taking work from an initial problem through to delivery, including shaping solutions, making trade-offs, and iterating based on how systems are used.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/human-power-bg/jobs/senior-front-end-developer",
+   "company": "Human Power BG",
+   "title": "Senior Front-End Developer",
+   "url": "https://himalayas.app/companies/human-power-bg/jobs/senior-front-end-developer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "﻿~~~ ﻿ Our client platform empowers hundreds of remote software specialists from Eastern Europe to work with the most innovative tech companies from around the world. | You will be participating in all stages of the software development process and will have a real impact on the product. | WHAT WE ARE LOOKING FOR: ﻿ Several years of experience in Web/Frontend Development Some experience with modern tools like ES6, Typescript, Angular, React, Vue.js, etc.",
+   "remoteProof": "﻿~~~ ﻿ Our client platform empowers hundreds of remote software specialists from Eastern Europe to work with the most innovative tech companies from around the world. | You can join in from anywhere in the world, since we know that great people do awesome work wherever they are. | Our client is not an outsourcing or consulting company, but a tech-enabled solution that shapes the way businesses evolve by working with empowered and happy people, anytime and anywhere.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
+  },
+  {
+   "id": "personio:peter-park:2874877",
+   "company": "Peter Park",
+   "title": "Lead Software Engineer (m/f/d)",
+   "url": "https://peter-park.jobs.personio.de/job/2874877?language=en",
+   "location": "München",
+   "remote": null,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "from job boards",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "Real Seniority: Not defined by years of experience but by a drive for continuous improvement, direct business impact, and ownership. | Strong Engineering Foundation : Strong proficiency in at least one of TypeScript/Node.js, Python or C++, and hands-on experience with the corresponding frameworks, such as NestJS, Fastify, FastAPI or Flask, or Vue.js on the frontend. | Excellent Communication: Strong English communication skills (C1+) and the ability to collaborate across teams. | German proficiency is not required. | Backend: Event-driven microservices Typescript (NestJS). | IoT: Linux-Based software running in C++, Python, Typescript or Go. | Frameworks/Libraries: Adoption of TypeScript, Ne",
+   "remoteProof": "Home Office Policy: Enjoy a hybrid model with 3 days in the office / 2 days remote. | Your flexibility: flexible working hours and the option to temporarily work remotely from within the EU.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
   }
  ]
 }

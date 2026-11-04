@@ -1,7 +1,99 @@
 {
- "collectedAt": "2026-11-03T20:45:47+00:00",
+ "collectedAt": "2026-11-04T12:43:36+00:00",
  "count": 173,
  "jobs": [
+  {
+   "id": "arbeitsagentur:13509-0000211137e002-S",
+   "company": "BWI GmbH",
+   "title": "Senior Test Automation Engineer - BundesMessenger (m/w/d)",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-0000211137e002-S",
+   "location": "Bonn / NORDRHEIN_WESTFALEN / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "unbefristet",
+   "industry": "",
+   "source": "arbeitsagentur",
+   "ats": "arbeitsagentur",
+   "_km": 78.88153524841842,
+   "kmFromEssen": 79,
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "Mit über 8.000 Kolleg*innen betreiben und modernisieren wir eine der größten und komplexesten IT-Infrastrukturen in Deutschland. | Wir suchen verantwortungsvolle IT-Spezialist*innen, die die Bundeswehr-IT aus Überzeugung in herausfordernden Digitalisierungsvorhaben weiterentwickeln und so einen Beitrag zur Sicherheit Deutschlands leisten wollen. | Bei uns gestaltest du den BundesMessenger - eine sichere Kommunikationsplattform für ganz Deutschland. | Wenn du mit Leidenschaft innovative Software baust und die digitale Souveränität Deutschlands aktiv mitgestalten möchtest, dann bist du in unserem Team genau richtig!",
+   "remoteProof": "Senior Test Automation Engineer - BundesMessenger (m/w/d) ab sofort und in Vollzeit in Bonn, alternativ bundesweit an einem unserer BWI Standorte.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/iwoca/jobs/full-stack-engineer-operations-engineering-team",
+   "company": "iwoca",
+   "title": "Full-Stack Engineer - Operations Engineering Team",
+   "url": "https://himalayas.app/companies/iwoca/jobs/full-stack-engineer-operations-engineering-team?utm_source=api",
+   "location": "Germany / United Kingdom",
+   "remote": true,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Full-Stack Engineer - Operations Engineering Team Hybrid or Remote working in the UK or Germany. | We’re looking for a Full-Stack Engineer to build the systems that power iwoca ’s German business. | You’ll join the Operations Engineering team, a cross-functional group that builds the proprietary tools (like our CRM) that our German operations staff use every day. | The team builds and maintains the internal systems – including tools for underwriting, notifications, and account management – that power iwoca ’s German market. | As the German business grows, the Operations Engineering team is moving beyond small improvements and into reworking how work is done. | The requirements Essential: Pro",
+   "remoteProof": "Full-Stack Engineer - Operations Engineering Team Hybrid or Remote working in the UK or Germany. | A track record of taking work from an initial problem through to delivery, including shaping solutions, making trade-offs, and iterating based on how systems are used.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/human-power-bg/jobs/senior-front-end-developer",
+   "company": "Human Power BG",
+   "title": "Senior Front-End Developer",
+   "url": "https://himalayas.app/companies/human-power-bg/jobs/senior-front-end-developer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "﻿~~~ ﻿ Our client platform empowers hundreds of remote software specialists from Eastern Europe to work with the most innovative tech companies from around the world. | You will be participating in all stages of the software development process and will have a real impact on the product. | WHAT WE ARE LOOKING FOR: ﻿ Several years of experience in Web/Frontend Development Some experience with modern tools like ES6, Typescript, Angular, React, Vue.js, etc.",
+   "remoteProof": "﻿~~~ ﻿ Our client platform empowers hundreds of remote software specialists from Eastern Europe to work with the most innovative tech companies from around the world. | You can join in from anywhere in the world, since we know that great people do awesome work wherever they are. | Our client is not an outsourcing or consulting company, but a tech-enabled solution that shapes the way businesses evolve by working with empowered and happy people, anytime and anywhere.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
+  },
+  {
+   "id": "personio:peter-park:2874877",
+   "company": "Peter Park",
+   "title": "Lead Software Engineer (m/f/d)",
+   "url": "https://peter-park.jobs.personio.de/job/2874877?language=en",
+   "location": "München",
+   "remote": null,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "from job boards",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "Real Seniority: Not defined by years of experience but by a drive for continuous improvement, direct business impact, and ownership. | Strong Engineering Foundation : Strong proficiency in at least one of TypeScript/Node.js, Python or C++, and hands-on experience with the corresponding frameworks, such as NestJS, Fastify, FastAPI or Flask, or Vue.js on the frontend. | Excellent Communication: Strong English communication skills (C1+) and the ability to collaborate across teams. | German proficiency is not required. | Backend: Event-driven microservices Typescript (NestJS). | IoT: Linux-Based software running in C++, Python, Typescript or Go. | Frameworks/Libraries: Adoption of TypeScript, Ne",
+   "remoteProof": "Home Office Policy: Enjoy a hybrid model with 3 days in the office / 2 days remote. | Your flexibility: flexible working hours and the option to temporarily work remotely from within the EU.",
+   "firstSeen": "2026-11-04T12:43:36+00:00"
+  },
   {
    "id": "arbeitnow:senior-high-voltage-electrical-design-engineer-all-genders-munich-349797",
    "company": "væridion",
@@ -20,29 +112,6 @@
    "match": "title; DE+remote-in-text",
    "facts": "5+ years of experience in HV electrical design, preferably in aerospace or automotive battery systems, or other safety-critical industries. | Excellent verbal and written communication skills in English. | German is a plus. | We are an in-office company, but we value flexibility and trust employees to manage their schedules responsibly. | This may include occasional remote work or adjusting hours to accommodate personal commitments. | Enjoy a subsidized lunch with a 5€ company contribution per meal on office days",
    "remoteProof": "We are an in-office company, but we value flexibility and trust employees to manage their schedules responsibly. | This may include occasional remote work or adjusting hours to accommodate personal commitments. | Enjoy a subsidized lunch with a 5€ company contribution per meal on office days",
-   "firstSeen": "2026-11-03T20:45:47+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/reap/jobs/senior-software-engineer-reap-direct-europe",
-   "company": "Reap",
-   "title": "Senior Software Engineer, Reap Direct - Europe",
-   "url": "https://himalayas.app/companies/reap/jobs/senior-software-engineer-reap-direct-europe?utm_source=api",
-   "location": "Czechia / Germany / Ireland / Poland / United Kingdom",
-   "remote": true,
-   "postedAt": "2026-11-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Minimum requirements Experience: 6+ years of software engineering experience for senior candidates (strong mid-level engineers with 3+ years also considered), with a track record of owning and operating business-critical systems. | Full-stack engineering: Strong across the entire stack — the React ecosystem (state management, component frameworks) on the front end, and TypeScript/NestJS services and APIs on the back end, deployed to cloud infrastructure. | Preferred qualifications Domain exposure: Experience or interest in fintech domains — payments, card issuing, or exchanges — is a plus. | Mobile development: Familiarity with app development using tools like React Native, and with publishi",
-   "remoteProof": "",
    "firstSeen": "2026-11-03T20:45:47+00:00"
   },
   {
@@ -65,7 +134,7 @@
     "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "What You'll Do Make content — Publish compelling technical content, especially video, to help developers learn Supabase quickly Build demos and tutorials — Ship real-world apps using Supabase and tools like Next.js, React, and Stripe. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first. | Find more English Speaking Jobs in United Kingdom on Arbeitnow",
+   "facts": "What You'll Do Make content — Publish compelling technical content, especially video, to help developers learn Supabase quickly Build demos and tutorials — Ship real-world apps using Supabase and tools like Next.js, React, and Stripe. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first.",
    "remoteProof": "We believe you can do your best work from anywhere. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | About the Team Supabase was born-remote and open-source-first.",
    "firstSeen": "2026-11-03T17:35:54+00:00"
   },
@@ -89,7 +158,7 @@
     "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "We work in Kotlin on the backend (Spring Boot WebFlux, a domain-driven layering of domain, edge services and repository, Postgres, Axon event sourcing and Pub/Sub) and in TypeScript with Next.js and React on the front end, on GCP and Kubernetes. | The work is mostly Kotlin backend plus Next.js and React front end. | You’ve changed a React or Next.js front end, or worked properly against an API contract, even if you lean backend. | Fully remote working in the UK, with access to a fully refurbished, modern office, right next to East Croydon Station (with a fully stocked kitchen, offering free breakfast, lunch and drinks!).",
+   "facts": "We work in Kotlin on the backend (Spring Boot WebFlux, a domain-driven layering of domain, edge services and repository, Postgres, Axon event sourcing and Pub/Sub) and in TypeScript with Next.js and React on the front end, on GCP and Kubernetes. | The work is mostly Kotlin backend plus Next.js and React front end. | You’ve changed a React or Next.js front end, or worked properly against an API contract, even if you lean backend. | Fully remote working in the UK, with access to a fully refurbished, modern office, right next to East Croydon Station (with a fully stocked kitchen, offering free breakfast, lunch and drinks!). | Find more English Speaking Jobs in United Kingdom on Arbeitnow",
    "remoteProof": "Fully remote, or from our London office next to East Croydon Station Working pattern: Fully remote working is allowed, and the London office is available to you Reports to: CTO About Us Hozah is a tech-led, award-winning company driving change in the parking industry and reimagining urban mobility. | We are a small engineering team, and we form teams around the work from the people we have. | Fully remote working in the UK, with access to a fully refurbished, modern office, right next to East Cr",
    "firstSeen": "2026-11-03T17:35:54+00:00"
   },
@@ -186,6 +255,29 @@
    "firstSeen": "2026-11-03T16:23:48+00:00"
   },
   {
+   "id": "arbeitnow:remote-senior-full-stack-engineer-based-in-germany-berlin-352789",
+   "company": "Cara Care",
+   "title": "(Senior) Full Stack Engineer (m/f/x) - Based in Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/cara-care/remote-senior-full-stack-engineer-based-in-germany-berlin-352789",
+   "location": "Berlin, Germany",
+   "remote": true,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Your main focus will be building and improving our backend services, while also contributing to our React Native apps. | Your Responsibilities Design, build, and operate reliable backend services and APIs , primarily using Python, Django, and PostgreSQL, and contribute targeted changes to our React Native applications with TypeScript. | Requirements Your Profile Must haves 5+ years of professional software engineering experience , with a strong backend focus and an understanding of how complete applications work from user interface to infrastructure. | Strong backend development skills in an established language such as Python, TypeScript, Java, or PHP. | Working knowledge of React Native an",
+   "remoteProof": "Requirements Your Profile Must haves 5+ years of professional software engineering experience , with a strong backend focus and an understanding of how complete applications work from user interface to infrastructure. | 💡 Please note : Cara Care is a remote-first company with a fully distributed team. | 👨‍💻 Remote-first working: Prefer working from home? | Want to join us at our Berlin office? | Our remote-first approach gives you the flexibility to work where it suits you best.",
+   "firstSeen": "2026-11-03T16:23:48+00:00"
+  },
+  {
    "id": "arbeitnow:senior-fullstack-engineer-a-n-full-time-remote-hybrid-dusseldorf-237524",
    "company": "freshcells systems engineering GmbH",
    "title": "Senior Fullstack Engineer (H/U/M/A/N) full-time (remote/hybrid)",
@@ -227,7 +319,7 @@
     "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-11-03T16:23:48+00:00"
   },
@@ -275,29 +367,6 @@
    "match": "title; remote",
    "facts": "- 2+ years of commercial React experience, including 1+ year with Next.js (App Router, Server Components, route handlers, rendering and caching strategies) and solid TypeScript | - Hands-on with the modern client stack: TanStack Query, Zustand, React Hook Form + Zod, Tailwind CSS, and a React component library such as HeroUI, MUI, or shadcn/ui | - Structured communicator — surfaces risks, blockers, and estimate changes early, in writing, in a remote team | Ruby Labs operates within the CET (Central European Time) zone. | - Remote Work Environment: Embrace the freedom to work from anywhere, anytime, promoting a healthy work-life balance.",
    "remoteProof": "- Structured communicator — surfaces risks, blockers, and estimate changes early, in writing, in a remote team | - Remote Work Environment: Embrace the freedom to work from anywhere, anytime, promoting a healthy work-life balance.",
-   "firstSeen": "2026-11-03T16:23:48+00:00"
-  },
-  {
-   "id": "workable:cara-care:70CD56C23B",
-   "company": "Cara Care",
-   "title": "(Senior) Full Stack Engineer (m/f/x) - Based in Germany",
-   "url": "https://apply.workable.com/j/70CD56C23B",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-11-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full-time",
-   "industry": "health",
-   "source": "workable",
-   "ats": "workable",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Your main focus will be building and improving our backend services, while also contributing to our React Native apps. | Your Responsibilities Design, build, and operate reliable backend services and APIs , primarily using Python, Django, and PostgreSQL, and contribute targeted changes to our React Native applications with TypeScript. | Requirements Your Profile Must haves 5+ years of professional software engineering experience , with a strong backend focus and an understanding of how complete applications work from user interface to infrastructure. | Strong backend development skills in an established language such as Python, TypeScript, Java, or PHP. | Working knowledge of React Native an",
-   "remoteProof": "Requirements Your Profile Must haves 5+ years of professional software engineering experience , with a strong backend focus and an understanding of how complete applications work from user interface to infrastructure. | 💡 Please note : Cara Care is a remote-first company with a fully distributed team. | 👨‍💻 Remote-first working: Prefer working from home? | Want to join us at our Berlin office? | Our remote-first approach gives you the flexibility to work where it suits you best.",
    "firstSeen": "2026-11-03T16:23:48+00:00"
   },
   {
@@ -725,7 +794,7 @@
     "typescript"
    ],
    "match": "generic+stack; NRW",
-   "facts": "Wir arbeiten hybrid und treffen uns regelmäßig persönlich als Team. | regelmäßig vor Ort sein kannst. | Gleichzeitig ist uns wichtiger, die richtige Person zu finden, als jeden Tag gemeinsam im selben Büro zu sitzen. | kennst dich mit JavaScript/TypeScript und modernen Frontend-Technologien wie React aus. | sprichst fließend Deutsch und Englisch. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Wir arbeiten hybrid und treffen uns regelmäßig persönlich als Team. | regelmäßig vor Ort sein kannst. | Gleichzeitig ist uns wichtiger, die richtige Person zu finden, als jeden Tag gemeinsam im selben Büro zu sitzen. | kennst dich mit JavaScript/TypeScript und modernen Frontend-Technologien wie React aus. | sprichst fließend Deutsch und Englisch. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "remoteProof": "Wir arbeiten hybrid und treffen uns regelmäßig persönlich als Team. | regelmäßig vor Ort sein kannst. | Gleichzeitig ist uns wichtiger, die richtige Person zu finden, als jeden Tag gemeinsam im selben Büro zu sitzen.",
    "firstSeen": "2026-10-30T16:33:38+00:00"
   },
@@ -929,7 +998,7 @@
    "id": "jooble:4099517956178006872",
    "company": "20four7va",
    "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=22&groupId=-675061143&elckey=7785363775028118013&p=2&aq=-4483929584542430835&cid=22409&jobAge=158&brelb=10&bscr=8.8189945&scr=8.8189945",
+   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=20&groupId=-675061143&elckey=-8388043201872927393&p=1&aq=7448445206316476482&cid=22409&jobAge=174&brelb=10&bscr=8.800642&scr=8.800642",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
@@ -1218,7 +1287,7 @@
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "Ship end-to-end into the product: Own features from model/agent through API to the TypeScript front-end — backend service, API, and the integration into the web app. | Your profile TypeScript, React, Node: Non-negotiable. | Strong Python: You have 5+ years writing production-grade Python. | Competitive Compensation: A competitive salary above the market average. | Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin. | Job Security: A permanent contract in a stable, well-funded company. | Compensation: €90K – €120K • | €90K – €120K Find Jobs in Germany on Arbeitnow",
+   "facts": "Ship end-to-end into the product: Own features from model/agent through API to the TypeScript front-end — backend service, API, and the integration into the web app. | Your profile TypeScript, React, Node: Non-negotiable. | Strong Python: You have 5+ years writing production-grade Python. | Competitive Compensation: A competitive salary above the market average. | Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin. | Job Security: A permanent contract in a stable, well-funded company. | Compensation: €90K – €120K • | €90K – €120K Find more English Speaking Jobs in Germany on Arbeitnow",
    "remoteProof": "Work-Life Balance: Choose to work 100% remotely or from our modern office in Berlin.",
    "firstSeen": "2026-10-26T18:49:19+00:00"
   },
@@ -1900,52 +1969,6 @@
    "firstSeen": "2026-10-21T14:02:59+00:00"
   },
   {
-   "id": "germantechjobs:6ad73bb8fb3db0caefb8268f-W44",
-   "company": "Haufe Group",
-   "title": "Senior Full Stack Entwickler:in (d/mw) – Remote",
-   "url": "https://germantechjobs.de/jobs/Haufe-Group-Senior-Full-Stack-Entwicklerin-dmw--Remote",
-   "location": "Freiburg im Breisgau / Baden-Württemberg / Deutschland",
-   "remote": true,
-   "postedAt": "2026-11-01",
-   "salary": "45.000 - 75.000 € per year",
-   "salaryMax": 75000,
-   "employment": "Full-Time",
-   "industry": "",
-   "source": "germantechjobs",
-   "ats": "germantechjobs",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Wir rufen täglich rund 100.000 Umsätze für unsere Kund:innen ab und ermöglichen ihnen, jährlich über 7 Milliarden Euro sicher und zuverlässig zu überweisen. | Wir schätzen direkte Kommunikation vor Ort und treffen uns mindestens einmal im Monat im Büro; zugleich nutzen wir die Vorteile des Arbeitens von zu Hause.",
-   "remoteProof": "Wir schätzen direkte Kommunikation vor Ort und treffen uns mindestens einmal im Monat im Büro; zugleich nutzen wir die Vorteile des Arbeitens von zu Hause.",
-   "firstSeen": "2026-10-21T14:02:59+00:00"
-  },
-  {
-   "id": "germantechjobs:6ad73bb8fb3db0caefb82691-W44",
-   "company": "Haufe Group",
-   "title": "Full Stack Entwickler:in (Remote)",
-   "url": "https://germantechjobs.de/jobs/Haufe-Group-Full-Stack-Entwicklerin-Remote",
-   "location": "Freiburg im Breisgau / Baden-Württemberg / Deutschland",
-   "remote": true,
-   "postedAt": "2026-11-01",
-   "salary": "45.000 - 75.000 € per year",
-   "salaryMax": 75000,
-   "employment": "Full-Time",
-   "industry": "",
-   "source": "germantechjobs",
-   "ats": "germantechjobs",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "Salary: 45.000 - 75.000 € per year Requirements: Wir suchen eine:n Full-Stack-Entwickler:in mit mehreren Jahren Erfahrung, Erfahrung mit komplexer Software in größeren Unternehmen und Interesse an moderner Banking-Software. | Für die Frontend-Entwicklung bringst du Kenntnisse in React und TypeScript mit. | Du setzt KI-Tools bereits in deinem Entwicklungsalltag ein und kannst beurteilen, wann sie hilfreich sind und wann fachliches Urteilsvermögen gefragt ist. | Für die Teilnahme an Meetings auf Deutsch benötigst du Deutschkenntnisse auf Level C2. | Technologies: AWS Lambda Backend Cloud EC2 Frontend Java PostgreSQL Product Owner React Spring Spring Boot TypeScript microservices TDD UX UI Desi",
-   "remoteProof": "Wir legen Wert auf direkte Kommunikation vor Ort und treffen uns mindestens einmal im Monat im Büro; zugleich schätzen wir die Vorteile der Arbeit von zu Hause.",
-   "firstSeen": "2026-10-21T14:02:59+00:00"
-  },
-  {
    "id": "ashby:voize:6b7b809c-81bf-435f-a00e-be8961efad6b",
    "company": "voize",
    "title": "Senior Fullstack Engineer (m/f/d) - AI Health tech",
@@ -2083,25 +2106,25 @@
    "firstSeen": "2026-10-17T18:05:40+00:00"
   },
   {
-   "id": "ashby:clera:68e2fae1-ba8d-452f-a9e8-df49aa8acbfa",
+   "id": "himalayas:https://himalayas.app/companies/clera/jobs/senior-platform-software-engineer-447849997",
    "company": "Clera",
    "title": "Senior Platform Software Engineer",
-   "url": "https://jobs.ashbyhq.com/clera/68e2fae1-ba8d-452f-a9e8-df49aa8acbfa",
-   "location": "remote",
-   "remote": false,
-   "postedAt": "2026-11-03",
+   "url": "https://himalayas.app/companies/clera/jobs/senior-platform-software-engineer-447849997?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-11-04",
    "salary": "",
    "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
    "stackHits": [
     "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "- At least 5 years of professional software engineering experience, including ownership in platform engineering, infrastructure, DevOps, or founding engineering. | - Working familiarity with TypeScript and Node.js application code, including NestJS. | COMPENSATION & BENEFITS | Competitive salary and employee stock options. | Fully remote within Europe, with residence within three hours of Central European Time.",
-   "remoteProof": "Fully remote within Europe, with residence within three hours of Central European Time.",
+   "facts": "What We're Looking For At least 5 years of professional software engineering experience, including ownership in platform engineering, infrastructure, DevOps, or founding engineering. | Working familiarity with TypeScript and Node.js application code, including NestJS. | Compensation & Benefits Competitive salary and employee stock options. | Location Fully remote within Europe, with residence within three hours of Central European Time.",
+   "remoteProof": "Location Fully remote within Europe, with residence within three hours of Central European Time.",
    "firstSeen": "2026-10-17T18:05:40+00:00"
   },
   {
@@ -2422,7 +2445,7 @@
    "ats": "arbeitnow",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
@@ -2739,7 +2762,7 @@
    "url": "https://jobs.ashbyhq.com/ruby-labs/dad7e7c6-3cb6-428f-83ea-332d2e559387",
    "location": "Ukraine / North Macedonia / Turkey / European Union / Serbia / Bosnia / Georgia / Ukraine",
    "remote": true,
-   "postedAt": "2026-09-21",
+   "postedAt": "2026-11-04",
    "salary": "",
    "salaryMax": null,
    "employment": "FullTime",
@@ -2933,6 +2956,29 @@
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
+   "id": "himalayas:https://himalayas.app/companies/clera/jobs/senior-fullstack-engineer",
+   "company": "Clera",
+   "title": "Senior Fullstack Engineer",
+   "url": "https://himalayas.app/companies/clera/jobs/senior-fullstack-engineer?utm_source=api",
+   "location": "Germany",
+   "remote": true,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Build and evolve the platform using TypeScript, React, Node.js, and NestJS. | Integrate AI capabilities into customer-facing applications and consider relevant European data protection and AI regulations. | What We're Looking For At least 5 years of fullstack engineering experience building and delivering SaaS products. | Production experience with TypeScript, React, and Node.js; NestJS experience is preferred. | Native German proficiency and fluent English. | Compensation & Benefits Base salary: €80,000 to €120,000 annually. | Location Remote, based in Germany.",
+   "remoteProof": "Location Remote, based in Germany.",
+   "firstSeen": "2026-10-07T20:24:29+00:00"
+  },
+  {
    "id": "ashby:elevenlabs:c7d59014-b918-4c15-ae33-79f5c9f2cf9f",
    "company": "ElevenLabs",
    "title": "Full-Stack Engineer (Backend Leaning)",
@@ -2950,29 +2996,6 @@
    "match": "title; remote",
    "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | This role is remote and can be executed globally. | If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.",
    "remoteProof": "This role is remote and can be executed globally. | If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.",
-   "firstSeen": "2026-10-07T20:24:29+00:00"
-  },
-  {
-   "id": "ashby:clera:9b874ad4-f1bb-48d8-b451-3a9a6a90b090",
-   "company": "Clera",
-   "title": "Senior Fullstack Engineer",
-   "url": "https://jobs.ashbyhq.com/clera/9b874ad4-f1bb-48d8-b451-3a9a6a90b090",
-   "location": "remote",
-   "remote": false,
-   "postedAt": "2026-10-29",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "- Build and evolve the platform using TypeScript, React, Node.js, and NestJS. | - Integrate AI capabilities into customer-facing applications and consider relevant European data protection and AI regulations. | - At least 5 years of fullstack engineering experience building and delivering SaaS products. | - Production experience with TypeScript, React, and Node.js; NestJS experience is preferred. | - Native German proficiency and fluent English. | COMPENSATION & BENEFITS | Base salary: €80,000 to €120,000 annually. | Remote, based in Germany.",
-   "remoteProof": "Remote, based in Germany.",
    "firstSeen": "2026-10-07T20:24:29+00:00"
   },
   {
@@ -3016,19 +3039,19 @@
    "firstSeen": "2026-10-07T12:17:28+00:00"
   },
   {
-   "id": "recruitee:eleqtron:2746963",
+   "id": "arbeitnow:senior-ui-ux-engineer-quantum-computing-siegen-415090",
    "company": "eleQtron GmbH",
    "title": "Senior UI/UX Engineer- Quantum Computing (f/m/d)",
-   "url": "https://eleqtron.recruitee.com/o/senior-uiux-engineer-quantum-computing-fmd",
-   "location": "Siegen, Nordrhein-Westfalen, Germany / Siegen / Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/eleqtron-gmbh/senior-ui-ux-engineer-quantum-computing-siegen-415090",
+   "location": "Siegen, Nordrhein-Westfalen, Germany",
    "remote": false,
-   "postedAt": "",
+   "postedAt": "2026-11-04",
    "salary": "",
    "salaryMax": null,
-   "employment": "fulltime_permanent",
-   "industry": "from job boards",
-   "source": "recruitee",
-   "ats": "recruitee",
+   "employment": "Experienced fulltime permanent",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
    "stackHits": [
     "react",
     "typescript"
@@ -3299,28 +3322,6 @@
    "kmFromEssen": 57,
    "stackHits": [],
    "match": "title; NRW ~57 km",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-10-06T17:22:05+00:00"
-  },
-  {
-   "id": "himalayas:https://himalayas.app/companies/1komma5/jobs/senior-software-engineer-energy-markets-m-f-d-1325285792",
-   "company": "1KOMMA5˚",
-   "title": "Senior Software Engineer - Energy Markets (m/f/d)",
-   "url": "https://himalayas.app/companies/1komma5/jobs/senior-software-engineer-energy-markets-m-f-d-1325285792?utm_source=api",
-   "location": "Germany",
-   "remote": true,
-   "postedAt": "2026-11-03",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; remote",
    "facts": "",
    "remoteProof": "",
    "firstSeen": "2026-10-06T17:22:05+00:00"
