@@ -4,10 +4,10 @@
    "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
-   "fetched": 314
+   "fetched": 313
   },
   "arbeitnow": {
-   "fetched": 3276
+   "fetched": 4344
   },
   "remotive": {
    "fetched": 88
@@ -41,7 +41,7 @@
   },
   "companies": {
    "checked": 1532,
-   "failed": 25
+   "failed": 6
   }
  },
  "errors": {
@@ -50,27 +50,8 @@
    "Xolife": "HTTP 404",
    "Docsumo": "HTTP 404",
    "Overstory": "HTTP 404",
-   "airSlate": "HTTP 502",
    "Aircall": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Advancing Eco Agriculture": "HTTP 429",
-   "Paperpile": "HTTP 429",
-   "Thanx": "HTTP 429",
-   "QuickTeam": "HTTP 429",
-   "Creative Chaos": "HTTP 429"
+   "Wattpad": "HTTP 502"
   }
  },
  "adzuna_usage": {
@@ -124,76 +105,52 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=295, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=294, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 314,
+  "jobs": 313,
   "details": {
-   "tried": 110,
-   "ok": 110
+   "tried": 109,
+   "ok": 109
   }
  },
  "jooble_usage": {
   "calls": 37
  },
  "probe": {
-  "tried": 108,
-  "found": [
-   "Hozah (ashby:hozah)",
-   "Matchmatch (ashby:matchmatch)",
-   "G2i Inc. (ashby:g2i)",
-   "Vogel (ashby:vogel)",
-   "Resonance (ashby:resonance)",
-   "Roger (recruitee:rogergmbh)",
-   "Antithesis (ashby:antithesis)",
-   "constructortech (greenhouse:constructortech)",
-   "Grubel (ashby:grubel)",
-   "Pennylane De (ashby:pennylane-de)",
-   "simtrabps (greenhouse:simtrabps)",
-   "Fivetran (greenhouse:fivetran)",
-   "cloudpunks GmbH (recruitee:cloudpunks)",
-   "Ekumenlabs (ashby:ekumenlabs)",
-   "Carwow (ashby:carwow)",
-   "Virtual Identity (ashby:virtual-identity)",
-   "Neuphonic (ashby:neuphonic)",
-   "Nubank (ashby:nubank)",
-   "Motherduck (ashby:motherduck)",
-   "Manara (smartrecruiters:manara)",
-   "Hashgraph (ashby:hashgraph)",
-   "Teya (ashby:teya)",
-   "ControlPlane (greenhouse:controlplane)"
-  ]
+  "tried": 11,
+  "found": []
  },
  "adzuna_pages": {
   "tried": 1,
   "ok": 0
  },
- "collectedAt": "2026-11-04T16:59:31+00:00",
- "rawJobs": 78268,
- "matches": 174,
- "new": 19,
+ "collectedAt": "2026-11-04T17:48:20+00:00",
+ "rawJobs": 80504,
+ "matches": 177,
+ "new": 0,
  "companies": 1607,
  "activeCompanies": 1532,
  "funnel": {
-  "title": 75321,
-  "passed": 235,
+  "title": 77457,
+  "passed": 245,
   "too_old": 160,
-  "location": 2504,
   "company": 14,
-  "duplicate": 61,
-  "employment": 23,
+  "duplicate": 68,
+  "location": 2595,
+  "employment": 22,
   "salary": 4
  },
  "matchesBySource": {
   "arbeitsagentur": 23,
-  "arbeitnow": 23,
+  "arbeitnow": 25,
   "jobicy": 5,
   "himalayas": 4,
   "greenhouse": 17,
+  "ashby": 50,
   "personio": 16,
-  "ashby": 49,
   "hn": 7,
   "weworkremotely": 9,
   "jooble": 1,

@@ -526,7 +526,8 @@
   "industry": "health",
   "addedBy": "watchlist",
   "lastOk": "2026-10-31",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "ats": "ashby",
@@ -3473,7 +3474,7 @@
   "slug": "xolife",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-03",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Ceis Gmbh",
@@ -4461,7 +4462,7 @@
   "slug": "docsumo",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "syte GmbH",
@@ -5118,7 +5119,7 @@
   "slug": "overstory",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Airbnb",
@@ -5343,8 +5344,7 @@
   "ats": "lever",
   "slug": "airslate",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Laminar Projects",
@@ -5651,7 +5651,8 @@
   "slug": "aircall",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-31",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "name": "BlueCat Networks",
@@ -7287,7 +7288,8 @@
   "ats": "lever",
   "slug": "wattpad",
   "addedBy": "probe 2026-10-11",
-  "lastOk": "2026-11-04"
+  "lastOk": "2026-11-04",
+  "failCount": 1
  },
  {
   "name": "Apply Digital",
@@ -10374,8 +10376,7 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Voyant Photonics",
@@ -10521,8 +10522,7 @@
   "ats": "workable",
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Getolo",
@@ -10530,8 +10530,7 @@
   "ats": "workable",
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "EverAI",
@@ -10883,8 +10882,7 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "TrustEngine",
@@ -10892,8 +10890,7 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "HireHawk",
@@ -10901,8 +10898,7 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "DigitalService",
@@ -10942,8 +10938,7 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Thorlabs",
@@ -10951,8 +10946,7 @@
   "ats": "workable",
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "1Password",
@@ -11264,8 +11258,7 @@
   "ats": "workable",
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Lamdax",
@@ -11273,8 +11266,7 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Leadway Pensure",
@@ -11532,8 +11524,7 @@
   "ats": "workable",
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Intuitive",
@@ -11637,8 +11628,7 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Distru",
@@ -11790,8 +11780,7 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Wunder Mobility",
@@ -11911,8 +11900,7 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Yassir",
@@ -12208,8 +12196,7 @@
   "ats": "workable",
   "slug": "thanx",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Rohrer",
@@ -12321,8 +12308,7 @@
   "ats": "workable",
   "slug": "paperpile",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Makersite GmbH",
@@ -12410,8 +12396,7 @@
   "ats": "workable",
   "slug": "c-the-signs",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Harbor",
@@ -12587,8 +12572,7 @@
   "ats": "workable",
   "slug": "quickteam",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "AnywhereNow",
@@ -12772,8 +12756,7 @@
   "ats": "workable",
   "slug": "creativechaos",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-03",
-  "failCount": 1
+  "lastOk": "2026-11-04"
  },
  {
   "name": "Exit83",

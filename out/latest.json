@@ -1,6 +1,6 @@
 {
- "collectedAt": "2026-11-04T16:59:31+00:00",
- "count": 174,
+ "collectedAt": "2026-11-04T17:48:20+00:00",
+ "count": 177,
  "jobs": [
   {
    "id": "arbeitsagentur:13509-0000211137e002-S",
@@ -178,7 +178,7 @@
     "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find Jobs in Germany on Arbeitnow",
+   "facts": "Qualifications 7+ years of hands-on software engineering experience. | Strong programming skills in TypeScript. | Find more English Speaking Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-11-04T16:59:31+00:00"
   },
@@ -366,28 +366,6 @@
    "firstSeen": "2026-11-04T16:59:31+00:00"
   },
   {
-   "id": "personio:peter-park:2874877",
-   "company": "Peter Park",
-   "title": "Lead Software Engineer (m/f/d)",
-   "url": "https://peter-park.jobs.personio.de/job/2874877?language=en",
-   "location": "München",
-   "remote": null,
-   "postedAt": "2026-11-04",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "permanent full-time",
-   "industry": "from job boards",
-   "source": "personio",
-   "ats": "personio",
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "generic+stack; DE+remote-in-text",
-   "facts": "Real Seniority: Not defined by years of experience but by a drive for continuous improvement, direct business impact, and ownership. | Strong Engineering Foundation : Strong proficiency in at least one of TypeScript/Node.js, Python or C++, and hands-on experience with the corresponding frameworks, such as NestJS, Fastify, FastAPI or Flask, or Vue.js on the frontend. | Excellent Communication: Strong English communication skills (C1+) and the ability to collaborate across teams. | German proficiency is not required. | Backend: Event-driven microservices Typescript (NestJS). | IoT: Linux-Based software running in C++, Python, Typescript or Go. | Frameworks/Libraries: Adoption of TypeScript, Ne",
-   "remoteProof": "Home Office Policy: Enjoy a hybrid model with 3 days in the office / 2 days remote. | Your flexibility: flexible working hours and the option to temporarily work remotely from within the EU.",
-   "firstSeen": "2026-11-04T16:59:31+00:00"
-  },
-  {
    "id": "ashby:ruby-labs:e91e9b7a-9317-4cf2-a102-90e1c2c83366",
    "company": "Ruby Labs",
    "title": "Senior Full-Stack Developer (Next.js)",
@@ -409,6 +387,28 @@
    "match": "title; remote",
    "facts": "- 2+ years of commercial React experience, including 1+ year with Next.js (App Router, Server Components, route handlers, rendering and caching strategies) and solid TypeScript | - Hands-on with the modern client stack: TanStack Query, Zustand, React Hook Form + Zod, Tailwind CSS, and a React component library such as HeroUI, MUI, or shadcn/ui | - Structured communicator — surfaces risks, blockers, and estimate changes early, in writing, in a remote team | Ruby Labs operates within the CET (Central European Time) zone. | - Remote Work Environment: Embrace the freedom to work from anywhere, anytime, promoting a healthy work-life balance.",
    "remoteProof": "- Structured communicator — surfaces risks, blockers, and estimate changes early, in writing, in a remote team | - Remote Work Environment: Embrace the freedom to work from anywhere, anytime, promoting a healthy work-life balance.",
+   "firstSeen": "2026-11-04T16:59:31+00:00"
+  },
+  {
+   "id": "personio:peter-park:2874877",
+   "company": "Peter Park",
+   "title": "Lead Software Engineer (m/f/d)",
+   "url": "https://peter-park.jobs.personio.de/job/2874877?language=en",
+   "location": "München",
+   "remote": null,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full-time",
+   "industry": "from job boards",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "Real Seniority: Not defined by years of experience but by a drive for continuous improvement, direct business impact, and ownership. | Strong Engineering Foundation : Strong proficiency in at least one of TypeScript/Node.js, Python or C++, and hands-on experience with the corresponding frameworks, such as NestJS, Fastify, FastAPI or Flask, or Vue.js on the frontend. | Excellent Communication: Strong English communication skills (C1+) and the ability to collaborate across teams. | German proficiency is not required. | Backend: Event-driven microservices Typescript (NestJS). | IoT: Linux-Based software running in C++, Python, Typescript or Go. | Frameworks/Libraries: Adoption of TypeScript, Ne",
+   "remoteProof": "Home Office Policy: Enjoy a hybrid model with 3 days in the office / 2 days remote. | Your flexibility: flexible working hours and the option to temporarily work remotely from within the EU.",
    "firstSeen": "2026-11-04T16:59:31+00:00"
   },
   {
@@ -816,7 +816,7 @@
     "typescript"
    ],
    "match": "generic+stack; NRW",
-   "facts": "Wir arbeiten hybrid und treffen uns regelmäßig persönlich als Team. | regelmäßig vor Ort sein kannst. | Gleichzeitig ist uns wichtiger, die richtige Person zu finden, als jeden Tag gemeinsam im selben Büro zu sitzen. | kennst dich mit JavaScript/TypeScript und modernen Frontend-Technologien wie React aus. | sprichst fließend Deutsch und Englisch. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "facts": "Wir arbeiten hybrid und treffen uns regelmäßig persönlich als Team. | regelmäßig vor Ort sein kannst. | Gleichzeitig ist uns wichtiger, die richtige Person zu finden, als jeden Tag gemeinsam im selben Büro zu sitzen. | kennst dich mit JavaScript/TypeScript und modernen Frontend-Technologien wie React aus. | sprichst fließend Deutsch und Englisch. | Find Jobs in Germany on Arbeitnow",
    "remoteProof": "Wir arbeiten hybrid und treffen uns regelmäßig persönlich als Team. | regelmäßig vor Ort sein kannst. | Gleichzeitig ist uns wichtiger, die richtige Person zu finden, als jeden Tag gemeinsam im selben Büro zu sitzen.",
    "firstSeen": "2026-10-30T16:33:38+00:00"
   },
@@ -1020,7 +1020,7 @@
    "id": "jooble:4099517956178006872",
    "company": "20four7va",
    "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=18&groupId=-675061143&elckey=5437801094962920767&p=1&aq=-5103094833638107167&cid=22409&jobAge=179&brelb=10&bscr=9.088351&scr=9.088351",
+   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=18&groupId=-675061143&elckey=2552349208642091731&p=1&aq=5994319869370783529&cid=22409&jobAge=179&brelb=10&bscr=9.124404&scr=9.124404",
    "location": "Germany / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-10-28",
@@ -2452,22 +2452,25 @@
    "firstSeen": "2026-10-16T05:03:58+00:00"
   },
   {
-   "id": "arbeitnow:remote-full-stack-engineer-backend-leaning-studio-284608",
-   "company": "ElevenLabs",
-   "title": "Full-Stack Engineer (Backend Leaning) - Studio",
-   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-studio-284608",
-   "location": "Remote",
+   "id": "arbeitnow:senior-product-engineer-bielefeld-429098",
+   "company": "sustaind GmbH",
+   "title": "(Senior) Product Engineer",
+   "url": "https://www.arbeitnow.com/jobs/companies/sustaind-gmbh/senior-product-engineer-bielefeld-429098",
+   "location": "Berlin",
    "remote": true,
-   "postedAt": "2026-11-03",
+   "postedAt": "2026-10-29",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
    "industry": "",
    "source": "arbeitnow",
    "ats": "arbeitnow",
-   "stackHits": [],
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find Jobs in Germany on Arbeitnow",
+   "facts": "",
    "remoteProof": "",
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
@@ -2690,6 +2693,28 @@
    "facts": "👉 What a week at Synera could look like: Monday: You kick off the week by syncing with fellow devs across teams: sharing breakthroughs, tackling tough bugs, or dropping a hot tip about that obscure TypeScript feature you mastered recently. | We believe in transparent conversations about compensation from the start. | Check out this page to learn how we approach salary, career growth, and creating an environment where everyone can shine. | What we offer beyond salary: Flexible working: you decide when & where to work (as long as you have a residency in Germany). | Home office setup support + access to our office in Bremen. | Personal development budget of €2,000 to attend conferences and trai",
    "remoteProof": "Home office setup support + access to our office in Bremen.",
    "firstSeen": "2026-10-13T12:24:49+00:00"
+  },
+  {
+   "id": "ashby:clera:ee2d16b1-fb2a-4b38-9eba-258efd4a6dc3",
+   "company": "Clera",
+   "title": "Forward Deployment Engineer",
+   "url": "https://jobs.ashbyhq.com/clera/ee2d16b1-fb2a-4b38-9eba-258efd4a6dc3",
+   "location": "remote",
+   "remote": false,
+   "postedAt": "2026-11-04",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "from job boards",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "- Several years of experience translating customer requirements into production implementation plans. | - German proficiency at B2 level or above; exceptional candidates without German may be considered. | Familiarity with TypeScript or Python, SQL, workflow automation, monitoring and tracing, or privacy considerations is also valuable. | COMPENSATION & BENEFITS | Base salary: €60,000 to €90,000 annually. | Remote within Germany.",
+   "remoteProof": "Remote within Germany.",
+   "firstSeen": "2026-10-11T19:27:32+00:00"
   },
   {
    "id": "ashby:clipbook:0db15f4a-50bb-4112-888c-d82614d142cf",
@@ -3107,6 +3132,26 @@
    "firstSeen": "2026-10-07T07:38:06+00:00"
   },
   {
+   "id": "arbeitnow:senior-full-stack-entwicklerin-gn-in-dortmund-dusseldorf-keine-uberstunden-2-tage-remote-421354",
+   "company": "EXWE GmbH",
+   "title": "Senior Full-Stack-Entwickler:in (Gn) – Keine Überstunden – 2 Tage Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/exwe-gmbh/senior-full-stack-entwicklerin-gn-in-dortmund-dusseldorf-keine-uberstunden-2-tage-remote-421354",
+   "location": "Dortmund",
+   "remote": false,
+   "postedAt": "2026-11-02",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "Wir melden uns innerhalb von drei Tagen bei Dir Erstes Gespräch (30 Minuten): Gegenseitiges Kennenlernen und erster Eindruck. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "",
+   "firstSeen": "2026-10-07T07:38:06+00:00"
+  },
+  {
    "id": "ashby:river:610f652b-bdb9-4d82-9973-680babe16a07",
    "company": "River",
    "title": "Staff Software Engineer",
@@ -3294,27 +3339,24 @@
    "postedAt": "2026-10-02",
    "salary": "",
    "salaryMax": null,
-   "employment": "FullTime",
+   "employment": "permanent full-time",
    "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; DE+remote-in-text",
-   "facts": "Join an early-stage energy technology team building an enterprise-grade platform for energy procurement and management. | - At least two years of software engineering experience delivering scalable web applications in an early-stage startup environment. | - Fluent spoken and written German, and a product-minded, hands-on approach suited to an early-stage team. | PostgreSQL, React, and Python experience are relevant; TypeScript, FastAPI, and Supabase are useful. | COMPENSATION & BENEFITS | Salary range: €85,000 to €140,000 annually. | Hybrid, based in Munich, Germany. | The role requires working on-site most of the week, with occasional remote work.",
-   "remoteProof": "Hybrid, based in Munich, Germany. | The role requires working on-site most of the week, with occasional remote work.",
+   "source": "personio",
+   "ats": "personio",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "remoteProof": "",
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
-   "id": "ashby:clera:7ec3c28e-583f-4433-8747-c734a04b7cfa",
+   "id": "ashby:clera:fe3a8b92-9556-45eb-ab17-1a0ddcec673c",
    "company": "Clera",
    "title": "Founding Product Engineer",
-   "url": "https://jobs.ashbyhq.com/clera/7ec3c28e-583f-4433-8747-c734a04b7cfa",
-   "location": "Munich / Germany",
+   "url": "https://jobs.ashbyhq.com/clera/fe3a8b92-9556-45eb-ab17-1a0ddcec673c",
+   "location": "remote",
    "remote": false,
-   "postedAt": "2026-11-03",
+   "postedAt": "2026-11-04",
    "salary": "",
    "salaryMax": null,
    "employment": "FullTime",
@@ -3325,9 +3367,9 @@
     "react",
     "typescript"
    ],
-   "match": "title; DE+remote-in-text",
-   "facts": "Join an early-stage energy technology team building an enterprise-grade platform for energy procurement and management. | - At least two years of software engineering experience delivering scalable web applications in an early-stage startup environment. | - Fluent spoken and written German, and a product-minded, hands-on approach suited to an early-stage team. | PostgreSQL, React, and Python experience are relevant; TypeScript, FastAPI, and Supabase are useful. | COMPENSATION & BENEFITS | Salary range: €85,000 to €140,000 annually. | Hybrid, based in Munich, Germany. | The role requires working on-site most of the week, with occasional remote work.",
-   "remoteProof": "Hybrid, based in Munich, Germany. | The role requires working on-site most of the week, with occasional remote work.",
+   "match": "title; remote",
+   "facts": "Join the engineering team at a European AI communications software company and own product features from early discovery through production. | - At least three years of product engineering experience delivering features end to end. | - Full-stack experience with Node.js, TypeScript, NestJS, and React. | - German proficiency at B2 level or above, and fluent English. | - Experience integrating large language models or building AI-powered features is an advantage. | COMPENSATION & BENEFITS | Annual base salary of €80,000 to €120,000, plus equity. | Remote role based in Germany, with working-hour overlap in CET.",
+   "remoteProof": "Remote role based in Germany, with working-hour overlap in CET.",
    "firstSeen": "2026-10-06T17:33:36+00:00"
   },
   {
@@ -3350,6 +3392,28 @@
    "match": "title; NRW ~57 km",
    "facts": "",
    "remoteProof": "",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
+   "id": "arbeitnow:web-developer-full-time-munich-243414",
+   "company": "CONROO GmbH",
+   "title": "Web Developer | Full Time (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/conroo-gmbh/web-developer-full-time-munich-243414",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-02",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "You bring 4+ years of professional experience in developing web applications. | You have extensive experience with TypeScript and its practical application. | You are fluent in English. | ⚙️ Must Have Tools and Technologies Vue js Typescript Vuetify 💡 It’s a Plus If You Have Experience working with Nuxt.js. | 👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location. | 🏔️ Company getaway: Two annual team getaways where we work, unwind, and connect – away from the office. | 🏢 Multiple office locations: Jo",
+   "remoteProof": "👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location.",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
@@ -3798,30 +3862,6 @@
    "match": "title; remote",
    "facts": "React, TypeScript, and modern HTML/CSS.",
    "remoteProof": "",
-   "firstSeen": "2026-10-05T23:14:49+00:00"
-  },
-  {
-   "id": "greenhouse:trivago:8641657002",
-   "company": "trivago",
-   "title": "Frontend Engineering Lead - Content",
-   "url": "https://careers.trivago.com/apply/8641657002.?gh_jid=8641657002",
-   "location": "Düsseldorf / trivago (Düsseldorf)",
-   "remote": null,
-   "postedAt": "2026-09-30",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "greenhouse",
-   "ats": "greenhouse",
-   "stackHits": [
-    "next.js",
-    "react",
-    "typescript"
-   ],
-   "match": "title; NRW",
-   "facts": "Enjoy your office days.",
-   "remoteProof": "Enjoy your office days.",
    "firstSeen": "2026-10-05T23:14:49+00:00"
   },
   {
