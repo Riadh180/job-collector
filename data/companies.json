@@ -4371,7 +4371,8 @@
   "ats": "lever",
   "slug": "supermove",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Gradient Labs",
@@ -10375,7 +10376,8 @@
   "ats": "workable",
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Voyant Photonics",
@@ -10881,7 +10883,8 @@
   "ats": "workable",
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "TrustEngine",
@@ -10889,7 +10892,8 @@
   "ats": "workable",
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "HireHawk",
@@ -10897,7 +10901,8 @@
   "ats": "workable",
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "DigitalService",
@@ -10937,7 +10942,8 @@
   "ats": "workable",
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Thorlabs",
@@ -11265,7 +11271,8 @@
   "ats": "workable",
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Leadway Pensure",
@@ -11627,7 +11634,8 @@
   "ats": "workable",
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Distru",
@@ -11779,7 +11787,8 @@
   "ats": "workable",
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Wunder Mobility",
@@ -11899,7 +11908,8 @@
   "ats": "workable",
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Yassir",
@@ -12195,7 +12205,8 @@
   "ats": "workable",
   "slug": "thanx",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Rohrer",
@@ -12307,7 +12318,8 @@
   "ats": "workable",
   "slug": "paperpile",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Makersite GmbH",
@@ -12395,7 +12407,8 @@
   "ats": "workable",
   "slug": "c-the-signs",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Harbor",
@@ -12755,7 +12768,8 @@
   "ats": "workable",
   "slug": "creativechaos",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Exit83",
@@ -13075,7 +13089,8 @@
   "ats": "workable",
   "slug": "circonomit",
   "addedBy": "probe 2026-11-05",
-  "lastOk": "2026-11-05"
+  "lastOk": "2026-11-05",
+  "failCount": 1
  },
  {
   "name": "Acture Germany",
@@ -13206,10 +13221,26 @@
   "lastOk": "2026-11-05"
  },
  {
+  "name": "Sphere Laboratories, Inc.",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "sphere-laboratories",
+  "addedBy": "probe 2026-11-05",
+  "lastOk": "2026-11-05"
+ },
+ {
   "name": "ReWorks Solutions",
   "industry": "from job boards",
   "ats": "workable",
   "slug": "reworkssolutions",
+  "addedBy": "probe 2026-11-05",
+  "failCount": 1
+ },
+ {
+  "name": "WISE INTEGRATION",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "wise-integration",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-05"
  },
@@ -13254,10 +13285,10 @@
   "lastOk": "2026-11-05"
  },
  {
-  "name": "Virtual Identity",
+  "name": "Viget",
   "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "virtual-identity",
+  "ats": "lever",
+  "slug": "viget",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-05"
  },
@@ -13270,18 +13301,18 @@
   "lastOk": "2026-11-05"
  },
  {
-  "name": "Nasuni",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "nasuni",
-  "addedBy": "probe 2026-11-05",
-  "lastOk": "2026-11-05"
- },
- {
   "name": "RapidAI",
   "industry": "from job boards",
   "ats": "lever",
   "slug": "rapidai",
+  "addedBy": "probe 2026-11-05",
+  "lastOk": "2026-11-05"
+ },
+ {
+  "name": "Element Solutions",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "elementsolutions",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-05"
  },

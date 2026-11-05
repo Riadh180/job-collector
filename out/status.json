@@ -7,7 +7,7 @@
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3249
+   "fetched": 3247
   },
   "remotive": {
    "fetched": 80
@@ -40,15 +40,31 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1561,
-   "failed": 3
+   "checked": 1563,
+   "failed": 19
   }
  },
  "errors": {
   "companies": {
    "Xolife": "HTTP 404",
    "Docsumo": "HTTP 404",
-   "Overstory": "HTTP 404"
+   "Supermove": "HTTP 500",
+   "Overstory": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
+   "Paperpile": "HTTP 429",
+   "Thanx": "HTTP 429",
+   "Creative Chaos": "HTTP 429",
+   "Circonomit GmbH": "HTTP 429",
+   "ReWorks Solutions": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -117,46 +133,48 @@
   "calls": 36
  },
  "probe": {
-  "tried": 120,
+  "tried": 118,
   "found": [
    "3Ive (ashby:3ive)",
+   "Sphere Laboratories, Inc. (lever:sphere-laboratories)",
    "ReWorks Solutions (workable:reworkssolutions)",
+   "WISE INTEGRATION (lever:wise-integration)",
    "become.1 (personio:become-1-gmbh)",
    "Verivox (personio:verivox)",
    "Steadforce (personio:steadforce)",
    "Pergolux (ashby:pergolux)",
    "Prematch Sports GmbH (personio:prematch-sports-gmbh)",
-   "Virtual Identity (ashby:virtual-identity)",
+   "Viget (lever:viget)",
    "Cricut (smartrecruiters:cricut)",
-   "Nasuni (greenhouse:nasuni)",
    "RapidAI (lever:rapidai)",
+   "Element Solutions (lever:elementsolutions)",
    "ControlPlane (greenhouse:controlplane)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 170
+  "ok": 167
  },
- "collectedAt": "2026-11-05T17:52:34+00:00",
- "rawJobs": 81712,
- "matches": 259,
- "new": 10,
- "companies": 1638,
- "activeCompanies": 1561,
+ "collectedAt": "2026-11-05T19:33:59+00:00",
+ "rawJobs": 80806,
+ "matches": 262,
+ "new": 16,
+ "companies": 1640,
+ "activeCompanies": 1563,
  "funnel": {
-  "title": 78428,
-  "company": 69,
-  "passed": 509,
-  "salary": 18,
-  "duplicate": 250,
-  "location": 2498,
+  "passed": 510,
+  "title": 77571,
+  "company": 64,
+  "salary": 15,
+  "duplicate": 248,
+  "location": 2456,
   "employment": 27,
   "too_old": 156
  },
  "matchesBySource": {
-  "adzuna": 105,
-  "arbeitnow": 13,
-  "ashby": 50,
+  "adzuna": 109,
+  "arbeitnow": 10,
+  "ashby": 52,
   "greenhouse": 18,
   "arbeitsagentur": 18,
   "jobicy": 3,
