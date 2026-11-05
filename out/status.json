@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1489
+   "fetched": 180
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3247
+   "fetched": 4733
   },
   "remotive": {
    "fetched": 80
@@ -25,54 +25,63 @@
    "fetched": 106
   },
   "hn": {
-   "fetched": 253
+   "fetched": 254
   },
   "workingnomads": {
    "fetched": 33
   },
   "germantechjobs": {
-   "fetched": 689
+   "fetched": 692
   },
   "jooble": {
-   "fetched": 151
+   "fetched": 152
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1563,
-   "failed": 19
+   "checked": 1584,
+   "failed": 28
   }
  },
  "errors": {
   "companies": {
    "Xolife": "HTTP 404",
    "Docsumo": "HTTP 404",
-   "Supermove": "HTTP 500",
    "Overstory": "HTTP 404",
    "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
    "Seeq": "HTTP 429",
    "Advancing Eco Agriculture": "HTTP 429",
    "Paperpile": "HTTP 429",
    "Thanx": "HTTP 429",
+   "QuickTeam": "HTTP 429",
    "Creative Chaos": "HTTP 429",
+   "HERO Software GmbH": "HTTP 429",
    "Circonomit GmbH": "HTTP 429",
-   "ReWorks Solutions": "HTTP 429"
+   "ReWorks Solutions": "HTTP 429",
+   "Exoticca": "HTTP 429",
+   "Archistar": "HTTP 429",
+   "Prominence Advisors": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 31,
+  "callsThisRun": 5,
+  "searchesThisRun": 3,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 155
+  "callsToday": 140,
+  "callsLast7Days": 160
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -133,54 +142,61 @@
   "calls": 36
  },
  "probe": {
-  "tried": 118,
+  "tried": 76,
   "found": [
-   "3Ive (ashby:3ive)",
-   "Sphere Laboratories, Inc. (lever:sphere-laboratories)",
-   "ReWorks Solutions (workable:reworkssolutions)",
-   "WISE INTEGRATION (lever:wise-integration)",
-   "become.1 (personio:become-1-gmbh)",
-   "Verivox (personio:verivox)",
-   "Steadforce (personio:steadforce)",
-   "Pergolux (ashby:pergolux)",
-   "Prematch Sports GmbH (personio:prematch-sports-gmbh)",
-   "Viget (lever:viget)",
-   "Cricut (smartrecruiters:cricut)",
-   "RapidAI (lever:rapidai)",
-   "Element Solutions (lever:elementsolutions)",
-   "ControlPlane (greenhouse:controlplane)"
+   "Exoticca (workable:exoticca)",
+   "Edpuzzle (lever:edpuzzle)",
+   "Scalian (smartrecruiters:scalian)",
+   "Archistar (workable:archistar)",
+   "Prominence Advisors (workable:prominence-advisors)",
+   "Catapultsports (greenhouse:catapultsports)",
+   "Virtual Identity (ashby:virtual-identity)",
+   "Deleteme (lever:deleteme)",
+   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
+   "ASPER BROTHERS (smartrecruiters:asperbrothers)",
+   "Entrata (lever:entrata)",
+   "SITS Group (greenhouse:sitsgroup)",
+   "Leadership Connect (lever:leadershipconnect)",
+   "Stand Together (lever:standtogether)",
+   "Enveritas (greenhouse:enveritas)",
+   "SkySlope (lever:skyslope)",
+   "Aeva, Inc. (lever:aeva)",
+   "IN-VR (smartrecruiters:in-vr)",
+   "High Tech Genesis (recruitee:hightechgenesis)",
+   "Keypath Education (smartrecruiters:keypatheducation)",
+   "Akuity (greenhouse:akuity)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 167
+  "tried": 45,
+  "ok": 38
  },
- "collectedAt": "2026-11-05T19:33:59+00:00",
- "rawJobs": 80806,
- "matches": 262,
- "new": 16,
- "companies": 1640,
- "activeCompanies": 1563,
+ "collectedAt": "2026-11-05T21:19:52+00:00",
+ "rawJobs": 81640,
+ "matches": 192,
+ "new": 1,
+ "companies": 1661,
+ "activeCompanies": 1584,
  "funnel": {
-  "passed": 510,
-  "title": 77571,
-  "company": 64,
-  "salary": 15,
-  "duplicate": 248,
-  "location": 2456,
-  "employment": 27,
+  "passed": 251,
+  "title": 78660,
+  "salary": 4,
+  "duplicate": 59,
+  "company": 15,
+  "employment": 23,
+  "location": 2524,
   "too_old": 156
  },
  "matchesBySource": {
-  "adzuna": 109,
-  "arbeitnow": 10,
-  "ashby": 52,
+  "arbeitnow": 24,
+  "adzuna": 22,
+  "ashby": 53,
   "greenhouse": 18,
-  "arbeitsagentur": 18,
+  "arbeitsagentur": 19,
   "jobicy": 3,
+  "personio": 17,
   "hn": 7,
   "weworkremotely": 8,
-  "personio": 16,
   "jooble": 1,
   "recruitee": 15,
   "germantechjobs": 3,
