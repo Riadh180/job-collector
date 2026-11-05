@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1389
+   "fetched": 1489
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 4683
+   "fetched": 3249
   },
   "remotive": {
    "fetched": 80
   },
   "jobicy": {
-   "fetched": 177
+   "fetched": 171
   },
   "remoteok": {
    "fetched": 99
@@ -22,16 +22,16 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 103
+   "fetched": 106
   },
   "hn": {
-   "fetched": 252
+   "fetched": 253
   },
   "workingnomads": {
-   "fetched": 35
+   "fetched": 33
   },
   "germantechjobs": {
-   "fetched": 704
+   "fetched": 689
   },
   "jooble": {
    "fetched": 151
@@ -40,25 +40,23 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1551,
-   "failed": 5
+   "checked": 1561,
+   "failed": 3
   }
  },
  "errors": {
   "companies": {
-   "Doctolib": "HTTP 404",
    "Xolife": "HTTP 404",
    "Docsumo": "HTTP 404",
-   "Overstory": "HTTP 404",
-   "Aircall": "HTTP 404"
+   "Overstory": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 29,
+  "searchesThisRun": 31,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 110
+  "callsToday": 135,
+  "callsLast7Days": 155
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -111,8 +109,8 @@
   "failed": 0,
   "jobs": 314,
   "details": {
-   "tried": 108,
-   "ok": 108
+   "tried": 107,
+   "ok": 107
   }
  },
  "jooble_usage": {
@@ -121,60 +119,53 @@
  "probe": {
   "tried": 120,
   "found": [
-   "HERO Software GmbH (workable:hero-software)",
-   "Nomos (ashby:nomos)",
-   "Circonomit GmbH (workable:circonomit)",
-   "Acture Germany (personio:acture-germany)",
-   "Nubank (ashby:nubank)",
-   "Motherduck (ashby:motherduck)",
-   "QPLIX (personio:qplix)",
-   "HBI (personio:hbi)",
-   "Fivetran (greenhouse:fivetran)",
-   "simtrabps (greenhouse:simtrabps)",
-   "cloudpunks GmbH (recruitee:cloudpunks)",
-   "Ekumenlabs (ashby:ekumenlabs)",
-   "Carwow (ashby:carwow)",
-   "Neuphonic (ashby:neuphonic)",
-   "Skyward IT Solutions, LLC (lever:skywarditsolutions)",
-   "Onboarded (lever:onboarded)",
-   "RightEye (smartrecruiters:righteye)",
-   "abridge (ashby:abridge)"
+   "3Ive (ashby:3ive)",
+   "ReWorks Solutions (workable:reworkssolutions)",
+   "become.1 (personio:become-1-gmbh)",
+   "Verivox (personio:verivox)",
+   "Steadforce (personio:steadforce)",
+   "Pergolux (ashby:pergolux)",
+   "Prematch Sports GmbH (personio:prematch-sports-gmbh)",
+   "Virtual Identity (ashby:virtual-identity)",
+   "Cricut (smartrecruiters:cricut)",
+   "Nasuni (greenhouse:nasuni)",
+   "RapidAI (lever:rapidai)",
+   "ControlPlane (greenhouse:controlplane)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 183
+  "ok": 170
  },
- "collectedAt": "2026-11-05T12:53:23+00:00",
- "rawJobs": 82830,
- "matches": 268,
- "new": 14,
- "companies": 1626,
- "activeCompanies": 1551,
+ "collectedAt": "2026-11-05T17:52:34+00:00",
+ "rawJobs": 81712,
+ "matches": 259,
+ "new": 10,
+ "companies": 1638,
+ "activeCompanies": 1561,
  "funnel": {
-  "title": 79538,
-  "company": 76,
-  "passed": 435,
-  "duplicate": 167,
-  "salary": 13,
-  "location": 2574,
-  "employment": 28,
-  "too_old": 159
+  "title": 78428,
+  "company": 69,
+  "passed": 509,
+  "salary": 18,
+  "duplicate": 250,
+  "location": 2498,
+  "employment": 27,
+  "too_old": 156
  },
  "matchesBySource": {
-  "adzuna": 112,
-  "ashby": 49,
+  "adzuna": 105,
+  "arbeitnow": 13,
+  "ashby": 50,
+  "greenhouse": 18,
   "arbeitsagentur": 18,
-  "arbeitnow": 18,
   "jobicy": 3,
-  "himalayas": 3,
-  "greenhouse": 17,
-  "personio": 14,
   "hn": 7,
   "weworkremotely": 8,
+  "personio": 16,
   "jooble": 1,
-  "recruitee": 14,
-  "germantechjobs": 2,
+  "recruitee": 15,
+  "germantechjobs": 3,
   "smartrecruiters": 2
  }
 }
