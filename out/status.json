@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1078
+   "fetched": 1585
   },
   "arbeitsagentur": {
-   "fetched": 315
+   "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 4873
+   "fetched": 3284
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 155
+   "fetched": 142
   },
   "remoteok": {
    "fetched": 99
@@ -28,58 +28,60 @@
    "fetched": 258
   },
   "workingnomads": {
-   "fetched": 33
+   "fetched": 32
   },
   "germantechjobs": {
-   "fetched": 743
+   "fetched": 730
   },
   "jooble": {
-   "fetched": 139
+   "fetched": 136
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1599,
+   "checked": 1611,
    "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Xolife": "HTTP 404"
+   "Parloa": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 34,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 185
+  "callsToday": 90,
+  "callsLast7Days": 230
  },
  "arbeitsagentur_sample": {
   "keys": [
    "aenderungsdatum",
    "alleBerufe.0",
-   "arbeitgeberKundennummerHash",
    "arbeitszeitSchichtNachtWochenende",
    "arbeitszeitTeilzeitAbend",
    "arbeitszeitTeilzeitFlexibel",
    "arbeitszeitTeilzeitNachmittag",
    "arbeitszeitTeilzeitVormittag",
    "arbeitszeitVollzeit",
+   "chiffrenummer",
    "datumErsteVeroeffentlichung",
    "eintrittszeitraum.von",
+   "externeURL",
    "firma",
    "hauptberuf",
+   "homeofficemoeglich",
+   "istGeringfuegigeBeschaeftigung",
+   "quereinstiegGeeignet",
    "referenznummer",
    "stellenangebotsTitel",
    "stellenangebotsart",
-   "stellenlokationen.0.adresse.hausnummer",
    "stellenlokationen.0.adresse.land",
    "stellenlokationen.0.adresse.ort",
    "stellenlokationen.0.adresse.plz",
    "stellenlokationen.0.adresse.region",
-   "stellenlokationen.0.adresse.strasse",
    "stellenlokationen.0.breite",
    "stellenlokationen.0.laenge",
    "verguetungsangabe",
@@ -87,25 +89,25 @@
    "vertragsdauer"
   ],
   "parsed": {
-   "ref": "10001-1003939909-S",
-   "title": "Junior Softwareentwickler React / JavaScript (m/w/d)",
+   "ref": "13635-d7f107e8_JB5293164-S",
+   "title": "React Frontend Developer (m/w/d)",
    "beruf": "",
-   "employer": "ISR Information Products AG",
-   "city": "Münster, Westfalen",
-   "region": "NORDRHEIN_WESTFALEN",
-   "date": "2026-10-30",
-   "url": "",
-   "lat": "51.950655",
-   "lon": "7.6408605"
+   "employer": "proWIN",
+   "city": "Illingen, Saar",
+   "region": "SAARLAND",
+   "date": "2026-11-06",
+   "url": "https://www.jobexport.de/job/5293164.html?exp=81&cid=d7f107e8-8f56-4e46-ac7f-a2219ec63399",
+   "lat": "49.3845245",
+   "lon": "7.0482293"
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=295, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=304, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 315,
+  "jobs": 316,
   "details": {
    "tried": 107,
    "ok": 107
@@ -115,60 +117,56 @@
   "calls": 36
  },
  "probe": {
-  "tried": 120,
+  "tried": 118,
   "found": [
-   "Accso (recruitee:accso)",
-   "digital.manufaktur (personio:digital-manufaktur-gmbh)",
-   "EGYM (ashby:egym)",
-   "PPRO (ashby:ppro)",
-   "Bluesight (lever:bluesight)",
-   "Renesas Electronics (smartrecruiters:renesaselectronics)",
-   "Holisticon (personio:holisticon)",
-   "NEA X (smartrecruiters:neax)",
-   "InterNations (smartrecruiters:internations)",
-   "Aikido Security (recruitee:aikidosecurity)",
-   "Moonpay (lever:moonpay)",
-   "Openx (lever:openx)",
-   "CivilGrid (ashby:civilgrid)",
-   "Ledgy (greenhouse:ledgy)",
-   "ZenRows (greenhouse:zenrows)",
-   "Simulmedia (lever:simulmedia)",
-   "Revinate (lever:revinate)"
+   "Schulze Marketing GmbH (recruitee:schulzemarketing)",
+   "dieseo GmbH (personio:dieseo-gmbh)",
+   "meteocontrol (personio:meteocontrol)",
+   "Trusted Shops (recruitee:trustedshops)",
+   "Namecheap, Inc. (recruitee:namecheap)",
+   "Goodleap (lever:goodleap)",
+   "Geomagical Labs (workable:geomagical-labs)",
+   "Mayflower (recruitee:mayflower)",
+   "Autohaus Royal GmbH (personio:autohaus-royal)",
+   "SEAKR Engineering (smartrecruiters:seakrengineering)",
+   "HelloKindred (smartrecruiters:hellokindred)",
+   "Mom's Meals (lever:momsmeals)",
+   "HHAeXchange (lever:hhaexchange)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 195
+  "ok": 199
  },
- "collectedAt": "2026-11-06T12:39:49+00:00",
- "rawJobs": 84755,
- "matches": 304,
- "new": 65,
- "companies": 1678,
- "activeCompanies": 1599,
+ "collectedAt": "2026-11-06T17:14:07+00:00",
+ "rawJobs": 83949,
+ "matches": 312,
+ "new": 25,
+ "companies": 1691,
+ "activeCompanies": 1611,
  "funnel": {
-  "title": 81369,
-  "passed": 510,
-  "duplicate": 206,
-  "salary": 11,
-  "company": 40,
-  "location": 2634,
-  "employment": 25,
-  "too_old": 159
+  "title": 80515,
+  "passed": 595,
+  "company": 89,
+  "duplicate": 283,
+  "salary": 6,
+  "employment": 24,
+  "location": 2555,
+  "too_old": 158
  },
  "matchesBySource": {
-  "adzuna": 136,
-  "arbeitnow": 22,
-  "ashby": 58,
-  "greenhouse": 15,
-  "recruitee": 16,
+  "adzuna": 151,
   "himalayas": 1,
-  "arbeitsagentur": 17,
-  "personio": 16,
+  "greenhouse": 15,
+  "ashby": 61,
+  "recruitee": 16,
+  "arbeitnow": 15,
+  "arbeitsagentur": 16,
   "hn": 7,
   "weworkremotely": 8,
+  "personio": 15,
   "jooble": 1,
-  "germantechjobs": 3,
+  "germantechjobs": 2,
   "smartrecruiters": 1,
   "jobicy": 3
  }
