@@ -1,7 +1,31 @@
 {
- "collectedAt": "2026-11-06T20:41:32+00:00",
- "count": 7,
+ "collectedAt": "2026-11-06T21:22:36+00:00",
+ "count": 10,
  "jobs": [
+  {
+   "id": "adzuna:5956037771",
+   "company": "FindYou Consulting GmbH",
+   "title": "Frontend-Entwickler",
+   "url": "https://www.adzuna.de/details/5956037771?utm_medium=api&utm_source=c19f1397",
+   "location": "Berlin, Deutschland / Berlin / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-06",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 454.09418773487886,
+   "kmFromEssen": 454,
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Ähnliche Jobs Entwickler (m/w/d) Digitale Medien für Universität 22.10 EUR per hour PerZukunft Arbeitsvermittlung GmbH & Co. | KG Berlin Entwickler m/w/d Digitale Medien - HTML / CSS - gesucht 13.90 EUR per hour PerZukunft Arbeitsvermittlung GmbH & Co.",
+   "remoteProof": "",
+   "firstSeen": "2026-11-06T21:22:36+00:00"
+  },
   {
    "id": "adzuna:5955999522",
    "company": "proWIN Winter GmbH",
@@ -25,7 +49,32 @@
    "match": "title; remote",
    "facts": "React Frontend Developer (m/w/d) - adzuna.de Are you based in the United States? | United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Im Rahmen von Home-Shopping oder Online-Partys vertreiben derzeit mehr als 100.000 selbstständige Berater/innen aus Deutschland, Frankreich, Belgien, den Niederlanden, Luxemburg, Österreich, Italien und der Schweiz die Produkte von proWIN.",
    "remoteProof": "",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
+  },
+  {
+   "id": "adzuna:5956038820",
+   "company": "LBBW",
+   "title": "Fullstack Entwickler / Technical Lead für Camunda (m/w/d)",
+   "url": "https://www.adzuna.de/details/5956038820?utm_medium=api&utm_source=c19f1397",
+   "location": "Mitte, Stuttgart / Baden-Württemberg / Stuttgart / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-06",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 335.55822360112825,
+   "kmFromEssen": 336,
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | über flexible Arbeitszeiten, Sabbaticals sowie die Möglichkeit teilweise mobil oder im Homeoffice zu arbeiten) Attraktive betriebliche Altersversorgung Umfassendes Gesundheitsmanagement (u.a.",
+   "remoteProof": "über flexible Arbeitszeiten, Sabbaticals sowie die Möglichkeit teilweise mobil oder im Homeoffice zu arbeiten) Attraktive betriebliche Altersversorgung Umfassendes Gesundheitsmanagement (u.a.",
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   },
   {
    "id": "adzuna:5956002026",
@@ -47,7 +96,7 @@
    "match": "title; remote",
    "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Mit einem Team von 2.000 Mitarbeitenden und 23 Standorten in Europa liefern wir innovative Lösungen, die Fortschritt und langfristigen Erfolg vorantreiben. | Bei uns erwarten dich moderne Tools, agile Teams und spannende Digitalisierungsprojekte in einem hybriden Arbeitsmodell. | Mit einem Team von 2.000 Mitarbeitenden und 23 Standorten in Europa liefern wir innovative Lösungen, die Fortschritt und langfristigen Erfolg vorantreiben… fullstack",
    "remoteProof": "Bei uns erwarten dich moderne Tools, agile Teams und spannende Digitalisierungsprojekte in einem hybriden Arbeitsmodell.",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   },
   {
    "id": "adzuna:5956001595",
@@ -71,7 +120,29 @@
    "match": "generic+stack; NRW ~53 km",
    "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Auch im Frontend bist Du nicht fremd: TypeScript, HTML und SCSS gehören zu Deinem technischen Werkzeugkasten und idealerweise hast Du bereits mit Svelte und Node.js gearbeitet. | Sowie im Mobile Office.",
    "remoteProof": "",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
+  },
+  {
+   "id": "adzuna:5956041658",
+   "company": "Deutsche Welle",
+   "title": "(Senior) Mobile Developer (w/m/d)",
+   "url": "https://www.adzuna.de/details/5956041658?utm_medium=api&utm_source=c19f1397",
+   "location": "Gronau, Bonn / Nordrhein-Westfalen / Bonn / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-06",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 82.39331556810929,
+   "kmFromEssen": 82,
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Die Deutsche Welle (DW) ist der Auslandssender Deutschlands, verbreitet weltweit journalistische Angebote - multimedial und in mehr als 30 Sprachen. | Agile Frameworks sowie die Zusammenarbeit in interdisziplinären Teams sind Dir vertraut?Dann werde Teil unseres Teams bei der Deutschen Welle und unterstütze uns bei der Entwicklung innovativer digitaler Produkte für ein internationales Publikum.",
+   "remoteProof": "Suche Erweiterte Suche (Senior) Mobile Developer (w/m/d) ❮ zurück zur letzten Suche Deutsche Welle Bonn, 53113 Vollzeit NEU HOME-OFFICE Auf diesen Job bewerben Als Mitarbeitende der Deutschen Welle identifizieren wir uns mit den vom Deutsche-Welle-Gesetz vorgegebenen Werten.",
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   },
   {
    "id": "adzuna:5955998637",
@@ -96,7 +167,7 @@
    "match": "title; remote",
    "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Build intuitive, performant, and responsive user interfaces using modern frontend frameworks such as React or comparable web component frameworks. | What you bring to the team: 5+ years of professional experience in frontend development. | Proficiency in TypeScript and web component frameworks. | Familiarity with backend technologies such as Node.js or similar. | Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right ba",
    "remoteProof": "Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right balance.",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   },
   {
    "id": "adzuna:5955997052",
@@ -120,7 +191,7 @@
    "match": "generic+stack; remote",
    "facts": "Mit digitalen, nachhaltigen und innovativen Lösungen setzen wir neue… react",
    "remoteProof": "",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   },
   {
    "id": "adzuna:5955986609",
@@ -144,7 +215,7 @@
    "match": "generic+stack; remote",
    "facts": "In einer Branche mit vielen über Jahre gewachsenen Systemen schaffen wir neu… react",
    "remoteProof": "",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   },
   {
    "id": "himalayas:https://himalayas.app/companies/eastwood-cleef-llc/jobs/frontend-software-development-engineer-javascript-vue-js",
@@ -164,7 +235,7 @@
    "match": "title; remote",
    "facts": "This is a remote position. | Requirements Vanilla JavaScript expertise 5+ years. | VueJS/NuxtJS expertise 2+ years.",
    "remoteProof": "This is a remote position.",
-   "firstSeen": "2026-11-06T20:41:32+00:00"
+   "firstSeen": "2026-11-06T21:22:36+00:00"
   }
  ]
 }

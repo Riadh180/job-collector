@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1135
+   "fetched": 1142
   },
   "arbeitsagentur": {
    "fetched": 316
@@ -13,7 +13,7 @@
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 148
+   "fetched": 184
   },
   "remoteok": {
    "fetched": 99
@@ -25,13 +25,13 @@
    "fetched": 114
   },
   "hn": {
-   "fetched": 258
+   "fetched": 259
   },
   "workingnomads": {
    "fetched": 32
   },
   "germantechjobs": {
-   "fetched": 731
+   "fetched": 695
   },
   "jooble": {
    "fetched": 136
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1627,
-   "failed": 29
+   "checked": 1628,
+   "failed": 27
   }
  },
  "errors": {
@@ -49,19 +49,16 @@
    "Parloa": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
    "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
    "Moneyhub": "HTTP 429",
-   "Intertek": "HTTP 429",
+   "HireHawk": "HTTP 429",
    "Thorlabs": "HTTP 429",
-   "Shieldai": "HTTP 404",
    "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
+   "Shieldai": "HTTP 404",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
    "Advancing Eco Agriculture": "HTTP 429",
    "Paperpile": "HTTP 429",
    "Thanx": "HTTP 429",
@@ -74,7 +71,8 @@
    "Archistar": "HTTP 429",
    "Prominence Advisors": "HTTP 429",
    "Geomagical Labs": "HTTP 429",
-   "EQL Tech": "HTTP 429"
+   "EQL Tech": "HTTP 429",
+   "Globaldev Group": "HTTP 429"
   }
  },
  "adzuna_usage": {
@@ -145,7 +143,7 @@
   "calls": 36
  },
  "probe": {
-  "tried": 77,
+  "tried": 82,
   "found": [
    "Coinscope (smartrecruiters:coinscope)",
    "Isembard (ashby:isembard)",
@@ -162,43 +160,44 @@
    "NXTKEY CORPORATION (smartrecruiters:nxtkeycorporation)",
    "John Snow Labs (smartrecruiters:johnsnowlabs)",
    "Workhint (smartrecruiters:workhint)",
-   "Unanet (greenhouse:unanet)"
+   "Unanet (greenhouse:unanet)",
+   "Globaldev Group (workable:globaldevgroup)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 197
+  "ok": 169
  },
- "collectedAt": "2026-11-06T20:41:32+00:00",
- "rawJobs": 81743,
- "matches": 295,
- "new": 7,
- "companies": 1707,
- "activeCompanies": 1627,
+ "collectedAt": "2026-11-06T21:22:36+00:00",
+ "rawJobs": 82009,
+ "matches": 270,
+ "new": 10,
+ "companies": 1708,
+ "activeCompanies": 1628,
  "funnel": {
-  "title": 78513,
-  "company": 69,
-  "passed": 473,
-  "salary": 11,
-  "duplicate": 178,
-  "location": 2489,
+  "title": 78741,
+  "company": 87,
+  "passed": 479,
+  "salary": 15,
+  "duplicate": 209,
+  "location": 2499,
   "employment": 23,
   "too_old": 158
  },
  "matchesBySource": {
-  "adzuna": 130,
+  "adzuna": 105,
   "himalayas": 2,
-  "greenhouse": 15,
-  "ashby": 63,
+  "jobicy": 4,
+  "ashby": 64,
   "recruitee": 17,
-  "arbeitnow": 11,
+  "greenhouse": 14,
+  "arbeitnow": 9,
   "arbeitsagentur": 18,
   "personio": 16,
   "hn": 7,
   "weworkremotely": 8,
   "jooble": 1,
-  "germantechjobs": 3,
-  "smartrecruiters": 1,
-  "jobicy": 3
+  "smartrecruiters": 2,
+  "germantechjobs": 3
  }
 }
