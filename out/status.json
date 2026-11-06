@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 180
+   "fetched": 1078
   },
   "arbeitsagentur": {
-   "fetched": 314
+   "fetched": 315
   },
   "arbeitnow": {
-   "fetched": 4733
+   "fetched": 4873
   },
   "remotive": {
-   "fetched": 80
+   "fetched": 96
   },
   "jobicy": {
-   "fetched": 171
+   "fetched": 155
   },
   "remoteok": {
    "fetched": 99
@@ -22,66 +22,39 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 106
+   "fetched": 112
   },
   "hn": {
-   "fetched": 254
+   "fetched": 258
   },
   "workingnomads": {
    "fetched": 33
   },
   "germantechjobs": {
-   "fetched": 692
+   "fetched": 743
   },
   "jooble": {
-   "fetched": 152
+   "fetched": 139
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1584,
-   "failed": 28
+   "checked": 1599,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Xolife": "HTTP 404",
-   "Docsumo": "HTTP 404",
-   "Overstory": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Advancing Eco Agriculture": "HTTP 429",
-   "Paperpile": "HTTP 429",
-   "Thanx": "HTTP 429",
-   "QuickTeam": "HTTP 429",
-   "Creative Chaos": "HTTP 429",
-   "HERO Software GmbH": "HTTP 429",
-   "Circonomit GmbH": "HTTP 429",
-   "ReWorks Solutions": "HTTP 429",
-   "Exoticca": "HTTP 429",
-   "Archistar": "HTTP 429",
-   "Prominence Advisors": "HTTP 429"
+   "Xolife": "HTTP 404"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 5,
-  "searchesThisRun": 3,
+  "callsThisRun": 45,
+  "searchesThisRun": 34,
   "searchesTotal": 51,
-  "callsToday": 140,
-  "callsLast7Days": 160
+  "callsToday": 45,
+  "callsLast7Days": 185
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -127,12 +100,12 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=297, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=295, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 314,
+  "jobs": 315,
   "details": {
    "tried": 107,
    "ok": 107
@@ -142,64 +115,61 @@
   "calls": 36
  },
  "probe": {
-  "tried": 76,
+  "tried": 120,
   "found": [
-   "Exoticca (workable:exoticca)",
-   "Edpuzzle (lever:edpuzzle)",
-   "Scalian (smartrecruiters:scalian)",
-   "Archistar (workable:archistar)",
-   "Prominence Advisors (workable:prominence-advisors)",
-   "Catapultsports (greenhouse:catapultsports)",
-   "Virtual Identity (ashby:virtual-identity)",
-   "Deleteme (lever:deleteme)",
-   "Deutsche Telekom IT Solutions Slovakia (smartrecruiters:deutschetelekomitsolutionsslovakia)",
-   "ASPER BROTHERS (smartrecruiters:asperbrothers)",
-   "Entrata (lever:entrata)",
-   "SITS Group (greenhouse:sitsgroup)",
-   "Leadership Connect (lever:leadershipconnect)",
-   "Stand Together (lever:standtogether)",
-   "Enveritas (greenhouse:enveritas)",
-   "SkySlope (lever:skyslope)",
-   "Aeva, Inc. (lever:aeva)",
-   "IN-VR (smartrecruiters:in-vr)",
-   "High Tech Genesis (recruitee:hightechgenesis)",
-   "Keypath Education (smartrecruiters:keypatheducation)",
-   "Akuity (greenhouse:akuity)"
+   "Accso (recruitee:accso)",
+   "digital.manufaktur (personio:digital-manufaktur-gmbh)",
+   "EGYM (ashby:egym)",
+   "PPRO (ashby:ppro)",
+   "Bluesight (lever:bluesight)",
+   "Renesas Electronics (smartrecruiters:renesaselectronics)",
+   "Holisticon (personio:holisticon)",
+   "NEA X (smartrecruiters:neax)",
+   "InterNations (smartrecruiters:internations)",
+   "Aikido Security (recruitee:aikidosecurity)",
+   "Moonpay (lever:moonpay)",
+   "Openx (lever:openx)",
+   "CivilGrid (ashby:civilgrid)",
+   "Ledgy (greenhouse:ledgy)",
+   "ZenRows (greenhouse:zenrows)",
+   "Simulmedia (lever:simulmedia)",
+   "Revinate (lever:revinate)"
   ]
  },
  "adzuna_pages": {
-  "tried": 45,
-  "ok": 38
+  "tried": 200,
+  "ok": 195
  },
- "collectedAt": "2026-11-05T21:19:52+00:00",
- "rawJobs": 81640,
- "matches": 192,
- "new": 1,
- "companies": 1661,
- "activeCompanies": 1584,
+ "collectedAt": "2026-11-06T12:39:49+00:00",
+ "rawJobs": 84755,
+ "matches": 304,
+ "new": 65,
+ "companies": 1678,
+ "activeCompanies": 1599,
  "funnel": {
-  "passed": 251,
-  "title": 78660,
-  "salary": 4,
-  "duplicate": 59,
-  "company": 15,
-  "employment": 23,
-  "location": 2524,
-  "too_old": 156
+  "title": 81369,
+  "passed": 510,
+  "duplicate": 206,
+  "salary": 11,
+  "company": 40,
+  "location": 2634,
+  "employment": 25,
+  "too_old": 159
  },
  "matchesBySource": {
-  "arbeitnow": 24,
-  "adzuna": 22,
-  "ashby": 53,
-  "greenhouse": 18,
-  "arbeitsagentur": 19,
-  "jobicy": 3,
-  "personio": 17,
+  "adzuna": 136,
+  "arbeitnow": 22,
+  "ashby": 58,
+  "greenhouse": 15,
+  "recruitee": 16,
+  "himalayas": 1,
+  "arbeitsagentur": 17,
+  "personio": 16,
   "hn": 7,
   "weworkremotely": 8,
   "jooble": 1,
-  "recruitee": 15,
   "germantechjobs": 3,
-  "smartrecruiters": 2
+  "smartrecruiters": 1,
+  "jobicy": 3
  }
 }
