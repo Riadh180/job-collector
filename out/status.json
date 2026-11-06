@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1585
+   "fetched": 1135
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 3284
+   "fetched": 3299
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 142
+   "fetched": 148
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 112
+   "fetched": 114
   },
   "hn": {
    "fetched": 258
@@ -31,7 +31,7 @@
    "fetched": 32
   },
   "germantechjobs": {
-   "fetched": 730
+   "fetched": 731
   },
   "jooble": {
    "fetched": 136
@@ -40,21 +40,49 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1611,
-   "failed": 1
+   "checked": 1627,
+   "failed": 29
   }
  },
  "errors": {
   "companies": {
-   "Parloa": "HTTP 404"
+   "Parloa": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "Shieldai": "HTTP 404",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
+   "Paperpile": "HTTP 429",
+   "Thanx": "HTTP 429",
+   "QuickTeam": "HTTP 429",
+   "Creative Chaos": "HTTP 429",
+   "HERO Software GmbH": "HTTP 429",
+   "Circonomit GmbH": "HTTP 429",
+   "ReWorks Solutions": "HTTP 429",
+   "Exoticca": "HTTP 429",
+   "Archistar": "HTTP 429",
+   "Prominence Advisors": "HTTP 429",
+   "Geomagical Labs": "HTTP 429",
+   "EQL Tech": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 230
+  "callsToday": 135,
+  "callsLast7Days": 275
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -117,56 +145,59 @@
   "calls": 36
  },
  "probe": {
-  "tried": 118,
+  "tried": 77,
   "found": [
-   "Schulze Marketing GmbH (recruitee:schulzemarketing)",
-   "dieseo GmbH (personio:dieseo-gmbh)",
-   "meteocontrol (personio:meteocontrol)",
-   "Trusted Shops (recruitee:trustedshops)",
-   "Namecheap, Inc. (recruitee:namecheap)",
-   "Goodleap (lever:goodleap)",
-   "Geomagical Labs (workable:geomagical-labs)",
-   "Mayflower (recruitee:mayflower)",
-   "Autohaus Royal GmbH (personio:autohaus-royal)",
-   "SEAKR Engineering (smartrecruiters:seakrengineering)",
-   "HelloKindred (smartrecruiters:hellokindred)",
-   "Mom's Meals (lever:momsmeals)",
-   "HHAeXchange (lever:hhaexchange)"
+   "Coinscope (smartrecruiters:coinscope)",
+   "Isembard (ashby:isembard)",
+   "EQL Tech (workable:eqltech)",
+   "Firstup (lever:firstup)",
+   "BlueAlly (smartrecruiters:blueally)",
+   "Brandwatch (greenhouse:brandwatch)",
+   "Atmosera (lever:atmosera)",
+   "Emergent Software (recruitee:emergentsoftware)",
+   "Swile (lever:swile)",
+   "NOCD (smartrecruiters:nocd)",
+   "proGroupX (smartrecruiters:progroupx)",
+   "Patch My PC (lever:patchmypc)",
+   "NXTKEY CORPORATION (smartrecruiters:nxtkeycorporation)",
+   "John Snow Labs (smartrecruiters:johnsnowlabs)",
+   "Workhint (smartrecruiters:workhint)",
+   "Unanet (greenhouse:unanet)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 199
+  "ok": 197
  },
- "collectedAt": "2026-11-06T17:14:07+00:00",
- "rawJobs": 83949,
- "matches": 312,
- "new": 25,
- "companies": 1691,
- "activeCompanies": 1611,
+ "collectedAt": "2026-11-06T20:41:32+00:00",
+ "rawJobs": 81743,
+ "matches": 295,
+ "new": 7,
+ "companies": 1707,
+ "activeCompanies": 1627,
  "funnel": {
-  "title": 80515,
-  "passed": 595,
-  "company": 89,
-  "duplicate": 283,
-  "salary": 6,
-  "employment": 24,
-  "location": 2555,
+  "title": 78513,
+  "company": 69,
+  "passed": 473,
+  "salary": 11,
+  "duplicate": 178,
+  "location": 2489,
+  "employment": 23,
   "too_old": 158
  },
  "matchesBySource": {
-  "adzuna": 151,
-  "himalayas": 1,
+  "adzuna": 130,
+  "himalayas": 2,
   "greenhouse": 15,
-  "ashby": 61,
-  "recruitee": 16,
-  "arbeitnow": 15,
-  "arbeitsagentur": 16,
+  "ashby": 63,
+  "recruitee": 17,
+  "arbeitnow": 11,
+  "arbeitsagentur": 18,
+  "personio": 16,
   "hn": 7,
   "weworkremotely": 8,
-  "personio": 15,
   "jooble": 1,
-  "germantechjobs": 2,
+  "germantechjobs": 3,
   "smartrecruiters": 1,
   "jobicy": 3
  }
