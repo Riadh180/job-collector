@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1142
+   "fetched": 1138
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 3299
+   "fetched": 3331
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 184
+   "fetched": 178
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 114
+   "fetched": 111
   },
   "hn": {
    "fetched": 259
@@ -31,17 +31,17 @@
    "fetched": 32
   },
   "germantechjobs": {
-   "fetched": 695
+   "fetched": 696
   },
   "jooble": {
-   "fetched": 136
+   "fetched": 205
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1628,
-   "failed": 27
+   "checked": 1624,
+   "failed": 28
   }
  },
  "errors": {
@@ -49,16 +49,19 @@
    "Parloa": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
-   "TrustEngine": "HTTP 429",
+   "Getolo": "HTTP 429",
    "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
    "Shieldai": "HTTP 404",
+   "Lamdax": "HTTP 429",
+   "AJAIA": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
    "Advancing Eco Agriculture": "HTTP 429",
    "Paperpile": "HTTP 429",
    "Thanx": "HTTP 429",
@@ -70,16 +73,14 @@
    "Exoticca": "HTTP 429",
    "Archistar": "HTTP 429",
    "Prominence Advisors": "HTTP 429",
-   "Geomagical Labs": "HTTP 429",
-   "EQL Tech": "HTTP 429",
-   "Globaldev Group": "HTTP 429"
+   "Geomagical Labs": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 32,
   "searchesTotal": 51,
-  "callsToday": 135,
+  "callsToday": 45,
   "callsLast7Days": 275
  },
  "arbeitsagentur_sample": {
@@ -140,62 +141,58 @@
   }
  },
  "jooble_usage": {
-  "calls": 36
+  "calls": 37
  },
  "probe": {
-  "tried": 82,
+  "tried": 99,
   "found": [
-   "Coinscope (smartrecruiters:coinscope)",
+   "Impower GmbH (personio:impower)",
    "Isembard (ashby:isembard)",
-   "EQL Tech (workable:eqltech)",
-   "Firstup (lever:firstup)",
-   "BlueAlly (smartrecruiters:blueally)",
-   "Brandwatch (greenhouse:brandwatch)",
-   "Atmosera (lever:atmosera)",
+   "Empro (personio:empro)",
+   "Thumbtack (ashby:thumbtack)",
+   "Fuser (ashby:fuser)",
+   "Npv (ashby:npv)",
+   "Qorelo (ashby:qorelo)",
+   "Markt Pilot (lever:markt-pilot)",
    "Emergent Software (recruitee:emergentsoftware)",
-   "Swile (lever:swile)",
-   "NOCD (smartrecruiters:nocd)",
-   "proGroupX (smartrecruiters:progroupx)",
-   "Patch My PC (lever:patchmypc)",
-   "NXTKEY CORPORATION (smartrecruiters:nxtkeycorporation)",
-   "John Snow Labs (smartrecruiters:johnsnowlabs)",
-   "Workhint (smartrecruiters:workhint)",
-   "Unanet (greenhouse:unanet)",
-   "Globaldev Group (workable:globaldevgroup)"
+   "Swoop (ashby:swoop)",
+   "InfluxData (ashby:influxdata)",
+   "Teton (ashby:teton)",
+   "G2i Inc. (ashby:g2i)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 169
+  "ok": 198
  },
- "collectedAt": "2026-11-06T21:22:36+00:00",
- "rawJobs": 82009,
- "matches": 270,
- "new": 10,
- "companies": 1708,
- "activeCompanies": 1628,
+ "collectedAt": "2026-11-07T08:29:29+00:00",
+ "rawJobs": 81904,
+ "matches": 262,
+ "new": 26,
+ "companies": 1704,
+ "activeCompanies": 1624,
  "funnel": {
-  "title": 78741,
-  "company": 87,
-  "passed": 479,
-  "salary": 15,
-  "duplicate": 209,
-  "location": 2499,
+  "title": 78520,
+  "company": 112,
+  "passed": 502,
+  "salary": 13,
+  "duplicate": 240,
+  "location": 2568,
   "employment": 23,
-  "too_old": 158
+  "too_old": 159
  },
  "matchesBySource": {
-  "adzuna": 105,
-  "himalayas": 2,
+  "adzuna": 94,
+  "himalayas": 1,
+  "weworkremotely": 8,
   "jobicy": 4,
-  "ashby": 64,
+  "ashby": 66,
   "recruitee": 17,
-  "greenhouse": 14,
   "arbeitnow": 9,
-  "arbeitsagentur": 18,
+  "greenhouse": 15,
+  "arbeitsagentur": 19,
   "personio": 16,
   "hn": 7,
-  "weworkremotely": 8,
   "jooble": 1,
   "smartrecruiters": 2,
   "germantechjobs": 3
