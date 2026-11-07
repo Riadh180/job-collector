@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1514
+   "fetched": 1175
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 4735
+   "fetched": 5030
   },
   "remotive": {
    "fetched": 96
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 111
+   "fetched": 110
   },
   "hn": {
    "fetched": 258
@@ -31,7 +31,7 @@
    "fetched": 32
   },
   "germantechjobs": {
-   "fetched": 704
+   "fetched": 742
   },
   "jooble": {
    "fetched": 204
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1627,
-   "failed": 26
+   "checked": 1628,
+   "failed": 28
   }
  },
  "errors": {
@@ -57,6 +57,7 @@
    "Thorlabs": "HTTP 429",
    "Shieldai": "HTTP 404",
    "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
@@ -67,6 +68,7 @@
    "QuickTeam": "HTTP 429",
    "Creative Chaos": "HTTP 429",
    "HERO Software GmbH": "HTTP 429",
+   "Circonomit GmbH": "HTTP 429",
    "ReWorks Solutions": "HTTP 429",
    "Exoticca": "HTTP 429",
    "Archistar": "HTTP 429",
@@ -76,10 +78,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 28,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 320
+  "callsToday": 135,
+  "callsLast7Days": 365
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -142,44 +144,42 @@
   "calls": 37
  },
  "probe": {
-  "tried": 54,
+  "tried": 33,
   "found": [
-   "imc AG (greenhouse:imc)",
-   "Bounteous (lever:bounteous)",
-   "Chaos (recruitee:chaos)"
+   "Exa (ashby:exa)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 198
+  "ok": 200
  },
- "collectedAt": "2026-11-07T11:26:27+00:00",
- "rawJobs": 83931,
- "matches": 278,
- "new": 2,
- "companies": 1707,
- "activeCompanies": 1627,
+ "collectedAt": "2026-11-07T16:07:54+00:00",
+ "rawJobs": 83963,
+ "matches": 270,
+ "new": 0,
+ "companies": 1708,
+ "activeCompanies": 1628,
  "funnel": {
-  "title": 80385,
-  "passed": 623,
-  "duplicate": 345,
-  "company": 84,
-  "salary": 10,
-  "employment": 25,
-  "location": 2638,
+  "title": 80478,
+  "company": 85,
+  "passed": 545,
+  "salary": 12,
+  "location": 2654,
+  "duplicate": 275,
+  "employment": 23,
   "too_old": 159
  },
  "matchesBySource": {
-  "adzuna": 103,
   "jobicy": 5,
+  "adzuna": 94,
   "weworkremotely": 8,
-  "ashby": 64,
+  "ashby": 65,
   "recruitee": 17,
-  "arbeitnow": 20,
+  "arbeitnow": 18,
   "greenhouse": 15,
   "arbeitsagentur": 19,
+  "personio": 16,
   "hn": 7,
-  "personio": 14,
   "jooble": 1,
   "smartrecruiters": 2,
   "germantechjobs": 3
