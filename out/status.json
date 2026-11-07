@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1138
+   "fetched": 1514
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 3331
+   "fetched": 4735
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 178
+   "fetched": 184
   },
   "remoteok": {
    "fetched": 99
@@ -25,23 +25,23 @@
    "fetched": 111
   },
   "hn": {
-   "fetched": 259
+   "fetched": 258
   },
   "workingnomads": {
    "fetched": 32
   },
   "germantechjobs": {
-   "fetched": 696
+   "fetched": 704
   },
   "jooble": {
-   "fetched": 205
+   "fetched": 204
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1624,
-   "failed": 28
+   "checked": 1627,
+   "failed": 26
   }
  },
  "errors": {
@@ -56,7 +56,6 @@
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "Shieldai": "HTTP 404",
-   "Lamdax": "HTTP 429",
    "AJAIA": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
@@ -68,7 +67,6 @@
    "QuickTeam": "HTTP 429",
    "Creative Chaos": "HTTP 429",
    "HERO Software GmbH": "HTTP 429",
-   "Circonomit GmbH": "HTTP 429",
    "ReWorks Solutions": "HTTP 429",
    "Exoticca": "HTTP 429",
    "Archistar": "HTTP 429",
@@ -78,10 +76,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 32,
+  "searchesThisRun": 28,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 275
+  "callsToday": 90,
+  "callsLast7Days": 320
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -144,55 +142,44 @@
   "calls": 37
  },
  "probe": {
-  "tried": 99,
+  "tried": 54,
   "found": [
-   "Impower GmbH (personio:impower)",
-   "Isembard (ashby:isembard)",
-   "Empro (personio:empro)",
-   "Thumbtack (ashby:thumbtack)",
-   "Fuser (ashby:fuser)",
-   "Npv (ashby:npv)",
-   "Qorelo (ashby:qorelo)",
-   "Markt Pilot (lever:markt-pilot)",
-   "Emergent Software (recruitee:emergentsoftware)",
-   "Swoop (ashby:swoop)",
-   "InfluxData (ashby:influxdata)",
-   "Teton (ashby:teton)",
-   "G2i Inc. (ashby:g2i)"
+   "imc AG (greenhouse:imc)",
+   "Bounteous (lever:bounteous)",
+   "Chaos (recruitee:chaos)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
   "ok": 198
  },
- "collectedAt": "2026-11-07T08:29:29+00:00",
- "rawJobs": 81904,
- "matches": 262,
- "new": 26,
- "companies": 1704,
- "activeCompanies": 1624,
+ "collectedAt": "2026-11-07T11:26:27+00:00",
+ "rawJobs": 83931,
+ "matches": 278,
+ "new": 2,
+ "companies": 1707,
+ "activeCompanies": 1627,
  "funnel": {
-  "title": 78520,
-  "company": 112,
-  "passed": 502,
-  "salary": 13,
-  "duplicate": 240,
-  "location": 2568,
-  "employment": 23,
+  "title": 80385,
+  "passed": 623,
+  "duplicate": 345,
+  "company": 84,
+  "salary": 10,
+  "employment": 25,
+  "location": 2638,
   "too_old": 159
  },
  "matchesBySource": {
-  "adzuna": 94,
-  "himalayas": 1,
+  "adzuna": 103,
+  "jobicy": 5,
   "weworkremotely": 8,
-  "jobicy": 4,
-  "ashby": 66,
+  "ashby": 64,
   "recruitee": 17,
-  "arbeitnow": 9,
+  "arbeitnow": 20,
   "greenhouse": 15,
   "arbeitsagentur": 19,
-  "personio": 16,
   "hn": 7,
+  "personio": 14,
   "jooble": 1,
   "smartrecruiters": 2,
   "germantechjobs": 3
