@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1175
+   "fetched": 955
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 5030
+   "fetched": 3339
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 184
+   "fetched": 201
   },
   "remoteok": {
    "fetched": 99
@@ -22,66 +22,40 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 110
+   "fetched": 112
   },
   "hn": {
    "fetched": 258
   },
   "workingnomads": {
-   "fetched": 32
+   "fetched": 17
   },
   "germantechjobs": {
-   "fetched": 742
+   "fetched": 713
   },
   "jooble": {
-   "fetched": 204
+   "fetched": 206
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1628,
-   "failed": 28
+   "checked": 1632,
+   "failed": 2
   }
  },
  "errors": {
   "companies": {
    "Parloa": "HTTP 404",
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "Shieldai": "HTTP 404",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Advancing Eco Agriculture": "HTTP 429",
-   "Paperpile": "HTTP 429",
-   "Thanx": "HTTP 429",
-   "QuickTeam": "HTTP 429",
-   "Creative Chaos": "HTTP 429",
-   "HERO Software GmbH": "HTTP 429",
-   "Circonomit GmbH": "HTTP 429",
-   "ReWorks Solutions": "HTTP 429",
-   "Exoticca": "HTTP 429",
-   "Archistar": "HTTP 429",
-   "Prominence Advisors": "HTTP 429",
-   "Geomagical Labs": "HTTP 429"
+   "Shieldai": "HTTP 404"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 25,
+  "searchesThisRun": 14,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 365
+  "callsToday": 160,
+  "callsLast7Days": 390
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -141,47 +115,51 @@
   }
  },
  "jooble_usage": {
-  "calls": 37
+  "calls": 38
  },
  "probe": {
-  "tried": 33,
+  "tried": 30,
   "found": [
-   "Exa (ashby:exa)"
+   "Liqmatic (recruitee:liqmatic)",
+   "Ben Fatto (recruitee:benfatto)",
+   "Fi (lever:fi)",
+   "Acceldata (lever:acceldata)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 200
+  "ok": 199
  },
- "collectedAt": "2026-11-07T16:07:54+00:00",
- "rawJobs": 83963,
- "matches": 270,
- "new": 0,
- "companies": 1708,
- "activeCompanies": 1628,
+ "collectedAt": "2026-11-07T19:15:18+00:00",
+ "rawJobs": 83387,
+ "matches": 252,
+ "new": 2,
+ "companies": 1712,
+ "activeCompanies": 1632,
  "funnel": {
-  "title": 80478,
-  "company": 85,
-  "passed": 545,
-  "salary": 12,
-  "location": 2654,
-  "duplicate": 275,
-  "employment": 23,
+  "title": 79996,
+  "company": 61,
+  "passed": 502,
+  "duplicate": 250,
+  "salary": 5,
+  "employment": 25,
+  "location": 2632,
   "too_old": 159
  },
  "matchesBySource": {
-  "jobicy": 5,
-  "adzuna": 94,
+  "adzuna": 85,
+  "jobicy": 6,
   "weworkremotely": 8,
   "ashby": 65,
   "recruitee": 17,
-  "arbeitnow": 18,
+  "arbeitnow": 10,
   "greenhouse": 15,
   "arbeitsagentur": 19,
-  "personio": 16,
   "hn": 7,
+  "workable": 1,
+  "personio": 14,
   "jooble": 1,
   "smartrecruiters": 2,
-  "germantechjobs": 3
+  "germantechjobs": 2
  }
 }
