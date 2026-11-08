@@ -510,7 +510,8 @@
   "industry": "AI",
   "addedBy": "watchlist",
   "lastOk": "2026-11-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true
  },
  {
   "ats": "ashby",
@@ -4533,8 +4534,7 @@
   "ats": "lever",
   "slug": "azul",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-08",
-  "failCount": 1
+  "lastOk": "2026-11-08"
  },
  {
   "name": "Pure Storage",
@@ -6903,7 +6903,7 @@
   "slug": "naxcon",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Flexport",
@@ -7133,7 +7133,8 @@
   "ats": "recruitee",
   "slug": "devgrid",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-11-08"
+  "lastOk": "2026-11-08",
+  "failCount": 1
  },
  {
   "name": "Blackbird Collective",
@@ -8012,7 +8013,8 @@
   "ats": "recruitee",
   "slug": "ey",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-11-08"
+  "lastOk": "2026-11-08",
+  "failCount": 1
  },
  {
   "name": "Guidewheel",
@@ -10382,7 +10384,7 @@
   "slug": "searoutes",
   "addedBy": "probe 2026-10-22",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Voyant Photonics",
@@ -10529,7 +10531,7 @@
   "slug": "writesonic",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Getolo",
@@ -10538,7 +10540,7 @@
   "slug": "getolo",
   "addedBy": "probe 2026-10-23",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "EverAI",
@@ -10891,7 +10893,7 @@
   "slug": "moneyhub",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "TrustEngine",
@@ -10900,7 +10902,7 @@
   "slug": "trustengine",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "HireHawk",
@@ -10909,7 +10911,7 @@
   "slug": "hirehawk",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "DigitalService",
@@ -10950,7 +10952,7 @@
   "slug": "intertek",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Thorlabs",
@@ -10959,7 +10961,7 @@
   "slug": "thorlabs",
   "addedBy": "probe 2026-10-24",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "1Password",
@@ -11272,7 +11274,7 @@
   "slug": "ajaia",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Lamdax",
@@ -11281,7 +11283,7 @@
   "slug": "lamdax",
   "addedBy": "probe 2026-10-25",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Leadway Pensure",
@@ -11540,7 +11542,7 @@
   "slug": "anypear",
   "addedBy": "probe 2026-10-26",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Intuitive",
@@ -11645,7 +11647,7 @@
   "slug": "dentons-europe",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Distru",
@@ -11798,7 +11800,7 @@
   "slug": "cara-care",
   "addedBy": "probe 2026-10-27",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Wunder Mobility",
@@ -11919,7 +11921,7 @@
   "slug": "seeq",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Yassir",
@@ -12064,7 +12066,7 @@
   "slug": "shieldai",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Cagents",
@@ -12217,7 +12219,7 @@
   "slug": "thanx",
   "addedBy": "probe 2026-10-31",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Rohrer",
@@ -12330,7 +12332,7 @@
   "slug": "paperpile",
   "addedBy": "probe 2026-10-31",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Makersite GmbH",
@@ -12419,7 +12421,7 @@
   "slug": "c-the-signs",
   "addedBy": "probe 2026-10-31",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Harbor",
@@ -12596,7 +12598,7 @@
   "slug": "quickteam",
   "addedBy": "probe 2026-11-02",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "AnywhereNow",
@@ -12781,7 +12783,7 @@
   "slug": "creativechaos",
   "addedBy": "probe 2026-11-02",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Exit83",
@@ -13086,7 +13088,7 @@
   "slug": "hero-software",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Nomos",
@@ -13103,7 +13105,7 @@
   "slug": "circonomit",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Acture Germany",
@@ -13248,7 +13250,7 @@
   "slug": "reworkssolutions",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "WISE INTEGRATION",
@@ -13345,7 +13347,7 @@
   "slug": "exoticca",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Edpuzzle",
@@ -13370,7 +13372,7 @@
   "slug": "archistar",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Prominence Advisors",
@@ -13379,7 +13381,7 @@
   "slug": "prominence-advisors",
   "addedBy": "probe 2026-11-05",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Catapultsports",
@@ -13700,7 +13702,7 @@
   "slug": "geomagical-labs",
   "addedBy": "probe 2026-11-06",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Mayflower",
@@ -13788,7 +13790,7 @@
   "ats": "workable",
   "slug": "pavago",
   "addedBy": "probe 2026-11-08",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Hubject",
@@ -13941,7 +13943,7 @@
   "ats": "workable",
   "slug": "yugo",
   "addedBy": "probe 2026-11-08",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Grupo Obvio",
@@ -13957,7 +13959,7 @@
   "ats": "workable",
   "slug": "funnel-leasing",
   "addedBy": "probe 2026-11-08",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Scalepex",
@@ -13965,7 +13967,7 @@
   "ats": "workable",
   "slug": "scalepex",
   "addedBy": "probe 2026-11-08",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "True Environmental",
@@ -13981,13 +13983,61 @@
   "ats": "workable",
   "slug": "max-borges-agency",
   "addedBy": "probe 2026-11-08",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Acadia Pharmaceuticals Inc.",
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "acadiapharmaceuticals",
+  "addedBy": "probe 2026-11-08",
+  "lastOk": "2026-11-08"
+ },
+ {
+  "name": "TEHORA",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "tehora",
+  "addedBy": "probe 2026-11-08",
+  "failCount": 1
+ },
+ {
+  "name": "Flaconi",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "flaconi",
+  "addedBy": "probe 2026-11-08",
+  "lastOk": "2026-11-08"
+ },
+ {
+  "name": "Arch Capital Group Ltd.",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "archcapitalgroup",
+  "addedBy": "probe 2026-11-08",
+  "lastOk": "2026-11-08"
+ },
+ {
+  "name": "Albireo Energy",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "albireo-energy",
+  "addedBy": "probe 2026-11-08",
+  "failCount": 1
+ },
+ {
+  "name": "TokyoTechie",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "tokyotechie",
+  "addedBy": "probe 2026-11-08",
+  "lastOk": "2026-11-08"
+ },
+ {
+  "name": "Procivis AG",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "procivisag",
   "addedBy": "probe 2026-11-08",
   "lastOk": "2026-11-08"
  }

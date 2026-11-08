@@ -1,5 +1,75 @@
 {
- "collectedAt": "2026-11-08T16:31:32+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-11-08T19:19:31+00:00",
+ "count": 3,
+ "jobs": [
+  {
+   "id": "adzuna:5958334655",
+   "company": "Clera",
+   "title": "Senior Front-end Engineer",
+   "url": "https://www.adzuna.de/details/5958334655?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": null,
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Suche Erweiterte Suche Senior Front-end Engineer ❮ zurück zur letzten Suche Clera Munich, Bavaria Vollzeit NEU HOME-OFFICE Auf diesen Job bewerben About the Role Join an early-stage fintech team building an AI-powered platform for traders. | What We're Looking For 10 or more years of front-end engineering experience and strong software fundamentals. | Proficiency with React and TypeScript. | Compensation & Benefits Competitive salary and meaningful equity. | Specific compensation details are not provid",
+   "remoteProof": "Suche Erweiterte Suche Senior Front-end Engineer ❮ zurück zur letzten Suche Clera Munich, Bavaria Vollzeit NEU HOME-OFFICE Auf diesen Job bewerben About the Role Join an early-stage fintech team building an AI-powered platform for traders. | Location Remote, with the primary location in Munich, Bavaria, Germany. | The role is listed as remote; the role description notes that geography and remote policy are to be confirmed.",
+   "firstSeen": "2026-11-08T19:19:31+00:00"
+  },
+  {
+   "id": "adzuna:5958333599",
+   "company": "metergrid",
+   "title": "Fullstack Developer – Automation (m/w/d)",
+   "url": "https://www.adzuna.de/details/5958333599?utm_medium=api&utm_source=c19f1397",
+   "location": "Altona-Altstadt, Hamburg / Hamburg / Altona-Altstadt / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 306.0068825889184,
+   "kmFromEssen": 306,
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Fit & gesund: Mit unserem Urban Sports Club-Zuschuss trainierst Du deutschlandweit in tausenden Studios und Kursen, von Yoga bis Klettern. | Über uns metergrid ist ein innovatives Energie-Start-up, das seit 2021 mit Leidenschaft daran arbeitet, das 1,5-Grad-Klimaziel für 44 Millionen Bewohner von Mehrfamilienhäusern in Deutschland zu erreichen.",
+   "remoteProof": "Fit & gesund: Mit unserem Urban Sports Club-Zuschuss trainierst Du deutschlandweit in tausenden Studios und Kursen, von Yoga bis Klettern.",
+   "firstSeen": "2026-11-08T19:19:31+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/mi-aguila/jobs/frontend-developer",
+   "company": "Mi Águila",
+   "title": "FRONTEND DEVELOPER",
+   "url": "https://himalayas.app/companies/mi-aguila/jobs/frontend-developer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-11-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Team player with back-end developers, for a successful integration of their work is needed Requisitos Requirements What we expect from you 1-3 years of experience developing new user-oriented functionalities. | Ability to work with a distributed team of Spanish and English speaking employees. | Strong working ability in written Spanish and English, spoken preferred. | Although this is a remote location, we prefer that you are living in Latam countries so time difference does not affect the team synchrony. | An attractive compensation package Remote and global work culture; you can be anywhere in the world. | Opportunities to practice and improve Spanish and English while working with an inte",
+   "remoteProof": "Although this is a remote location, we prefer that you are living in Latam countries so time difference does not affect the team synchrony. | An attractive compensation package Remote and global work culture; you can be anywhere in the world. | Due to COVID-19, Mi Águila has decided to open the doors to remote-first and global culture permanently. | All our hiring processes are carried out virtually and we have legal and financial processes to hire and pay employees anywhere they want to work.",
+   "firstSeen": "2026-11-08T19:19:31+00:00"
+  }
+ ]
 }

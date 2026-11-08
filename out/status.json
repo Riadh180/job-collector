@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1048
+   "fetched": 944
   },
   "arbeitsagentur": {
    "fetched": 316
@@ -13,7 +13,7 @@
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 229
+   "fetched": 221
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 111
+   "fetched": 115
   },
   "hn": {
    "fetched": 258
@@ -34,21 +34,22 @@
    "fetched": 696
   },
   "jooble": {
-   "fetched": 107
+   "fetched": 179
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1641,
-   "failed": 35
+   "checked": 1647,
+   "failed": 38
   }
  },
  "errors": {
   "companies": {
    "Parloa": "HTTP 404",
-   "Azul": "HTTP 500",
    "NAXCON GmbH": "HTTP 404",
+   "DevGrid": "HTTP 404",
+   "EY": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
@@ -58,8 +59,8 @@
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "Shieldai": "HTTP 404",
-   "Lamdax": "HTTP 429",
    "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
@@ -80,15 +81,17 @@
    "Yugo": "HTTP 429",
    "Funnel Leasing": "HTTP 429",
    "Scalepex": "HTTP 429",
-   "Max Borges Agency": "HTTP 429"
+   "Max Borges Agency": "HTTP 429",
+   "TEHORA": "HTTP 429",
+   "Albireo Energy": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 25,
+  "searchesThisRun": 14,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 365
+  "callsToday": 160,
+  "callsLast7Days": 390
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -148,50 +151,51 @@
   }
  },
  "jooble_usage": {
-  "calls": 33
+  "calls": 37
  },
  "probe": {
-  "tried": 52,
+  "tried": 57,
   "found": [
-   "Grupo Obvio (smartrecruiters:grupoobvio)",
-   "Funnel Leasing (workable:funnel-leasing)",
-   "Scalepex (workable:scalepex)",
-   "True Environmental (lever:true-environmental)",
-   "Max Borges Agency (workable:max-borges-agency)",
-   "Acadia Pharmaceuticals Inc. (greenhouse:acadiapharmaceuticals)"
+   "TEHORA (workable:tehora)",
+   "Flaconi (greenhouse:flaconi)",
+   "Arch Capital Group Ltd. (smartrecruiters:archcapitalgroup)",
+   "Albireo Energy (workable:albireo-energy)",
+   "TokyoTechie (smartrecruiters:tokyotechie)",
+   "Procivis AG (recruitee:procivisag)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 199
+  "ok": 195
  },
- "collectedAt": "2026-11-08T16:31:32+00:00",
- "rawJobs": 82421,
- "matches": 259,
- "new": 0,
- "companies": 1721,
- "activeCompanies": 1641,
+ "collectedAt": "2026-11-08T19:19:31+00:00",
+ "rawJobs": 82432,
+ "matches": 258,
+ "new": 3,
+ "companies": 1727,
+ "activeCompanies": 1647,
  "funnel": {
-  "title": 79098,
-  "company": 80,
-  "passed": 545,
-  "salary": 12,
-  "duplicate": 286,
-  "location": 2494,
-  "employment": 22,
+  "title": 79113,
+  "company": 65,
+  "passed": 508,
+  "duplicate": 250,
+  "salary": 7,
+  "employment": 24,
+  "location": 2545,
   "too_old": 163
  },
  "matchesBySource": {
-  "adzuna": 88,
-  "jobicy": 8,
+  "adzuna": 87,
+  "himalayas": 1,
+  "jobicy": 7,
   "weworkremotely": 8,
-  "ashby": 60,
+  "ashby": 59,
   "recruitee": 17,
-  "arbeitnow": 16,
+  "arbeitnow": 19,
   "greenhouse": 15,
   "arbeitsagentur": 18,
-  "personio": 16,
   "hn": 7,
+  "personio": 14,
   "jooble": 1,
   "smartrecruiters": 2,
   "germantechjobs": 3
