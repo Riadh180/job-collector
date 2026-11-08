@@ -1,16 +1,16 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1044
+   "fetched": 1517
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 3311
+   "fetched": 3312
   },
   "remotive": {
-   "fetched": 96
+   "fetched": 104
   },
   "jobicy": {
    "fetched": 226
@@ -31,7 +31,7 @@
    "fetched": 17
   },
   "germantechjobs": {
-   "fetched": 668
+   "fetched": 703
   },
   "jooble": {
    "fetched": 100
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1629,
-   "failed": 30
+   "checked": 1635,
+   "failed": 31
   }
  },
  "errors": {
@@ -54,11 +54,11 @@
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
+   "Intertek": "HTTP 429",
    "Shieldai": "HTTP 404",
-   "AJAIA": "HTTP 429",
    "Lamdax": "HTTP 429",
+   "AJAIA": "HTTP 429",
    "Anypear": "HTTP 429",
    "Dentons Europe": "HTTP 429",
    "Cara Care": "HTTP 429",
@@ -72,18 +72,19 @@
    "Circonomit GmbH": "HTTP 429",
    "ReWorks Solutions": "HTTP 429",
    "Exoticca": "HTTP 429",
-   "Archistar": "HTTP 429",
    "Prominence Advisors": "HTTP 429",
+   "Archistar": "HTTP 429",
    "Geomagical Labs": "HTTP 429",
-   "Pavago": "HTTP 429"
+   "Pavago": "HTTP 429",
+   "Yugo": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 275
+  "callsToday": 90,
+  "callsLast7Days": 320
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -146,59 +147,47 @@
   "calls": 33
  },
  "probe": {
-  "tried": 120,
+  "tried": 49,
   "found": [
-   "Impower GmbH (personio:impower)",
-   "TELUS Digital (ashby:telus-digital)",
-   "Empro (personio:empro)",
-   "Isembard (ashby:isembard)",
-   "Pavago (workable:pavago)",
-   "Hubject (personio:hubject-gmbh)",
-   "Plukon Food Group Germany (recruitee:plukonfoodgroupgermany)",
-   "FireMon (lever:firemon)",
-   "Legora (ashby:legora)",
-   "Adapty.io (ashby:adapty-io)",
-   "Ralph (ashby:ralph)",
-   "DocCheck AG (recruitee:doccheckag)",
-   "Npv (ashby:npv)",
-   "Qorelo (ashby:qorelo)",
-   "Markt Pilot (lever:markt-pilot)",
-   "Wipjobs (smartrecruiters:wipjobs)",
-   "Ciroos (ashby:ciroos)",
-   "MCA Connect (lever:mcaconnect)"
+   "Believe (smartrecruiters:believe)",
+   "Liqmatic (recruitee:liqmatic)",
+   "imc AG (greenhouse:imc)",
+   "Exa (ashby:exa)",
+   "HYGH (smartrecruiters:hyghag)",
+   "Yugo (workable:yugo)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 198
+  "ok": 197
  },
- "collectedAt": "2026-11-08T10:16:38+00:00",
- "rawJobs": 82018,
- "matches": 258,
- "new": 29,
- "companies": 1709,
- "activeCompanies": 1629,
+ "collectedAt": "2026-11-08T11:38:23+00:00",
+ "rawJobs": 82808,
+ "matches": 267,
+ "new": 1,
+ "companies": 1715,
+ "activeCompanies": 1635,
  "funnel": {
-  "title": 78720,
-  "company": 81,
-  "passed": 545,
-  "salary": 12,
-  "duplicate": 287,
-  "location": 2468,
-  "employment": 23,
-  "too_old": 162
+  "title": 79387,
+  "company": 100,
+  "passed": 635,
+  "duplicate": 368,
+  "salary": 8,
+  "employment": 25,
+  "location": 2483,
+  "too_old": 163
  },
  "matchesBySource": {
-  "adzuna": 87,
+  "adzuna": 99,
   "jobicy": 8,
   "weworkremotely": 8,
-  "ashby": 60,
+  "ashby": 59,
   "recruitee": 17,
   "arbeitnow": 16,
   "greenhouse": 15,
   "arbeitsagentur": 18,
-  "personio": 16,
   "hn": 7,
+  "personio": 14,
   "jooble": 1,
   "smartrecruiters": 2,
   "germantechjobs": 3
