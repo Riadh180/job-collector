@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1517
+   "fetched": 1048
   },
   "arbeitsagentur": {
    "fetched": 316
   },
   "arbeitnow": {
-   "fetched": 3312
+   "fetched": 3339
   },
   "remotive": {
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 226
+   "fetched": 229
   },
   "remoteok": {
    "fetched": 99
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 112
+   "fetched": 111
   },
   "hn": {
    "fetched": 258
@@ -31,22 +31,23 @@
    "fetched": 17
   },
   "germantechjobs": {
-   "fetched": 703
+   "fetched": 696
   },
   "jooble": {
-   "fetched": 100
+   "fetched": 107
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1635,
-   "failed": 31
+   "checked": 1641,
+   "failed": 35
   }
  },
  "errors": {
   "companies": {
    "Parloa": "HTTP 404",
+   "Azul": "HTTP 500",
    "NAXCON GmbH": "HTTP 404",
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
@@ -54,8 +55,8 @@
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Thorlabs": "HTTP 429",
    "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
    "Shieldai": "HTTP 404",
    "Lamdax": "HTTP 429",
    "AJAIA": "HTTP 429",
@@ -72,19 +73,22 @@
    "Circonomit GmbH": "HTTP 429",
    "ReWorks Solutions": "HTTP 429",
    "Exoticca": "HTTP 429",
-   "Prominence Advisors": "HTTP 429",
    "Archistar": "HTTP 429",
+   "Prominence Advisors": "HTTP 429",
    "Geomagical Labs": "HTTP 429",
    "Pavago": "HTTP 429",
-   "Yugo": "HTTP 429"
+   "Yugo": "HTTP 429",
+   "Funnel Leasing": "HTTP 429",
+   "Scalepex": "HTTP 429",
+   "Max Borges Agency": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 320
+  "callsToday": 135,
+  "callsLast7Days": 365
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -147,47 +151,47 @@
   "calls": 33
  },
  "probe": {
-  "tried": 49,
+  "tried": 52,
   "found": [
-   "Believe (smartrecruiters:believe)",
-   "Liqmatic (recruitee:liqmatic)",
-   "imc AG (greenhouse:imc)",
-   "Exa (ashby:exa)",
-   "HYGH (smartrecruiters:hyghag)",
-   "Yugo (workable:yugo)"
+   "Grupo Obvio (smartrecruiters:grupoobvio)",
+   "Funnel Leasing (workable:funnel-leasing)",
+   "Scalepex (workable:scalepex)",
+   "True Environmental (lever:true-environmental)",
+   "Max Borges Agency (workable:max-borges-agency)",
+   "Acadia Pharmaceuticals Inc. (greenhouse:acadiapharmaceuticals)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 197
+  "ok": 199
  },
- "collectedAt": "2026-11-08T11:38:23+00:00",
- "rawJobs": 82808,
- "matches": 267,
- "new": 1,
- "companies": 1715,
- "activeCompanies": 1635,
+ "collectedAt": "2026-11-08T16:31:32+00:00",
+ "rawJobs": 82421,
+ "matches": 259,
+ "new": 0,
+ "companies": 1721,
+ "activeCompanies": 1641,
  "funnel": {
-  "title": 79387,
-  "company": 100,
-  "passed": 635,
-  "duplicate": 368,
-  "salary": 8,
-  "employment": 25,
-  "location": 2483,
+  "title": 79098,
+  "company": 80,
+  "passed": 545,
+  "salary": 12,
+  "duplicate": 286,
+  "location": 2494,
+  "employment": 22,
   "too_old": 163
  },
  "matchesBySource": {
-  "adzuna": 99,
+  "adzuna": 88,
   "jobicy": 8,
   "weworkremotely": 8,
-  "ashby": 59,
+  "ashby": 60,
   "recruitee": 17,
   "arbeitnow": 16,
   "greenhouse": 15,
   "arbeitsagentur": 18,
+  "personio": 16,
   "hn": 7,
-  "personio": 14,
   "jooble": 1,
   "smartrecruiters": 2,
   "germantechjobs": 3
