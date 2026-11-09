@@ -510,7 +510,7 @@
   "industry": "AI",
   "addedBy": "watchlist",
   "lastOk": "2026-11-06",
-  "failCount": 3
+  "failCount": 2
  },
  {
   "ats": "ashby",
@@ -6902,7 +6902,7 @@
   "slug": "naxcon",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-11-06",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Flexport",
@@ -7133,7 +7133,7 @@
   "slug": "devgrid",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-11-06",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Blackbird Collective",
@@ -8013,7 +8013,7 @@
   "slug": "ey",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-11-06",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Guidewheel",
@@ -12051,7 +12051,7 @@
   "slug": "shieldai",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-06",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Cagents",
@@ -13742,14 +13742,6 @@
   "lastOk": "2026-11-09"
  },
  {
-  "name": "Exa",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "exa",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
   "name": "Isembard",
   "industry": "from job boards",
   "ats": "ashby",
@@ -13758,18 +13750,18 @@
   "lastOk": "2026-11-09"
  },
  {
-  "name": "Hire Overseas",
-  "industry": "from job boards",
-  "ats": "workable",
-  "slug": "hire-overseas",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
   "name": "Empro",
   "industry": "from job boards",
   "ats": "personio",
   "slug": "empro",
+  "addedBy": "probe 2026-11-09",
+  "lastOk": "2026-11-09"
+ },
+ {
+  "name": "Exa",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "exa",
   "addedBy": "probe 2026-11-09",
   "lastOk": "2026-11-09"
  },
@@ -13784,8 +13776,8 @@
  {
   "name": "HYGH",
   "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "hyghag",
+  "ats": "personio",
+  "slug": "hygh",
   "addedBy": "probe 2026-11-09",
   "lastOk": "2026-11-09"
  },
@@ -13806,34 +13798,10 @@
   "lastOk": "2026-11-09"
  },
  {
-  "name": "DocCheck AG",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "doccheckag",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
   "name": "Legora",
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "legora",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Adapty.io",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "adapty-io",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Ralph",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "ralph",
   "addedBy": "probe 2026-11-09",
   "lastOk": "2026-11-09"
  },
@@ -13859,54 +13827,6 @@
   "ats": "lever",
   "slug": "markt-pilot",
   "eu": true,
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Reevolt",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "reevolt",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Onodrim Industries",
-  "industry": "from job boards",
-  "ats": "workable",
-  "slug": "onodrim-industries",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Liqmatic",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "liqmatic",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Data Concepts",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "dataconcepts",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "ethdevs.io",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "ethdevsio",
-  "addedBy": "probe 2026-11-09",
-  "lastOk": "2026-11-09"
- },
- {
-  "name": "Relae",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "relae",
   "addedBy": "probe 2026-11-09",
   "lastOk": "2026-11-09"
  }

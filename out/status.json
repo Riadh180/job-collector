@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1578
+   "fetched": 1063
   },
   "arbeitsagentur": {
    "fetched": 315
   },
   "arbeitnow": {
-   "fetched": 5205
+   "fetched": 3343
   },
   "remotive": {
    "fetched": 96
   },
   "jobicy": {
-   "fetched": 234
+   "fetched": 230
   },
   "remoteok": {
    "fetched": 99
@@ -22,25 +22,25 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 114
+   "fetched": 115
   },
   "hn": {
    "fetched": 260
   },
   "workingnomads": {
-   "fetched": 20
+   "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 712
+   "fetched": 694
   },
   "jooble": {
-   "fetched": 108
+   "fetched": 135
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1634,
+   "checked": 1624,
    "failed": 5
   }
  },
@@ -55,10 +55,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 320
+  "callsToday": 45,
+  "callsLast7Days": 275
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -106,65 +106,73 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=300, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=298, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
   "jobs": 315,
   "details": {
-   "tried": 107,
-   "ok": 107
+   "tried": 106,
+   "ok": 106
   }
  },
  "jooble_usage": {
   "calls": 33
  },
  "probe": {
-  "tried": 93,
+  "tried": 120,
   "found": [
-   "Onodrim Industries (workable:onodrim-industries)",
-   "Liqmatic (recruitee:liqmatic)",
-   "Data Concepts (smartrecruiters:dataconcepts)",
-   "ethdevs.io (smartrecruiters:ethdevsio)",
-   "Relae (greenhouse:relae)"
+   "WetterOnline (recruitee:wetteronline)",
+   "Impower GmbH (personio:impower)",
+   "Isembard (ashby:isembard)",
+   "Empro (personio:empro)",
+   "Exa (ashby:exa)",
+   "Flaconi (greenhouse:flaconi)",
+   "HYGH (personio:hygh)",
+   "Soley (personio:soley-gmbh)",
+   "Plukon Food Group Germany (recruitee:plukonfoodgroupgermany)",
+   "Legora (ashby:legora)",
+   "Npv (ashby:npv)",
+   "Qorelo (ashby:qorelo)",
+   "Markt Pilot (lever:markt-pilot)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
   "ok": 197
  },
- "collectedAt": "2026-11-09T13:32:13+00:00",
- "rawJobs": 86429,
- "matches": 292,
- "new": 5,
- "companies": 1714,
- "activeCompanies": 1634,
+ "collectedAt": "2026-11-09T15:22:40+00:00",
+ "rawJobs": 83309,
+ "matches": 268,
+ "new": 50,
+ "companies": 1704,
+ "activeCompanies": 1624,
  "funnel": {
-  "title": 82811,
-  "company": 98,
-  "passed": 681,
-  "duplicate": 389,
-  "salary": 6,
-  "employment": 31,
-  "location": 2631,
+  "title": 79856,
+  "company": 77,
+  "passed": 583,
+  "salary": 11,
+  "duplicate": 315,
+  "location": 2583,
+  "employment": 28,
   "too_old": 164
  },
  "matchesBySource": {
-  "adzuna": 115,
-  "arbeitsagentur": 18,
+  "adzuna": 98,
+  "arbeitsagentur": 17,
+  "arbeitnow": 11,
   "jobicy": 9,
   "himalayas": 3,
   "weworkremotely": 7,
-  "recruitee": 18,
-  "ashby": 56,
-  "arbeitnow": 25,
+  "ashby": 61,
+  "recruitee": 19,
+  "workable": 2,
   "greenhouse": 13,
   "personio": 15,
   "hn": 7,
-  "workable": 1,
   "jooble": 1,
-  "smartrecruiters": 2,
-  "germantechjobs": 2
+  "germantechjobs": 3,
+  "smartrecruiters": 2
  }
 }
