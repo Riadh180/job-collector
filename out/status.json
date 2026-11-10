@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1124
+   "fetched": 1592
   },
   "arbeitsagentur": {
    "fetched": 312
   },
   "arbeitnow": {
-   "fetched": 3349
+   "fetched": 3336
   },
   "remotive": {
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 262
+   "fetched": 259
   },
   "remoteok": {
    "fetched": 99
@@ -31,33 +31,59 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 641
+   "fetched": 646
   },
   "jooble": {
-   "fetched": 92
+   "fetched": 116
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
    "checked": 1654,
-   "failed": 4
+   "failed": 30
   }
  },
  "errors": {
   "companies": {
-   "NAXCON GmbH": "HTTP 404",
-   "DevGrid": "HTTP 404",
-   "EY": "HTTP 404",
-   "Shieldai": "HTTP 404"
+   "Searoutes": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
+   "Paperpile": "HTTP 429",
+   "Thanx": "HTTP 429",
+   "QuickTeam": "HTTP 429",
+   "Creative Chaos": "HTTP 429",
+   "HERO Software GmbH": "HTTP 429",
+   "Circonomit GmbH": "HTTP 429",
+   "ReWorks Solutions": "HTTP 429",
+   "Exoticca": "HTTP 429",
+   "Prominence Advisors": "HTTP 429",
+   "Archistar": "HTTP 429",
+   "Geomagical Labs": "HTTP 429",
+   "Runware": "HTTP 429",
+   "Portless": "HTTP 429",
+   "Awesome Motive": "HTTP 429",
+   "robusta": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 34,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 455
+  "callsToday": 135,
+  "callsLast7Days": 500
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -117,56 +143,51 @@
   }
  },
  "jooble_usage": {
-  "calls": 32
+  "calls": 34
  },
  "probe": {
-  "tried": 19,
+  "tried": 37,
   "found": [
-   "Awesome Motive (workable:awesomemotive)",
-   "Tulip (greenhouse:tulip)",
-   "Merge (ashby:merge)",
-   "Plaid (ashby:plaid)",
-   "DemoUp Cliplister (recruitee:demoupcliplister)",
-   "Omegga (ashby:omegga)",
-   "Miaplaza (recruitee:miaplaza)",
-   "robusta (workable:robusta)"
+   "Webbing (greenhouse:webbing)",
+   "Mitratech (greenhouse:mitratech)",
+   "DOTSOFT SA (smartrecruiters:dotsoftsa)",
+   "ChargePoint (greenhouse:chargepoint)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 165
+  "ok": 168
  },
- "collectedAt": "2026-11-10T17:31:30+00:00",
- "rawJobs": 84603,
- "matches": 237,
- "new": 0,
- "companies": 1735,
+ "collectedAt": "2026-11-10T21:11:50+00:00",
+ "rawJobs": 83721,
+ "matches": 253,
+ "new": 3,
+ "companies": 1739,
  "activeCompanies": 1654,
  "funnel": {
-  "title": 81192,
-  "company": 97,
-  "passed": 537,
-  "duplicate": 300,
-  "salary": 13,
-  "location": 2560,
-  "too_old": 169,
-  "employment": 28
+  "title": 80338,
+  "passed": 557,
+  "duplicate": 304,
+  "company": 107,
+  "location": 2508,
+  "employment": 29,
+  "salary": 8,
+  "too_old": 167
  },
  "matchesBySource": {
-  "adzuna": 77,
+  "adzuna": 93,
+  "ashby": 55,
+  "greenhouse": 12,
   "jobicy": 10,
-  "ashby": 54,
   "lever": 1,
   "arbeitnow": 12,
-  "arbeitsagentur": 15,
+  "arbeitsagentur": 16,
   "weworkremotely": 7,
   "recruitee": 19,
   "hn": 8,
-  "greenhouse": 12,
-  "workable": 2,
   "personio": 15,
   "jooble": 1,
-  "germantechjobs": 2,
-  "smartrecruiters": 2
+  "smartrecruiters": 2,
+  "germantechjobs": 2
  }
 }

@@ -1,5 +1,74 @@
 {
- "collectedAt": "2026-11-10T17:31:30+00:00",
- "count": 0,
- "jobs": []
+ "collectedAt": "2026-11-10T21:11:50+00:00",
+ "count": 3,
+ "jobs": [
+  {
+   "id": "adzuna:5960577247",
+   "company": "EnOcean",
+   "title": "(Senior) AI & Data Science Engineer (m/f/d)",
+   "url": "https://www.adzuna.de/details/5960577247?utm_medium=api&utm_source=c19f1397",
+   "location": "Au-Haidhausen, München / Bayern / München (Kreis) / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 494.37437729651003,
+   "kmFromEssen": 494,
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Our platforms combine large-scale data processing with AI-enabled analytics and automation to deliver reliable, customer-centric soluti… typescript",
+   "remoteProof": "",
+   "firstSeen": "2026-11-10T21:11:50+00:00"
+  },
+  {
+   "id": "ashby:supabase:0055f731-cffa-4c74-9c00-8abfa579873d",
+   "company": "Supabase",
+   "title": "Software Engineer - AI Tooling",
+   "url": "https://jobs.ashbyhq.com/supabase/0055f731-cffa-4c74-9c00-8abfa579873d",
+   "location": "Remote, Global",
+   "remote": true,
+   "postedAt": "2026-11-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "devtools",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "- Design how documentation and product knowledge are exposed to agents, and measure whether it works. | - Have 5+ years of experience in professional software engineering experience. | - Write strong TypeScript and know the JavaScript ecosystem well: npm, ES modules, bundlers, compatibility. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | Supabase was born-remote and open-source-first.",
+   "remoteProof": "- Fully Remote | We believe you can do your best work from anywhere. | There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world. | Supabase was born-remote and open-source-first.",
+   "firstSeen": "2026-11-10T21:11:50+00:00"
+  },
+  {
+   "id": "greenhouse:brave:8374405",
+   "company": "Brave",
+   "title": "Web3 Core Engineer",
+   "url": "https://job-boards.greenhouse.io/brave/jobs/8374405",
+   "location": "Remote",
+   "remote": null,
+   "postedAt": "2026-11-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Web3 Core Engineer Remote About Brave Brave is on a mission to protect the human right to privacy online. | Requirements 5+ years experience with application development. | Some JavaScript / TypeScript development skills are a plus. | Written and verbal communication skills in English.",
+   "remoteProof": "Web3 Core Engineer Remote About Brave Brave is on a mission to protect the human right to privacy online.",
+   "firstSeen": "2026-11-10T21:11:50+00:00"
+  }
+ ]
 }
