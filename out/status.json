@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1077
+   "fetched": 1012
   },
   "arbeitsagentur": {
    "fetched": 313
   },
   "arbeitnow": {
-   "fetched": 3341
+   "fetched": 3370
   },
   "remotive": {
    "fetched": 104
   },
   "jobicy": {
-   "fetched": 273
+   "fetched": 289
   },
   "remoteok": {
    "fetched": 99
@@ -25,34 +25,41 @@
    "fetched": 120
   },
   "hn": {
-   "fetched": 265
+   "fetched": 266
   },
   "workingnomads": {
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 680
+   "fetched": 656
   },
   "jooble": {
-   "fetched": 181
+   "fetched": 182
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1671,
-   "failed": 0
+   "checked": 1682,
+   "failed": 6
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429"
+  }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 25,
+  "searchesThisRun": 14,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 635
+  "callsToday": 160,
+  "callsLast7Days": 660
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -115,56 +122,57 @@
   "calls": 37
  },
  "probe": {
-  "tried": 76,
+  "tried": 74,
   "found": [
-   "AraCom (personio:aracom)",
-   "Animore (workable:animore)",
-   "Devsu (workable:devsu)",
-   "bettermarks (personio:bettermarks)",
-   "CXG (workable:cxg)",
-   "CaptivateIQ (lever:captivateiq)",
-   "Ping Identity (greenhouse:pingidentity)",
-   "Lodgify (lever:lodgify)",
-   "Bosch Group (smartrecruiters:boschgroup)",
-   "Be | Shaping the Future (personio:be-shaping-the-future)"
+   "Reedsy (ashby:reedsy)",
+   "MAI Group (personio:mai-group)",
+   "SPREAD GmbH (personio:spread-gmbh)",
+   "proalphagroup (greenhouse:proalphagroup)",
+   "Teamwork Corporate (smartrecruiters:teamworkcorporate)",
+   "The Intect (smartrecruiters:theintect)",
+   "Syngenta Group (smartrecruiters:syngentagroup)",
+   "Vega (ashby:vega)",
+   "Nasuni (greenhouse:nasuni)",
+   "PDI Technologies (lever:pditechnologies)",
+   "Artefact (greenhouse:artefact)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 178
+  "tried": 191,
+  "ok": 176
  },
- "collectedAt": "2026-11-11T17:44:03+00:00",
- "rawJobs": 87257,
- "matches": 237,
+ "collectedAt": "2026-11-11T21:43:36+00:00",
+ "rawJobs": 87504,
+ "matches": 239,
  "new": 11,
- "companies": 1756,
- "activeCompanies": 1671,
+ "companies": 1767,
+ "activeCompanies": 1682,
  "funnel": {
-  "title": 83785,
-  "company": 93,
-  "passed": 516,
-  "duplicate": 279,
-  "salary": 20,
-  "location": 2639,
-  "too_old": 169,
-  "employment": 28
+  "title": 84100,
+  "company": 76,
+  "employment": 30,
+  "passed": 470,
+  "duplicate": 231,
+  "location": 2642,
+  "salary": 9,
+  "too_old": 170
  },
  "matchesBySource": {
-  "adzuna": 76,
-  "himalayas": 3,
+  "adzuna": 73,
+  "jobicy": 11,
+  "himalayas": 4,
+  "smartrecruiters": 3,
   "greenhouse": 15,
   "arbeitsagentur": 17,
-  "arbeitnow": 12,
-  "smartrecruiters": 3,
-  "ashby": 49,
-  "jobicy": 9,
+  "arbeitnow": 11,
+  "ashby": 50,
   "lever": 1,
   "weworkremotely": 7,
   "recruitee": 18,
-  "hn": 7,
+  "hn": 8,
   "personio": 15,
   "workable": 2,
   "jooble": 1,
-  "germantechjobs": 2
+  "germantechjobs": 3
  }
 }
