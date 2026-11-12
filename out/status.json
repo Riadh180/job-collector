@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1056
+   "fetched": 1093
   },
   "arbeitsagentur": {
    "fetched": 310
   },
   "arbeitnow": {
-   "fetched": 3377
+   "fetched": 3378
   },
   "remotive": {
    "fetched": 112
@@ -31,7 +31,7 @@
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 624
+   "fetched": 653
   },
   "jooble": {
    "fetched": 164
@@ -40,44 +40,13 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1698,
-   "failed": 32
+   "checked": 1677,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "HireHawk": "HTTP 429",
-   "Intertek": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Advancing Eco Agriculture": "HTTP 429",
-   "Paperpile": "HTTP 429",
-   "Thanx": "HTTP 429",
-   "QuickTeam": "HTTP 429",
-   "Creative Chaos": "HTTP 429",
-   "HERO Software GmbH": "HTTP 429",
-   "Circonomit GmbH": "HTTP 429",
-   "ReWorks Solutions": "HTTP 429",
-   "Exoticca": "HTTP 429",
-   "Archistar": "HTTP 429",
-   "Prominence Advisors": "HTTP 429",
-   "Geomagical Labs": "HTTP 429",
-   "Runware": "HTTP 429",
-   "Portless": "HTTP 429",
-   "Awesome Motive": "HTTP 429",
-   "robusta": "HTTP 429",
-   "Animore": "HTTP 429",
-   "Devsu": "HTTP 429",
-   "CXG": "HTTP 429"
+   "Instrument": "HTTP 502"
   }
  },
  "adzuna_usage": {
@@ -85,7 +54,7 @@
   "searchesThisRun": 34,
   "searchesTotal": 51,
   "callsToday": 45,
-  "callsLast7Days": 565
+  "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -148,61 +117,69 @@
   "calls": 36
  },
  "probe": {
-  "tried": 115,
+  "tried": 120,
   "found": [
-   "Accso – Accelerated Solutions GmbH (recruitee:accsoacceleratedsolutionsgmbh)",
+   "Reedsy (ashby:reedsy)",
+   "AraCom (personio:aracom)",
+   "Spaceteams GmbH (personio:spaceteams)",
+   "Animore (workable:animore)",
+   "Rematiq (ashby:rematiq-gmbh)",
+   "Causa Prima (ashby:causaprima)",
    "Nivoda (ashby:nivoda)",
+   "The Intect (smartrecruiters:theintect)",
    "Vinci (ashby:vinci)",
+   "MAI Group (personio:mai-group)",
+   "bettermarks (personio:bettermarks)",
+   "Ray Sono GmbH (personio:raysono)",
    "Everfield (ashby:everfield)",
    "Dandy (ashby:dandy)",
    "Mondoo (ashby:mondoo)",
-   "SGB-SMIT Group (recruitee:sgbsmitgroup)",
    "Loftorbital (lever:loftorbital)",
+   "SGB-SMIT Group (recruitee:sgbsmitgroup)",
    "Vestiairecollective (lever:vestiairecollective)",
    "Zip (ashby:zip)",
    "Zeit Ai (ashby:zeit-ai)",
+   "proalphagroup (greenhouse:proalphagroup)",
    "LOGEX (recruitee:logex)",
-   "Natuvion (recruitee:natuvion)",
-   "Ohme (greenhouse:ohme)",
-   "Woodard Curran (lever:woodardcurran)",
-   "Adlook (lever:adlook)"
+   "Natuvion (recruitee:natuvion)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 195
+  "ok": 194
  },
- "collectedAt": "2026-11-12T13:29:05+00:00",
- "rawJobs": 85696,
- "matches": 246,
- "new": 10,
- "companies": 1783,
- "activeCompanies": 1698,
+ "collectedAt": "2026-11-12T14:25:19+00:00",
+ "rawJobs": 85457,
+ "matches": 250,
+ "new": 34,
+ "companies": 1762,
+ "activeCompanies": 1677,
  "funnel": {
-  "title": 82211,
   "passed": 577,
-  "company": 117,
-  "duplicate": 331,
-  "location": 2574,
+  "duplicate": 327,
+  "title": 81927,
+  "company": 125,
   "salary": 11,
+  "location": 2610,
   "employment": 31,
-  "too_old": 168
+  "too_old": 169
  },
  "matchesBySource": {
-  "adzuna": 87,
+  "adzuna": 90,
   "arbeitsagentur": 15,
+  "arbeitnow": 7,
+  "jobicy": 13,
   "himalayas": 1,
   "greenhouse": 16,
-  "ashby": 49,
-  "jobicy": 13,
-  "smartrecruiters": 3,
-  "arbeitnow": 11,
+  "ashby": 53,
   "lever": 1,
   "weworkremotely": 7,
   "recruitee": 18,
   "hn": 8,
   "personio": 15,
+  "workable": 2,
   "jooble": 1,
-  "germantechjobs": 1
+  "germantechjobs": 1,
+  "smartrecruiters": 2
  }
 }
