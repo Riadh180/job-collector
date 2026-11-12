@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1076
+   "fetched": 1592
   },
   "arbeitsagentur": {
    "fetched": 311
   },
   "arbeitnow": {
-   "fetched": 3750
+   "fetched": 3373
   },
   "remotive": {
    "fetched": 112
@@ -19,19 +19,19 @@
    "fetched": 98
   },
   "himalayas": {
-   "fetched": 800
+   "fetched": 1000
   },
   "weworkremotely": {
    "fetched": 125
   },
   "hn": {
-   "fetched": 268
+   "fetched": 269
   },
   "workingnomads": {
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 622
+   "fetched": 602
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1678,
+   "checked": 1690,
    "failed": 0
   }
  },
@@ -49,10 +49,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 405
+  "callsToday": 90,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -112,62 +112,50 @@
   }
  },
  "probe": {
-  "tried": 120,
+  "tried": 100,
   "found": [
-   "Reedsy (ashby:reedsy)",
-   "AraCom (personio:aracom)",
-   "Spaceteams GmbH (personio:spaceteams)",
-   "Animore (workable:animore)",
-   "Proalpha Group (greenhouse:proalphagroup)",
-   "Causa Prima (ashby:causaprima)",
-   "Nivoda (ashby:nivoda)",
-   "GudangAda (smartrecruiters:gudangada)",
-   "Luminovo (ashby:luminovo)",
-   "Rematiq (ashby:rematiq-gmbh)",
-   "Vinci (ashby:vinci)",
-   "Vestiaire Collective (lever:vestiairecollective)",
-   "MAI Group (personio:mai-group)",
-   "Ray Sono GmbH (personio:raysono)",
-   "Loftorbital (lever:loftorbital)",
-   "Everfield (ashby:everfield)",
-   "Dandy (ashby:dandy)",
-   "Mondoo (ashby:mondoo)",
-   "SGB-SMIT Group (recruitee:sgbsmitgroup)",
-   "Vestiairecollective (lever:vestiairecollective)",
-   "Zip (ashby:zip)",
-   "Zeit Ai (ashby:zeit-ai)",
-   "proalphagroup (greenhouse:proalphagroup)",
-   "LOGEX (recruitee:logex)"
+   "SPREAD GmbH (personio:spread-gmbh)",
+   "Alternative Payments (ashby:alternativepayments)",
+   "qwitto (personio:qwitto-gmbh)",
+   "The Mill Adventure (workable:the-mill-adventure)",
+   "WEFRA LIFE GmbH (personio:wefralife)",
+   "Appunite (recruitee:appunite)",
+   "Interlead (personio:interlead)",
+   "Protective (lever:protective)",
+   "Neuron7 (lever:neuron7)",
+   "Parallel Wireless (lever:parallelwireless)",
+   "Foodsmart (lever:foodsmart)",
+   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
   "ok": 194
  },
- "collectedAt": "2026-11-12T20:33:41+00:00",
- "rawJobs": 85468,
- "matches": 253,
- "new": 39,
- "companies": 1763,
- "activeCompanies": 1678,
+ "collectedAt": "2026-11-12T21:43:19+00:00",
+ "rawJobs": 86026,
+ "matches": 262,
+ "new": 9,
+ "companies": 1775,
+ "activeCompanies": 1690,
  "funnel": {
-  "title": 82012,
-  "passed": 587,
-  "duplicate": 334,
-  "company": 117,
-  "salary": 11,
-  "location": 2534,
-  "employment": 31,
+  "title": 82512,
+  "company": 139,
+  "passed": 600,
+  "employment": 34,
+  "duplicate": 338,
+  "salary": 16,
+  "location": 2549,
   "too_old": 169
  },
  "matchesBySource": {
-  "adzuna": 91,
+  "adzuna": 105,
   "arbeitsagentur": 15,
-  "arbeitnow": 13,
-  "jobicy": 13,
+  "arbeitnow": 3,
+  "jobicy": 12,
   "himalayas": 1,
   "greenhouse": 17,
-  "ashby": 49,
+  "ashby": 55,
   "lever": 1,
   "weworkremotely": 7,
   "recruitee": 18,
