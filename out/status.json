@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1013
+   "fetched": 1089
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3333
+   "fetched": 3335
   },
   "remotive": {
    "fetched": 128
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 133
+   "fetched": 136
   },
   "hn": {
    "fetched": 274
@@ -31,7 +31,7 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 540
+   "fetched": 528
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1710,
+   "checked": 1711,
    "failed": 0
   }
  },
@@ -48,11 +48,11 @@
   "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 14,
+  "callsThisRun": 45,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 430
+  "callsToday": 135,
+  "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -112,40 +112,58 @@
   }
  },
  "probe": {
-  "tried": 13,
+  "tried": 115,
   "found": [
-   "Blackbird Lab (smartrecruiters:blackbirdlab)"
+   "ELITEBRAIN (smartrecruiters:elitebrain)",
+   "CaptivateIQ (lever:captivateiq)",
+   "Empro GmbH (personio:empro)",
+   "Valsoft Corp (workable:valsoft-corp)",
+   "Lightspeedhq (ashby:lightspeedhq)",
+   "FireMon (lever:firemon)",
+   "Appmatics GmbH (recruitee:appmatics)",
+   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
+   "Blackbird Lab (smartrecruiters:blackbirdlab)",
+   "Welo Global (lever:weloglobal)",
+   "Altius Search Group (recruitee:altiussearchgroup)",
+   "Belkins (lever:belkins)",
+   "Neon (ashby:neon)",
+   "Atmosera (lever:atmosera)",
+   "SpotMe (greenhouse:spotme)",
+   "Business Wire (lever:businesswire)",
+   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)",
+   "ABOUT YOU SE & Co. KG (smartrecruiters:aboutyougmbh)"
   ]
  },
  "adzuna_pages": {
-  "tried": 199,
+  "tried": 200,
   "ok": 193
  },
- "collectedAt": "2026-11-13T21:10:44+00:00",
- "rawJobs": 85941,
- "matches": 241,
- "new": 3,
- "companies": 1795,
- "activeCompanies": 1710,
+ "collectedAt": "2026-11-13T22:11:32+00:00",
+ "rawJobs": 86343,
+ "matches": 263,
+ "new": 12,
+ "companies": 1796,
+ "activeCompanies": 1711,
  "funnel": {
-  "title": 82590,
-  "company": 120,
-  "passed": 457,
-  "salary": 14,
-  "duplicate": 216,
-  "employment": 32,
-  "location": 2555,
+  "title": 82832,
+  "passed": 563,
+  "duplicate": 300,
+  "company": 158,
+  "salary": 13,
+  "location": 2573,
+  "employment": 31,
   "too_old": 166
  },
  "matchesBySource": {
-  "adzuna": 76,
-  "arbeitnow": 5,
+  "adzuna": 102,
+  "arbeitnow": 4,
   "jobicy": 12,
   "recruitee": 19,
-  "ashby": 60,
+  "ashby": 56,
   "hn": 9,
   "greenhouse": 17,
   "arbeitsagentur": 16,
+  "himalayas": 1,
   "lever": 1,
   "weworkremotely": 7,
   "personio": 15,
