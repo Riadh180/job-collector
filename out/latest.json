@@ -1,7 +1,75 @@
 {
- "collectedAt": "2026-11-13T17:32:03+00:00",
- "count": 257,
+ "collectedAt": "2026-11-13T20:47:11+00:00",
+ "count": 269,
  "jobs": [
+  {
+   "id": "adzuna:5964249332",
+   "company": "The BIG Jobsite",
+   "title": "Fullstack Entwickler (m/w/d) – Schwerpunkt Testing",
+   "url": "https://www.adzuna.de/details/5964249332?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": null,
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Suche Erweiterte Suche Fullstack Entwickler (m/w/d) – Schwerpunkt Testing ❮ zurück zur letzten Suche The BIG Jobsite Deutschland NEU Auf diesen Job bewerben Menschen und Unternehmen brauchen Sicherheit, damit sie sich frei entfalten können. | Als Deutschlands größter inhabergeführter Versicherungsmakler gestalten wir seit 145 Jahren diese Sicherheit – gehen wir gemeinsam den nächsten Schritt! | Gehalt, Urlaubsgeld, Fahrtkostenzuschuss und weitere attraktive Zusatzleistungen Dein persönlicher Lieblings-",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T20:47:11+00:00"
+  },
+  {
+   "id": "adzuna:5964935872",
+   "company": "iris-GmbH infrared & intelligent sensors",
+   "title": "Senior Softwareentwickler Cloud (m/w/d) - For German Resident Only",
+   "url": "https://www.adzuna.de/details/5964935872?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": null,
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Senior Softwareentwickler Cloud (m/w/d) Berlin Berufserfahrung ab sofort unbefristet Über iris-GmbH Aus Leidenschaft für Mensch und Technik gestalten wir bei der iris-GmbH infrared & intelligent sensors die Welt der Mobilität nachhaltig, attraktiv und sicher. | Mit Wurzeln in Berlin entwickeln und produzieren wir seit 1991 Hightech-Kompone… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T20:47:11+00:00"
+  },
+  {
+   "id": "adzuna:5964831937",
+   "company": "Hybrid Heroes",
+   "title": "AI Product Engineer (f/m/d)",
+   "url": "https://www.adzuna.de/details/5964831937?utm_medium=api&utm_source=c19f1397",
+   "location": "Schöneberg, Berlin / Berlin / Schöneberg / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 449.3926617004801,
+   "kmFromEssen": 449,
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Berlin What you'll do As an AI Product Engineer, you build mobile apps, websites and automated workflows for co… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T20:47:11+00:00"
+  },
   {
    "id": "adzuna:5964789030",
    "company": "Intro ContractHero",
@@ -24,7 +92,7 @@
    "match": "title; remote",
    "facts": "Around that sit dashboards and reports, automations, e-signatures, and i… react",
    "remoteProof": "",
-   "firstSeen": "2026-11-13T17:32:03+00:00"
+   "firstSeen": "2026-11-13T20:47:11+00:00"
   },
   {
    "id": "adzuna:5964563188",
@@ -48,30 +116,76 @@
    "match": "generic+stack; remote",
    "facts": "Introduction Munich | Hybrid | Product based company At Impower, we’re redefining how property management works — simple, fast and digital. | We build our platform as an AI-driven, scalable ERP system that brings automatio… react",
    "remoteProof": "Introduction Munich | Hybrid | Product based company At Impower, we’re redefining how property management works — simple, fast and digital.",
-   "firstSeen": "2026-11-13T17:32:03+00:00"
+   "firstSeen": "2026-11-13T20:47:11+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/hivex/jobs/fullstack-developer-react-node-js-9559398791",
-   "company": "Hivex",
-   "title": "FullStack Developer (react + node.js)",
-   "url": "https://himalayas.app/companies/hivex/jobs/fullstack-developer-react-node-js-9559398791?utm_source=api",
-   "location": "Worldwide",
+   "id": "arbeitnow:tech-lead-medical-coding-agents-berlin-144026",
+   "company": "Recare Deutschland GmbH",
+   "title": "Tech Lead (Medical Coding Agents) (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/recare-deutschland-gmbh/tech-lead-medical-coding-agents-berlin-144026",
+   "location": "Berlin",
+   "remote": false,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time permanent experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "About Recare As one of the leading German HealthTech companies, we are reshaping discharge management: technology-driven, patient-centered and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with thousands of rehabilitation clinics, nursing and homecare providers. | What you’ll do as our Tech Lead (Medical Coding Agents) (m/w/d): German hospitals are paid a fixed amount per case, based on the codes assigned to it. | Stack: TypeScript, Node.js and Go, Python for inference, Postgres, React, AWS Bedrock, Docker and Datadog. | What we’re looking for: Leadership: 6+ years of experience, including leading a small team. | Communication: you explain decisions an",
+   "remoteProof": "Communication: you explain decisions and trade-offs clearly in English in a remote team. | We support you, with fully remote work, flexible hours and workations by arrangement. | Location We’re a remote team, and the role is fully remote within European time zones.",
+   "firstSeen": "2026-11-13T20:47:11+00:00"
+  },
+  {
+   "id": "jobicy:161933",
+   "company": "Wayflyer",
+   "title": "Frontend Software Engineer",
+   "url": "https://jobicy.com/jobs/161933-frontend-software-engineer",
+   "location": "Europe",
    "remote": true,
    "postedAt": "2026-11-13",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "Full-Time",
    "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
+   "source": "jobicy",
+   "ats": "jobicy",
    "stackHits": [
     "react",
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "Requirements: 3+ years of experience as a Fullstack Developer with a focus on React, Redux, Node.js, and Nest.js. | Strong proficiency in JavaScript/TypeScript. | Advanced English level Excellent problem-solving and communication skills. | What we offer: Remote job with the freedom to work from anywhere in the world. | Competitive and timely salary.",
-   "remoteProof": "What we offer: Remote job with the freedom to work from anywhere in the world.",
-   "firstSeen": "2026-11-13T17:32:03+00:00"
+   "facts": "We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. | Location and working policy 📍 Fully remote, Europe.",
+   "remoteProof": "Location and working policy 📍 Fully remote, Europe.",
+   "firstSeen": "2026-11-13T20:47:11+00:00"
+  },
+  {
+   "id": "jobicy:161930",
+   "company": "Wayflyer",
+   "title": "Full Stack Software Engineer",
+   "url": "https://jobicy.com/jobs/161930-full-stack-software-engineer-3",
+   "location": "Europe",
+   "remote": true,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "jobicy",
+   "ats": "jobicy",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. | Location and working policy 📍 Remote in Europe The good stuff 25 days off, plus public holidays.",
+   "remoteProof": "Location and working policy 📍 Remote in Europe The good stuff 25 days off, plus public holidays.",
+   "firstSeen": "2026-11-13T20:47:11+00:00"
   },
   {
    "id": "recruitee:recaregmbh:2827354",
@@ -94,7 +208,7 @@
    "match": "generic+stack; remote",
    "facts": "About Recare As one of the leading German HealthTech companies, we are reshaping discharge management: technology-driven, patient-centered and free from bureaucracy. | Today, we already connect two-thirds of all German hospitals with thousands of rehabilitation clinics, nursing and homecare providers. | What you’ll do as our Tech Lead (Medical Coding Agents) (m/w/d): German hospitals are paid a fixed amount per case, based on the codes assigned to it. | Stack: TypeScript, Node.js and Go, Python for inference, Postgres, React, AWS Bedrock, Docker and Datadog. | What we’re looking for: Leadership: 6+ years of experience, including leading a small team. | Communication: you explain decisions an",
    "remoteProof": "Communication: you explain decisions and trade-offs clearly in English in a remote team. | We support you, with fully remote work, flexible hours and workations by arrangement. | Location We’re a remote team, and the role is fully remote within European time zones.",
-   "firstSeen": "2026-11-13T17:32:03+00:00"
+   "firstSeen": "2026-11-13T20:47:11+00:00"
   },
   {
    "id": "ashby:dataguard:3d260dce-d3b5-427a-891b-765c7daf2f80",
@@ -117,7 +231,7 @@
    "match": "title; remote",
    "facts": "With over 200 team members worldwide and with offices in Munich, Berlin, London, Stockholm, and Vienna, we help more than 4,000 global customers get certified fast and build a strong and scalable risk posture. | Your backend are Java, Node.js using typescript or a similar typed languages, a knowledge in ruby is a plus. | Your frontend is a modern SPA framework: Vue is ideal and React works too. | You can describe a technical decision in plain English to a customer, a colleague from Sales or Support, or a fellow engineer.",
    "remoteProof": "",
-   "firstSeen": "2026-11-13T17:32:03+00:00"
+   "firstSeen": "2026-11-13T20:47:11+00:00"
   },
   {
    "id": "adzuna:5961464522",
@@ -239,7 +353,7 @@
    "id": "adzuna:5961997741",
    "company": "",
    "title": "UX Engineer / Frontend-Entwickler R Shiny TypeScript (w/m/d)",
-   "url": "https://www.adzuna.de/land/ad/5961997741?se=XKFBJIjf8RGDtoxXJCvQRQ&utm_medium=api&utm_source=c19f1397&v=A35D8C91586435077706743384E043ABEB52D677",
+   "url": "https://www.adzuna.de/land/ad/5961997741?se=dPTNZqPf8RGDtoxXJCvQRQ&utm_medium=api&utm_source=c19f1397&v=A35D8C91586435077706743384E043ABEB52D677",
    "location": "Köln, Nordrhein-Westfalen / Nordrhein-Westfalen / Köln / Deutschland",
    "remote": null,
    "postedAt": "2026-11-11",
@@ -518,7 +632,7 @@
     "react"
    ],
    "match": "title; NRW ~57 km",
-   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Suche Erweiterte Suche Web Developer – Digital Platforms (m/w/d) ❮ zurück zur letzten Suche Regionalverkehr Köln Köln, Nordrhein-Westfalen, Deutschland Vollzeit NEU Auf diesen Job bewerben Bist Du das? | Du hast schon mit Flutter, React Native oder nativer iOS-/Android-Entwicklung gearbeitet? | Auf diesen Job bewerben Land Australien Belgien Brasilien Deutschland Frankreich Indien Italien Kanada Mexiko Neuseeland Niederlande Österreich Polen Schweiz Singapur Spanien Südafrika USA Vereinigtes Königreich",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Suche Erweiterte Suche Web Developer – Digital Platforms (m/w/d) ❮ zurück zur letzten Suche Regionalverkehr Köln Köln, Nordrhein-Westfalen, Deutschland Vollzeit Auf diesen Job bewerben Bist Du das? | Du hast schon mit Flutter, React Native oder nativer iOS-/Android-Entwicklung gearbeitet? | Auf diesen Job bewerben Land Australien Belgien Brasilien Deutschland Frankreich Indien Italien Kanada Mexiko Neuseeland Niederlande Österreich Polen Schweiz Singapur Spanien Südafrika USA Vereinigtes Königreich Bis",
    "remoteProof": "",
    "firstSeen": "2026-11-13T09:17:14+00:00"
   },
@@ -666,13 +780,109 @@
    "firstSeen": "2026-11-13T09:17:14+00:00"
   },
   {
-   "id": "adzuna:5963468858",
-   "company": "GE Aerospace",
-   "title": "Lead Software Engineer (m/f/d) AWS, Data Pipelines & AI Integration",
-   "url": "https://www.adzuna.de/details/5963468858?utm_medium=api&utm_source=c19f1397",
-   "location": "Deutschland / Deutschland / Homeoffice",
+   "id": "adzuna:5962557257",
+   "company": "WhyBrilliant GmbH",
+   "title": "Product Engineer",
+   "url": "https://www.adzuna.de/details/5962557257?utm_medium=api&utm_source=c19f1397",
+   "location": "Wedding, Berlin / Berlin / Wedding / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-11-12",
+   "salary": "90000–110000 EUR",
+   "salaryMax": 110000,
+   "employment": "permanent full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 451.8525704025715,
+   "kmFromEssen": 452,
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "The Role Job Title: Product… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T09:17:14+00:00"
+  },
+  {
+   "id": "adzuna:5962303996",
+   "company": "GlassFlow",
+   "title": "Founding Engineer",
+   "url": "https://www.adzuna.de/details/5962303996?utm_medium=api&utm_source=c19f1397",
+   "location": "Kreuzberg, Berlin / Berlin / Kreuzberg / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-12",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 452.23266968483244,
+   "kmFromEssen": 452,
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Operating as a Berlin startup backed by Upfront Ventures, the CEO of GitHub, and the ex-CTO of Aiven, the team comprises serial entrepreneurs with over 10 years of experience. | What you will do As a Founding Engineer, you will shape the platform's technical fou… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T09:17:14+00:00"
+  },
+  {
+   "id": "adzuna:5961980463",
+   "company": "avenit AG",
+   "title": "Senior Software Engineer (m/w/d) für Individualsoftware",
+   "url": "https://www.adzuna.de/details/5961980463?utm_medium=api&utm_source=c19f1397",
+   "location": "Zunsweier, Offenburg / Baden-Württemberg / Ortenaukreis / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "permanent full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 343.70063207341906,
+   "kmFromEssen": 344,
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Über uns Was für einen Kunden eine Ausnahme ist, gehört für den nächsten zum Tagesgeschäft. | Du gestaltest die A… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T09:17:14+00:00"
+  },
+  {
+   "id": "adzuna:5961902726",
+   "company": "Almedia",
+   "title": "Senior Frontend Engineer",
+   "url": "https://www.adzuna.de/details/5961902726?utm_medium=api&utm_source=c19f1397",
+   "location": "Berlin, Deutschland / Berlin / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-11",
+   "salary": "85000–140000 EUR",
+   "salaryMax": 140000,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 454.09418773487886,
+   "kmFromEssen": 454,
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "Bootstrapped and profitable from day one, Almedia is Germany’s fastest-growing company (FT1000). | Senior Frontend Engineer This role is for a highly experienced and autonomous engineer who will own the frontend architecture, set a high bar for code quality, and significantly impact product direction through hands-on development and st… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-13T09:17:14+00:00"
+  },
+  {
+   "id": "adzuna:5961820371",
+   "company": "Animore",
+   "title": "Senior Frontend Engineer (F/M/D)",
+   "url": "https://www.adzuna.de/details/5961820371?utm_medium=api&utm_source=c19f1397",
+   "location": "München, München (Kreis) / Bayern / München (Kreis) / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-11",
    "salary": "",
    "salaryMax": null,
    "employment": " full_time",
@@ -683,8 +893,8 @@
    "stackHits": [
     "react"
    ],
-   "match": "generic+stack; remote",
-   "facts": "",
+   "match": "title; remote",
+   "facts": "As our Senior Frontend Engineer, you'll build the web applications our engineers, operators and customers use every day: tools to monitor and control robots, make sense of l… react",
    "remoteProof": "",
    "firstSeen": "2026-11-13T09:17:14+00:00"
   },
@@ -1018,29 +1228,6 @@
    "firstSeen": "2026-11-13T09:17:14+00:00"
   },
   {
-   "id": "himalayas:https://himalayas.app/companies/grafana-labs/jobs/senior-full-stack-engineer-experimentation-product-analytics-germany-rem",
-   "company": "Grafana Labs",
-   "title": "Senior Full Stack Engineer | Experimentation - Product Analytics | Germany | Rem",
-   "url": "https://himalayas.app/companies/grafana-labs/jobs/senior-full-stack-engineer-experimentation-product-analytics-germany-rem?utm_source=api",
-   "location": "Germany / Ireland / Spain / Sweden / United Kingdom",
-   "remote": true,
-   "postedAt": "2026-11-13",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "Full Time",
-   "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. | This is a remote opportunity and we would be interested in applications from the UK, Ireland, Sweden, Spain and Germany. | About the product: The experimentation app is built on the Grafana App Platform: Frontend: a TypeScript and React app plugin using @grafana/ui, plus a custom datasource plugin that powers experiment statistics panels. | Feature flags: integration with OpenFeature and the OpenFeature Remote Evaluation Protocol (OFREP) , Grafana's multi-tenant feature toggle service, and an embedded GO Feature Flag eval",
-   "remoteProof": "We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. | This is a remote opportunity and we would be interested in applications from the UK, Ireland, Sweden, Spain and Germany. | Feature flags: integration with OpenFeature and the OpenFeature Remote Evaluation Protocol (OFREP) , Grafana's multi-tenant feature toggle service, and an embedded GO Feature Flag evaluator.",
-   "firstSeen": "2026-11-13T09:17:14+00:00"
-  },
-  {
    "id": "greenhouse:grafanalabs:6200027004",
    "company": "Grafana Labs",
    "title": "Senior Full Stack Engineer - Databases - Analytics | Germany | Remote",
@@ -1058,6 +1245,29 @@
    "match": "title; remote",
    "facts": "We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. | This is a remote opportunity, and we would be interested in applicants located in Spain, Sweden, UK, Ireland or Germany. | This is an early-stage role on a high-autonomy team, so you should be comfortable working through ambiguity, making pragmatic architectural decisions, and building systems that can evolve from internal dogfooding to production-grade SaaS.",
    "remoteProof": "We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. | This is a remote opportunity, and we would be interested in applicants located in Spain, Sweden, UK, Ireland or Germany.",
+   "firstSeen": "2026-11-13T09:17:14+00:00"
+  },
+  {
+   "id": "greenhouse:grafanalabs:6256075004",
+   "company": "Grafana Labs",
+   "title": "Senior Full Stack Engineer | Experimentation - Product Analytics | Germany | Remote",
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6256075004",
+   "location": "Germany (Remote) / Germany (Remote) / Ireland (Remote) / Spain (Remote) / Sweden (Remote) / UK (Remote)",
+   "remote": null,
+   "postedAt": "2026-11-12",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "",
+   "source": "greenhouse",
+   "ats": "greenhouse",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. | This is a remote opportunity and we would be interested in applications from the UK, Ireland, Sweden, Spain and Germany. | About the product: The experimentation app is built on the Grafana App Platform: Frontend: a TypeScript and React app plugin using @grafana/ui, plus a custom datasource plugin that powers experiment statistics panels. | Feature flags: integration with OpenFeature and the OpenFeature Remote Evaluation Protocol (OFREP) , Grafana's multi-tenant feature toggle service, and an embedded GO Feature Flag eval",
+   "remoteProof": "We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. | This is a remote opportunity and we would be interested in applications from the UK, Ireland, Sweden, Spain and Germany. | Feature flags: integration with OpenFeature and the OpenFeature Remote Evaluation Protocol (OFREP) , Grafana's multi-tenant feature toggle service, and an embedded GO Feature Flag evaluator.",
    "firstSeen": "2026-11-13T09:17:14+00:00"
   },
   {
@@ -1085,11 +1295,11 @@
    "firstSeen": "2026-11-13T09:17:14+00:00"
   },
   {
-   "id": "greenhouse:vinteden:5033470101",
+   "id": "greenhouse:vinteden:5032062101",
    "company": "Vinteden",
    "title": "Senior Design Engineer, Design System",
-   "url": "https://careers.vinted.com/jobs/5033470101?gh_jid=5033470101",
-   "location": "Kaunas, Lithuania / DE Berlin",
+   "url": "https://careers.vinted.com/jobs/5032062101?gh_jid=5032062101",
+   "location": "Vilnius, Lithuania / DE Berlin",
    "remote": null,
    "postedAt": "2026-11-11",
    "salary": "",
@@ -1443,27 +1653,26 @@
    "firstSeen": "2026-11-10T13:11:49+00:00"
   },
   {
-   "id": "adzuna:5960301921",
+   "id": "arbeitnow:senior-software-developerin-berlin-282508",
    "company": "Schulz.codes GmbH",
    "title": "Senior Software Developer:in (m/w/d)",
-   "url": "https://www.adzuna.de/details/5960301921?utm_medium=api&utm_source=c19f1397",
-   "location": "Wedding, Berlin / Berlin / Wedding / Deutschland / Homeoffice",
-   "remote": null,
+   "url": "https://www.arbeitnow.com/jobs/companies/schulzcodes-gmbh/senior-software-developerin-berlin-282508",
+   "location": "Berlin",
+   "remote": true,
    "postedAt": "2026-11-10",
-   "salary": "75000–95000 EUR",
-   "salaryMax": 95000,
-   "employment": " ",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
    "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": 451.8525704025715,
-   "kmFromEssen": 452,
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
    "stackHits": [
-    "react"
+    "react",
+    "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "Das heißt auch: Umsetzen ist kein Hex… react",
-   "remoteProof": "",
+   "facts": "Du lernst die Fachsprache vom Kunden, modellierst die Domain und setzt sie um, im Backend mit Node/TypeScript, vorne mit React. | Rund 6 Jahre professionelle Softwareentwicklung, das meiste davon im Backend mit einer typisierten Sprache, am liebsten Node/TypeScript. | Node/TypeScript steht bei dir in einem echten Projekt, nicht nur in der Skill-Liste. | Deutsch auf C1-Niveau, denn Deutsch ist unsere Domänensprache. | Für dich ist es am Ende halt ein Job, und dich treiben vor allem Gehalt und Titel. | Erstgespräch mit mir , 30 Minuten remote. | Kennenlerntag mit dem Team , remote, 4 Stunden mit Pausen. | Nach jedem Schritt hörst du in ein, zwei Tagen von uns. | Benefits Wie wir zusammenarbeit",
+   "remoteProof": "Erstgespräch mit mir , 30 Minuten remote. | Kennenlerntag mit dem Team , remote, 4 Stunden mit Pausen. | Benefits Wie wir zusammenarbeiten Wir arbeiten full remote, niemand sitzt im Büro.",
    "firstSeen": "2026-11-10T13:11:49+00:00"
   },
   {
@@ -1579,6 +1788,28 @@
    "firstSeen": "2026-11-09T20:28:35+00:00"
   },
   {
+   "id": "arbeitnow:senior-software-engineer-agentic-ai-koln-223439",
+   "company": "Accso – Accelerated Solutions GmbH",
+   "title": "Senior Software Engineer* Agentic AI​",
+   "url": "https://www.arbeitnow.com/jobs/companies/accso-accelerated-solutions-gmbh/senior-software-engineer-agentic-ai-koln-223439",
+   "location": "Köln",
+   "remote": false,
+   "postedAt": "2026-11-09",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-time permanent experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; NRW",
+   "facts": "mit Java, TypeScript, Python) und dem Einsatz von AI im Software-Engineering (z. | ​ *Für uns ist dein Talent entscheidend, nicht dein Geschlecht, deine Herkunft, Glaubensrichtung, sexuelle Orientierung oder eine eventuelle Behinderung.​ Kontakt Nadja Groß Talent Manager Mobil: +49 1514 0230948 Email: Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "",
+   "firstSeen": "2026-11-09T20:28:35+00:00"
+  },
+  {
    "id": "adzuna:5956037771",
    "company": "FindYou Consulting GmbH",
    "title": "Frontend-Entwickler",
@@ -1598,8 +1829,8 @@
     "typescript"
    ],
    "match": "title; remote",
-   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | KG Berlin Senior AI Software Engineer (all genders) in Berlin Instaffo GmbH Berlin, Berlin, 10178 UX/UI Designer (m/w/d) - mit Erfahrung in Barriere 5 per hour sms Consulting Remote (ca.",
-   "remoteProof": "KG Berlin Senior AI Software Engineer (all genders) in Berlin Instaffo GmbH Berlin, Berlin, 10178 UX/UI Designer (m/w/d) - mit Erfahrung in Barriere 5 per hour sms Consulting Remote (ca.",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was?",
+   "remoteProof": "",
    "firstSeen": "2026-11-09T15:22:40+00:00"
   },
   {
@@ -1769,6 +2000,52 @@
    "firstSeen": "2026-11-09T15:22:40+00:00"
   },
   {
+   "id": "arbeitnow:founding-full-stack-engineer-berlin-62731",
+   "company": "planqor.ai",
+   "title": "Founding Full-Stack Engineer",
+   "url": "https://www.arbeitnow.com/jobs/companies/planqorai/founding-full-stack-engineer-berlin-62731",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-09",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Permanent employment professional / experienced",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Remote-first or from our office in Munich, competitive pay + VSOP, no puzzle interviews. | You can work with TypeScript, React, or similar technologies and build interfaces that make complex systems understandable. | German and experience in manufacturing or industrial planning are useful but not required. | Remote-first or from our Munich office, with regular in-person workshops. | Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "Remote-first or from our office in Munich, competitive pay + VSOP, no puzzle interviews. | Remote-first or from our Munich office, with regular in-person workshops.",
+   "firstSeen": "2026-11-09T15:22:40+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-frontend-developer-in-aircraft-domain-gilching-156154",
+   "company": "Quantum-Systems GmbH",
+   "title": "Senior Frontend Developer in Aircraft Domain (m/f/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-frontend-developer-in-aircraft-domain-gilching-156154",
+   "location": "Gilching, Bayern, Germany",
+   "remote": false,
+   "postedAt": "2026-11-07",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Mid fulltime permanent",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Build intuitive, performant, and responsive user interfaces using modern frontend frameworks such as React or comparable web component frameworks. | What you bring to the team: 5+ years of professional experience in frontend development. | Proficiency in TypeScript and web component frameworks. | Familiarity with backend technologies such as Node.js or similar. | Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right balance. | About us: Quantum Systems is a leading European deep-tech company for unmanned systems across air, land and maritime domains. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right balance.",
+   "firstSeen": "2026-11-09T15:22:40+00:00"
+  },
+  {
    "id": "jobicy:159606",
    "company": "Canonical",
    "title": "Web Developer",
@@ -1930,19 +2207,19 @@
    "firstSeen": "2026-11-06T17:14:07+00:00"
   },
   {
-   "id": "jobicy:159429",
+   "id": "greenhouse:grafanalabs:6250631004",
    "company": "Grafana Labs",
-   "title": "Senior Full Stack Engineer | Database Observability, Grafana Cloud | UK | Remote",
-   "url": "https://jobicy.com/jobs/159429-senior-full-stack-engineer-database-observability-grafana-cloud-uk-remote",
-   "location": "Germany,  Ireland,  Spain,  UK",
-   "remote": true,
+   "title": "Senior Full Stack Engineer | Database Observability, Grafana Cloud | Germany | Remote",
+   "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6250631004",
+   "location": "Germany (Remote) / EMEA",
+   "remote": null,
    "postedAt": "2026-11-06",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full-Time",
+   "employment": "",
    "industry": "",
-   "source": "jobicy",
-   "ats": "jobicy",
+   "source": "greenhouse",
+   "ats": "greenhouse",
    "stackHits": [
     "react",
     "typescript"
@@ -2201,8 +2478,8 @@
    "ats": "ashby",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Location\nThis role is remote-first, so it can be executed from anywhere between the US East Coast and India, with the ability to operate in European timezones required. | If you prefer, you can work from our offices in Bangalore, Dublin, London, New York and Warsaw.",
-   "remoteProof": "Location\nThis role is remote-first, so it can be executed from anywhere between the US East Coast and India, with the ability to operate in European timezones required. | If you prefer, you can work from our offices in Bangalore, Dublin, London, New York and Warsaw.",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Location This role is remote-first, so it can be executed from anywhere between the US East Coast and India, with the ability to operate in European timezones required. | If you prefer, you can work from our offices in Bangalore, Dublin, London, New York and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "Location This role is remote-first, so it can be executed from anywhere between the US East Coast and India, with the ability to operate in European timezones required. | If you prefer, you can work from our offices in Bangalore, Dublin, London, New York and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
    "firstSeen": "2026-11-06T12:39:49+00:00"
   },
   {
@@ -2361,27 +2638,25 @@
    "firstSeen": "2026-11-05T12:53:23+00:00"
   },
   {
-   "id": "adzuna:5964246228",
-   "company": "Check24",
+   "id": "adzuna:5964866747",
+   "company": "CHECK24",
    "title": "Senior Fullstack Developer (m/w/d) KI-Fokus, InsurTech",
-   "url": "https://www.adzuna.de/details/5964246228?utm_medium=api&utm_source=c19f1397",
+   "url": "https://www.adzuna.de/land/ad/5964866747?se=aMo1caPf8RGDtoxXJCvQRQ&utm_medium=api&utm_source=c19f1397&v=F36E02FE70304E7E3108C440879B4B333068FA8C",
    "location": "Gallus, Frankfurt am Main / Hessen / Frankfurt am Main / Deutschland / Homeoffice",
    "remote": null,
    "postedAt": "2026-11-13",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
+   "employment": " full_time",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
    "_km": 188.6533960552481,
    "kmFromEssen": 189,
-   "stackHits": [
-    "typescript"
-   ],
+   "stackHits": [],
    "match": "title; remote",
-   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Trage dazu bei, Deutschlands besten Versicherungsvergleich kontinuierlich zu verbessern – Dein Erfolg ist unser Erfolg. | Gute Kenntnisse in TypeScript oder in PHP – in mindestens einer dieser Technologien bringst Du bereits tiefergehende Erfahrung mit. | Gute Englischkenntnisse (C1) in Wort und Schrift und Deutschkenntnisse (B2), Teamgeist und Lust, im Team vor Ort im Office zu arbeiten, runden Dein Profil ab. | Was CHECK24 Dir bietet Balance, die zum Arbeitsalltag passt: Von Montag bis Donnerstag arb",
-   "remoteProof": "Gute Englischkenntnisse (C1) in Wort und Schrift und Deutschkenntnisse (B2), Teamgeist und Lust, im Team vor Ort im Office zu arbeiten, runden Dein Profil ab. | Wir arbeiten bewusst vor Ort in unserem CHECK24 Office – weil direkte Zusammenarbeit, schnelle Abstimmung und echtes Teamgefühl für uns im Alltag den Unterschied machen.",
+   "facts": "",
+   "remoteProof": "",
    "firstSeen": "2026-11-05T08:47:25+00:00"
   },
   {
@@ -2864,28 +3139,6 @@
    "firstSeen": "2026-10-30T16:33:38+00:00"
   },
   {
-   "id": "jooble:4099517956178006872",
-   "company": "20four7va",
-   "title": "AI & ML Developer",
-   "url": "https://jooble.org/desc/4099517956178006872?ckey=next.js&rgn=55146&pos=12&groupId=-675061143&elckey=6138267774503566262&p=1&aq=9093163934288650292&cid=22409&jobAge=395&brelb=10&bscr=8.904544&scr=8.904544",
-   "location": "Germany / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-10-28",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "jooble",
-   "ats": "jooble",
-   "stackHits": [
-    "next.js"
-   ],
-   "match": "generic+stack; remote",
-   "facts": "Title: Independent Contractor – AI & ML Developer (Remote).",
-   "remoteProof": "Title: Independent Contractor – AI & ML Developer (Remote).",
-   "firstSeen": "2026-10-30T10:01:07+00:00"
-  },
-  {
    "id": "greenhouse:deliveroo:8236503",
    "company": "Deliveroo",
    "title": "Senior Software Engineer (Fullstack) - Merchant EMEA",
@@ -3250,6 +3503,51 @@
    "facts": "You have several years of experience in backend development and are proficient in at least one modern programming language. | Initial experience with AI applications, LLM integrations, or modern AI toolchains is an advantage - as is using AI tools like GitHub Copilot or Claude Code in your daily workflow. | Experience with React, TypeScript, and modern observability stacks such as OpenTelemetry, Prometheus, or Sentry rounds out your profile. | You communicate confidently in English and, ideally, in German, and enjoy working in an international, technology-driven environment. | Meaningful Work : Help shape the story of one of Europe’s most exciting AI infrastructure companies from the ground ",
    "remoteProof": "Remote-First Work Model : Work in a way that helps you truly balance your professional, family, and personal life.",
    "firstSeen": "2026-10-25T18:43:08+00:00"
+  },
+  {
+   "id": "ashby:alan:48c185af-22d2-4137-9d86-cd450175d297",
+   "company": "Alan",
+   "title": "Senior Software Engineer (Privacy) (x/f/m) - Tech Foundations",
+   "url": "https://jobs.ashbyhq.com/alan/48c185af-22d2-4137-9d86-cd450175d297",
+   "location": "Anywhere in France, Belgium, Spain / European Union",
+   "remote": false,
+   "postedAt": "2026-09-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "health",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. | Python/Flask, Typescript, React, React Native on the coding side. | - Senior-level experience (typically 8+ years) in backend or platform software engineering, or equivalent, with deep production ownership (API and contract design, data modeling, running what you ship). | - You've built and operated platforms, libraries, or services that other engineers depend on, and you care about the contract you expose to them. | - Strong plus: prior privacy, GDPR, or data-governance exposure, and experience working in an enabling or platform-team operating model.",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T17:49:24+00:00"
+  },
+  {
+   "id": "ashby:alan:2dc99c53-9cc7-4c3f-a682-1f79bfa38ce6",
+   "company": "Alan",
+   "title": "Fullstack Software Engineer (x/f/m) -Automated Resolution",
+   "url": "https://jobs.ashbyhq.com/alan/2dc99c53-9cc7-4c3f-a682-1f79bfa38ce6",
+   "location": "Anywhere in France, Belgium, Spain / European Union",
+   "remote": false,
+   "postedAt": "2026-10-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "FullTime",
+   "industry": "health",
+   "source": "ashby",
+   "ats": "ashby",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; remote",
+   "facts": "We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. | - 5+ years building scalable software systems | Our stack is React, Python/Flask, PostgreSQL in a monorepo.",
+   "remoteProof": "",
+   "firstSeen": "2026-10-24T17:49:24+00:00"
   },
   {
    "id": "ashby:resend:2e3d92c5-79d9-4511-8faf-e2326e7a081e",
@@ -3633,29 +3931,6 @@
    "firstSeen": "2026-10-22T08:46:49+00:00"
   },
   {
-   "id": "ashby:nango:aa8125b8-1b0e-42dc-8c8e-2d69eabe0524",
-   "company": "Nango",
-   "title": "Senior+ Full-Stack Engineer",
-   "url": "https://jobs.ashbyhq.com/Nango/aa8125b8-1b0e-42dc-8c8e-2d69eabe0524",
-   "location": "USA / Chile / UK / Uruguay / Switzerland / Brazil / Canada / Mexico / Argentina / Europe / USA",
-   "remote": true,
-   "postedAt": "2026-10-20",
-   "salary": "$140K – $220K • Offers Equity",
-   "salaryMax": null,
-   "employment": "FullTime",
-   "industry": "from job boards",
-   "source": "ashby",
-   "ats": "ashby",
-   "stackHits": [
-    "react",
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "(Remote, North America, LATAM or Europe) | - 5+ years of software engineering experience at a senior level or above, with strong backend fundamentals: APIs, databases, distributed systems and performance. | - Comfortable working across the stack in TypeScript, from Node.js services to React frontends. | - Strong communicator, proactive and reliable in a remote-first environment. | - Based in North America, LATAM or Europe.",
-   "remoteProof": "(Remote, North America, LATAM or Europe) | - Strong communicator, proactive and reliable in a remote-first environment.",
-   "firstSeen": "2026-10-22T08:46:49+00:00"
-  },
-  {
    "id": "adzuna:5955717560",
    "company": "Lupp + Partner",
    "title": "AI Solution Developer (m/w/d)",
@@ -4010,6 +4285,27 @@
    "firstSeen": "2026-10-17T18:05:40+00:00"
   },
   {
+   "id": "adzuna:5964937663",
+   "company": "AraCom IT Services GmbH",
+   "title": "Senior Fullstack-Entwickler (m/w/d) - Go & Vue.js",
+   "url": "https://www.adzuna.de/details/5964937663?utm_medium=api&utm_source=c19f1397",
+   "location": "Deutschland / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": null,
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Homeoffice | Du entscheidest, wo und wann du arbeitest: vor Ort im Büro oder Remote im Homeoffice (bis zu 100% Homeoffice möglich). | Urlaub | Wir lieben die Arbeit, aber natürlich auch Urlaubstage - bei uns gibt es 30 Tage Urlaub, 1,5 AraCom Feiertage & Sonderurlaub. | Corporate Benefits | Nutze exklusive Rabatte und Sonderangebote bei zahlreichen Partnerunternehmen und optimiere dein Gehalt mit unserem Netto-Entgelt-Optimierungsprogramm (NEO).",
+   "remoteProof": "Homeoffice | Du entscheidest, wo und wann du arbeitest: vor Ort im Büro oder Remote im Homeoffice (bis zu 100% Homeoffice möglich).",
+   "firstSeen": "2026-10-16T18:36:39+00:00"
+  },
+  {
    "id": "ashby:kijimea:db90b570-348b-4db9-a0fd-e9b5df6b4c41",
    "company": "Kijimea",
    "title": "E-Commerce Developer – AI & Automation",
@@ -4191,7 +4487,30 @@
    "ats": "ashby",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta.",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "",
+   "firstSeen": "2026-10-15T22:59:10+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-product-engineer-bielefeld-429098",
+   "company": "sustaind GmbH",
+   "title": "(Senior) Product Engineer",
+   "url": "https://www.arbeitnow.com/jobs/companies/sustaind-gmbh/senior-product-engineer-bielefeld-429098",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-10",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "",
    "remoteProof": "",
    "firstSeen": "2026-10-15T22:59:10+00:00"
   },
@@ -4256,8 +4575,8 @@
    "ats": "ashby",
    "stackHits": [],
    "match": "title; remote",
-   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | You can work remotely, or from our offices in Dublin, London, New York, San Francisco and Warsaw.",
-   "remoteProof": "You can work remotely, or from our offices in Dublin, London, New York, San Francisco and Warsaw.",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | You can work remotely, or from our offices in Dublin, London, New York, San Francisco and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses. | Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "You can work remotely, or from our offices in Dublin, London, New York, San Francisco and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
    "firstSeen": "2026-10-14T13:34:35+00:00"
   },
   {
@@ -4302,6 +4621,46 @@
    "facts": "We're backed by world-class investors including CapitalG and Index Ventures, as well as founders and executives from companies like Stripe, Adyen, Notion, Remote, Qonto, Framer, Anthropic, Mollie, OpenAI, and Goldman Sachs. | - Fluent English. | Our current stack includes Node.js + TypeScript, React, Event Sourcing, Express, Postgres, RabbitMQ, Kubernetes, and AWS. | We're a remote-first, fast-moving team of builders looking for exceptional people who love to create, build, and ship.",
    "remoteProof": "We're backed by world-class investors including CapitalG and Index Ventures, as well as founders and executives from companies like Stripe, Adyen, Notion, Remote, Qonto, Framer, Anthropic, Mollie, OpenAI, and Goldman Sachs. | We're a remote-first, fast-moving team of builders looking for exceptional people who love to create, build, and ship.",
    "firstSeen": "2026-10-14T13:34:35+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-mobile-engineer-elevenmusic-25044",
+   "company": "ElevenLabs",
+   "title": "Mobile Engineer - ElevenMusic",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-mobile-engineer-elevenmusic-25044",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Location This role is remote-first, so it can be executed from anywhere in Europe and the US East Coast, with the ability to operate in GMT-5 to GMT+1 timezones required. | If you prefer, you can work from our offices in London, New York, Warsaw, and Amsterdam. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "Location This role is remote-first, so it can be executed from anywhere in Europe and the US East Coast, with the ability to operate in GMT-5 to GMT+1 timezones required. | If you prefer, you can work from our offices in London, New York, Warsaw, and Amsterdam. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+   "firstSeen": "2026-10-14T08:34:46+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-full-stack-engineer-productions-417254",
+   "company": "ElevenLabs",
+   "title": "Full-Stack Engineer - Productions",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-productions-417254",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Location This role is remote-first, so it can be executed from anywhere in Europe and the US East Coast, with the ability to operate in GMT-5 to GMT+1 timezones required. | If you prefer, you can work from our offices in London, New York, Dublin, Amsterdam, and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses. | Find Jobs in Germany on Arbeitnow",
+   "remoteProof": "Location This role is remote-first, so it can be executed from anywhere in Europe and the US East Coast, with the ability to operate in GMT-5 to GMT+1 timezones required. | If you prefer, you can work from our offices in London, New York, Dublin, Amsterdam, and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+   "firstSeen": "2026-10-14T08:34:46+00:00"
   },
   {
    "id": "ashby:qlub:3f088b11-d5ae-4018-aa32-5c47fd8cc7f1",
@@ -4413,6 +4772,31 @@
    "facts": "Freuen Sie sich auf ein familiäres Unternehmen, welches sich mit seinen über 1000 Mitarbeitenden mittlerweile zu einem der führenden IT Dienstleister in Deutschland entwickelt hat. | Die fachliche Förderung wird hier folgerichtig genauso geschätzt wie di… react",
    "remoteProof": "",
    "firstSeen": "2026-10-13T05:38:11+00:00"
+  },
+  {
+   "id": "adzuna:5964844611",
+   "company": "trivago",
+   "title": "Software Engineer - AI & Productivity Solutions",
+   "url": "https://www.adzuna.de/details/5964844611?utm_medium=api&utm_source=c19f1397",
+   "location": "Düsseldorf, Nordrhein-Westfalen / Nordrhein-Westfalen / Düsseldorf / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " ",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 29.094638454671678,
+   "kmFromEssen": 29,
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; NRW ~29 km",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Enjoy your office days. | Additionally you can work remotely from a different location, within Germany or selected countries abroad for up to 20 days per year. | #LI-Hybrid Auf diesen Job bewerben Jetzt ähnliche Jobs per E-Mail erhalten Job-E-Mail bestellen Mit dem Klick auf “Job-E-Mail bestellen” stimmst du unseren AGBs , unseren Datenschutzbestimmungen und der Nutzung von Cookies zu. | Ähnliche Jobs AI Solution Engineer (m/w/d) Deutsche Apotheker- und Ärztebank eG Düsseldorf, 40547 Senior AI Software",
+   "remoteProof": "Enjoy your office days. | We offer self-determined vacation (with a minimum of 25 vacation days), flexible working hours, up to 2 work from home days weekly. | Additionally you can work remotely from a different location, within Germany or selected countries abroad for up to 20 days per year. | #LI-Hybrid Auf diesen Job bewerben Jetzt ähnliche Jobs per E-Mail erhalten Job-E-Mail bestellen Mit dem Klick auf “Job-E-Mail bestellen” stimmst du unseren AGBs , unseren Datenschutzbestimmungen und der N",
+   "firstSeen": "2026-10-12T14:19:11+00:00"
   },
   {
    "id": "ashby:clipbook:0db15f4a-50bb-4112-888c-d82614d142cf",
@@ -4706,6 +5090,26 @@
    "firstSeen": "2026-10-08T10:31:37+00:00"
   },
   {
+   "id": "arbeitnow:remote-full-stack-engineer-backend-leaning-creative-agents-223892",
+   "company": "ElevenLabs",
+   "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-creative-agents-223892",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-08",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [],
+   "match": "title; remote",
+   "facts": "Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. | Location: This role is remote and can be executed globally. | If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "Location: This role is remote and can be executed globally. | If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw. | #LI-Remote We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+   "firstSeen": "2026-10-08T10:31:37+00:00"
+  },
+  {
    "id": "jobicy:152707",
    "company": "Dataiku",
    "title": "Fullstack Software Engineer - Core",
@@ -4894,6 +5298,26 @@
    ],
    "match": "title; remote",
    "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was?",
+   "remoteProof": "",
+   "firstSeen": "2026-10-07T07:38:06+00:00"
+  },
+  {
+   "id": "arbeitnow:senior-full-stack-entwicklerin-gn-in-dortmund-dusseldorf-keine-uberstunden-2-tage-remote-421354",
+   "company": "EXWE GmbH",
+   "title": "Senior Full-Stack-Entwickler:in (Gn) – Keine Überstunden – 2 Tage Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/exwe-gmbh/senior-full-stack-entwicklerin-gn-in-dortmund-dusseldorf-keine-uberstunden-2-tage-remote-421354",
+   "location": "Dortmund",
+   "remote": false,
+   "postedAt": "2026-11-11",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "Wir melden uns innerhalb von drei Tagen bei Dir Erstes Gespräch (30 Minuten): Gegenseitiges Kennenlernen und erster Eindruck. | Find Jobs in Germany on Arbeitnow",
    "remoteProof": "",
    "firstSeen": "2026-10-07T07:38:06+00:00"
   },
@@ -5148,7 +5572,7 @@
   },
   {
    "id": "personio:pixelproduction:2825889",
-   "company": "PixelProduction",
+   "company": "PixelProduction GmbH & Co. KG",
    "title": "Teamleitung Webentwicklung / Web Development (m/w/d)",
    "url": "https://pixelproduction.jobs.personio.de/job/2825889?language=en",
    "location": "Wuppertal",
@@ -5425,27 +5849,72 @@
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
-   "id": "adzuna:5960288759",
-   "company": "instellix",
-   "title": "Software Engineer | Payment (m/w/d) - instellix (Nitrobox GmbH)",
-   "url": "https://www.adzuna.de/details/5960288759?utm_medium=api&utm_source=c19f1397",
-   "location": "Hamburg, Deutschland / Hamburg / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-11-10",
+   "id": "arbeitnow:web-developer-full-time-munich-243414",
+   "company": "CONROO GmbH",
+   "title": "Web Developer | Full Time (m/w/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/conroo-gmbh/web-developer-full-time-munich-243414",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-11",
    "salary": "",
    "salaryMax": null,
-   "employment": " full_time",
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
    "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": 308.46321689389794,
-   "kmFromEssen": 308,
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
    "stackHits": [
-    "react"
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "You bring 4+ years of professional experience in developing web applications. | You have extensive experience with TypeScript and its practical application. | You are fluent in English. | ⚙️ Must Have Tools and Technologies Vue js Typescript Vuetify 💡 It’s a Plus If You Have Experience implementing and maintaining E2E tests. | 👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location. | 🏔️ Company getaway: Two annual team getaways where we work, unwind, and connect – away from the office. | 🏢 Multiple of",
+   "remoteProof": "👥 About Our Team We’re a team of around 30 curious minds working from our offices in Munich and Nuremberg – and remotely across Germany. | 🏝️ Workation: Switch up your usual scenery and spend up to 30 days working remotely from a different location.",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
+   "id": "arbeitnow:lead-engineer-leipzig-1901",
+   "company": "SEDIWORK",
+   "title": "Lead Software Engineer - Fluent/Native German Speaker",
+   "url": "https://www.arbeitnow.com/jobs/companies/sediwork/lead-engineer-leipzig-1901",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "typescript"
    ],
    "match": "generic+stack; remote",
-   "facts": "Wir suchen dich als Software Engineer (m/w/d) zur Verstärkung unseres schlagkräftigen Payment-Teams - in Hamburg oder zu 100 % remote innerhalb Deutschlands. | Du arbeitest dabei nicht im stillen Kämmerlein, sondern ge… react",
-   "remoteProof": "Wir suchen dich als Software Engineer (m/w/d) zur Verstärkung unseres schlagkräftigen Payment-Teams - in Hamburg oder zu 100 % remote innerhalb Deutschlands.",
+   "facts": "Unser Tech Stack TypeScript · | Nenn uns bitte deinen Gehaltswunsch und angestrebte Zusammenarbeit (Vollzeit, Teilzeit, Freelance) Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "",
+   "firstSeen": "2026-10-06T17:22:05+00:00"
+  },
+  {
+   "id": "arbeitnow:ai-product-engineer-bielefeld-8892",
+   "company": "paddy",
+   "title": "AI Product Engineer",
+   "url": "https://www.arbeitnow.com/jobs/companies/paddy/ai-product-engineer-bielefeld-8892",
+   "location": "Berlin",
+   "remote": true,
+   "postedAt": "2026-11-13",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Unbefristeter arbeitsvertrag berufserfahren",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "expo",
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Unsere Ambition ist es, den europäischen AI-Player für Bildung zu bauen. | Sprachen: Fließend Deutsch und sehr gutes Englisch. | 70.000 bis 100.000 € Bruttojahresgehalt , abhängig von deiner Erfahrung, plus Equity (VSOP). | 100 % Remote-Arbeit. | Wenn du lieber ins Büro kommst, steht dir unser modernes Office in Bielefeld offen. | 30 Urlaubstage und 50 € monatlichen steuerfreien Sachbezug. | Unser Bewerbungsprozess Wenn die Kalender passen, können wir den gesamten Prozess innerhalb von fünf Tagen abschließen. | Find more English Speaking Jobs in Germany on Arbeitnow",
+   "remoteProof": "100 % Remote-Arbeit. | Wenn du lieber ins Büro kommst, steht dir unser modernes Office in Bielefeld offen.",
    "firstSeen": "2026-10-06T17:22:05+00:00"
   },
   {
