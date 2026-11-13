@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1086
+   "fetched": 1013
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 5131
+   "fetched": 3333
   },
   "remotive": {
    "fetched": 128
@@ -31,7 +31,7 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 528
+   "fetched": 540
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,48 +40,19 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1709,
-   "failed": 28
+   "checked": 1710,
+   "failed": 0
   }
  },
  "errors": {
-  "companies": {
-   "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
-   "Getolo": "HTTP 429",
-   "Moneyhub": "HTTP 429",
-   "TrustEngine": "HTTP 429",
-   "Thorlabs": "HTTP 429",
-   "AJAIA": "HTTP 429",
-   "Lamdax": "HTTP 429",
-   "Anypear": "HTTP 429",
-   "Dentons Europe": "HTTP 429",
-   "Cara Care": "HTTP 429",
-   "Seeq": "HTTP 429",
-   "Advancing Eco Agriculture": "HTTP 429",
-   "Thanx": "HTTP 429",
-   "QuickTeam": "HTTP 429",
-   "Creative Chaos": "HTTP 429",
-   "HERO Software GmbH": "HTTP 429",
-   "Circonomit GmbH": "HTTP 429",
-   "ReWorks Solutions": "HTTP 429",
-   "Exoticca": "HTTP 429",
-   "Archistar": "HTTP 429",
-   "Geomagical Labs": "HTTP 429",
-   "Runware": "HTTP 429",
-   "Portless": "HTTP 429",
-   "Awesome Motive": "HTTP 429",
-   "robusta": "HTTP 429",
-   "CentralApp": "HTTP 429",
-   "OpenFn": "HTTP 429"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 25,
+  "searchesThisRun": 14,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 405
+  "callsToday": 160,
+  "callsLast7Days": 430
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -141,58 +112,44 @@
   }
  },
  "probe": {
-  "tried": 95,
+  "tried": 13,
   "found": [
-   "ELITEBRAIN (smartrecruiters:elitebrain)",
-   "CaptivateIQ (lever:captivateiq)",
-   "CentralApp (workable:centralapp)",
-   "Lightspeedhq (ashby:lightspeedhq)",
-   "Altius Search Group (recruitee:altiussearchgroup)",
-   "SpotMe (greenhouse:spotme)",
-   "Appmatics GmbH (recruitee:appmatics)",
-   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
-   "FireMon (lever:firemon)",
-   "Belkins (lever:belkins)",
-   "Neon (ashby:neon)",
-   "Atmosera (lever:atmosera)",
-   "Business Wire (lever:businesswire)",
-   "OpenFn (workable:openfn)",
-   "Bosch Group (smartrecruiters:boschgroup)",
-   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)"
+   "Blackbird Lab (smartrecruiters:blackbirdlab)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
+  "tried": 199,
   "ok": 193
  },
- "collectedAt": "2026-11-13T20:47:11+00:00",
- "rawJobs": 86809,
- "matches": 269,
- "new": 10,
- "companies": 1794,
- "activeCompanies": 1709,
+ "collectedAt": "2026-11-13T21:10:44+00:00",
+ "rawJobs": 85941,
+ "matches": 241,
+ "new": 3,
+ "companies": 1795,
+ "activeCompanies": 1710,
  "funnel": {
-  "title": 83313,
-  "passed": 574,
-  "duplicate": 305,
-  "company": 158,
+  "title": 82590,
+  "company": 120,
+  "passed": 457,
   "salary": 14,
-  "location": 2548,
-  "employment": 30,
-  "too_old": 165
+  "duplicate": 216,
+  "employment": 32,
+  "location": 2555,
+  "too_old": 166
  },
  "matchesBySource": {
-  "adzuna": 99,
-  "arbeitnow": 23,
+  "adzuna": 76,
+  "arbeitnow": 5,
   "jobicy": 12,
   "recruitee": 19,
-  "ashby": 49,
+  "ashby": 60,
   "hn": 9,
   "greenhouse": 17,
   "arbeitsagentur": 16,
   "lever": 1,
   "weworkremotely": 7,
   "personio": 15,
+  "workable": 2,
   "smartrecruiters": 2
  }
 }
