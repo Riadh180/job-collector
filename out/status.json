@@ -1,28 +1,28 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1089
+   "fetched": 1100
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3335
+   "fetched": 3329
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 326
+   "fetched": 343
   },
   "remoteok": {
-   "fetched": 98
+   "fetched": 97
   },
   "himalayas": {
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 136
+   "fetched": 133
   },
   "hn": {
    "fetched": 274
@@ -31,27 +31,29 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 528
+   "fetched": 535
   },
   "jooble": {
-   "error": "HTTP 429"
+   "fetched": 170
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1711,
-   "failed": 0
+   "checked": 1706,
+   "failed": 1
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "RIWA GmbH": "HTTP 404"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
   "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 135,
+  "callsToday": 45,
   "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
@@ -111,63 +113,62 @@
    "ok": 106
   }
  },
+ "jooble_usage": {
+  "calls": 37
+ },
  "probe": {
   "tried": 115,
   "found": [
-   "ELITEBRAIN (smartrecruiters:elitebrain)",
-   "CaptivateIQ (lever:captivateiq)",
+   "Anima (ashby:anima)",
    "Empro GmbH (personio:empro)",
-   "Valsoft Corp (workable:valsoft-corp)",
-   "Lightspeedhq (ashby:lightspeedhq)",
-   "FireMon (lever:firemon)",
-   "Appmatics GmbH (recruitee:appmatics)",
-   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
    "Blackbird Lab (smartrecruiters:blackbirdlab)",
-   "Welo Global (lever:weloglobal)",
-   "Altius Search Group (recruitee:altiussearchgroup)",
-   "Belkins (lever:belkins)",
-   "Neon (ashby:neon)",
-   "Atmosera (lever:atmosera)",
-   "SpotMe (greenhouse:spotme)",
-   "Business Wire (lever:businesswire)",
-   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)",
-   "ABOUT YOU SE & Co. KG (smartrecruiters:aboutyougmbh)"
+   "Lightspeedhq (ashby:lightspeedhq)",
+   "Appmatics GmbH (recruitee:appmatics)",
+   "rocketlab (greenhouse:rocketlab)",
+   "remberg (ashby:remberg)",
+   "Alta Ares (ashby:alta-ares)",
+   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
+   "Go RH (lever:gorh)",
+   "Cockroach Labs (greenhouse:cockroachlabs)",
+   "Leland (ashby:leland)",
+   "ELITEBRAIN (smartrecruiters:elitebrain)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 193
+  "ok": 160
  },
- "collectedAt": "2026-11-13T22:11:32+00:00",
- "rawJobs": 86343,
- "matches": 263,
- "new": 12,
- "companies": 1796,
- "activeCompanies": 1711,
+ "collectedAt": "2026-11-14T11:31:27+00:00",
+ "rawJobs": 86626,
+ "matches": 260,
+ "new": 17,
+ "companies": 1791,
+ "activeCompanies": 1706,
  "funnel": {
-  "title": 82832,
-  "passed": 563,
-  "duplicate": 300,
-  "company": 158,
-  "salary": 13,
-  "location": 2573,
-  "employment": 31,
+  "title": 83047,
+  "passed": 565,
+  "duplicate": 305,
+  "company": 150,
+  "salary": 14,
+  "location": 2647,
+  "employment": 30,
   "too_old": 166
  },
  "matchesBySource": {
-  "adzuna": 102,
-  "arbeitnow": 4,
-  "jobicy": 12,
+  "adzuna": 100,
+  "jobicy": 11,
+  "himalayas": 2,
   "recruitee": 19,
-  "ashby": 56,
+  "ashby": 55,
   "hn": 9,
-  "greenhouse": 17,
+  "greenhouse": 16,
   "arbeitsagentur": 16,
-  "himalayas": 1,
+  "arbeitnow": 4,
   "lever": 1,
   "weworkremotely": 7,
   "personio": 15,
   "workable": 2,
+  "jooble": 1,
   "smartrecruiters": 2
  }
 }
