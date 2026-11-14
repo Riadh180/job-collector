@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1620
+   "fetched": 1108
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3329
+   "fetched": 3284
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 343
+   "fetched": 326
   },
   "remoteok": {
    "fetched": 97
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 133
+   "fetched": 132
   },
   "hn": {
    "fetched": 274
@@ -31,30 +31,61 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 535
+   "fetched": 554
   },
   "jooble": {
-   "fetched": 170
+   "fetched": 109
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1708,
-   "failed": 1
+   "checked": 1706,
+   "failed": 32
   }
  },
  "errors": {
   "companies": {
-   "RIWA GmbH": "HTTP 404"
+   "RIWA GmbH": "HTTP 404",
+   "Searoutes": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
+   "Paperpile": "HTTP 429",
+   "Thanx": "HTTP 429",
+   "QuickTeam": "HTTP 429",
+   "Creative Chaos": "HTTP 429",
+   "HERO Software GmbH": "HTTP 429",
+   "Circonomit GmbH": "HTTP 429",
+   "ReWorks Solutions": "HTTP 429",
+   "Exoticca": "HTTP 429",
+   "Archistar": "HTTP 429",
+   "Prominence Advisors": "HTTP 429",
+   "Geomagical Labs": "HTTP 429",
+   "Runware": "HTTP 429",
+   "Portless": "HTTP 429",
+   "Awesome Motive": "HTTP 429",
+   "robusta": "HTTP 429",
+   "Fuku": "HTTP 429"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 27,
+  "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 450
+  "callsToday": 45,
+  "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -114,45 +145,56 @@
   }
  },
  "jooble_usage": {
-  "calls": 37
+  "calls": 35
  },
  "probe": {
   "tried": 34,
   "found": [
-   "imc AG (greenhouse:imc)",
-   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)"
+   "Anima (ashby:anima)",
+   "eagle lsp (personio:eagle-lsp)",
+   "Empro GmbH (personio:empro)",
+   "8returns GmbH (ashby:8returns)",
+   "Koboldmetals (greenhouse:koboldmetals)",
+   "Fuku (workable:fuku)",
+   "Lightspeedhq (ashby:lightspeedhq)",
+   "Blackbird Lab (smartrecruiters:blackbirdlab)",
+   "Appmatics GmbH (recruitee:appmatics)",
+   "rocketlab (greenhouse:rocketlab)",
+   "remberg (ashby:remberg)",
+   "Alta Ares (ashby:alta-ares)",
+   "Go RH (lever:gorh)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 162
+  "ok": 160
  },
- "collectedAt": "2026-11-14T11:53:33+00:00",
- "rawJobs": 87310,
- "matches": 254,
- "new": 3,
- "companies": 1793,
- "activeCompanies": 1708,
+ "collectedAt": "2026-11-14T16:17:32+00:00",
+ "rawJobs": 84867,
+ "matches": 260,
+ "new": 21,
+ "companies": 1791,
+ "activeCompanies": 1706,
  "funnel": {
-  "title": 83671,
-  "company": 177,
-  "passed": 583,
-  "salary": 23,
-  "duplicate": 329,
-  "employment": 31,
-  "location": 2652,
-  "too_old": 166
+  "title": 81406,
+  "passed": 556,
+  "duplicate": 296,
+  "company": 150,
+  "salary": 13,
+  "location": 2540,
+  "employment": 30,
+  "too_old": 165
  },
  "matchesBySource": {
-  "adzuna": 95,
-  "jobicy": 11,
+  "adzuna": 101,
+  "arbeitnow": 6,
+  "jobicy": 10,
   "himalayas": 2,
   "recruitee": 19,
-  "ashby": 54,
+  "ashby": 55,
   "hn": 9,
   "greenhouse": 16,
   "arbeitsagentur": 16,
-  "arbeitnow": 4,
   "lever": 1,
   "weworkremotely": 7,
   "personio": 15,
