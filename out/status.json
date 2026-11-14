@@ -7,7 +7,7 @@
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3284
+   "fetched": 5037
   },
   "remotive": {
    "fetched": 128
@@ -28,19 +28,19 @@
    "fetched": 274
   },
   "workingnomads": {
-   "fetched": 36
+   "fetched": 35
   },
   "germantechjobs": {
    "fetched": 554
   },
   "jooble": {
-   "fetched": 109
+   "error": "HTTP 429"
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1706,
+   "checked": 1712,
    "failed": 32
   }
  },
@@ -50,9 +50,9 @@
    "Searoutes": "HTTP 429",
    "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
-   "Moneyhub": "HTTP 429",
    "Intertek": "HTTP 429",
    "Thorlabs": "HTTP 429",
    "AJAIA": "HTTP 429",
@@ -84,8 +84,8 @@
   "callsThisRun": 45,
   "searchesThisRun": 33,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 405
+  "callsToday": 135,
+  "callsLast7Days": 495
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -144,62 +144,48 @@
    "ok": 106
   }
  },
- "jooble_usage": {
-  "calls": 35
- },
  "probe": {
-  "tried": 34,
+  "tried": 32,
   "found": [
-   "Anima (ashby:anima)",
    "eagle lsp (personio:eagle-lsp)",
-   "Empro GmbH (personio:empro)",
    "8returns GmbH (ashby:8returns)",
    "Koboldmetals (greenhouse:koboldmetals)",
-   "Fuku (workable:fuku)",
-   "Lightspeedhq (ashby:lightspeedhq)",
-   "Blackbird Lab (smartrecruiters:blackbirdlab)",
-   "Appmatics GmbH (recruitee:appmatics)",
-   "rocketlab (greenhouse:rocketlab)",
-   "remberg (ashby:remberg)",
-   "Alta Ares (ashby:alta-ares)",
-   "Go RH (lever:gorh)"
+   "Fuku (workable:fuku)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
   "ok": 160
  },
- "collectedAt": "2026-11-14T16:17:32+00:00",
- "rawJobs": 84867,
- "matches": 260,
- "new": 21,
- "companies": 1791,
- "activeCompanies": 1706,
+ "collectedAt": "2026-11-14T16:29:13+00:00",
+ "rawJobs": 86892,
+ "matches": 272,
+ "new": 4,
+ "companies": 1797,
+ "activeCompanies": 1712,
  "funnel": {
-  "title": 81406,
-  "passed": 556,
-  "duplicate": 296,
+  "title": 83386,
+  "passed": 575,
+  "duplicate": 303,
   "company": 150,
   "salary": 13,
-  "location": 2540,
+  "location": 2566,
   "employment": 30,
   "too_old": 165
  },
  "matchesBySource": {
   "adzuna": 101,
-  "arbeitnow": 6,
+  "arbeitnow": 25,
   "jobicy": 10,
   "himalayas": 2,
   "recruitee": 19,
-  "ashby": 55,
+  "ashby": 49,
   "hn": 9,
   "greenhouse": 16,
   "arbeitsagentur": 16,
   "lever": 1,
   "weworkremotely": 7,
   "personio": 15,
-  "workable": 2,
-  "jooble": 1,
   "smartrecruiters": 2
  }
 }
