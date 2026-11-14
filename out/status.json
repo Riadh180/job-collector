@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1108
+   "fetched": 1032
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 5037
+   "fetched": 3275
   },
   "remotive": {
    "fetched": 128
@@ -22,13 +22,13 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 132
+   "fetched": 144
   },
   "hn": {
    "fetched": 274
   },
   "workingnomads": {
-   "fetched": 35
+   "fetched": 34
   },
   "germantechjobs": {
    "fetched": 554
@@ -40,8 +40,8 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1712,
-   "failed": 32
+   "checked": 1728,
+   "failed": 33
   }
  },
  "errors": {
@@ -77,15 +77,16 @@
    "Portless": "HTTP 429",
    "Awesome Motive": "HTTP 429",
    "robusta": "HTTP 429",
-   "Fuku": "HTTP 429"
+   "Fuku": "HTTP 429",
+   "Terabase Energy": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "callsThisRun": 25,
+  "searchesThisRun": 14,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 495
+  "callsToday": 160,
+  "callsLast7Days": 520
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -145,43 +146,51 @@
   }
  },
  "probe": {
-  "tried": 32,
+  "tried": 65,
   "found": [
-   "eagle lsp (personio:eagle-lsp)",
-   "8returns GmbH (ashby:8returns)",
-   "Koboldmetals (greenhouse:koboldmetals)",
-   "Fuku (workable:fuku)"
+   "Terabase Energy (workable:terabase-energy)",
+   "Enveda (lever:enveda)",
+   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
+   "RF Connect (smartrecruiters:rfconnect)",
+   "CaptivateIQ (lever:captivateiq)",
+   "ShyftLabs (lever:shyftlabs)",
+   "Spry Methods (lever:sprymethods)",
+   "AiFi (lever:aifi)",
+   "CruxOCM (lever:cruxocm)",
+   "Humble Robotics (lever:humble-robotics)",
+   "Termgrid Inc. (lever:termgrid)",
+   "Azumuta (recruitee:azumuta)",
+   "Company (ashby:company)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 160
+  "ok": 162
  },
- "collectedAt": "2026-11-14T16:29:13+00:00",
- "rawJobs": 86892,
- "matches": 272,
- "new": 4,
- "companies": 1797,
- "activeCompanies": 1712,
+ "collectedAt": "2026-11-14T19:41:31+00:00",
+ "rawJobs": 85257,
+ "matches": 238,
+ "new": 3,
+ "companies": 1813,
+ "activeCompanies": 1728,
  "funnel": {
-  "title": 83386,
-  "passed": 575,
-  "duplicate": 303,
-  "company": 150,
-  "salary": 13,
-  "location": 2566,
+  "title": 81947,
+  "company": 123,
+  "passed": 447,
+  "salary": 17,
+  "duplicate": 209,
   "employment": 30,
+  "location": 2521,
   "too_old": 165
  },
  "matchesBySource": {
-  "adzuna": 101,
-  "arbeitnow": 25,
+  "adzuna": 80,
+  "arbeitnow": 6,
   "jobicy": 10,
-  "himalayas": 2,
   "recruitee": 19,
-  "ashby": 49,
+  "ashby": 58,
   "hn": 9,
-  "greenhouse": 16,
+  "greenhouse": 15,
   "arbeitsagentur": 16,
   "lever": 1,
   "weworkremotely": 7,
