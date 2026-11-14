@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1100
+   "fetched": 1620
   },
   "arbeitsagentur": {
    "fetched": 314
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1706,
+   "checked": 1708,
    "failed": 1
   }
  },
@@ -51,10 +51,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 33,
+  "searchesThisRun": 27,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 405
+  "callsToday": 90,
+  "callsLast7Days": 450
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -117,49 +117,38 @@
   "calls": 37
  },
  "probe": {
-  "tried": 115,
+  "tried": 34,
   "found": [
-   "Anima (ashby:anima)",
-   "Empro GmbH (personio:empro)",
-   "Blackbird Lab (smartrecruiters:blackbirdlab)",
-   "Lightspeedhq (ashby:lightspeedhq)",
-   "Appmatics GmbH (recruitee:appmatics)",
-   "rocketlab (greenhouse:rocketlab)",
-   "remberg (ashby:remberg)",
-   "Alta Ares (ashby:alta-ares)",
-   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
-   "Go RH (lever:gorh)",
-   "Cockroach Labs (greenhouse:cockroachlabs)",
-   "Leland (ashby:leland)",
-   "ELITEBRAIN (smartrecruiters:elitebrain)"
+   "imc AG (greenhouse:imc)",
+   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 160
+  "ok": 162
  },
- "collectedAt": "2026-11-14T11:31:27+00:00",
- "rawJobs": 86626,
- "matches": 260,
- "new": 17,
- "companies": 1791,
- "activeCompanies": 1706,
+ "collectedAt": "2026-11-14T11:53:33+00:00",
+ "rawJobs": 87310,
+ "matches": 254,
+ "new": 3,
+ "companies": 1793,
+ "activeCompanies": 1708,
  "funnel": {
-  "title": 83047,
-  "passed": 565,
-  "duplicate": 305,
-  "company": 150,
-  "salary": 14,
-  "location": 2647,
-  "employment": 30,
+  "title": 83671,
+  "company": 177,
+  "passed": 583,
+  "salary": 23,
+  "duplicate": 329,
+  "employment": 31,
+  "location": 2652,
   "too_old": 166
  },
  "matchesBySource": {
-  "adzuna": 100,
+  "adzuna": 95,
   "jobicy": 11,
   "himalayas": 2,
   "recruitee": 19,
-  "ashby": 55,
+  "ashby": 54,
   "hn": 9,
   "greenhouse": 16,
   "arbeitsagentur": 16,
