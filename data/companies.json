@@ -2146,7 +2146,7 @@
   "slug": "riwagmbh",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-13",
-  "failCount": 2
+  "failCount": 1
  },
  {
   "name": "Duck Duck Go",
@@ -12177,8 +12177,7 @@
   "ats": "lever",
   "slug": "workwave",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-11-15",
-  "failCount": 1
+  "lastOk": "2026-11-15"
  },
  {
   "name": "Vendavo",
@@ -14430,10 +14429,18 @@
   "lastOk": "2026-11-15"
  },
  {
-  "name": "Anima",
+  "name": "SoluDyne",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "soludyne",
+  "addedBy": "probe 2026-11-15",
+  "lastOk": "2026-11-15"
+ },
+ {
+  "name": "Lyric, Inc.",
   "industry": "from job boards",
   "ats": "ashby",
-  "slug": "anima",
+  "slug": "lyric",
   "addedBy": "probe 2026-11-15",
   "lastOk": "2026-11-15"
  },
@@ -14478,6 +14485,22 @@
   "lastOk": "2026-11-15"
  },
  {
+  "name": "Bellota Labs",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "bellotalabs",
+  "addedBy": "probe 2026-11-15",
+  "lastOk": "2026-11-15"
+ },
+ {
+  "name": "Hivemapper",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "hivemapper",
+  "addedBy": "probe 2026-11-15",
+  "lastOk": "2026-11-15"
+ },
+ {
   "name": "Lightspeedhq",
   "industry": "from job boards",
   "ats": "ashby",
@@ -14486,10 +14509,18 @@
   "lastOk": "2026-11-15"
  },
  {
-  "name": "Lyric, Inc.",
+  "name": "Humble Robotics",
   "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "lyric",
+  "ats": "lever",
+  "slug": "humble-robotics",
+  "addedBy": "probe 2026-11-15",
+  "lastOk": "2026-11-15"
+ },
+ {
+  "name": "Red Wing Shoe Company",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "redwingshoecompany",
   "addedBy": "probe 2026-11-15",
   "lastOk": "2026-11-15"
  },
@@ -14510,14 +14541,6 @@
   "lastOk": "2026-11-15"
  },
  {
-  "name": "SwissPeak Partners GmbH",
-  "industry": "from job boards",
-  "ats": "recruitee",
-  "slug": "swisspeakpartnersgmbh",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
   "name": "remberg",
   "industry": "from job boards",
   "ats": "ashby",
@@ -14530,78 +14553,6 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "alta-ares",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "Apryse",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "apryse",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "Lyft",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "lyft",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "imc AG",
-  "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "imc",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "Roadrunner",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "roadrunner",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "OutcomesAI",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "outcomesai",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "Red Wing Shoe Company",
-  "industry": "from job boards",
-  "ats": "smartrecruiters",
-  "slug": "redwingshoecompany",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "Spot My Energy",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "spotmyenergy",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "Ciellos",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "ciellos",
-  "addedBy": "probe 2026-11-15",
-  "lastOk": "2026-11-15"
- },
- {
-  "name": "NetCologne IT Services GmbH",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "netcologne-it-services-gmbh",
   "addedBy": "probe 2026-11-15",
   "lastOk": "2026-11-15"
  }

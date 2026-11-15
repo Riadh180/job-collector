@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1430
+   "fetched": 1042
   },
   "arbeitsagentur": {
    "fetched": 313
   },
   "arbeitnow": {
-   "fetched": 4847
+   "fetched": 4843
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 356
+   "error": "no results"
   },
   "remoteok": {
    "fetched": 97
@@ -22,16 +22,16 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 140
+   "fetched": 146
   },
   "hn": {
-   "fetched": 275
+   "fetched": 276
   },
   "workingnomads": {
    "fetched": 34
   },
   "germantechjobs": {
-   "fetched": 563
+   "fetched": 564
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,22 +40,21 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1715,
-   "failed": 2
+   "checked": 1709,
+   "failed": 1
   }
  },
  "errors": {
   "companies": {
-   "RIWA GmbH": "HTTP 404",
-   "WorkWave": "HTTP 502"
+   "RIWA GmbH": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 31,
+  "searchesThisRun": 35,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 450
+  "callsToday": 45,
+  "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -117,45 +116,53 @@
  "probe": {
   "tried": 113,
   "found": [
-   "imc AG (greenhouse:imc)",
-   "Roadrunner (ashby:roadrunner)",
-   "OutcomesAI (lever:outcomesai)",
+   "SoluDyne (smartrecruiters:soludyne)",
+   "Lyric, Inc. (ashby:lyric)",
+   "Empro GmbH (personio:empro)",
+   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
+   "8returns GmbH (ashby:8returns)",
+   "Goegmbh (greenhouse:goegmbh)",
+   "Koboldmetals (greenhouse:koboldmetals)",
+   "Bellota Labs (lever:bellotalabs)",
+   "Hivemapper (smartrecruiters:hivemapper)",
+   "Lightspeedhq (ashby:lightspeedhq)",
+   "Humble Robotics (lever:humble-robotics)",
    "Red Wing Shoe Company (smartrecruiters:redwingshoecompany)",
-   "Spot My Energy (personio:spotmyenergy)",
-   "Ciellos (lever:ciellos)",
-   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)"
+   "Appmatics GmbH (recruitee:appmatics)",
+   "rocketlab (greenhouse:rocketlab)",
+   "remberg (ashby:remberg)",
+   "Alta Ares (ashby:alta-ares)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 192
+  "ok": 193
  },
- "collectedAt": "2026-11-15T16:50:17+00:00",
- "rawJobs": 88351,
- "matches": 260,
- "new": 2,
- "companies": 1800,
- "activeCompanies": 1715,
+ "collectedAt": "2026-11-15T18:31:18+00:00",
+ "rawJobs": 87246,
+ "matches": 257,
+ "new": 25,
+ "companies": 1794,
+ "activeCompanies": 1709,
  "funnel": {
-  "passed": 651,
-  "title": 84731,
-  "company": 124,
-  "location": 2624,
-  "duplicate": 391,
-  "salary": 15,
-  "employment": 33,
+  "title": 83902,
+  "company": 94,
+  "passed": 477,
+  "duplicate": 220,
+  "location": 2564,
+  "employment": 27,
+  "salary": 9,
   "too_old": 166
  },
  "matchesBySource": {
-  "adzuna": 93,
-  "jobicy": 10,
-  "arbeitnow": 17,
-  "himalayas": 2,
+  "adzuna": 97,
+  "arbeitnow": 19,
+  "himalayas": 1,
   "recruitee": 19,
   "hn": 9,
-  "greenhouse": 16,
+  "greenhouse": 15,
   "arbeitsagentur": 16,
-  "ashby": 51,
+  "ashby": 54,
   "lever": 1,
   "weworkremotely": 7,
   "personio": 15,
