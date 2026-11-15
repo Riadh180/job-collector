@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1382
+   "fetched": 1046
   },
   "arbeitsagentur": {
    "fetched": 313
   },
   "arbeitnow": {
-   "fetched": 3285
+   "fetched": 3272
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 296
+   "fetched": 306
   },
   "remoteok": {
    "fetched": 97
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 141
+   "fetched": 140
   },
   "hn": {
    "fetched": 275
@@ -31,16 +31,16 @@
    "fetched": 34
   },
   "germantechjobs": {
-   "fetched": 541
+   "fetched": 564
   },
   "jooble": {
-   "fetched": 164
+   "fetched": 104
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1720,
+   "checked": 1708,
    "failed": 31
   }
  },
@@ -81,10 +81,10 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 31,
+  "searchesThisRun": 35,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 450
+  "callsToday": 45,
+  "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -144,58 +144,57 @@
   }
  },
  "jooble_usage": {
-  "calls": 36
+  "calls": 34
  },
  "probe": {
   "tried": 120,
   "found": [
-   "imc AG (greenhouse:imc)",
-   "Red Wing Shoe Company (smartrecruiters:redwingshoecompany)",
-   "Spot My Energy (personio:spotmyenergy)",
-   "Ciellos (lever:ciellos)",
-   "RF Connect (smartrecruiters:rfconnect)",
-   "CaptivateIQ (lever:captivateiq)",
-   "ShyftLabs (lever:shyftlabs)",
-   "Spry Methods (lever:sprymethods)",
-   "AiFi (lever:aifi)",
-   "CruxOCM (lever:cruxocm)",
-   "Enveda (lever:enveda)",
-   "Humble Robotics (lever:humble-robotics)",
-   "Termgrid Inc. (lever:termgrid)",
-   "Azumuta (recruitee:azumuta)",
-   "NetCologne IT Services GmbH (personio:netcologne-it-services-gmbh)",
-   "ABOUT YOU SE & Co. KG (smartrecruiters:aboutyougmbh)"
+   "Anima (ashby:anima)",
+   "Empro GmbH (personio:empro)",
+   "Knuddels GmbH & Co. KG (recruitee:knuddels)",
+   "8returns GmbH (ashby:8returns)",
+   "Goegmbh (greenhouse:goegmbh)",
+   "Koboldmetals (greenhouse:koboldmetals)",
+   "Lightspeedhq (ashby:lightspeedhq)",
+   "Lyric, Inc. (ashby:lyric)",
+   "Appmatics GmbH (recruitee:appmatics)",
+   "rocketlab (greenhouse:rocketlab)",
+   "SwissPeak Partners GmbH (recruitee:swisspeakpartnersgmbh)",
+   "remberg (ashby:remberg)",
+   "Alta Ares (ashby:alta-ares)",
+   "Apryse (lever:apryse)",
+   "Lyft (greenhouse:lyft)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 192
+  "ok": 194
  },
- "collectedAt": "2026-11-15T12:25:55+00:00",
- "rawJobs": 85404,
- "matches": 247,
- "new": 1,
- "companies": 1805,
- "activeCompanies": 1720,
+ "collectedAt": "2026-11-15T15:56:32+00:00",
+ "rawJobs": 84733,
+ "matches": 256,
+ "new": 29,
+ "companies": 1793,
+ "activeCompanies": 1708,
  "funnel": {
-  "passed": 580,
-  "title": 81900,
-  "company": 121,
-  "location": 2584,
-  "duplicate": 333,
-  "salary": 14,
+  "title": 81334,
+  "company": 104,
+  "passed": 540,
+  "duplicate": 284,
+  "location": 2540,
   "employment": 33,
+  "salary": 10,
   "too_old": 165
  },
  "matchesBySource": {
-  "adzuna": 89,
-  "arbeitnow": 7,
+  "adzuna": 99,
+  "arbeitnow": 8,
   "jobicy": 9,
   "himalayas": 2,
   "recruitee": 19,
-  "ashby": 54,
+  "ashby": 53,
   "hn": 9,
-  "greenhouse": 16,
+  "greenhouse": 15,
   "arbeitsagentur": 16,
   "lever": 1,
   "weworkremotely": 7,
