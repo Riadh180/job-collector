@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1032
+   "fetched": 999
   },
   "arbeitsagentur": {
    "fetched": 314
   },
   "arbeitnow": {
-   "fetched": 3275
+   "fetched": 4906
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 326
+   "fetched": 296
   },
   "remoteok": {
    "fetched": 97
@@ -22,16 +22,16 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 144
+   "fetched": 141
   },
   "hn": {
-   "fetched": 274
+   "fetched": 275
   },
   "workingnomads": {
    "fetched": 34
   },
   "germantechjobs": {
-   "fetched": 554
+   "fetched": 541
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,16 +40,16 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1728,
-   "failed": 33
+   "checked": 1704,
+   "failed": 31
   }
  },
  "errors": {
   "companies": {
    "RIWA GmbH": "HTTP 404",
    "Searoutes": "HTTP 429",
-   "Writesonic": "HTTP 429",
    "Getolo": "HTTP 429",
+   "Writesonic": "HTTP 429",
    "Moneyhub": "HTTP 429",
    "TrustEngine": "HTTP 429",
    "HireHawk": "HTTP 429",
@@ -76,17 +76,15 @@
    "Runware": "HTTP 429",
    "Portless": "HTTP 429",
    "Awesome Motive": "HTTP 429",
-   "robusta": "HTTP 429",
-   "Fuku": "HTTP 429",
-   "Terabase Energy": "HTTP 429"
+   "robusta": "HTTP 429"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 14,
+  "callsThisRun": 45,
+  "searchesThisRun": 35,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 520
+  "callsToday": 45,
+  "callsLast7Days": 405
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -134,7 +132,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=290, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=288, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
@@ -148,47 +146,46 @@
  "probe": {
   "tried": 65,
   "found": [
-   "Terabase Energy (workable:terabase-energy)",
-   "Enveda (lever:enveda)",
+   "Anima (ashby:anima)",
+   "eagle lsp (personio:eagle-lsp)",
+   "Empro GmbH (personio:empro)",
    "Knuddels GmbH & Co. KG (recruitee:knuddels)",
-   "RF Connect (smartrecruiters:rfconnect)",
-   "CaptivateIQ (lever:captivateiq)",
-   "ShyftLabs (lever:shyftlabs)",
-   "Spry Methods (lever:sprymethods)",
-   "AiFi (lever:aifi)",
-   "CruxOCM (lever:cruxocm)",
-   "Humble Robotics (lever:humble-robotics)",
-   "Termgrid Inc. (lever:termgrid)",
-   "Azumuta (recruitee:azumuta)",
-   "Company (ashby:company)"
+   "8returns GmbH (ashby:8returns)",
+   "Koboldmetals (greenhouse:koboldmetals)",
+   "Lightspeedhq (ashby:lightspeedhq)",
+   "Appmatics GmbH (recruitee:appmatics)",
+   "rocketlab (greenhouse:rocketlab)",
+   "remberg (ashby:remberg)",
+   "Alta Ares (ashby:alta-ares)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 162
+  "ok": 177
  },
- "collectedAt": "2026-11-14T19:41:31+00:00",
- "rawJobs": 85257,
- "matches": 238,
- "new": 3,
- "companies": 1813,
- "activeCompanies": 1728,
+ "collectedAt": "2026-11-15T10:56:40+00:00",
+ "rawJobs": 86093,
+ "matches": 269,
+ "new": 30,
+ "companies": 1789,
+ "activeCompanies": 1704,
  "funnel": {
-  "title": 81947,
-  "company": 123,
-  "passed": 447,
-  "salary": 17,
-  "duplicate": 209,
-  "employment": 30,
-  "location": 2521,
+  "title": 82606,
+  "company": 103,
+  "passed": 550,
+  "duplicate": 281,
+  "location": 2620,
+  "employment": 32,
+  "salary": 10,
   "too_old": 165
  },
  "matchesBySource": {
-  "adzuna": 80,
-  "arbeitnow": 6,
-  "jobicy": 10,
+  "adzuna": 101,
+  "arbeitnow": 19,
+  "jobicy": 9,
+  "himalayas": 2,
   "recruitee": 19,
-  "ashby": 58,
+  "ashby": 53,
   "hn": 9,
   "greenhouse": 15,
   "arbeitsagentur": 16,
