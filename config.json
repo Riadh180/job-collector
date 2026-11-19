@@ -371,13 +371,10 @@
   "embedded",
   "firmware",
   "hardware",
-  "data engineer",
   "data scientist",
   "data search",
   "machine learning",
   "ml engineer",
-  "ai engineer",
-  "analytics engineer",
   "distributed systems",
   "sdk",
   "sap",
@@ -428,7 +425,10 @@
   "android",
   "designer",
   "platform engineer",
-  "python"
+  "python",
+  "data engineer",
+  "ai engineer",
+  "analytics engineer"
  ],
  "company_exclude": [
   "lemon.io",

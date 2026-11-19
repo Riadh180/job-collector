@@ -22,6 +22,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -48,8 +49,12 @@ def http(url, headers=None, timeout=25, retries=1):
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.status, r.read()
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < retries:  # rate limited: wait and try again
-                time.sleep(6 * (attempt + 1))
+            if e.code == 429 and attempt < retries:  # rate limited: wait (Retry-After if given) and try again
+                try:
+                    wait = min(30, max(3, int(e.headers.get("Retry-After") or 0)))
+                except Exception:
+                    wait = 0
+                time.sleep(wait or 8 * (attempt + 1))
                 continue
             return e.code, b""
         except Exception as e:  # timeouts, DNS, resets
@@ -350,10 +355,28 @@ def lever(c):
     return out
 
 
+# Personio rate-limits (HTTP 429) when many boards are fetched at once from one IP.
+# Since 18 Nov 2026 almost every Personio board failed that way, so: at most 2 calls at a time,
+# a short pause after each, and retries with back-off.
+SLOW_ATS = {"personio": threading.Semaphore(2), "workable": threading.Semaphore(2)}
+RATE_LIMITED = {"personio": 0}
+
+
+def slow_http(ats, url, pause=0.6):
+    with SLOW_ATS[ats]:
+        code, body = http(url, retries=3)
+        time.sleep(pause)
+    if code == 429:
+        RATE_LIMITED[ats] = RATE_LIMITED.get(ats, 0) + 1
+    return code, body
+
+
 def personio(c):
     last = None
     for tld in ([c["tld"]] if c.get("tld") else ["de", "com"]):
-        code, body = http(f"https://{c['slug']}.jobs.personio.{tld}/xml?language=en")
+        code, body = slow_http("personio", f"https://{c['slug']}.jobs.personio.{tld}/xml?language=en")
+        if code == 429:
+            raise RuntimeError("HTTP 429")
         if code != 200 or not body.strip().startswith(b"<"):
             last = f"HTTP {code}"
             continue
@@ -390,7 +413,11 @@ def recruitee(c):
 
 
 def workable(c):
-    code, j = get_json(f"https://apply.workable.com/api/v1/widget/accounts/{c['slug']}?details=true")
+    code, body = slow_http("workable", f"https://apply.workable.com/api/v1/widget/accounts/{c['slug']}?details=true", 0.4)
+    try:
+        j = json.loads(body.decode("utf-8", "replace")) if code == 200 else None
+    except Exception:
+        j = None
     if j is None:
         raise RuntimeError(f"HTTP {code}")
     out = []
@@ -1044,6 +1071,8 @@ def probe_one(name, industry):
             if jobs and plausible(jobs):
                 return c
     for slug in slug_variants(name):
+        if RATE_LIMITED.get("personio"):
+            break  # keep Personio's limit for the real company boards
         c = dict(name=name, industry=industry, ats="personio", slug=slug)
         try:
             jobs = personio(c)
@@ -1173,6 +1202,13 @@ def main():
     def fetch_company(c):
         return c, FETCHERS[c["ats"]](c)
 
+    # One-time repair (19 Nov 2026): boards switched off without a stored reason were mostly
+    # switched off by rate limits, not because they are gone. Give them a fresh start.
+    for c in companies:
+        if c.get("disabled") and not c.get("disabledReason"):
+            c.pop("disabled", None)
+            c.pop("failCount", None)
+
     active = [c for c in companies if not c.get("disabled")]
     with cf.ThreadPoolExecutor(16) as ex:
         futs = {ex.submit(fetch_company, c): c for c in active}
@@ -1184,11 +1220,15 @@ def main():
                 c["lastOk"] = TODAY
                 c.pop("failCount", None)
             except Exception as e:
-                c["failCount"] = c.get("failCount", 0) + 1
                 fails[c["name"]] = str(e)[:80]
+                if "429" in str(e):
+                    continue  # rate limited: try again next run, never switch the company off for it
+                c["failCount"] = c.get("failCount", 0) + 1
                 if c["failCount"] >= 5:
                     c["disabled"] = True
-    STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails)}
+                    c["disabledReason"] = str(e)[:80]
+    STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails),
+                                      "rateLimited": sum(1 for v in fails.values() if "429" in v)}
     STATUS["errors"]["companies"] = fails
 
     try:
