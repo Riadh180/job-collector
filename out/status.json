@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1551
+   "fetched": 1512
   },
   "arbeitsagentur": {
-   "fetched": 336
+   "fetched": 334
   },
   "arbeitnow": {
-   "fetched": 5664
+   "fetched": 3377
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 336
+   "fetched": 283
   },
   "remoteok": {
    "fetched": 97
@@ -22,40 +22,40 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 88
+   "fetched": 95
   },
   "hn": {
-   "fetched": 274
+   "fetched": 273
   },
   "workingnomads": {
-   "fetched": 36
+   "fetched": 39
   },
   "germantechjobs": {
-   "fetched": 595
+   "fetched": 804
   },
   "jooble": {
-   "error": "HTTP 429"
+   "fetched": 155
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1806,
-   "failed": 400
+   "checked": 1786,
+   "failed": 401
   }
  },
  "errors": {
   "companies": {
-   "envelio": "HTTP 429",
-   "i22": "HTTP 429",
    "Pixum": "HTTP 429",
-   "Jedox": "HTTP 429",
-   "Parqet": "HTTP 429",
+   "envelio": "HTTP 429",
    "Kaufland e-commerce (real.digital)": "HTTP 429",
-   "journaway": "HTTP 429",
-   "auxmoney": "HTTP 429",
    "chargecloud": "HTTP 429",
+   "auxmoney": "HTTP 429",
+   "journaway": "HTTP 429",
+   "i22": "HTTP 429",
+   "Jedox": "HTTP 429",
    "1KOMMA5°": "HTTP 429",
+   "Parqet": "HTTP 429",
    "JTL-Software": "HTTP 429",
    "Four 20 Pharma": "HTTP 429",
    "zollsoft": "HTTP 429",
@@ -64,38 +64,43 @@
    "OH-SO Digital": "HTTP 429",
    "Semdor Pharma Group": "HTTP 429",
    "Clarius Group": "HTTP 429",
+   "Semdor Pharma Group": "HTTP 429",
    "METYCLE": "HTTP 429",
-   "Athletic Sport Sponsoring": "HTTP 429",
    "JobLeads": "HTTP 429",
+   "Athletic Sport Sponsoring": "HTTP 429",
    "JobRad Loop": "HTTP 429",
    "ruhrdot": "HTTP 429",
    "Flossbach von Storch": "HTTP 429",
    "viind": "HTTP 429",
+   "ruhrdot": "HTTP 429",
+   "Flossbach von Storch": "HTTP 429",
    "Governikus": "HTTP 429",
    "Merantix": "HTTP 429",
    "Workpath": "HTTP 429",
    "Ottonova": "HTTP 429",
    "Clark": "HTTP 429",
+   "Ottonova": "HTTP 429",
    "Feather": "HTTP 429",
-   "Tomorrow": "HTTP 429",
+   "Thermondo": "HTTP 429",
    "Node.Energy": "HTTP 429",
-   "gridX": "HTTP 429",
    "Enviria": "HTTP 429",
+   "Tomorrow": "HTTP 429",
+   "gridX": "HTTP 429",
    "Wirelane": "HTTP 429",
    "Ionity": "HTTP 429",
    "Entrix": "HTTP 429",
-   "Thermondo": "HTTP 429",
    "Temedica": "HTTP 429",
    "Floy": "HTTP 429",
    "Data4Life": "HTTP 429",
    "Merantix Momentum": "HTTP 429",
    "OroraTech": "HTTP 429",
+   "Reflex Aerospace": "HTTP 429",
    "Stark": "HTTP 429",
    "LiveEO": "HTTP 429",
-   "Reflex Aerospace": "HTTP 429",
    "Wandelbots": "HTTP 429",
    "Magazino": "HTTP 429",
    "Franka Robotics": "HTTP 429",
+   "Magazino": "HTTP 429",
    "ioki": "HTTP 429",
    "MBition": "HTTP 429",
    "Westwing": "HTTP 429",
@@ -109,8 +114,8 @@
    "Ratepay": "HTTP 429",
    "Banxware": "HTTP 429",
    "Legartis": "HTTP 429",
-   "APRIORI – BUSINESS SOLUTIONS AG": "HTTP 429",
    "LiveEO GmbH": "HTTP 429",
+   "APRIORI – BUSINESS SOLUTIONS AG": "HTTP 429",
    "Twentyfour Industries": "HTTP 429",
    "Adacor Hosting GmbH": "HTTP 429",
    "Metergrid": "HTTP 429",
@@ -126,8 +131,8 @@
    "Contabo": "HTTP 429",
    "Legalhero": "HTTP 429",
    "Homeserve": "HTTP 429",
-   "Topi": "HTTP 429",
    "Meondi": "HTTP 429",
+   "Topi": "HTTP 429",
    "Hubject Gmbh": "HTTP 429",
    "autonomous-teaming": "HTTP 429",
    "Alteos": "HTTP 429",
@@ -143,19 +148,19 @@
    "nerdware GmbH": "HTTP 429",
    "Sides": "HTTP 429",
    "Predium": "HTTP 429",
-   "Trusteq": "HTTP 429",
    "Workidentity": "HTTP 429",
    "Cito Transport Technologies GmbH": "HTTP 429",
+   "Trusteq": "HTTP 429",
    "conlab solutions GmbH": "HTTP 429",
    "yoursquares GmbH": "HTTP 429",
-   "Melting Elements GmbH": "HTTP 429",
    "PixelProduction": "HTTP 429",
+   "Melting Elements GmbH": "HTTP 429",
    "PixelProduction GmbH & Co. KG": "HTTP 429",
    "Skalbach GmbH": "HTTP 429",
    "Rhein Nadel Automation Gmbh": "HTTP 429",
    "TWAICE": "HTTP 429",
-   "Yoursquares": "HTTP 429",
    "Lpe Immobilien Management Gmbh": "HTTP 429",
+   "Yoursquares": "HTTP 429",
    "PAGNOS": "HTTP 429",
    "Greenlyte Carbon Technologies": "HTTP 429",
    "Cell Labs": "HTTP 429",
@@ -165,8 +170,8 @@
    "SEITENBAU": "HTTP 429",
    "TIMETOACT GROUP GmbH": "HTTP 429",
    "VESTIGAS GmbH": "HTTP 429",
-   "Assecor GmbH": "HTTP 429",
    "Reflex Aerospace GmbH": "HTTP 429",
+   "Assecor GmbH": "HTTP 429",
    "Imfusion": "HTTP 429",
    "Trg": "HTTP 429",
    "Vivid": "HTTP 429",
@@ -192,6 +197,7 @@
    "Hirschen Group GmbH": "HTTP 429",
    "Education Partners": "HTTP 429",
    "Ayunis": "HTTP 429",
+   "Opentas": "HTTP 429",
    "Workist Gmbh": "HTTP 429",
    "Opentas": "HTTP 429",
    "Voiio": "HTTP 429",
@@ -206,15 +212,15 @@
    "Ahead Gmbh": "HTTP 429",
    "Eraneos": "HTTP 429",
    "Solactive": "HTTP 429",
-   "Tilta": "HTTP 429",
    "Nerdware": "HTTP 429",
-   "Bitcap": "HTTP 429",
+   "Tilta": "HTTP 429",
    "Meierhofer": "HTTP 429",
+   "Bitcap": "HTTP 429",
    "Alexander Thamm Gmbh": "HTTP 429",
    "Valuenet Group": "HTTP 429",
-   "Cofinity-X GmbH": "HTTP 429",
    "Ruhrdot Gmbh": "HTTP 429",
    "Ecoplanet Green Operations Gmbh": "HTTP 429",
+   "Cofinity-X GmbH": "HTTP 429",
    "JACOB Elektronik GmbH": "HTTP 429",
    "Idealworks": "HTTP 429",
    "Pair": "HTTP 429",
@@ -222,8 +228,9 @@
    "Checkmk GmbH": "HTTP 429",
    "Its Gruppe": "HTTP 429",
    "Invensity Group": "HTTP 429",
-   "Pink University Gmbh": "HTTP 429",
    "proLogistik Group": "HTTP 429",
+   "Pink University Gmbh": "HTTP 429",
+   "42Watt": "HTTP 429",
    "Raysono": "HTTP 429",
    "42Watt": "HTTP 429",
    "Xempus AG": "HTTP 429",
@@ -235,13 +242,14 @@
    "Feld Energy": "HTTP 429",
    "Avelion Group": "HTTP 429",
    "Project Q": "HTTP 429",
+   "Boston Imaging": "HTTP 404",
    "Reeeliance": "HTTP 429",
    "Kranus Health GmbH": "HTTP 429",
    "Cito Transport Technologies": "HTTP 429",
+   "Interlead GmbH": "HTTP 429",
    "STABL Energy": "HTTP 429",
    "Bikeleasing": "HTTP 429",
    "Theobald Software GmbH": "HTTP 429",
-   "Interlead GmbH": "HTTP 429",
    "Dornier MedTech GmbH": "HTTP 429",
    "Omnora GmbH": "HTTP 429",
    "syte GmbH": "HTTP 429",
@@ -260,8 +268,8 @@
    "Solactive AG": "HTTP 429",
    "Boardwise": "HTTP 429",
    "Polarise": "HTTP 429",
-   "Rausgegangen GmbH": "HTTP 429",
    "Certivity": "HTTP 429",
+   "Rausgegangen GmbH": "HTTP 429",
    "BV Bestseller Verlag GmbH": "HTTP 429",
    "Chrono24": "HTTP 429",
    "truckoo GmbH": "HTTP 429",
@@ -288,9 +296,9 @@
    "SysEleven GmbH": "HTTP 429",
    "einwert": "HTTP 429",
    "Fact Finder": "HTTP 429",
+   "Accurids GmbH": "HTTP 429",
    "Xibix Solutions Gmbh": "HTTP 429",
    "Knick Gmbh": "HTTP 429",
-   "Accurids GmbH": "HTTP 429",
    "Satellite Office": "HTTP 429",
    "Alteos GmbH": "HTTP 429",
    "Doc Cirrus GmbH": "HTTP 429",
@@ -305,7 +313,6 @@
    "Pets Deli": "HTTP 429",
    "Q.ANT GmbH": "HTTP 429",
    "Entrix GmbH": "HTTP 429",
-   "Tonies": "HTTP 429",
    "Techpilot": "HTTP 429",
    "Aampere GmbH": "HTTP 429",
    "CKM Group": "HTTP 429",
@@ -323,14 +330,14 @@
    "Wallround GmbH": "HTTP 429",
    "Starface GmbH": "HTTP 429",
    "SpotmyEnergy GmbH": "HTTP 429",
-   "Webmatch GmbH": "HTTP 429",
    "brandung GmbH": "HTTP 429",
+   "Webmatch GmbH": "HTTP 429",
    "Arvana": "HTTP 429",
    "SMF GmbH": "HTTP 429",
    "Dataciders GmbH": "HTTP 429",
-   "ImFusion GmbH": "HTTP 429",
    "DocuWare GmbH": "HTTP 429",
    "Maiwald GmbH": "HTTP 429",
+   "ImFusion GmbH": "HTTP 429",
    "octonomy AI GmbH": "HTTP 429",
    "Viboo AG": "HTTP 429",
    "LRE Medical GmbH": "HTTP 429",
@@ -341,8 +348,8 @@
    "Wire 1": "HTTP 429",
    "Enopai": "HTTP 429",
    "PCS Systemtechnik GmbH": "HTTP 429",
-   "logicc": "HTTP 429",
    "Cloover": "HTTP 429",
+   "logicc": "HTTP 429",
    "PartSpace GmbH": "HTTP 429",
    "Meierhofer AG": "HTTP 429",
    "FAST LTA GmbH": "HTTP 429",
@@ -353,8 +360,8 @@
    "Ampere AG": "HTTP 429",
    "Carbmee GmbH": "HTTP 429",
    "EMIL Group GmbH": "HTTP 429",
-   "Governikus GmbH & Co. KG": "HTTP 429",
    "fellowork": "HTTP 429",
+   "Governikus GmbH & Co. KG": "HTTP 429",
    "HOLOPLOT GmbH": "HTTP 429",
    "Wealth Collect": "HTTP 429",
    "Building Radar GmbH": "HTTP 429",
@@ -404,8 +411,8 @@
    "LIDROTEC GmbH": "HTTP 429",
    "Autohaus Royal": "HTTP 429",
    "Peak One GmbH": "HTTP 429",
-   "HiQ GmbH": "HTTP 429",
    "knk Gruppe": "HTTP 429",
+   "HiQ GmbH": "HTTP 429",
    "Aampere": "HTTP 429",
    "Mobimeo": "HTTP 429",
    "KAURI CAB": "HTTP 429",
@@ -435,8 +442,8 @@
    "YLAB GmbH": "HTTP 429",
    "Ray Sono GmbH": "HTTP 429",
    "MAI Group": "HTTP 429",
-   "qwitto": "HTTP 429",
    "SPREAD GmbH": "HTTP 429",
+   "qwitto": "HTTP 429",
    "WEFRA LIFE GmbH": "HTTP 429",
    "Interlead": "HTTP 429",
    "Empro GmbH": "HTTP 429",
@@ -452,8 +459,8 @@
   "callsThisRun": 45,
   "searchesThisRun": 31,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 520
+  "callsToday": 45,
+  "callsLast7Days": 430
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -504,70 +511,70 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=299, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=298, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 57,
   "failed": 0,
-  "jobs": 336,
+  "jobs": 334,
   "details": {
-   "tried": 114,
-   "ok": 114
+   "tried": 111,
+   "ok": 111
   }
  },
+ "jooble_usage": {
+  "calls": 36
+ },
  "probe": {
-  "tried": 101,
+  "tried": 120,
   "found": [
-   "Evista Kft (smartrecruiters:evistakft)",
-   "AFRY (smartrecruiters:afry)",
-   "Fit1Job SA (smartrecruiters:fit1jobsa)",
+   "shopware AG (recruitee:shopwareag)",
    "Maltego (personio:maltego)",
-   "INFUSE (greenhouse:infuse)",
-   "Unanet (greenhouse:unanet)",
-   "HighSolutions Sp. z o. o. (smartrecruiters:highsolutionsspzoo)",
-   "EDT Global (smartrecruiters:edtglobal)",
-   "Zippi (lever:zippi)",
-   "Atmosera (lever:atmosera)",
-   "The Sales Factory (lever:thesalesfactory)",
-   "Included Health (lever:includedhealth)",
-   "Smartylink (smartrecruiters:smartylink)",
-   "Incorta (lever:incorta)"
+   "Foodji GmbH (recruitee:foodji)",
+   "Payrails (ashby:payrails)",
+   "Applike Group (ashby:applike-group)",
+   "Emplifi (greenhouse:emplifi)",
+   "Hatch IT (lever:hatchit)",
+   "Digipercept (smartrecruiters:digipercept)",
+   "Allye Energy (smartrecruiters:allyeenergy)",
+   "Collibra (greenhouse:collibra)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 195
+  "ok": 197
  },
- "collectedAt": "2026-11-18T22:28:20+00:00",
- "rawJobs": 88991,
- "matches": 261,
- "new": 1,
- "companies": 1893,
- "activeCompanies": 1806,
+ "collectedAt": "2026-11-19T10:44:12+00:00",
+ "rawJobs": 85202,
+ "matches": 238,
+ "new": 23,
+ "companies": 1872,
+ "activeCompanies": 1786,
  "funnel": {
-  "title": 85350,
-  "passed": 622,
-  "company": 89,
-  "duplicate": 361,
-  "location": 2770,
-  "salary": 16,
-  "employment": 23,
-  "too_old": 119
+  "location": 2754,
+  "passed": 522,
+  "title": 81688,
+  "company": 88,
+  "duplicate": 284,
+  "salary": 12,
+  "employment": 21,
+  "too_old": 115
  },
  "matchesBySource": {
-  "himalayas": 2,
-  "adzuna": 104,
-  "arbeitsagentur": 17,
-  "jobicy": 10,
-  "weworkremotely": 6,
-  "ashby": 58,
-  "greenhouse": 17,
-  "arbeitnow": 16,
-  "germantechjobs": 2,
+  "adzuna": 87,
+  "arbeitsagentur": 16,
+  "arbeitnow": 5,
+  "jobicy": 9,
+  "himalayas": 1,
+  "weworkremotely": 8,
+  "germantechjobs": 3,
+  "ashby": 60,
+  "greenhouse": 18,
   "recruitee": 15,
   "hn": 9,
+  "smartrecruiters": 3,
   "lever": 1,
   "workable": 2,
-  "smartrecruiters": 2
+  "jooble": 1
  }
 }
