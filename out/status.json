@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 338
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 353
   },
   "arbeitnow": {
-   "fetched": 3366
+   "fetched": 5687
   },
   "remotive": {
    "fetched": 120
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 107
+   "fetched": 102
   },
   "hn": {
    "fetched": 273
@@ -31,7 +31,7 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 687
+   "fetched": 731
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,52 +40,50 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1899,
-   "failed": 34,
+   "checked": 1901,
+   "failed": 32,
    "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
    "saas.group": "<urlopen error [Errno -2] Name or service not known>",
+   "Constructor Knowledge Labs": "<urlopen error [Errno -2] Name or service not known>",
    "Parloa": "HTTP 404",
    "Doctolib": "HTTP 404",
-   "Constructor Knowledge Labs": "<urlopen error [Errno -2] Name or service not known>",
+   "Candis": "HTTP 404",
    "Constellr": "HTTP 404",
    "Sixt": "HTTP 404",
-   "Candis": "HTTP 404",
    "Planradar": "HTTP 404",
    "Softgarden": "HTTP 404",
-   "Architrave": "HTTP 404",
    "Lendis": "HTTP 404",
+   "Architrave": "HTTP 404",
    "Silvernova GmbH": "HTTP 404",
    "RIWA GmbH": "HTTP 404",
    "Cribl": "HTTP 404",
-   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
    "Xolife": "HTTP 404",
+   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
+   "VIAVI Solutions": "HTTP 404",
    "Fresha": "HTTP 404",
-   "Konfetti GmbH": "HTTP 404",
-   "Chooose": "HTTP 404",
+   "Boston Imaging": "HTTP 404",
    "Docsumo": "HTTP 404",
    "InfStones": "HTTP 404",
-   "Boston Imaging": "HTTP 404",
-   "VIAVI Solutions": "HTTP 404",
+   "Konfetti GmbH": "HTTP 404",
    "Overstory": "HTTP 404",
+   "Chooose": "HTTP 404",
+   "Aircall": "HTTP 404",
    "Haiilo": "HTTP 404",
    "Empower": "HTTP 404",
    "NAXCON GmbH": "HTTP 404",
    "DevGrid": "HTTP 404",
-   "Aircall": "HTTP 404",
    "Optios": "HTTP 404",
    "EY": "HTTP 404",
-   "Wealth Collect": "HTTP 404",
-   "Sika AG": "HTTP 404",
    "Shieldai": "HTTP 404"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 22,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 160,
   "callsLast7Days": 545
@@ -151,48 +149,48 @@
   }
  },
  "probe": {
-  "tried": 85,
+  "tried": 45,
   "found": [
-   "ConnectAd (workable:connectad)",
-   "Ampd Energy (lever:ampd-energy)",
-   "Ping Identity (greenhouse:pingidentity)"
+   "ShopMy (greenhouse:shopmy)",
+   "Lovehoney Group (lever:lovehoneygroup)",
+   "Airalo (lever:airalo)",
+   "Ardas (smartrecruiters:ardas)"
   ]
  },
  "adzuna_pages": {
-  "tried": 105,
-  "ok": 103
+  "tried": 0,
+  "ok": 0
  },
- "collectedAt": "2026-11-19T19:44:03+00:00",
- "rawJobs": 95057,
- "matches": 218,
+ "collectedAt": "2026-11-19T22:33:55+00:00",
+ "rawJobs": 97145,
+ "matches": 185,
  "new": 0,
- "companies": 1899,
- "activeCompanies": 1899,
+ "companies": 1903,
+ "activeCompanies": 1901,
  "funnel": {
-  "passed": 336,
-  "duplicate": 118,
-  "company": 34,
-  "title": 91453,
-  "employment": 17,
-  "salary": 7,
-  "location": 3040,
-  "too_old": 161
+  "passed": 269,
+  "title": 93577,
+  "duplicate": 84,
+  "too_old": 160,
+  "company": 19,
+  "location": 3092,
+  "employment": 16,
+  "salary": 3
  },
  "matchesBySource": {
-  "adzuna": 48,
-  "arbeitsagentur": 18,
+  "arbeitsagentur": 21,
   "germantechjobs": 3,
-  "ashby": 65,
-  "arbeitnow": 5,
+  "ashby": 63,
+  "arbeitnow": 17,
   "jobicy": 9,
-  "weworkremotely": 8,
-  "greenhouse": 18,
-  "recruitee": 16,
+  "weworkremotely": 7,
+  "greenhouse": 19,
+  "recruitee": 17,
   "hn": 9,
+  "himalayas": 3,
   "smartrecruiters": 3,
   "lever": 1,
-  "personio": 10,
-  "workable": 2,
-  "himalayas": 3
+  "personio": 11,
+  "workable": 2
  }
 }
