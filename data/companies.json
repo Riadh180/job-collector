@@ -4071,7 +4071,8 @@
   "ats": "greenhouse",
   "slug": "workato",
   "addedBy": "probe 2026-10-07",
-  "lastOk": "2026-11-20"
+  "lastOk": "2026-11-20",
+  "failCount": 1
  },
  {
   "name": "soundcloud71",
@@ -6914,7 +6915,8 @@
   "ats": "lever",
   "slug": "caseware",
   "addedBy": "probe 2026-10-10",
-  "lastOk": "2026-11-20"
+  "lastOk": "2026-11-20",
+  "failCount": 1
  },
  {
   "name": "Devoteam",
@@ -12391,8 +12393,7 @@
   "ats": "lever",
   "slug": "pushpress",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-20",
-  "failCount": 1
+  "lastOk": "2026-11-20"
  },
  {
   "name": "Revolution Medicines",
@@ -15473,6 +15474,38 @@
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "flyingbisons",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Rhoda Ai",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "rhoda-ai",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "N2JSoft",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "n2jsoft",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Parallel Wireless",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "parallelwireless",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Cockroach Labs",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "cockroachlabs",
   "addedBy": "probe 2026-11-20",
   "lastOk": "2026-11-20"
  }

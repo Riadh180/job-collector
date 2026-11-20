@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 868
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 350
   },
   "arbeitnow": {
-   "fetched": 3601
+   "fetched": 3590
   },
   "remotive": {
    "fetched": 128
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 134
+   "fetched": 144
   },
   "hn": {
    "fetched": 272
@@ -40,51 +40,20 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1915,
-   "failed": 33,
+   "checked": 1887,
+   "failed": 2,
    "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
-   "saas.group": "<urlopen error [Errno -2] Name or service not known>",
-   "Parloa": "HTTP 404",
-   "Doctolib": "HTTP 404",
-   "Constructor Knowledge Labs": "<urlopen error [Errno -2] Name or service not known>",
-   "Constellr": "HTTP 404",
-   "Sixt": "HTTP 404",
-   "Candis": "HTTP 404",
-   "Planradar": "HTTP 404",
-   "Softgarden": "HTTP 404",
-   "Lendis": "HTTP 404",
-   "Architrave": "HTTP 404",
-   "Silvernova GmbH": "HTTP 404",
-   "RIWA GmbH": "HTTP 404",
-   "Cribl": "HTTP 404",
-   "Xolife": "HTTP 404",
-   "VIAVI Solutions": "HTTP 404",
-   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
-   "Fresha": "HTTP 404",
-   "Chooose": "HTTP 404",
-   "Docsumo": "HTTP 404",
-   "Boston Imaging": "HTTP 404",
-   "InfStones": "HTTP 404",
-   "Overstory": "HTTP 404",
-   "Konfetti GmbH": "HTTP 404",
-   "Aircall": "HTTP 404",
-   "Haiilo": "HTTP 404",
-   "Empower": "HTTP 404",
-   "NAXCON GmbH": "HTTP 404",
-   "DevGrid": "HTTP 404",
-   "Optios": "HTTP 404",
-   "EY": "HTTP 404",
-   "Shieldai": "HTTP 404",
-   "PushPress": "HTTP 502"
+   "workato": "HTTP 404",
+   "CaseWare": "HTTP 502"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 17,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 160,
   "callsLast7Days": 590
@@ -150,50 +119,46 @@
   }
  },
  "probe": {
-  "tried": 99,
+  "tried": 34,
   "found": [
-   "FITSEVENELEVEN (personio:fitseveneleven)",
-   "Pleil GmbH (personio:pleil-gmbh)",
-   "ShopMy (greenhouse:shopmy)",
-   "Sonatype (lever:sonatype)",
-   "Kasama (workable:kasama)",
-   "intent (recruitee:intent)",
-   "Flying Bisons (recruitee:flyingbisons)"
+   "Rhoda Ai (ashby:rhoda-ai)",
+   "N2JSoft (recruitee:n2jsoft)",
+   "Parallel Wireless (lever:parallelwireless)",
+   "Cockroach Labs (greenhouse:cockroachlabs)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 178
+  "tried": 0,
+  "ok": 0
  },
- "collectedAt": "2026-11-20T18:22:21+00:00",
- "rawJobs": 96741,
- "matches": 253,
- "new": 12,
- "companies": 1917,
- "activeCompanies": 1915,
+ "collectedAt": "2026-11-20T22:06:38+00:00",
+ "rawJobs": 95894,
+ "matches": 188,
+ "new": 3,
+ "companies": 1921,
+ "activeCompanies": 1887,
  "funnel": {
-  "location": 3044,
-  "passed": 416,
-  "title": 93037,
-  "company": 47,
-  "duplicate": 163,
-  "employment": 20,
+  "passed": 252,
+  "title": 92402,
+  "duplicate": 64,
   "too_old": 159,
+  "company": 19,
+  "location": 3028,
+  "employment": 16,
   "salary": 9
  },
  "matchesBySource": {
-  "adzuna": 80,
-  "himalayas": 2,
-  "weworkremotely": 8,
-  "germantechjobs": 4,
-  "personio": 11,
-  "ashby": 64,
-  "arbeitnow": 8,
-  "arbeitsagentur": 18,
+  "weworkremotely": 11,
+  "himalayas": 4,
+  "germantechjobs": 6,
+  "personio": 12,
+  "ashby": 66,
+  "arbeitnow": 9,
+  "arbeitsagentur": 20,
   "jobicy": 7,
   "remoteok": 1,
   "greenhouse": 20,
-  "recruitee": 15,
+  "recruitee": 17,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
