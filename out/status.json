@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 973
+   "fetched": 1476
   },
   "arbeitsagentur": {
    "fetched": 352
   },
   "arbeitnow": {
-   "fetched": 3501
+   "fetched": 3542
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 243
+   "fetched": 250
   },
   "remoteok": {
    "fetched": 98
@@ -31,17 +31,17 @@
    "fetched": 36
   },
   "germantechjobs": {
-   "fetched": 903
+   "fetched": 1014
   },
   "jooble": {
-   "fetched": 151
+   "fetched": 95
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1905,
-   "failed": 34,
+   "checked": 1906,
+   "failed": 33,
    "rateLimited": 0
   }
  },
@@ -55,22 +55,22 @@
    "Sixt": "HTTP 404",
    "Candis": "HTTP 404",
    "Softgarden": "HTTP 404",
-   "Planradar": "HTTP 404",
    "Lendis": "HTTP 404",
-   "Silvernova GmbH": "HTTP 404",
    "Architrave": "HTTP 404",
    "RIWA GmbH": "HTTP 404",
+   "Planradar": "HTTP 404",
    "Cribl": "HTTP 404",
-   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
+   "Silvernova GmbH": "HTTP 404",
    "Xolife": "HTTP 404",
    "VIAVI Solutions": "HTTP 404",
+   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
    "Fresha": "HTTP 404",
    "Chooose": "HTTP 404",
    "Docsumo": "HTTP 404",
    "Boston Imaging": "HTTP 404",
    "InfStones": "HTTP 404",
-   "Overstory": "HTTP 404",
    "Konfetti GmbH": "HTTP 404",
+   "Overstory": "HTTP 404",
    "Aircall": "HTTP 404",
    "Haiilo": "HTTP 404",
    "Empower": "HTTP 404",
@@ -78,15 +78,16 @@
    "DevGrid": "HTTP 404",
    "Optios": "HTTP 404",
    "EY": "HTTP 404",
-   "Shieldai": "HTTP 404"
+   "Shieldai": "HTTP 404",
+   "Merlin Labs": "HTTP 502"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 35,
+  "searchesThisRun": 31,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 475
+  "callsToday": 90,
+  "callsLast7Days": 520
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -137,7 +138,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=297, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=296, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 69,
@@ -149,54 +150,48 @@
   }
  },
  "jooble_usage": {
-  "calls": 36
+  "calls": 34
  },
  "probe": {
-  "tried": 120,
+  "tried": 66,
   "found": [
-   "Leland (ashby:leland)",
-   "Code (personio:code)",
-   "Kojo (ashby:kojo)",
-   "Xometryeurope (greenhouse:xometryeurope)",
-   "Lovehoney Group (lever:lovehoneygroup)",
-   "Ben Fatto (recruitee:benfatto)",
-   "Anomali Inc. (lever:anomali)",
-   "BPM Company (smartrecruiters:bpmcompany)",
-   "ServiceRocket (lever:servicerocket)"
+   "Azumuta (recruitee:azumuta)",
+   "TicketSwap (recruitee:ticketswap)",
+   "Vericast (smartrecruiters:vericast)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 186
+  "ok": 179
  },
- "collectedAt": "2026-11-20T10:46:29+00:00",
- "rawJobs": 96265,
- "matches": 254,
- "new": 10,
- "companies": 1905,
- "activeCompanies": 1905,
+ "collectedAt": "2026-11-20T12:46:49+00:00",
+ "rawJobs": 96942,
+ "matches": 263,
+ "new": 3,
+ "companies": 1908,
+ "activeCompanies": 1906,
  "funnel": {
-  "passed": 491,
-  "duplicate": 237,
-  "title": 92427,
-  "company": 65,
-  "employment": 21,
-  "location": 3083,
-  "salary": 9,
+  "location": 3067,
+  "passed": 573,
+  "title": 93024,
+  "company": 81,
+  "duplicate": 310,
+  "employment": 20,
+  "salary": 8,
   "too_old": 160
  },
  "matchesBySource": {
-  "adzuna": 82,
-  "arbeitnow": 7,
+  "adzuna": 93,
+  "himalayas": 1,
+  "germantechjobs": 2,
+  "arbeitnow": 6,
   "weworkremotely": 8,
-  "germantechjobs": 3,
   "ashby": 65,
   "arbeitsagentur": 18,
   "jobicy": 9,
   "greenhouse": 20,
-  "recruitee": 16,
+  "recruitee": 15,
   "hn": 9,
-  "himalayas": 3,
   "smartrecruiters": 3,
   "lever": 1,
   "personio": 10,
