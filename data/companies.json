@@ -279,7 +279,9 @@
   "name": "saas.group",
   "industry": "",
   "addedBy": "watchlist",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "<urlopen error [Errno -2] Name or service not known>"
  },
  {
   "ats": "greenhouse",
@@ -399,7 +401,9 @@
   "name": "Constructor Knowledge Labs",
   "industry": "",
   "addedBy": "watchlist",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "<urlopen error [Errno -2] Name or service not known>"
  },
  {
   "ats": "ashby",
@@ -508,7 +512,9 @@
   "industry": "AI",
   "addedBy": "watchlist",
   "lastOk": "2026-11-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "ats": "ashby",
@@ -525,7 +531,9 @@
   "industry": "health",
   "addedBy": "watchlist",
   "lastOk": "2026-10-31",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "ats": "ashby",
@@ -654,7 +662,9 @@
   "slug": "candis",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Billie",
@@ -1095,7 +1105,9 @@
   "slug": "constellr",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Stark",
@@ -1184,7 +1196,9 @@
   "slug": "sixt",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "ioki",
@@ -1378,7 +1392,9 @@
   "slug": "architrave",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Planradar",
@@ -1387,7 +1403,9 @@
   "slug": "planradar-gmbh",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Capmo",
@@ -1428,7 +1446,9 @@
   "slug": "softgarden",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-22",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Factor Eleven",
@@ -1550,7 +1570,9 @@
   "slug": "lendis-gmbh",
   "addedBy": "probe 2026-10-05",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Rydoo",
@@ -2023,7 +2045,9 @@
   "slug": "silvernova",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Maibornwolff",
@@ -2128,7 +2152,9 @@
   "slug": "riwagmbh",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-13",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Duck Duck Go",
@@ -2841,7 +2867,9 @@
   "slug": "cribl",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-07",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Catawiki",
@@ -2970,7 +2998,9 @@
   "slug": "hochheidenhausverwaltung",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Auterion",
@@ -3451,7 +3481,9 @@
   "slug": "xolife",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-03",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Ceis Gmbh",
@@ -3548,7 +3580,9 @@
   "slug": "viavi-solutions",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "JFrog",
@@ -4134,7 +4168,9 @@
   "slug": "konfetti",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Andercore",
@@ -4183,7 +4219,9 @@
   "slug": "fresha",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-12",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Veda",
@@ -4400,7 +4438,9 @@
   "slug": "chooose",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-12",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Reddit",
@@ -4425,7 +4465,9 @@
   "slug": "docsumo",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "syte GmbH",
@@ -4538,7 +4580,9 @@
   "slug": "bostonimaging",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-16",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Offchain Labs",
@@ -4555,7 +4599,9 @@
   "slug": "infstones",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-10-19",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Makpar",
@@ -5060,7 +5106,9 @@
   "slug": "overstory",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-02",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Airbnb",
@@ -5494,7 +5542,9 @@
   "slug": "haiilo",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Mobimeo GmbH",
@@ -5583,7 +5633,9 @@
   "slug": "aircall",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-31",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "BlueCat Networks",
@@ -5817,7 +5869,9 @@
   "slug": "empower",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-10-09",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "digetiers",
@@ -6802,7 +6856,9 @@
   "slug": "naxcon",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-11-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Flexport",
@@ -7027,7 +7083,9 @@
   "slug": "devgrid",
   "addedBy": "probe 2026-10-10",
   "lastOk": "2026-11-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Blackbird Collective",
@@ -7557,7 +7615,9 @@
   "slug": "optios",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-10-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Deep DSG",
@@ -7902,7 +7962,9 @@
   "slug": "ey",
   "addedBy": "probe 2026-10-13",
   "lastOk": "2026-11-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Guidewheel",
@@ -11927,7 +11989,9 @@
   "slug": "shieldai",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-06",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Cagents",
@@ -12327,7 +12391,8 @@
   "ats": "lever",
   "slug": "pushpress",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-20"
+  "lastOk": "2026-11-20",
+  "failCount": 1
  },
  {
   "name": "Revolution Medicines",
@@ -15313,8 +15378,7 @@
   "ats": "lever",
   "slug": "servicerocket",
   "addedBy": "probe 2026-11-20",
-  "lastOk": "2026-11-20",
-  "failCount": 1
+  "lastOk": "2026-11-20"
  },
  {
   "name": "Azumuta",
@@ -15353,6 +15417,62 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "vesta",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "FITSEVENELEVEN",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "fitseveneleven",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Pleil GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "pleil-gmbh",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "ShopMy",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "shopmy",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Sonatype",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "sonatype",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Kasama",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "kasama",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "intent",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "intent",
+  "addedBy": "probe 2026-11-20",
+  "lastOk": "2026-11-20"
+ },
+ {
+  "name": "Flying Bisons",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "flyingbisons",
   "addedBy": "probe 2026-11-20",
   "lastOk": "2026-11-20"
  }

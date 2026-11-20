@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 977
+   "fetched": 868
   },
   "arbeitsagentur": {
    "fetched": 350
   },
   "arbeitnow": {
-   "fetched": 5513
+   "fetched": 3601
   },
   "remotive": {
-   "fetched": 120
+   "fetched": 128
   },
   "jobicy": {
-   "fetched": 250
+   "fetched": 220
   },
   "remoteok": {
    "fetched": 98
@@ -22,16 +22,16 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 114
+   "fetched": 134
   },
   "hn": {
-   "fetched": 273
+   "fetched": 272
   },
   "workingnomads": {
-   "fetched": 36
+   "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1028
+   "fetched": 1262
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,38 +40,37 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1908,
-   "failed": 34,
-   "rateLimited": 1
+   "checked": 1915,
+   "failed": 33,
+   "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
    "saas.group": "<urlopen error [Errno -2] Name or service not known>",
-   "Constructor Knowledge Labs": "<urlopen error [Errno -2] Name or service not known>",
    "Parloa": "HTTP 404",
    "Doctolib": "HTTP 404",
-   "Usercentrics": "HTTP 429",
+   "Constructor Knowledge Labs": "<urlopen error [Errno -2] Name or service not known>",
    "Constellr": "HTTP 404",
    "Sixt": "HTTP 404",
    "Candis": "HTTP 404",
-   "Architrave": "HTTP 404",
-   "Softgarden": "HTTP 404",
    "Planradar": "HTTP 404",
+   "Softgarden": "HTTP 404",
    "Lendis": "HTTP 404",
+   "Architrave": "HTTP 404",
    "Silvernova GmbH": "HTTP 404",
    "RIWA GmbH": "HTTP 404",
    "Cribl": "HTTP 404",
-   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
    "Xolife": "HTTP 404",
    "VIAVI Solutions": "HTTP 404",
+   "Hochheiden Hausverwaltung GmbH": "HTTP 404",
    "Fresha": "HTTP 404",
    "Chooose": "HTTP 404",
    "Docsumo": "HTTP 404",
    "Boston Imaging": "HTTP 404",
    "InfStones": "HTTP 404",
-   "Konfetti GmbH": "HTTP 404",
    "Overstory": "HTTP 404",
+   "Konfetti GmbH": "HTTP 404",
    "Aircall": "HTTP 404",
    "Haiilo": "HTTP 404",
    "Empower": "HTTP 404",
@@ -80,15 +79,15 @@
    "Optios": "HTTP 404",
    "EY": "HTTP 404",
    "Shieldai": "HTTP 404",
-   "ServiceRocket": "HTTP 500"
+   "PushPress": "HTTP 502"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 35,
+  "callsThisRun": 25,
+  "searchesThisRun": 17,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 565
+  "callsToday": 160,
+  "callsLast7Days": 590
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -139,7 +138,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=296, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=297, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 69,
@@ -151,47 +150,53 @@
   }
  },
  "probe": {
-  "tried": 41,
+  "tried": 99,
   "found": [
-   "familie redlich (personio:familie-redlich)",
-   "Vesta (ashby:vesta)"
+   "FITSEVENELEVEN (personio:fitseveneleven)",
+   "Pleil GmbH (personio:pleil-gmbh)",
+   "ShopMy (greenhouse:shopmy)",
+   "Sonatype (lever:sonatype)",
+   "Kasama (workable:kasama)",
+   "intent (recruitee:intent)",
+   "Flying Bisons (recruitee:flyingbisons)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 186
+  "ok": 178
  },
- "collectedAt": "2026-11-20T13:45:47+00:00",
- "rawJobs": 98307,
- "matches": 266,
- "new": 3,
- "companies": 1910,
- "activeCompanies": 1908,
+ "collectedAt": "2026-11-20T18:22:21+00:00",
+ "rawJobs": 96741,
+ "matches": 253,
+ "new": 12,
+ "companies": 1917,
+ "activeCompanies": 1915,
  "funnel": {
-  "passed": 508,
-  "duplicate": 242,
-  "title": 94467,
-  "company": 63,
-  "employment": 21,
-  "location": 3067,
-  "salary": 12,
-  "too_old": 160
+  "location": 3044,
+  "passed": 416,
+  "title": 93037,
+  "company": 47,
+  "duplicate": 163,
+  "employment": 20,
+  "too_old": 159,
+  "salary": 9
  },
  "matchesBySource": {
-  "adzuna": 86,
+  "adzuna": 80,
   "himalayas": 2,
-  "germantechjobs": 2,
-  "arbeitnow": 16,
   "weworkremotely": 8,
+  "germantechjobs": 4,
+  "personio": 11,
   "ashby": 64,
+  "arbeitnow": 8,
   "arbeitsagentur": 18,
-  "jobicy": 9,
+  "jobicy": 7,
+  "remoteok": 1,
   "greenhouse": 20,
-  "recruitee": 16,
+  "recruitee": 15,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
-  "personio": 10,
   "workable": 2
  }
 }
