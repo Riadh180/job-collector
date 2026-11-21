@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 960
+   "fetched": 1019
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 3558
+   "fetched": 3573
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 225
+   "fetched": 231
   },
   "remoteok": {
    "fetched": 100
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 151
+   "fetched": 162
   },
   "hn": {
    "fetched": 272
@@ -31,32 +31,31 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1652
+   "fetched": 1648
   },
   "jooble": {
-   "fetched": 104
+   "error": "HTTP 429"
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1901,
-   "failed": 2,
+   "checked": 1911,
+   "failed": 1,
    "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
-   "Instrument": "HTTP 502",
    "YLAB GmbH": "HTTP 404"
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 34,
+  "callsThisRun": 25,
+  "searchesThisRun": 14,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 725
+  "callsToday": 160,
+  "callsLast7Days": 750
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -118,60 +117,56 @@
    "ok": 123
   }
  },
- "jooble_usage": {
-  "calls": 34
- },
  "probe": {
-  "tried": 114,
+  "tried": 62,
   "found": [
-   "Veilant (smartrecruiters:veilant)",
-   "LOGSOL (personio:logsol)",
-   "Securepoint (personio:securepoint)",
-   "Relocity (greenhouse:relocity)",
-   "Softengine (personio:softengine)",
-   "TESVOLT AG (personio:tesvolt-gmbh)",
-   "The Event Academy (recruitee:theeventacademy)",
-   "becon (recruitee:becongmbh)",
-   "leogistics (recruitee:leogistics)"
+   "The Nielsen Company (smartrecruiters:thenielsencompany)",
+   "Alter Solutions (smartrecruiters:altersolutions)",
+   "Community Sports Partners (workable:community-sports-partners)",
+   "home24 SE (smartrecruiters:home24)",
+   "iT1 (workable:it1)",
+   "Prosper (lever:prosper)",
+   "Alloy (lever:alloy)",
+   "Ripjar (workable:ripjar)",
+   "Zerion (lever:zerion)",
+   "Tango (ashby:tango)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 188
+  "ok": 178
  },
- "collectedAt": "2026-11-21T17:09:17+00:00",
- "rawJobs": 97555,
- "matches": 262,
+ "collectedAt": "2026-11-21T20:45:45+00:00",
+ "rawJobs": 98486,
+ "matches": 264,
  "new": 2,
- "companies": 1935,
- "activeCompanies": 1901,
+ "companies": 1945,
+ "activeCompanies": 1911,
  "funnel": {
-  "title": 93750,
-  "company": 65,
-  "passed": 465,
-  "duplicate": 203,
-  "salary": 29,
-  "employment": 21,
-  "location": 3057,
+  "title": 94689,
+  "company": 84,
+  "passed": 474,
+  "salary": 18,
+  "duplicate": 210,
+  "employment": 18,
+  "location": 3035,
   "too_old": 159
  },
  "matchesBySource": {
-  "germantechjobs": 4,
-  "adzuna": 86,
-  "weworkremotely": 13,
-  "ashby": 63,
+  "adzuna": 95,
+  "germantechjobs": 3,
+  "weworkremotely": 12,
+  "ashby": 62,
   "arbeitnow": 6,
   "arbeitsagentur": 18,
   "jobicy": 8,
   "remoteok": 1,
-  "greenhouse": 20,
-  "recruitee": 16,
+  "greenhouse": 19,
+  "recruitee": 15,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
   "personio": 10,
-  "workable": 2,
-  "jooble": 1,
-  "himalayas": 1
+  "workable": 2
  }
 }
