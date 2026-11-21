@@ -1,54 +1,28 @@
 {
- "collectedAt": "2026-11-21T20:45:45+00:00",
- "count": 2,
+ "collectedAt": "2026-11-21T21:34:14+00:00",
+ "count": 1,
  "jobs": [
   {
-   "id": "adzuna:5974424951",
-   "company": "Ortivity GmbH",
-   "title": "Softwareentwickler (m/w/d)",
-   "url": "https://www.adzuna.de/details/5974424951?utm_medium=api&utm_source=c19f1397",
-   "location": "München, München (Kreis) / Bayern / München (Kreis) / Deutschland / Homeoffice",
+   "id": "germantechjobs:6b00f760fe00339000f2c945-W47",
+   "company": "BREMER West GmbH & Co. KG",
+   "title": "Softwareentwickler (m/w/d) Fokus KI - Schloß Neuhaus",
+   "url": "https://germantechjobs.de/jobs/BREMER-West-GmbH--Co-KG-Softwareentwickler-mwd-Fokus-KI---Schlo-Neuhaus",
+   "location": "Schloß Neuhaus / Nordrhein-Westfalen / Deutschland",
    "remote": null,
    "postedAt": "2026-11-21",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " ",
+   "salary": "61.000 - 101.000 € per year",
+   "salaryMax": 101000,
+   "employment": "Full-Time",
    "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": 492.27096369182334,
-   "kmFromEssen": 492,
+   "source": "germantechjobs",
+   "ats": "germantechjobs",
    "stackHits": [
     "typescript"
    ],
-   "match": "generic+stack; remote",
-   "facts": "Ortivity gehört mit über 150 Standorten und mehr als 3.000 Mitarbeitenden zu den führenden Gruppen für ambulante Orthopädie in Deutschland. | Deine Lösungen können im gesamten Netzwerk eingesetzt werden und … typescript",
-   "remoteProof": "",
-   "firstSeen": "2026-11-21T20:45:45+00:00"
-  },
-  {
-   "id": "adzuna:5974398743",
-   "company": "home24 SE",
-   "title": "Senior Full Stack Engineer (Applied AI) (m/f/d)",
-   "url": "https://www.adzuna.de/details/5974398743?utm_medium=api&utm_source=c19f1397",
-   "location": "Berlin, Deutschland / Berlin / Deutschland / Homeoffice",
-   "remote": null,
-   "postedAt": "2026-11-21",
-   "salary": "",
-   "salaryMax": null,
-   "employment": " full_time",
-   "industry": "",
-   "source": "adzuna",
-   "ats": "adzuna",
-   "_km": 454.09418773487886,
-   "kmFromEssen": 454,
-   "stackHits": [
-    "typescript"
-   ],
-   "match": "title; remote",
-   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Together with the GIGA purchasing group, we are building GIGA ONE: a new European platform for the entire journey of a product from supplier to retailer. | Experienced Engineer: You have 8+ years of professional software development, with a focus on backend services and APIs. | Go Specialist: You have 4+ years of professional experience with Go (Golang) in production backend systems within the last five years. | Fluent English A strong plus: TypeScript and front-end skills to take features end to end, ",
-   "remoteProof": "",
-   "firstSeen": "2026-11-21T20:45:45+00:00"
+   "match": "generic+stack; NRW",
+   "facts": "Wir sind an siebzehn Standorten in Deutschland sowie einem Standort in Tschechien und zwei in Polen vertreten.",
+   "remoteProof": "Hinzu kommen flexible Arbeitszeitmodelle, mobiles Arbeiten, ein Lebensarbeitszeitkonto, Unterstützung in besonderen Lebenslagen, betriebliche Altersvorsorge, Bike-Leasing, Firmenfitness und Mitarbeitervorteile bei zahlreichen Partnern.",
+   "firstSeen": "2026-11-21T21:34:14+00:00"
   }
  ]
 }

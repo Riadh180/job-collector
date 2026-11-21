@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1019
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 347
@@ -31,7 +31,7 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1648
+   "fetched": 1251
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1911,
+   "checked": 1920,
    "failed": 1,
    "rateLimited": 0
   }
@@ -51,8 +51,8 @@
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 25,
-  "searchesThisRun": 14,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 160,
   "callsLast7Days": 750
@@ -118,55 +118,53 @@
   }
  },
  "probe": {
-  "tried": 62,
+  "tried": 37,
   "found": [
-   "The Nielsen Company (smartrecruiters:thenielsencompany)",
-   "Alter Solutions (smartrecruiters:altersolutions)",
-   "Community Sports Partners (workable:community-sports-partners)",
-   "home24 SE (smartrecruiters:home24)",
-   "iT1 (workable:it1)",
-   "Prosper (lever:prosper)",
-   "Alloy (lever:alloy)",
-   "Ripjar (workable:ripjar)",
-   "Zerion (lever:zerion)",
-   "Tango (ashby:tango)"
+   "GETEC ENERGIE GmbH (personio:getec-energie-gmbh)",
+   "QUAYO Mobility (smartrecruiters:quayomobility)",
+   "Rotork (smartrecruiters:rotork)",
+   "Aevi (lever:aevi)",
+   "Innovecs (greenhouse:innovecs)",
+   "LOBOVO (smartrecruiters:lobovo)",
+   "Brimore (smartrecruiters:brimore)",
+   "Airalo (lever:airalo)",
+   "Altius Search Group (recruitee:altiussearchgroup)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 178
+  "tried": 0,
+  "ok": 0
  },
- "collectedAt": "2026-11-21T20:45:45+00:00",
- "rawJobs": 98486,
- "matches": 264,
- "new": 2,
- "companies": 1945,
- "activeCompanies": 1911,
+ "collectedAt": "2026-11-21T21:34:14+00:00",
+ "rawJobs": 97190,
+ "matches": 185,
+ "new": 1,
+ "companies": 1954,
+ "activeCompanies": 1920,
  "funnel": {
-  "title": 94689,
-  "company": 84,
-  "passed": 474,
-  "salary": 18,
-  "duplicate": 210,
-  "employment": 18,
-  "location": 3035,
-  "too_old": 159
+  "passed": 257,
+  "title": 93699,
+  "duplicate": 72,
+  "too_old": 159,
+  "company": 15,
+  "location": 3026,
+  "employment": 17,
+  "salary": 8
  },
  "matchesBySource": {
-  "adzuna": 95,
-  "germantechjobs": 3,
+  "germantechjobs": 4,
   "weworkremotely": 12,
-  "ashby": 62,
-  "arbeitnow": 6,
-  "arbeitsagentur": 18,
+  "ashby": 65,
+  "personio": 12,
+  "arbeitnow": 11,
+  "arbeitsagentur": 20,
   "jobicy": 8,
   "remoteok": 1,
-  "greenhouse": 19,
-  "recruitee": 15,
+  "greenhouse": 20,
+  "recruitee": 17,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
-  "personio": 10,
   "workable": 2
  }
 }

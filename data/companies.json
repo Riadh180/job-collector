@@ -14153,7 +14153,9 @@
   "slug": "ylab",
   "addedBy": "probe 2026-11-13",
   "lastOk": "2026-11-20",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Neuralconcept",
@@ -15697,6 +15699,79 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "tango",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "GETEC ENERGIE GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "getec-energie-gmbh",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "QUAYO Mobility",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "quayomobility",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Rotork",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "rotork",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Aevi",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "aevi",
+  "eu": true,
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Innovecs",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "innovecs",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "LOBOVO",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "lobovo",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Brimore",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "brimore",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Airalo",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "airalo",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Altius Search Group",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "altiussearchgroup",
   "addedBy": "probe 2026-11-21",
   "lastOk": "2026-11-21"
  }
