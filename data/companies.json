@@ -6615,8 +6615,7 @@
   "ats": "lever",
   "slug": "zingtree",
   "addedBy": "probe 2026-10-09",
-  "lastOk": "2026-11-21",
-  "failCount": 1
+  "lastOk": "2026-11-21"
  },
  {
   "name": "BigBinary",
@@ -12648,7 +12647,8 @@
   "ats": "lever",
   "slug": "instrument",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-21"
+  "lastOk": "2026-11-21",
+  "failCount": 1
  },
  {
   "name": "Trustonic",
@@ -14154,7 +14154,7 @@
   "slug": "ylab",
   "addedBy": "probe 2026-11-13",
   "lastOk": "2026-11-20",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Neuralconcept",
@@ -15546,6 +15546,78 @@
   "industry": "from job boards",
   "ats": "recruitee",
   "slug": "cygridgmbh",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Veilant",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "veilant",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "LOGSOL",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "logsol",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Securepoint",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "securepoint",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Relocity",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "relocity",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Softengine",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "softengine",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "TESVOLT AG",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "tesvolt-gmbh",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "The Event Academy",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "theeventacademy",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "becon",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "becongmbh",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "leogistics",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "leogistics",
   "addedBy": "probe 2026-11-21",
   "lastOk": "2026-11-21"
  }

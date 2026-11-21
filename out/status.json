@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1450
+   "fetched": 960
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 3712
+   "fetched": 3558
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 219
+   "fetched": 225
   },
   "remoteok": {
    "fetched": 100
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 147
+   "fetched": 151
   },
   "hn": {
    "fetched": 272
@@ -31,32 +31,32 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1179
+   "fetched": 1652
   },
   "jooble": {
-   "fetched": 163
+   "fetched": 104
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1892,
+   "checked": 1901,
    "failed": 2,
    "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
-   "Zingtree": "HTTP 502",
+   "Instrument": "HTTP 502",
    "YLAB GmbH": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 31,
+  "searchesThisRun": 34,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 680
+  "callsToday": 135,
+  "callsLast7Days": 725
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -119,50 +119,59 @@
   }
  },
  "jooble_usage": {
-  "calls": 36
+  "calls": 34
  },
  "probe": {
-  "tried": 33,
+  "tried": 114,
   "found": [
-   "Cygrid GmbH (recruitee:cygridgmbh)"
+   "Veilant (smartrecruiters:veilant)",
+   "LOGSOL (personio:logsol)",
+   "Securepoint (personio:securepoint)",
+   "Relocity (greenhouse:relocity)",
+   "Softengine (personio:softengine)",
+   "TESVOLT AG (personio:tesvolt-gmbh)",
+   "The Event Academy (recruitee:theeventacademy)",
+   "becon (recruitee:becongmbh)",
+   "leogistics (recruitee:leogistics)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 182
+  "ok": 188
  },
- "collectedAt": "2026-11-21T13:11:23+00:00",
- "rawJobs": 97680,
- "matches": 274,
- "new": 4,
- "companies": 1926,
- "activeCompanies": 1892,
+ "collectedAt": "2026-11-21T17:09:17+00:00",
+ "rawJobs": 97555,
+ "matches": 262,
+ "new": 2,
+ "companies": 1935,
+ "activeCompanies": 1901,
  "funnel": {
-  "salary": 27,
-  "passed": 612,
-  "title": 93696,
-  "duplicate": 338,
+  "title": 93750,
   "company": 65,
-  "location": 3093,
-  "employment": 19,
+  "passed": 465,
+  "duplicate": 203,
+  "salary": 29,
+  "employment": 21,
+  "location": 3057,
   "too_old": 159
  },
  "matchesBySource": {
-  "adzuna": 103,
+  "germantechjobs": 4,
+  "adzuna": 86,
   "weworkremotely": 13,
-  "ashby": 62,
-  "arbeitnow": 5,
-  "germantechjobs": 3,
+  "ashby": 63,
+  "arbeitnow": 6,
   "arbeitsagentur": 18,
   "jobicy": 8,
   "remoteok": 1,
   "greenhouse": 20,
-  "recruitee": 15,
+  "recruitee": 16,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
   "personio": 10,
   "workable": 2,
-  "jooble": 1
+  "jooble": 1,
+  "himalayas": 1
  }
 }
