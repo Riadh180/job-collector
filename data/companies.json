@@ -6615,7 +6615,8 @@
   "ats": "lever",
   "slug": "zingtree",
   "addedBy": "probe 2026-10-09",
-  "lastOk": "2026-11-21"
+  "lastOk": "2026-11-21",
+  "failCount": 1
  },
  {
   "name": "BigBinary",
@@ -11403,8 +11404,7 @@
   "ats": "lever",
   "slug": "agile-defense",
   "addedBy": "probe 2026-10-25",
-  "lastOk": "2026-11-20",
-  "failCount": 1
+  "lastOk": "2026-11-21"
  },
  {
   "name": "Mobileye",
@@ -14154,7 +14154,7 @@
   "slug": "ylab",
   "addedBy": "probe 2026-11-13",
   "lastOk": "2026-11-20",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Neuralconcept",
@@ -15538,6 +15538,14 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "vantagespecialtychemicals",
+  "addedBy": "probe 2026-11-21",
+  "lastOk": "2026-11-21"
+ },
+ {
+  "name": "Cygrid GmbH",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "cygridgmbh",
   "addedBy": "probe 2026-11-21",
   "lastOk": "2026-11-21"
  }

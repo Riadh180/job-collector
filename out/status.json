@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 947
+   "fetched": 1450
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 5952
+   "fetched": 3712
   },
   "remotive": {
    "fetched": 128
@@ -40,23 +40,23 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1891,
+   "checked": 1892,
    "failed": 2,
    "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
-   "Agile Defense": "HTTP 502",
+   "Zingtree": "HTTP 502",
    "YLAB GmbH": "HTTP 404"
   }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 34,
+  "searchesThisRun": 31,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 635
+  "callsToday": 90,
+  "callsLast7Days": 680
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -122,47 +122,43 @@
   "calls": 36
  },
  "probe": {
-  "tried": 96,
+  "tried": 33,
   "found": [
-   "KoRo (ashby:koro)",
-   "Company (ashby:company)",
-   "Vanilla Steel GmbH (personio:vanilla-steel-gmbh)",
-   "Vantage Specialty Chemicals (smartrecruiters:vantagespecialtychemicals)"
+   "Cygrid GmbH (recruitee:cygridgmbh)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 186
+  "ok": 182
  },
- "collectedAt": "2026-11-21T10:41:24+00:00",
- "rawJobs": 99238,
- "matches": 281,
- "new": 12,
- "companies": 1925,
- "activeCompanies": 1891,
+ "collectedAt": "2026-11-21T13:11:23+00:00",
+ "rawJobs": 97680,
+ "matches": 274,
+ "new": 4,
+ "companies": 1926,
+ "activeCompanies": 1892,
  "funnel": {
-  "company": 49,
-  "passed": 517,
-  "title": 95320,
-  "location": 3140,
-  "salary": 23,
-  "duplicate": 236,
-  "employment": 21,
+  "salary": 27,
+  "passed": 612,
+  "title": 93696,
+  "duplicate": 338,
+  "company": 65,
+  "location": 3093,
+  "employment": 19,
   "too_old": 159
  },
  "matchesBySource": {
-  "adzuna": 97,
-  "arbeitnow": 15,
+  "adzuna": 103,
   "weworkremotely": 13,
   "ashby": 62,
+  "arbeitnow": 5,
   "germantechjobs": 3,
   "arbeitsagentur": 18,
   "jobicy": 8,
   "remoteok": 1,
   "greenhouse": 20,
-  "recruitee": 16,
+  "recruitee": 15,
   "hn": 9,
-  "himalayas": 2,
   "smartrecruiters": 3,
   "lever": 1,
   "personio": 10,
