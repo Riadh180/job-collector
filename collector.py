@@ -1031,10 +1031,277 @@ def careerjet():
     return out
 
 
+# ---------------------------------------------------------------- LinkedIn + XING (public pages, no login)
+# Added 22 Nov 2026 at Riadh's request: search LinkedIn and XING automatically instead of pasting alerts.
+# Only the public, logged-out search pages are read. No account, cookie or login is ever used.
+BROWSER_H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                           "Chrome/124.0 Safari/537.36",
+             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+             "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"}
+SCRAPE_LOG = {}
+
+
+def _log(src, key, inc=1):
+    d = SCRAPE_LOG.setdefault(src, {})
+    d[key] = d.get(key, 0) + inc
+
+
+def _get_html(src, url, pause):
+    code, body = http(url, BROWSER_H, timeout=30, retries=2)
+    time.sleep(pause)
+    _log(src, f"http_{code}")
+    return code, body.decode("utf-8", "replace") if body else ""
+
+
+def _jsonld_jobs(page):
+    """schema.org JobPosting blocks (most public job pages carry them for Google)."""
+    out = []
+    for m in re.finditer(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', page, re.S):
+        try:
+            data = json.loads(html.unescape(m.group(1)).strip())
+        except Exception:
+            continue
+        for d in (data if isinstance(data, list) else data.get("@graph", [data]) if isinstance(data, dict) else []):
+            if isinstance(d, dict) and d.get("@type") == "JobPosting":
+                out.append(d)
+    return out
+
+
+def _ld_location(d):
+    locs = d.get("jobLocation") or []
+    locs = locs if isinstance(locs, list) else [locs]
+    parts = []
+    for l in locs:
+        a = (l or {}).get("address") or {}
+        if isinstance(a, dict):
+            parts.append(", ".join(filter(None, [a.get("addressLocality"), a.get("addressRegion"), a.get("addressCountry")
+                                                 if isinstance(a.get("addressCountry"), str) else ""])))
+    return " / ".join(p for p in parts if p)
+
+
+def _ld_salary(d):
+    bs = d.get("baseSalary") or {}
+    v = bs.get("value") if isinstance(bs, dict) else None
+    if isinstance(v, dict):
+        mx = v.get("maxValue") or v.get("value")
+        unit = (v.get("unitText") or "YEAR").upper()
+        try:
+            mx = float(mx)
+            if unit == "MONTH":
+                mx *= 12
+            elif unit == "HOUR":
+                mx *= 1800
+            return f"{v.get('minValue', '')}–{v.get('maxValue', '')} {bs.get('currency', '')}/{unit.lower()}", int(mx)
+        except Exception:
+            pass
+    return "", None
+
+
+def linkedin():
+    """LinkedIn public (logged-out) job search: all result pages, then the public job page for promising jobs."""
+    cfg = CFG.get("linkedin", {})
+    pause = cfg.get("pause", 1.5)
+    cards = {}
+    for s in cfg.get("searches", []):
+        for start in range(0, cfg.get("max_per_search", 150), 25):
+            q = {"keywords": s["keywords"], "location": s["location"], "f_TPR": cfg.get("f_TPR", "r604800"),
+                 "start": start}
+            if s.get("remote"):
+                q["f_WT"] = "2"
+            if s.get("distance"):
+                q["distance"] = s["distance"]
+            code, page = _get_html("linkedin", "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
+                                   + urllib.parse.urlencode(q), pause)
+            if code == 429:
+                _log("linkedin", "stopped_rate_limited")
+                break
+            if code != 200 or not page.strip():
+                break
+            found = 0
+            for li in re.split(r"<li[\s>]", page)[1:]:
+                m = re.search(r"jobPosting:(\d{6,})", li) or re.search(r"/jobs/view/[^\"?]*?(\d{8,})", li)
+                if not m:
+                    continue
+                jid = m.group(1)
+                found += 1
+                if jid in cards:
+                    continue
+                g = lambda pat: strip_html((re.search(pat, li, re.S) or [None, ""])[1])
+                cards[jid] = {"id": jid, "title": g(r'base-search-card__title[^>]*>(.*?)</h3>'),
+                              "company": g(r'base-search-card__subtitle[^>]*>(.*?)</h4>'),
+                              "location": g(r'job-search-card__location[^>]*>(.*?)</span>'),
+                              "date": (re.search(r'datetime="([\d-]{10})"', li) or [None, ""])[1],
+                              "remote": bool(s.get("remote"))}
+            _log("linkedin", "cards", found)
+            if found < 5:
+                break
+    _log("linkedin", "unique_jobs", len(cards))
+    out, details = [], 0
+    for c in cards.values():
+        t = c["title"].lower()
+        promising = not RE_TITLE_HARD.search(t) and not RE_COMPANY_EXC.search(c["company"].lower()) and \
+            (RE_TITLE_INC.search(t) or RE_TITLE_GEN.search(t))
+        desc, emp, apply_url = "", "", ""
+        if promising and details < cfg.get("detail_limit", 120):
+            code, page = _get_html("linkedin", f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{c['id']}", pause)
+            details += 1
+            if code == 429:
+                _log("linkedin", "details_rate_limited")
+                details = 10 ** 6  # stop opening details this run
+            elif code == 200:
+                desc = strip_html((re.search(r'show-more-less-html__markup[^>]*>(.*?)</div>', page, re.S) or [None, ""])[1])[:6000]
+                emp = strip_html((re.search(r'Employment type\s*</h3>\s*<span[^>]*>(.*?)</span>', page, re.S) or [None, ""])[1])
+                a = re.search(r'id="applyUrl"[^>]*>\s*<!--"(.*?)"-->', page, re.S)
+                if a:
+                    u = html.unescape(a.group(1))
+                    inner = urllib.parse.parse_qs(urllib.parse.urlparse(u).query).get("url")
+                    apply_url = inner[0] if inner else ""
+        if not promising:
+            _log("linkedin", "skipped_by_title_or_company")
+        r = rec("linkedin", c["id"], c["company"], c["title"], f"https://www.linkedin.com/jobs/view/{c['id']}/",
+                c["location"] + (" (Remote)" if c["remote"] else ""), parse_date(c["date"]), c["remote"] or None,
+                "", None, desc, emp, "", "linkedin")
+        if apply_url:
+            r["employerUrl"] = apply_url
+        out.append(r)
+    _log("linkedin", "details_opened", min(details, cfg.get("detail_limit", 120)))
+    if not cards:
+        raise RuntimeError(f"no jobs read: {SCRAPE_LOG.get('linkedin')}")
+    return out
+
+
+def xing():
+    """XING public (logged-out) job search, then each promising job's public page (schema.org JobPosting)."""
+    cfg = CFG.get("xing", {})
+    pause = cfg.get("pause", 1.2)
+    slugs = {}
+    for s in cfg.get("searches", []):
+        for page_no in range(1, cfg.get("pages", 3) + 1):
+            q = {"keywords": s["keywords"], "sort": "date"}
+            if s.get("location"):
+                q["location"] = s["location"]
+                q["radius"] = s.get("radius", 50)
+            if page_no > 1:
+                q["page"] = page_no
+            code, page = _get_html("xing", "https://www.xing.com/jobs/search?" + urllib.parse.urlencode(q), pause)
+            if code != 200:
+                break
+            before = len(slugs)
+            for m in re.finditer(r'(?:https://www\.xing\.com)?/jobs/([a-z0-9][a-z0-9-]*-(\d{6,}))(?=[\"?#/\\])', page):
+                slugs.setdefault(m.group(2), {"slug": m.group(1), "remote": bool(s.get("remote"))})
+            got = len(slugs) - before
+            _log("xing", "links", got)
+            if got == 0:
+                break
+    _log("xing", "unique_jobs", len(slugs))
+    out, details = [], 0
+    for jid, v in slugs.items():
+        guess = v["slug"].rsplit("-", 1)[0].replace("-", " ")
+        if RE_TITLE_HARD.search(guess) or not (RE_TITLE_INC.search(guess) or RE_TITLE_GEN.search(guess)
+                                               or re.search(r"react|frontend|fullstack|full stack|typescript|javascript|web|app|software", guess)):
+            _log("xing", "skipped_by_title")
+            continue
+        if details >= cfg.get("detail_limit", 120):
+            break
+        url = f"https://www.xing.com/jobs/{v['slug']}"
+        code, page = _get_html("xing", url, pause)
+        details += 1
+        if code == 429:
+            _log("xing", "details_rate_limited")
+            break
+        lds = _jsonld_jobs(page) if code == 200 else []
+        if not lds:
+            _log("xing", "no_jobposting_data")
+            continue
+        d = lds[0]
+        org = d.get("hiringOrganization") or {}
+        sal, salmax = _ld_salary(d)
+        loc = _ld_location(d)
+        remote = d.get("jobLocationType") == "TELECOMMUTE" or v["remote"]
+        out.append(rec("xing", jid, org.get("name", "") if isinstance(org, dict) else str(org), html.unescape(d.get("title", "")),
+                       url, loc + (" (Remote)" if remote else ""), parse_date(d.get("datePosted")), remote or None,
+                       sal, salmax, strip_html(d.get("description", ""))[:6000],
+                       d.get("employmentType") if isinstance(d.get("employmentType"), str) else " ".join(d.get("employmentType") or []),
+                       "", "xing"))
+    _log("xing", "details_opened", details)
+    if not slugs:
+        raise RuntimeError(f"no jobs read: {SCRAPE_LOG.get('xing')}")
+    return out
+
+
+
+
+def _slugify(t):
+    t = t.lower().replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss").replace(".", "-")
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def stepstone():
+    """StepStone public search (no login), then each promising job's public page (schema.org JobPosting)."""
+    cfg = CFG.get("stepstone", {})
+    pause = cfg.get("pause", 1.2)
+    links = {}
+    for s in cfg.get("searches", []):
+        for page_no in range(1, cfg.get("pages", 3) + 1):
+            path = f"https://www.stepstone.de/jobs/{_slugify(s['keywords'])}"
+            if s.get("location"):
+                path += f"/in-{_slugify(s['location'])}"
+            q = {"radius": s.get("radius", 50), "sort": 2, "action": "sort_publish", "age": cfg.get("age", "age_7")}
+            if s.get("remote"):
+                q["wfh"] = 1
+            if page_no > 1:
+                q["page"] = page_no
+            code, page = _get_html("stepstone", path + "?" + urllib.parse.urlencode(q), pause)
+            if code != 200:
+                break
+            before = len(links)
+            for m in re.finditer(r'(?:https://www\.stepstone\.de)?/(stellenangebote--([^"\s?#<>]+?)--(\d{6,})-inline\.html)', page):
+                links.setdefault(m.group(3), {"path": m.group(1), "slug": m.group(2), "remote": bool(s.get("remote"))})
+            got = len(links) - before
+            _log("stepstone", "links", got)
+            if got == 0:
+                break
+    _log("stepstone", "unique_jobs", len(links))
+    out, details = [], 0
+    for jid, v in links.items():
+        guess = v["slug"].replace("-", " ").lower()
+        if RE_TITLE_HARD.search(guess) or not (RE_TITLE_INC.search(guess) or RE_TITLE_GEN.search(guess)
+                                               or re.search(r"react|frontend|fullstack|full stack|typescript|javascript|web|app|software", guess)):
+            _log("stepstone", "skipped_by_title")
+            continue
+        if details >= cfg.get("detail_limit", 100):
+            break
+        url = "https://www.stepstone.de/" + v["path"]
+        code, page = _get_html("stepstone", url, pause)
+        details += 1
+        if code == 429:
+            _log("stepstone", "details_rate_limited")
+            break
+        lds = _jsonld_jobs(page) if code == 200 else []
+        if not lds:
+            _log("stepstone", "no_jobposting_data")
+            continue
+        d = lds[0]
+        org = d.get("hiringOrganization") or {}
+        sal, salmax = _ld_salary(d)
+        loc = _ld_location(d)
+        remote = d.get("jobLocationType") == "TELECOMMUTE" or v["remote"]
+        out.append(rec("stepstone", jid, org.get("name", "") if isinstance(org, dict) else str(org), html.unescape(d.get("title", "")),
+                       url, loc + (" (Homeoffice)" if remote else ""), parse_date(d.get("datePosted")), remote or None,
+                       sal, salmax, strip_html(d.get("description", ""))[:6000],
+                       d.get("employmentType") if isinstance(d.get("employmentType"), str) else " ".join(d.get("employmentType") or []),
+                       "", "stepstone"))
+    _log("stepstone", "details_opened", details)
+    if not links:
+        raise RuntimeError(f"no jobs read: {SCRAPE_LOG.get('stepstone')}")
+    return out
+
+
 BOARDS = {"adzuna": adzuna, "arbeitsagentur": arbeitsagentur, "arbeitnow": arbeitnow, "remotive": remotive,
           "jobicy": jobicy, "remoteok": remoteok, "himalayas": himalayas, "weworkremotely": weworkremotely,
           "hn": hn_hiring, "workingnomads": workingnomads, "germantechjobs": germantechjobs,
-          "jooble": jooble, "careerjet": careerjet}
+          "jooble": jooble, "careerjet": careerjet,
+          "linkedin": linkedin, "xing": xing, "stepstone": stepstone}
 
 
 # ---------------------------------------------------------------- probing (auto-discovery of company feeds)
@@ -1236,7 +1503,9 @@ def main():
     except Exception as e:
         STATUS["adzuna_pages"] = {"error": str(e)[:120]}
 
-    # filter
+    # filter — company feeds first, so the employer's own posting wins over the LinkedIn/XING copy of a job
+    raw.sort(key=lambda r: r["source"] in ("linkedin", "xing", "stepstone"))
+    STATUS["scrape"] = SCRAPE_LOG
     matches, seen_keys = [], set()
     for r in raw:
         if not r.get("url") or not r.get("title"):

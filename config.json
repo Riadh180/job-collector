@@ -254,6 +254,151 @@
   "de-"
  ],
  "salary_floor_eur": 75000,
+ "linkedin": {
+  "_note": "Public LinkedIn job search, no login (added 22 Nov 2026). f_TPR r604800 = posted in the last 7 days.",
+  "f_TPR": "r604800",
+  "pause": 1.5,
+  "max_per_search": 150,
+  "detail_limit": 120,
+  "searches": [
+   {
+    "keywords": "React",
+    "location": "Nordrhein-Westfalen, Deutschland"
+   },
+   {
+    "keywords": "Frontend",
+    "location": "Nordrhein-Westfalen, Deutschland"
+   },
+   {
+    "keywords": "Fullstack",
+    "location": "Nordrhein-Westfalen, Deutschland"
+   },
+   {
+    "keywords": "React Native",
+    "location": "Nordrhein-Westfalen, Deutschland"
+   },
+   {
+    "keywords": "TypeScript",
+    "location": "Nordrhein-Westfalen, Deutschland"
+   },
+   {
+    "keywords": "React",
+    "location": "Deutschland",
+    "remote": true
+   },
+   {
+    "keywords": "Frontend Developer",
+    "location": "Deutschland",
+    "remote": true
+   },
+   {
+    "keywords": "Fullstack TypeScript",
+    "location": "Deutschland",
+    "remote": true
+   },
+   {
+    "keywords": "React Native",
+    "location": "Deutschland",
+    "remote": true
+   },
+   {
+    "keywords": "Next.js",
+    "location": "Deutschland",
+    "remote": true
+   }
+  ]
+ },
+ "xing": {
+  "_note": "Public XING job search, no login (added 22 Nov 2026).",
+  "pause": 1.2,
+  "pages": 3,
+  "detail_limit": 120,
+  "searches": [
+   {
+    "keywords": "React",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "Frontend",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "Fullstack",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "TypeScript",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "React Native",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "React remote",
+    "remote": true
+   },
+   {
+    "keywords": "Frontend remote",
+    "remote": true
+   },
+   {
+    "keywords": "Fullstack remote",
+    "remote": true
+   }
+  ]
+ },
+ "stepstone": {
+  "_note": "Public StepStone search, no login (added 22 Nov 2026). age_7 = posted in the last 7 days; wfh=1 = home office filter.",
+  "pause": 1.2,
+  "pages": 3,
+  "age": "age_7",
+  "detail_limit": 100,
+  "searches": [
+   {
+    "keywords": "React",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "Frontend Entwickler",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "Fullstack Entwickler",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "TypeScript",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "React Native",
+    "location": "Essen",
+    "radius": 50
+   },
+   {
+    "keywords": "React",
+    "remote": true
+   },
+   {
+    "keywords": "Frontend Developer",
+    "remote": true
+   },
+   {
+    "keywords": "Fullstack TypeScript",
+    "remote": true
+   }
+  ]
+ },
  "arbeitsagentur": {
   "queries": [
    "React",
@@ -524,7 +669,20 @@
   "personaldienstleister",
   "zeitarbeit",
   "arbeitnehmerüberlassung",
-  "radas"
+  "radas",
+  "adesso",
+  "instaffo",
+  "code compass",
+  "taskverse",
+  "tenth revolution",
+  "fairsource",
+  "techpunk",
+  "die tech recruiter",
+  "mrl consulting",
+  "prostaff",
+  "matchical",
+  "jobgether",
+  "remotejobsone"
  ],
  "remote_germany_phrases": [
   "remote (in|within|from|across) (germany|deutschland)",
