@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "error": "daily/weekly call budget used up — skipped this run"
+   "fetched": 1187
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 3573
+   "fetched": 3561
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 231
+   "fetched": 232
   },
   "remoteok": {
    "fetched": 100
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 162
+   "fetched": 169
   },
   "hn": {
    "fetched": 272
@@ -31,31 +31,29 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1251
+   "fetched": 1616
   },
   "jooble": {
-   "error": "HTTP 429"
+   "fetched": 142
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1920,
-   "failed": 1,
+   "checked": 1930,
+   "failed": 0,
    "rateLimited": 0
   }
  },
  "errors": {
-  "companies": {
-   "YLAB GmbH": "HTTP 404"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
+  "callsThisRun": 45,
+  "searchesThisRun": 31,
   "searchesTotal": 51,
-  "callsToday": 160,
-  "callsLast7Days": 750
+  "callsToday": 45,
+  "callsLast7Days": 795
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -106,7 +104,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=296, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=299, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 69,
@@ -117,54 +115,61 @@
    "ok": 123
   }
  },
+ "jooble_usage": {
+  "calls": 36
+ },
  "probe": {
-  "tried": 37,
+  "tried": 120,
   "found": [
-   "GETEC ENERGIE GmbH (personio:getec-energie-gmbh)",
-   "QUAYO Mobility (smartrecruiters:quayomobility)",
-   "Rotork (smartrecruiters:rotork)",
-   "Aevi (lever:aevi)",
-   "Innovecs (greenhouse:innovecs)",
-   "LOBOVO (smartrecruiters:lobovo)",
-   "Brimore (smartrecruiters:brimore)",
-   "Airalo (lever:airalo)",
-   "Altius Search Group (recruitee:altiussearchgroup)"
+   "Partyhat (ashby:partyhat)",
+   "Bounteous (lever:bounteous)",
+   "JustPlay GmbH (recruitee:justplay)",
+   "International Paralympic Committee (personio:international-paralympic-committee)",
+   "Adacor Hosting (personio:adacor-hosting-gmbh)",
+   "VertiGIS (recruitee:vertigis)",
+   "IT-HAUS (personio:it-haus-gmbh)",
+   "Neon (ashby:neon)",
+   "allego (recruitee:allego)",
+   "Chabez Tech (smartrecruiters:chabeztech)",
+   "Hashgraph (ashby:hashgraph)"
   ]
  },
  "adzuna_pages": {
-  "tried": 0,
-  "ok": 0
+  "tried": 200,
+  "ok": 183
  },
- "collectedAt": "2026-11-21T21:34:14+00:00",
- "rawJobs": 97190,
- "matches": 185,
- "new": 1,
- "companies": 1954,
- "activeCompanies": 1920,
+ "collectedAt": "2026-11-22T11:15:29+00:00",
+ "rawJobs": 99001,
+ "matches": 273,
+ "new": 11,
+ "companies": 1965,
+ "activeCompanies": 1930,
  "funnel": {
-  "passed": 257,
-  "title": 93699,
-  "duplicate": 72,
-  "too_old": 159,
-  "company": 15,
-  "location": 3026,
-  "employment": 17,
-  "salary": 8
+  "title": 95144,
+  "passed": 480,
+  "company": 79,
+  "duplicate": 207,
+  "location": 3087,
+  "salary": 19,
+  "employment": 21,
+  "too_old": 162
  },
  "matchesBySource": {
-  "germantechjobs": 4,
-  "weworkremotely": 12,
-  "ashby": 65,
-  "personio": 12,
-  "arbeitnow": 11,
-  "arbeitsagentur": 20,
-  "jobicy": 8,
-  "remoteok": 1,
+  "adzuna": 88,
+  "himalayas": 1,
+  "germantechjobs": 13,
+  "weworkremotely": 13,
+  "ashby": 63,
+  "arbeitnow": 6,
+  "arbeitsagentur": 18,
+  "jobicy": 9,
   "greenhouse": 20,
-  "recruitee": 17,
+  "recruitee": 16,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
-  "workable": 2
+  "personio": 10,
+  "workable": 2,
+  "jooble": 1
  }
 }
