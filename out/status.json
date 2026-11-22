@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1134
+   "fetched": 512
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 5998
+   "fetched": 3594
   },
   "remotive": {
    "fetched": 128
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 169
+   "fetched": 174
   },
   "hn": {
    "fetched": 271
@@ -34,13 +34,13 @@
    "fetched": 1468
   },
   "jooble": {
-   "fetched": 91
+   "error": "HTTP 429"
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1935,
+   "checked": 1976,
    "failed": 0,
    "rateLimited": 0
   }
@@ -49,11 +49,11 @@
   "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 32,
+  "callsThisRun": 15,
+  "searchesThisRun": 10,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 885
+  "callsToday": 150,
+  "callsLast7Days": 900
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -115,53 +115,86 @@
    "ok": 123
   }
  },
- "jooble_usage": {
-  "calls": 34
- },
  "probe": {
-  "tried": 48,
+  "tried": 120,
   "found": [
-   "cronn (personio:cronn-gmbh)",
-   "Trafilea (recruitee:trafilea)",
-   "NetPlans (personio:netplans)"
+   "DOZR (smartrecruiters:dozr)",
+   "Contxt.io (smartrecruiters:contxtio)",
+   "Panacea Logics (smartrecruiters:panacealogics)",
+   "TradeLink (lever:tradelink)",
+   "Callypso (smartrecruiters:callypso)",
+   "Copia Wealth Studios (smartrecruiters:copiawealthstudios)",
+   "CircleIn (smartrecruiters:circlein)",
+   "920Four (smartrecruiters:920four)",
+   "Lov.Cash (smartrecruiters:lovcash)",
+   "Assembly (recruitee:assembly)",
+   "Logisly (smartrecruiters:logisly)",
+   "Forloop.ai (smartrecruiters:forloopai)",
+   "Knimbus (smartrecruiters:knimbus)",
+   "Mytigate (smartrecruiters:mytigate)",
+   "Spotlock (smartrecruiters:spotlock)",
+   "Apptiva Core Technologies (smartrecruiters:apptivacoretechnologies)",
+   "Aviso AI (smartrecruiters:avisoai)",
+   "CareerTEAM, LLC (smartrecruiters:careerteam)",
+   "Pixibo (smartrecruiters:pixibo)",
+   "Membrain GmbH (personio:membrain)",
+   "care.coach (smartrecruiters:carecoach)",
+   "GeekyDrop (smartrecruiters:geekydrop)",
+   "Civilization (smartrecruiters:civilization)",
+   "Shaping Cloud (smartrecruiters:shapingcloud)",
+   "Fulfyld (smartrecruiters:fulfyld)",
+   "Riskfuel (smartrecruiters:riskfuel)",
+   "Bskt (smartrecruiters:bskt)",
+   "Worldia (smartrecruiters:worldia)",
+   "Bugece (smartrecruiters:bugece)",
+   "A3Data (smartrecruiters:a3data)",
+   "Stockbit (smartrecruiters:stockbit)",
+   "DWF (workable:dwf)",
+   "Encephalo Investments (smartrecruiters:encephaloinvestments)",
+   "AdPushup (smartrecruiters:adpushup)",
+   "Everwest (workable:everwest)",
+   "Devsu (workable:devsu)",
+   "Audacia Strategies (smartrecruiters:audaciastrategies)",
+   "ImpiCode (smartrecruiters:impicode)",
+   "PayReview (smartrecruiters:payreview)",
+   "Winbold (smartrecruiters:winbold)",
+   "Scribetech (smartrecruiters:scribetech)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 181
+  "tried": 161,
+  "ok": 135
  },
- "collectedAt": "2026-11-22T16:21:17+00:00",
- "rawJobs": 101006,
- "matches": 280,
- "new": 4,
- "companies": 1970,
- "activeCompanies": 1935,
+ "collectedAt": "2026-11-22T17:38:35+00:00",
+ "rawJobs": 98052,
+ "matches": 253,
+ "new": 2,
+ "companies": 2011,
+ "activeCompanies": 1976,
  "funnel": {
-  "title": 97068,
-  "passed": 525,
-  "duplicate": 245,
-  "company": 66,
-  "salary": 25,
-  "location": 3131,
-  "employment": 19,
-  "too_old": 163
+  "title": 94335,
+  "company": 53,
+  "passed": 377,
+  "location": 3086,
+  "duplicate": 124,
+  "salary": 13,
+  "too_old": 163,
+  "employment": 16
  },
  "matchesBySource": {
-  "arbeitnow": 13,
-  "germantechjobs": 9,
-  "himalayas": 1,
-  "adzuna": 93,
+  "adzuna": 73,
+  "arbeitnow": 7,
+  "germantechjobs": 10,
   "weworkremotely": 13,
-  "ashby": 63,
+  "ashby": 64,
   "arbeitsagentur": 18,
   "jobicy": 8,
-  "greenhouse": 20,
+  "greenhouse": 19,
   "recruitee": 16,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
   "personio": 10,
-  "workable": 2,
-  "jooble": 1
+  "workable": 2
  }
 }
