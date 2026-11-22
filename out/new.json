@@ -1,26 +1,96 @@
 {
- "collectedAt": "2026-11-22T12:59:13+00:00",
- "count": 1,
+ "collectedAt": "2026-11-22T16:21:17+00:00",
+ "count": 4,
  "jobs": [
   {
-   "id": "himalayas:https://himalayas.app/companies/trax-technologies/jobs/frontend-architect",
-   "company": "Trax Technologies",
-   "title": "Frontend Architect",
-   "url": "https://himalayas.app/companies/trax-technologies/jobs/frontend-architect?utm_source=api",
-   "location": "Albania / Andorra / Austria / Belarus / Belgium / Bosnia and Herzegovina / Bulgaria / Costa Rica / Croatia / Cyprus / Czechia / Denmark / Estonia / Faroe Islands / Finland / France / Germany / Gibralt",
-   "remote": true,
+   "id": "arbeitnow:senior-full-stack-developer-munich-240755",
+   "company": "MVST",
+   "title": "Senior Full Stack Developer (m/f/d)",
+   "url": "https://www.arbeitnow.com/jobs/companies/mvst/senior-full-stack-developer-munich-240755",
+   "location": "Munich",
+   "remote": false,
    "postedAt": "2026-11-22",
    "salary": "",
    "salaryMax": null,
-   "employment": "Full Time",
+   "employment": "Permanent employment (unbefristeter arbeitsvertrag) professional / experienced",
    "industry": "",
-   "source": "himalayas",
-   "ats": "himalayas",
-   "stackHits": [],
-   "match": "title; remote",
-   "facts": "We're a globally distributed team that works remotely, with main hubs in the US, Costa Rica, the Philippines (Cebu), Amsterdam and Tallinn. | Location and engagement Able to hire in Cebu PH, Costa Rica (remote), Europe, and US (remote, not all states).",
-   "remoteProof": "We're a globally distributed team that works remotely, with main hubs in the US, Costa Rica, the Philippines (Cebu), Amsterdam and Tallinn. | Location and engagement Able to hire in Cebu PH, Costa Rica (remote), Europe, and US (remote, not all states).",
-   "firstSeen": "2026-11-22T12:59:13+00:00"
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "react"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "We empower and collaborate with businesses at every pivotal stage to craft tailor-made digital experiences that stand out. | Proficiency in front-end development technologies around JavaScript, and related frameworks such as React, Vue, React Native and/or Flutter. | Proficiency in back-end development technologies such as Node.js, Express or similar frameworks. | Excellent communication in English and interpersonal skills. | Perks & Benefits at MVST At MVST, we support our team inside and outside the office with a range of perks: Fully stocked offices with great coffee, granola, cereals, and more. | Flexible hours and remote work options. | €500 travel budget to work from our Munich or Barc",
+   "remoteProof": "Flexible hours and remote work options. | €500 travel budget to work from our Munich or Barcelona offices. | Home office setup support if you live over 60 min from the office.",
+   "firstSeen": "2026-11-22T16:21:17+00:00"
+  },
+  {
+   "id": "germantechjobs:6ab227691e05c4e06b5538ca-W47",
+   "company": "Reply Deutschland SE",
+   "title": "Agentic Software Engineer (m/w/d) - Anwendungsentwicklung",
+   "url": "https://germantechjobs.de/jobs/Reply-Deutschland-SE-Agentic-Software-Engineer-mwd---Anwendungsentwicklung",
+   "location": "Gütersloh / Nordrhein-Westfalen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-22",
+   "salary": "52.000 - 92.000 € per year",
+   "salaryMax": 92000,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "germantechjobs",
+   "ats": "germantechjobs",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; NRW",
+   "facts": "Salary: 52.000 - 92.000 € per year Requirements: Erfolgreich abgeschlossenes Studium in Informatik, AI, Software Engineering oder einer vergleichbaren technischen Fachrichtung Erste praktische Erfahrung in der Softwareentwicklung, z.",
+   "remoteProof": "Außerdem bieten wir modernes, hybrides Arbeiten in High-End Offices, neues Equipment nach Wahl, individuelle Weiterbildungs- und Zertifizierungsmöglichkeiten sowie regelmäßige Firmenevents und attraktive Mobilitätsangebote wie das Deutschlandticket oder Jobrad.",
+   "firstSeen": "2026-11-22T16:21:17+00:00"
+  },
+  {
+   "id": "germantechjobs:6ab2500d1e05c4e06b553a97-W47",
+   "company": "syracom",
+   "title": "Senior Software Engineer (m/w/d) - Wiesbaden",
+   "url": "https://germantechjobs.de/jobs/syracom-Senior-Software-Engineer-mwd---Wiesbaden",
+   "location": "Wiesbaden / Hessen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-22",
+   "salary": "38.000 - 78.000 € per year",
+   "salaryMax": 78000,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "germantechjobs",
+   "ats": "germantechjobs",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; DE+remote-in-text",
+   "facts": "",
+   "remoteProof": "Wir bieten flexible Arbeitszeiten und mobiles Arbeiten für eine gute Work-Life-Balance sowie die Möglichkeit, aktiv soziales Engagement und Klimaschutz mitzugestalten.",
+   "firstSeen": "2026-11-22T16:21:17+00:00"
+  },
+  {
+   "id": "germantechjobs:6b02f2b33843cc2d3975258d-W47",
+   "company": "PSI Software",
+   "title": "Software Developer – UI & Platform Integration (m/w/d) - Dortmund",
+   "url": "https://germantechjobs.de/jobs/PSI-Software-Software-Developer--UI--Platform-Integration-mwd---Dortmund",
+   "location": "Dortmund / Nordrhein-Westfalen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-22",
+   "salary": "55.000 - 75.000 € per year",
+   "salaryMax": 75000,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "germantechjobs",
+   "ats": "germantechjobs",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; NRW",
+   "facts": "Salary: 55.000 - 75.000 € per year Requirements: Wir erwarten ein Studium der Informatik, Softwaretechnik oder Wirtschaftsinformatik oder eine vergleichbare Ausbildung, zum Beispiel als Fachinformatiker für Anwendungsentwicklung, mit einschlägiger Praxis. | Wir erwarten fundierte Kenntnisse moderner Frontend-Frameworks wie Angular, React oder Vue sowie einen sicheren Umgang mit TypeScript, HTML5 und CSS/SCSS. | Wir erwarten gute bis sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift für die Zusammenarbeit in einem agilen Team.",
+   "remoteProof": "Wir bieten Corporate Benefits, flexible Arbeitszeiten, Entwicklung und Training, mobiles Arbeiten, eine Unfallversicherung und Team-Events.",
+   "firstSeen": "2026-11-22T16:21:17+00:00"
   }
  ]
 }

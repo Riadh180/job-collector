@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1404
+   "fetched": 1134
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 3561
+   "fetched": 5998
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 232
+   "fetched": 229
   },
   "remoteok": {
    "fetched": 100
@@ -25,37 +25,35 @@
    "fetched": 169
   },
   "hn": {
-   "fetched": 272
+   "fetched": 271
   },
   "workingnomads": {
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1616
+   "fetched": 1468
   },
   "jooble": {
-   "fetched": 142
+   "fetched": 91
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1932,
-   "failed": 1,
+   "checked": 1935,
+   "failed": 0,
    "rateLimited": 0
   }
  },
  "errors": {
-  "companies": {
-   "Skillerszone": "HTTP 502"
-  }
+  "companies": {}
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 28,
+  "searchesThisRun": 32,
   "searchesTotal": 51,
-  "callsToday": 90,
-  "callsLast7Days": 840
+  "callsToday": 135,
+  "callsLast7Days": 885
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -118,46 +116,47 @@
   }
  },
  "jooble_usage": {
-  "calls": 36
+  "calls": 34
  },
  "probe": {
-  "tried": 30,
+  "tried": 48,
   "found": [
-   "Leena AI (workable:leena-ai)",
-   "Hoppe Marine GmbH (personio:hoppe-marine-gmbh)"
+   "cronn (personio:cronn-gmbh)",
+   "Trafilea (recruitee:trafilea)",
+   "NetPlans (personio:netplans)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 182
+  "ok": 181
  },
- "collectedAt": "2026-11-22T12:59:13+00:00",
- "rawJobs": 99178,
- "matches": 287,
- "new": 1,
- "companies": 1967,
- "activeCompanies": 1932,
+ "collectedAt": "2026-11-22T16:21:17+00:00",
+ "rawJobs": 101006,
+ "matches": 280,
+ "new": 4,
+ "companies": 1970,
+ "activeCompanies": 1935,
  "funnel": {
-  "title": 95201,
-  "passed": 575,
-  "duplicate": 288,
-  "company": 108,
-  "salary": 18,
-  "location": 3085,
-  "employment": 20,
-  "too_old": 162
+  "title": 97068,
+  "passed": 525,
+  "duplicate": 245,
+  "company": 66,
+  "salary": 25,
+  "location": 3131,
+  "employment": 19,
+  "too_old": 163
  },
  "matchesBySource": {
-  "himalayas": 2,
-  "adzuna": 105,
-  "germantechjobs": 12,
+  "arbeitnow": 13,
+  "germantechjobs": 9,
+  "himalayas": 1,
+  "adzuna": 93,
   "weworkremotely": 13,
-  "ashby": 62,
-  "arbeitnow": 6,
+  "ashby": 63,
   "arbeitsagentur": 18,
-  "jobicy": 9,
-  "greenhouse": 19,
-  "recruitee": 15,
+  "jobicy": 8,
+  "greenhouse": 20,
+  "recruitee": 16,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
