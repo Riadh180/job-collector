@@ -1,7 +1,7 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1187
+   "fetched": 1404
   },
   "arbeitsagentur": {
    "fetched": 347
@@ -40,20 +40,22 @@
    "error": "no API key set (optional)"
   },
   "companies": {
-   "checked": 1930,
-   "failed": 0,
+   "checked": 1932,
+   "failed": 1,
    "rateLimited": 0
   }
  },
  "errors": {
-  "companies": {}
+  "companies": {
+   "Skillerszone": "HTTP 502"
+  }
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 31,
+  "searchesThisRun": 28,
   "searchesTotal": 51,
-  "callsToday": 45,
-  "callsLast7Days": 795
+  "callsToday": 90,
+  "callsLast7Days": 840
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -119,52 +121,43 @@
   "calls": 36
  },
  "probe": {
-  "tried": 120,
+  "tried": 30,
   "found": [
-   "Partyhat (ashby:partyhat)",
-   "Bounteous (lever:bounteous)",
-   "JustPlay GmbH (recruitee:justplay)",
-   "International Paralympic Committee (personio:international-paralympic-committee)",
-   "Adacor Hosting (personio:adacor-hosting-gmbh)",
-   "VertiGIS (recruitee:vertigis)",
-   "IT-HAUS (personio:it-haus-gmbh)",
-   "Neon (ashby:neon)",
-   "allego (recruitee:allego)",
-   "Chabez Tech (smartrecruiters:chabeztech)",
-   "Hashgraph (ashby:hashgraph)"
+   "Leena AI (workable:leena-ai)",
+   "Hoppe Marine GmbH (personio:hoppe-marine-gmbh)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 183
+  "ok": 182
  },
- "collectedAt": "2026-11-22T11:15:29+00:00",
- "rawJobs": 99001,
- "matches": 273,
- "new": 11,
- "companies": 1965,
- "activeCompanies": 1930,
+ "collectedAt": "2026-11-22T12:59:13+00:00",
+ "rawJobs": 99178,
+ "matches": 287,
+ "new": 1,
+ "companies": 1967,
+ "activeCompanies": 1932,
  "funnel": {
-  "title": 95144,
-  "passed": 480,
-  "company": 79,
-  "duplicate": 207,
-  "location": 3087,
-  "salary": 19,
-  "employment": 21,
+  "title": 95201,
+  "passed": 575,
+  "duplicate": 288,
+  "company": 108,
+  "salary": 18,
+  "location": 3085,
+  "employment": 20,
   "too_old": 162
  },
  "matchesBySource": {
-  "adzuna": 88,
-  "himalayas": 1,
-  "germantechjobs": 13,
+  "himalayas": 2,
+  "adzuna": 105,
+  "germantechjobs": 12,
   "weworkremotely": 13,
-  "ashby": 63,
+  "ashby": 62,
   "arbeitnow": 6,
   "arbeitsagentur": 18,
   "jobicy": 9,
-  "greenhouse": 20,
-  "recruitee": 16,
+  "greenhouse": 19,
+  "recruitee": 15,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,

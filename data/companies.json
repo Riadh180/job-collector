@@ -8084,7 +8084,8 @@
   "ats": "lever",
   "slug": "skillerszone",
   "addedBy": "probe 2026-10-13",
-  "lastOk": "2026-11-22"
+  "lastOk": "2026-11-22",
+  "failCount": 1
  },
  {
   "name": "Very Good Security",
@@ -15860,6 +15861,22 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "hashgraph",
+  "addedBy": "probe 2026-11-22",
+  "lastOk": "2026-11-22"
+ },
+ {
+  "name": "Leena AI",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "leena-ai",
+  "addedBy": "probe 2026-11-22",
+  "lastOk": "2026-11-22"
+ },
+ {
+  "name": "Hoppe Marine GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "hoppe-marine-gmbh",
   "addedBy": "probe 2026-11-22",
   "lastOk": "2026-11-22"
  }
