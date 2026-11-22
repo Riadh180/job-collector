@@ -31,7 +31,7 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1634
+   "fetched": 1629
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,16 +40,16 @@
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 406
+   "fetched": 399
   },
   "xing": {
-   "fetched": 92
+   "fetched": 91
   },
   "stepstone": {
-   "error": "The read operation timed out"
+   "error": "'ascii' codec can't encode character '\\xe1' in position 79: ordinal not in range(128)"
   },
   "companies": {
-   "checked": 1990,
+   "checked": 2010,
    "failed": 0,
    "rateLimited": 0
   }
@@ -127,20 +127,26 @@
  "probe": {
   "tried": 120,
   "found": [
-   "Coram AI (ashby:coram-ai)",
-   "Suno (ashby:suno)",
-   "Horizon3.ai (ashby:horizon3ai)",
-   "hims & hers (ashby:hims-and-hers)",
-   "Ava Labs (ashby:ava-labs)",
-   "Skydio (ashby:skydio)",
-   "Nectar (ashby:nectar)",
-   "Verkada (greenhouse:verkada)",
-   "Acorns (ashby:acorns)",
-   "Sift (ashby:sift)",
-   "Kiddom (ashby:kiddom)",
-   "abcfinlab GmbH (personio:abcfinlab)",
-   "AutonomIQ (smartrecruiters:autonomiq)",
-   "GC AI (ashby:gc-ai)"
+   "MobiLab Solutions (personio:mobilab-solutions-gmbh)",
+   "Hinge Health (ashby:hinge-health)",
+   "Owner (ashby:owner)",
+   "Tracklings (smartrecruiters:tracklings)",
+   "AvocadoStories (smartrecruiters:avocadostories)",
+   "Privafy (smartrecruiters:privafy)",
+   "Tulipshare (smartrecruiters:tulipshare)",
+   "Oncora Medical (smartrecruiters:oncoramedical)",
+   "Thresher (smartrecruiters:thresher)",
+   "Salt Flats (smartrecruiters:saltflats)",
+   "The Gifted Company (smartrecruiters:thegiftedcompany)",
+   "Sailor Health (ashby:sailorhealth)",
+   "Riot Games (greenhouse:riotgames)",
+   "A Place for Mom (ashby:a-place-for-mom)",
+   "Fieldguide (ashby:fieldguide)",
+   "Replit (ashby:replit)",
+   "Partiful (ashby:partiful)",
+   "MaintainX (ashby:maintainx)",
+   "Quo (ashby:quo)",
+   "NerdWallet (ashby:nerdwallet)"
   ]
  },
  "adzuna_pages": {
@@ -149,43 +155,48 @@
  },
  "scrape": {
   "linkedin": {
-   "http_200": 58,
-   "cards": 494,
-   "http_429": 3,
-   "stopped_rate_limited": 2,
-   "unique_jobs": 406,
-   "skipped_by_title_or_company": 146,
+   "http_200": 74,
+   "cards": 460,
+   "http_429": 4,
+   "stopped_rate_limited": 3,
+   "unique_jobs": 399,
+   "skipped_by_title_or_company": 142,
    "details_rate_limited": 1,
    "details_opened": 120
   },
   "xing": {
-   "http_200": 114,
+   "http_200": 113,
    "links": 162,
    "unique_jobs": 162,
-   "skipped_by_title": 70,
-   "details_opened": 92
+   "skipped_by_title": 71,
+   "details_opened": 91
+  },
+  "stepstone": {
+   "http_200": 24,
+   "links": 311,
+   "unique_jobs": 311
   }
  },
- "collectedAt": "2026-11-22T19:54:45+00:00",
- "rawJobs": 99310,
- "matches": 231,
- "new": 25,
- "companies": 2025,
- "activeCompanies": 1990,
+ "collectedAt": "2026-11-22T20:55:11+00:00",
+ "rawJobs": 100163,
+ "matches": 230,
+ "new": 1,
+ "companies": 2045,
+ "activeCompanies": 2010,
  "funnel": {
-  "passed": 311,
-  "title": 95448,
+  "passed": 310,
+  "title": 96224,
   "duplicate": 80,
-  "too_old": 180,
-  "company": 55,
-  "location": 3276,
+  "too_old": 181,
+  "company": 56,
+  "location": 3352,
   "employment": 17,
   "salary": 14
  },
  "matchesBySource": {
+  "linkedin": 14,
   "weworkremotely": 15,
   "germantechjobs": 14,
-  "linkedin": 15,
   "xing": 20,
   "arbeitnow": 11,
   "ashby": 65,
