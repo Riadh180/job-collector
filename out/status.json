@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 512
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 347
   },
   "arbeitnow": {
-   "fetched": 3594
+   "fetched": 3590
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 229
+   "fetched": 235
   },
   "remoteok": {
    "fetched": 100
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 174
+   "fetched": 182
   },
   "hn": {
    "fetched": 271
@@ -31,7 +31,7 @@
    "fetched": 35
   },
   "germantechjobs": {
-   "fetched": 1468
+   "fetched": 1634
   },
   "jooble": {
    "error": "HTTP 429"
@@ -39,8 +39,17 @@
   "careerjet": {
    "error": "no API key set (optional)"
   },
+  "linkedin": {
+   "fetched": 406
+  },
+  "xing": {
+   "fetched": 92
+  },
+  "stepstone": {
+   "error": "The read operation timed out"
+  },
   "companies": {
-   "checked": 1976,
+   "checked": 1990,
    "failed": 0,
    "rateLimited": 0
   }
@@ -49,8 +58,8 @@
   "companies": {}
  },
  "adzuna_usage": {
-  "callsThisRun": 15,
-  "searchesThisRun": 10,
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
   "searchesTotal": 51,
   "callsToday": 150,
   "callsLast7Days": 900
@@ -118,83 +127,76 @@
  "probe": {
   "tried": 120,
   "found": [
-   "DOZR (smartrecruiters:dozr)",
-   "Contxt.io (smartrecruiters:contxtio)",
-   "Panacea Logics (smartrecruiters:panacealogics)",
-   "TradeLink (lever:tradelink)",
-   "Callypso (smartrecruiters:callypso)",
-   "Copia Wealth Studios (smartrecruiters:copiawealthstudios)",
-   "CircleIn (smartrecruiters:circlein)",
-   "920Four (smartrecruiters:920four)",
-   "Lov.Cash (smartrecruiters:lovcash)",
-   "Assembly (recruitee:assembly)",
-   "Logisly (smartrecruiters:logisly)",
-   "Forloop.ai (smartrecruiters:forloopai)",
-   "Knimbus (smartrecruiters:knimbus)",
-   "Mytigate (smartrecruiters:mytigate)",
-   "Spotlock (smartrecruiters:spotlock)",
-   "Apptiva Core Technologies (smartrecruiters:apptivacoretechnologies)",
-   "Aviso AI (smartrecruiters:avisoai)",
-   "CareerTEAM, LLC (smartrecruiters:careerteam)",
-   "Pixibo (smartrecruiters:pixibo)",
-   "Membrain GmbH (personio:membrain)",
-   "care.coach (smartrecruiters:carecoach)",
-   "GeekyDrop (smartrecruiters:geekydrop)",
-   "Civilization (smartrecruiters:civilization)",
-   "Shaping Cloud (smartrecruiters:shapingcloud)",
-   "Fulfyld (smartrecruiters:fulfyld)",
-   "Riskfuel (smartrecruiters:riskfuel)",
-   "Bskt (smartrecruiters:bskt)",
-   "Worldia (smartrecruiters:worldia)",
-   "Bugece (smartrecruiters:bugece)",
-   "A3Data (smartrecruiters:a3data)",
-   "Stockbit (smartrecruiters:stockbit)",
-   "DWF (workable:dwf)",
-   "Encephalo Investments (smartrecruiters:encephaloinvestments)",
-   "AdPushup (smartrecruiters:adpushup)",
-   "Everwest (workable:everwest)",
-   "Devsu (workable:devsu)",
-   "Audacia Strategies (smartrecruiters:audaciastrategies)",
-   "ImpiCode (smartrecruiters:impicode)",
-   "PayReview (smartrecruiters:payreview)",
-   "Winbold (smartrecruiters:winbold)",
-   "Scribetech (smartrecruiters:scribetech)"
+   "Coram AI (ashby:coram-ai)",
+   "Suno (ashby:suno)",
+   "Horizon3.ai (ashby:horizon3ai)",
+   "hims & hers (ashby:hims-and-hers)",
+   "Ava Labs (ashby:ava-labs)",
+   "Skydio (ashby:skydio)",
+   "Nectar (ashby:nectar)",
+   "Verkada (greenhouse:verkada)",
+   "Acorns (ashby:acorns)",
+   "Sift (ashby:sift)",
+   "Kiddom (ashby:kiddom)",
+   "abcfinlab GmbH (personio:abcfinlab)",
+   "AutonomIQ (smartrecruiters:autonomiq)",
+   "GC AI (ashby:gc-ai)"
   ]
  },
  "adzuna_pages": {
-  "tried": 161,
-  "ok": 135
+  "tried": 0,
+  "ok": 0
  },
- "collectedAt": "2026-11-22T17:38:35+00:00",
- "rawJobs": 98052,
- "matches": 253,
- "new": 2,
- "companies": 2011,
- "activeCompanies": 1976,
+ "scrape": {
+  "linkedin": {
+   "http_200": 58,
+   "cards": 494,
+   "http_429": 3,
+   "stopped_rate_limited": 2,
+   "unique_jobs": 406,
+   "skipped_by_title_or_company": 146,
+   "details_rate_limited": 1,
+   "details_opened": 120
+  },
+  "xing": {
+   "http_200": 114,
+   "links": 162,
+   "unique_jobs": 162,
+   "skipped_by_title": 70,
+   "details_opened": 92
+  }
+ },
+ "collectedAt": "2026-11-22T19:54:45+00:00",
+ "rawJobs": 99310,
+ "matches": 231,
+ "new": 25,
+ "companies": 2025,
+ "activeCompanies": 1990,
  "funnel": {
-  "title": 94335,
-  "company": 53,
-  "passed": 377,
-  "location": 3086,
-  "duplicate": 124,
-  "salary": 13,
-  "too_old": 163,
-  "employment": 16
+  "passed": 311,
+  "title": 95448,
+  "duplicate": 80,
+  "too_old": 180,
+  "company": 55,
+  "location": 3276,
+  "employment": 17,
+  "salary": 14
  },
  "matchesBySource": {
-  "adzuna": 73,
-  "arbeitnow": 7,
-  "germantechjobs": 10,
-  "weworkremotely": 13,
-  "ashby": 64,
-  "arbeitsagentur": 18,
+  "weworkremotely": 15,
+  "germantechjobs": 14,
+  "linkedin": 15,
+  "xing": 20,
+  "arbeitnow": 11,
+  "ashby": 65,
+  "personio": 12,
+  "arbeitsagentur": 19,
   "jobicy": 8,
-  "greenhouse": 19,
-  "recruitee": 16,
+  "greenhouse": 20,
+  "recruitee": 17,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
-  "personio": 10,
   "workable": 2
  }
 }
