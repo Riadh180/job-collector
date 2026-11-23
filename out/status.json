@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1260
+   "fetched": 1334
   },
   "arbeitsagentur": {
    "fetched": 345
   },
   "arbeitnow": {
-   "fetched": 3593
+   "fetched": 5978
   },
   "remotive": {
    "fetched": 128
   },
   "jobicy": {
-   "fetched": 235
+   "fetched": 265
   },
   "remoteok": {
    "fetched": 100
@@ -22,31 +22,31 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 182
+   "fetched": 188
   },
   "hn": {
    "fetched": 271
   },
   "workingnomads": {
-   "fetched": 35
+   "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 1254
+   "fetched": 1201
   },
   "jooble": {
-   "fetched": 144
+   "fetched": 137
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 337
+   "fetched": 338
   },
   "xing": {
-   "fetched": 91
+   "fetched": 92
   },
   "stepstone": {
-   "error": "The read operation timed out"
+   "error": "'ascii' codec can't encode character '\\xe1' in position 79: ordinal not in range(128)"
   },
   "companies": {
    "checked": 1984,
@@ -59,7 +59,7 @@
  },
  "adzuna_usage": {
   "callsThisRun": 45,
-  "searchesThisRun": 30,
+  "searchesThisRun": 29,
   "searchesTotal": 51,
   "callsToday": 45,
   "callsLast7Days": 785
@@ -113,7 +113,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=296, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=292, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "arbeitsagentur_searches": {
   "searches": 69,
@@ -133,64 +133,69 @@
    "Prisma (personio:prisma)",
    "Brevo (lever:brevo)",
    "Bunq (recruitee:bunq)",
+   "Tolken (ashby:tolken)",
+   "G2i Inc. (ashby:g2i)",
    "Coram AI (ashby:coram-ai)",
    "Suno (ashby:suno)",
-   "Orkes (greenhouse:orkes)",
-   "Horizon3.ai (ashby:horizon3ai)",
-   "hims & hers (ashby:hims-and-hers)"
+   "Orkes (greenhouse:orkes)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 152
+  "ok": 185
  },
  "scrape": {
   "linkedin": {
-   "http_200": 53,
-   "cards": 395,
-   "http_429": 7,
-   "stopped_rate_limited": 6,
-   "unique_jobs": 337,
+   "http_200": 62,
+   "cards": 390,
+   "http_429": 5,
+   "stopped_rate_limited": 4,
+   "unique_jobs": 338,
    "skipped_by_title_or_company": 107,
    "details_rate_limited": 1,
    "details_opened": 120
   },
   "xing": {
-   "http_200": 113,
-   "links": 161,
-   "unique_jobs": 161,
-   "skipped_by_title": 70,
-   "details_opened": 91
+   "http_200": 115,
+   "links": 160,
+   "unique_jobs": 160,
+   "skipped_by_title": 68,
+   "details_opened": 92
+  },
+  "stepstone": {
+   "http_200": 22,
+   "links": 301,
+   "unique_jobs": 301
   }
  },
- "collectedAt": "2026-11-23T00:34:36+00:00",
- "rawJobs": 99688,
- "matches": 293,
+ "collectedAt": "2026-11-23T10:29:10+00:00",
+ "rawJobs": 101675,
+ "matches": 301,
  "new": 23,
  "companies": 2019,
  "activeCompanies": 1984,
  "funnel": {
-  "title": 95447,
-  "passed": 537,
-  "company": 171,
-  "location": 3294,
-  "duplicate": 244,
-  "salary": 29,
-  "employment": 19,
+  "title": 97306,
+  "passed": 581,
+  "company": 187,
+  "location": 3360,
+  "duplicate": 280,
+  "salary": 30,
+  "employment": 22,
   "too_old": 182
  },
  "matchesBySource": {
-  "adzuna": 90,
-  "weworkremotely": 15,
-  "germantechjobs": 4,
-  "linkedin": 14,
-  "xing": 17,
-  "arbeitnow": 7,
-  "ashby": 60,
-  "arbeitsagentur": 18,
-  "jobicy": 8,
+  "adzuna": 91,
+  "weworkremotely": 18,
+  "germantechjobs": 5,
   "greenhouse": 20,
-  "recruitee": 14,
+  "linkedin": 10,
+  "xing": 17,
+  "arbeitnow": 17,
+  "ashby": 57,
+  "arbeitsagentur": 18,
+  "jobicy": 9,
+  "recruitee": 13,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,

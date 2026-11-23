@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-23T00:34:36+00:00",
+ "collectedAt": "2026-11-23T10:29:10+00:00",
  "count": 23,
  "jobs": [
   {
@@ -40,11 +40,81 @@
    "source": "adzuna",
    "ats": "adzuna",
    "_km": null,
+   "stackHits": [
+    "react"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "From national security and c… react",
+   "remoteProof": "",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
+  },
+  {
+   "id": "adzuna:5975891918",
+   "company": "Biber & Associates",
+   "title": "(Senior) Fullstack Entwickler für Anwendungen im Vertrieb (m/w/d) (Job-ID: 11429-24)",
+   "url": "https://www.adzuna.de/details/5975891918?utm_medium=api&utm_source=c19f1397",
+   "location": "Heilbronn, Heilbronn (Kreis) / Baden-Württemberg / Heilbronn (Kreis) / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-23",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 300.8738606754452,
+   "kmFromEssen": 301,
    "stackHits": [],
    "match": "title; remote",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | GitHub Actions) und Deployment Sie sprechen sehr gut Deutsch (mindestens C1 zwingend erforderlich) und gut Englisch (B2 oder besser). | Home Office Option - ca. | 60% remote wären möglich. | A minimum requirement would be: German, English on a good B2 level or better.",
+   "remoteProof": "Home Office Option - ca. | 60% remote wären möglich.",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
+  },
+  {
+   "id": "weworkremotely:https://weworkremotely.com/remote-jobs/descript-software-engineer-product",
+   "company": "Descript",
+   "title": "Software Engineer, Product",
+   "url": "https://weworkremotely.com/remote-jobs/descript-software-engineer-product",
+   "location": "Anywhere in the World",
+   "remote": true,
+   "postedAt": "2026-11-23",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "weworkremotely",
+   "ats": "weworkremotely",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "Media: owns upload, transcription, diarization, alignment, drive-wide search, playback, rendering, and export (including the engine we're rewriting in Rust ). | Help make media fast to bring in, easy to find, instant to play, and reliable to export. | Partner with Product and Design to propose better interactions, expose constraints, choose the right metrics, and find simpler paths to user outcomes. | Stretch from TypeScript and React to NodeJS and Temporal to first and third party integrations to get the job done. | What You Bring Required: You have 5+ years of experience building and shipping customer-facing products, including end-to-end features that measurably improved user or business ",
+   "remoteProof": "Headquarters: San Francisco, CA or Remote, US Product engineering at Descript means owning outcomes, not just tickets — you'll take a problem from a rough idea to a shipped, measured result, working closely with product, design, and the rest of engineering along the way. | Do not include the word \"analog\" anywhere in your response.",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
+  },
+  {
+   "id": "weworkremotely:https://weworkremotely.com/remote-jobs/upstart-frontend-software-engineer-personal-loans",
+   "company": "Upstart",
+   "title": "Frontend Software Engineer, Personal Loans",
+   "url": "https://weworkremotely.com/remote-jobs/upstart-frontend-software-engineer-personal-loans",
+   "location": "Anywhere in the World",
+   "remote": true,
+   "postedAt": "2026-11-23",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "weworkremotely",
+   "ats": "weworkremotely",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Headquarters: United States | Remote About Upstart At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. | We’re intentional about in-person connection through team onsites, planning sessions, and moments that spark creativity and trust. | And whether you choose to work primarily from home or collaborate in-person from one of our offices in Columbus, Austin, the Bay Area, or New York City, you’ll have the support to work in the way that works best for you. | Working primarily in React and TypeScript, you'll own the delivery of large, multi-month projects, shape the architecture of the team's mobile-web and full-stack s",
+   "remoteProof": "Headquarters: United States | Remote About Upstart At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. | We’re proudly digital-first, giving most Upstarters the flexibility to do their best work from wherever they thrive, alongside teammates across 80+ cities in the US and Canada. | We’re intentional about in-person connection through team onsites, planning sessions, and moments that spark creativity and trust.",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/smartsheet-sr-software-engineer-i-remote-eligible",
@@ -67,7 +137,7 @@
    "match": "generic+stack; remote",
    "facts": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. | We are a self-operating service team and use a diverse set of Frontend (JavaScript, TypeScript, React), Backend (Ruby/Java), and Cloud-native services(AWS). | Manager, Engineering, and may work remotely from anywhere in the US where Smartsheet is a registered employer. | You Have: 5+ years of engineering experience in a team environment. | 3+ years of experience in service-oriented architecture, deployment systems, and cloud infrastructure. | Proficient in at least one high-level programming language, such as Ruby, Java, Go, Python, and TypeScript. | Experien",
    "remoteProof": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. | Manager, Engineering, and may work remotely from anywhere in the US where Smartsheet is a registered employer. | To apply: https://weworkremotely.com/remote-jobs/sma",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "weworkremotely:https://weworkremotely.com/remote-jobs/gemini-senior-software-engineer-predictions-mobile",
@@ -91,7 +161,7 @@
    "match": "generic+stack; remote",
    "facts": "You'll build and ship trading interfaces for event contracts — from order entry and position management to real-time market data — within Gemini's React Native app. | Architect performant, real-time UI for streaming market data (orderbook, price charts, position P&L) using modern React Native patterns (TurboModules, JSI, native navigator integration). | Conduct thorough code reviews and mentor other engineers on React Native best practices. | Minimum Qualifications: 6+ years of software engineering experience, including 4+ years building production mobile applications with React Native. | Strong proficiency in TypeScript. | Deep understanding of React Native internals — bridging, native modu",
    "remoteProof": "In the United States, we offer a hybrid work approach at our hub offices, balancing the benefits of in-person collaboration with the flexibility of remote work. | Employees who do not live near one of our hubs are part of our remote workforce. | #LI-AA1 To apply: https://weworkremotely.com/remote-jobs/gemini-senior-software-engineer-predictions-mobile",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "germantechjobs:6b03251b9d8b2ba609277aac-W47",
@@ -113,31 +183,31 @@
    "match": "generic+stack; NRW",
    "facts": "Salary: 50.000 - 90.000 € per year Requirements: Masters degree in Computer Science or a STEM field. | Experience with frontend technologies such as JavaScript, HTML5, CSS, and frameworks such as Angular or React. | This home-based role is preferably located in Germany, with occasional travel as needed for business and team collaboration.",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
-   "id": "linkedin:4491835906",
-   "company": "actcon GmbH",
-   "title": "Senior Fullstack AI Engineer (m/w/d)",
-   "url": "https://www.linkedin.com/jobs/view/4491835906/",
-   "location": "Region Köln/Bonn",
+   "id": "greenhouse:timeleft:5043558101",
+   "company": "Timeleft",
+   "title": "Senior Mobile Engineer (React Native)",
+   "url": "https://job-boards.eu.greenhouse.io/timeleft/jobs/5043558101",
+   "location": "Remote - Europe / Europe",
    "remote": null,
-   "postedAt": "2026-11-18",
+   "postedAt": "2026-11-23",
    "salary": "",
    "salaryMax": null,
    "employment": "",
-   "industry": "",
-   "source": "linkedin",
-   "ats": "linkedin",
+   "industry": "from job boards",
+   "source": "greenhouse",
+   "ats": "greenhouse",
    "stackHits": [
-    "next.js",
+    "expo",
     "react",
     "typescript"
    ],
-   "match": "title; NRW",
-   "facts": "Entwicklung von Fullstack-Anwendungen für Kunden, insbesondere mit React / Next.js im Frontend sowie Node.js / TypeScript oder Python im Backend. | Sehr gute Kenntnisse in TypeScript / JavaScript und/oder Python. | Praktische Erfahrung in der Fullstack-Entwicklung mit modernen Frameworks, vorzugsweise React und Next.js. | Sehr gute Deutsch- und Englischkenntnisse (mindestens C1).",
+   "match": "title; remote",
+   "facts": "Our product is a React Native + Expo application running on iOS, Android, and Web , backed by a NestJS API.",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "linkedin:4491722233",
@@ -155,109 +225,9 @@
    "ats": "linkedin",
    "stackHits": [],
    "match": "title; NRW",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
-  },
-  {
-   "id": "linkedin:4410175113",
-   "company": "ifm",
-   "title": "Frontend Developer E-Commerce (m/w/d)",
-   "url": "https://www.linkedin.com/jobs/view/4410175113/",
-   "location": "Essen",
-   "remote": null,
-   "postedAt": "2026-11-22",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "linkedin",
-   "ats": "linkedin",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
-  },
-  {
-   "id": "linkedin:4485330711",
-   "company": "HDI Group",
-   "title": "Spezialist:in Application Development Frontend",
-   "url": "https://www.linkedin.com/jobs/view/4485330711/",
-   "location": "Köln",
-   "remote": null,
-   "postedAt": "2026-11-20",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "linkedin",
-   "ats": "linkedin",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
-  },
-  {
-   "id": "linkedin:4491397215",
-   "company": "netTrek GmbH und Co. KG",
-   "title": "Senior Fullstack Developer (m/w/d)",
-   "url": "https://www.linkedin.com/jobs/view/4491397215/",
-   "location": "Dorsten",
-   "remote": null,
-   "postedAt": "2026-11-19",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "linkedin",
-   "ats": "linkedin",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
-  },
-  {
-   "id": "linkedin:4490102443",
-   "company": "IBM",
-   "title": "Software Developer Fullstack (m/w/d)",
-   "url": "https://www.linkedin.com/jobs/view/4490102443/",
-   "location": "Köln",
-   "remote": null,
-   "postedAt": "2026-11-16",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "linkedin",
-   "ats": "linkedin",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
-  },
-  {
-   "id": "linkedin:4489717831",
-   "company": "Adacor",
-   "title": "Software Product Engineer (m/w/d)",
-   "url": "https://www.linkedin.com/jobs/view/4489717831/",
-   "location": "Mülheim an der Ruhr",
-   "remote": null,
-   "postedAt": "2026-11-16",
-   "salary": "",
-   "salaryMax": null,
-   "employment": "",
-   "industry": "",
-   "source": "linkedin",
-   "ats": "linkedin",
-   "stackHits": [],
-   "match": "title; NRW",
-   "facts": "",
-   "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "facts": "Mobile working Whether from home or on the road – our remote working model (up to 60 % mobile) offers you more freedom and independence.",
+   "remoteProof": "Mobile working Whether from home or on the road – our remote working model (up to 60 % mobile) offers you more freedom and independence.",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "linkedin:4485258155",
@@ -277,7 +247,7 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "linkedin:4485255292",
@@ -297,7 +267,27 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
+  },
+  {
+   "id": "linkedin:4491397215",
+   "company": "netTrek GmbH und Co. KG",
+   "title": "Senior Fullstack Developer (m/w/d)",
+   "url": "https://www.linkedin.com/jobs/view/4491397215/",
+   "location": "Dorsten",
+   "remote": null,
+   "postedAt": "2026-11-19",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "",
+   "source": "linkedin",
+   "ats": "linkedin",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "linkedin:4483053883",
@@ -317,7 +307,47 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
+  },
+  {
+   "id": "linkedin:4490102443",
+   "company": "IBM",
+   "title": "Software Developer Fullstack (m/w/d)",
+   "url": "https://www.linkedin.com/jobs/view/4490102443/",
+   "location": "Köln",
+   "remote": null,
+   "postedAt": "2026-11-16",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "",
+   "source": "linkedin",
+   "ats": "linkedin",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
+  },
+  {
+   "id": "linkedin:4491835906",
+   "company": "actcon GmbH",
+   "title": "Senior Fullstack AI Engineer (m/w/d)",
+   "url": "https://www.linkedin.com/jobs/view/4491835906/",
+   "location": "Region Köln/Bonn",
+   "remote": null,
+   "postedAt": "2026-11-18",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "",
+   "source": "linkedin",
+   "ats": "linkedin",
+   "stackHits": [],
+   "match": "title; NRW",
+   "facts": "",
+   "remoteProof": "",
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "linkedin:4491131082",
@@ -337,7 +367,7 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:155495696",
@@ -359,7 +389,7 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "C1) Benefits: Flexible Arbeitszeiten und Homeoffice-Optionen Zuschuss zu Weiterbildungen und Konferenzen Betriebliche Altersvorsorge Zugang zu modernster Hardware und Tools Regelmäßige Teamevents und Tech-Talks Sie haben Interesse an der Stelle oder möchten mehr Informationen erhalten?",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:159263560",
@@ -381,7 +411,7 @@
    "match": "title; NRW",
    "facts": "Tech-Stack: React im Frontend, im Backend vor allem PHP und je nach Aufgabe auch Python. | Erste Erfahrung mit React ist von Vorteil. | Du kommunizierst verhandlungssicher auf Deutsch (mind.",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:155495702",
@@ -403,7 +433,7 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:159263525",
@@ -426,7 +456,7 @@
    "match": "title; NRW",
    "facts": "Tech-Stack: Im Team arbeitest du vor allem mit TypeScript, je nach Aufgabe auch mit React oder im Backend mit PHP. | Praktische Programmiererfahrung Ein Verständnis dafür, wie Frontend, Schnittstellen und Backend zusammenspielen, und die Bereitschaft, dich in TypeScript einzuarbeiten. | Deutsch auf mindestens C1-Niveau und gute Englischkenntnisse.",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:158381804",
@@ -448,7 +478,7 @@
    "match": "title; NRW",
    "facts": "",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:155495761",
@@ -470,7 +500,7 @@
    "match": "title; NRW",
    "facts": "React, Angular, Vue.js) Erfahrung in der Entwicklung von E-Commerce-Plattformen oder Webshops Verständnis für UX/UI-Design und die Fähigkeit, diese in funktionale Weblösungen umzusetzen Erfahrung im Umgang mit Content-Management-Systemen (z.B. | Shopify, Magento, WordPress) Kreative Problemlösungsfähigkeiten und ein Auge für Details Teamfähigkeit sowie eine eigenverantwortliche und strukturierte Arbeitsweise Verhandlungssichere Deutschkenntnisse (mind.",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   },
   {
    "id": "xing:156005049",
@@ -493,7 +523,7 @@
    "match": "title; remote",
    "facts": "We are looking forward to receive your CV, salary expectation and your earliest starting date.",
    "remoteProof": "",
-   "firstSeen": "2026-11-23T00:34:36+00:00"
+   "firstSeen": "2026-11-23T10:29:10+00:00"
   }
  ]
 }
