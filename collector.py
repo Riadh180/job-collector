@@ -1047,7 +1047,22 @@ def _log(src, key, inc=1):
 
 
 def _get_html(src, url, pause):
-    code, body = http(url, BROWSER_H, timeout=30, retries=2)
+    """Never let one slow page stop a whole source: a timeout counts as 'no answer' and the search goes on.
+    After 4 pages in a row without an answer the site is treated as blocking for this run."""
+    if SCRAPE_LOG.get(src, {}).get("_dead"):
+        return 0, ""
+    try:
+        code, body = http(url, BROWSER_H, timeout=20, retries=1)
+    except Exception as e:
+        code, body = 0, b""
+        _log(src, "timeouts")
+        _log(src, "_miss_row")
+        if SCRAPE_LOG[src]["_miss_row"] >= 4:
+            _log(src, "_dead")
+            _log(src, "gave_up_site_not_answering")
+        time.sleep(pause)
+        return code, ""
+    SCRAPE_LOG.setdefault(src, {})["_miss_row"] = 0
     time.sleep(pause)
     _log(src, f"http_{code}")
     return code, body.decode("utf-8", "replace") if body else ""
@@ -1253,6 +1268,7 @@ def stepstone():
                 q["page"] = page_no
             code, page = _get_html("stepstone", path + "?" + urllib.parse.urlencode(q), pause)
             if code != 200:
+                _log("stepstone", f"search_failed_{code}")
                 break
             before = len(links)
             for m in re.finditer(r'(?:https://www\.stepstone\.de)?/(stellenangebote--([^"\s?#<>]+?)--(\d{6,})-inline\.html)', page):
