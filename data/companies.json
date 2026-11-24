@@ -12073,7 +12073,8 @@
   "ats": "lever",
   "slug": "havenparkcommunities",
   "addedBy": "probe 2026-10-30",
-  "lastOk": "2026-11-24"
+  "lastOk": "2026-11-24",
+  "failCount": 1
  },
  {
   "name": "Reonic",
@@ -16579,6 +16580,14 @@
   "lastOk": "2026-11-24"
  },
  {
+  "name": "Clickhouse GmbH",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "clickhouse",
+  "addedBy": "probe 2026-11-24",
+  "lastOk": "2026-11-24"
+ },
+ {
   "name": "Verkada",
   "industry": "from job boards",
   "ats": "greenhouse",
@@ -16592,6 +16601,14 @@
   "ats": "personio",
   "slug": "dymatrix",
   "tld": "de",
+  "addedBy": "probe 2026-11-24",
+  "lastOk": "2026-11-24"
+ },
+ {
+  "name": "YOUMMDAY GmbH",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "yoummday",
   "addedBy": "probe 2026-11-24",
   "lastOk": "2026-11-24"
  },
@@ -16612,27 +16629,10 @@
   "lastOk": "2026-11-24"
  },
  {
-  "name": "G2",
+  "name": "SonarSource GmbH",
   "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "g2",
-  "addedBy": "probe 2026-11-24",
-  "lastOk": "2026-11-24"
- },
- {
-  "name": "Cape",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "cape",
-  "addedBy": "probe 2026-11-24",
-  "lastOk": "2026-11-24"
- },
- {
-  "name": "Gpe",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "gpe",
-  "tld": "de",
+  "ats": "lever",
+  "slug": "sonarsource",
   "addedBy": "probe 2026-11-24",
   "lastOk": "2026-11-24"
  }
