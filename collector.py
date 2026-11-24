@@ -16,6 +16,9 @@ Standard library only. Run:  python collector.py            (collect)
                              python collector.py --probe    (also probe candidates.txt)
 """
 import concurrent.futures as cf
+
+# 24 Nov 2026: hard time limits so a run never hits GitHub's 45-minute cut-off.
+DEADLINES = {"boards": float("inf"), "probe": float("inf"), "companies": float("inf")}
 import datetime as dt
 import html
 import json
@@ -39,6 +42,8 @@ STATUS = {"sources": {}, "errors": {}}
 
 # ---------------------------------------------------------------- helpers
 def http(url, headers=None, timeout=25, retries=1):
+    if time.time() > DEADLINES.get("boards", float("inf")):
+        return 0, b""  # job-board phase is out of time: every board stops and keeps what it has
     h = {"User-Agent": UA, "Accept": "application/json, text/xml, */*"}
     if headers:
         h.update(headers)
@@ -1334,6 +1339,8 @@ def slug_variants(name):
 
 
 def probe_one(name, industry):
+    if time.time() > DEADLINES["probe"]:
+        return None  # out of time for discovery this run; the name is tried again next run
     for slug in slug_variants(name)[:3]:
         tries = [
             ("ashby", {"slug": slug}),
@@ -1353,10 +1360,10 @@ def probe_one(name, industry):
                 continue
             if jobs and plausible(jobs):
                 return c
-    for slug in slug_variants(name):
-        if RATE_LIMITED.get("personio"):
-            break  # keep Personio's limit for the real company boards
-        c = dict(name=name, industry=industry, ats="personio", slug=slug)
+    for slug in slug_variants(name)[:2]:
+        if RATE_LIMITED.get("personio") or time.time() > DEADLINES["probe"]:
+            break  # keep Personio's limit (and the time) for the real company boards
+        c = dict(name=name, industry=industry, ats="personio", slug=slug, tld="de")
         try:
             jobs = personio(c)
             if jobs and plausible(jobs):
@@ -1375,7 +1382,8 @@ def plausible(jobs):
     return False
 
 
-PROBE_LIMIT = int(os.environ.get("PROBE_LIMIT", "120"))
+PROBE_LIMIT = int(os.environ.get("PROBE_LIMIT", "60"))
+
 GENERIC_EMPLOYER = re.compile(r"jobgether|lemon\.io|toptal|turing|andela|crossover|hays|randstad|adecco|manpower|gulp|"
                               r"personal|recruit|consult|staffing|talent|headhunt|vermittlung|zeitarbeit|jobs? ?gmbh", re.I)
 
@@ -1485,20 +1493,26 @@ def main():
         except Exception as e:
             return name, [], {"error": str(e)[:160]}, time.time() - t0
 
+    DEADLINES["boards"] = t_run + 20 * 60         # job boards get at most 20 minutes together
     with cf.ThreadPoolExecutor(max_workers=len(BOARDS)) as pool:
         for name, jobs, st, secs in pool.map(run_board, list(BOARDS.items())):
             raw += jobs
             STATUS["sources"][name] = st
             STATUS["timings"][name] = round(secs)
+    DEADLINES["boards"] = float("inf")
     STATUS["timings"]["_all_boards"] = round(time.time() - t_run)
 
     if "--no-probe" not in sys.argv:
         t0 = time.time()
+        DEADLINES["probe"] = t0 + 6 * 60          # discovery gets at most 6 minutes
         companies += run_probe(companies, harvest_employers(raw))
         STATUS["timings"]["_probe"] = round(time.time() - t0)
     t_companies = time.time()
 
+    DEADLINES["companies"] = t_run + 38 * 60      # stop company pages at 38 minutes after the start
     def fetch_company(c):
+        if time.time() > DEADLINES["companies"]:
+            raise RuntimeError("time budget: not checked this run")
         return c, FETCHERS[c["ats"]](c)
 
     # One-time repair (19 Nov 2026): boards switched off without a stored reason were mostly
@@ -1520,8 +1534,8 @@ def main():
                 c.pop("failCount", None)
             except Exception as e:
                 fails[c["name"]] = str(e)[:80]
-                if "429" in str(e):
-                    continue  # rate limited: try again next run, never switch the company off for it
+                if "429" in str(e) or "time budget" in str(e):
+                    continue  # rate limited / out of time: try again next run, never switch the company off for it
                 c["failCount"] = c.get("failCount", 0) + 1
                 if c["failCount"] >= 5:
                     c["disabled"] = True
