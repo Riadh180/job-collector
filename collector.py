@@ -1471,16 +1471,32 @@ def main():
     companies = load("data/companies.json", [])
     raw, fails = [], {}
 
-    for name, fn in BOARDS.items():
+    # 24 Nov 2026: the boards are independent websites, so read them all at the same time.
+    # Before, they ran one after another and the run grew past GitHub's 45-minute limit.
+    t_run = time.time()
+    STATUS["timings"] = {}
+
+    def run_board(item):
+        name, fn = item
+        t0 = time.time()
         try:
             jobs = fn()
-            raw += jobs
-            STATUS["sources"][name] = {"fetched": len(jobs)}
+            return name, jobs, {"fetched": len(jobs)}, time.time() - t0
         except Exception as e:
-            STATUS["sources"][name] = {"error": str(e)[:160]}
+            return name, [], {"error": str(e)[:160]}, time.time() - t0
+
+    with cf.ThreadPoolExecutor(max_workers=len(BOARDS)) as pool:
+        for name, jobs, st, secs in pool.map(run_board, list(BOARDS.items())):
+            raw += jobs
+            STATUS["sources"][name] = st
+            STATUS["timings"][name] = round(secs)
+    STATUS["timings"]["_all_boards"] = round(time.time() - t_run)
 
     if "--no-probe" not in sys.argv:
+        t0 = time.time()
         companies += run_probe(companies, harvest_employers(raw))
+        STATUS["timings"]["_probe"] = round(time.time() - t0)
+    t_companies = time.time()
 
     def fetch_company(c):
         return c, FETCHERS[c["ats"]](c)
@@ -1510,6 +1526,8 @@ def main():
                 if c["failCount"] >= 5:
                     c["disabled"] = True
                     c["disabledReason"] = str(e)[:80]
+    STATUS["timings"]["_companies"] = round(time.time() - t_companies)
+    STATUS["timings"]["_total"] = round(time.time() - t_run)
     STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails),
                                       "rateLimited": sum(1 for v in fails.values() if "429" in v)}
     STATUS["errors"]["companies"] = fails
