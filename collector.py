@@ -944,42 +944,49 @@ def germantechjobs():
 
 
 def jooble():
-    """Jooble job search engine (free API key by email from jooble.org/api/about; GitHub secret JOOBLE_KEY)."""
+    """Jooble job search engine (free API key by email from jooble.org/api/about; GitHub secret JOOBLE_KEY).
+    The free key has a small request quota (HTTP 429 when used up), so each run makes at most
+    jooble.calls_per_run calls and works through the search list in rotation."""
     key = os.environ.get("JOOBLE_KEY")
     if not key:
         raise RuntimeError("no API key set (optional)")
     cfg = CFG.get("jooble", {})
-    out, calls = [], 0
-    for what in cfg.get("queries", []):
-        for where in cfg.get("locations", ["Essen", "Köln", "Deutschland"]):
-            for page in (1, 2):
-                payload = json.dumps({"keywords": what + (" remote" if where == "Deutschland" else ""),
-                                      "location": where, "page": str(page)}).encode()
-                try:
-                    req = urllib.request.Request(f"https://jooble.org/api/{key}", data=payload,
-                                                 headers={"Content-Type": "application/json", "User-Agent": UA})
-                    with urllib.request.urlopen(req, timeout=25) as r:
-                        j = json.loads(r.read().decode("utf-8", "replace"))
-                except urllib.error.HTTPError as e:
-                    if not out:
-                        raise RuntimeError(f"HTTP {e.code}")
-                    j = None
-                except Exception:
-                    j = None
-                calls += 1
-                jobs = (j or {}).get("jobs") or []
-                for x in jobs:
-                    loc = (x.get("location") or "") + " / Deutschland"
-                    snip = strip_html(x.get("snippet") or "")
-                    if where == "Deutschland" or re.search(r"remote|home ?office", snip + " " + (x.get("title") or ""), re.I):
-                        loc += " / Homeoffice"
-                    out.append(rec("jooble", x.get("id") or x.get("link"), x.get("company"), strip_html(x.get("title") or ""),
-                                   x.get("link"), loc, parse_date(x.get("updated")), None, x.get("salary") or "",
-                                   _salary_max_eur(x.get("salary")), snip + " " + what, x.get("type") or "", "", "jooble"))
-                if len(jobs) < 20:
-                    break
-                time.sleep(0.5)
-    STATUS["jooble_usage"] = {"calls": calls}
+    combos = [(w, l) for w in cfg.get("queries", []) for l in cfg.get("locations", ["Essen", "Köln", "Deutschland"])]
+    st = load("data/jooble_state.json", {"next": 0})
+    start = st.get("next", 0) % max(1, len(combos))
+    todo = (combos[start:] + combos[:start])[:cfg.get("calls_per_run", 10)]
+    out, calls, limited = [], 0, False
+    for what, where in todo:
+        payload = json.dumps({"keywords": what + (" remote" if where == "Deutschland" else ""),
+                              "location": where, "page": "1"}).encode()
+        try:
+            req = urllib.request.Request(f"https://jooble.org/api/{key}", data=payload,
+                                         headers={"Content-Type": "application/json", "User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=25) as r:
+                j = json.loads(r.read().decode("utf-8", "replace"))
+        except urllib.error.HTTPError as e:
+            calls += 1
+            if e.code == 429:
+                limited = True
+                break
+            j = None
+        except Exception:
+            j = None
+        calls += 1
+        for x in (j or {}).get("jobs") or []:
+            loc = (x.get("location") or "") + " / Deutschland"
+            snip = strip_html(x.get("snippet") or "")
+            if where == "Deutschland" or re.search(r"remote|home ?office", snip + " " + (x.get("title") or ""), re.I):
+                loc += " / Homeoffice"
+            out.append(rec("jooble", x.get("id") or x.get("link"), x.get("company"), strip_html(x.get("title") or ""),
+                           x.get("link"), loc, parse_date(x.get("updated")), None, x.get("salary") or "",
+                           _salary_max_eur(x.get("salary")), snip + " " + what, x.get("type") or "", "", "jooble"))
+        time.sleep(1.0)
+    done = max(0, calls - (1 if limited else 0))
+    save("data/jooble_state.json", {"next": (start + done) % max(1, len(combos))})
+    STATUS["jooble_usage"] = {"calls": calls, "limited": limited}
+    if limited and not out:
+        raise RuntimeError("free request limit reached (HTTP 429) — retries next run")
     return out
 
 
@@ -1623,6 +1630,8 @@ def write_run_summary():
         err = (v.get("error") if isinstance(v, dict) else "") or ""
         read = v.get("fetched", v.get("checked", 0)) if isinstance(v, dict) else 0
         kept = h.get("matches", STATUS.get("matchesBySource", {}).get(k, 0))
+        if k == "companies":
+            kept = sum(n for src, n in STATUS.get("matchesBySource", {}).items() if src in FEED_SOURCES)
         note = err[:90]
         sc = (STATUS.get("scrape") or {}).get(k) or {}
         if sc.get("http_429") or sc.get("stopped_rate_limited"):
