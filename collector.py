@@ -1466,6 +1466,204 @@ def save(rel, obj):
         json.dump(obj, f, ensure_ascii=False, indent=1)
 
 
+
+# ---------------------------------------------------------------- link check (added 25 Nov 2026)
+# Every saved job must open the job ad itself. Jobs from an employer's own feed (ashby, greenhouse, lever,
+# personio, recruitee, workable, smartrecruiters) are live by definition: they came from the employer's API
+# in this run. Everything from a job board is opened here (GitHub has open internet), redirects are
+# followed to the employer's page, and ads that are gone are dropped before the hunt ever sees them.
+FEED_SOURCES = {"ashby", "greenhouse", "lever", "personio", "recruitee", "workable", "smartrecruiters"}
+BOARD_HOSTS = re.compile(r"(adzuna\.|jooble\.|careerjet\.|arbeitnow\.|himalayas\.|jobicy\.|remoteok\.|remotive\.|"
+                         r"weworkremotely\.|workingnomads\.|indeed\.|google\.|jobgether\.|remoterocketship\.)", re.I)
+GONE_TEXT = re.compile(
+    r"(no longer (available|accepting|open|active)|job (has|is) (expired|closed)|position has been filled|"
+    r"this (job|position|posting|vacancy) (is|has been) (closed|filled|removed)|job not found|page not found|"
+    r"nicht mehr (verfügbar|verfuegbar|aktiv|online|besetzbar)|bereits besetzt|stelle ist (leider )?(nicht|geschlossen|besetzt)|"
+    r"stellenanzeige (ist )?(leider )?(nicht mehr|abgelaufen)|anzeige ist abgelaufen|ausschreibung ist beendet|"
+    r"we couldn.t find (this|the) job|diese stelle (gibt es|existiert) nicht)", re.I)
+
+
+class _NoCookieRedirect(urllib.request.HTTPRedirectHandler):
+    max_redirections = 8
+
+
+def _open_final(url, timeout=20):
+    """GET url following redirects. Returns (status, final_url, text[:200k])."""
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml",
+                                               "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"})
+    opener = urllib.request.build_opener(_NoCookieRedirect())
+    try:
+        with opener.open(req, timeout=timeout) as r:
+            body = r.read(400000).decode("utf-8", "replace")
+            return r.status, r.geturl(), body
+    except urllib.error.HTTPError as e:
+        return e.code, url, ""
+    except Exception:
+        return 0, url, ""
+
+
+def _job_id_in(url):
+    m = re.findall(r"\d{5,}", url or "")
+    return m[-1] if m else ""
+
+
+def check_links(matches, budget_s=8 * 60):
+    """Sets linkStatus on every match: "ok", "gone" or "unchecked" (site did not answer / blocked us).
+    Board jobs whose ad redirects to the employer get url = the employer page (boardUrl keeps the old one)."""
+    deadline = time.time() + budget_s
+    host_sem = {h: threading.Semaphore(2) for h in ("linkedin", "xing", "stepstone")}
+    stats = {"feed_ok": 0, "ok": 0, "gone": 0, "unchecked": 0, "moved_to_employer": 0}
+    lock = threading.Lock()
+
+    def one(m):
+        if m["source"] in FEED_SOURCES:
+            m["linkStatus"] = "ok"
+            m["linkNote"] = "from the employer's own job feed in this run"
+            with lock:
+                stats["feed_ok"] += 1
+            return
+        if time.time() > deadline:
+            m["linkStatus"] = "unchecked"
+            with lock:
+                stats["unchecked"] += 1
+            return
+        url = m["url"]
+        sem = next((v for k, v in host_sem.items() if k in url), None)
+        if sem:
+            sem.acquire()
+        try:
+            code, final, body = _open_final(url)
+            if sem:
+                time.sleep(1.2)
+        finally:
+            if sem:
+                sem.release()
+        status, note = "unchecked", f"HTTP {code}"
+        if code in (404, 410):
+            status, note = "gone", f"HTTP {code}"
+        elif code == 200:
+            plain = strip_html(re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", body))[:60000]
+            jid = _job_id_in(url)
+            redirected_away = (m["source"] not in ("adzuna", "jooble", "careerjet", "hn", "arbeitsagentur")
+                               and jid and jid not in final)
+            if GONE_TEXT.search(plain[:20000]):
+                status, note = "gone", "page says the ad is no longer available"
+            elif redirected_away:
+                status, note = "gone", "redirected to a list page"
+            elif len(plain) < 300 and m["source"] not in ("linkedin",):
+                status, note = "unchecked", "empty page"
+            else:
+                status, note = "ok", "opened " + NOW.strftime("%Y-%m-%d")
+                if final and final != url and not BOARD_HOSTS.search(final) and \
+                        m["source"] in ("adzuna", "jooble", "careerjet", "arbeitnow", "himalayas", "jobicy",
+                                        "remotive", "remoteok", "workingnomads", "weworkremotely"):
+                    m["boardUrl"] = url
+                    m["url"] = final.split("#")[0]
+                    m.setdefault("employerUrl", m["url"])
+                    with lock:
+                        stats["moved_to_employer"] += 1
+                elif BOARD_HOSTS.search(final) and m["source"] in ("adzuna", "jooble", "careerjet"):
+                    note = "opens only the job board's page, no employer link"
+                    m["linkBoardOnly"] = True
+        m["linkStatus"], m["linkNote"] = status, note
+        with lock:
+            stats[status] += 1
+
+    with cf.ThreadPoolExecutor(12) as ex:
+        list(ex.map(one, matches))
+    STATUS["links"] = stats
+    kept = [m for m in matches if m.get("linkStatus") != "gone"]
+    FUNNEL["link_gone"] = len(matches) - len(kept)
+    return kept
+
+
+def source_health(matches):
+    """Per-source numbers for this run plus a short history, so a silent source is noticed at once."""
+    hist = load("data/source_history.json", [])
+    row = {"at": NOW.isoformat(timespec="seconds"), "fetched": {}, "matches": {}}
+    for k, v in STATUS["sources"].items():
+        row["fetched"][k] = v.get("fetched", v.get("checked", 0)) if isinstance(v, dict) and "error" not in v else 0
+    for m in matches:
+        row["matches"][m["source"]] = row["matches"].get(m["source"], 0) + 1
+    hist = (hist + [row])[-15:]
+    save("data/source_history.json", hist)
+    health = {}
+    for k, v in STATUS["sources"].items():
+        if k in ("careerjet",):
+            continue
+        err = v.get("error") if isinstance(v, dict) else None
+        zero_runs = 0
+        for h in reversed(hist):
+            if h["fetched"].get(k, 0) == 0:
+                zero_runs += 1
+            else:
+                break
+        health[k] = {"fetched": row["fetched"].get(k, 0), "matches": row["matches"].get(k, 0),
+                     "state": "down" if (err or row["fetched"].get(k, 0) == 0) else "ok",
+                     "error": (err or "")[:160], "zeroRunsInARow": zero_runs}
+    STATUS["sourceHealth"] = health
+
+
+def write_run_summary():
+    """Plain-language run report: printed to the log and shown as a table on the GitHub run page."""
+    sh = STATUS.get("sourceHealth", {}) if isinstance(STATUS.get("sourceHealth"), dict) else {}
+    names = {"linkedin": "LinkedIn", "xing": "XING", "stepstone": "StepStone", "adzuna": "Adzuna",
+             "arbeitsagentur": "Arbeitsagentur", "jooble": "Jooble", "germantechjobs": "GermanTechJobs",
+             "arbeitnow": "Arbeitnow", "himalayas": "Himalayas", "weworkremotely": "We Work Remotely",
+             "hn": "Hacker News", "remotive": "Remotive", "jobicy": "Jobicy", "remoteok": "RemoteOK",
+             "workingnomads": "Working Nomads", "companies": "Company career pages"}
+    lines = ["## Job collector run — " + NOW.strftime("%d %b %Y %H:%M UTC"), "",
+             f"**{STATUS.get('matches', 0)} jobs passed the filters, {STATUS.get('new', 0)} of them are new since the last run.** "
+             f"Total time: {round(STATUS.get('timings', {}).get('_total', 0) / 60, 1)} min.", "",
+             "| Source | Read | Kept | State | Why / note |", "|---|---:|---:|---|---|"]
+    for k, v in STATUS.get("sources", {}).items():
+        if k == "careerjet":
+            continue
+        h = sh.get(k, {})
+        err = (v.get("error") if isinstance(v, dict) else "") or ""
+        read = v.get("fetched", v.get("checked", 0)) if isinstance(v, dict) else 0
+        kept = h.get("matches", STATUS.get("matchesBySource", {}).get(k, 0))
+        note = err[:90]
+        sc = (STATUS.get("scrape") or {}).get(k) or {}
+        if sc.get("http_429") or sc.get("stopped_rate_limited"):
+            note = (note + " " if note else "") + f"rate-limited by the site ({sc.get('http_429', 0)}× HTTP 429), read fewer jobs"
+        if "budget used up" in err:
+            note = "weekly free limit reached — skipped this run (its jobs from the last 3 days are kept)"
+        if k == "stepstone" and err:
+            note = "StepStone does not answer GitHub — covered by the hunt instead"
+        if h.get("zeroRunsInARow", 0) >= 2:
+            note += f" · down {h['zeroRunsInARow']} runs in a row"
+        state = "❌ down" if (err or not read) else ("⚠ partly" if "rate-limited" in note else "✅ ok")
+        lines.append(f"| {names.get(k, k)} | {read} | {kept} | {state} | {note.strip()} |")
+    lk = STATUS.get("links", {})
+    if lk and "error" not in lk:
+        lines += ["", f"**Links checked:** {lk.get('ok', 0)} opened live · {lk.get('gone', 0)} dead and removed · "
+                      f"{lk.get('unchecked', 0)} site did not answer · {lk.get('feed_ok', 0)} straight from employer feeds · "
+                      f"{lk.get('moved_to_employer', 0)} board links replaced by the employer's page"]
+    co = STATUS.get("carriedOver", {})
+    if co.get("jobs"):
+        lines.append(f"**Kept from earlier runs** (source failed this time): {co['jobs']} jobs")
+    f = STATUS.get("funnel", {})
+    if f:
+        lines += ["", "**Why jobs were dropped:** " + ", ".join(
+            f"{ {'title': 'title not a fit', 'location': 'location', 'company': 'excluded company', 'duplicate': 'duplicate', 'too_old': 'too old', 'salary': 'salary below floor', 'employment': 'not permanent', 'link_gone': 'dead link'}.get(k, k)} {v}"
+            for k, v in sorted(f.items(), key=lambda kv: -kv[1]) if k != "passed")]
+    text = "\n".join(lines)
+    print("\n" + text + "\n")
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if path:
+        try:
+            with open(path, "a", encoding="utf-8") as fh:
+                fh.write(text + "\n")
+        except Exception:
+            pass
+    try:
+        os.makedirs(os.path.join(ROOT, "out"), exist_ok=True)
+        with open(os.path.join(ROOT, "out", "summary.md"), "w", encoding="utf-8") as fh:
+            fh.write(text + "\n")
+    except Exception:
+        pass
+
 def norm_key(r):
     t = (r["title"] or "").lower()
     t = re.sub(r"\s*[|–-]\s*(germany|deutschland|remote|ireland|spain|sweden|uk|united kingdom|netherlands|france|poland|portugal|emea|europe|eu)\b.*$", "", t)
@@ -1570,6 +1768,37 @@ def main():
         a.pop("_generic", None)
         matches.append(a)
 
+    # CARRY-OVER (25 Nov 2026): a board that fails or is rate-limited in one run (Adzuna budget, LinkedIn 429,
+    # StepStone blocking GitHub) used to vanish from latest.json until it worked again. Its jobs from the last
+    # 3 days are kept instead (marked carriedOver) and their links are re-checked below like any other.
+    try:
+        prev = load("out/latest.json", {}).get("jobs", [])
+        have = {norm_key(m) for m in matches}
+        weak = {k for k, v in STATUS["sources"].items()
+                if isinstance(v, dict) and ("error" in v or v.get("fetched", 1) == 0)}
+        carried = 0
+        cutoff3 = (NOW - dt.timedelta(days=3)).isoformat()
+        for m in prev:
+            if m.get("source") in weak and m.get("firstSeen", "") >= cutoff3 and norm_key(m) not in have:
+                m["carriedOver"] = True
+                matches.append(m)
+                have.add(norm_key(m))
+                carried += 1
+        STATUS["carriedOver"] = {"sources": sorted(weak), "jobs": carried}
+    except Exception as e:
+        STATUS["carriedOver"] = {"error": str(e)[:120]}
+
+    t_links = time.time()
+    try:
+        matches = check_links(matches)
+    except Exception as e:
+        STATUS["links"] = {"error": str(e)[:160]}
+    STATUS["timings"]["_links"] = round(time.time() - t_links)
+    try:
+        source_health(matches)
+    except Exception as e:
+        STATUS["sourceHealth"] = {"error": str(e)[:160]}
+
     seen = load("data/seen.json", {})
     new = []
     for m in matches:
@@ -1598,6 +1827,10 @@ def main():
         STATUS["matchesBySource"][m["source"]] = STATUS["matchesBySource"].get(m["source"], 0) + 1
     save("out/near_misses.json", NEAR_MISS)
     save("out/status.json", STATUS)
+    try:
+        write_run_summary()
+    except Exception as e:
+        print("summary failed:", e)
     print(json.dumps({k: STATUS[k] for k in ("rawJobs", "matches", "new", "companies")}, indent=1))
     print(json.dumps(STATUS["sources"], indent=1))
 
