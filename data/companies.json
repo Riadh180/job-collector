@@ -3839,7 +3839,9 @@
   "slug": "gropyus",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-22",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "TransPerfect",
@@ -4239,7 +4241,7 @@
   "slug": "atlas-financial-services",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-23",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Ancient Gaming",
@@ -8895,7 +8897,7 @@
   "slug": "epistemix",
   "addedBy": "probe 2026-10-16",
   "lastOk": "2026-11-24",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "DocuWare GmbH",
@@ -16658,6 +16660,63 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "verkada",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Baselane",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "baselane",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Radar",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "radar",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Pacvue",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "pacvue",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "f+p",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "fp",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "DigiCert",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "digicert",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Be | Shaping the Future",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "be-shaping-the-future",
+  "tld": "de",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Darkroom",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "darkroom",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  }
