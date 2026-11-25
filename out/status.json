@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 838
+   "fetched": 137
   },
   "arbeitsagentur": {
    "fetched": 358
   },
   "arbeitnow": {
-   "fetched": 5835
+   "fetched": 5840
   },
   "remotive": {
    "fetched": 128
@@ -40,48 +40,120 @@
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 368
+   "fetched": 379
   },
   "xing": {
    "fetched": 92
   },
   "stepstone": {
-   "fetched": 99
+   "error": "no jobs read: {'timeouts': 4, '_miss_row': 4, 'search_failed_0': 8, '_dead': 1, 'gave_up_site_not_answering': 1, 'unique_jobs': 0, 'details_opened': 0}"
   },
   "companies": {
    "checked": 2041,
-   "failed": 2,
-   "rateLimited": 0
+   "failed": 74,
+   "rateLimited": 73
   }
  },
  "errors": {
   "companies": {
-   "Atlas Financial Services": "HTTP 404",
-   "Epistemix": "HTTP 404"
+   "Usercentrics": "HTTP 429",
+   "Rydoo": "HTTP 429",
+   "KoboToolbox": "HTTP 429",
+   "Modash": "HTTP 429",
+   "Unitary": "HTTP 429",
+   "Fortanix": "HTTP 429",
+   "Libertex Group": "HTTP 429",
+   "Crystalia Glass LLC": "HTTP 429",
+   "EUROPEAN DYNAMICS": "HTTP 429",
+   "SalesCaptain": "HTTP 429",
+   "Universalquantum": "HTTP 429",
+   "Worth AI": "HTTP 429",
+   "Aretum": "HTTP 429",
+   "Flatgigs": "HTTP 429",
+   "MP Solutions Ltd.": "HTTP 429",
+   "SORACOM": "HTTP 429",
+   "Stellar Cyber": "HTTP 429",
+   "OpenMined": "HTTP 429",
+   "Board of Innovation": "HTTP 429",
+   "Emerging Travel Group": "HTTP 429",
+   "Huzzle": "HTTP 429",
+   "Kooku": "HTTP 429",
+   "Jalasoft": "HTTP 429",
+   "Remotebase": "HTTP 429",
+   "Codurance": "HTTP 429",
+   "InnovationTeam": "HTTP 429",
+   "SPD Technology": "HTTP 429",
+   "Gridcog": "HTTP 429",
+   "Power Factors": "HTTP 429",
+   "Avomind": "HTTP 429",
+   "Treantly": "HTTP 429",
+   "stakefish": "HTTP 429",
+   "3Ss": "HTTP 429",
+   "SupportYourApp": "HTTP 429",
+   "1Kosmos": "HTTP 429",
+   "Epistemix": "HTTP 404",
+   "Teamified": "HTTP 429",
+   "Wordwall": "HTTP 429",
+   "Symmetrio": "HTTP 429",
+   "OptiTrack": "HTTP 429",
+   "Vasion": "HTTP 429",
+   "crewAI": "HTTP 429",
+   "Khibraty": "HTTP 429",
+   "WPT Global": "HTTP 429",
+   "Payabl": "HTTP 429",
+   "Houst": "HTTP 429",
+   "Sperasoft": "HTTP 429",
+   "Thorlabs": "HTTP 429",
+   "Newrich Network": "HTTP 429",
+   "Crystalia Glass": "HTTP 429",
+   "Lucidya": "HTTP 429",
+   "Hireframe": "HTTP 429",
+   "Searoutes": "HTTP 429",
+   "Space Inch": "HTTP 429",
+   "Writesonic": "HTTP 429",
+   "Getolo": "HTTP 429",
+   "Moneyhub": "HTTP 429",
+   "TrustEngine": "HTTP 429",
+   "QuickTeam": "HTTP 429",
+   "Intertek": "HTTP 429",
+   "Azeus Convene": "HTTP 429",
+   "AJAIA": "HTTP 429",
+   "Lamdax": "HTTP 429",
+   "Anypear": "HTTP 429",
+   "Dentons Europe": "HTTP 429",
+   "Cara Care": "HTTP 429",
+   "Seeq": "HTTP 429",
+   "Advancing Eco Agriculture": "HTTP 429",
+   "Paperpile": "HTTP 429",
+   "Thanx": "HTTP 429",
+   "HireHawk": "HTTP 429",
+   "Creative Chaos": "HTTP 429",
+   "Triptease": "HTTP 429",
+   "Circonomit GmbH": "HTTP 429"
   }
  },
  "timings": {
-  "adzuna": 112,
-  "arbeitsagentur": 35,
-  "arbeitnow": 10,
+  "adzuna": 13,
+  "arbeitsagentur": 46,
+  "arbeitnow": 18,
   "remotive": 1,
-  "jobicy": 25,
+  "jobicy": 20,
   "remoteok": 1,
-  "himalayas": 3,
-  "weworkremotely": 1,
+  "himalayas": 4,
+  "weworkremotely": 2,
   "hn": 2,
   "workingnomads": 0,
   "germantechjobs": 1,
   "jooble": 0,
   "careerjet": 0,
-  "linkedin": 114,
-  "xing": 210,
-  "stepstone": 243,
-  "_all_boards": 243,
-  "_probe": 493,
-  "_companies": 215,
-  "_total": 951,
-  "_links": 341
+  "linkedin": 160,
+  "xing": 218,
+  "stepstone": 178,
+  "_all_boards": 218,
+  "_probe": 117,
+  "_companies": 445,
+  "_total": 780,
+  "_links": 218
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -134,6 +206,13 @@
  "arbeitsagentur_tries": [
   "pc/v6/jobs -> 200, 5 items, max=299, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
+ "adzuna_usage": {
+  "callsThisRun": 3,
+  "searchesThisRun": 2,
+  "searchesTotal": 51,
+  "callsToday": 125,
+  "callsLast7Days": 865
+ },
  "arbeitsagentur_searches": {
   "searches": 69,
   "failed": 0,
@@ -143,48 +222,26 @@
    "ok": 130
   }
  },
- "adzuna_usage": {
-  "callsThisRun": 32,
-  "searchesThisRun": 23,
-  "searchesTotal": 51,
-  "callsToday": 122,
-  "callsLast7Days": 862
- },
  "probe": {
-  "tried": 115,
+  "tried": 26,
   "found": [
-   "PDI Technologies (lever:pditechnologies)",
-   "Figma (greenhouse:figma)",
-   "Quo (ashby:quo)",
-   "Wade Trim (lever:wadetrim)",
-   "Business Wire (lever:businesswire)",
-   "Mistplay (lever:mistplay)"
+   "Uniswap (ashby:uniswap)"
   ]
  },
  "adzuna_pages": {
-  "tried": 157,
-  "ok": 132
+  "tried": 25,
+  "ok": 23
  },
  "scrape": {
-  "stepstone": {
-   "_miss_row": 0,
-   "http_200": 121,
-   "links": 309,
-   "unique_jobs": 309,
-   "skipped_by_title": 93,
-   "timeouts": 1,
-   "no_jobposting_data": 1,
-   "details_opened": 100
-  },
   "linkedin": {
    "_miss_row": 0,
-   "http_200": 48,
-   "cards": 460,
-   "http_429": 5,
-   "stopped_rate_limited": 4,
-   "unique_jobs": 368,
+   "http_200": 75,
+   "cards": 470,
+   "http_429": 3,
+   "stopped_rate_limited": 2,
+   "unique_jobs": 379,
+   "skipped_by_title_or_company": 165,
    "details_rate_limited": 1,
-   "skipped_by_title_or_company": 139,
    "details_opened": 120
   },
   "xing": {
@@ -194,26 +251,36 @@
    "unique_jobs": 165,
    "skipped_by_title": 73,
    "details_opened": 92
+  },
+  "stepstone": {
+   "timeouts": 4,
+   "_miss_row": 4,
+   "search_failed_0": 8,
+   "_dead": 1,
+   "gave_up_site_not_answering": 1,
+   "unique_jobs": 0,
+   "details_opened": 0
   }
  },
  "carriedOver": {
   "sources": [
    "careerjet",
-   "jooble"
+   "jooble",
+   "stepstone"
   ],
-  "jobs": 0
+  "jobs": 18
  },
  "links": {
-  "feed_ok": 119,
-  "ok": 158,
+  "feed_ok": 118,
+  "ok": 131,
   "gone": 1,
-  "unchecked": 49,
+  "unchecked": 34,
   "moved_to_employer": 0
  },
  "sourceHealth": {
   "adzuna": {
-   "fetched": 838,
-   "matches": 54,
+   "fetched": 137,
+   "matches": 19,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
@@ -226,8 +293,8 @@
    "zeroRunsInARow": 0
   },
   "arbeitnow": {
-   "fetched": 5835,
-   "matches": 25,
+   "fetched": 5840,
+   "matches": 27,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
@@ -293,28 +360,28 @@
    "matches": 0,
    "state": "down",
    "error": "HTTP 429",
-   "zeroRunsInARow": 1
+   "zeroRunsInARow": 2
   },
   "linkedin": {
-   "fetched": 368,
-   "matches": 13,
+   "fetched": 379,
+   "matches": 14,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "xing": {
    "fetched": 92,
-   "matches": 27,
+   "matches": 28,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "stepstone": {
-   "fetched": 99,
-   "matches": 29,
-   "state": "ok",
-   "error": "",
-   "zeroRunsInARow": 0
+   "fetched": 0,
+   "matches": 18,
+   "state": "down",
+   "error": "no jobs read: {'timeouts': 4, '_miss_row': 4, 'search_failed_0': 8, '_dead': 1, 'gave_up_site_not_answering': 1, 'unique_jobs': 0, 'details_opened': 0}",
+   "zeroRunsInARow": 1
   },
   "companies": {
    "fetched": 2041,
@@ -324,39 +391,38 @@
    "zeroRunsInARow": 0
   }
  },
- "collectedAt": "2026-11-25T19:09:14+00:00",
- "rawJobs": 103778,
- "matches": 326,
- "new": 7,
- "companies": 2077,
+ "collectedAt": "2026-11-25T19:47:26+00:00",
+ "rawJobs": 97358,
+ "matches": 283,
+ "new": 0,
+ "companies": 2078,
  "activeCompanies": 2041,
  "funnel": {
-  "title": 99596,
-  "passed": 462,
-  "company": 129,
-  "duplicate": 135,
-  "location": 3375,
-  "salary": 10,
+  "title": 93582,
+  "passed": 327,
+  "company": 64,
+  "location": 3170,
+  "duplicate": 61,
   "too_old": 180,
   "employment": 19,
+  "salary": 9,
   "link_gone": 1
  },
  "matchesBySource": {
-  "adzuna": 54,
-  "arbeitnow": 25,
+  "adzuna": 19,
+  "arbeitnow": 27,
   "weworkremotely": 22,
-  "linkedin": 13,
-  "stepstone": 29,
+  "linkedin": 14,
+  "stepstone": 18,
   "germantechjobs": 8,
   "greenhouse": 22,
   "arbeitsagentur": 20,
-  "ashby": 66,
-  "personio": 10,
-  "xing": 27,
-  "recruitee": 15,
+  "ashby": 67,
+  "personio": 11,
+  "xing": 28,
+  "recruitee": 14,
   "hn": 9,
   "smartrecruiters": 3,
-  "lever": 1,
-  "workable": 2
+  "lever": 1
  }
 }
