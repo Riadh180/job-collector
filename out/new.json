@@ -1,27 +1,75 @@
 {
- "collectedAt": "2026-11-24T23:45:07+00:00",
- "count": 2,
+ "collectedAt": "2026-11-25T00:47:32+00:00",
+ "count": 4,
  "jobs": [
   {
-   "id": "adzuna:5973236778",
-   "company": "G&W Software AG",
-   "title": "Webentwickler - Blazor (m/w/d) - In 3 Minuten erfolgreich bewerben",
-   "url": "https://www.adzuna.de/land/ad/5973236778?se=vjKzUGHo8RGJ3IkP01vxSg&utm_medium=api&utm_source=c19f1397&v=539F19D4964E1CBA86019FAF70DE72A5E1D9D8D9",
-   "location": "Deutschland / Deutschland / Homeoffice",
+   "id": "adzuna:5977516150",
+   "company": "Exclusive Associates",
+   "title": "CMS Full-Stack Developer (m/w/d) - J12664",
+   "url": "https://www.adzuna.de/details/5977516150?utm_medium=api&utm_source=c19f1397",
+   "location": "Landsberg am Lech, Landsberg am Lech (Kreis) / Bayern / Landsberg am Lech (Kreis) / Deutschland / Homeoffice",
    "remote": null,
-   "postedAt": "2026-11-20",
+   "postedAt": "2026-11-24",
    "salary": "",
    "salaryMax": null,
-   "employment": " ",
+   "employment": " full_time",
    "industry": "",
    "source": "adzuna",
    "ats": "adzuna",
-   "_km": null,
+   "_km": 469.87220547077766,
+   "kmFromEssen": 470,
    "stackHits": [],
    "match": "title; remote",
-   "facts": "",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Für diese Position ist eine Präsenz in Deutschland notwendig. | This position requires local presence in Germany. | Applications from outside Germany unfortunately cannot be considered.",
+   "remoteProof": "Für diese Position ist eine Präsenz in Deutschland notwendig.",
+   "firstSeen": "2026-11-25T00:47:32+00:00"
+  },
+  {
+   "id": "arbeitnow:remote-frontend-software-engineer-120939",
+   "company": "Newsweek",
+   "title": "Frontend Software Engineer",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/newsweek/remote-frontend-software-engineer-120939",
+   "location": "Remote",
+   "remote": true,
+   "postedAt": "2026-11-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "",
+   "industry": "",
+   "source": "arbeitnow",
+   "ats": "arbeitnow",
+   "stackHits": [
+    "next.js",
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "<div class=\"content-intro\"><p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\">Newsweek is the global media organization that has earned audience time and trust for more than 90 years.",
    "remoteProof": "",
-   "firstSeen": "2026-11-24T23:45:07+00:00"
+   "firstSeen": "2026-11-25T00:47:32+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/hivex/jobs/senior-frontend-developer-1838479912",
+   "company": "Hivex",
+   "title": "Senior Frontend developer",
+   "url": "https://himalayas.app/companies/hivex/jobs/senior-frontend-developer-1838479912?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-11-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "react",
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "Requirements: 5+ years of experience as a Frontend Developer with a focus on React.js Strong proficiency in JavaScript/TypeScript. | Experience with backend development (Node.js/PostgreSQL) Knowledge of version control systems (e.g., Git). | English level - Upper-intermediate + Excellent problem-solving and communication skills. | What we offer: Remote job with the freedom to work from anywhere in the world. | Competitive and timely salary.",
+   "remoteProof": "What we offer: Remote job with the freedom to work from anywhere in the world.",
+   "firstSeen": "2026-11-25T00:47:32+00:00"
   },
   {
    "id": "germantechjobs:6b01cfbd2cc5782c1d955c2b-W47",
@@ -41,7 +89,7 @@
    "match": "title; NRW",
    "facts": "Die Stelle ist auf drei Jahre befristet und tariflich der Vergütungsgruppe VI beziehungsweise V zugeordnet; die Einstufung erfolgt gemäß DW-Tarifvertrag. | Die Deutsche Welle (DW) ist Deutschlands Auslandssender und verbreitet weltweit journalistische Angebote multimedial und in mehr als 30 Sprachen.",
    "remoteProof": "",
-   "firstSeen": "2026-11-24T23:45:07+00:00"
+   "firstSeen": "2026-11-25T00:47:32+00:00"
   }
  ]
 }
