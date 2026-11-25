@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1247
+   "fetched": 803
   },
   "arbeitsagentur": {
    "fetched": 357
   },
   "arbeitnow": {
-   "fetched": 3404
+   "fetched": 3398
   },
   "remotive": {
    "fetched": 120
@@ -31,7 +31,7 @@
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 1172
+   "fetched": 1047
   },
   "jooble": {
    "error": "HTTP 429"
@@ -40,53 +40,47 @@
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 377
+   "fetched": 339
   },
   "xing": {
    "fetched": 93
   },
   "stepstone": {
-   "fetched": 99
+   "error": "no jobs read: {'timeouts': 4, '_miss_row': 4, 'search_failed_0': 8, '_dead': 1, 'gave_up_site_not_answering': 1, 'unique_jobs': 0, 'details_opened': 0}"
   },
   "companies": {
-   "checked": 2026,
-   "failed": 3,
+   "checked": 2028,
+   "failed": 2,
    "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
-   "Usercentrics": "HTTP 429",
-   "Rydoo": "HTTP 429",
-   "KoboToolbox": "HTTP 429",
-   "Modash": "HTTP 429",
-   "Unitary": "HTTP 429",
    "gropyus": "HTTP 404",
-   "Atlas Financial Services": "HTTP 404",
-   "Havenpark Communities": "HTTP 502"
+   "Atlas Financial Services": "HTTP 404"
   }
  },
  "timings": {
-  "adzuna": 140,
-  "arbeitsagentur": 54,
+  "adzuna": 113,
+  "arbeitsagentur": 43,
   "arbeitnow": 6,
   "remotive": 1,
-  "jobicy": 21,
+  "jobicy": 32,
   "remoteok": 1,
-  "himalayas": 5,
+  "himalayas": 4,
   "weworkremotely": 1,
-  "hn": 2,
+  "hn": 5,
   "workingnomads": 0,
   "germantechjobs": 1,
   "jooble": 0,
   "careerjet": 0,
-  "linkedin": 211,
-  "xing": 224,
-  "stepstone": 274,
-  "_all_boards": 274,
-  "_probe": 462,
-  "_companies": 240,
-  "_total": 976
+  "linkedin": 136,
+  "xing": 213,
+  "stepstone": 177,
+  "_all_boards": 213,
+  "_probe": 482,
+  "_companies": 234,
+  "_total": 928
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -149,37 +143,32 @@
   }
  },
  "adzuna_usage": {
-  "callsThisRun": 45,
-  "searchesThisRun": 31,
+  "callsThisRun": 25,
+  "searchesThisRun": 16,
   "searchesTotal": 51,
-  "callsToday": 135,
-  "callsLast7Days": 785
+  "callsToday": 160,
+  "callsLast7Days": 810
  },
  "probe": {
   "tried": 120,
   "found": [
-   "Clickhouse GmbH (ashby:clickhouse)",
-   "Verkada (greenhouse:verkada)",
-   "Dymatrix (personio:dymatrix)",
-   "YOUMMDAY GmbH (ashby:yoummday)",
-   "nyra health (recruitee:nyrahealth)",
-   "Serval (ashby:serval)",
-   "SonarSource GmbH (lever:sonarsource)"
+   "Bedrock Robotics (ashby:bedrock-robotics)",
+   "Rho (ashby:rho)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 189
+  "ok": 194
  },
  "scrape": {
   "linkedin": {
    "_miss_row": 0,
-   "http_200": 93,
-   "cards": 450,
-   "http_429": 5,
-   "stopped_rate_limited": 4,
-   "unique_jobs": 377,
-   "skipped_by_title_or_company": 145,
+   "http_200": 58,
+   "cards": 408,
+   "http_429": 6,
+   "stopped_rate_limited": 5,
+   "unique_jobs": 339,
+   "skipped_by_title_or_company": 89,
    "details_rate_limited": 1,
    "details_opened": 120
   },
@@ -192,47 +181,45 @@
    "details_opened": 93
   },
   "stepstone": {
-   "_miss_row": 0,
-   "http_200": 121,
-   "links": 310,
-   "unique_jobs": 310,
-   "skipped_by_title": 93,
-   "timeouts": 1,
-   "no_jobposting_data": 1,
-   "details_opened": 100
+   "timeouts": 4,
+   "_miss_row": 4,
+   "search_failed_0": 8,
+   "_dead": 1,
+   "gave_up_site_not_answering": 1,
+   "unique_jobs": 0,
+   "details_opened": 0
   }
  },
- "collectedAt": "2026-11-24T22:41:53+00:00",
- "rawJobs": 101117,
- "matches": 353,
- "new": 24,
- "companies": 2061,
- "activeCompanies": 2026,
+ "collectedAt": "2026-11-24T23:45:07+00:00",
+ "rawJobs": 100553,
+ "matches": 315,
+ "new": 2,
+ "companies": 2063,
+ "activeCompanies": 2028,
  "funnel": {
-  "passed": 588,
-  "title": 96826,
-  "company": 165,
-  "duplicate": 235,
-  "location": 3316,
+  "title": 96424,
+  "company": 91,
+  "passed": 494,
+  "duplicate": 179,
   "salary": 14,
-  "too_old": 184,
-  "employment": 17
+  "location": 3321,
+  "employment": 18,
+  "too_old": 184
  },
  "matchesBySource": {
-  "adzuna": 75,
-  "arbeitnow": 13,
+  "adzuna": 85,
+  "germantechjobs": 2,
+  "arbeitnow": 12,
   "himalayas": 4,
-  "germantechjobs": 7,
-  "linkedin": 17,
-  "stepstone": 30,
   "arbeitsagentur": 20,
-  "ashby": 68,
+  "ashby": 66,
+  "linkedin": 10,
   "weworkremotely": 22,
   "personio": 10,
-  "xing": 30,
+  "xing": 26,
   "greenhouse": 21,
   "jobicy": 8,
-  "recruitee": 13,
+  "recruitee": 14,
   "hn": 9,
   "smartrecruiters": 3,
   "lever": 1,
