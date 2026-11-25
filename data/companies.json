@@ -4241,7 +4241,9 @@
   "slug": "atlas-financial-services",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-23",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "Ancient Gaming",
@@ -8897,7 +8899,7 @@
   "slug": "epistemix",
   "addedBy": "probe 2026-10-16",
   "lastOk": "2026-11-24",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "DocuWare GmbH",
@@ -16717,6 +16719,54 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "darkroom",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "PDI Technologies",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "pditechnologies",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Figma",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "figma",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Quo",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "quo",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Wade Trim",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "wadetrim",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Business Wire",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "businesswire",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Mistplay",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "mistplay",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  }
