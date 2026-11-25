@@ -13370,8 +13370,7 @@
   "ats": "lever",
   "slug": "standtogether",
   "addedBy": "probe 2026-11-05",
-  "lastOk": "2026-11-24",
-  "failCount": 1
+  "lastOk": "2026-11-25"
  },
  {
   "name": "Enveritas",
@@ -16581,11 +16580,35 @@
   "lastOk": "2026-11-25"
  },
  {
+  "name": "Clickhouse GmbH",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "clickhouse",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Ramp",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "ramp",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
   "name": "Scalian Germany AG",
   "industry": "from job boards",
   "ats": "personio",
   "slug": "scalian-germany",
   "tld": "de",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "1GLOBAL",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "1global",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  },
@@ -16607,10 +16630,18 @@
   "lastOk": "2026-11-25"
  },
  {
-  "name": "nyra health",
+  "name": "Source",
   "industry": "from job boards",
   "ats": "recruitee",
-  "slug": "nyrahealth",
+  "slug": "source",
+  "addedBy": "probe 2026-11-25",
+  "lastOk": "2026-11-25"
+ },
+ {
+  "name": "Ubiquiti Inc.",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "ubiquiti",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  },
@@ -16627,14 +16658,6 @@
   "industry": "from job boards",
   "ats": "greenhouse",
   "slug": "verkada",
-  "addedBy": "probe 2026-11-25",
-  "lastOk": "2026-11-25"
- },
- {
-  "name": "Cape",
-  "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "cape",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  }

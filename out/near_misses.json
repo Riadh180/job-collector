@@ -24,12 +24,12 @@
   "url": "https://www.adzuna.de/details/5972708785?utm_medium=api&utm_source=c19f1397"
  },
  {
-  "company": "Getyourguide",
-  "title": "Senior Software Engineer (Frontend focused)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/getyourguide/senior-software-engineer-frontend-focused-berlin-282888"
+  "company": "Senacor",
+  "title": "Praktikum im Bereich Cloud & Fullstack Softwareentwicklung (m/w/d) - System Engineering / Admin, Anwendungsentwicklung, Ingenieur",
+  "location": "Bonn, Nordrhein-Westfalen / Nordrhein-Westfalen / Bonn / Deutschland",
+  "remote": null,
+  "source": "adzuna",
+  "url": "https://www.adzuna.de/details/5974892829?utm_medium=api&utm_source=c19f1397"
  },
  {
   "company": "Senacor",
@@ -40,36 +40,28 @@
   "url": "https://www.adzuna.de/details/5974892829?utm_medium=api&utm_source=c19f1397"
  },
  {
-  "company": "Odoo DE GmbH",
-  "title": "Full Stack Software Engineer (m/w/d)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/odoo-de-gmbh/full-stack-software-engineer-berlin-85810"
- },
- {
-  "company": "Buying Labs",
-  "title": "Product Engineer (m/f/d)",
-  "location": "Hamburg",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/buying-labs/product-engineer-hamburg-249987"
- },
- {
-  "company": "Buying Labs",
-  "title": "Product Engineer (m/w/d)",
-  "location": "Hamburg",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/buying-labs/product-engineer-hamburg-364163"
- },
- {
-  "company": "Deliveroo",
-  "title": "Senior Software Engineer (Full Stack) - EMEA Pricing and Affordability",
+  "company": "Pleo",
+  "title": "Staff Software Engineer",
   "location": "London",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-emea-pricing-and-affordability-london-354885"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/pleo/staff-software-engineer-london-59381"
+ },
+ {
+  "company": "Lendable",
+  "title": "Senior Product Engineer - Central Operations",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/lendable/senior-product-engineer-central-operations-london-388588"
+ },
+ {
+  "company": "ADOMIK",
+  "title": "Full-stack Developer",
+  "location": "Paris",
+  "remote": true,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/adomik/full-stack-developer-paris-311610"
  },
  {
   "company": "Algolia",
@@ -86,14 +78,6 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.fr/jobs/companies/theodo/software-engineer-fullstack-stage-lyon-theodo-181313"
- },
- {
-  "company": "Novaspace",
-  "title": "Web Developer",
-  "location": "Paris, France",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/novaspace/web-developer-paris-france-232947"
  },
  {
   "company": "Proton",
@@ -128,6 +112,14 @@
   "url": "https://www.arbeitnow.ch/jobs/companies/auterion/fullstack-web-developer-zurich-279380"
  },
  {
+  "company": "GreenFlux",
+  "title": "Senior Software Engineer",
+  "location": "Amsterdam, Noord-Holland, Netherlands",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/greenflux/senior-software-engineer-amsterdam-48232"
+ },
+ {
   "company": "Sierra",
   "title": "Software Engineer, Agent",
   "location": "Amsterdam",
@@ -142,6 +134,78 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.nl/jobs/companies/flexport/software-engineer-ii-autonomous-supply-chains-amsterdam-120266"
+ },
+ {
+  "company": "Odoo DE GmbH",
+  "title": "Full Stack Software Engineer (m/w/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/odoo-de-gmbh/full-stack-software-engineer-berlin-85810"
+ },
+ {
+  "company": "Buying Labs",
+  "title": "Product Engineer (m/f/d)",
+  "location": "Hamburg",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/buying-labs/product-engineer-hamburg-249987"
+ },
+ {
+  "company": "Buying Labs",
+  "title": "Product Engineer (m/w/d)",
+  "location": "Hamburg",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/buying-labs/product-engineer-hamburg-364163"
+ },
+ {
+  "company": "Lendable",
+  "title": "Senior Python Engineer (Full Stack)",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/lendable/senior-python-engineer-full-stack-london-9157"
+ },
+ {
+  "company": "Lendable",
+  "title": "Senior Full Stack Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/lendable/senior-full-stack-engineer-london-3280"
+ },
+ {
+  "company": "True Talent Solutions Partners",
+  "title": "Founding Engineer",
+  "location": "England",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/true-talent-solutions-partners/founding-engineer-england-401871"
+ },
+ {
+  "company": "Novaspace",
+  "title": "Web Developer",
+  "location": "Paris, France",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/novaspace/web-developer-paris-france-232947"
+ },
+ {
+  "company": "Proton",
+  "title": "Product Engineer",
+  "location": "Paris",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/proton/product-engineer-paris-337379"
+ },
+ {
+  "company": "Proton",
+  "title": "Mobile Product Engineer",
+  "location": "Paris",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/proton/mobile-product-engineer-paris-373202"
  },
  {
   "company": "Talk360",
@@ -232,12 +296,92 @@
   "url": "https://www.arbeitnow.nl/jobs/companies/publitascom-bv/staff-product-engineer-saas-remote-amsterdam-176256"
  },
  {
+  "company": "Esri",
+  "title": "Product Engineer II - 3D Reality Mapping (m/f/d)",
+  "location": "Stuttgart",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/esri/product-engineer-ii-3d-reality-mapping-stuttgart-123999"
+ },
+ {
+  "company": "Mayflower GmbH",
+  "title": "Senior AI Solutions Entwickler:in",
+  "location": "Munich",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/mayflower-gmbh/senior-ai-solutions-entwicklerin-munich-385724"
+ },
+ {
+  "company": "Dataguard",
+  "title": "Fullstack Software Engineer (m/f/d)",
+  "location": "Munich",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/dataguard/fullstack-software-engineer-munich-440359"
+ },
+ {
+  "company": "Lio",
+  "title": "Product Engineer (all genders)",
+  "location": "Munich Office",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/lio/product-engineer-all-genders-munich-388379"
+ },
+ {
+  "company": "Researchgate",
+  "title": "Senior Frontend Engineer - React",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/researchgate/senior-frontend-engineer-react-berlin-366927"
+ },
+ {
   "company": "Getyourguide",
   "title": "Senior Software Engineer (Frontend focused)",
   "location": "Berlin",
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/getyourguide/senior-software-engineer-frontend-focused-berlin-282888"
+ },
+ {
+  "company": "Deliveroo",
+  "title": "Senior Software Engineer (Full Stack) - EMEA Pricing and Affordability",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-emea-pricing-and-affordability-london-354885"
+ },
+ {
+  "company": "Automation Consultants Ltd",
+  "title": "Software Engineer",
+  "location": "Hybrid",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/automation-consultants-ltd/software-engineer-hybrid-281608"
+ },
+ {
+  "company": "Namespace",
+  "title": "Product Engineer",
+  "location": "Switzerland",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.ch/jobs/companies/namespace/product-engineer-zurich-396650"
+ },
+ {
+  "company": "Storyteq",
+  "title": "Senior Full Stack Engineer (TypeScript / Node.js)",
+  "location": "Amsterdam, Netherlands",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/storyteq/senior-full-stack-engineer-typescript-nodejs-amsterdam-401430"
+ },
+ {
+  "company": "Flexport",
+  "title": "Senior Software Engineer, Customs",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/flexport/senior-software-engineer-customs-amsterdam-73882"
  },
  {
   "company": "Sanovio",
@@ -256,12 +400,100 @@
   "url": "https://www.arbeitnow.com/jobs/companies/dymatrix/software-engineer-full-stack-javascript-typescript-all-genders-hamburg-366481"
  },
  {
+  "company": "Harmonic Security Inc",
+  "title": "AI Enablement Engineer",
+  "location": "London, England - Hybrid",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/harmonic-security-inc/ai-enablement-engineer-london-346799"
+ },
+ {
   "company": "Skin Analytics",
   "title": "Fullstack Engineer",
   "location": "London hybrid (3 days in office)",
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.co.uk/jobs/companies/skin-analytics/fullstack-engineer-london-326681"
+ },
+ {
+  "company": "ILLUIN Technology",
+  "title": "Software Engineer (F/H)",
+  "location": "Paris La Défense",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/illuin-technology/software-engineer-f-h-puteaux-319006"
+ },
+ {
+  "company": "Diabolocom",
+  "title": "Full Stack Developer",
+  "location": "Paris",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/diabolocom/full-stack-developer-paris-80109"
+ },
+ {
+  "company": "Awin",
+  "title": "Principal Software Engineer (f/m/d)",
+  "location": "Amsterdam",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/awin/principal-software-engineer-amsterdam-192420"
+ },
+ {
+  "company": "Luscii",
+  "title": "Mobile Developer",
+  "location": "Remote job",
+  "remote": true,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/luscii/remote-mobile-developer-utrecht-286555"
+ },
+ {
+  "company": "Squid Support",
+  "title": "Software Engineer (starter)",
+  "location": "Nieuwegein",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/squid-support/software-engineer-starter-nieuwegein-290537"
+ },
+ {
+  "company": "Squid Support",
+  "title": "Full-stack Developer (TypeScript / Python)",
+  "location": "Nieuwegein",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/squid-support/full-stack-developer-typescript-python-nieuwegein-364125"
+ },
+ {
+  "company": "Squid Support",
+  "title": "Founding Engineer (AI-startup)",
+  "location": "Nieuwegein",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/squid-support/founding-engineer-ai-startup-nieuwegein-167262"
+ },
+ {
+  "company": "Squid Support",
+  "title": "AI Software Engineer",
+  "location": "Nieuwegein",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/squid-support/ai-software-engineer-nieuwegein-99758"
+ },
+ {
+  "company": "Clickhouse",
+  "title": "Senior Software Engineer - Cloud Partner Integrations",
+  "location": "The Netherlands",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/clickhouse/senior-software-engineer-cloud-partner-integrations-amsterdam-282875"
+ },
+ {
+  "company": "Beo Energy",
+  "title": "Software Engineer",
+  "location": "Munich",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/beo-energy/software-engineer-munich-398769"
  },
  {
   "company": "Addepar1",
@@ -312,76 +544,20 @@
   "url": "https://www.arbeitnow.co.uk/jobs/companies/tldraw/design-engineer-london-467699"
  },
  {
-  "company": "Automation Consultants Ltd",
-  "title": "Software Engineer",
-  "location": "Hybrid",
+  "company": "Sonarsource",
+  "title": "Full Stack Engineer",
+  "location": "Geneva",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/automation-consultants-ltd/software-engineer-hybrid-281608"
+  "url": "https://www.arbeitnow.ch/jobs/companies/sonarsource/full-stack-engineer-geneva-128765"
  },
  {
-  "company": "Diabolocom",
-  "title": "Full Stack Developer",
-  "location": "Paris",
+  "company": "Hyperscale Power",
+  "title": "Senior Mechanical Design Engineer (Power Electronics)",
+  "location": "Zürich",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/diabolocom/full-stack-developer-paris-80109"
- },
- {
-  "company": "Flexport",
-  "title": "Senior Software Engineer, Customs",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/flexport/senior-software-engineer-customs-amsterdam-73882"
- },
- {
-  "company": "Beo Energy",
-  "title": "Software Engineer",
-  "location": "Munich",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/beo-energy/software-engineer-munich-398769"
- },
- {
-  "company": "Eventinc GmbH",
-  "title": "AI-Native Software Engineer (Human)",
-  "location": "Hamburg",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/eventinc-gmbh/ai-native-software-engineer-human-hamburg-15007"
- },
- {
-  "company": "Spaitial",
-  "title": "Design Engineer",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/spaitial/design-engineer-london-198430"
- },
- {
-  "company": "ILLUIN Technology",
-  "title": "Software Engineer (F/H)",
-  "location": "Paris La Défense",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/illuin-technology/software-engineer-f-h-puteaux-319006"
- },
- {
-  "company": "Diabolocom",
-  "title": "Full Stack Developer",
-  "location": "Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/diabolocom/full-stack-developer-paris-80109"
- },
- {
-  "company": "Awin",
-  "title": "Principal Software Engineer (f/m/d)",
-  "location": "Amsterdam",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/awin/principal-software-engineer-amsterdam-192420"
+  "url": "https://www.arbeitnow.ch/jobs/companies/hyperscale-power/senior-mechanical-design-engineer-power-electronics-zurich-483575"
  },
  {
   "company": "Luscii",
@@ -504,12 +680,20 @@
   "url": "https://www.arbeitnow.nl/jobs/companies/dpg-media/senior-fullstack-developer-hilversum-272619"
  },
  {
-  "company": "Infomedics",
-  "title": "Senior Full Stack Developer",
-  "location": "Heemstede, Noord-Holland, Nederland",
+  "company": "virtual7 GmbH",
+  "title": "Frontend Architect Web Components mit GKV Erfahrung (m/w/d)",
+  "location": "Homeoffice",
+  "remote": true,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-frontend-architect-web-components-mit-gkv-erfahrung-essen-141459"
+ },
+ {
+  "company": "Yoummday",
+  "title": "(Senior) Full Stack Engineer (m/f/d)",
+  "location": "Munich",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.nl/jobs/companies/infomedics/senior-full-stack-developer-heemstede-299273"
+  "url": "https://www.arbeitnow.com/jobs/companies/yoummday/senior-full-stack-engineer-munich-350189"
  },
  {
   "company": "Empro",
@@ -520,12 +704,52 @@
   "url": "https://www.arbeitnow.com/jobs/companies/empro/ai-software-engineer-nurnberg-100752"
  },
  {
-  "company": "Pleo",
-  "title": "Staff Software Engineer",
+  "company": "bexio ag",
+  "title": "Senior Full Stack Developer TypeScript (Vue / NestJS) (w/m/d) 80-100%",
+  "location": "Rapperswil-Jona",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.ch/jobs/companies/bexio-ag/senior-full-stack-developer-typescript-vue-nestjs-80-100-rapperswil-jona-407169"
+ },
+ {
+  "company": "Infomedics",
+  "title": "Senior Full Stack Developer",
+  "location": "Heemstede, Noord-Holland, Nederland",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.nl/jobs/companies/infomedics/senior-full-stack-developer-heemstede-299273"
+ },
+ {
+  "company": "Spaitial",
+  "title": "Design Engineer",
   "location": "London",
   "remote": false,
   "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/pleo/staff-software-engineer-london-44552"
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/spaitial/design-engineer-london-198430"
+ },
+ {
+  "company": "Axle Careers",
+  "title": "Solutions Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/axle-careers/solutions-engineer-london-211135"
+ },
+ {
+  "company": "Axle Careers",
+  "title": "Software Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/axle-careers/software-engineer-london-35788"
+ },
+ {
+  "company": "Cambridgeconsultantslimited",
+  "title": "Graduate Industrial Design Engineer - (2027 start)",
+  "location": "",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/cambridgeconsultantslimited/graduate-industrial-design-engineer-2027-start-66004"
  },
  {
   "company": "E-Space",
@@ -584,6 +808,54 @@
   "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/software-engineer-fullstack-ip-licensing-platform-paris-33141"
  },
  {
+  "company": "Bridgemaker GmbH",
+  "title": "Tech Lead Marketplace Experience (m/w/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-marketplace-experience-berlin-278949"
+ },
+ {
+  "company": "Bridgemaker GmbH",
+  "title": "Tech Lead Grower Experience (m/w/d)",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-grower-experience-berlin-336126"
+ },
+ {
+  "company": "Almedia",
+  "title": "Founding Engineer",
+  "location": "Berlin",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/almedia/founding-engineer-berlin-162713"
+ },
+ {
+  "company": "Neoskop GmbH",
+  "title": "Design Engineer (w/m/d)",
+  "location": "Hanover",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/neoskop-gmbh/design-engineer-hanover-473626"
+ },
+ {
+  "company": "Pleo",
+  "title": "Staff Software Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/pleo/staff-software-engineer-london-44552"
+ },
+ {
+  "company": "Deliveroo",
+  "title": "Senior Software Engineer, Full-Stack - New Verticals",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-new-verticals-london-216488"
+ },
+ {
   "company": "Neoskop GmbH",
   "title": "Design Engineer (w/m/d)",
   "location": "Hanover",
@@ -600,14 +872,6 @@
   "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/frontend-engineer-munich-170243"
  },
  {
-  "company": "ClaimSorted",
-  "title": "Product Engineer // AI",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/claimsorted/product-engineer-ai-london-182770"
- },
- {
   "company": "DENKweit GmbH",
   "title": "Frontend Developer (m/w/d) – Vision AI Platform",
   "location": "Halle (Saale)",
@@ -616,12 +880,36 @@
   "url": "https://www.arbeitnow.com/jobs/companies/denkweit-gmbh/frontend-developer-vision-ai-platform-halle-saale-234445"
  },
  {
+  "company": "Fleek",
+  "title": "Senior Product Engineer",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/fleek/senior-product-engineer-london-67263"
+ },
+ {
   "company": "PAUL Tech AG",
   "title": "Senior Product Engineer (AI & Business Systems) (w/m/d)",
   "location": "Mannheim",
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/paul-tech-ag/senior-product-engineer-ai-business-systems-mannheim-467122"
+ },
+ {
+  "company": "ClaimSorted",
+  "title": "Product Engineer // AI",
+  "location": "London",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/claimsorted/product-engineer-ai-london-182770"
+ },
+ {
+  "company": "Awin",
+  "title": "Principal Software Engineer (f/m/d)",
+  "location": "Paris, Paris",
+  "remote": false,
+  "source": "arbeitnow",
+  "url": "https://www.arbeitnow.fr/jobs/companies/awin/principal-software-engineer-paris-paris-301901"
  },
  {
   "company": "madco GmbH",
@@ -646,14 +934,6 @@
   "remote": false,
   "source": "arbeitnow",
   "url": "https://www.arbeitnow.com/jobs/companies/madco-gmbh/projektmanager-in-webentwicklung-it-e-commerce-saarbrucken-360389"
- },
- {
-  "company": "Awin",
-  "title": "Principal Software Engineer (f/m/d)",
-  "location": "Paris, Paris",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.fr/jobs/companies/awin/principal-software-engineer-paris-paris-301901"
  },
  {
   "company": "Lemlist",
@@ -720,121 +1000,9 @@
   "url": "https://www.arbeitnow.com/jobs/companies/skdse/ai-solutions-engineer-all-genders-munich-bavaria-147383"
  },
  {
-  "company": "Encord",
-  "title": "Quant Developer in AI",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/encord/quant-developer-in-ai-london-178716"
- },
- {
-  "company": "intercom",
-  "title": "Staff Product Engineer, AI",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/intercom/staff-product-engineer-ai-berlin-488644"
- },
- {
-  "company": "Upvest",
-  "title": "Senior Fullstack Engineer (f/m/d)",
-  "location": "Berlin",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.com/jobs/companies/upvest/senior-fullstack-engineer-berlin-80839"
- },
- {
-  "company": "tem",
-  "title": "Senior Staff Engineer - Payments",
-  "location": "United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/tem/senior-staff-engineer-payments-united-kingdom-156351"
- },
- {
-  "company": "tem",
-  "title": "Tech Lead - Payments and Billing",
-  "location": "United Kingdom",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/tem/tech-lead-payments-and-billing-united-kingdom-336808"
- },
- {
-  "company": "Orbital",
-  "title": "Senior UX Design Engineer",
-  "location": "London",
-  "remote": false,
-  "source": "arbeitnow",
-  "url": "https://www.arbeitnow.co.uk/jobs/companies/orbital/senior-ux-design-engineer-london-159917"
- },
- {
   "company": "Mitre Media",
   "title": "Tech Lead Full-Stack Rails Engineer",
   "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Mitre Media",
-  "title": "Tech Lead Full-Stack Rails Engineer",
-  "location": "USA, Canada, USA timezones",
-  "remote": true,
-  "source": "remotive",
-  "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
- },
- {
-  "company": "Veriff",
-  "title": "Senior Software Engineer",
-  "location": "Spain",
   "remote": true,
   "source": "jobicy",
   "url": "https://jobicy.com/jobs/164038-senior-software-engineer-30"
@@ -912,212 +1080,28 @@
   "url": "https://jobicy.com/jobs/155885-mobile-engineer-react-native-paris-or-remote-france"
  },
  {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
+  "company": "Ping Identity",
+  "title": "Principal Software Engineer",
+  "location": "US Only",
   "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
+  "source": "remoteok",
+  "url": "https://remoteOK.com/remote-jobs/remote-principal-software-engineer-ping-identity-1138095"
  },
  {
-  "company": "BJAK",
-  "title": "Full Stack Engineer",
-  "location": "Spain",
+  "company": "Reddit",
+  "title": "Senior Software Engineer, AI & Science Platform",
+  "location": "US Only",
   "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163116-full-stack-engineer-10"
+  "source": "remoteok",
+  "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ai-science-platform-reddit-1138093"
  },
  {
-  "company": "Samsara",
-  "title": "Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B)",
-  "location": "Poland",
+  "company": "Cribl",
+  "title": "Staff Software Engineer, Control Plane",
+  "location": "US Only",
   "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163874-sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote-b2b-2"
- },
- {
-  "company": "Dropbox",
-  "title": "Senior Full Stack Product Software Engineer, Application Platform",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163716-senior-full-stack-product-software-engineer-application-platform"
- },
- {
-  "company": "Alma",
-  "title": "Mobile Engineer - React Native (Paris or Remote France)",
-  "location": "France",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/155885-mobile-engineer-react-native-paris-or-remote-france"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
- },
- {
-  "company": "Samsara",
-  "title": "Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B)",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163874-sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote-b2b-2"
- },
- {
-  "company": "Dropbox",
-  "title": "Senior Full Stack Product Software Engineer, Application Platform",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163716-senior-full-stack-product-software-engineer-application-platform"
- },
- {
-  "company": "Alma",
-  "title": "Mobile Engineer - React Native (Paris or Remote France)",
-  "location": "France",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/155885-mobile-engineer-react-native-paris-or-remote-france"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
- },
- {
-  "company": "Dropbox",
-  "title": "Senior Full Stack Product Software Engineer, Application Platform",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163716-senior-full-stack-product-software-engineer-application-platform"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
- },
- {
-  "company": "Mozilla",
-  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
-  "location": "France",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163099-staff-performance-engineer-javascript-engine-spidermonkey"
- },
- {
-  "company": "Dropbox",
-  "title": "Senior Full Stack Product Software Engineer, Application Platform",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163716-senior-full-stack-product-software-engineer-application-platform"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
- },
- {
-  "company": "Mozilla",
-  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
-  "location": "France",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163099-staff-performance-engineer-javascript-engine-spidermonkey"
- },
- {
-  "company": "Samsara",
-  "title": "Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B)",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163874-sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote-b2b-2"
- },
- {
-  "company": "BJAK",
-  "title": "Full Stack Software Engineer - AI Finance Agent",
-  "location": "Netherlands",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163230-full-stack-software-engineer-ai-finance-agent"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
- },
- {
-  "company": "BJAK",
-  "title": "Full Stack Engineer",
-  "location": "Spain",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163116-full-stack-engineer-10"
- },
- {
-  "company": "Elevenlabs",
-  "title": "Full-Stack Engineer - ElevenMusic",
-  "location": "Denmark,  France,  Netherlands,  Poland,  UK,  USA",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163113-full-stack-engineer-elevenmusic"
- },
- {
-  "company": "Samsara",
-  "title": "Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B)",
-  "location": "Poland",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163874-sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote-b2b-2"
- },
- {
-  "company": "BJAK",
-  "title": "Full Stack Software Engineer - AI Finance Agent",
-  "location": "Netherlands",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163230-full-stack-software-engineer-ai-finance-agent"
- },
- {
-  "company": "Supabase",
-  "title": "Developer Relations Engineer (London, UK)",
-  "location": "UK",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/153490-developer-relations-engineer-london-uk"
- },
- {
-  "company": "BJAK",
-  "title": "Full Stack Engineer",
-  "location": "Spain",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163116-full-stack-engineer-10"
- },
- {
-  "company": "Elevenlabs",
-  "title": "Full-Stack Engineer - ElevenMusic",
-  "location": "Denmark,  France,  Netherlands,  Poland,  UK,  USA",
-  "remote": true,
-  "source": "jobicy",
-  "url": "https://jobicy.com/jobs/163113-full-stack-engineer-elevenmusic"
+  "source": "remoteok",
+  "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-control-plane-cribl-1138092"
  },
  {
   "company": "Airbnb",
@@ -1150,6 +1134,102 @@
   "remote": true,
   "source": "remoteok",
   "url": "https://remoteOK.com/remote-jobs/remote-technical-solutions-engineer-stripe-1137922"
+ },
+ {
+  "company": "Exponent",
+  "title": "Senior Enterprise Application Developer (Full Stack)",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/exponent/jobs/senior-enterprise-application-developer-full-stack-7203864157?utm_source=api"
+ },
+ {
+  "company": "AE Studio",
+  "title": "Senior Software Engineer (AI Driven) - Curveglass",
+  "location": "Brazil",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/ae-studio/jobs/senior-software-engineer-ai-driven-curveglass?utm_source=api"
+ },
+ {
+  "company": "Prenuvo",
+  "title": "Senior Software Engineer II - Agentic SDLC",
+  "location": "Canada",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/prenuvo/jobs/senior-software-engineer-ii-agentic-sdlc?utm_source=api"
+ },
+ {
+  "company": "ACI Learning",
+  "title": "Full Stack Web & eCommerce Engineer",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/aci-learning/jobs/full-stack-web-ecommerce-engineer?utm_source=api"
+ },
+ {
+  "company": "Prenuvo",
+  "title": "Senior Software Engineer II - Agentic SDLC",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/prenuvo/jobs/senior-software-engineer-ii-agentic-sdlc-6814634626?utm_source=api"
+ },
+ {
+  "company": "AE Studio",
+  "title": "Senior Software Engineer (AI Driven) - Curveglass",
+  "location": "Brazil",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/ae-studio/jobs/senior-software-engineer-ai-driven-curveglass?utm_source=api"
+ },
+ {
+  "company": "Orbis Operations LLC",
+  "title": "Senior Software Engineer, Agentic AI",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/orbis-operations-llc/jobs/senior-software-engineer-agentic-ai?utm_source=api"
+ },
+ {
+  "company": "Orbis Operations LLC",
+  "title": "Senior Software Engineer, Full-Stack",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/orbis-operations-llc/jobs/senior-software-engineer-full-stack?utm_source=api"
+ },
+ {
+  "company": "Liftoff LLC",
+  "title": "Software Engineer, Dash",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/liftoff-llc/jobs/software-engineer-dash?utm_source=api"
+ },
+ {
+  "company": "Bounteous",
+  "title": "Senior Full Stack Engineer",
+  "location": "Canada / Mexico",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/bounteous/jobs/senior-full-stack-engineer?utm_source=api"
+ },
+ {
+  "company": "Logistics Management Institute",
+  "title": "Full Stack Engineer - AI Applications",
+  "location": "United States",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/logistics-management-institute/jobs/full-stack-engineer-ai-applications?utm_source=api"
+ },
+ {
+  "company": "MWDN",
+  "title": "Senior Full-Stack & AI Engineer",
+  "location": "Ukraine",
+  "remote": true,
+  "source": "himalayas",
+  "url": "https://himalayas.app/companies/mwdn/jobs/senior-full-stack-ai-engineer-4614431138?utm_source=api"
  },
  {
   "company": "MWDN",
@@ -1230,70 +1310,6 @@
   "remote": true,
   "source": "himalayas",
   "url": "https://himalayas.app/companies/peerboard/jobs/full-stack-developer?utm_source=api"
- },
- {
-  "company": "Reach First",
-  "title": "Senior Software Engineer - Full Stack & AI Applications",
-  "location": "Pakistan",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/reach-first/jobs/senior-software-engineer-full-stack-ai-applications?utm_source=api"
- },
- {
-  "company": "Sequoia Connect",
-  "title": "Senior Mobile React Native Developer",
-  "location": "Mexico",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/sequoia-connect/jobs/senior-mobile-react-native-developer?utm_source=api"
- },
- {
-  "company": "nyra health",
-  "title": "Senior Fullstack Engineer (AI native)",
-  "location": "Austria / United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/nyra-health/jobs/senior-fullstack-engineer-ai-native?utm_source=api"
- },
- {
-  "company": "Stake Capital Group",
-  "title": "Senior Python & Front-End Developer",
-  "location": "Switzerland",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/stake-capital-group/jobs/senior-python-front-end-developer?utm_source=api"
- },
- {
-  "company": "NextAlpha (Nu Dawn)",
-  "title": "Full Stack Engineer",
-  "location": "Afghanistan / Albania / Algeria / American Samoa / Andorra / Angola / Antarctica / Armenia / Australia / Austria / Azerb",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/nextalpha-nu-dawn/jobs/full-stack-engineer?utm_source=api"
- },
- {
-  "company": "NextAlpha (Nu Dawn)",
-  "title": "Full Stack Engineer",
-  "location": "Afghanistan / Albania / Algeria / American Samoa / Andorra / Angola / Antarctica / Armenia / Australia / Austria / Azerb",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/nextalpha-nu-dawn/jobs/full-stack-engineer?utm_source=api"
- },
- {
-  "company": "iFLIP4",
-  "title": "Entrepreneurial Front End Developer. Inspire a Generation to Care with our Start",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/iflip4/jobs/entrepreneurial-front-end-developer-inspire-a-generation-to-care-with-our-start?utm_source=api"
- },
- {
-  "company": "iFLIP4",
-  "title": "Entrepreneurial Front End Developer. Inspire a Generation to Care with our Start",
-  "location": "United States",
-  "remote": true,
-  "source": "himalayas",
-  "url": "https://himalayas.app/companies/iflip4/jobs/entrepreneurial-front-end-developer-inspire-a-generation-to-care-with-our-start?utm_source=api"
  },
  {
   "company": "Cribl",
@@ -1792,6 +1808,22 @@
   "url": "https://germantechjobs.de/jobs/DMS-Daten-Management-Service-GmbH-Mid-Senior-Software-Engineer-mwd--Anwendungsentwicklung-und-KI"
  },
  {
+  "company": "Hensoldt",
+  "title": "Senior Full-Stack Software Engineer (w/m/d)",
+  "location": "Germering / Bayern / Deutschland",
+  "remote": null,
+  "source": "germantechjobs",
+  "url": "https://germantechjobs.de/jobs/Hensoldt-Senior-Full-Stack-Software-Engineer-wmd"
+ },
+ {
+  "company": "energy & meteo systems GmbH",
+  "title": "Full-Stack-Softwareentwickler für erneuerbare Energien (w/m/d)",
+  "location": "Bremen / Bremen / Deutschland",
+  "remote": null,
+  "source": "germantechjobs",
+  "url": "https://germantechjobs.de/jobs/energy--meteo-systems-GmbH-Full-Stack-Softwareentwickler-fr-erneuerbare-Energien-wmd"
+ },
+ {
   "company": "TOUGH Training GmbH",
   "title": "Backend Developer (m/w/d) Cloud & Fullstack - Würzburg",
   "location": "Würzburg / CH / Deutschland",
@@ -1800,12 +1832,44 @@
   "url": "https://germantechjobs.de/jobs/TOUGH-Training-GmbH-Backend-Developer-mwd-Cloud--Fullstack---Wrzburg"
  },
  {
+  "company": "Hensoldt",
+  "title": "Senior Software Engineer - Full-Stack Developer (w/m/d) - Maisach",
+  "location": "Maisach / Bayern / Deutschland",
+  "remote": null,
+  "source": "germantechjobs",
+  "url": "https://germantechjobs.de/jobs/Hensoldt-Senior-Software-Engineer---Full-Stack-Developer-wmd---Maisach"
+ },
+ {
   "company": "GETEC ENERGIE GmbH",
-  "title": "Full Stack Developer (w/m/d) - Hanover",
+  "title": "Full Stack Developer (w/m/d) - Hannover",
   "location": "Hanover / Niedersachsen / Deutschland",
   "remote": null,
   "source": "germantechjobs",
-  "url": "https://germantechjobs.de/jobs/GETEC-ENERGIE-GmbH-Full-Stack-Developer-wmd---Hanover"
+  "url": "https://germantechjobs.de/jobs/GETEC-ENERGIE-GmbH-Full-Stack-Developer-wmd---Hannover"
+ },
+ {
+  "company": "Deutsche Welle",
+  "title": "Senior Mobile Developer (w/m/d) - Berlin",
+  "location": "Berlin / Berlin / Deutschland",
+  "remote": null,
+  "source": "germantechjobs",
+  "url": "https://germantechjobs.de/jobs/Deutsche-Welle-Senior-Mobile-Developer-wmd---Berlin"
+ },
+ {
+  "company": "Deutsche Welle",
+  "title": "Mobile Developer (w/m/d) - Berlin",
+  "location": "Berlin / Berlin / Deutschland",
+  "remote": null,
+  "source": "germantechjobs",
+  "url": "https://germantechjobs.de/jobs/Deutsche-Welle-Mobile-Developer-wmd---Berlin"
+ },
+ {
+  "company": "energy & meteo systems GmbH",
+  "title": "Full-Stack Softwareentwickler (w/m/d)",
+  "location": "Bremen / Bremen / Deutschland",
+  "remote": null,
+  "source": "germantechjobs",
+  "url": "https://germantechjobs.de/jobs/energy--meteo-systems-GmbH-Full-Stack-Softwareentwickler-wmd"
  },
  {
   "company": "BMW Group",
@@ -1813,15 +1877,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=react&rgn=55146&pos=1&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=124&brelb=100&bscr=56.293854&scr=56.293854"
- },
- {
-  "company": "Elm Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=react&rgn=55146&pos=2&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=43&brelb=100&bscr=41.85002&scr=41.85002"
+  "url": "https://jooble.org/desc/3397154309416442333?ckey=react&rgn=55146&pos=1&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=128&brelb=100&bscr=56.87706&scr=56.87706"
  },
  {
   "company": "Saltire Labs",
@@ -1829,111 +1885,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=react&rgn=55146&pos=3&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=19&brelb=100&bscr=41.829514&scr=41.829514"
- },
- {
-  "company": "CoCrafter",
-  "title": "Senior Software Engineer (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=4&rgn=55146&cid=22409&ckey=react&jobAge=460&brelb=15&scr=31.967978&bscr=31.967978&aq=6706701505355010682&elckey=-2651193589615352433"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=react&rgn=55146&pos=5&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=244&brelb=100&bscr=31.94627&scr=31.94627"
- },
- {
-  "company": "Beacon Commerce",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-910907150283326553?ckey=react&rgn=55146&pos=7&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=43&brelb=100&bscr=30.564144&scr=30.564144"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=react&rgn=55146&pos=8&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=676&brelb=10&bscr=24.734844&scr=24.734844"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=react&rgn=55146&pos=10&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=3844&brelb=100&bscr=13.832223&scr=13.832223"
- },
- {
-  "company": "Saltire Apps",
-  "title": "Graduate Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8611897233695788055?ckey=react&rgn=55146&pos=14&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=19&brelb=100&bscr=8.222199&scr=8.222199"
- },
- {
-  "company": "Superchat",
-  "title": "Tech Lead (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/2741274739823523688?ckey=react&rgn=55146&pos=17&groupId=40846&elckey=-2651193589615352433&p=1&aq=6706701505355010682&cid=22409&jobAge=508&brelb=100&bscr=7.77434&scr=7.77434"
- },
- {
-  "company": "Bluebell Systems",
-  "title": "Senior Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3593127438969565797?ckey=react&rgn=55146&pos=22&groupId=40846&elckey=-2651193589615352433&p=2&aq=4280809514344691048&cid=22409&jobAge=43&brelb=100&bscr=5.4162297&scr=5.4162297"
- },
- {
-  "company": "Runware",
-  "title": "Senior Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-7246433032714406538?ckey=react&rgn=55146&pos=23&groupId=40846&elckey=-2651193589615352433&p=2&aq=4280809514344691048&cid=22409&jobAge=376&brelb=100&bscr=5.313039&scr=5.313039"
- },
- {
-  "company": "Chainguard",
-  "title": "Senior Software Engineer, Containers",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3407452384356022414?ckey=react&rgn=55146&pos=25&groupId=40846&elckey=-2651193589615352433&p=2&aq=4280809514344691048&cid=22409&jobAge=215&brelb=100&bscr=5.2407727&scr=5.2407727"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=react+native&rgn=55146&pos=1&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=244&brelb=100&bscr=63.893383&scr=63.893383"
- },
- {
-  "company": "Beacon Commerce",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-910907150283326553?ckey=react+native&rgn=55146&pos=3&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=43&brelb=100&bscr=61.128227&scr=61.128227"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=react+native&rgn=55146&pos=4&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=124&brelb=100&bscr=56.2944&scr=56.2944"
+  "url": "https://jooble.org/desc/-8516108434940027525?ckey=react&rgn=55146&pos=2&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=24&brelb=100&bscr=42.595997&scr=42.595997"
  },
  {
   "company": "Delta Software",
@@ -1941,15 +1893,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-2662067088209318145?ckey=react+native&rgn=55146&pos=6&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=43&brelb=100&bscr=42.18557&scr=42.18557"
+  "url": "https://jooble.org/desc/-2662067088209318145?ckey=react&rgn=55146&pos=3&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=47&brelb=100&bscr=42.096004&scr=42.096004"
  },
  {
-  "company": "Saltire Labs",
-  "title": "Software Engineer",
+  "company": "limetax",
+  "title": "Founding Full Stack Engineer - AI (m/f/d)",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=react+native&rgn=55146&pos=7&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=19&brelb=100&bscr=41.8301&scr=41.8301"
+  "url": "https://jooble.org/desc/-3472880197051452539?ckey=react&rgn=55146&pos=5&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=248&brelb=100&bscr=31.871868&scr=31.871868"
  },
  {
   "company": "CoCrafter",
@@ -1957,7 +1909,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=8&rgn=55146&cid=22409&ckey=react+native&jobAge=460&brelb=15&scr=31.927914&bscr=31.927914&aq=-5355020759170480482&elckey=-3194630394211206603"
+  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=6&rgn=55146&cid=22409&ckey=react&jobAge=464&brelb=15&scr=31.589375&bscr=31.589375&aq=-8231623620010992379&elckey=-8715952552075874717"
+ },
+ {
+  "company": "Beacon Commerce",
+  "title": "Mobile Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-910907150283326553?ckey=react&rgn=55146&pos=7&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=47&brelb=100&bscr=30.853012&scr=30.853012"
  },
  {
   "company": "20four7va",
@@ -1965,7 +1925,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=react+native&rgn=55146&pos=9&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=676&brelb=10&bscr=25.031343&scr=25.031343"
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=react&rgn=55146&pos=8&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=680&brelb=10&bscr=24.91184&scr=24.91184"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -1973,15 +1933,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=react+native&rgn=55146&pos=10&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=3844&brelb=100&bscr=13.64317&scr=13.64317"
- },
- {
-  "company": "Chainguard",
-  "title": "Senior Software Engineer, Containers",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3407452384356022414?ckey=react+native&rgn=55146&pos=11&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=215&brelb=100&bscr=10.621367&scr=10.621367"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=react&rgn=55146&pos=10&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=3848&brelb=100&bscr=13.847531&scr=13.847531"
  },
  {
   "company": "Saltire Apps",
@@ -1989,7 +1941,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8611897233695788055?ckey=react+native&rgn=55146&pos=15&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=19&brelb=100&bscr=8.329272&scr=8.329272"
+  "url": "https://jooble.org/desc/-8611897233695788055?ckey=react&rgn=55146&pos=14&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=24&brelb=100&bscr=8.385611&scr=8.385611"
  },
  {
   "company": "Superchat",
@@ -1997,7 +1949,127 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/2741274739823523688?ckey=react+native&rgn=55146&pos=17&groupId=40846&elckey=-3194630394211206603&p=1&aq=-5355020759170480482&cid=22409&jobAge=508&brelb=100&bscr=7.869899&scr=7.869899"
+  "url": "https://jooble.org/desc/2741274739823523688?ckey=react&rgn=55146&pos=17&groupId=40846&elckey=-8715952552075874717&p=1&aq=-8231623620010992379&cid=22409&jobAge=512&brelb=100&bscr=7.9137535&scr=7.9137535"
+ },
+ {
+  "company": "Superchat",
+  "title": "Tech Lead (m/f/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/6398432569780616575?ckey=react&rgn=55146&pos=23&groupId=40846&elckey=-8715952552075874717&p=2&aq=8103442305217471877&cid=22409&jobAge=380&brelb=100&bscr=5.4726954&scr=5.4726954"
+ },
+ {
+  "company": "Bluebell Systems",
+  "title": "Senior Software Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/3593127438969565797?ckey=react&rgn=55146&pos=24&groupId=40846&elckey=-8715952552075874717&p=2&aq=8103442305217471877&cid=22409&jobAge=47&brelb=100&bscr=5.4388742&scr=5.4388742"
+ },
+ {
+  "company": "Chainguard",
+  "title": "Senior Software Engineer, Containers",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-3407452384356022414?ckey=react&rgn=55146&pos=25&groupId=40846&elckey=-8715952552075874717&p=2&aq=8103442305217471877&cid=22409&jobAge=219&brelb=100&bscr=5.4111447&scr=5.4111447"
+ },
+ {
+  "company": "limetax",
+  "title": "Founding Full Stack Engineer - AI (m/f/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-3472880197051452539?ckey=react+native&rgn=55146&pos=1&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=248&brelb=100&bscr=64.52446&scr=64.52446"
+ },
+ {
+  "company": "Beacon Commerce",
+  "title": "Mobile Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-910907150283326553?ckey=react+native&rgn=55146&pos=3&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=47&brelb=100&bscr=61.64702&scr=61.64702"
+ },
+ {
+  "company": "BMW Group",
+  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/3397154309416442333?ckey=react+native&rgn=55146&pos=4&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=128&brelb=100&bscr=56.337204&scr=56.337204"
+ },
+ {
+  "company": "Saltire Labs",
+  "title": "Software Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-8516108434940027525?ckey=react+native&rgn=55146&pos=6&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=24&brelb=100&bscr=42.331&scr=42.331"
+ },
+ {
+  "company": "Elm Software",
+  "title": "Full-Stack Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/6586725094023557355?ckey=react+native&rgn=55146&pos=7&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=47&brelb=100&bscr=42.107525&scr=42.107525"
+ },
+ {
+  "company": "CoCrafter",
+  "title": "Senior Software Engineer (m/f/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=8&rgn=55146&cid=22409&ckey=react+native&jobAge=464&brelb=15&scr=31.90793&bscr=31.90793&aq=6614406668066515996&elckey=9187354717037822729"
+ },
+ {
+  "company": "20four7va",
+  "title": "AI & ML Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=react+native&rgn=55146&pos=9&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=680&brelb=10&bscr=25.022854&scr=25.022854"
+ },
+ {
+  "company": "Software Engineering· Full-time",
+  "title": "Full-Stack Developer, Music & Audio",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=react+native&rgn=55146&pos=10&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=3848&brelb=100&bscr=13.847531&scr=13.847531"
+ },
+ {
+  "company": "Chainguard",
+  "title": "Senior Software Engineer, Containers",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-3407452384356022414?ckey=react+native&rgn=55146&pos=11&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=219&brelb=100&bscr=10.946061&scr=10.946061"
+ },
+ {
+  "company": "Saltire Apps",
+  "title": "Graduate Software Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-8611897233695788055?ckey=react+native&rgn=55146&pos=15&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=24&brelb=100&bscr=8.410218&scr=8.410218"
+ },
+ {
+  "company": "Superchat",
+  "title": "Tech Lead (m/f/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/2741274739823523688?ckey=react+native&rgn=55146&pos=17&groupId=40846&elckey=9187354717037822729&p=1&aq=6614406668066515996&cid=22409&jobAge=512&brelb=100&bscr=7.9266047&scr=7.9266047"
+ },
+ {
+  "company": "Bluebell Systems",
+  "title": "Senior Software Engineer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/3593127438969565797?ckey=react+native&rgn=55146&pos=23&groupId=40846&elckey=9187354717037822729&p=2&aq=7961726439414990208&cid=22409&jobAge=47&brelb=100&bscr=5.499779&scr=5.499779"
  },
  {
   "company": "Runware",
@@ -2005,15 +2077,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6398432569780616575?ckey=react+native&rgn=55146&pos=23&groupId=40846&elckey=-3194630394211206603&p=2&aq=6659960334686836714&cid=22409&jobAge=376&brelb=100&bscr=5.4671974&scr=5.4671974"
- },
- {
-  "company": "Bluebell Systems",
-  "title": "Senior Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3593127438969565797?ckey=react+native&rgn=55146&pos=24&groupId=40846&elckey=-3194630394211206603&p=2&aq=6659960334686836714&cid=22409&jobAge=43&brelb=100&bscr=5.4163036&scr=5.4163036"
+  "url": "https://jooble.org/desc/6398432569780616575?ckey=react+native&rgn=55146&pos=24&groupId=40846&elckey=9187354717037822729&p=2&aq=7961726439414990208&cid=22409&jobAge=380&brelb=100&bscr=5.4726954&scr=5.4726954"
  },
  {
   "company": "BMW Group",
@@ -2021,7 +2085,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=frontend+react&rgn=55146&pos=1&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=124&brelb=100&bscr=238.10106&scr=238.10106"
+  "url": "https://jooble.org/desc/3397154309416442333?ckey=frontend+react&rgn=55146&pos=1&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=128&brelb=100&bscr=236.66928&scr=236.66928"
  },
  {
   "company": "limetax",
@@ -2029,7 +2093,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=frontend+react&rgn=55146&pos=2&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=244&brelb=100&bscr=164.01865&scr=164.01865"
+  "url": "https://jooble.org/desc/-3472880197051452539?ckey=frontend+react&rgn=55146&pos=2&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=248&brelb=100&bscr=162.13185&scr=162.13185"
  },
  {
   "company": "20four7va",
@@ -2037,7 +2101,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+react&rgn=55146&pos=3&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=676&brelb=10&bscr=137.82709&scr=137.82709"
+  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+react&rgn=55146&pos=3&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=680&brelb=10&bscr=136.38664&scr=136.38664"
  },
  {
   "company": "Saltire Labs",
@@ -2045,7 +2109,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=frontend+react&rgn=55146&pos=4&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=19&brelb=100&bscr=101.04988&scr=101.04988"
+  "url": "https://jooble.org/desc/-8516108434940027525?ckey=frontend+react&rgn=55146&pos=4&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=24&brelb=100&bscr=100.21429&scr=100.21429"
  },
  {
   "company": "Elm Software",
@@ -2053,7 +2117,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=frontend+react&rgn=55146&pos=5&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=43&brelb=100&bscr=100.97604&scr=100.97604"
+  "url": "https://jooble.org/desc/6586725094023557355?ckey=frontend+react&rgn=55146&pos=5&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=47&brelb=100&bscr=99.74224&scr=99.74224"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -2061,7 +2125,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+react&rgn=55146&pos=6&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=3844&brelb=100&bscr=39.68438&scr=39.68438"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+react&rgn=55146&pos=6&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=3848&brelb=100&bscr=40.005672&scr=40.005672"
  },
  {
   "company": "CoCrafter",
@@ -2069,7 +2133,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=7&rgn=55146&cid=22409&ckey=frontend+react&jobAge=460&brelb=15&scr=28.584343&bscr=28.584343&aq=3674911258503488388&elckey=-728391654394399589"
+  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=7&rgn=55146&cid=22409&ckey=frontend+react&jobAge=464&brelb=15&scr=28.426405&bscr=28.426405&aq=-6519927775244031030&elckey=-6793150616854921873"
  },
  {
   "company": "BMW Group",
@@ -2077,7 +2141,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/8787823054861698190?ckey=frontend+react&rgn=55146&pos=9&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=220&brelb=100&bscr=24.238214&scr=24.238214"
+  "url": "https://jooble.org/desc/8787823054861698190?ckey=frontend+react&rgn=55146&pos=9&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=224&brelb=100&bscr=24.326347&scr=24.326347"
  },
  {
   "company": "Beacon Commerce",
@@ -2085,7 +2149,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-910907150283326553?ckey=frontend+react&rgn=55146&pos=11&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=43&brelb=100&bscr=22.240583&scr=22.240583"
+  "url": "https://jooble.org/desc/-910907150283326553?ckey=frontend+react&rgn=55146&pos=10&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=47&brelb=100&bscr=22.271872&scr=22.271872"
  },
  {
   "company": "Superchat",
@@ -2093,271 +2157,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/2741274739823523688?ckey=frontend+react&rgn=55146&pos=18&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=508&brelb=100&bscr=6.822441&scr=6.822441"
- },
- {
-  "company": "Saltire Apps",
-  "title": "Graduate Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8611897233695788055?ckey=frontend+react&rgn=55146&pos=19&groupId=1039704638&elckey=-728391654394399589&p=1&aq=3674911258503488388&cid=22409&jobAge=19&brelb=100&bscr=6.650118&scr=6.650118"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=fullstack+typescript&rgn=55146&pos=1&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=124&brelb=100&bscr=99.37036&scr=99.37036"
- },
- {
-  "company": "Elm Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=fullstack+typescript&rgn=55146&pos=2&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=43&brelb=100&bscr=96.221855&scr=96.221855"
- },
- {
-  "company": "Saltire Labs",
-  "title": "Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=fullstack+typescript&rgn=55146&pos=3&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=19&brelb=100&bscr=95.5445&scr=95.5445"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=244&brelb=100&bscr=94.58765&scr=94.58765"
- },
- {
-  "company": "CoCrafter",
-  "title": "Senior Software Engineer (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=5&rgn=55146&cid=22409&ckey=fullstack+typescript&jobAge=460&brelb=15&scr=45.502823&bscr=45.502823&aq=221111027971689788&elckey=-3912470714956071768"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Data Engineering und Frontend-Entwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/8787823054861698190?ckey=fullstack+typescript&rgn=55146&pos=8&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=220&brelb=100&bscr=30.515066&scr=30.515066"
- },
- {
-  "company": "Product· Full-time",
-  "title": "Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/1136034464771255194?ckey=fullstack+typescript&rgn=55146&pos=13&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=3364&brelb=100&bscr=12.739053&scr=12.739053"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=fullstack+typescript&rgn=55146&pos=16&groupId=-1143041055&elckey=-3912470714956071768&p=1&aq=221111027971689788&cid=22409&jobAge=3844&brelb=100&bscr=9.277382&scr=9.277382"
- },
- {
-  "company": "CoCrafter",
-  "title": "Senior Software Engineer (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=1&rgn=55146&cid=22409&ckey=next.js&jobAge=460&brelb=15&scr=95.161095&bscr=95.161095&aq=-5232686718846187726&elckey=-1301187786210058268"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=next.js&rgn=55146&pos=2&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=3844&brelb=100&bscr=40.185226&scr=40.185226"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=next.js&rgn=55146&pos=3&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=124&brelb=100&bscr=39.49663&scr=39.49663"
- },
- {
-  "company": "Delta Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-2662067088209318145?ckey=next.js&rgn=55146&pos=4&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=43&brelb=100&bscr=25.226437&scr=25.226437"
- },
- {
-  "company": "Saltire Labs",
-  "title": "Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=next.js&rgn=55146&pos=5&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=19&brelb=100&bscr=25.03297&scr=25.03297"
- },
- {
-  "company": "Saltire Apps",
-  "title": "Graduate Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8611897233695788055?ckey=next.js&rgn=55146&pos=6&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=19&brelb=100&bscr=11.226941&scr=11.226941"
- },
- {
-  "company": "Beacon Commerce",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-910907150283326553?ckey=next.js&rgn=55146&pos=8&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=43&brelb=100&bscr=11.12017&scr=11.12017"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=next.js&rgn=55146&pos=15&groupId=-675061143&elckey=-1301187786210058268&p=1&aq=-5232686718846187726&cid=22409&jobAge=244&brelb=100&bscr=10.641596&scr=10.641596"
- },
- {
-  "company": "CoCrafter",
-  "title": "Senior Software Engineer (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=1&rgn=55146&cid=22409&ckey=typescript&jobAge=460&brelb=15&scr=45.680973&bscr=45.680973&aq=-1506540994560994826&elckey=-5034443903257019545"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Data Engineering und Frontend-Entwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/8787823054861698190?ckey=typescript&rgn=55146&pos=4&groupId=41651&elckey=-5034443903257019545&p=1&aq=-1506540994560994826&cid=22409&jobAge=220&brelb=100&bscr=30.515326&scr=30.515326"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=typescript&rgn=55146&pos=5&groupId=41651&elckey=-5034443903257019545&p=1&aq=-1506540994560994826&cid=22409&jobAge=124&brelb=100&bscr=25.131824&scr=25.131824"
- },
- {
-  "company": "Elm Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=typescript&rgn=55146&pos=6&groupId=41651&elckey=-5034443903257019545&p=1&aq=-1506540994560994826&cid=22409&jobAge=43&brelb=100&bscr=24.858295&scr=24.858295"
- },
- {
-  "company": "Saltire Labs",
-  "title": "Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=typescript&rgn=55146&pos=7&groupId=41651&elckey=-5034443903257019545&p=1&aq=-1506540994560994826&cid=22409&jobAge=19&brelb=100&bscr=24.557772&scr=24.557772"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=typescript&rgn=55146&pos=8&groupId=41651&elckey=-5034443903257019545&p=1&aq=-1506540994560994826&cid=22409&jobAge=244&brelb=100&bscr=24.4001&scr=24.4001"
- },
- {
-  "company": "Saltire Labs",
-  "title": "Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=softwareentwickler+react&rgn=55146&pos=1&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=19&brelb=100&bscr=95.19421&scr=95.19421"
- },
- {
-  "company": "Beacon Commerce",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-910907150283326553?ckey=softwareentwickler+react&rgn=55146&pos=3&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=43&brelb=100&bscr=80.44118&scr=80.44118"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=softwareentwickler+react&rgn=55146&pos=4&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=676&brelb=10&bscr=65.11463&scr=65.11463"
- },
- {
-  "company": "Elm Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=softwareentwickler+react&rgn=55146&pos=5&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=43&brelb=100&bscr=62.2073&scr=62.2073"
- },
- {
-  "company": "CoCrafter",
-  "title": "Senior Software Engineer (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=6&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=460&brelb=15&scr=56.983685&bscr=56.983685&aq=8635260874380203266&elckey=-3202628458517721705"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=softwareentwickler+react&rgn=55146&pos=7&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=124&brelb=100&bscr=56.65288&scr=56.65288"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=softwareentwickler+react&rgn=55146&pos=8&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=244&brelb=100&bscr=52.482197&scr=52.482197"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=softwareentwickler+react&rgn=55146&pos=10&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=3844&brelb=100&bscr=23.858528&scr=23.858528"
- },
- {
-  "company": "Saltire Apps",
-  "title": "Graduate Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8611897233695788055?ckey=softwareentwickler+react&rgn=55146&pos=15&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=19&brelb=100&bscr=21.766422&scr=21.766422"
- },
- {
-  "company": "Bluebell Systems",
-  "title": "Senior Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3593127438969565797?ckey=softwareentwickler+react&rgn=55146&pos=16&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=43&brelb=100&bscr=20.729815&scr=20.729815"
+  "url": "https://jooble.org/desc/2741274739823523688?ckey=frontend+react&rgn=55146&pos=18&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=512&brelb=100&bscr=6.867237&scr=6.867237"
  },
  {
   "company": "Runware",
@@ -2365,23 +2165,55 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/6398432569780616575?ckey=softwareentwickler+react&rgn=55146&pos=17&groupId=-846279423&elckey=-3202628458517721705&p=1&aq=8635260874380203266&cid=22409&jobAge=376&brelb=100&bscr=20.62273&scr=20.62273"
+  "url": "https://jooble.org/desc/-8611897233695788055?ckey=frontend+react&rgn=55146&pos=19&groupId=1039704638&elckey=-6793150616854921873&p=1&aq=-6519927775244031030&cid=22409&jobAge=24&brelb=100&bscr=6.762267&scr=6.762267"
  },
  {
-  "company": "Chainguard",
-  "title": "Senior Software Engineer, Containers",
+  "company": "BMW Group",
+  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-3407452384356022414?ckey=softwareentwickler+react&rgn=55146&pos=21&groupId=-846279423&elckey=-3202628458517721705&p=2&aq=-7956869204537553627&cid=22409&jobAge=215&brelb=100&bscr=19.771366&scr=19.771366"
+  "url": "https://jooble.org/desc/3397154309416442333?ckey=fullstack+typescript&rgn=55146&pos=1&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=128&brelb=100&bscr=98.65512&scr=98.65512"
  },
  {
-  "company": "Superchat",
-  "title": "Tech Lead (m/f/d)",
+  "company": "Saltire Labs",
+  "title": "Software Engineer",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/2741274739823523688?ckey=softwareentwickler+react&rgn=55146&pos=25&groupId=-846279423&elckey=-3202628458517721705&p=2&aq=-7956869204537553627&cid=22409&jobAge=508&brelb=100&bscr=15.226217&scr=15.226217"
+  "url": "https://jooble.org/desc/-8516108434940027525?ckey=fullstack+typescript&rgn=55146&pos=2&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=24&brelb=100&bscr=96.033295&scr=96.033295"
+ },
+ {
+  "company": "Delta Software",
+  "title": "Full-Stack Developer",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-2662067088209318145?ckey=fullstack+typescript&rgn=55146&pos=3&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=47&brelb=100&bscr=95.70232&scr=95.70232"
+ },
+ {
+  "company": "limetax",
+  "title": "Founding Full Stack Engineer - AI (m/f/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/-3472880197051452539?ckey=fullstack+typescript&rgn=55146&pos=4&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=248&brelb=100&bscr=93.161674&scr=93.161674"
+ },
+ {
+  "company": "CoCrafter",
+  "title": "Senior Software Engineer (m/f/d)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=5&rgn=55146&cid=22409&ckey=fullstack+typescript&jobAge=464&brelb=15&scr=44.150845&bscr=44.150845&aq=8754255526966764950&elckey=8469514396292957564"
+ },
+ {
+  "company": "BMW Group",
+  "title": "Praktikant Data Engineering und Frontend-Entwicklung (w/m/x)",
+  "location": "Germany / Deutschland",
+  "remote": null,
+  "source": "jooble",
+  "url": "https://jooble.org/desc/8787823054861698190?ckey=fullstack+typescript&rgn=55146&pos=8&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=224&brelb=100&bscr=29.91865&scr=29.91865"
  },
  {
   "company": "Product· Full-time",
@@ -2389,23 +2221,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/1136034464771255194?ckey=softwareentwickler+react&rgn=55146&pos=32&groupId=-846279423&elckey=-3202628458517721705&p=2&aq=-7956869204537553627&cid=22409&jobAge=3364&brelb=100&bscr=11.189233&scr=11.189233"
- },
- {
-  "company": "Primorio GmbH",
-  "title": "Founding Product Engineer (Customer-Facing)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/8500431727418113539?ckey=softwareentwickler+react&rgn=55146&pos=33&groupId=-846279423&elckey=-3202628458517721705&p=2&aq=-7956869204537553627&cid=22409&jobAge=196&brelb=100&bscr=11.189233&scr=11.189233"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=frontend+entwickler&rgn=55146&pos=1&groupId=40304&elckey=269183226685225925&p=1&aq=82732456625636470&cid=22409&jobAge=244&brelb=100&bscr=30.701626&scr=30.701626"
+  "url": "https://jooble.org/desc/1136034464771255194?ckey=fullstack+typescript&rgn=55146&pos=13&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=3368&brelb=100&bscr=12.631984&scr=12.631984"
  },
  {
   "company": "Software Engineering· Full-time",
@@ -2413,47 +2229,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+entwickler&rgn=55146&pos=4&groupId=40304&elckey=269183226685225925&p=1&aq=82732456625636470&cid=22409&jobAge=3844&brelb=100&bscr=26.159893&scr=26.159893"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Data Engineering und Frontend-Entwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/8787823054861698190?ckey=frontend+entwickler&rgn=55146&pos=5&groupId=40304&elckey=269183226685225925&p=1&aq=82732456625636470&cid=22409&jobAge=220&brelb=100&bscr=24.238453&scr=24.238453"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+entwickler&rgn=55146&pos=6&groupId=40304&elckey=269183226685225925&p=1&aq=82732456625636470&cid=22409&jobAge=676&brelb=10&bscr=23.363867&scr=23.363867"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=frontend+entwickler&rgn=55146&pos=7&groupId=40304&elckey=269183226685225925&p=1&aq=82732456625636470&cid=22409&jobAge=124&brelb=100&bscr=20.461895&scr=20.461895"
- },
- {
-  "company": "Elm Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=frontend+entwickler&rgn=55146&pos=9&groupId=40304&elckey=269183226685225925&p=1&aq=82732456625636470&cid=22409&jobAge=43&brelb=100&bscr=15.218711&scr=15.218711"
- },
- {
-  "company": "Delta Digital",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/2143777509151276336?ckey=frontend+entwickler&rgn=55146&pos=29&groupId=40304&elckey=269183226685225925&p=2&aq=-950651110362095117&cid=22409&jobAge=43&brelb=100&bscr=4.249003&scr=4.249003"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=fullstack+typescript&rgn=55146&pos=16&groupId=-1143041055&elckey=8469514396292957564&p=1&aq=8754255526966764950&cid=22409&jobAge=3848&brelb=100&bscr=9.16403&scr=9.16403"
  },
  {
   "company": "CoCrafter",
@@ -2461,15 +2237,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=1&rgn=55146&cid=22409&ckey=typescript&jobAge=450&brelb=15&scr=44.740974&bscr=44.740974&aq=8003471557224487091&elckey=2041824629953242435"
+  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=1&rgn=55146&cid=22409&ckey=next.js&jobAge=464&brelb=15&scr=93.41697&bscr=93.41697&aq=805088854700490768&elckey=-7365946748670580552"
  },
  {
-  "company": "BMW Group",
-  "title": "Praktikant Data Engineering und Frontend-Entwicklung (w/m/x)",
+  "company": "Software Engineering· Full-time",
+  "title": "Full-Stack Developer, Music & Audio",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/8787823054861698190?ckey=typescript&rgn=55146&pos=4&groupId=41651&elckey=2041824629953242435&p=1&aq=8003471557224487091&cid=22409&jobAge=210&brelb=100&bscr=30.108562&scr=30.108562"
+  "url": "https://jooble.org/desc/7034827663521341358?ckey=next.js&rgn=55146&pos=2&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=3848&brelb=100&bscr=40.69384&scr=40.69384"
  },
  {
   "company": "BMW Group",
@@ -2477,7 +2253,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=typescript&rgn=55146&pos=5&groupId=41651&elckey=2041824629953242435&p=1&aq=8003471557224487091&cid=22409&jobAge=114&brelb=100&bscr=24.924385&scr=24.924385"
+  "url": "https://jooble.org/desc/3397154309416442333?ckey=next.js&rgn=55146&pos=3&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=128&brelb=100&bscr=39.96112&scr=39.96112"
  },
  {
   "company": "Saltire Labs",
@@ -2485,47 +2261,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=typescript&rgn=55146&pos=6&groupId=41651&elckey=2041824629953242435&p=1&aq=8003471557224487091&cid=22409&jobAge=9&brelb=100&bscr=24.71455&scr=24.71455"
- },
- {
-  "company": "Elm Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/6586725094023557355?ckey=typescript&rgn=55146&pos=7&groupId=41651&elckey=2041824629953242435&p=1&aq=8003471557224487091&cid=22409&jobAge=33&brelb=100&bscr=24.474089&scr=24.474089"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=typescript&rgn=55146&pos=8&groupId=41651&elckey=2041824629953242435&p=1&aq=8003471557224487091&cid=22409&jobAge=234&brelb=100&bscr=23.911493&scr=23.911493"
- },
- {
-  "company": "Saltire Labs",
-  "title": "Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-8516108434940027525?ckey=softwareentwickler+react&rgn=55146&pos=1&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=9&brelb=100&bscr=94.746704&scr=94.746704"
- },
- {
-  "company": "Beacon Commerce",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-910907150283326553?ckey=softwareentwickler+react&rgn=55146&pos=3&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=33&brelb=100&bscr=80.17407&scr=80.17407"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=softwareentwickler+react&rgn=55146&pos=4&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=666&brelb=10&bscr=66.37808&scr=66.37808"
+  "url": "https://jooble.org/desc/-8516108434940027525?ckey=next.js&rgn=55146&pos=4&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=24&brelb=100&bscr=25.32484&scr=25.32484"
  },
  {
   "company": "Delta Software",
@@ -2533,47 +2269,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-2662067088209318145?ckey=softwareentwickler+react&rgn=55146&pos=5&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=33&brelb=100&bscr=62.092495&scr=62.092495"
- },
- {
-  "company": "CoCrafter",
-  "title": "Senior Software Engineer (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/1431864372160685493?p=1&pos=6&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=450&brelb=15&scr=56.714386&bscr=56.714386&aq=8448667152896204890&elckey=3873640074692540275"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=softwareentwickler+react&rgn=55146&pos=7&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=114&brelb=100&bscr=55.93673&scr=55.93673"
- },
- {
-  "company": "limetax",
-  "title": "Founding Full Stack Engineer - AI (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=softwareentwickler+react&rgn=55146&pos=8&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=234&brelb=100&bscr=51.23134&scr=51.23134"
- },
- {
-  "company": "Superchat",
-  "title": "Tech Lead (m/f/d)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/away/7954852629791143162?p=1&pos=9&rgn=55146&cid=22409&ckey=softwareentwickler+react&jobAge=498&brelb=15&scr=35.12745&bscr=35.12745&aq=8448667152896204890&elckey=3873640074692540275"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=softwareentwickler+react&rgn=55146&pos=10&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=3834&brelb=100&bscr=23.460712&scr=23.460712"
+  "url": "https://jooble.org/desc/-2662067088209318145?ckey=next.js&rgn=55146&pos=5&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=47&brelb=100&bscr=25.167816&scr=25.167816"
  },
  {
   "company": "Saltire Apps",
@@ -2581,47 +2277,15 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-8611897233695788055?ckey=softwareentwickler+react&rgn=55146&pos=14&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=10&brelb=100&bscr=22.794304&scr=22.794304"
+  "url": "https://jooble.org/desc/-8611897233695788055?ckey=next.js&rgn=55146&pos=6&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=24&brelb=100&bscr=11.270445&scr=11.270445"
  },
  {
-  "company": "Chainguard",
-  "title": "Senior Software Engineer, Containers",
+  "company": "Beacon Commerce",
+  "title": "Mobile Developer",
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-3407452384356022414?ckey=softwareentwickler+react&rgn=55146&pos=16&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=205&brelb=100&bscr=20.763317&scr=20.763317"
- },
- {
-  "company": "Saltire Systems",
-  "title": "Senior Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-4791247774595188978?ckey=softwareentwickler+react&rgn=55146&pos=17&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=10&brelb=100&bscr=20.763317&scr=20.763317"
- },
- {
-  "company": "Runware",
-  "title": "Senior Software Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-7246433032714406538?ckey=softwareentwickler+react&rgn=55146&pos=19&groupId=-846279423&elckey=3873640074692540275&p=1&aq=8448667152896204890&cid=22409&jobAge=366&brelb=100&bscr=20.44841&scr=20.44841"
- },
- {
-  "company": "Product· Full-time",
-  "title": "Founding Product Engineer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/2642892934218966806?ckey=softwareentwickler+react&rgn=55146&pos=32&groupId=-846279423&elckey=3873640074692540275&p=2&aq=-5929767498595263992&cid=22409&jobAge=3354&brelb=100&bscr=11.084961&scr=11.084961"
- },
- {
-  "company": "Primorio GmbH",
-  "title": "Founding Product Engineer (Customer-Facing)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/8500431727418113539?ckey=softwareentwickler+react&rgn=55146&pos=33&groupId=-846279423&elckey=3873640074692540275&p=2&aq=-5929767498595263992&cid=22409&jobAge=186&brelb=100&bscr=11.038528&scr=11.038528"
+  "url": "https://jooble.org/desc/-910907150283326553?ckey=next.js&rgn=55146&pos=7&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=47&brelb=100&bscr=11.135936&scr=11.135936"
  },
  {
   "company": "limetax",
@@ -2629,55 +2293,7 @@
   "location": "Germany / Deutschland",
   "remote": null,
   "source": "jooble",
-  "url": "https://jooble.org/desc/-3472880197051452539?ckey=frontend+entwickler&rgn=55146&pos=1&groupId=40304&elckey=7345451759895487905&p=1&aq=-6654761539676090736&cid=22409&jobAge=234&brelb=100&bscr=29.961296&scr=29.961296"
- },
- {
-  "company": "Software Engineering· Full-time",
-  "title": "Full-Stack Developer, Music & Audio",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/7034827663521341358?ckey=frontend+entwickler&rgn=55146&pos=3&groupId=40304&elckey=7345451759895487905&p=1&aq=-6654761539676090736&cid=22409&jobAge=3834&brelb=100&bscr=26.26731&scr=26.26731"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Data Engineering und Frontend-Entwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/8787823054861698190?ckey=frontend+entwickler&rgn=55146&pos=5&groupId=40304&elckey=7345451759895487905&p=1&aq=-6654761539676090736&cid=22409&jobAge=210&brelb=100&bscr=24.265831&scr=24.265831"
- },
- {
-  "company": "20four7va",
-  "title": "AI & ML Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/4099517956178006872?ckey=frontend+entwickler&rgn=55146&pos=6&groupId=40304&elckey=7345451759895487905&p=1&aq=-6654761539676090736&cid=22409&jobAge=666&brelb=10&bscr=23.6301&scr=23.6301"
- },
- {
-  "company": "BMW Group",
-  "title": "Praktikant Softwareentwicklung und Full-Stack Webentwicklung (w/m/x)",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/3397154309416442333?ckey=frontend+entwickler&rgn=55146&pos=7&groupId=40304&elckey=7345451759895487905&p=1&aq=-6654761539676090736&cid=22409&jobAge=114&brelb=100&bscr=20.328434&scr=20.328434"
- },
- {
-  "company": "Delta Software",
-  "title": "Full-Stack Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/-2662067088209318145?ckey=frontend+entwickler&rgn=55146&pos=8&groupId=40304&elckey=7345451759895487905&p=1&aq=-6654761539676090736&cid=22409&jobAge=33&brelb=100&bscr=15.453358&scr=15.453358"
- },
- {
-  "company": "Delta Digital",
-  "title": "Mobile Developer",
-  "location": "Germany / Deutschland",
-  "remote": null,
-  "source": "jooble",
-  "url": "https://jooble.org/desc/2143777509151276336?ckey=frontend+entwickler&rgn=55146&pos=28&groupId=40304&elckey=7345451759895487905&p=2&aq=5611370657323753043&cid=22409&jobAge=33&brelb=100&bscr=4.282929&scr=4.282929"
+  "url": "https://jooble.org/desc/-3472880197051452539?ckey=next.js&rgn=55146&pos=15&groupId=-675061143&elckey=-7365946748670580552&p=1&aq=805088854700490768&cid=22409&jobAge=248&brelb=100&bscr=10.49706&scr=10.49706"
  },
  {
   "company": "SoSafe",
@@ -2776,20 +2392,20 @@
   "url": "https://job-boards.greenhouse.io/staffbase/jobs/8932933002"
  },
  {
-  "company": "Talon.One",
-  "title": "Frontend Engineer",
-  "location": "Berlin / Berlin",
-  "remote": null,
-  "source": "greenhouse",
-  "url": "https://www.talon.one/job-listing?gh_jid=4917445101"
- },
- {
   "company": "DeepL",
   "title": "Software Engineer | Identity and Access Management | Full-Stack",
   "location": "London / United Kingdom",
   "remote": true,
   "source": "ashby",
   "url": "https://jobs.ashbyhq.com/DeepL/0c9d3b11-a6d1-49d5-ac6b-41cb3f6f2a6c"
+ },
+ {
+  "company": "Talon.One",
+  "title": "Frontend Engineer",
+  "location": "Berlin / Berlin",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://www.talon.one/job-listing?gh_jid=4917445101"
  },
  {
   "company": "chargecloud",
@@ -3288,14 +2904,6 @@
   "url": "https://data4life.jobs.personio.de/job/2574892?language=en"
  },
  {
-  "company": "Merantix Momentum",
-  "title": "AI Full Stack Engineer (m/w/d)",
-  "location": "Berlin",
-  "remote": null,
-  "source": "personio",
-  "url": "https://merantix-momentum.jobs.personio.de/job/2888607?language=en"
- },
- {
   "company": "Isar Aerospace",
   "title": "Propulsion Design Engineer, Propulsion - Engine Integration (w/m/f)",
   "location": "Parsdorf, Bavaria, Germany / Parsdorf, Germany",
@@ -3368,6 +2976,22 @@
   "url": "https://jobs.ashbyhq.com/the-exploration-company/97f66d2f-0a39-4a00-9359-c8f84c692c47"
  },
  {
+  "company": "Merantix Momentum",
+  "title": "AI Full Stack Engineer (m/w/d)",
+  "location": "Berlin",
+  "remote": null,
+  "source": "personio",
+  "url": "https://merantix-momentum.jobs.personio.de/job/2888607?language=en"
+ },
+ {
+  "company": "Reflex Aerospace",
+  "title": "Structural Design Engineer - Solar Array (all genders)",
+  "location": "Berlin",
+  "remote": null,
+  "source": "personio",
+  "url": "https://reflex-aerospace-gmbh.jobs.personio.de/job/2884860?language=en"
+ },
+ {
   "company": "LiveEO",
   "title": "Senior Full Stack Engineer (f/m/x)",
   "location": "LiveEO GmbH Berlin Office (Hybrid)",
@@ -3406,5 +3030,365 @@
   "remote": false,
   "source": "ashby",
   "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/09cca698-db18-41e6-b0f4-b20f926809ca"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Frontend Architect (Mensch)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/51fc3f6e-927d-4b4a-ba47-41eef0bb59c6"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Cybersecurity Engineer - Cloud, Ops (human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/b043e483-4ef9-42fb-a32a-480cd3dff05c"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Cybersecurity Engineer - Cloud, Ops (Mensch)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/9eff3a84-f94d-4ea8-96c5-ee75fc47ffe0"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Senior Design Engineer – MiPA (Mensch)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/b81fee52-a3f7-4eb8-8415-ab879e5fbce0"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Senior Design Engineer – MiPA (human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/373ae906-9b83-46ab-82bf-9da0894c76a3"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Structural Parts Design Engineer (human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/80d90ed8-b7c2-4509-a9ca-d478fbfcd3da"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Frontend Engineer - Cognitive Twin (human)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/47888deb-4592-47ee-bd61-a0fd4ace7399"
+ },
+ {
+  "company": "Neura Robotics",
+  "title": "Frontend Engineer - Cognitive Twin (Mensch)",
+  "location": "Metzingen / Riederich / Germany",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/neura-robotics-gmbh/e8cca6d3-4afd-44e3-9aaf-2b0488087699"
+ },
+ {
+  "company": "Sereact",
+  "title": "Mechanical Design Engineer",
+  "location": "Boston, Massachusetts / United States",
+  "remote": false,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/sereact/d3938d18-fe4a-40f6-af8c-f8be70572306"
+ },
+ {
+  "company": "Flix",
+  "title": "Cloud Engineer (Identity and Access Management)",
+  "location": "Warsaw / Berlin / Poland",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8857660002?gh_jid=8857660002"
+ },
+ {
+  "company": "Flix",
+  "title": "Cloud Engineer (Identity and Access Management) (m/f/d)",
+  "location": "Berlin / Berlin / Poland",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8836372002?gh_jid=8836372002"
+ },
+ {
+  "company": "Flix",
+  "title": "Fullstack Engineer (Frontend focused)",
+  "location": "Warsaw / Poland",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8902340002?gh_jid=8902340002"
+ },
+ {
+  "company": "Flix",
+  "title": "Identity Engineer (Cloud and Automation)",
+  "location": "Warsaw / Berlin / Poland",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8949684002?gh_jid=8949684002"
+ },
+ {
+  "company": "Flix",
+  "title": "Identity Engineer (Cloud and Automation) (m/f/d)",
+  "location": "Berlin / Berlin / Poland",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8949683002?gh_jid=8949683002"
+ },
+ {
+  "company": "Flix",
+  "title": "Software Engineer",
+  "location": "Warsaw / Poland",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://flix.careers/job/8870347002?gh_jid=8870347002"
+ },
+ {
+  "company": "JTL-Software",
+  "title": "Senior Fullstack Engineer – Developer Platform (f/m/d)",
+  "location": "Mobil",
+  "remote": null,
+  "source": "personio",
+  "url": "https://jtl-software-gmbh.jobs.personio.de/job/2712705?language=en"
+ },
+ {
+  "company": "Tanium",
+  "title": "Senior Software Engineer - Connect",
+  "location": "Durham, NC (Hybrid); Emeryville, CA (Hybrid) / Emeryville, CA Office",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/8275602"
+ },
+ {
+  "company": "Tanium",
+  "title": "Senior Software Engineer - Full Stack",
+  "location": "Addison, TX (Hybrid); Bellevue, WA (Hybrid); Durham, NC (Hybrid); Emeryville, CA (Hybrid) / Durham, NC Office",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/7631113"
+ },
+ {
+  "company": "Tanium",
+  "title": "Senior Software Engineer -Full-stack Cloud Operations",
+  "location": "Remote, Canada / Remote - Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/8407108"
+ },
+ {
+  "company": "Tanium",
+  "title": "Software Engineer II - Partner Integrations",
+  "location": "Durham, NC (Hybrid) / Durham, NC Office",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/8250447"
+ },
+ {
+  "company": "Hetzner",
+  "title": "Software Engineer",
+  "location": "Remote job / Durbanville / South Africa",
+  "remote": true,
+  "source": "recruitee",
+  "url": "https://xneelo.recruitee.com/o/software-engineer-23"
+ },
+ {
+  "company": "Hornetsecurity",
+  "title": "Frontend Engineer",
+  "location": "MKD - Skopje",
+  "remote": null,
+  "source": "personio",
+  "url": "https://hornetsecurity.jobs.personio.de/job/2632224?language=en"
+ },
+ {
+  "company": "Hornetsecurity",
+  "title": "Full Stack Developer",
+  "location": "MKD - Skopje",
+  "remote": null,
+  "source": "personio",
+  "url": "https://hornetsecurity.jobs.personio.de/job/1182770?language=en"
+ },
+ {
+  "company": "Hornetsecurity",
+  "title": "Full Stack Developer, Malta",
+  "location": "MLT - San Gwann",
+  "remote": null,
+  "source": "personio",
+  "url": "https://hornetsecurity.jobs.personio.de/job/345240?language=en"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer",
+  "location": "Toronto, ON (Canada) / Dealertrack",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/7567681003"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer, CMS (Auto Repossession & Remarketing)",
+  "location": "Toronto, ON (Canada) / CMS",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/7567626003"
+ },
+ {
+  "company": "Autoscout24",
+  "title": "Senior Software Engineer (m/f/d)",
+  "location": "Munich (Germany) / AutoScout24 core",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/autoscout24/jobs/8000965003"
+ },
+ {
+  "company": "Spotify",
+  "title": "Full Stack Engineer - Music",
+  "location": "New York, NY / New York, NY",
+  "remote": true,
+  "source": "lever",
+  "url": "https://jobs.lever.co/spotify/9899871a-4307-4367-9f74-039569d7a650"
+ },
+ {
+  "company": "Spotify",
+  "title": "Senior Fullstack Engineer",
+  "location": "London / London / Stockholm",
+  "remote": true,
+  "source": "lever",
+  "url": "https://jobs.lever.co/spotify/1692fccc-29f4-4525-a683-b004c2ec62b9"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote UK / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8396589"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote France / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8328169"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote Sweden / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8396601"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote Belgium / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8396595"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote Finland / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8396611"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote Netherlands / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8396608"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Performance Engineer, JavaScript Engine (SpiderMonkey)",
+  "location": "Remote Spain / Remote France",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8396602"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote Finland / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315189"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote Belgium / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315191"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote Spain / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315192"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote Netherlands / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315195"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote Sweden / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315197"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote Canada / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8278949"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote France / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315175"
+ },
+ {
+  "company": "Mozilla",
+  "title": "Staff Software Engineer, Tools & Systems",
+  "location": "Remote UK / Remote Canada",
+  "remote": null,
+  "source": "greenhouse",
+  "url": "https://job-boards.greenhouse.io/mozilla/jobs/8315185"
+ },
+ {
+  "company": "Gigs",
+  "title": "Product Engineer",
+  "location": "Sao Paulo / Brazil",
+  "remote": true,
+  "source": "ashby",
+  "url": "https://jobs.ashbyhq.com/gigs/c6b4f4aa-7e46-4251-aea5-3bfa6893b955"
  }
 ]
