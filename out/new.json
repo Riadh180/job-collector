@@ -1,7 +1,55 @@
 {
- "collectedAt": "2026-11-25T00:47:32+00:00",
- "count": 4,
+ "collectedAt": "2026-11-25T10:44:19+00:00",
+ "count": 8,
  "jobs": [
+  {
+   "id": "adzuna:5977133027",
+   "company": "Wandelbots GmbH",
+   "title": "Senior Software Engineer (gn) Shopfloor Orchestration NOVA Cloud - Wandelbots GmbH",
+   "url": "https://www.adzuna.de/details/5977133027?utm_medium=api&utm_source=c19f1397",
+   "location": "Dresden, Sachsen / Sachsen / Dresden / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 471.3591158936703,
+   "kmFromEssen": 471,
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "generic+stack; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | You will shape this layer from an early stage and define how NOVA orchestrates work at scale. | Requirements Several years of experience building backend systems in production, ideally as a senior engineer. | Strong backend skills in Go, TypeScript, or Python. | Our NOVA Cloud backend is largely TypeScript. | Very good English; German is a plus. | Application Process Screening Call, remote, with Recruiter (30 min) Follow-Up Interview, remote, with Hiring Manager (45 min) Onsite Interview with Stakehold",
+   "remoteProof": "Application Process Screening Call, remote, with Recruiter (30 min) Follow-Up Interview, remote, with Hiring Manager (45 min) Onsite Interview with Stakeholder Interviews, Product Demo and Live Exercise (appr.",
+   "firstSeen": "2026-11-25T10:44:19+00:00"
+  },
+  {
+   "id": "adzuna:5976920707",
+   "company": "APRIORI – BUSINESS SOLUTIONS AG",
+   "title": "Technical Lead Fullstack (m/w/d)",
+   "url": "https://www.adzuna.de/details/5976920707?utm_medium=api&utm_source=c19f1397",
+   "location": "München, München (Kreis) / Bayern / München (Kreis) / Deutschland / Homeoffice",
+   "remote": null,
+   "postedAt": "2026-11-24",
+   "salary": "",
+   "salaryMax": null,
+   "employment": " full_time",
+   "industry": "",
+   "source": "adzuna",
+   "ats": "adzuna",
+   "_km": 492.27096369182334,
+   "kmFromEssen": 492,
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | In einem kollegialen Umfeld mit kurzen Entscheidungswegen und großen Gestaltungsspielräumen realisiert das Unternehmen maßgeschn… typescript",
+   "remoteProof": "",
+   "firstSeen": "2026-11-25T10:44:19+00:00"
+  },
   {
    "id": "adzuna:5977516150",
    "company": "Exclusive Associates",
@@ -22,7 +70,7 @@
    "match": "title; remote",
    "facts": "United Kingdom Australia Österreich België Brasil Canada France Deutschland India Italia México Nederland New Zealand Polska Singapore South Africa España Schweiz United States Continue Was? | Für diese Position ist eine Präsenz in Deutschland notwendig. | This position requires local presence in Germany. | Applications from outside Germany unfortunately cannot be considered.",
    "remoteProof": "Für diese Position ist eine Präsenz in Deutschland notwendig.",
-   "firstSeen": "2026-11-25T00:47:32+00:00"
+   "firstSeen": "2026-11-25T10:44:19+00:00"
   },
   {
    "id": "arbeitnow:remote-frontend-software-engineer-120939",
@@ -46,7 +94,29 @@
    "match": "title; remote",
    "facts": "<div class=\"content-intro\"><p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\">Newsweek is the global media organization that has earned audience time and trust for more than 90 years.",
    "remoteProof": "",
-   "firstSeen": "2026-11-25T00:47:32+00:00"
+   "firstSeen": "2026-11-25T10:44:19+00:00"
+  },
+  {
+   "id": "himalayas:https://himalayas.app/companies/indigo-vc/jobs/full-stack-developer",
+   "company": "Indigo VC",
+   "title": "Full Stack Developer",
+   "url": "https://himalayas.app/companies/indigo-vc/jobs/full-stack-developer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "postedAt": "2026-11-25",
+   "salary": "",
+   "salaryMax": null,
+   "employment": "Full Time",
+   "industry": "",
+   "source": "himalayas",
+   "ats": "himalayas",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; remote",
+   "facts": "At least two years of commercial full-stack or backend development experience. | The team has worked with Python and Django, TypeScript with Node.js and NestJS, PostgreSQL and TimescaleDB, Docker Swarm, and GitHub Actions.",
+   "remoteProof": "",
+   "firstSeen": "2026-11-25T10:44:19+00:00"
   },
   {
    "id": "himalayas:https://himalayas.app/companies/hivex/jobs/senior-frontend-developer-1838479912",
@@ -69,16 +139,38 @@
    "match": "title; remote",
    "facts": "Requirements: 5+ years of experience as a Frontend Developer with a focus on React.js Strong proficiency in JavaScript/TypeScript. | Experience with backend development (Node.js/PostgreSQL) Knowledge of version control systems (e.g., Git). | English level - Upper-intermediate + Excellent problem-solving and communication skills. | What we offer: Remote job with the freedom to work from anywhere in the world. | Competitive and timely salary.",
    "remoteProof": "What we offer: Remote job with the freedom to work from anywhere in the world.",
-   "firstSeen": "2026-11-25T00:47:32+00:00"
+   "firstSeen": "2026-11-25T10:44:19+00:00"
   },
   {
-   "id": "germantechjobs:6b01cfbd2cc5782c1d955c2b-W47",
-   "company": "Deutsche Welle",
-   "title": "Mobile Developer (w/m/d)",
-   "url": "https://germantechjobs.de/jobs/Deutsche-Welle-Mobile-Developer-wmd",
-   "location": "Bornheim / Nordrhein-Westfalen / Deutschland",
+   "id": "germantechjobs:6afead228a8605f74e9d3387-W47",
+   "company": "energy & meteo systems GmbH",
+   "title": "Full-Stack Softwareentwickler (w/m/d) – Erneuerbare Energien",
+   "url": "https://germantechjobs.de/jobs/energy--meteo-systems-GmbH-Full-Stack-Softwareentwickler-wmd--Erneuerbare-Energien",
+   "location": "Bremen / Bremen / Deutschland",
    "remote": null,
-   "postedAt": "2026-11-24",
+   "postedAt": "2026-11-25",
+   "salary": "47.000 - 74.000 € per year",
+   "salaryMax": 74000,
+   "employment": "Full-Time",
+   "industry": "",
+   "source": "germantechjobs",
+   "ats": "germantechjobs",
+   "stackHits": [
+    "typescript"
+   ],
+   "match": "title; DE+remote-in-text",
+   "facts": "Wir bieten sinnstiftende Projekte im Bereich erneuerbare Energien, einen unbefristeten Arbeitsvertrag, flexible Arbeitszeiten, mobiles Arbeiten, die Erfassung von Überstunden, flache Hierarchien und kurze Entscheidungswege.",
+   "remoteProof": "Wir bieten sinnstiftende Projekte im Bereich erneuerbare Energien, einen unbefristeten Arbeitsvertrag, flexible Arbeitszeiten, mobiles Arbeiten, die Erfassung von Überstunden, flache Hierarchien und kurze Entscheidungswege.",
+   "firstSeen": "2026-11-25T10:44:19+00:00"
+  },
+  {
+   "id": "germantechjobs:6b029dd5c403b28ce00dbc1e-W47",
+   "company": "Deutsche Welle",
+   "title": "Mobile Developer (w/m/d) - Kleinmachnow",
+   "url": "https://germantechjobs.de/jobs/Deutsche-Welle-Mobile-Developer-wmd---Kleinmachnow",
+   "location": "Kleinmachnow / Nordrhein-Westfalen / Deutschland",
+   "remote": null,
+   "postedAt": "2026-11-25",
    "salary": "44.000 - 72.000 € per year",
    "salaryMax": 72000,
    "employment": "Full-Time",
@@ -87,9 +179,9 @@
    "ats": "germantechjobs",
    "stackHits": [],
    "match": "title; NRW",
-   "facts": "Die Stelle ist auf drei Jahre befristet und tariflich der Vergütungsgruppe VI beziehungsweise V zugeordnet; die Einstufung erfolgt gemäß DW-Tarifvertrag. | Die Deutsche Welle (DW) ist Deutschlands Auslandssender und verbreitet weltweit journalistische Angebote multimedial und in mehr als 30 Sprachen.",
+   "facts": "Die Tätigkeit ist der Vergütungsgruppe VI beziehungsweise V gemäß DW-Tarifvertrag zugeordnet. | Wir sind die Deutsche Welle, Deutschlands Auslandssender, und verbreiten weltweit journalistische Angebote multimedial und in mehr als 30 Sprachen.",
    "remoteProof": "",
-   "firstSeen": "2026-11-25T00:47:32+00:00"
+   "firstSeen": "2026-11-25T10:44:19+00:00"
   }
  ]
 }

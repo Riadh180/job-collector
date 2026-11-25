@@ -8894,7 +8894,8 @@
   "ats": "ashby",
   "slug": "epistemix",
   "addedBy": "probe 2026-10-16",
-  "lastOk": "2026-11-25"
+  "lastOk": "2026-11-24",
+  "failCount": 1
  },
  {
   "name": "DocuWare GmbH",
@@ -12649,8 +12650,7 @@
   "ats": "lever",
   "slug": "instrument",
   "addedBy": "probe 2026-11-02",
-  "lastOk": "2026-11-24",
-  "failCount": 1
+  "lastOk": "2026-11-25"
  },
  {
   "name": "Trustonic",
@@ -13370,7 +13370,8 @@
   "ats": "lever",
   "slug": "standtogether",
   "addedBy": "probe 2026-11-05",
-  "lastOk": "2026-11-25"
+  "lastOk": "2026-11-24",
+  "failCount": 1
  },
  {
   "name": "Enveritas",
@@ -16580,10 +16581,11 @@
   "lastOk": "2026-11-25"
  },
  {
-  "name": "Verkada",
+  "name": "Scalian Germany AG",
   "industry": "from job boards",
-  "ats": "greenhouse",
-  "slug": "verkada",
+  "ats": "personio",
+  "slug": "scalian-germany",
+  "tld": "de",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  },
@@ -16621,18 +16623,18 @@
   "lastOk": "2026-11-25"
  },
  {
-  "name": "Radar",
+  "name": "Verkada",
   "industry": "from job boards",
-  "ats": "ashby",
-  "slug": "radar",
+  "ats": "greenhouse",
+  "slug": "verkada",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  },
  {
-  "name": "Posh",
+  "name": "Cape",
   "industry": "from job boards",
   "ats": "ashby",
-  "slug": "posh",
+  "slug": "cape",
   "addedBy": "probe 2026-11-25",
   "lastOk": "2026-11-25"
  }

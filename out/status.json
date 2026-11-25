@@ -1,19 +1,19 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1208
+   "fetched": 1249
   },
   "arbeitsagentur": {
-   "fetched": 357
+   "fetched": 356
   },
   "arbeitnow": {
-   "fetched": 3397
+   "fetched": 3356
   },
   "remotive": {
    "fetched": 120
   },
   "jobicy": {
-   "fetched": 260
+   "fetched": 300
   },
   "remoteok": {
    "fetched": 100
@@ -22,16 +22,16 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 214
+   "fetched": 229
   },
   "hn": {
-   "fetched": 270
+   "fetched": 269
   },
   "workingnomads": {
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 1047
+   "fetched": 1046
   },
   "jooble": {
    "fetched": 217
@@ -40,7 +40,7 @@
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 325
+   "fetched": 345
   },
   "xing": {
    "fetched": 93
@@ -50,7 +50,7 @@
   },
   "companies": {
    "checked": 2026,
-   "failed": 3,
+   "failed": 4,
    "rateLimited": 0
   }
  },
@@ -58,30 +58,31 @@
   "companies": {
    "gropyus": "HTTP 404",
    "Atlas Financial Services": "HTTP 404",
-   "Instrument": "HTTP 502"
+   "Epistemix": "HTTP 404",
+   "Stand Together": "HTTP 502"
   }
  },
  "timings": {
-  "adzuna": 137,
-  "arbeitsagentur": 58,
-  "arbeitnow": 6,
+  "adzuna": 135,
+  "arbeitsagentur": 67,
+  "arbeitnow": 7,
   "remotive": 1,
-  "jobicy": 25,
+  "jobicy": 22,
   "remoteok": 1,
-  "himalayas": 5,
+  "himalayas": 7,
   "weworkremotely": 1,
-  "hn": 1,
-  "workingnomads": 0,
+  "hn": 2,
+  "workingnomads": 1,
   "germantechjobs": 1,
   "jooble": 8,
   "careerjet": 0,
-  "linkedin": 135,
-  "xing": 261,
-  "stepstone": 178,
-  "_all_boards": 261,
-  "_probe": 488,
-  "_companies": 280,
-  "_total": 1030
+  "linkedin": 136,
+  "xing": 242,
+  "stepstone": 177,
+  "_all_boards": 242,
+  "_probe": 476,
+  "_companies": 247,
+  "_total": 966
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -132,7 +133,7 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=296, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=293, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
  "jooble_usage": {
   "calls": 38
@@ -140,7 +141,7 @@
  "arbeitsagentur_searches": {
   "searches": 69,
   "failed": 0,
-  "jobs": 357,
+  "jobs": 356,
   "details": {
    "tried": 129,
    "ok": 129
@@ -156,13 +157,13 @@
  "probe": {
   "tried": 120,
   "found": [
-   "Verkada (greenhouse:verkada)",
+   "Scalian Germany AG (personio:scalian-germany)",
    "Dymatrix (personio:dymatrix)",
    "YOUMMDAY GmbH (ashby:yoummday)",
    "nyra health (recruitee:nyrahealth)",
    "Serval (ashby:serval)",
-   "Radar (ashby:radar)",
-   "Posh (ashby:posh)"
+   "Verkada (greenhouse:verkada)",
+   "Cape (ashby:cape)"
   ]
  },
  "adzuna_pages": {
@@ -172,22 +173,22 @@
  "scrape": {
   "linkedin": {
    "_miss_row": 0,
-   "http_200": 49,
-   "cards": 407,
-   "http_429": 5,
-   "stopped_rate_limited": 4,
-   "unique_jobs": 325,
-   "skipped_by_title_or_company": 139,
+   "http_200": 48,
+   "cards": 428,
+   "http_429": 6,
+   "stopped_rate_limited": 5,
+   "unique_jobs": 345,
+   "skipped_by_title_or_company": 126,
    "details_rate_limited": 1,
    "details_opened": 120
   },
   "xing": {
    "_miss_row": 0,
-   "http_200": 116,
-   "links": 161,
-   "unique_jobs": 161,
-   "skipped_by_title": 68,
-   "details_opened": 93
+   "http_200": 114,
+   "links": 163,
+   "unique_jobs": 163,
+   "skipped_by_title": 71,
+   "details_opened": 92
   },
   "stepstone": {
    "timeouts": 4,
@@ -199,34 +200,34 @@
    "details_opened": 0
   }
  },
- "collectedAt": "2026-11-25T00:47:32+00:00",
- "rawJobs": 100765,
- "matches": 312,
- "new": 4,
+ "collectedAt": "2026-11-25T10:44:19+00:00",
+ "rawJobs": 100901,
+ "matches": 310,
+ "new": 8,
  "companies": 2061,
  "activeCompanies": 2026,
  "funnel": {
-  "title": 96538,
-  "passed": 518,
-  "company": 143,
-  "duplicate": 206,
-  "location": 3346,
-  "salary": 15,
-  "too_old": 181,
+  "title": 96657,
+  "passed": 515,
+  "company": 156,
+  "duplicate": 205,
+  "location": 3353,
+  "salary": 16,
+  "too_old": 180,
   "employment": 17
  },
  "matchesBySource": {
-  "adzuna": 68,
-  "arbeitnow": 12,
-  "himalayas": 4,
-  "germantechjobs": 4,
+  "adzuna": 63,
+  "arbeitnow": 14,
+  "himalayas": 3,
+  "germantechjobs": 10,
   "arbeitsagentur": 21,
-  "ashby": 68,
-  "linkedin": 12,
-  "weworkremotely": 22,
+  "ashby": 66,
+  "linkedin": 11,
+  "weworkremotely": 21,
   "personio": 10,
-  "xing": 32,
-  "greenhouse": 21,
+  "xing": 31,
+  "greenhouse": 22,
   "jobicy": 8,
   "recruitee": 14,
   "hn": 9,
