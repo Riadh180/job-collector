@@ -4332,9 +4332,7 @@
   "slug": "phiture",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-25",
-  "failCount": 5,
-  "disabled": true,
-  "disabledReason": "HTTP 404"
+  "failCount": 4
  },
  {
   "name": "NICE",
@@ -16857,6 +16855,14 @@
   "lastOk": "2026-11-26"
  },
  {
+  "name": "Virtualitics",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "virtualitics",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
   "name": "Rho",
   "industry": "from job boards",
   "ats": "ashby",
@@ -16865,35 +16871,18 @@
   "lastOk": "2026-11-26"
  },
  {
-  "name": "Siena",
+  "name": "Speak",
   "industry": "from job boards",
   "ats": "ashby",
-  "slug": "siena",
+  "slug": "speak",
   "addedBy": "probe 2026-11-26",
   "lastOk": "2026-11-26"
  },
  {
-  "name": "itemis AG",
-  "industry": "from job boards",
-  "ats": "personio",
-  "slug": "itemis",
-  "tld": "de",
-  "addedBy": "probe 2026-11-26",
-  "lastOk": "2026-11-26"
- },
- {
-  "name": "Notion",
+  "name": "HavocAI",
   "industry": "from job boards",
   "ats": "ashby",
-  "slug": "notion",
-  "addedBy": "probe 2026-11-26",
-  "lastOk": "2026-11-26"
- },
- {
-  "name": "Virtualitics",
-  "industry": "from job boards",
-  "ats": "lever",
-  "slug": "virtualitics",
+  "slug": "havocai",
   "addedBy": "probe 2026-11-26",
   "lastOk": "2026-11-26"
  }
