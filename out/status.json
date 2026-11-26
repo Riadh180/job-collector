@@ -1,13 +1,13 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 984
+   "error": "daily/weekly call budget used up — skipped this run"
   },
   "arbeitsagentur": {
    "fetched": 358
   },
   "arbeitnow": {
-   "fetched": 3398
+   "fetched": 3566
   },
   "remotive": {
    "fetched": 128
@@ -22,7 +22,7 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 242
+   "fetched": 249
   },
   "hn": {
    "fetched": 269
@@ -31,19 +31,19 @@
    "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 1088
+   "fetched": 1142
   },
   "jooble": {
-   "fetched": 60
+   "fetched": 36
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 445
+   "fetched": 370
   },
   "xing": {
-   "fetched": 92
+   "fetched": 91
   },
   "stepstone": {
    "error": "no jobs read: {'timeouts': 4, '_miss_row': 4, 'search_failed_0': 8, '_dead': 1, 'gave_up_site_not_answering': 1, 'unique_jobs': 0, 'details_opened': 0}"
@@ -52,7 +52,7 @@
    "fetched": 41
   },
   "companies": {
-   "checked": 2053,
+   "checked": 2054,
    "failed": 1,
    "rateLimited": 0
   }
@@ -63,28 +63,35 @@
   }
  },
  "timings": {
-  "adzuna": 93,
-  "arbeitsagentur": 58,
+  "adzuna": 0,
+  "arbeitsagentur": 43,
   "arbeitnow": 6,
   "remotive": 1,
-  "jobicy": 6,
+  "jobicy": 4,
   "remoteok": 1,
-  "himalayas": 5,
+  "himalayas": 4,
   "weworkremotely": 1,
   "hn": 2,
   "workingnomads": 0,
   "germantechjobs": 1,
   "jooble": 12,
   "careerjet": 0,
-  "linkedin": 150,
-  "xing": 220,
-  "stepstone": 178,
-  "instaffo": 146,
-  "_all_boards": 220,
-  "_probe": 277,
-  "_companies": 239,
-  "_total": 737,
-  "_links": 223
+  "linkedin": 136,
+  "xing": 206,
+  "stepstone": 177,
+  "instaffo": 134,
+  "_all_boards": 206,
+  "_probe": 472,
+  "_companies": 203,
+  "_total": 881,
+  "_links": 222
+ },
+ "adzuna_usage": {
+  "callsThisRun": 0,
+  "searchesThisRun": 0,
+  "searchesTotal": 51,
+  "callsToday": 125,
+  "callsLast7Days": 855
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -150,45 +157,27 @@
    "ok": 131
   }
  },
- "adzuna_usage": {
-  "callsThisRun": 29,
-  "searchesThisRun": 17,
-  "searchesTotal": 51,
-  "callsToday": 125,
-  "callsLast7Days": 855
- },
  "probe": {
-  "tried": 39,
+  "tried": 118,
   "found": [
-   "Rho (ashby:rho)",
-   "Siena (ashby:siena)",
-   "itemis AG (personio:itemis)",
-   "Notion (ashby:notion)"
+   "Virtualitics (lever:virtualitics)"
   ]
  },
  "adzuna_pages": {
-  "tried": 200,
-  "ok": 174
+  "tried": 0,
+  "ok": 0
  },
  "scrape": {
   "linkedin": {
    "_miss_row": 0,
-   "http_200": 62,
-   "cards": 540,
-   "http_429": 2,
-   "stopped_rate_limited": 1,
-   "unique_jobs": 445,
-   "skipped_by_title_or_company": 161,
+   "http_200": 53,
+   "cards": 443,
+   "http_429": 5,
+   "stopped_rate_limited": 4,
+   "unique_jobs": 370,
+   "skipped_by_title_or_company": 135,
    "details_rate_limited": 1,
    "details_opened": 120
-  },
-  "xing": {
-   "_miss_row": 0,
-   "http_200": 114,
-   "links": 168,
-   "unique_jobs": 168,
-   "skipped_by_title": 76,
-   "details_opened": 92
   },
   "instaffo": {
    "_miss_row": 0,
@@ -197,6 +186,14 @@
    "unique_jobs": 63,
    "skipped_by_title": 22,
    "details_opened": 41
+  },
+  "xing": {
+   "_miss_row": 0,
+   "http_200": 113,
+   "links": 167,
+   "unique_jobs": 167,
+   "skipped_by_title": 76,
+   "details_opened": 91
   },
   "stepstone": {
    "timeouts": 4,
@@ -210,25 +207,26 @@
  },
  "carriedOver": {
   "sources": [
+   "adzuna",
    "careerjet",
    "stepstone"
   ],
-  "jobs": 18
+  "jobs": 35
  },
  "links": {
-  "feed_ok": 168,
-  "ok": 196,
+  "feed_ok": 175,
+  "ok": 152,
   "gone": 2,
-  "unchecked": 39,
+  "unchecked": 38,
   "moved_to_employer": 0
  },
  "sourceHealth": {
   "adzuna": {
-   "fetched": 984,
-   "matches": 69,
-   "state": "ok",
-   "error": "",
-   "zeroRunsInARow": 0
+   "fetched": 0,
+   "matches": 17,
+   "state": "down",
+   "error": "daily/weekly call budget used up — skipped this run",
+   "zeroRunsInARow": 1
   },
   "arbeitsagentur": {
    "fetched": 358,
@@ -238,8 +236,8 @@
    "zeroRunsInARow": 0
   },
   "arbeitnow": {
-   "fetched": 3398,
-   "matches": 30,
+   "fetched": 3566,
+   "matches": 32,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
@@ -267,13 +265,13 @@
   },
   "himalayas": {
    "fetched": 1000,
-   "matches": 1,
+   "matches": 2,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "weworkremotely": {
-   "fetched": 242,
+   "fetched": 249,
    "matches": 26,
    "state": "ok",
    "error": "",
@@ -294,29 +292,29 @@
    "zeroRunsInARow": 0
   },
   "germantechjobs": {
-   "fetched": 1088,
-   "matches": 11,
+   "fetched": 1142,
+   "matches": 12,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "jooble": {
-   "fetched": 60,
+   "fetched": 36,
    "matches": 2,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "linkedin": {
-   "fetched": 445,
-   "matches": 14,
+   "fetched": 370,
+   "matches": 15,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "xing": {
-   "fetched": 92,
-   "matches": 30,
+   "fetched": 91,
+   "matches": 32,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
@@ -326,7 +324,7 @@
    "matches": 18,
    "state": "down",
    "error": "no jobs read: {'timeouts': 4, '_miss_row': 4, 'search_failed_0': 8, '_dead': 1, 'gave_up_site_not_answering': 1, 'unique_jobs': 0, 'details_opened': 0}",
-   "zeroRunsInARow": 2
+   "zeroRunsInARow": 3
   },
   "instaffo": {
    "fetched": 41,
@@ -336,47 +334,47 @@
    "zeroRunsInARow": 0
   },
   "companies": {
-   "fetched": 2053,
+   "fetched": 2054,
    "matches": 0,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   }
  },
- "collectedAt": "2026-11-26T16:32:01+00:00",
- "rawJobs": 102216,
- "matches": 403,
- "new": 6,
- "companies": 2091,
- "activeCompanies": 2053,
+ "collectedAt": "2026-11-26T19:25:59+00:00",
+ "rawJobs": 101399,
+ "matches": 365,
+ "new": 7,
+ "companies": 2092,
+ "activeCompanies": 2054,
  "funnel": {
-  "passed": 568,
-  "salary": 23,
-  "title": 97250,
-  "duplicate": 181,
-  "company": 141,
-  "employment": 20,
-  "too_old": 237,
-  "location": 3970,
+  "passed": 405,
+  "title": 96682,
+  "duplicate": 73,
+  "too_old": 238,
+  "company": 61,
+  "location": 3971,
+  "employment": 18,
+  "salary": 17,
   "link_gone": 2
  },
  "matchesBySource": {
-  "himalayas": 1,
+  "himalayas": 2,
+  "germantechjobs": 12,
+  "linkedin": 15,
   "jooble": 2,
-  "ashby": 81,
-  "linkedin": 14,
-  "adzuna": 69,
-  "arbeitnow": 30,
-  "germantechjobs": 11,
+  "ashby": 84,
+  "arbeitnow": 32,
   "instaffo": 1,
-  "personio": 22,
-  "workable": 4,
+  "personio": 23,
+  "workable": 6,
+  "adzuna": 17,
   "arbeitsagentur": 24,
   "weworkremotely": 26,
+  "recruitee": 25,
   "smartrecruiters": 5,
-  "recruitee": 24,
   "greenhouse": 31,
-  "xing": 30,
+  "xing": 32,
   "stepstone": 18,
   "hn": 9,
   "lever": 1

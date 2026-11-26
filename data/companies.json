@@ -4332,7 +4332,9 @@
   "slug": "phiture",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-25",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "NICE",
@@ -16884,6 +16886,14 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "notion",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Virtualitics",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "virtualitics",
   "addedBy": "probe 2026-11-26",
   "lastOk": "2026-11-26"
  }
