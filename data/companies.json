@@ -4332,7 +4332,7 @@
   "slug": "phiture",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-25",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "NICE",
@@ -16819,6 +16819,38 @@
   "ats": "personio",
   "slug": "orgatex",
   "tld": "de",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Spektrum",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "spektrum",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Wizdaa",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "wizdaa",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "LangChain",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "langchain",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Keyloop",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "keyloop",
   "addedBy": "probe 2026-11-26",
   "lastOk": "2026-11-26"
  }
