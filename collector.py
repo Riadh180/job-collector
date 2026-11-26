@@ -1325,11 +1325,81 @@ def stepstone():
     return out
 
 
+def instaffo():
+    """Instaffo public job pages (jobs.instaffo.com, no login): category + city listing pages, then each job page
+    (schema.org JobPosting when present, otherwise the page's title/heading). Added 26 Nov 2026 — Riadh gets his
+    best responses through Instaffo."""
+    cfg = CFG.get("instaffo", {})
+    pause = cfg.get("pause", 1.0)
+    slugs = {}
+    for cat in cfg.get("categories", []):
+        for city in cfg.get("cities", [""]):
+            for page_no in range(1, cfg.get("pages", 4) + 1):
+                url = f"https://jobs.instaffo.com/en/jobs/{cat}{city}" + (f"?page={page_no}" if page_no > 1 else "")
+                code, page = _get_html("instaffo", url, pause)
+                if code != 200:
+                    _log("instaffo", f"list_{code}")
+                    break
+                before = len(slugs)
+                for m in re.finditer(r'(?:https://jobs\.instaffo\.com)?/(?:en/|de/)?job/([a-z0-9][a-z0-9-]*-([0-9a-f]{10,}))', page):
+                    slugs.setdefault(m.group(2), m.group(1))
+                got = len(slugs) - before
+                _log("instaffo", "links", got)
+                if got == 0:
+                    break
+    _log("instaffo", "unique_jobs", len(slugs))
+    out, details = [], 0
+    for jid, slug in slugs.items():
+        guess = slug.rsplit("-", 1)[0].replace("-", " ")
+        if RE_TITLE_HARD.search(guess):
+            _log("instaffo", "skipped_by_title")
+            continue
+        if details >= cfg.get("detail_limit", 80):
+            break
+        url = f"https://jobs.instaffo.com/en/job/{slug}"
+        code, page = _get_html("instaffo", url, pause)
+        details += 1
+        if code != 200 or not page:
+            _log("instaffo", f"detail_{code}")
+            continue
+        lds = _jsonld_jobs(page)
+        if lds:
+            d = lds[0]
+            org = d.get("hiringOrganization") or {}
+            sal, salmax = _ld_salary(d)
+            loc = _ld_location(d)
+            desc = strip_html(d.get("description", ""))[:6000]
+            remote = d.get("jobLocationType") == "TELECOMMUTE" or bool(re.search(r"remote|home ?office|mobiles arbeiten", desc, re.I))
+            out.append(rec("instaffo", jid, org.get("name", "") if isinstance(org, dict) else str(org),
+                           html.unescape(d.get("title", "")), url, loc + (" (Remote)" if remote else ""),
+                           parse_date(d.get("datePosted")), remote or None, sal, salmax, desc,
+                           d.get("employmentType") if isinstance(d.get("employmentType"), str) else " ".join(d.get("employmentType") or []),
+                           "", "instaffo"))
+            continue
+        # no structured data: take the heading and the visible text
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
+        title = strip_html(h1.group(1)).strip() if h1 else ""
+        if not title:
+            _log("instaffo", "no_title")
+            continue
+        text = strip_html(re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", page))
+        comp = re.search(r'"(?:companyName|company_name)"\s*:\s*"([^"]+)"', page)
+        locm = re.search(r"(Düsseldorf|Köln|Cologne|Essen|Dortmund|Bochum|Duisburg|Berlin|Hamburg|München|Munich|Frankfurt|Stuttgart|Remote)[^<]{0,40}", text)
+        remote = bool(re.search(r"\bremote\b|home ?office|mobiles arbeiten", text, re.I))
+        out.append(rec("instaffo", jid, comp.group(1) if comp else "", title, url,
+                       (locm.group(0) if locm else "Deutschland") + (" (Remote)" if remote else ""),
+                       None, remote or None, "", None, text[:6000], "", "", "instaffo"))
+    _log("instaffo", "details_opened", details)
+    if not slugs:
+        raise RuntimeError(f"no jobs read: {SCRAPE_LOG.get('instaffo')}")
+    return out
+
+
 BOARDS = {"adzuna": adzuna, "arbeitsagentur": arbeitsagentur, "arbeitnow": arbeitnow, "remotive": remotive,
           "jobicy": jobicy, "remoteok": remoteok, "himalayas": himalayas, "weworkremotely": weworkremotely,
           "hn": hn_hiring, "workingnomads": workingnomads, "germantechjobs": germantechjobs,
           "jooble": jooble, "careerjet": careerjet,
-          "linkedin": linkedin, "xing": xing, "stepstone": stepstone}
+          "linkedin": linkedin, "xing": xing, "stepstone": stepstone, "instaffo": instaffo}
 
 
 # ---------------------------------------------------------------- probing (auto-discovery of company feeds)
@@ -1618,7 +1688,7 @@ def write_run_summary():
              "arbeitsagentur": "Arbeitsagentur", "jooble": "Jooble", "germantechjobs": "GermanTechJobs",
              "arbeitnow": "Arbeitnow", "himalayas": "Himalayas", "weworkremotely": "We Work Remotely",
              "hn": "Hacker News", "remotive": "Remotive", "jobicy": "Jobicy", "remoteok": "RemoteOK",
-             "workingnomads": "Working Nomads", "companies": "Company career pages"}
+             "workingnomads": "Working Nomads", "instaffo": "Instaffo", "companies": "Company career pages"}
     lines = ["## Job collector run — " + NOW.strftime("%d %b %Y %H:%M UTC"), "",
              f"**{STATUS.get('matches', 0)} jobs passed the filters, {STATUS.get('new', 0)} of them are new since the last run.** "
              f"Total time: {round(STATUS.get('timings', {}).get('_total', 0) / 60, 1)} min.", "",

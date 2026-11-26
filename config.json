@@ -785,5 +785,29 @@
       "Dortmund"
     ]
   },
-  "max_km": 62
+  "max_km": 62,
+  "instaffo": {
+    "categories": [
+      "frontend-entwickler",
+      "fullstack-entwickler",
+      "react-entwickler",
+      "javascript-entwickler",
+      "typescript-entwickler",
+      "web-entwickler",
+      "app-entwickler",
+      "softwareentwickler",
+      "data-engineer"
+    ],
+    "cities": [
+      "",
+      "-duesseldorf",
+      "-koeln",
+      "-essen",
+      "-dortmund",
+      "-bochum"
+    ],
+    "pages": 4,
+    "detail_limit": 80,
+    "pause": 1.0
+  }
 }
