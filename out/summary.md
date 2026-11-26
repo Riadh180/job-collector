@@ -1,27 +1,26 @@
-## Job collector run — 26 Nov 2026 09:17 UTC
+## Job collector run — 26 Nov 2026 10:15 UTC
 
-**325 jobs passed the filters, 8 of them are new since the last run.** Total time: 16.9 min.
+**402 jobs passed the filters, 69 of them are new since the last run.** Total time: 16.6 min.
 
 | Source | Read | Kept | State | Why / note |
 |---|---:|---:|---|---|
-| Adzuna | 1040 | 74 | ✅ ok |  |
-| Arbeitsagentur | 355 | 20 | ✅ ok |  |
-| Arbeitnow | 3396 | 17 | ✅ ok |  |
+| Adzuna | 821 | 53 | ✅ ok |  |
+| Arbeitsagentur | 355 | 23 | ✅ ok |  |
+| Arbeitnow | 5784 | 40 | ✅ ok |  |
 | Remotive | 128 | 0 | ✅ ok |  |
 | Jobicy | 9 | 0 | ✅ ok |  |
 | RemoteOK | 100 | 0 | ✅ ok |  |
-| Himalayas | 1000 | 1 | ✅ ok |  |
-| We Work Remotely | 241 | 22 | ✅ ok |  |
+| Himalayas | 1000 | 0 | ✅ ok |  |
+| We Work Remotely | 241 | 26 | ✅ ok |  |
 | Hacker News | 269 | 9 | ✅ ok |  |
 | Working Nomads | 38 | 0 | ✅ ok |  |
-| GermanTechJobs | 1101 | 7 | ✅ ok |  |
-| Jooble | 40 | 0 | ✅ ok |  |
-| LinkedIn | 405 | 12 | ⚠ partly | rate-limited by the site (4× HTTP 429), read fewer jobs |
-| XING | 92 | 26 | ✅ ok |  |
-| StepStone | 0 | 18 | ❌ down | StepStone does not answer GitHub — covered by the hunt instead · down 2 runs in a row |
-| Company career pages | 2043 | 119 | ✅ ok |  |
+| GermanTechJobs | 1101 | 10 | ✅ ok |  |
+| Jooble | 55 | 3 | ✅ ok |  |
+| LinkedIn | 392 | 13 | ⚠ partly | rate-limited by the site (4× HTTP 429), read fewer jobs |
+| XING | 92 | 28 | ✅ ok |  |
+| StepStone | 99 | 29 | ✅ ok |  |
+| Company career pages | 2045 | 168 | ✅ ok |  |
 
-**Links checked:** 173 opened live · 1 dead and removed · 33 site did not answer · 119 straight from employer feeds · 0 board links replaced by the employer's page
-**Kept from earlier runs** (source failed this time): 18 jobs
+**Links checked:** 212 opened live · 2 dead and removed · 22 site did not answer · 168 straight from employer feeds · 0 board links replaced by the employer's page
 
-**Why jobs were dropped:** title not a fit 97441, location 3331, too old 180, duplicate 165, excluded company 113, salary below floor 17, not permanent 16, dead link 1
+**Why jobs were dropped:** title not a fit 96456, location 3886, too old 235, excluded company 153, duplicate 146, salary below floor 20, not permanent 20, dead link 2

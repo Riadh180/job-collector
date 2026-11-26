@@ -4332,7 +4332,7 @@
   "slug": "phiture",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-25",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "NICE",
@@ -16794,6 +16794,31 @@
   "industry": "devtools",
   "ats": "ashby",
   "slug": "kubermatic",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "About You",
+  "industry": "ecommerce",
+  "ats": "smartrecruiters",
+  "slug": "aboutyougmbh",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Divio",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "divio",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "ORGATEX GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "orgatex",
+  "tld": "de",
   "addedBy": "probe 2026-11-26",
   "lastOk": "2026-11-26"
  }
