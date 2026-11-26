@@ -44,7 +44,19 @@
     "expo",
     "cross-platform",
     "webentwicklung",
-    "frontend-developer"
+    "frontend-developer",
+    "vue",
+    "vue.js",
+    "vuejs",
+    "nuxt",
+    "data engineer",
+    "data-engineer",
+    "analytics engineer",
+    "dateningenieur",
+    "etl developer",
+    "etl-entwickler",
+    "data platform engineer",
+    "dbt"
   ],
   "title_generic": [
     "software engineer",
@@ -64,7 +76,11 @@
     "typescript",
     "next.js",
     "nextjs",
-    "expo"
+    "expo",
+    "vue",
+    "vue.js",
+    "vuejs",
+    "nuxt"
   ],
   "description_exclude_if_no_react": [
     "angular"
@@ -575,9 +591,7 @@
     "designer",
     "platform engineer",
     "python",
-    "data engineer",
-    "ai engineer",
-    "analytics engineer"
+    "ai engineer"
   ],
   "company_exclude": [
     "lemon.io",
@@ -690,7 +704,13 @@
     "remote, germany",
     "germany, remote",
     "anywhere in europe",
-    "from anywhere in the eu"
+    "from anywhere in the eu",
+    "\\bhybrid\\b",
+    "home ?office",
+    "homeoffice",
+    "mobil(es)? arbeiten",
+    "teilweise remote",
+    "flexible? arbeitsort"
   ],
   "adzuna": {
     "queries": [
