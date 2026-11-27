@@ -1429,10 +1429,14 @@ def instaffo():
                            d.get("employmentType") if isinstance(d.get("employmentType"), str) else " ".join(d.get("employmentType") or []),
                            "", "instaffo"))
             continue
-        # no structured data: take the heading and the visible text
+        # 27 Nov 2026: a closed Instaffo job still answers HTTP 200 and only the browser shows "Page not found".
+        # Live Instaffo jobs always carry JobPosting data, so a page without it counts as gone.
+        if cfg.get("require_jsonld", True):
+            _log("instaffo", "gone_no_jobposting")
+            continue
         h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
         title = strip_html(h1.group(1)).strip() if h1 else ""
-        if not title:
+        if not title or GONE_TEXT.search(title):
             _log("instaffo", "no_title")
             continue
         text = strip_html(re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", page))
@@ -1674,6 +1678,8 @@ def check_links(matches, budget_s=8 * 60):
         status, note = "unchecked", f"HTTP {code}"
         if code in (404, 410):
             status, note = "gone", f"HTTP {code}"
+        elif code == 200 and "instaffo.com" in url and not _jsonld_jobs(body):
+            status, note = "gone", "Instaffo page without job data (shows 'Page not found')"
         elif code == 200:
             plain = strip_html(re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", body))[:60000]
             jid = _job_id_in(url)
