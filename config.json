@@ -842,22 +842,26 @@
       "searches": [
         {
           "keywords": "React freelance",
-          "location": "Deutschland"
+          "location": "Germany",
+          "geoId": "101282230"
         },
         {
           "keywords": "React",
-          "location": "Deutschland",
-          "remote": true
+          "location": "Germany",
+          "remote": true,
+          "geoId": "101282230"
         },
         {
           "keywords": "Frontend Developer",
-          "location": "Deutschland",
-          "remote": true
+          "location": "Germany",
+          "remote": true,
+          "geoId": "101282230"
         },
         {
           "keywords": "Fullstack TypeScript",
-          "location": "Deutschland",
-          "remote": true
+          "location": "Germany",
+          "remote": true,
+          "geoId": "101282230"
         },
         {
           "keywords": "React",
@@ -876,17 +880,21 @@
           "https://www.freelance.de/projekte/IT-Entwicklung-Projekte/Programmierer-Projekte",
           "https://www.freelance.de/projekte/IT-Entwicklung-Projekte/Softwareentwicklung-Softwareprogrammierung-Projekte"
         ],
-        "link_regex": "(?:https://(?:www\\.)?freelance\\.de)?/Projekte/Projekt-\\d+-[A-Za-z0-9-]+"
+        "link_regex": "(?:https://(?:www\\.)?freelance\\.de)?/Projekte/Projekt-\\d+-[A-Za-z0-9-]+",
+        "enabled": false,
+        "_disabled": "27 Nov 2026: the page loads (HTTP 200) but its project list is built by JavaScript, so no project links can be read without a browser."
       },
       "hays": {
         "base": "https://www.hays.de",
         "company": "Hays",
-        "pages": 6,
+        "pages": 8,
         "detail_limit": 40,
         "list_urls": [
+          "https://www.hays.de/jobsuche/stellenangebote-jobs/s/IT/1/j/Contracting/3/p/{page}/?ij=false",
           "https://www.hays.de/jobsuche/stellenangebote-jobs/j/Contracting/3/p/{page}/?ij=false"
         ],
-        "link_regex": "(?:https://www\\.hays\\.de)?/jobsuche/stellenangebote-jobs-detail-[a-z0-9-]+-\\d+/1"
+        "link_regex": "(?:https://www\\.hays\\.de)?/jobsuche/stellenangebote-jobs-detail-[a-z0-9-]+-\\d+/1",
+        "prefilter": "loose"
       },
       "gulp": {
         "base": "https://www.gulp.de",
@@ -897,7 +905,9 @@
           "https://www.gulp.de/gulp2/g/projekte?query=react",
           "https://www.gulp.de/gulp2/g/projekte?query=typescript"
         ],
-        "link_regex": "(?:https://www\\.gulp\\.de)?/gulp2/g/projekte/[A-Za-z0-9-]+/?[A-Za-z0-9-]*"
+        "link_regex": "(?:https://www\\.gulp\\.de)?/gulp2/g/projekte/[A-Za-z0-9-]+/?[A-Za-z0-9-]*",
+        "enabled": false,
+        "_disabled": "27 Nov 2026: the page loads (HTTP 200) but its project list is built by JavaScript, so no project links can be read without a browser."
       },
       "solcom": {
         "base": "https://www.solcom.de",
@@ -908,7 +918,9 @@
           "https://www.solcom.de/de/projektportal/projektangebote",
           "https://www.solcom.de/de/projektportal"
         ],
-        "link_regex": "(?:https://www\\.solcom\\.de)?/de/projektportal/projektangebote/[a-z0-9-]+-\\d+"
+        "link_regex": "(?:https://www\\.solcom\\.de)?/de/projektportal/projektangebote/[a-z0-9-]+-\\d+",
+        "enabled": false,
+        "_disabled": "27 Nov 2026: the page loads (HTTP 200) but its project list is built by JavaScript, so no project links can be read without a browser."
       }
     }
   }

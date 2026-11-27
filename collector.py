@@ -41,9 +41,48 @@ STATUS = {"sources": {}, "errors": {}}
 
 
 # ---------------------------------------------------------------- helpers
+T_START = time.time()
+PHASE = ["start"]
+ACTIVE = {}  # thread name -> (url, started) of the request it is waiting on
+
+
+def log(msg):
+    """Progress line in the GitHub log (27 Nov 2026: a run was killed and the log showed nothing)."""
+    m, sec = divmod(int(time.time() - T_START), 60)
+    print(f"[{m:02d}:{sec:02d}] {msg}", flush=True)
+
+
+def _heartbeat():
+    while True:
+        time.sleep(60)
+        slow = [(n, u, int(time.time() - t)) for n, (u, t) in list(ACTIVE.items()) if time.time() - t > 20]
+        log(f"… still working: phase '{PHASE[0]}', {len(ACTIVE)} open requests"
+            + "".join(f"\n          waiting {sec}s on {u[:140]}" for _, u, sec in sorted(slow, key=lambda x: -x[2])[:8]))
+
+
+HARD_STOP = [float("inf")]  # set in main: after it, every request fails at once so the run still writes its results
+
+
+def _read_capped(r, wall=60, cap=8_000_000):
+    """Read a response, but never longer than `wall` seconds or `cap` bytes (27 Nov 2026: a run hung
+    until GitHub's 45-minute limit and nothing was saved)."""
+    t0, parts, n = time.time(), [], 0
+    while True:
+        chunk = r.read(65536)
+        if not chunk:
+            break
+        parts.append(chunk)
+        n += len(chunk)
+        if n > cap or time.time() - t0 > wall:
+            break
+    return b"".join(parts)
+
+
 def http(url, headers=None, timeout=25, retries=1):
     if time.time() > DEADLINES.get("boards", float("inf")):
         return 0, b""  # job-board phase is out of time: every board stops and keeps what it has
+    if time.time() > HARD_STOP[0]:
+        raise TimeoutError("run time budget used up")
     h = {"User-Agent": UA, "Accept": "application/json, text/xml, */*"}
     if headers:
         h.update(headers)
@@ -51,8 +90,12 @@ def http(url, headers=None, timeout=25, retries=1):
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers=h)
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.status, r.read()
+            ACTIVE[threading.current_thread().name] = (url, time.time())
+            try:
+                with urllib.request.urlopen(req, timeout=timeout) as r:
+                    return r.status, _read_capped(r)
+            finally:
+                ACTIVE.pop(threading.current_thread().name, None)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < retries:  # rate limited: wait (Retry-After if given) and try again
                 try:
@@ -1059,6 +1102,8 @@ def _log(src, key, inc=1):
 
 
 def _get_html(src, url, pause):
+    if src in FREELANCE_SOURCES and time.time() > FL_STOP[0]:
+        return 0, ""
     """Never let one slow page stop a whole source: a timeout counts as 'no answer' and the search goes on.
     After 4 pages in a row without an answer the site is treated as blocking for this run."""
     if SCRAPE_LOG.get(src, {}).get("_dead"):
@@ -1138,6 +1183,8 @@ def linkedin(searches=None, src="linkedin", extra_q=None, detail_limit=None):
                 q["f_WT"] = "2"
             if s.get("distance"):
                 q["distance"] = s["distance"]
+            if s.get("geoId"):
+                q["geoId"] = s["geoId"]
             if extra_q:
                 q.update(extra_q)
             code, page = _get_html(src, "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
@@ -1575,14 +1622,17 @@ def _open_final(url, timeout=20):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml",
                                                "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"})
     opener = urllib.request.build_opener(_NoCookieRedirect())
+    ACTIVE[threading.current_thread().name] = (url, time.time())
     try:
         with opener.open(req, timeout=timeout) as r:
-            body = r.read(400000).decode("utf-8", "replace")
+            body = _read_capped(r, wall=30, cap=400000)[:400000].decode("utf-8", "replace")
             return r.status, r.geturl(), body
     except urllib.error.HTTPError as e:
         return e.code, url, ""
     except Exception:
         return 0, url, ""
+    finally:
+        ACTIVE.pop(threading.current_thread().name, None)
 
 
 def _job_id_in(url):
@@ -1773,6 +1823,7 @@ def norm_key(r):
 # part-time both shown). Projects are kept completely apart from the permanent jobs: they go to
 # out/freelance.json and the hunt saves them to the Job Radar's "freelance" collection.
 FLCFG = CFG.get("freelance", {})
+FREELANCE_SOURCES = {"freelancermap", "linkedin_freelance"} | set(CFG.get("freelance", {}).get("sites", {}))
 RE_FL_CORE = re.compile(r"react|frontend|front-end|front end|typescript|next\.?js|vue|nuxt|full[- ]?stack|javascript|"
                         r"node\.?js|web[- ]?(entwickl|develop|engineer)|expo|mobile app|app[- ]entwickl", re.I)
 RE_FL_HARD = re.compile(r"\b(junior|praktik|werkstudent|working student|student|trainee|azubi|ausbildung|sap|abap|salesforce|"
@@ -1958,7 +2009,8 @@ def make_site(name):
         out, opened = [], 0
         for u in found:
             guess = re.sub(r"[-_/]+", " ", u.rsplit("/", 2)[-2] + " " + u.rsplit("/", 1)[-1])
-            if cfg.get("prefilter_slug", True) and not fl_title_ok(guess, ""):
+            loose = cfg.get("prefilter") == "loose" and RE_FL_GENERIC.search(guess) and not RE_FL_HARD.search(guess)
+            if cfg.get("prefilter_slug", True) and not loose and not fl_title_ok(guess, ""):
                 _log(name, "skipped_by_title")
                 continue
             if opened >= cfg.get("detail_limit", 40):
@@ -2022,6 +2074,11 @@ def fl_accept(r):
             return None
         if f["remotePct"] is None and r.get("remote"):
             f["remotePct"] = 100
+        locl = (r["location"] or "").lower()
+        if not (RE_DE.search(locl) or RE_NRW.search(r["location"] or "") or
+                re.search(r"deutschland|germany|österreich|austria|schweiz|switzerland|europ|emea|\beu\b", locl)):
+            FL_FUNNEL["location"] = FL_FUNNEL.get("location", 0) + 1   # 27 Nov: LinkedIn returned US contract jobs
+            return None
     if f["contractType"] in ("Festanstellung", "ANÜ"):
         FL_FUNNEL["not_freelance"] = FL_FUNNEL.get("not_freelance", 0) + 1
         return None
@@ -2056,6 +2113,7 @@ def fl_accept(r):
 
 
 FL_FUNNEL = {}
+FL_STOP = [float("inf")]
 
 
 def run_freelance():
@@ -2064,10 +2122,13 @@ def run_freelance():
         return
     t0 = time.time()
     raw = []
+    log(f"freelance search: {', '.join(FREELANCE_BOARDS)} (max 25 min)")
 
     def one(item):
         name, fn = item
         t1 = time.time()
+        if t1 > FL_STOP[0]:
+            return name, [], {"error": "freelance time budget used up"}, 0
         try:
             got = fn()
             return name, got, {"fetched": len(got)}, time.time() - t1
@@ -2080,6 +2141,7 @@ def run_freelance():
             raw += got
             STATUS["sources"][name] = st
             STATUS["timings"][name] = round(secs)
+            log(f"  freelance {name}: {st.get('fetched', 'ERROR ' + str(st.get('error', ''))[:100])} projects in {round(secs)}s")
     projects, keys = [], set()
     for r in raw:
         if not r.get("url") or not r.get("title"):
@@ -2111,6 +2173,7 @@ def run_freelance():
     STATUS["freelance"] = {"projects": len(projects), "new": new, "funnel": FL_FUNNEL,
                            "bySource": {s: sum(1 for p in projects if p["source"] == s) for s in FREELANCE_BOARDS}}
     STATUS["timings"]["_freelance"] = round(time.time() - t0)
+    log(f"freelance search done: {len(projects)} projects kept, {new} new")
 
 
 # ---------------------------------------------------------------- main
@@ -2121,6 +2184,9 @@ def main():
     # 24 Nov 2026: the boards are independent websites, so read them all at the same time.
     # Before, they ran one after another and the run grew past GitHub's 45-minute limit.
     t_run = time.time()
+    threading.Thread(target=_heartbeat, daemon=True).start()
+    log("collector started")
+    HARD_STOP[0] = t_run + 39 * 60   # GitHub stops the job at 45 minutes; leave time to filter and save
     STATUS["timings"] = {}
 
     def run_board(item):
@@ -2140,20 +2206,28 @@ def main():
         except Exception as e:
             STATUS["freelance"] = {"error": str(e)[:160]}
     fl_thread = None
+    FL_STOP[0] = t_run + 25 * 60    # freelance sources stop reading 25 minutes after the start
     if "--no-freelance" not in sys.argv:   # freelance projects (27 Nov 2026) are read alongside the job boards
         fl_thread = threading.Thread(target=_fl, daemon=True)
         fl_thread.start()
+    PHASE[0] = "job boards"
+    log(f"job boards: {len(BOARDS)} sources started (max 20 min)")
     with cf.ThreadPoolExecutor(max_workers=len(BOARDS)) as pool:
-        for name, jobs, st, secs in pool.map(run_board, list(BOARDS.items())):
+        futs = {pool.submit(run_board, it): it[0] for it in BOARDS.items()}
+        for f in cf.as_completed(futs):
+            name, jobs, st, secs = f.result()
             raw += jobs
             STATUS["sources"][name] = st
             STATUS["timings"][name] = round(secs)
+            log(f"  board {name}: {st.get('fetched', 'ERROR ' + str(st.get('error', ''))[:100])} jobs in {round(secs)}s")
     DEADLINES["boards"] = float("inf")
     STATUS["timings"]["_all_boards"] = round(time.time() - t_run)
 
     if "--no-probe" not in sys.argv:
         t0 = time.time()
         DEADLINES["probe"] = t0 + 6 * 60          # discovery gets at most 6 minutes
+        PHASE[0] = "company discovery"
+        log("company discovery started (max 6 min)")
         companies += run_probe(companies, harvest_employers(raw))
         STATUS["timings"]["_probe"] = round(time.time() - t0)
     t_companies = time.time()
@@ -2172,6 +2246,8 @@ def main():
             c.pop("failCount", None)
 
     active = [c for c in companies if not c.get("disabled")]
+    PHASE[0] = "company career pages"
+    log(f"company career pages: {len(active)} companies (stop at 38 min)")
     with cf.ThreadPoolExecutor(16) as ex:
         futs = {ex.submit(fetch_company, c): c for c in active}
         for f in cf.as_completed(futs):
@@ -2190,14 +2266,21 @@ def main():
                     c["disabled"] = True
                     c["disabledReason"] = str(e)[:80]
     STATUS["timings"]["_companies"] = round(time.time() - t_companies)
+    log(f"company career pages done: {len(fails)} failed")
     STATUS["timings"]["_total"] = round(time.time() - t_run)
     STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails),
                                       "rateLimited": sum(1 for v in fails.values() if "429" in v)}
     STATUS["errors"]["companies"] = fails
 
     if fl_thread:
-        fl_thread.join()
+        PHASE[0] = "waiting for freelance search"
+        log("waiting for the freelance search to finish")
+        fl_thread.join(timeout=max(5, t_run + 30 * 60 - time.time()))
+        if fl_thread.is_alive():
+            STATUS["freelance"] = {"error": "freelance search still running after 30 minutes — skipped this run"}
 
+    PHASE[0] = "adzuna pages"
+    log("reading Adzuna job pages")
     try:
         enrich_adzuna(raw, CFG["adzuna"].get("page_limit", 80))
     except Exception as e:
@@ -2243,11 +2326,15 @@ def main():
         STATUS["carriedOver"] = {"error": str(e)[:120]}
 
     t_links = time.time()
+    PHASE[0] = "link check"
+    log(f"link check: {len(matches)} matches")
     try:
-        matches = check_links(matches)
+        matches = check_links(matches, budget_s=max(30, min(8 * 60, t_run + 42 * 60 - time.time())))
     except Exception as e:
         STATUS["links"] = {"error": str(e)[:160]}
     STATUS["timings"]["_links"] = round(time.time() - t_links)
+    log("link check done")
+    PHASE[0] = "saving"
     try:
         source_health(matches)
     except Exception as e:
@@ -2285,6 +2372,7 @@ def main():
         write_run_summary()
     except Exception as e:
         print("summary failed:", e)
+    log("finished — results saved")
     print(json.dumps({k: STATUS[k] for k in ("rawJobs", "matches", "new", "companies")}, indent=1))
     print(json.dumps(STATUS["sources"], indent=1))
 
