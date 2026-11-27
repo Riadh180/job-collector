@@ -1,16 +1,16 @@
 {
  "sources": {
   "adzuna": {
-   "fetched": 1111
+   "fetched": 766
   },
   "arbeitsagentur": {
-   "fetched": 357
+   "fetched": 358
   },
   "arbeitnow": {
-   "fetched": 3296
+   "fetched": 3301
   },
   "remotive": {
-   "fetched": 128
+   "fetched": 136
   },
   "jobicy": {
    "fetched": 9
@@ -22,25 +22,28 @@
    "fetched": 1000
   },
   "weworkremotely": {
-   "fetched": 249
+   "fetched": 251
   },
   "hn": {
    "fetched": 268
   },
   "workingnomads": {
-   "fetched": 36
+   "fetched": 37
   },
   "germantechjobs": {
-   "fetched": 1087
+   "fetched": 1101
   },
   "jooble": {
-   "fetched": 60
+   "fetched": 36
   },
   "careerjet": {
    "error": "no API key set (optional)"
   },
   "linkedin": {
-   "fetched": 359
+   "fetched": 333
+  },
+  "freelancermap": {
+   "fetched": 51
   },
   "xing": {
    "fetched": 94
@@ -51,48 +54,63 @@
   "instaffo": {
    "fetched": 40
   },
+  "linkedin_freelance": {
+   "fetched": 245
+  },
+  "freelance_de": {
+   "error": "no projects read: {'_miss_row': 0, 'http_200': 3, 'links': 0, 'unique_projects': 0, 'details_opened': 0}"
+  },
+  "hays": {
+   "error": "no projects read: {'timeouts': 1, '_miss_row': 1, 'list_0': 1, 'unique_projects': 0, 'details_opened': 0}"
+  },
+  "gulp": {
+   "error": "no projects read: {'_miss_row': 0, 'http_200': 2, 'links': 0, 'unique_projects': 0, 'details_opened': 0}"
+  },
+  "solcom": {
+   "error": "no projects read: {'_miss_row': 0, 'http_200': 2, 'links': 0, 'unique_projects': 0, 'details_opened': 0}"
+  },
   "companies": {
-   "checked": 2050,
+   "checked": 2060,
    "failed": 2,
-   "rateLimited": 1
+   "rateLimited": 0
   }
  },
  "errors": {
   "companies": {
-   "Usercentrics": "HTTP 429",
+   "Spotify": "HTTP 502",
    "Phiture": "HTTP 404"
   }
  },
  "timings": {
-  "adzuna": 94,
-  "arbeitsagentur": 60,
+  "adzuna": 96,
+  "arbeitsagentur": 58,
   "arbeitnow": 6,
   "remotive": 1,
-  "jobicy": 5,
+  "jobicy": 6,
   "remoteok": 1,
   "himalayas": 4,
   "weworkremotely": 1,
   "hn": 2,
-  "workingnomads": 1,
-  "germantechjobs": 1,
+  "workingnomads": 0,
+  "germantechjobs": 2,
   "jooble": 11,
   "careerjet": 0,
-  "linkedin": 104,
-  "xing": 253,
+  "linkedin": 123,
+  "freelancermap": 181,
+  "xing": 254,
   "stepstone": 177,
   "instaffo": 142,
-  "_all_boards": 253,
-  "_probe": 489,
-  "_companies": 276,
-  "_total": 1018,
-  "_links": 53
- },
- "adzuna_usage": {
-  "callsThisRun": 0,
-  "searchesThisRun": 0,
-  "searchesTotal": 51,
-  "callsToday": 125,
-  "callsLast7Days": 855
+  "_all_boards": 254,
+  "linkedin_freelance": 263,
+  "freelance_de": 8,
+  "hays": 46,
+  "gulp": 3,
+  "solcom": 6,
+  "_freelance": 263,
+  "_probe": 517,
+  "_companies": 262,
+  "_total": 1033,
+  "_links": 231
  },
  "arbeitsagentur_sample": {
   "keys": [
@@ -143,12 +161,16 @@
   }
  },
  "arbeitsagentur_tries": [
-  "pc/v6/jobs -> 200, 5 items, max=299, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
+  "pc/v6/jobs -> 200, 5 items, max=298, keys=['ergebnisliste', 'maxErgebnisse', 'page', 'size', 'facetten']"
  ],
+ "jooble_usage": {
+  "calls": 10,
+  "limited": false
+ },
  "arbeitsagentur_searches": {
   "searches": 69,
   "failed": 0,
-  "jobs": 357,
+  "jobs": 358,
   "details": {
    "tried": 131,
    "ok": 131
@@ -156,31 +178,68 @@
  },
  "adzuna_usage": {
   "callsThisRun": 32,
-  "searchesThisRun": 18,
+  "searchesThisRun": 25,
   "searchesTotal": 51,
-  "callsToday": 32,
-  "callsLast7Days": 698
+  "callsToday": 64,
+  "callsLast7Days": 730
+ },
+ "freelance": {
+  "projects": 160,
+  "new": 160,
+  "funnel": {
+   "passed": 166,
+   "not_freelance": 12,
+   "too_old": 21,
+   "location": 4,
+   "title": 88,
+   "duplicate": 6,
+   "company": 5
+  },
+  "bySource": {
+   "freelancermap": 14,
+   "linkedin_freelance": 146,
+   "freelance_de": 0,
+   "hays": 0,
+   "gulp": 0,
+   "solcom": 0
+  }
  },
  "probe": {
-  "tried": 120,
+  "tried": 87,
   "found": [
-   "Kahoot (workable:kahoot)"
+   "Stealth Startup (ashby:stealth-startup)",
+   "Rho (ashby:rho)",
+   "HavocAI (ashby:havocai)",
+   "Black Semiconductor (ashby:blacksemiconductor)",
+   "Seniovo GmbH (personio:seniovo)",
+   "Risk.Ident GmbH (personio:riskident)",
+   "Jellyfish (ashby:jellyfish)",
+   "Siena (ashby:siena)",
+   "LiveKit (ashby:livekit)",
+   "Secure Code Warrior (lever:securecodewarrior)"
   ]
  },
  "adzuna_pages": {
   "tried": 200,
-  "ok": 152
+  "ok": 169
  },
  "scrape": {
+  "gulp": {
+   "_miss_row": 0,
+   "http_200": 2,
+   "links": 0,
+   "unique_projects": 0,
+   "details_opened": 0
+  },
   "linkedin": {
    "_miss_row": 0,
-   "http_200": 44,
-   "cards": 430,
-   "http_429": 4,
-   "stopped_rate_limited": 3,
-   "unique_jobs": 359,
+   "http_200": 49,
+   "cards": 420,
+   "http_429": 5,
+   "stopped_rate_limited": 4,
+   "unique_jobs": 333,
+   "skipped_by_title_or_company": 132,
    "details_rate_limited": 1,
-   "skipped_by_title_or_company": 145,
    "details_opened": 120
   },
   "instaffo": {
@@ -191,6 +250,13 @@
    "skipped_by_title": 22,
    "details_opened": 40
   },
+  "freelance_de": {
+   "_miss_row": 0,
+   "http_200": 3,
+   "links": 0,
+   "unique_projects": 0,
+   "details_opened": 0
+  },
   "xing": {
    "_miss_row": 0,
    "http_200": 117,
@@ -198,6 +264,21 @@
    "unique_jobs": 170,
    "skipped_by_title": 76,
    "details_opened": 94
+  },
+  "solcom": {
+   "_miss_row": 0,
+   "http_200": 2,
+   "links": 0,
+   "unique_projects": 0,
+   "details_opened": 0
+  },
+  "freelancermap": {
+   "_miss_row": 0,
+   "http_200": 71,
+   "links": 107,
+   "unique_projects": 107,
+   "skipped_by_title": 56,
+   "details_opened": 51
   },
   "stepstone": {
    "timeouts": 4,
@@ -207,47 +288,68 @@
    "gave_up_site_not_answering": 1,
    "unique_jobs": 0,
    "details_opened": 0
+  },
+  "hays": {
+   "timeouts": 1,
+   "_miss_row": 1,
+   "list_0": 1,
+   "unique_projects": 0,
+   "details_opened": 0
+  },
+  "linkedin_freelance": {
+   "_miss_row": 0,
+   "http_200": 30,
+   "cards": 270,
+   "http_429": 3,
+   "stopped_rate_limited": 2,
+   "unique_jobs": 245,
+   "details_rate_limited": 1,
+   "skipped_by_title_or_company": 88,
+   "details_opened": 40
   }
  },
  "carriedOver": {
   "sources": [
-   "adzuna",
    "careerjet",
+   "freelance_de",
+   "gulp",
+   "hays",
+   "solcom",
    "stepstone"
   ],
-  "jobs": 36
+  "jobs": 17
  },
  "links": {
-  "feed_ok": 166,
-  "ok": 204,
-  "gone": 6,
-  "unchecked": 30,
+  "feed_ok": 165,
+  "ok": 183,
+  "gone": 2,
+  "unchecked": 50,
   "moved_to_employer": 0
  },
  "sourceHealth": {
   "adzuna": {
-   "fetched": 1111,
-   "matches": 66,
+   "fetched": 766,
+   "matches": 65,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "arbeitsagentur": {
-   "fetched": 357,
+   "fetched": 358,
    "matches": 23,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "arbeitnow": {
-   "fetched": 3296,
-   "matches": 26,
+   "fetched": 3301,
+   "matches": 24,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "remotive": {
-   "fetched": 128,
+   "fetched": 136,
    "matches": 0,
    "state": "ok",
    "error": "",
@@ -269,13 +371,13 @@
   },
   "himalayas": {
    "fetched": 1000,
-   "matches": 4,
+   "matches": 6,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "weworkremotely": {
-   "fetched": 249,
+   "fetched": 251,
    "matches": 26,
    "state": "ok",
    "error": "",
@@ -289,36 +391,43 @@
    "zeroRunsInARow": 0
   },
   "workingnomads": {
-   "fetched": 36,
+   "fetched": 37,
    "matches": 0,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "germantechjobs": {
-   "fetched": 1087,
-   "matches": 14,
+   "fetched": 1101,
+   "matches": 11,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "jooble": {
-   "fetched": 60,
-   "matches": 3,
+   "fetched": 36,
+   "matches": 2,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "linkedin": {
-   "fetched": 359,
-   "matches": 14,
+   "fetched": 333,
+   "matches": 17,
+   "state": "ok",
+   "error": "",
+   "zeroRunsInARow": 0
+  },
+  "freelancermap": {
+   "fetched": 51,
+   "matches": 0,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   },
   "xing": {
    "fetched": 94,
-   "matches": 31,
+   "matches": 32,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
@@ -328,7 +437,7 @@
    "matches": 17,
    "state": "down",
    "error": "no jobs read: {'timeouts': 4, '_miss_row': 4, 'search_failed_0': 8, '_dead': 1, 'gave_up_site_not_answering': 1, 'unique_jobs': 0, 'details_opened': 0}",
-   "zeroRunsInARow": 2
+   "zeroRunsInARow": 3
   },
   "instaffo": {
    "fetched": 40,
@@ -337,48 +446,83 @@
    "error": "",
    "zeroRunsInARow": 0
   },
+  "linkedin_freelance": {
+   "fetched": 245,
+   "matches": 0,
+   "state": "ok",
+   "error": "",
+   "zeroRunsInARow": 0
+  },
+  "freelance_de": {
+   "fetched": 0,
+   "matches": 0,
+   "state": "down",
+   "error": "no projects read: {'_miss_row': 0, 'http_200': 3, 'links': 0, 'unique_projects': 0, 'details_opened': 0}",
+   "zeroRunsInARow": 7
+  },
+  "hays": {
+   "fetched": 0,
+   "matches": 0,
+   "state": "down",
+   "error": "no projects read: {'timeouts': 1, '_miss_row': 1, 'list_0': 1, 'unique_projects': 0, 'details_opened': 0}",
+   "zeroRunsInARow": 7
+  },
+  "gulp": {
+   "fetched": 0,
+   "matches": 0,
+   "state": "down",
+   "error": "no projects read: {'_miss_row': 0, 'http_200': 2, 'links': 0, 'unique_projects': 0, 'details_opened': 0}",
+   "zeroRunsInARow": 7
+  },
+  "solcom": {
+   "fetched": 0,
+   "matches": 0,
+   "state": "down",
+   "error": "no projects read: {'_miss_row': 0, 'http_200': 2, 'links': 0, 'unique_projects': 0, 'details_opened': 0}",
+   "zeroRunsInARow": 7
+  },
   "companies": {
-   "fetched": 2050,
+   "fetched": 2060,
    "matches": 0,
    "state": "ok",
    "error": "",
    "zeroRunsInARow": 0
   }
  },
- "collectedAt": "2026-11-27T09:37:10+00:00",
- "rawJobs": 101824,
- "matches": 400,
- "new": 21,
- "companies": 2088,
- "activeCompanies": 2050,
+ "collectedAt": "2026-11-27T11:07:10+00:00",
+ "rawJobs": 101537,
+ "matches": 398,
+ "new": 13,
+ "companies": 2098,
+ "activeCompanies": 2060,
  "funnel": {
-  "title": 96836,
-  "passed": 573,
-  "salary": 32,
-  "duplicate": 185,
-  "company": 119,
-  "location": 4003,
-  "employment": 19,
-  "too_old": 235,
-  "link_gone": 6
+  "title": 96624,
+  "passed": 531,
+  "duplicate": 148,
+  "company": 95,
+  "salary": 29,
+  "too_old": 237,
+  "location": 3996,
+  "employment": 18,
+  "link_gone": 2
  },
  "matchesBySource": {
-  "adzuna": 66,
-  "himalayas": 4,
-  "germantechjobs": 14,
-  "jooble": 3,
-  "ashby": 80,
-  "linkedin": 14,
-  "xing": 31,
-  "arbeitnow": 26,
+  "adzuna": 65,
+  "himalayas": 6,
+  "linkedin": 17,
+  "germantechjobs": 11,
+  "jooble": 2,
+  "ashby": 81,
+  "xing": 32,
+  "arbeitnow": 24,
   "instaffo": 1,
-  "personio": 22,
-  "workable": 4,
+  "personio": 23,
+  "workable": 5,
   "arbeitsagentur": 23,
   "weworkremotely": 26,
   "recruitee": 24,
   "smartrecruiters": 5,
-  "greenhouse": 30,
+  "greenhouse": 26,
   "stepstone": 17,
   "hn": 9,
   "lever": 1

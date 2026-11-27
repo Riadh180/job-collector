@@ -645,7 +645,7 @@
   "ats": "workable",
   "slug": "usercentrics",
   "addedBy": "probe 2026-10-05",
-  "lastOk": "2026-11-26"
+  "lastOk": "2026-11-27"
  },
  {
   "name": "Zenjob",
@@ -1464,7 +1464,8 @@
   "ats": "lever",
   "slug": "spotify",
   "addedBy": "probe 2026-10-05",
-  "lastOk": "2026-11-27"
+  "lastOk": "2026-11-27",
+  "failCount": 1
  },
  {
   "name": "Mozilla",
@@ -4332,7 +4333,9 @@
   "slug": "phiture",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-25",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "NICE",
@@ -16859,6 +16862,88 @@
   "industry": "edtech",
   "ats": "workable",
   "slug": "kahoot",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Stealth Startup",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "stealth-startup",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Rho",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "rho",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "HavocAI",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "havocai",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Black Semiconductor",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "blacksemiconductor",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Seniovo GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "seniovo",
+  "tld": "de",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Risk.Ident GmbH",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "riskident",
+  "tld": "de",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Jellyfish",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "jellyfish",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Siena",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "siena",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "LiveKit",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "livekit",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Secure Code Warrior",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "securecodewarrior",
   "addedBy": "probe 2026-11-27",
   "lastOk": "2026-11-27"
  }
