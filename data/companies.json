@@ -2029,7 +2029,7 @@
   "slug": "agenturfuerhaushaltshilfe",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Air Apps",
@@ -2927,7 +2927,7 @@
   "slug": "databricks",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "koppla GmbH",
@@ -2960,7 +2960,7 @@
   "slug": "openai",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Hirschen Group GmbH",
@@ -3706,7 +3706,7 @@
   "slug": "anthropic",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "GiveDirectly",
@@ -3854,7 +3854,7 @@
   "slug": "transperfect",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Feld Energy",
@@ -5436,7 +5436,7 @@
   "slug": "huzzle",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Zenjob SE",
@@ -7366,7 +7366,7 @@
   "slug": "cloudflare",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Blueland",
@@ -8565,7 +8565,7 @@
   "slug": "okx",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Olo",
@@ -8750,7 +8750,7 @@
   "slug": "adikteev",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "GALVANY",
@@ -9498,7 +9498,7 @@
   "slug": "wppmedia",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Sitimecorporation",
@@ -9987,7 +9987,7 @@
   "slug": "openai",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Governikus GmbH & Co. KG",
@@ -10094,7 +10094,8 @@
   "ats": "recruitee",
   "slug": "spreadgroup",
   "addedBy": "probe 2026-10-21",
-  "lastOk": "2026-11-27"
+  "lastOk": "2026-11-27",
+  "failCount": 1
  },
  {
   "name": "Bigblue",
@@ -11900,7 +11901,7 @@
   "slug": "wppmedia",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Mawave Marketing GmbH",
@@ -11925,7 +11926,7 @@
   "slug": "airwallex",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "bunch",
@@ -14493,7 +14494,7 @@
   "slug": "rocketlab",
   "addedBy": "probe 2026-11-16",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "remberg",
@@ -14782,7 +14783,7 @@
   "slug": "doit",
   "addedBy": "probe 2026-11-17",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Actcareers",
@@ -14815,7 +14816,7 @@
   "slug": "shield",
   "addedBy": "probe 2026-11-17",
   "lastOk": "2026-11-27",
-  "failCount": 2
+  "failCount": 3
  },
  {
   "name": "Tebi",
@@ -16299,7 +16300,7 @@
   "slug": "tolken",
   "addedBy": "probe 2026-11-23",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Reddit, Inc.",
@@ -16388,7 +16389,7 @@
   "slug": "featherlessai",
   "addedBy": "probe 2026-11-24",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "RealDefense",
@@ -17050,6 +17051,111 @@
   "industry": "from job boards",
   "ats": "workable",
   "slug": "tuxcare",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "EIDA Solutions",
+  "industry": "from job boards",
+  "ats": "personio",
+  "slug": "eida-solutions",
+  "tld": "de",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Softeta",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "softeta",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "DevAltus",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "devaltus",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Skyven Technologies",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "skyven-technologies",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "FusionTek",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "fusiontek",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Bolder Apps",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "bolderapps",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Scale Virtually",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "scale-virtually",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Revive Media",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "revive-media",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "HappyCo",
+  "industry": "from job boards",
+  "ats": "lever",
+  "slug": "happyco",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Albireo Energy",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "albireo-energy",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Avant Arte",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "avantarte",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Nuvei",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "nuvei",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "ATEXIS",
+  "industry": "from job boards",
+  "ats": "smartrecruiters",
+  "slug": "atexis",
   "addedBy": "probe 2026-11-27",
   "lastOk": "2026-11-27"
  }
