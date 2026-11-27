@@ -4332,7 +4332,9 @@
   "slug": "phiture",
   "addedBy": "probe 2026-10-07",
   "lastOk": "2026-11-25",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 404"
  },
  {
   "name": "NICE",
@@ -16883,6 +16885,38 @@
   "industry": "from job boards",
   "ats": "ashby",
   "slug": "havocai",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Astrocade",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "astrocade",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Assured",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "assured",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Jellyfish",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "jellyfish",
+  "addedBy": "probe 2026-11-26",
+  "lastOk": "2026-11-26"
+ },
+ {
+  "name": "Sobinco",
+  "industry": "from job boards",
+  "ats": "recruitee",
+  "slug": "sobinco",
   "addedBy": "probe 2026-11-26",
   "lastOk": "2026-11-26"
  }
