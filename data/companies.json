@@ -2029,7 +2029,7 @@
   "slug": "agenturfuerhaushaltshilfe",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Air Apps",
@@ -2927,7 +2927,7 @@
   "slug": "databricks",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "koppla GmbH",
@@ -2960,7 +2960,7 @@
   "slug": "openai",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Hirschen Group GmbH",
@@ -3706,7 +3706,7 @@
   "slug": "anthropic",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "GiveDirectly",
@@ -3854,7 +3854,7 @@
   "slug": "transperfect",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Feld Energy",
@@ -5436,7 +5436,7 @@
   "slug": "huzzle",
   "addedBy": "probe 2026-10-08",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Zenjob SE",
@@ -7366,7 +7366,7 @@
   "slug": "cloudflare",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Blueland",
@@ -8565,7 +8565,7 @@
   "slug": "okx",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Olo",
@@ -8750,7 +8750,7 @@
   "slug": "adikteev",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "GALVANY",
@@ -9498,7 +9498,7 @@
   "slug": "wppmedia",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Sitimecorporation",
@@ -9987,7 +9987,7 @@
   "slug": "openai",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Governikus GmbH & Co. KG",
@@ -11900,7 +11900,7 @@
   "slug": "wppmedia",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Mawave Marketing GmbH",
@@ -11925,7 +11925,7 @@
   "slug": "airwallex",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "bunch",
@@ -12192,8 +12192,7 @@
   "ats": "lever",
   "slug": "velo3d",
   "addedBy": "probe 2026-10-31",
-  "lastOk": "2026-11-27",
-  "failCount": 1
+  "lastOk": "2026-11-27"
  },
  {
   "name": "Merlin Labs",
@@ -14494,7 +14493,7 @@
   "slug": "rocketlab",
   "addedBy": "probe 2026-11-16",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "remberg",
@@ -14783,7 +14782,7 @@
   "slug": "doit",
   "addedBy": "probe 2026-11-17",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Actcareers",
@@ -14816,7 +14815,7 @@
   "slug": "shield",
   "addedBy": "probe 2026-11-17",
   "lastOk": "2026-11-27",
-  "failCount": 1
+  "failCount": 2
  },
  {
   "name": "Tebi",
@@ -16299,7 +16298,8 @@
   "ats": "ashby",
   "slug": "tolken",
   "addedBy": "probe 2026-11-23",
-  "lastOk": "2026-11-27"
+  "lastOk": "2026-11-27",
+  "failCount": 1
  },
  {
   "name": "Reddit, Inc.",
@@ -16387,7 +16387,8 @@
   "ats": "ashby",
   "slug": "featherlessai",
   "addedBy": "probe 2026-11-24",
-  "lastOk": "2026-11-27"
+  "lastOk": "2026-11-27",
+  "failCount": 1
  },
  {
   "name": "RealDefense",
@@ -17033,6 +17034,22 @@
   "ats": "personio",
   "slug": "eqs-group",
   "tld": "de",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "Cloudbeds",
+  "industry": "from job boards",
+  "ats": "greenhouse",
+  "slug": "cloudbeds",
+  "addedBy": "probe 2026-11-27",
+  "lastOk": "2026-11-27"
+ },
+ {
+  "name": "TuxCare Inc.",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "tuxcare",
   "addedBy": "probe 2026-11-27",
   "lastOk": "2026-11-27"
  }
