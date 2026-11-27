@@ -809,5 +809,107 @@
     "pages": 4,
     "detail_limit": 80,
     "pause": 1.0
+  },
+  "freelance": {
+    "_note": "Freelance projects (added 27 Nov 2026). Kept apart from permanent jobs: written to out/freelance.json. Riadh: min. €75/h, remote or NRW, some travel OK, full-time and part-time.",
+    "enabled": true,
+    "minutes": 8,
+    "rate_floor_eur": 75,
+    "min_remote_pct_outside_nrw": 50,
+    "max_age_days": 30,
+    "freelancermap": {
+      "pause": 1.2,
+      "pages": 3,
+      "detail_limit": 70,
+      "categories": [
+        "reactjs",
+        "react-native",
+        "typescript",
+        "nextjs",
+        "javascript",
+        "nodejs",
+        "vuejs",
+        "web-entwicklung",
+        "remote"
+      ],
+      "search_urls": [
+        "https://www.freelancermap.de/projektboerse.html?query=react",
+        "https://www.freelancermap.de/projektboerse.html?query=typescript%20frontend"
+      ]
+    },
+    "linkedin": {
+      "detail_limit": 40,
+      "searches": [
+        {
+          "keywords": "React freelance",
+          "location": "Deutschland"
+        },
+        {
+          "keywords": "React",
+          "location": "Deutschland",
+          "remote": true
+        },
+        {
+          "keywords": "Frontend Developer",
+          "location": "Deutschland",
+          "remote": true
+        },
+        {
+          "keywords": "Fullstack TypeScript",
+          "location": "Deutschland",
+          "remote": true
+        },
+        {
+          "keywords": "React",
+          "location": "Nordrhein-Westfalen, Deutschland"
+        }
+      ]
+    },
+    "sites": {
+      "_note": "Public project lists, no login. Agencies like Etengo, Westhouse, Computer Futures, HyPlus, One Day Ahead and mund consulting post their projects on freelancermap and freelance.de, so they are covered there. Malt, tribeworks (Hays) and Uplink have no public project list (matching after login) — Riadh checks their messages himself.",
+      "freelance_de": {
+        "base": "https://www.freelance.de",
+        "pages": 1,
+        "detail_limit": 40,
+        "list_urls": [
+          "https://www.freelance.de/projekte/IT-Entwicklung-Projekte/Web-Projekte",
+          "https://www.freelance.de/projekte/IT-Entwicklung-Projekte/Programmierer-Projekte",
+          "https://www.freelance.de/projekte/IT-Entwicklung-Projekte/Softwareentwicklung-Softwareprogrammierung-Projekte"
+        ],
+        "link_regex": "(?:https://(?:www\\.)?freelance\\.de)?/Projekte/Projekt-\\d+-[A-Za-z0-9-]+"
+      },
+      "hays": {
+        "base": "https://www.hays.de",
+        "company": "Hays",
+        "pages": 6,
+        "detail_limit": 40,
+        "list_urls": [
+          "https://www.hays.de/jobsuche/stellenangebote-jobs/j/Contracting/3/p/{page}/?ij=false"
+        ],
+        "link_regex": "(?:https://www\\.hays\\.de)?/jobsuche/stellenangebote-jobs-detail-[a-z0-9-]+-\\d+/1"
+      },
+      "gulp": {
+        "base": "https://www.gulp.de",
+        "company": "GULP (Randstad)",
+        "pages": 1,
+        "detail_limit": 30,
+        "list_urls": [
+          "https://www.gulp.de/gulp2/g/projekte?query=react",
+          "https://www.gulp.de/gulp2/g/projekte?query=typescript"
+        ],
+        "link_regex": "(?:https://www\\.gulp\\.de)?/gulp2/g/projekte/[A-Za-z0-9-]+/?[A-Za-z0-9-]*"
+      },
+      "solcom": {
+        "base": "https://www.solcom.de",
+        "company": "SOLCOM",
+        "pages": 1,
+        "detail_limit": 30,
+        "list_urls": [
+          "https://www.solcom.de/de/projektportal/projektangebote",
+          "https://www.solcom.de/de/projektportal"
+        ],
+        "link_regex": "(?:https://www\\.solcom\\.de)?/de/projektportal/projektangebote/[a-z0-9-]+-\\d+"
+      }
+    }
   }
 }

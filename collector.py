@@ -1124,12 +1124,13 @@ def _ld_salary(d):
     return "", None
 
 
-def linkedin():
-    """LinkedIn public (logged-out) job search: all result pages, then the public job page for promising jobs."""
+def linkedin(searches=None, src="linkedin", extra_q=None, detail_limit=None):
+    """LinkedIn public (logged-out) job search: all result pages, then the public job page for promising jobs.
+    27 Nov 2026: also used for freelance/contract searches (src "linkedin_freelance", extra_q {"f_JT": "C"})."""
     cfg = CFG.get("linkedin", {})
     pause = cfg.get("pause", 1.5)
     cards = {}
-    for s in cfg.get("searches", []):
+    for s in (searches if searches is not None else cfg.get("searches", [])):
         for start in range(0, cfg.get("max_per_search", 150), 25):
             q = {"keywords": s["keywords"], "location": s["location"], "f_TPR": cfg.get("f_TPR", "r604800"),
                  "start": start}
@@ -1137,10 +1138,12 @@ def linkedin():
                 q["f_WT"] = "2"
             if s.get("distance"):
                 q["distance"] = s["distance"]
-            code, page = _get_html("linkedin", "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
+            if extra_q:
+                q.update(extra_q)
+            code, page = _get_html(src, "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
                                    + urllib.parse.urlencode(q), pause)
             if code == 429:
-                _log("linkedin", "stopped_rate_limited")
+                _log(src, "stopped_rate_limited")
                 break
             if code != 200 or not page.strip():
                 break
@@ -1159,21 +1162,24 @@ def linkedin():
                               "location": g(r'job-search-card__location[^>]*>(.*?)</span>'),
                               "date": (re.search(r'datetime="([\d-]{10})"', li) or [None, ""])[1],
                               "remote": bool(s.get("remote"))}
-            _log("linkedin", "cards", found)
+            _log(src, "cards", found)
             if found < 5:
                 break
-    _log("linkedin", "unique_jobs", len(cards))
+    _log(src, "unique_jobs", len(cards))
     out, details = [], 0
     for c in cards.values():
         t = c["title"].lower()
-        promising = not RE_TITLE_HARD.search(t) and not RE_COMPANY_EXC.search(c["company"].lower()) and \
-            (RE_TITLE_INC.search(t) or RE_TITLE_GEN.search(t))
+        if src != "linkedin":  # freelance search: agencies are the normal senders, own title rules
+            promising = fl_title_ok(t, "")
+        else:
+            promising = not RE_TITLE_HARD.search(t) and not RE_COMPANY_EXC.search(c["company"].lower()) and \
+                (RE_TITLE_INC.search(t) or RE_TITLE_GEN.search(t))
         desc, emp, apply_url = "", "", ""
-        if promising and details < cfg.get("detail_limit", 120):
-            code, page = _get_html("linkedin", f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{c['id']}", pause)
+        if promising and details < (detail_limit or cfg.get("detail_limit", 120)):
+            code, page = _get_html(src, f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{c['id']}", pause)
             details += 1
             if code == 429:
-                _log("linkedin", "details_rate_limited")
+                _log(src, "details_rate_limited")
                 details = 10 ** 6  # stop opening details this run
             elif code == 200:
                 desc = strip_html((re.search(r'show-more-less-html__markup[^>]*>(.*?)</div>', page, re.S) or [None, ""])[1])[:6000]
@@ -1184,16 +1190,16 @@ def linkedin():
                     inner = urllib.parse.parse_qs(urllib.parse.urlparse(u).query).get("url")
                     apply_url = inner[0] if inner else ""
         if not promising:
-            _log("linkedin", "skipped_by_title_or_company")
-        r = rec("linkedin", c["id"], c["company"], c["title"], f"https://www.linkedin.com/jobs/view/{c['id']}/",
+            _log(src, "skipped_by_title_or_company")
+        r = rec(src, c["id"], c["company"], c["title"], f"https://www.linkedin.com/jobs/view/{c['id']}/",
                 c["location"] + (" (Remote)" if c["remote"] else ""), parse_date(c["date"]), c["remote"] or None,
                 "", None, desc, emp, "", "linkedin")
         if apply_url:
             r["employerUrl"] = apply_url
         out.append(r)
-    _log("linkedin", "details_opened", min(details, cfg.get("detail_limit", 120)))
+    _log(src, "details_opened", min(details, (detail_limit or cfg.get("detail_limit", 120))))
     if not cards:
-        raise RuntimeError(f"no jobs read: {SCRAPE_LOG.get('linkedin')}")
+        raise RuntimeError(f"no jobs read: {SCRAPE_LOG.get(src)}")
     return out
 
 
@@ -1688,7 +1694,10 @@ def write_run_summary():
              "arbeitsagentur": "Arbeitsagentur", "jooble": "Jooble", "germantechjobs": "GermanTechJobs",
              "arbeitnow": "Arbeitnow", "himalayas": "Himalayas", "weworkremotely": "We Work Remotely",
              "hn": "Hacker News", "remotive": "Remotive", "jobicy": "Jobicy", "remoteok": "RemoteOK",
-             "workingnomads": "Working Nomads", "instaffo": "Instaffo", "companies": "Company career pages"}
+             "workingnomads": "Working Nomads", "instaffo": "Instaffo", "companies": "Company career pages",
+             "freelancermap": "freelancermap (freelance)", "linkedin_freelance": "LinkedIn contract (freelance)",
+             "freelance_de": "freelance.de (freelance)", "hays": "Hays projects (freelance)", "gulp": "GULP (freelance)",
+             "solcom": "SOLCOM (freelance)"}
     lines = ["## Job collector run — " + NOW.strftime("%d %b %Y %H:%M UTC"), "",
              f"**{STATUS.get('matches', 0)} jobs passed the filters, {STATUS.get('new', 0)} of them are new since the last run.** "
              f"Total time: {round(STATUS.get('timings', {}).get('_total', 0) / 60, 1)} min.", "",
@@ -1700,6 +1709,8 @@ def write_run_summary():
         err = (v.get("error") if isinstance(v, dict) else "") or ""
         read = v.get("fetched", v.get("checked", 0)) if isinstance(v, dict) else 0
         kept = h.get("matches", STATUS.get("matchesBySource", {}).get(k, 0))
+        if k in FREELANCE_BOARDS:
+            kept = (STATUS.get("freelance") or {}).get("bySource", {}).get(k, 0)
         if k == "companies":
             kept = sum(n for src, n in STATUS.get("matchesBySource", {}).items() if src in FEED_SOURCES)
         note = err[:90]
@@ -1719,6 +1730,12 @@ def write_run_summary():
         lines += ["", f"**Links checked:** {lk.get('ok', 0)} opened live · {lk.get('gone', 0)} dead and removed · "
                       f"{lk.get('unchecked', 0)} site did not answer · {lk.get('feed_ok', 0)} straight from employer feeds · "
                       f"{lk.get('moved_to_employer', 0)} board links replaced by the employer's page"]
+    fl = STATUS.get("freelance", {})
+    if fl and "error" not in fl:
+        lines += ["", f"**Freelance projects:** {fl.get('projects', 0)} passed the filters, {fl.get('new', 0)} new "
+                      f"({', '.join(f'{k} {v}' for k, v in fl.get('bySource', {}).items())}) → out/freelance.json"]
+    elif fl.get("error"):
+        lines += ["", "**Freelance projects:** failed — " + fl["error"][:120]]
     co = STATUS.get("carriedOver", {})
     if co.get("jobs"):
         lines.append(f"**Kept from earlier runs** (source failed this time): {co['jobs']} jobs")
@@ -1751,6 +1768,351 @@ def norm_key(r):
     return re.sub(r"\W+", " ", f"{c}|{t}").strip()
 
 
+# ---------------------------------------------------------------- freelance projects (added 27 Nov 2026)
+# Riadh also takes freelance projects now (min. €75/h, remote or NRW, some travel OK, full-time and
+# part-time both shown). Projects are kept completely apart from the permanent jobs: they go to
+# out/freelance.json and the hunt saves them to the Job Radar's "freelance" collection.
+FLCFG = CFG.get("freelance", {})
+RE_FL_CORE = re.compile(r"react|frontend|front-end|front end|typescript|next\.?js|vue|nuxt|full[- ]?stack|javascript|"
+                        r"node\.?js|web[- ]?(entwickl|develop|engineer)|expo|mobile app|app[- ]entwickl", re.I)
+RE_FL_HARD = re.compile(r"\b(junior|praktik|werkstudent|working student|student|trainee|azubi|ausbildung|sap|abap|salesforce|"
+                        r"servicenow|tester|test ?manager|testautomat|qa\b|scrum master|product owner|projektleit|project manager|"
+                        r"wordpress|typo3|drupal|shopify|magento|php|\.net|c#|golang|embedded|devops|sre|admin|java(?!script)|kotlin|ios|android|flutter)", re.I)
+RE_FL_GENERIC = re.compile(r"software|entwickler|developer|engineer|programmier", re.I)
+RE_FL_STACK = re.compile(r"(?<![a-z])(react|typescript|next\.?js|react native|expo|vue|node\.?js)(?![a-z])", re.I)
+
+
+def fl_title_ok(title, desc):
+    t = (title or "").lower()
+    if RE_FL_HARD.search(t) and not re.search(r"react|frontend|front-end|typescript|full[- ]?stack", t):
+        return False
+    if re.search(r"\bangular\b", t) and not re.search(r"react|vue|migration", t):
+        return False
+    if RE_FL_CORE.search(t):
+        return True
+    return bool(RE_FL_GENERIC.search(t) and desc and RE_FL_STACK.search(desc))
+
+
+def _fl_pct(text):
+    m = re.search(r"(\d{1,3})\s*%\s*(?:remote|home ?office)", text, re.I) or \
+        re.search(r"(?:remote|home ?office)[^\d]{0,15}(\d{1,3})\s*%", text, re.I)
+    if m:
+        v = int(m.group(1))
+        return v if 0 <= v <= 100 else None
+    if re.search(r"(?:100\s*%|voll(?:ständig)?|full(?:y)?|komplett|rein)\s*remote|remote[- ]only|nur remote", text, re.I):
+        return 100
+    if re.search(r"\bvor[- ]ort\b|\bon[- ]?site\b|präsenz", text, re.I) and not re.search(r"remote", text, re.I):
+        return 0
+    return None
+
+
+FL_LABELS = r"start(?:termin)?|projektstart|beginn|dauer|laufzeit|projektdauer|duration|auslastung|workload|kapazität|umfang|" \
+            r"ort|einsatzort|location|remote|bewerbungsfrist|deadline|stundensatz|branche|sprache|projektsprache|vertragsart|eingetragen"
+
+
+def _fl_field(text, labels, n=60):
+    m = re.search(r"\b(?:%s)\s*:?\s*([^\n|]{2,%d})" % (labels, n), text, re.I)
+    if not m:
+        return ""
+    v = re.split(r"\s(?:%s)\s*:" % FL_LABELS, m.group(1), flags=re.I)[0]
+    return v.strip(" :-–,;")
+
+
+def fl_facts(title, text):
+    """Everything the hunt needs to judge a project, read from the project text."""
+    t = text or ""
+    rate = re.search(r"(\d{2,3})(?:[,.]\d{2})?\s*(?:€|eur|euro)\s*(?:/|pro|per|je)\s*(?:h|std|stunde|hour)", t, re.I) or \
+        re.search(r"(?:stundensatz|rate|vergütung)[^\d\n]{0,25}(\d{2,3})(?:\s*[-–]\s*(\d{2,3}))?\s*(?:€|eur)", t, re.I)
+    rate_max = None
+    if rate:
+        nums = [int(x) for x in rate.groups() if x and x.isdigit()]
+        rate_max = max(nums) if nums else None
+    work = _fl_field(t, r"auslastung|workload|kapazität|umfang", 40)
+    full = bool(re.search(r"(100|9\d|8\d)\s*%", work) or re.search(r"vollzeit|full[- ]?time|5 tage|40\s*(h|std|stunden)", t, re.I))
+    ger = bool(re.search(r"(sehr gute|fließende?|verhandlungssichere?|exzellente|ausgezeichnete)\s+deutsch|deutsch\s*(c1|c2|fließend|verhandlungssicher|muttersprach)|"
+                         r"projektsprache\s*:?\s*deutsch|sprache\s*:?\s*deutsch|german\s*\(?(c1|c2|fluent|native)|fluent german", t, re.I))
+    contract = "Festanstellung" if re.search(r"festanstellung|unbefristet|permanent", t, re.I) and not re.search(r"freiberuf|freelance", t, re.I) \
+        else "ANÜ" if re.search(r"arbeitnehmerüberlassung|\banü\b", t, re.I) else "Freiberuflich"
+    start = _fl_field(t, r"start(?:termin)?|projektstart|beginn", 30)
+    dur = _fl_field(t, r"dauer|laufzeit|projektdauer|duration", 40)
+    deadline = _fl_field(t, r"bewerbungsfrist|deadline", 20)
+    stack = sorted(set(m.group(0).lower() for m in re.finditer(
+        r"(?<![a-z])(react native|react|typescript|javascript|next\.?js|node\.?js|vue|angular|expo|aws|azure|gcp|python|java|kotlin|c#|\.net|"
+        r"docker|kubernetes|graphql|postgres(?:ql)?|dynamodb|redis|lambda|cdk|terraform|cypress|jest|playwright|spark|databricks)(?![a-z])", t, re.I)))
+    return {"remotePct": _fl_pct(title + " " + t[:4000]), "start": start, "duration": dur, "workload": work,
+            "fullTime": full, "rate": rate.group(0) if rate else "", "rateMax": rate_max, "contractType": contract,
+            "germanRequired": ger, "referencesRequired": bool(re.search(r"referenz", t, re.I)), "deadline": deadline,
+            "stack": stack[:14]}
+
+
+def freelancermap():
+    """freelancermap.de public project pages (no login): skill category pages, then each project page."""
+    cfg = FLCFG.get("freelancermap", {})
+    pause = cfg.get("pause", 1.2)
+    found = {}
+    urls = [f"https://www.freelancermap.de/projekte/{c}" for c in cfg.get("categories", [])] + cfg.get("search_urls", [])
+    for base in urls:
+        for page_no in range(1, cfg.get("pages", 3) + 1):
+            url = base if page_no == 1 else base + ("&" if "?" in base else "?") + f"pagenr={page_no}"
+            code, page = _get_html("freelancermap", url, pause)
+            if code != 200 or not page:
+                _log("freelancermap", f"list_{code}")
+                break
+            before = len(found)
+            links = list(re.finditer(r'href="((?:https://www\.freelancermap\.de)?/(?:projekt/[a-z0-9-]+|projektboerse/projekte/[^"]+?\.html))"', page))
+            for i, m in enumerate(links):
+                u = m.group(1)
+                u = u if u.startswith("http") else "https://www.freelancermap.de" + u
+                u = u.split("?")[0]
+                if u in found:
+                    continue
+                chunk = strip_html(page[m.end(): links[i + 1].start() if i + 1 < len(links) else m.end() + 2500][:2500])
+                found[u] = {"snippet": chunk[:600],
+                            "date": (re.search(r"\b(\d{2}\.\d{2}\.\d{4})\b", chunk) or [None, ""])[1]}
+            got = len(found) - before
+            _log("freelancermap", "links", got)
+            if got == 0:
+                break
+    _log("freelancermap", "unique_projects", len(found))
+    out, opened = [], 0
+    for u, v in found.items():
+        guess = u.rsplit("/", 1)[-1].replace(".html", "").replace("-", " ")
+        if not fl_title_ok(guess, v["snippet"]):
+            _log("freelancermap", "skipped_by_title")
+            continue
+        if opened >= cfg.get("detail_limit", 70):
+            break
+        code, page = _get_html("freelancermap", u, pause)
+        opened += 1
+        if code != 200 or not page:
+            _log("freelancermap", f"detail_{code}")
+            continue
+        body = re.sub(r"(?is)<(script|style|noscript|form)[^>]*>.*?</\1>", " ", page)
+        text = strip_html(body)
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
+        title = strip_html(h1.group(1)).strip() if h1 else guess
+        agency = re.search(r'href="[^"]*/projektanbieter/([^"]+?)-\d+\.html"', page)
+        agency = urllib.parse.unquote_plus(agency.group(1)) if agency else ""
+        lds = _jsonld_jobs(page)
+        posted = parse_date(lds[0].get("datePosted")) if lds else None
+        if not posted and v["date"]:
+            try:
+                posted = dt.datetime.strptime(v["date"], "%d.%m.%Y").replace(tzinfo=dt.timezone.utc)
+            except Exception:
+                posted = None
+        if not agency and lds:
+            org = lds[0].get("hiringOrganization") or {}
+            agency = org.get("name", "") if isinstance(org, dict) else str(org)
+        loc = _ld_location(lds[0]) if lds else ""
+        if not loc:
+            loc = (re.search(r"([A-ZÄÖÜ][a-zäöüß.\- ]{2,30}),?\s*(?:Deutschland|Germany)", text) or [None, ""])[1]
+        gone = bool(GONE_TEXT.search(text[:20000]) or re.search(r"projekt (ist )?(bereits )?(beendet|abgelaufen|besetzt|nicht mehr verfügbar)", text[:20000], re.I))
+        desc = text[:6000]
+        r = rec("freelancermap", re.sub(r"\W+", "-", u.rsplit("/", 1)[-1])[:90], agency, title, u, loc, posted, None, "", None, desc,
+                "", "", "freelancermap")
+        r["_gone"] = gone
+        r["_snippet"] = v["snippet"]
+        out.append(r)
+    _log("freelancermap", "details_opened", opened)
+    if not found:
+        raise RuntimeError(f"no projects read: {SCRAPE_LOG.get('freelancermap')}")
+    return out
+
+
+def linkedin_freelance():
+    cfg = FLCFG.get("linkedin", {})
+    time.sleep(cfg.get("start_delay_s", 180))  # let the main LinkedIn search finish first (fewer 429s)
+    return linkedin(cfg.get("searches", []), "linkedin_freelance", {"f_JT": "C"}, cfg.get("detail_limit", 40))
+
+
+def make_site(name):
+    """Generic public project board / agency project list (27 Nov 2026): list pages from config, project links
+    by regex, then each project page (schema.org JobPosting when present, else the page heading and text).
+    No login anywhere. A site that renders its list only with JavaScript simply yields 0 and shows up as
+    'down' in the run summary."""
+    def run():
+        cfg = FLCFG.get("sites", {}).get(name, {})
+        pause = cfg.get("pause", 1.2)
+        rx = re.compile(cfg["link_regex"])
+        base = cfg.get("base", "")
+        found = {}
+        for tpl in cfg.get("list_urls", []):
+            pages = range(1, cfg.get("pages", 3) + 1) if "{page}" in tpl else [1]
+            for n in pages:
+                code, page = _get_html(name, tpl.replace("{page}", str(n)), pause)
+                if code != 200 or not page:
+                    _log(name, f"list_{code}")
+                    break
+                before = len(found)
+                for m in rx.finditer(page):
+                    u = m.group(0)
+                    u = html.unescape(u if u.startswith("http") else base + u).split("#")[0]
+                    if cfg.get("strip_query", True):
+                        u = u.split("?")[0]
+                    found.setdefault(u, True)
+                got = len(found) - before
+                _log(name, "links", got)
+                if got == 0:
+                    break
+        _log(name, "unique_projects", len(found))
+        out, opened = [], 0
+        for u in found:
+            guess = re.sub(r"[-_/]+", " ", u.rsplit("/", 2)[-2] + " " + u.rsplit("/", 1)[-1])
+            if cfg.get("prefilter_slug", True) and not fl_title_ok(guess, ""):
+                _log(name, "skipped_by_title")
+                continue
+            if opened >= cfg.get("detail_limit", 40):
+                break
+            code, page = _get_html(name, u, pause)
+            opened += 1
+            if code != 200 or not page:
+                _log(name, f"detail_{code}")
+                continue
+            text = strip_html(re.sub(r"(?is)<(script|style|noscript|form|nav|footer|header)[^>]*>.*?</\1>", " ", page))
+            lds = _jsonld_jobs(page)
+            d = lds[0] if lds else {}
+            h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
+            title = html.unescape(d.get("title", "")) or (strip_html(h1.group(1)).strip() if h1 else "")
+            if not title:
+                _log(name, "no_title")
+                continue
+            org = d.get("hiringOrganization") or {}
+            company = (org.get("name", "") if isinstance(org, dict) else str(org)) or cfg.get("company", "")
+            loc = _ld_location(d) if d else ""
+            if not loc:
+                loc = _fl_field(text, r"einsatzort|ort|location|standort", 50)
+            desc = (strip_html(d.get("description", "")) if d.get("description") else text)[:6000]
+            gone = bool(GONE_TEXT.search(text[:20000]) or re.search(r"archiviertes projekt|projekt (ist )?(bereits )?(beendet|abgelaufen|besetzt)", text[:3000], re.I))
+            r = rec(name, re.sub(r"\W+", "-", u.rsplit("/", 1)[-1] or u)[:90], company, title, u, loc,
+                    parse_date(d.get("datePosted")) if d else None, None, "", None, desc,
+                    d.get("employmentType") if isinstance(d.get("employmentType"), str) else "", "", name)
+            r["_gone"] = gone
+            r["_snippet"] = ""
+            out.append(r)
+        _log(name, "details_opened", opened)
+        if not found:
+            raise RuntimeError(f"no projects read: {SCRAPE_LOG.get(name)}")
+        return out
+    return run
+
+
+FREELANCE_BOARDS = {"freelancermap": freelancermap, "linkedin_freelance": linkedin_freelance}
+for _n in FLCFG.get("sites", {}):
+    if not _n.startswith("_") and FLCFG["sites"][_n].get("enabled", True):
+        FREELANCE_BOARDS[_n] = make_site(_n)
+
+
+def fl_accept(r):
+    """Freelance pre-filter (generous; the hunt makes the final call). Returns the project record or None."""
+    desc = r.get("_desc", "")
+    if r.pop("_gone", False):
+        FL_FUNNEL["gone"] = FL_FUNNEL.get("gone", 0) + 1
+        return None
+    if not fl_title_ok(r["title"], desc):
+        FL_FUNNEL["title"] = FL_FUNNEL.get("title", 0) + 1
+        return None
+    if re.search(r"\badesso\b", (r["company"] + " " + desc[:3000]).lower()):
+        FL_FUNNEL["company"] = FL_FUNNEL.get("company", 0) + 1
+        return None
+    f = fl_facts(r["title"], desc + " " + r.pop("_snippet", ""))
+    if r["source"].startswith("linkedin"):
+        emp = (r.get("employment") or "").lower()
+        if emp and not re.search(r"contract|freelance|temporary|befristet|vertrag", emp):
+            FL_FUNNEL["not_freelance"] = FL_FUNNEL.get("not_freelance", 0) + 1
+            return None
+        if f["remotePct"] is None and r.get("remote"):
+            f["remotePct"] = 100
+    if f["contractType"] in ("Festanstellung", "ANÜ"):
+        FL_FUNNEL["not_freelance"] = FL_FUNNEL.get("not_freelance", 0) + 1
+        return None
+    if f["rateMax"] and f["rateMax"] < FLCFG.get("rate_floor_eur", 75):
+        FL_FUNNEL["rate"] = FL_FUNNEL.get("rate", 0) + 1
+        return None
+    loc = (r["location"] or "") + " " + desc[:1500]
+    nrw = bool(RE_NRW.search(r["location"] or "") or RE_NRW.search(r["title"]))
+    pct = f["remotePct"]
+    if not nrw and pct is not None and pct < FLCFG.get("min_remote_pct_outside_nrw", 50):
+        FL_FUNNEL["location"] = FL_FUNNEL.get("location", 0) + 1
+        return None
+    if RE_BAD_REGION.search((r["location"] or "").lower()) and not (RE_DE.search(loc.lower()) or RE_OK_REGION.search(loc.lower())):
+        FL_FUNNEL["location"] = FL_FUNNEL.get("location", 0) + 1
+        return None
+    posted = parse_date(r["postedAt"])
+    if posted and (NOW - posted).days > FLCFG.get("max_age_days", 30):
+        FL_FUNNEL["too_old"] = FL_FUNNEL.get("too_old", 0) + 1
+        return None
+    r.update(f)
+    r["nrw"] = nrw
+    r["travel"] = "none" if (pct == 100) else ("NRW" if nrw else "travel to " + (r["location"] or "client site") + (f" ({100 - pct}% on-site)" if pct is not None else " (on-site share not stated)"))
+    r["remoteProof"] = remote_proof(desc, r["location"])
+    r["facts"] = key_facts(desc)
+    r["description"] = desc[:4000]
+    r["fingerprint"] = " ".join([f["start"][:12].lower()] + [x for x in f["stack"] if x not in ("javascript",)][:8])
+    r["linkStatus"] = "ok" if desc else "unchecked"
+    r["linkNote"] = ("project page opened " + TODAY) if desc else "project page not opened (rate limit)"
+    r.pop("_desc", None)
+    FL_FUNNEL["passed"] = FL_FUNNEL.get("passed", 0) + 1
+    return r
+
+
+FL_FUNNEL = {}
+
+
+def run_freelance():
+    """Collect freelance projects into out/freelance.json (separate from the permanent jobs)."""
+    if not FLCFG.get("enabled", True):
+        return
+    t0 = time.time()
+    raw = []
+
+    def one(item):
+        name, fn = item
+        t1 = time.time()
+        try:
+            got = fn()
+            return name, got, {"fetched": len(got)}, time.time() - t1
+        except Exception as e:
+            return name, [], {"error": str(e)[:160]}, time.time() - t1
+
+    # runs at the same time as the job boards and stops with them (20-minute board budget)
+    with cf.ThreadPoolExecutor(max_workers=len(FREELANCE_BOARDS)) as pool:
+        for name, got, st, secs in pool.map(one, list(FREELANCE_BOARDS.items())):
+            raw += got
+            STATUS["sources"][name] = st
+            STATUS["timings"][name] = round(secs)
+    projects, keys = [], set()
+    for r in raw:
+        if not r.get("url") or not r.get("title"):
+            continue
+        a = fl_accept(r)
+        if not a:
+            continue
+        k = norm_key(a)
+        if k in keys:
+            FL_FUNNEL["duplicate"] = FL_FUNNEL.get("duplicate", 0) + 1
+            continue
+        keys.add(k)
+        projects.append(a)
+    seen = load("data/freelance_seen.json", {})
+    new = 0
+    for pr in projects:
+        first = seen.get(pr["id"]) or seen.get("k:" + norm_key(pr))
+        if not first:
+            first = NOW.isoformat(timespec="seconds")
+            seen[pr["id"]] = first
+            seen["k:" + norm_key(pr)] = first
+            new += 1
+        pr["firstSeen"] = first
+    cutoff = (NOW - dt.timedelta(days=120)).isoformat()
+    save("data/freelance_seen.json", {k: v for k, v in seen.items() if v >= cutoff})
+    projects.sort(key=lambda m: m["firstSeen"], reverse=True)
+    save("out/freelance.json", {"collectedAt": NOW.isoformat(timespec="seconds"), "count": len(projects), "new": new,
+                                "funnel": FL_FUNNEL, "projects": projects})
+    STATUS["freelance"] = {"projects": len(projects), "new": new, "funnel": FL_FUNNEL,
+                           "bySource": {s: sum(1 for p in projects if p["source"] == s) for s in FREELANCE_BOARDS}}
+    STATUS["timings"]["_freelance"] = round(time.time() - t0)
+
+
 # ---------------------------------------------------------------- main
 def main():
     companies = load("data/companies.json", [])
@@ -1771,6 +2133,16 @@ def main():
             return name, [], {"error": str(e)[:160]}, time.time() - t0
 
     DEADLINES["boards"] = t_run + 20 * 60         # job boards get at most 20 minutes together
+
+    def _fl():
+        try:
+            run_freelance()
+        except Exception as e:
+            STATUS["freelance"] = {"error": str(e)[:160]}
+    fl_thread = None
+    if "--no-freelance" not in sys.argv:   # freelance projects (27 Nov 2026) are read alongside the job boards
+        fl_thread = threading.Thread(target=_fl, daemon=True)
+        fl_thread.start()
     with cf.ThreadPoolExecutor(max_workers=len(BOARDS)) as pool:
         for name, jobs, st, secs in pool.map(run_board, list(BOARDS.items())):
             raw += jobs
@@ -1822,6 +2194,9 @@ def main():
     STATUS["sources"]["companies"] = {"checked": len(active), "failed": len(fails),
                                       "rateLimited": sum(1 for v in fails.values() if "429" in v)}
     STATUS["errors"]["companies"] = fails
+
+    if fl_thread:
+        fl_thread.join()
 
     try:
         enrich_adzuna(raw, CFG["adzuna"].get("page_limit", 80))
