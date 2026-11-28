@@ -2029,7 +2029,9 @@
   "slug": "agenturfuerhaushaltshilfe",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Air Apps",
@@ -2927,7 +2929,9 @@
   "slug": "databricks",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "koppla GmbH",
@@ -2960,7 +2964,9 @@
   "slug": "openai",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Hirschen Group GmbH",
@@ -3706,7 +3712,9 @@
   "slug": "anthropic",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "GiveDirectly",
@@ -3854,7 +3862,9 @@
   "slug": "transperfect",
   "addedBy": "probe 2026-10-06",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Feld Energy",
@@ -7366,7 +7376,9 @@
   "slug": "cloudflare",
   "addedBy": "probe 2026-10-11",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Blueland",
@@ -8565,7 +8577,9 @@
   "slug": "okx",
   "addedBy": "probe 2026-10-14",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Olo",
@@ -8750,7 +8764,9 @@
   "slug": "adikteev",
   "addedBy": "probe 2026-10-15",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "GALVANY",
@@ -9498,7 +9514,9 @@
   "slug": "wppmedia",
   "addedBy": "probe 2026-10-19",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Sitimecorporation",
@@ -9987,7 +10005,9 @@
   "slug": "openai",
   "addedBy": "probe 2026-10-21",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Governikus GmbH & Co. KG",
@@ -11900,7 +11920,9 @@
   "slug": "wppmedia",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Mawave Marketing GmbH",
@@ -11925,7 +11947,9 @@
   "slug": "airwallex",
   "addedBy": "probe 2026-10-30",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "bunch",
@@ -14493,7 +14517,9 @@
   "slug": "rocketlab",
   "addedBy": "probe 2026-11-16",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "remberg",
@@ -14782,7 +14808,9 @@
   "slug": "doit",
   "addedBy": "probe 2026-11-17",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Actcareers",
@@ -14815,7 +14843,9 @@
   "slug": "shield",
   "addedBy": "probe 2026-11-17",
   "lastOk": "2026-11-27",
-  "failCount": 4
+  "failCount": 5,
+  "disabled": true,
+  "disabledReason": "HTTP 200"
  },
  {
   "name": "Tebi",
@@ -16299,7 +16329,7 @@
   "slug": "tolken",
   "addedBy": "probe 2026-11-23",
   "lastOk": "2026-11-27",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "Reddit, Inc.",
@@ -16388,7 +16418,7 @@
   "slug": "featherlessai",
   "addedBy": "probe 2026-11-24",
   "lastOk": "2026-11-27",
-  "failCount": 3
+  "failCount": 4
  },
  {
   "name": "RealDefense",
@@ -17180,6 +17210,29 @@
   "industry": "from job boards",
   "ats": "smartrecruiters",
   "slug": "westerndigital",
+  "addedBy": "probe 2026-11-28",
+  "lastOk": "2026-11-28"
+ },
+ {
+  "name": "Masabi",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "masabi",
+  "addedBy": "probe 2026-11-28",
+  "lastOk": "2026-11-28"
+ },
+ {
+  "name": "VirtueStaff",
+  "industry": "from job boards",
+  "ats": "workable",
+  "slug": "virtuestaff",
+  "addedBy": "probe 2026-11-28"
+ },
+ {
+  "name": "BuildOps",
+  "industry": "from job boards",
+  "ats": "ashby",
+  "slug": "buildops",
   "addedBy": "probe 2026-11-28",
   "lastOk": "2026-11-28"
  }
